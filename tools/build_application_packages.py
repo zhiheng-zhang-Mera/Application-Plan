@@ -248,12 +248,15 @@ def preamble(title: str, school: str, supervisor: str) -> str:
 \setlist{{nosep,leftmargin=*}}
 \setlength{{\parindent}}{{0pt}}
 \setlength{{\parskip}}{{0.55em}}
+\widowpenalty=10000
+\clubpenalty=10000
+\displaywidowpenalty=10000
 \titleformat{{\section}}{{\large\bfseries\color{{accent}}}}{{}}{{0pt}}{{}}
 \titleformat{{\subsection}}{{\normalsize\bfseries}}{{}}{{0pt}}{{}}
 \newcommand{{\ApplicantName}}{{Zhiheng Zhang}}
 \newcommand{{\ApplicantEmail}}{{[CONFIRM EMAIL]}}
 \newcommand{{\ApplicantPhone}}{{[CONFIRM PHONE]}}
-\newcommand{{\ApplicantGitHub}}{{\url{{https://github.com/zhiheng-zhang-Mera/Quant-Ultra/tree/1988d9a8530da91a8158de864d098ea869098923}}}}
+\newcommand{{\ApplicantGitHub}}{{\href{{https://github.com/zhiheng-zhang-Mera/Quant-Ultra/tree/1988d9a8530da91a8158de864d098ea869098923}}{{Quant-Ultra @ 1988d9a}}}}
 \pagestyle{{plain}}
 \begin{{document}}
 \begin{{center}}
@@ -299,11 +302,13 @@ Bachelor of Science program and computing coursework. \textit{{The supplied 2024
 \item Research direction for this application: {tex_escape(hook)}.
 \end{{itemize}}
 
+\begin{{samepage}}
 \textbf{{Privacy Lens --- Trustworthy Software and Compliance Evidence}}
 \begin{{itemize}}
 \item Explores auditability, provenance, replay boundaries, and fail-closed handling in privacy-sensitive software.
 \item Provides a second domain for studying how technical systems should state evidence limits and avoid unsupported real-world claims.
 \end{{itemize}}
+\end{{samepage}}
 
 \section*{{Technical Preparation}}
 Python; data structures and algorithms; databases; numerical methods; probability and statistics; machine learning; software engineering; data analytics; experiment design; research communication. \textit{{Replace this list with verified tools, languages, and proficiency levels before submission.}}
@@ -488,7 +493,7 @@ def quant_summary(school: dict, supervisor: str, hook: str) -> str:
 
 \textbf{{Evidence boundary.}} A completed run, passing software tests, or a favorable historical metric does not establish investment validity or future performance. The project is designed to make that boundary operational and visible.
 
-\textbf{{Artifact link.}} \ApplicantGitHub\quad \textit{{Replace with an immutable release or commit permalink before sending.}}
+\textbf{{Artifact link.}} \ApplicantGitHub
 """ + closing()
 
 
@@ -721,6 +726,19 @@ python tools/validate_application_packages.py
 ```
 
 Compile TeX only after replacing placeholders. A compile check can still be run on drafts because placeholders are TeX-safe, but visual and factual approval is required before external use.
+
+## D-drive QA environment
+
+The verified local TeX environment is installed at `D:\\PhD-Tools\\TinyTeX` (TeX Live 2026). Because TeX cannot reliably create logs beneath the repository's non-ASCII path, the compile script copies each source to an ASCII-only staging folder under `D:\\PhD-Tools\\qa-input` and writes QA PDFs/logs under `D:\\PhD-Tools\\qa-output`.
+
+```powershell
+python tools/build_application_packages.py
+python tools/validate_application_packages.py
+python tools/compile_application_packages.py --workers 8
+python tools/render_qa_representatives.py
+```
+
+The compile and render manifests are written below `tmp/pdfs/` and are intentionally ignored by Git.
 """
 
 

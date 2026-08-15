@@ -38,3 +38,16 @@ python tools/validate_application_packages.py
 ```
 
 Compile TeX only after replacing placeholders. A compile check can still be run on drafts because placeholders are TeX-safe, but visual and factual approval is required before external use.
+
+## D-drive QA environment
+
+The verified local TeX environment is installed at `D:\PhD-Tools\TinyTeX` (TeX Live 2026). Because TeX cannot reliably create logs beneath the repository's non-ASCII path, the compile script copies each source to an ASCII-only staging folder under `D:\PhD-Tools\qa-input` and writes QA PDFs/logs under `D:\PhD-Tools\qa-output`.
+
+```powershell
+python tools/build_application_packages.py
+python tools/validate_application_packages.py
+python tools/compile_application_packages.py --workers 8
+python tools/render_qa_representatives.py
+```
+
+The compile and render manifests are written below `tmp/pdfs/` and are intentionally ignored by Git.
