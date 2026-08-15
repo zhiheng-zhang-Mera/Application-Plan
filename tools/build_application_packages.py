@@ -12,7 +12,7 @@ DOCS = ROOT / "Documents"
 SCHOOLS = [
     {
         "order": "01",
-        "folder": "HKUST Guangzhou",
+        "folder": "香港科技大学（广州） (HKUST Guangzhou)",
         "school": "The Hong Kong University of Science and Technology (Guangzhou)",
         "program": "PhD in Financial Technology",
         "contact": "Targeted contact strongly recommended; application may proceed in parallel.",
@@ -28,7 +28,7 @@ SCHOOLS = [
     },
     {
         "order": "02",
-        "folder": "University of Macau",
+        "folder": "澳门大学 (University of Macau)",
         "school": "University of Macau",
         "program": "PhD in Computer Science",
         "contact": "Targeted contact is optional but potentially valuable; verify the 2027/28 call.",
@@ -45,7 +45,7 @@ SCHOOLS = [
     },
     {
         "order": "03",
-        "folder": "Drexel University",
+        "folder": "德雷塞尔大学 (Drexel University)",
         "school": "Drexel University",
         "program": "PhD in Computer Science",
         "contact": "Departmental admission; email is an optional, selective draft and should not be mass-sent.",
@@ -61,7 +61,7 @@ SCHOOLS = [
     },
     {
         "order": "04",
-        "folder": "Stevens Institute of Technology",
+        "folder": "史蒂文斯理工学院 (Stevens Institute of Technology)",
         "school": "Stevens Institute of Technology",
         "program": "PhD in Computer Science",
         "contact": "Departmental application; a selective email may be sent after checking faculty availability.",
@@ -77,7 +77,7 @@ SCHOOLS = [
     },
     {
         "order": "05",
-        "folder": "University at Buffalo",
+        "folder": "纽约州立大学布法罗分校 (University at Buffalo)",
         "school": "University at Buffalo, SUNY",
         "program": "PhD in Computer Science and Engineering",
         "contact": "Do not cold-email generically; faculty fit belongs primarily in the application statement.",
@@ -93,7 +93,7 @@ SCHOOLS = [
     },
     {
         "order": "06",
-        "folder": "Concordia University",
+        "folder": "康考迪亚大学 (Concordia University)",
         "school": "Concordia University",
         "program": "PhD in Computer Science / Software Engineering",
         "contact": "Supervisor match is required before an admission offer; obtain an application Student ID before outreach where possible.",
@@ -109,7 +109,7 @@ SCHOOLS = [
     },
     {
         "order": "07",
-        "folder": "The Hong Kong Polytechnic University",
+        "folder": "香港理工大学 (The Hong Kong Polytechnic University)",
         "school": "The Hong Kong Polytechnic University",
         "program": "PhD in Data Science and Artificial Intelligence / Computing",
         "contact": "Targeted contact recommended; use the mandatory standard research-proposal form in the portal.",
@@ -125,7 +125,7 @@ SCHOOLS = [
     },
     {
         "order": "08",
-        "folder": "City University of Hong Kong",
+        "folder": "香港城市大学 (City University of Hong Kong)",
         "school": "City University of Hong Kong",
         "program": "PhD in Data Science",
         "contact": "Targeted contact recommended; confirm supervisor capacity before relying on a match.",
@@ -140,7 +140,7 @@ SCHOOLS = [
     },
     {
         "order": "09",
-        "folder": "Stony Brook University",
+        "folder": "纽约州立大学石溪分校 (Stony Brook University)",
         "school": "Stony Brook University",
         "program": "PhD in Computer Science",
         "contact": "Departmental admission; do not spend application time on generic cold email.",
@@ -156,7 +156,7 @@ SCHOOLS = [
     },
     {
         "order": "10",
-        "folder": "The Chinese University of Hong Kong",
+        "folder": "香港中文大学 (The Chinese University of Hong Kong)",
         "school": "The Chinese University of Hong Kong",
         "program": "MPhil-PhD in Computer Science and Engineering",
         "contact": "A professor must ultimately agree to supervise after the departmental process; targeted contact is essential.",
@@ -173,7 +173,7 @@ SCHOOLS = [
     },
     {
         "order": "11",
-        "folder": "UMass Amherst",
+        "folder": "马萨诸塞大学阿默斯特分校 (UMass Amherst)",
         "school": "University of Massachusetts Amherst",
         "program": "PhD in Computer Science",
         "contact": "Departmental admission; faculty fit should be concentrated in the Personal Statement.",
@@ -190,7 +190,7 @@ SCHOOLS = [
     },
     {
         "order": "12",
-        "folder": "HKUST",
+        "folder": "香港科技大学 (HKUST)",
         "school": "The Hong Kong University of Science and Technology",
         "program": "PhD in Computer Science and Engineering",
         "contact": "Current CSE FAQ says an applicant must have a faculty member who agrees to supervise; targeted contact is a prerequisite, not mass email.",
@@ -205,8 +205,8 @@ SCHOOLS = [
         ],
     },
     {
-        "order": "13",
-        "folder": "University of California Riverside - Reserve",
+        "order": "17",
+        "folder": "加州大学河滨分校（备选） (University of California Riverside - Reserve)",
         "school": "University of California, Riverside",
         "program": "PhD in Computer Science",
         "contact": "Reserve application: send a targeted inquiry first and apply only if the PI signal and full portfolio justify the cost.",
@@ -220,8 +220,8 @@ SCHOOLS = [
         ],
     },
     {
-        "order": "14",
-        "folder": "University of Technology Sydney",
+        "order": "13",
+        "folder": "悉尼科技大学 (University of Technology Sydney)",
         "school": "University of Technology Sydney",
         "program": "Doctor of Philosophy (PhD Thesis: Computer Science)",
         "contact": "Agreed supervision or faculty approval is required; contact a supervisor and develop the proposal before the formal application.",
@@ -240,8 +240,8 @@ SCHOOLS = [
         ],
     },
     {
-        "order": "15",
-        "folder": "Curtin University",
+        "order": "14",
+        "folder": "科廷大学 (Curtin University)",
         "school": "Curtin University",
         "program": "Doctor of Philosophy - Computing",
         "contact": "Supervisor support is a formal pre-application gate: submit an expression of interest with a topic and CV, then apply only if invited.",
@@ -260,8 +260,8 @@ SCHOOLS = [
         ],
     },
     {
-        "order": "16",
-        "folder": "National University of Singapore",
+        "order": "15",
+        "folder": "新加坡国立大学 (National University of Singapore)",
         "school": "National University of Singapore",
         "program": "PhD in Computer Science (School of Computing)",
         "contact": "Departmental application; selective faculty contact is useful after reading current work, but supervisor consent is not listed as a formal application prerequisite.",
@@ -281,8 +281,8 @@ SCHOOLS = [
         ],
     },
     {
-        "order": "17",
-        "folder": "Singapore University of Technology and Design",
+        "order": "16",
+        "folder": "新加坡科技设计大学 (Singapore University of Technology and Design)",
         "school": "Singapore University of Technology and Design",
         "program": "PhD Programme (ISTD / ESD research alignment)",
         "contact": "Targeted faculty contact is recommended because pillar and supervisor fit shape the research pathway; the formal application remains university-level.",
@@ -301,6 +301,26 @@ SCHOOLS = [
         ],
     },
 ]
+
+GRE_STATUS = {
+    "The Hong Kong University of Science and Technology (Guangzhou)": "Programme-specific; no mandatory GRE rule was established for this package.",
+    "University of Macau": "Not listed as a mandatory application item in the reviewed programme materials.",
+    "Drexel University": "Optional but recommended; the application is retained because GRE is not mandatory.",
+    "Stevens Institute of Technology": "Optional; the application is retained because GRE is not mandatory.",
+    "University at Buffalo, SUNY": "Not required for this PhD application.",
+    "Concordia University": "Not listed as a mandatory application item in the reviewed programme materials.",
+    "The Hong Kong Polytechnic University": "Not listed as a mandatory application item in the reviewed programme materials.",
+    "City University of Hong Kong": "Not listed as a mandatory application item in the reviewed programme materials.",
+    "Stony Brook University": "Not required for the PhD application.",
+    "The Chinese University of Hong Kong": "Not listed as a mandatory application item in the reviewed programme materials.",
+    "University of Massachusetts Amherst": "No GRE is required for this application.",
+    "The Hong Kong University of Science and Technology": "Not required for Engineering postgraduate research applications.",
+    "University of Technology Sydney": "Not listed as a mandatory application item in the reviewed programme materials.",
+    "Curtin University": "Not listed as a mandatory application item in the reviewed programme materials.",
+    "National University of Singapore": "Not required for the School of Computing PhD application.",
+    "Singapore University of Technology and Design": "Not required; the reviewed ISTD page describes GRE only as recommended.",
+    "University of California, Riverside": "Optional for the PhD application; this remains a reserve package.",
+}
 
 
 def tex_escape(value: str) -> str:
@@ -752,6 +772,60 @@ The source URL is a starting point, not proof that the page will remain unchange
 """
 
 
+def school_readme_md(school: dict) -> str:
+    faculty_rows = "\n".join(
+        f"- [{supervisor}](<{supervisor}/>) — {area}"
+        for supervisor, area, _ in school["faculty"]
+    )
+    special_checks = school.get("special_checks", [])
+    school_checks = "\n".join(f"- [ ] {item}" for item in special_checks)
+    if not school_checks:
+        school_checks = "- [ ] Recheck the live programme page, deadline, fee, and document limits before submission."
+    reserve_note = (
+        "\n> This is a reserve application. Activate it only after the higher-priority applications have been reviewed.\n"
+        if school["order"] == "17"
+        else ""
+    )
+    return f"""# {school['folder']}
+
+Priority: **{school['order']}**<br>
+Program: **{school['program']}**<br>
+Official source: {school['source']}
+{reserve_note}
+## GRE screen
+
+**{GRE_STATUS[school['school']]}** See the repository-wide decision record in [GRE_AUDIT.md](../GRE_AUDIT.md). If the live rule changes to mandatory GRE for this applicant profile, remove or pause this school instead of silently weakening the screen.
+
+## School-level required materials
+
+- [ ] Online application form and application fee or approved waiver
+- [ ] Academic CV and research CV
+- [ ] {school['statement']}
+- [ ] Official transcripts for all tertiary study and final degree certificates
+- [ ] English-language evidence or a documented waiver decision
+- [ ] Passport or other portal-accepted identity document
+- [ ] {school['lor']}
+- [ ] Research proposal or writing sample when the live programme prompt requests one
+- [ ] Faculty fit and current supervision availability verified against official pages
+
+## School-specific checks
+
+{school_checks}
+
+## Supervisor packages
+
+Outreach approach: **{school['contact']}**
+
+{faculty_rows}
+
+Each supervisor folder contains the full working package: two CVs, statement of purpose, research statement, research proposal, project summaries, tailored contact email, checklist, fact-check ledger, writing-sample cover note, and supplied evidence attachments.
+
+## Submission boundary
+
+These are structured drafts, not authorization to submit or email. Before external use, replace every placeholder; add the current official Melbourne transcript, confirmed degree certificates, identity and English evidence, and consenting referees; then verify the live portal requirements and the supervisor's current profile.
+"""
+
+
 def readme_md(school: dict, supervisor: str) -> str:
     return f"""# {school['school']} - {supervisor}
 
@@ -784,8 +858,9 @@ Search all files for `CONFIRM`, `ADD`, `TBD`, and square-bracket placeholders. C
 
 def root_index() -> str:
     rows = []
-    for s in SCHOOLS:
-        rows.append(f"| {s['order']} | {s['school']} | {s['program']} | {len(s['faculty'])} | {s['contact']} |")
+    for s in sorted(SCHOOLS, key=lambda item: int(item["order"])):
+        folder = f"{s['order']}_{s['folder']}"
+        rows.append(f"| {s['order']} | [{s['folder']}](<{folder}/>) | {s['program']} | {len(s['faculty'])} | {s['contact']} |")
     return """# 2027 PhD application packages
 
 Generated from the application plan and the supplied background evidence on 2026-08-15.
@@ -839,8 +914,9 @@ def write(path: Path, text: str) -> None:
 def build() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     write(OUT / "README.md", root_index())
-    for school in SCHOOLS:
+    for school in sorted(SCHOOLS, key=lambda item: int(item["order"])):
         school_dir = OUT / f"{school['order']}_{school['folder']}"
+        write(school_dir / "README.md", school_readme_md(school))
         for supervisor, area, hook in school["faculty"]:
             target = school_dir / supervisor
             attachments = target / "Attachments"

@@ -18,9 +18,11 @@ The repository path contains non-ASCII characters. The compile workflow therefor
 
 | Check | Result |
 |---|---:|
+| Priority-ordered bilingual school folders | 17 passed |
+| School-level requirements READMEs | 17 passed |
 | Supervisor folders | 66 passed |
 | Complete TeX sources | 528 passed |
-| Non-empty Markdown files | 265 passed |
+| Non-empty Markdown files | 282 passed |
 | Official transcript copies | 66 passed |
 | TeX compilations | 528 / 528 passed |
 | Compile failures | 0 |
@@ -29,11 +31,11 @@ The repository path contains non-ASCII characters. The compile workflow therefor
 | Underfull boxes | 0 |
 | Unicode dash characters in TeX | 0 |
 
-Each TeX source was compiled twice. The machine-readable compile manifest is written to `tmp/pdfs/compile-manifest.json` during acceptance.
+Each TeX source was compiled twice after the bilingual folder migration. The machine-readable compile manifest is written to `tmp/pdfs/compile-manifest.json` during acceptance. The migration moved UTS, Curtin, NUS, and SUTD to priorities 13--16 and placed the UC Riverside reserve package at 17; no legacy school directory remained.
 
 ## Visual acceptance
 
-Eight representative document types from one package at each newly added university were rendered and inspected, covering 26 pages in total. The representative packages were Kian Hsiang Low at the National University of Singapore and Yihan Du at the Singapore University of Technology and Design:
+Eight representative document types from one package at each newly added university were rendered and inspected, covering 26 pages in total. After folder renaming, the render selector again found exactly eight documents under Kian Hsiang Low at `15_新加坡国立大学 (National University of Singapore)` and Yihan Du at `16_新加坡科技设计大学 (Singapore University of Technology and Design)`:
 
 1. Academic CV
 2. Research CV

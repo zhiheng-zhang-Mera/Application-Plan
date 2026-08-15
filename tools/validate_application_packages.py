@@ -32,13 +32,28 @@ def fail(message: str) -> None:
 
 
 def main() -> None:
+    expected_school_names = {
+        f"{school['order']}_{school['folder']}" for school in SCHOOLS
+    }
+    school_dirs = {path.name: path for path in OUT.iterdir() if path.is_dir()}
+    if set(school_dirs) != expected_school_names:
+        missing = sorted(expected_school_names - set(school_dirs))
+        unexpected = sorted(set(school_dirs) - expected_school_names)
+        fail(f"school folder mismatch; missing={missing}, unexpected={unexpected}")
+    for name, school_dir in school_dirs.items():
+        if not re.search(r"[\u4e00-\u9fff]", name) or not re.search(r"\([A-Za-z]", name):
+            fail(f"school folder is not bilingual: {name}")
+        school_readme = school_dir / "README.md"
+        if not school_readme.exists() or not school_readme.read_text(encoding="utf-8").strip():
+            fail(f"missing or empty school requirements README: {school_readme}")
+
     expected_packages = sum(len(s["faculty"]) for s in SCHOOLS)
     package_dirs = [p for p in OUT.glob("*/*") if p.is_dir() and p.name != "Attachments"]
     if len(package_dirs) != expected_packages:
         fail(f"expected {expected_packages} package folders, found {len(package_dirs)}")
 
     tex_count = 0
-    md_count = 1  # root README
+    md_count = 1 + len(school_dirs)  # root index plus school requirements READMEs
     for package in package_dirs:
         names = {p.name for p in package.iterdir() if p.is_file()}
         missing = REQUIRED - names
@@ -74,6 +89,7 @@ def main() -> None:
     if unexpected:
         fail(f"unexpected authored PDFs found: {unexpected[:3]}")
 
+    print(f"PASS: {len(school_dirs)} priority-ordered bilingual school folders and requirements READMEs")
     print(f"PASS: {expected_packages} supervisor packages")
     print(f"PASS: {tex_count} complete TeX sources")
     print(f"PASS: {md_count} non-empty Markdown files")

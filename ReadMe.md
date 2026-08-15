@@ -1,6 +1,6 @@
 # 2027 PhD 申请计划工作表
 
-> **申请材料已生成**：按学校和导师组织的 66 个自包含申请包见 [`Applications/README.md`](Applications/README.md)。所有新撰写、拟导出为 PDF 的材料均保留为 `.tex` 源文件；套磁邮件和执行清单为 `.md`。现有官方成绩单 PDF 与 WAM 图片仅作为原始证据附件保留。每个导师目录的 `10_Fact_Check.md` 列出可用事实和提交前必须补充/核验的信息。
+> **申请材料已生成**：按优先级、学校和导师组织的 66 个自包含申请包见 [`Applications/README.md`](Applications/README.md)。17 个学校目录均采用中英双语名称，并在学校根目录提供独立的 `README.md` 材料要求清单。所有新撰写、拟导出为 PDF 的材料均保留为 `.tex` 源文件；套磁邮件和执行清单为 `.md`。现有官方成绩单 PDF 与 WAM 图片仅作为原始证据附件保留。每个导师目录的 `10_Fact_Check.md` 列出可用事实和提交前必须补充/核验的信息。
 
 > **方向**：Financial ML / Quant Research Infrastructure / ML Systems / Data Systems / Trustworthy AI / Optimization  
 > **版本**：2026-08-15  
@@ -22,23 +22,23 @@
 
 | 总优先级 | 学校 | 项目建议 | 套磁类型 | 定位 | 当前关键动作 |
 |---:|---|---|---|---|---|
-| **1** | HKUST(GZ) | PhD in Financial Technology | B：可选但强烈建议 | 核心主申 | 尽早申请，rolling；联系 3–4 位 PI |
-| **2** | University of Macau | PhD in Computer Science | B：可选 | 成功率主申 | 等 2027/28 正式轮次；先接触 3–5 位 PI |
-| **3** | Drexel | PhD in Computer Science | C/B：系级录取，联系可选 | 相对稳健主申 | 准备 500-word SOP + 2 LOR + transcript evaluation 策略 |
-| **4** | Stevens | PhD in Computer Science | B：可选 | 相对稳健主申 | 准备 writing sample；核实 2027 deadline |
-| **5** | University at Buffalo | PhD in CSE | C：不需要提前套磁 | 核心主申 | 不群发 PI；把 2–3 位 faculty 写进 SOP |
-| **6** | Concordia | PhD in CS / Software Engineering | **A：必须匹配导师** | 主申 | 先正式申请拿 Student ID，再重点套 3–4 位 |
-| **7** | PolyU | PhD in DSAI / Computing | B：可选但建议 | 主申 | **时间敏感**：准备标准 Research Proposal |
-| **8** | CityUHK | PhD in Data Science | B：可选但建议 | 主申 | DS 路线优先；联系 2–3 位 PI |
-| **9** | Stony Brook | PhD in Computer Science | C：系级录取 | 主申 / 偏冲 | 直接做强申请；无需提前锁导师 |
-| **10** | CUHK | MPhil-PhD in CSE | **A：必须匹配导师** | 冲刺 | 2027 Early 已过；准备 Sep 2026 Regular + 套磁 |
-| **11** | UMass Amherst | PhD in Computer Science | C：系/学院录取 | 高价值冲刺 | SOP/Personal Statement faculty fit 优先 |
-| **12** | HKUST | PhD in CSE | B：可选，PI support 有价值 | 高价值冲刺 | **2027 Early deadline = 2026-08-15；错过后走 Regular** |
-| **13** | University of Technology Sydney (UTS) | PhD Thesis: Computer Science | **A：申请需导师同意或学院批准** | 澳洲主申 | 先联系 3 位导师并共同打磨 proposal；奖学金轮次前完成 pre-approval |
-| **14** | Curtin University | PhD - Computing | **A：EOI + 导师支持是正式申请前置** | 澳洲稳健主申 | 准备 2 页 proposal + 单独 references 页；先提交 EOI |
-| **15** | National University of Singapore (NUS) | School of Computing PhD in CS | C/B：系级申请，联系可选 | 新加坡高价值冲刺 | GRE 不要求；完成 SOP、CV、2 academic references 并核对 intake deadline |
-| **16** | Singapore University of Technology and Design (SUTD) | PhD - ISTD / ESD alignment | B：建议联系 | 新加坡主申 | GRE 不要求；准备 Statement of Objectives 并联系 3 位匹配导师 |
-| **R1** | UC Riverside | PhD in Computer Science | B：可选 | 条件备选 | 仅在 PI 回复积极时投；Master GPA expectation 风险高 |
+| **1** | 香港科技大学（广州） (HKUST Guangzhou) | PhD in Financial Technology | B：可选但强烈建议 | 核心主申 | 尽早申请，rolling；联系 3–4 位 PI |
+| **2** | 澳门大学 (University of Macau) | PhD in Computer Science | B：可选 | 成功率主申 | 等 2027/28 正式轮次；先接触 3–5 位 PI |
+| **3** | 德雷塞尔大学 (Drexel University) | PhD in Computer Science | C/B：系级录取，联系可选 | 相对稳健主申 | 准备 500-word SOP + 2 LOR + transcript evaluation 策略 |
+| **4** | 史蒂文斯理工学院 (Stevens Institute of Technology) | PhD in Computer Science | B：可选 | 相对稳健主申 | 准备 writing sample；核实 2027 deadline |
+| **5** | 纽约州立大学布法罗分校 (University at Buffalo) | PhD in CSE | C：不需要提前套磁 | 核心主申 | 不群发 PI；把 2–3 位 faculty 写进 SOP |
+| **6** | 康考迪亚大学 (Concordia University) | PhD in CS / Software Engineering | **A：必须匹配导师** | 主申 | 先正式申请拿 Student ID，再重点套 3–4 位 |
+| **7** | 香港理工大学 (The Hong Kong Polytechnic University) | PhD in DSAI / Computing | B：可选但建议 | 主申 | **时间敏感**：准备标准 Research Proposal |
+| **8** | 香港城市大学 (City University of Hong Kong) | PhD in Data Science | B：可选但建议 | 主申 | DS 路线优先；联系 2–3 位 PI |
+| **9** | 纽约州立大学石溪分校 (Stony Brook University) | PhD in Computer Science | C：系级录取 | 主申 / 偏冲 | 直接做强申请；无需提前锁导师 |
+| **10** | 香港中文大学 (The Chinese University of Hong Kong) | MPhil-PhD in CSE | **A：必须匹配导师** | 冲刺 | 2027 Early 已过；准备 Sep 2026 Regular + 套磁 |
+| **11** | 马萨诸塞大学阿默斯特分校 (UMass Amherst) | PhD in Computer Science | C：系/学院录取 | 高价值冲刺 | SOP/Personal Statement faculty fit 优先 |
+| **12** | 香港科技大学 (HKUST) | PhD in CSE | B：可选，PI support 有价值 | 高价值冲刺 | **2027 Early deadline = 2026-08-15；错过后走 Regular** |
+| **13** | 悉尼科技大学 (University of Technology Sydney) | PhD Thesis: Computer Science | **A：申请需导师同意或学院批准** | 澳洲主申 | 先联系 3 位导师并共同打磨 proposal；奖学金轮次前完成 pre-approval |
+| **14** | 科廷大学 (Curtin University) | PhD - Computing | **A：EOI + 导师支持是正式申请前置** | 澳洲稳健主申 | 准备 2 页 proposal + 单独 references 页；先提交 EOI |
+| **15** | 新加坡国立大学 (National University of Singapore) | School of Computing PhD in CS | C/B：系级申请，联系可选 | 新加坡高价值冲刺 | GRE 不要求；完成 SOP、CV、2 academic references 并核对 intake deadline |
+| **16** | 新加坡科技设计大学 (Singapore University of Technology and Design) | PhD - ISTD / ESD alignment | B：建议联系 | 新加坡主申 | GRE 不要求；准备 Statement of Objectives 并联系 3 位匹配导师 |
+| **R1 / 17** | 加州大学河滨分校（备选） (University of California, Riverside) | PhD in Computer Science | B：可选 | 条件备选 | 仅在 PI 回复积极时投；Master GPA expectation 风险高 |
 
 GRE 逐校审计及删除证据见 [`Applications/GRE_AUDIT.md`](Applications/GRE_AUDIT.md)。NTU CCDS 已因对海外高校毕业生默认强制 GRE/GMAT 而删除。
 
