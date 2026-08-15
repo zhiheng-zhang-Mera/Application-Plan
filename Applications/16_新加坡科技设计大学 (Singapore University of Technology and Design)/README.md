@@ -1,41 +1,48 @@
 # 新加坡科技设计大学 (Singapore University of Technology and Design)
 
-Priority: **16**<br>
-Program: **PhD Programme (ISTD / ESD research alignment)**<br>
-Official source: https://www.sutd.edu.sg/istd/149-2/
+申请优先级：**16**<br>
+申请项目：**PhD Programme (ISTD / ESD research alignment)**
 
-## GRE screen
+## 官方链接
 
-**Not required; the reviewed ISTD page describes GRE only as recommended.** See the repository-wide decision record in [GRE_AUDIT.md](../GRE_AUDIT.md). If the live rule changes to mandatory GRE for this applicant profile, remove or pause this school instead of silently weakening the screen.
+- [项目介绍页面](https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/)
+- [在线申请通道](https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/application/)
+- [材料要求核对页](https://www.sutd.edu.sg/istd/149-2/)
 
-## School-level required materials
+> 链接已于 2026-08-15 核对。申请入口、截止日期和材料要求可能调整，实际提交前必须再次访问官方页面确认。
 
-- [ ] Online application form and application fee or approved waiver
-- [ ] Academic CV and research CV
-- [ ] Statement of Objectives plus CV, transcripts, identity evidence, and research outputs
-- [ ] Official transcripts for all tertiary study and final degree certificates
-- [ ] English-language evidence or a documented waiver decision
-- [ ] Passport or other portal-accepted identity document
-- [ ] 3 recommenders, preferably faculty able to assess research potential
-- [ ] Research proposal or writing sample when the live programme prompt requests one
-- [ ] Faculty fit and current supervision availability verified against official pages
+## GRE 筛查
 
-## School-specific checks
+**GRE 不强制，仅为官方建议提交项。** 全部学校的筛查记录见 [GRE_AUDIT.md](../GRE_AUDIT.md)。如果实时规则变为对当前申请背景强制要求 GRE，应暂停或删除该学校，不得绕过硬约束。
 
-- [ ] Record GRE as not required; the official ISTD page describes it only as recommended
-- [ ] Prepare the current Statement of Objectives and verify its live word limit
-- [ ] Confirm the chosen faculty member is accepting PhD students for the intended intake
+## 学校级材料清单
 
-## Supervisor packages
+- [ ] 在线申请表及申请费，或获批的费用减免证明
+- [ ] 学术简历和研究简历
+- [ ] Statement of Objectives、简历、成绩单、身份证明和研究成果材料。
+- [ ] 所有高等教育阶段的正式成绩单和最终学位证书
+- [ ] 英语能力证明，或有文件依据的豁免结论
+- [ ] 护照或在线系统接受的其他身份证明
+- [ ] 3 位推荐人，优先选择能评价研究潜力的教师。
+- [ ] 实时项目要求中的研究计划、写作样本或补充题目
+- [ ] 从学校官方页面核实导师研究匹配及当前招生状态
 
-Outreach approach: **Targeted faculty contact is recommended because pillar and supervisor fit shape the research pathway; the formal application remains university-level.**
+## 学校特定检查
 
-- [Yihan Du](<Yihan Du/>) — reinforcement learning, online learning, machine learning, AI safety, and alignment
-- [Rakesh Nagi](<Rakesh Nagi/>) — data science, machine learning, operations research, and optimization
-- [Karthik Natarajan](<Karthik Natarajan/>) — data science, machine learning, distributionally robust optimization, and decision science
+- [ ] 记录为 GRE 非强制；官方仅表述为建议提交。
+- [ ] 按当轮要求准备 Statement of Objectives，并复核实时字数限制。
+- [ ] 确认所选导师在目标入学轮次仍接收博士生。
 
-Each supervisor folder contains the full working package: two CVs, statement of purpose, research statement, research proposal, project summaries, tailored contact email, checklist, fact-check ledger, writing-sample cover note, and supplied evidence attachments.
+## 导师申请包
 
-## Submission boundary
+套磁策略：**建议联系匹配导师并确认招生状态；正式申请仍通过学校系统完成。**
 
-These are structured drafts, not authorization to submit or email. Before external use, replace every placeholder; add the current official Melbourne transcript, confirmed degree certificates, identity and English evidence, and consenting referees; then verify the live portal requirements and the supervisor's current profile.
+- [Yihan Du](<Yihan Du/>)
+- [Rakesh Nagi](<Rakesh Nagi/>)
+- [Karthik Natarajan](<Karthik Natarajan/>)
+
+每个导师目录均包含完整工作包：两版简历、目的陈述、研究陈述、研究计划、项目摘要、定制套磁邮件、申请清单、事实核对表、写作样本说明页及现有证据附件。
+
+## 提交边界
+
+这些文件是结构化草稿，不代表已经获准提交申请或发送邮件。对外使用前必须替换全部占位符，补充墨尔本大学最新正式成绩单、已确认的学位证书、身份及英语证明和已同意推荐的推荐人，并再次核对实时申请系统要求及导师最新主页。

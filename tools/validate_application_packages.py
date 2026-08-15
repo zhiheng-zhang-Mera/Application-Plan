@@ -5,7 +5,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-from build_application_packages import SCHOOLS
+from build_application_packages import PROGRAM_LINKS, SCHOOLS
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -46,6 +46,15 @@ def main() -> None:
         school_readme = school_dir / "README.md"
         if not school_readme.exists() or not school_readme.read_text(encoding="utf-8").strip():
             fail(f"missing or empty school requirements README: {school_readme}")
+        readme_text = school_readme.read_text(encoding="utf-8")
+        school = next(item for item in SCHOOLS if f"{item['order']}_{item['folder']}" == name)
+        links = PROGRAM_LINKS[school["school"]]
+        for heading in ["## 官方链接", "## GRE 筛查", "## 学校级材料清单", "## 学校特定检查", "## 导师申请包", "## 提交边界"]:
+            if heading not in readme_text:
+                fail(f"school README lacks Chinese section {heading}: {school_readme}")
+        for label, url in [("项目介绍页面", links["program"]), ("在线申请通道", links["apply"])]:
+            if f"[{label}]({url})" not in readme_text:
+                fail(f"school README lacks {label}: {school_readme}")
 
     expected_packages = sum(len(s["faculty"]) for s in SCHOOLS)
     package_dirs = [p for p in OUT.glob("*/*") if p.is_dir() and p.name != "Attachments"]

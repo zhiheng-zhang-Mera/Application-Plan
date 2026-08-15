@@ -1,41 +1,48 @@
 # 加州大学河滨分校（备选） (University of California Riverside - Reserve)
 
-Priority: **17**<br>
-Program: **PhD in Computer Science**<br>
-Official source: https://www1.cs.ucr.edu/graduate/admissions/international
+申请优先级：**17**<br>
+申请项目：**PhD in Computer Science**
 
-> This is a reserve application. Activate it only after the higher-priority applications have been reviewed.
+> 本目录为备选申请。仅在更高优先级学校已完成审核且导师反馈积极时启用。
 
-## GRE screen
+## 官方链接
 
-**Optional for the PhD application; this remains a reserve package.** See the repository-wide decision record in [GRE_AUDIT.md](../GRE_AUDIT.md). If the live rule changes to mandatory GRE for this applicant profile, remove or pause this school instead of silently weakening the screen.
+- [项目介绍页面](https://www1.cs.ucr.edu/graduate/programs/computer-science)
+- [在线申请通道](https://grad.ucr.edu/apply/)
+- [材料要求核对页](https://www1.cs.ucr.edu/graduate/admissions/international)
 
-## School-level required materials
+> 链接已于 2026-08-15 核对。申请入口、截止日期和材料要求可能调整，实际提交前必须再次访问官方页面确认。
 
-- [ ] Online application form and application fee or approved waiver
-- [ ] Academic CV and research CV
-- [ ] Graduate Statement of Purpose
-- [ ] Official transcripts for all tertiary study and final degree certificates
-- [ ] English-language evidence or a documented waiver decision
-- [ ] Passport or other portal-accepted identity document
-- [ ] 3 letters of recommendation
-- [ ] Research proposal or writing sample when the live programme prompt requests one
-- [ ] Faculty fit and current supervision availability verified against official pages
+## GRE 筛查
 
-## School-specific checks
+**计算机科学博士申请 GRE 可选；该校继续作为第 17 位备选。** 全部学校的筛查记录见 [GRE_AUDIT.md](../GRE_AUDIT.md)。如果实时规则变为对当前申请背景强制要求 GRE，应暂停或删除该学校，不得绕过硬约束。
 
-- [ ] Recheck the live programme page, deadline, fee, and document limits before submission.
+## 学校级材料清单
 
-## Supervisor packages
+- [ ] 在线申请表及申请费，或获批的费用减免证明
+- [ ] 学术简历和研究简历
+- [ ] 研究生目的陈述。
+- [ ] 所有高等教育阶段的正式成绩单和最终学位证书
+- [ ] 英语能力证明，或有文件依据的豁免结论
+- [ ] 护照或在线系统接受的其他身份证明
+- [ ] 3 封推荐信。
+- [ ] 实时项目要求中的研究计划、写作样本或补充题目
+- [ ] 从学校官方页面核实导师研究匹配及当前招生状态
 
-Outreach approach: **Reserve application: send a targeted inquiry first and apply only if the PI signal and full portfolio justify the cost.**
+## 学校特定检查
 
-- [Eamonn Keogh](<Eamonn Keogh/>) — time-series data mining
-- [Vagelis Papalexakis](<Vagelis Papalexakis/>) — data mining, machine learning, and trustworthy AI
-- [Vagelis Hristidis](<Vagelis Hristidis/>) — databases, data systems, and information retrieval
+- [ ] 提交前重新核对实时项目页面、截止日期、申请费用、材料格式和文件大小限制。
 
-Each supervisor folder contains the full working package: two CVs, statement of purpose, research statement, research proposal, project summaries, tailored contact email, checklist, fact-check ledger, writing-sample cover note, and supplied evidence attachments.
+## 导师申请包
 
-## Submission boundary
+套磁策略：**先进行定向联系，仅在导师反馈和整体材料支持时启用该备选申请。**
 
-These are structured drafts, not authorization to submit or email. Before external use, replace every placeholder; add the current official Melbourne transcript, confirmed degree certificates, identity and English evidence, and consenting referees; then verify the live portal requirements and the supervisor's current profile.
+- [Eamonn Keogh](<Eamonn Keogh/>)
+- [Vagelis Papalexakis](<Vagelis Papalexakis/>)
+- [Vagelis Hristidis](<Vagelis Hristidis/>)
+
+每个导师目录均包含完整工作包：两版简历、目的陈述、研究陈述、研究计划、项目摘要、定制套磁邮件、申请清单、事实核对表、写作样本说明页及现有证据附件。
+
+## 提交边界
+
+这些文件是结构化草稿，不代表已经获准提交申请或发送邮件。对外使用前必须替换全部占位符，补充墨尔本大学最新正式成绩单、已确认的学位证书、身份及英语证明和已同意推荐的推荐人，并再次核对实时申请系统要求及导师最新主页。

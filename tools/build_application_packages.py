@@ -302,24 +302,203 @@ SCHOOLS = [
     },
 ]
 
-GRE_STATUS = {
-    "The Hong Kong University of Science and Technology (Guangzhou)": "Programme-specific; no mandatory GRE rule was established for this package.",
-    "University of Macau": "Not listed as a mandatory application item in the reviewed programme materials.",
-    "Drexel University": "Optional but recommended; the application is retained because GRE is not mandatory.",
-    "Stevens Institute of Technology": "Optional; the application is retained because GRE is not mandatory.",
-    "University at Buffalo, SUNY": "Not required for this PhD application.",
-    "Concordia University": "Not listed as a mandatory application item in the reviewed programme materials.",
-    "The Hong Kong Polytechnic University": "Not listed as a mandatory application item in the reviewed programme materials.",
-    "City University of Hong Kong": "Not listed as a mandatory application item in the reviewed programme materials.",
-    "Stony Brook University": "Not required for the PhD application.",
-    "The Chinese University of Hong Kong": "Not listed as a mandatory application item in the reviewed programme materials.",
-    "University of Massachusetts Amherst": "No GRE is required for this application.",
-    "The Hong Kong University of Science and Technology": "Not required for Engineering postgraduate research applications.",
-    "University of Technology Sydney": "Not listed as a mandatory application item in the reviewed programme materials.",
-    "Curtin University": "Not listed as a mandatory application item in the reviewed programme materials.",
-    "National University of Singapore": "Not required for the School of Computing PhD application.",
-    "Singapore University of Technology and Design": "Not required; the reviewed ISTD page describes GRE only as recommended.",
-    "University of California, Riverside": "Optional for the PhD application; this remains a reserve package.",
+PROGRAM_LINKS = {
+    "The Hong Kong University of Science and Technology (Guangzhou)": {
+        "program": "https://soch.hkust-gz.edu.cn/wp-content/uploads/2025/12/PhD-in-Financial-Technology-2026-27-Intake-20251218.pdf",
+        "apply": "https://pgoas.hkust-gz.edu.cn/",
+    },
+    "University of Macau": {
+        "program": "https://www.cis.um.edu.mo/phd_computer_science.html",
+        "apply": "https://isw.um.edu.mo/naweb_grs/faces/index.jspx",
+    },
+    "Drexel University": {
+        "program": "https://drexel.edu/cci/academics/doctoral-programs/",
+        "apply": "https://drexel.edu/admissions/apply/grad-instructions/online-app",
+    },
+    "Stevens Institute of Technology": {
+        "program": "https://www.stevens.edu/program/computer-science-doctoral-program",
+        "apply": "https://gradadmissions.stevens.edu/apply/",
+    },
+    "University at Buffalo, SUNY": {
+        "program": "https://engineering.buffalo.edu/computer-science-engineering/graduate/phd.html",
+        "apply": "https://ubgradconnect.buffalo.edu/apply/",
+    },
+    "Concordia University": {
+        "program": "https://www.concordia.ca/academics/graduate/computer-science-phd.html",
+        "apply": "https://www.concordia.ca/gradstudies/future-students/how-to-apply/start-your-application.html",
+    },
+    "The Hong Kong Polytechnic University": {
+        "program": "https://www.polyu.edu.hk/study/pg/research-postgraduate",
+        "apply": "https://rpgadmission.polyu.edu.hk/",
+    },
+    "City University of Hong Kong": {
+        "program": "https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes/phd-programme-data-science",
+        "apply": "https://www.cityu.edu.hk/zh-hk/pg/research-degree-programmes/apply-now",
+    },
+    "Stony Brook University": {
+        "program": "https://www.cs.stonybrook.edu/graduate-program/phd-program",
+        "apply": "https://graduateadmissions.stonybrook.edu/apply/",
+    },
+    "The Chinese University of Hong Kong": {
+        "program": "https://www.cse.cuhk.edu.hk/admission/mphil-phd/regular-admission/",
+        "apply": "https://www.gradsch.cuhk.edu.hk/onlineapp/login_email.aspx",
+    },
+    "University of Massachusetts Amherst": {
+        "program": "https://www.cics.umass.edu/academics/phd-computer-science",
+        "apply": "https://applygrad.umass.edu/apply/",
+    },
+    "The Hong Kong University of Science and Technology": {
+        "program": "https://cse.hkust.edu.hk/pg/programs/phd/",
+        "apply": "https://fytgs.hkust.edu.hk/apply",
+    },
+    "University of Technology Sydney": {
+        "program": "https://www.uts.edu.au/courses/doctor-of-philosophy-phd-thesis-computer-science",
+        "apply": "https://www.uts.edu.au/for-students/admissions-entry/how-to-apply/masters-by-research-phd",
+    },
+    "Curtin University": {
+        "program": "https://www.curtin.edu.au/study/offering/course-research-doctor-of-philosophy---computing--dr-comptg/?region=int",
+        "apply": "https://www.curtin.edu.au/study/applying/research/",
+    },
+    "National University of Singapore": {
+        "program": "https://www.comp.nus.edu.sg/programmes/pg/phdis/",
+        "apply": "https://gradapp.nus.edu.sg/apply",
+    },
+    "Singapore University of Technology and Design": {
+        "program": "https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/",
+        "apply": "https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/application/",
+    },
+    "University of California, Riverside": {
+        "program": "https://www1.cs.ucr.edu/graduate/programs/computer-science",
+        "apply": "https://grad.ucr.edu/apply/",
+    },
+}
+
+SCHOOL_README_ZH = {
+    "The Hong Kong University of Science and Technology (Guangzhou)": {
+        "gre": "当前审计未发现金融科技博士项目强制要求 GRE；提交前仍须按所选轮次复核。",
+        "statement": "拟议研究计划、既往研究经历及项目要求的个人陈述。",
+        "lor": "2–5 位学术推荐人，最终数量以在线系统为准。",
+        "outreach": "建议有针对性地联系导师，同时可以并行准备和提交学校申请。",
+    },
+    "University of Macau": {
+        "gre": "已核对的博士申请材料中未将 GRE 列为强制项。",
+        "statement": "目的陈述；若在线系统要求，另交研究计划。",
+        "lor": "2 封推荐信，其中至少 1 封为学术推荐信。",
+        "outreach": "套磁并非硬性前置，但可用于确认招生名额和研究匹配。",
+    },
+    "Drexel University": {
+        "gre": "GRE 可选但官方建议提交；因并非强制要求，保留该申请。",
+        "statement": "约 500 词目的陈述。",
+        "lor": "2 封推荐信。",
+        "outreach": "院系统一录取；仅在确认研究匹配后选择性联系导师，不群发。",
+    },
+    "Stevens Institute of Technology": {
+        "gre": "GRE 为可选项，不是申请硬门槛。",
+        "statement": "500–1,000 词目的陈述，并准备专业写作样本。",
+        "lor": "计算机科学博士按当前计划准备 3 封推荐信。",
+        "outreach": "可先提交院系申请；确认导师招生状态后再选择性联系。",
+    },
+    "University at Buffalo, SUNY": {
+        "gre": "计算机科学与工程博士申请不要求 GRE。",
+        "statement": "简短个人陈述或目的陈述。",
+        "lor": "3 封推荐信，优先使用学术推荐人。",
+        "outreach": "无需泛化套磁，主要在申请陈述中写清 2–3 位导师匹配。",
+    },
+    "Concordia University": {
+        "gre": "已核对的项目材料未将 GRE 列为强制项。",
+        "statement": "目的陈述和简洁的研究兴趣说明。",
+        "lor": "3 封推荐信及配套评估表。",
+        "outreach": "录取前必须完成导师匹配；建议先建立申请并取得 Student ID，再重点联系导师。",
+    },
+    "The Hong Kong Polytechnic University": {
+        "gre": "当前计算机相关研究型项目材料未把 GRE 列为强制项；不得套用商学院项目要求。",
+        "statement": "简历、个人陈述和学校标准格式研究计划。",
+        "lor": "2 份学术推荐人报告。",
+        "outreach": "建议定向联系导师，并严格使用在线系统要求的研究计划模板。",
+    },
+    "City University of Hong Kong": {
+        "gre": "数据科学博士项目当前未列强制 GRE。",
+        "statement": "个人陈述和必需的研究计划。",
+        "lor": "2 位学术推荐人。",
+        "outreach": "建议联系匹配导师并确认招生容量，但仍须完成学校在线申请。",
+    },
+    "Stony Brook University": {
+        "gre": "计算机科学博士申请不要求 GRE。",
+        "statement": "目的陈述。",
+        "lor": "3 封推荐信，建议多数来自学术推荐人。",
+        "outreach": "院系统一录取；无需投入时间进行泛化冷邮件。",
+    },
+    "The Chinese University of Hong Kong": {
+        "gre": "已核对的计算机科学与工程研究型项目材料未列强制 GRE。",
+        "statement": "简历、最新成绩单、可用的排名证明，并准备院系面试。",
+        "lor": "全日制博士至少 3 份保密推荐报告。",
+        "outreach": "最终必须获得教授非正式指导意向；应进行高质量定向套磁。",
+    },
+    "University of Massachusetts Amherst": {
+        "gre": "计算机科学博士申请不要求 GRE。",
+        "statement": "Personal Statement 及当轮在线申请中的补充题目。",
+        "lor": "2 封推荐信。",
+        "outreach": "院系录取；导师匹配应集中写入申请陈述，不建议群发。",
+    },
+    "The Hong Kong University of Science and Technology": {
+        "gre": "工程学院研究型研究生申请不要求 GRE。",
+        "statement": "拟议研究计划和既往研究经历。",
+        "lor": "2–5 位学术推荐人，最终数量以在线系统为准。",
+        "outreach": "计算机科学与工程项目要求有导师同意指导，定向联系属于申请前置步骤。",
+    },
+    "University of Technology Sydney": {
+        "gre": "已核对的研究学位申请流程未列强制 GRE。",
+        "statement": "与拟合作导师共同打磨的研究计划、简历及研究经历证明。",
+        "lor": "学术推荐报告；数量和提交方式以当轮系统为准。",
+        "outreach": "正式申请前须取得导师同意或学院批准，并单独核对奖学金预审流程。",
+    },
+    "Curtin University": {
+        "gre": "计算机方向 HDR 流程当前未列强制 GRE。",
+        "statement": "用于 EOI 的 2 页研究计划，参考文献另起一页。",
+        "lor": "按 EOI 和正式申请表要求填写推荐人及上传证明。",
+        "outreach": "先提交 EOI 并取得导师支持；只有收到邀请后才能进入正式申请。",
+    },
+    "National University of Singapore": {
+        "gre": "NUS School of Computing 博士申请不要求 GRE。",
+        "statement": "必需的目的陈述、简历、完整学术材料和身份证明。",
+        "lor": "2 位学术推荐人。",
+        "outreach": "院系统一申请；精读导师近期工作后可选择性联系，但导师同意不是提交前置条件。",
+    },
+    "Singapore University of Technology and Design": {
+        "gre": "GRE 不强制，仅为官方建议提交项。",
+        "statement": "Statement of Objectives、简历、成绩单、身份证明和研究成果材料。",
+        "lor": "3 位推荐人，优先选择能评价研究潜力的教师。",
+        "outreach": "建议联系匹配导师并确认招生状态；正式申请仍通过学校系统完成。",
+    },
+    "University of California, Riverside": {
+        "gre": "计算机科学博士申请 GRE 可选；该校继续作为第 17 位备选。",
+        "statement": "研究生目的陈述。",
+        "lor": "3 封推荐信。",
+        "outreach": "先进行定向联系，仅在导师反馈和整体材料支持时启用该备选申请。",
+    },
+}
+
+SPECIAL_CHECKS_ZH = {
+    "University of Technology Sydney": [
+        "提交前附上导师同意证明，或取得书面的学院批准。",
+        "申请竞争性奖学金时，完成 FEIT/学院预审流程。",
+        "奖学金截止日期与全年开放的入学申请通道必须分别核对。",
+    ],
+    "Curtin University": [
+        "正式申请前先提交 Expression of Interest（EOI）。",
+        "研究计划正文控制在 2 页，参考文献放在单独附加页。",
+        "仅在 EOI 通过且导师明确支持后进入正式申请。",
+    ],
+    "National University of Singapore": [
+        "记录为 GRE 不要求，不为该申请单独订购或提交 GRE 成绩。",
+        "在线申请必须同时提交目的陈述和简历。",
+        "提交前复核 8 月和 1 月入学轮次的实时截止日期。",
+    ],
+    "Singapore University of Technology and Design": [
+        "记录为 GRE 非强制；官方仅表述为建议提交。",
+        "按当轮要求准备 Statement of Objectives，并复核实时字数限制。",
+        "确认所选导师在目标入学轮次仍接收博士生。",
+    ],
 }
 
 
@@ -774,55 +953,65 @@ The source URL is a starting point, not proof that the page will remain unchange
 
 def school_readme_md(school: dict) -> str:
     faculty_rows = "\n".join(
-        f"- [{supervisor}](<{supervisor}/>) — {area}"
-        for supervisor, area, _ in school["faculty"]
+        f"- [{supervisor}](<{supervisor}/>)"
+        for supervisor, _, _ in school["faculty"]
     )
-    special_checks = school.get("special_checks", [])
+    details = SCHOOL_README_ZH[school["school"]]
+    links = PROGRAM_LINKS[school["school"]]
+    special_checks = SPECIAL_CHECKS_ZH.get(
+        school["school"],
+        ["提交前重新核对实时项目页面、截止日期、申请费用、材料格式和文件大小限制。"],
+    )
     school_checks = "\n".join(f"- [ ] {item}" for item in special_checks)
-    if not school_checks:
-        school_checks = "- [ ] Recheck the live programme page, deadline, fee, and document limits before submission."
     reserve_note = (
-        "\n> This is a reserve application. Activate it only after the higher-priority applications have been reviewed.\n"
+        "\n> 本目录为备选申请。仅在更高优先级学校已完成审核且导师反馈积极时启用。\n"
         if school["order"] == "17"
         else ""
     )
     return f"""# {school['folder']}
 
-Priority: **{school['order']}**<br>
-Program: **{school['program']}**<br>
-Official source: {school['source']}
+申请优先级：**{school['order']}**<br>
+申请项目：**{school['program']}**
 {reserve_note}
-## GRE screen
+## 官方链接
 
-**{GRE_STATUS[school['school']]}** See the repository-wide decision record in [GRE_AUDIT.md](../GRE_AUDIT.md). If the live rule changes to mandatory GRE for this applicant profile, remove or pause this school instead of silently weakening the screen.
+- [项目介绍页面]({links['program']})
+- [在线申请通道]({links['apply']})
+- [材料要求核对页]({school['source']})
 
-## School-level required materials
+> 链接已于 2026-08-15 核对。申请入口、截止日期和材料要求可能调整，实际提交前必须再次访问官方页面确认。
 
-- [ ] Online application form and application fee or approved waiver
-- [ ] Academic CV and research CV
-- [ ] {school['statement']}
-- [ ] Official transcripts for all tertiary study and final degree certificates
-- [ ] English-language evidence or a documented waiver decision
-- [ ] Passport or other portal-accepted identity document
-- [ ] {school['lor']}
-- [ ] Research proposal or writing sample when the live programme prompt requests one
-- [ ] Faculty fit and current supervision availability verified against official pages
+## GRE 筛查
 
-## School-specific checks
+**{details['gre']}** 全部学校的筛查记录见 [GRE_AUDIT.md](../GRE_AUDIT.md)。如果实时规则变为对当前申请背景强制要求 GRE，应暂停或删除该学校，不得绕过硬约束。
+
+## 学校级材料清单
+
+- [ ] 在线申请表及申请费，或获批的费用减免证明
+- [ ] 学术简历和研究简历
+- [ ] {details['statement']}
+- [ ] 所有高等教育阶段的正式成绩单和最终学位证书
+- [ ] 英语能力证明，或有文件依据的豁免结论
+- [ ] 护照或在线系统接受的其他身份证明
+- [ ] {details['lor']}
+- [ ] 实时项目要求中的研究计划、写作样本或补充题目
+- [ ] 从学校官方页面核实导师研究匹配及当前招生状态
+
+## 学校特定检查
 
 {school_checks}
 
-## Supervisor packages
+## 导师申请包
 
-Outreach approach: **{school['contact']}**
+套磁策略：**{details['outreach']}**
 
 {faculty_rows}
 
-Each supervisor folder contains the full working package: two CVs, statement of purpose, research statement, research proposal, project summaries, tailored contact email, checklist, fact-check ledger, writing-sample cover note, and supplied evidence attachments.
+每个导师目录均包含完整工作包：两版简历、目的陈述、研究陈述、研究计划、项目摘要、定制套磁邮件、申请清单、事实核对表、写作样本说明页及现有证据附件。
 
-## Submission boundary
+## 提交边界
 
-These are structured drafts, not authorization to submit or email. Before external use, replace every placeholder; add the current official Melbourne transcript, confirmed degree certificates, identity and English evidence, and consenting referees; then verify the live portal requirements and the supervisor's current profile.
+这些文件是结构化草稿，不代表已经获准提交申请或发送邮件。对外使用前必须替换全部占位符，补充墨尔本大学最新正式成绩单、已确认的学位证书、身份及英语证明和已同意推荐的推荐人，并再次核对实时申请系统要求及导师最新主页。
 """
 
 

@@ -1,42 +1,49 @@
 # 新加坡国立大学 (National University of Singapore)
 
-Priority: **15**<br>
-Program: **PhD in Computer Science (School of Computing)**<br>
-Official source: https://www.comp.nus.edu.sg/programmes/pg/phdis/admissions/
+申请优先级：**15**<br>
+申请项目：**PhD in Computer Science (School of Computing)**
 
-## GRE screen
+## 官方链接
 
-**Not required for the School of Computing PhD application.** See the repository-wide decision record in [GRE_AUDIT.md](../GRE_AUDIT.md). If the live rule changes to mandatory GRE for this applicant profile, remove or pause this school instead of silently weakening the screen.
+- [项目介绍页面](https://www.comp.nus.edu.sg/programmes/pg/phdis/)
+- [在线申请通道](https://gradapp.nus.edu.sg/apply)
+- [材料要求核对页](https://www.comp.nus.edu.sg/programmes/pg/phdis/admissions/)
 
-## School-level required materials
+> 链接已于 2026-08-15 核对。申请入口、截止日期和材料要求可能调整，实际提交前必须再次访问官方页面确认。
 
-- [ ] Online application form and application fee or approved waiver
-- [ ] Academic CV and research CV
-- [ ] Mandatory Statement of Purpose and CV, plus complete academic and identity documents
-- [ ] Official transcripts for all tertiary study and final degree certificates
-- [ ] English-language evidence or a documented waiver decision
-- [ ] Passport or other portal-accepted identity document
-- [ ] 2 academic references
-- [ ] Research proposal or writing sample when the live programme prompt requests one
-- [ ] Faculty fit and current supervision availability verified against official pages
+## GRE 筛查
 
-## School-specific checks
+**NUS School of Computing 博士申请不要求 GRE。** 全部学校的筛查记录见 [GRE_AUDIT.md](../GRE_AUDIT.md)。如果实时规则变为对当前申请背景强制要求 GRE，应暂停或删除该学校，不得绕过硬约束。
 
-- [ ] Record GRE as not required; do not order or submit a score solely for this application
-- [ ] Submit the mandatory Statement of Purpose and CV with the online application
-- [ ] Verify the live August and January intake cut-off dates before submission
+## 学校级材料清单
 
-## Supervisor packages
+- [ ] 在线申请表及申请费，或获批的费用减免证明
+- [ ] 学术简历和研究简历
+- [ ] 必需的目的陈述、简历、完整学术材料和身份证明。
+- [ ] 所有高等教育阶段的正式成绩单和最终学位证书
+- [ ] 英语能力证明，或有文件依据的豁免结论
+- [ ] 护照或在线系统接受的其他身份证明
+- [ ] 2 位学术推荐人。
+- [ ] 实时项目要求中的研究计划、写作样本或补充题目
+- [ ] 从学校官方页面核实导师研究匹配及当前招生状态
 
-Outreach approach: **Departmental application; selective faculty contact is useful after reading current work, but supervisor consent is not listed as a formal application prerequisite.**
+## 学校特定检查
 
-- [Kian Hsiang Low](<Kian Hsiang Low/>) — learning and optimization, data-centric AI, collaborative AI, decision making, and trustworthy AI
-- [Reza Shokri](<Reza Shokri/>) — data privacy, trustworthy machine learning, and federated learning
-- [Anthony K H Tung](<Anthony K H Tung/>) — database systems, data mining, time series, trustworthy AI, and deployable decision systems
-- [Jiancong Xiao](<Jiancong Xiao/>) — learning theory, statistics, optimization, responsible machine learning, calibration, and robustness
+- [ ] 记录为 GRE 不要求，不为该申请单独订购或提交 GRE 成绩。
+- [ ] 在线申请必须同时提交目的陈述和简历。
+- [ ] 提交前复核 8 月和 1 月入学轮次的实时截止日期。
 
-Each supervisor folder contains the full working package: two CVs, statement of purpose, research statement, research proposal, project summaries, tailored contact email, checklist, fact-check ledger, writing-sample cover note, and supplied evidence attachments.
+## 导师申请包
 
-## Submission boundary
+套磁策略：**院系统一申请；精读导师近期工作后可选择性联系，但导师同意不是提交前置条件。**
 
-These are structured drafts, not authorization to submit or email. Before external use, replace every placeholder; add the current official Melbourne transcript, confirmed degree certificates, identity and English evidence, and consenting referees; then verify the live portal requirements and the supervisor's current profile.
+- [Kian Hsiang Low](<Kian Hsiang Low/>)
+- [Reza Shokri](<Reza Shokri/>)
+- [Anthony K H Tung](<Anthony K H Tung/>)
+- [Jiancong Xiao](<Jiancong Xiao/>)
+
+每个导师目录均包含完整工作包：两版简历、目的陈述、研究陈述、研究计划、项目摘要、定制套磁邮件、申请清单、事实核对表、写作样本说明页及现有证据附件。
+
+## 提交边界
+
+这些文件是结构化草稿，不代表已经获准提交申请或发送邮件。对外使用前必须替换全部占位符，补充墨尔本大学最新正式成绩单、已确认的学位证书、身份及英语证明和已同意推荐的推荐人，并再次核对实时申请系统要求及导师最新主页。

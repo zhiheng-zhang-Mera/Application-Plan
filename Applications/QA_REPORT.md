@@ -19,7 +19,8 @@ The repository path contains non-ASCII characters. The compile workflow therefor
 | Check | Result |
 |---|---:|
 | Priority-ordered bilingual school folders | 17 passed |
-| School-level requirements READMEs | 17 passed |
+| Chinese school-level requirements READMEs | 17 passed |
+| Official programme and application links | 34 present |
 | Supervisor folders | 66 passed |
 | Complete TeX sources | 528 passed |
 | Non-empty Markdown files | 282 passed |

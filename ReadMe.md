@@ -1,6 +1,6 @@
 # 2027 PhD 申请计划工作表
 
-> **申请材料已生成**：按优先级、学校和导师组织的 66 个自包含申请包见 [`Applications/README.md`](Applications/README.md)。17 个学校目录均采用中英双语名称，并在学校根目录提供独立的 `README.md` 材料要求清单。所有新撰写、拟导出为 PDF 的材料均保留为 `.tex` 源文件；套磁邮件和执行清单为 `.md`。现有官方成绩单 PDF 与 WAM 图片仅作为原始证据附件保留。每个导师目录的 `10_Fact_Check.md` 列出可用事实和提交前必须补充/核验的信息。
+> **申请材料已生成**：按优先级、学校和导师组织的 66 个自包含申请包见 [`Applications/README.md`](Applications/README.md)。17 个学校目录均采用中英双语名称，并在学校根目录提供中文 `README.md` 材料要求清单；每份清单均包含官方项目介绍、在线申请通道和材料要求核对链接。所有新撰写、拟导出为 PDF 的材料均保留为 `.tex` 源文件；套磁邮件和执行清单为 `.md`。现有官方成绩单 PDF 与 WAM 图片仅作为原始证据附件保留。每个导师目录的 `10_Fact_Check.md` 列出可用事实和提交前必须补充/核验的信息。
 
 > **方向**：Financial ML / Quant Research Infrastructure / ML Systems / Data Systems / Trustworthy AI / Optimization  
 > **版本**：2026-08-15  
