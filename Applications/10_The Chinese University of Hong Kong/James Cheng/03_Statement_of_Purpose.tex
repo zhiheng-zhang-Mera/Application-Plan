@@ -1,0 +1,42 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.82in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,enumitem,tabularx,array,xcolor,hyperref,titlesec}
+\definecolor{accent}{HTML}{173B57}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\setlist{nosep,leftmargin=*}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\newcommand{\ApplicantName}{Zhiheng Zhang}
+\newcommand{\ApplicantEmail}{[CONFIRM EMAIL]}
+\newcommand{\ApplicantPhone}{[CONFIRM PHONE]}
+\newcommand{\ApplicantGitHub}{\url{https://github.com/zhiheng-zhang-Mera/Quant-Ultra/tree/1988d9a8530da91a8158de864d098ea869098923}}
+\pagestyle{plain}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Statement of Purpose}\\[0.25em]
+{\large \ApplicantName}\\
+The Chinese University of Hong Kong --- James Cheng
+\end{center}
+\vspace{0.35em}\hrule\vspace{0.65em}
+
+I want to study a deceptively simple question: when should we trust the output of a machine-learning research pipeline operating on changing data? In financial applications, a model may look successful because future information entered a feature, a universe was reconstructed with hindsight, hyperparameters were selected on the test period, transaction costs were ignored, or one favorable regime dominated the result. My goal is to build data and ML systems that make those failure modes testable and that preserve enough evidence for another researcher to reproduce, challenge, or reject a conclusion.
+
+My preparation combines computer science training in the Bachelor of Science program at the University of British Columbia with postgraduate computing coursework and an ongoing research project at the University of Melbourne. My undergraduate record is uneven, but it also documents meaningful improvement. Later results include 93 in the capstone software engineering project, 90 in databases on a successful retake, 88 in image processing, 86 in both data analytics and software engineering, 85 in numerical analysis, and 82 in analysis of algorithms. At Melbourne, my strongest completed results include 78 in Evaluating User Experience, 76 in Machine Learning Applications for Health, 70 in Information Visualization, and 69 in Research Methods. I do not present these numbers as a substitute for research potential; instead, they show the trajectory that led me toward more disciplined, project-centered work. The final UBC degree award and exact Melbourne degree title will be stated only after the corresponding official documents are added.
+
+That trajectory is clearest in Quant-Ultra, my primary research and engineering project. I frame Quant-Ultra as auditable, leakage-resistant infrastructure for financial ML, not as a trading product. The system is intended to connect point-in-time data construction, temporal validation, walk-forward backtesting, transaction-cost assumptions, risk-aware decisions, monitoring, and machine-readable governance evidence. A central design principle is that completing every pipeline stage does not prove investment validity. Reconciliation failures, missing provenance, weak baselines, or unstable model checks should lead to a review-only outcome rather than an overstated recommendation.
+
+This engineering work has shaped a research agenda. I want to formalize temporal data contracts, study how distribution shifts interact with model selection, evaluate constrained decision rules under realistic frictions, and identify the minimum evidence needed for a result to be reproducible and decision-relevant. The project also raises systems questions: how should large experiment graphs preserve data lineage; how can monitoring distinguish a data failure from a genuine regime change; and how should an infrastructure expose uncertainty to researchers without hiding it behind a single score?
+
+My secondary project, Privacy Lens, gives me another view of the same methodological problem. It studies auditability, provenance, replay boundaries, and fail-closed behavior in privacy-sensitive software. I use it in this application as evidence of a broader interest in trustworthy systems and bounded claims. I do not equate compliance simulation with legal validity, just as I do not equate a successful backtest with investment validity. In both settings, the research value lies in designing systems that state what their evidence does and does not support.
+
+The Chinese University of Hong Kong is a strong setting for this agenda because the MPhil-PhD in Computer Science and Engineering can connect rigorous computer science with consequential data-driven decisions. I am particularly interested in James Cheng's work on high-performance systems for data analytics, machine learning, and inference. A concrete starting point would be high-performance financial ML infrastructure with reproducible data and experiment lineage. I would bring an existing problem formulation and engineering testbed, while seeking deeper training in theory, experimental design, and the relevant systems or learning methods. I also see value in collaborating beyond a single application domain: the same temporal-validity and provenance questions arise in scientific, health, and operational data systems.
+
+In doctoral study, I would begin by constructing a reproducible benchmark suite for temporal data and evaluation failures. I would then compare methods under controlled distribution shifts and realistic decision constraints, preserving both positive and negative results. The objective would not be to claim universal market predictability. It would be to produce general methods, open artifacts, and empirically defensible guidance for building reliable ML and data systems in non-stationary environments.
+
+My long-term goal is to work as a researcher or research engineer at the intersection of ML systems, data infrastructure, and quantitative decision-making. I want to contribute tools that let research teams move faster without weakening evidentiary standards. Doctoral training at The Chinese University of Hong Kong, and especially the opportunity to learn from James Cheng, would help me turn a production-oriented prototype into a precise and publishable research program.
+
+\textit{Submission note: adapt this draft to the live prompt and word limit. Do not submit until the bracketed contact fields, exact Melbourne degree title, project links, and any verified thesis details have been completed.}
+\end{document}

@@ -1,0 +1,46 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.82in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,enumitem,tabularx,array,xcolor,hyperref,titlesec}
+\definecolor{accent}{HTML}{173B57}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\setlist{nosep,leftmargin=*}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\newcommand{\ApplicantName}{Zhiheng Zhang}
+\newcommand{\ApplicantEmail}{[CONFIRM EMAIL]}
+\newcommand{\ApplicantPhone}{[CONFIRM PHONE]}
+\newcommand{\ApplicantGitHub}{\url{https://github.com/zhiheng-zhang-Mera/Quant-Ultra/tree/1988d9a8530da91a8158de864d098ea869098923}}
+\pagestyle{plain}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Quant-Ultra: One-Page Research Summary}\\[0.25em]
+{\large \ApplicantName}\\
+The Hong Kong University of Science and Technology --- Binhang Yuan
+\end{center}
+\vspace{0.35em}\hrule\vspace{0.65em}
+
+\textbf{Positioning.} Quant-Ultra is an auditable, leakage-resistant research infrastructure project for financial machine learning. It is not presented as a validated investment product.
+
+\textbf{Problem.} Financial ML can produce attractive but non-reproducible results when future information enters features, assets are selected with hindsight, model choices reuse test evidence, costs are omitted, or weak diagnostics are hidden behind an aggregate metric.
+
+\textbf{System concept.}
+\begin{itemize}
+\item Point-in-time data construction and explicit feature-availability rules.
+\item Time-respecting walk-forward evaluation with fold-local selection.
+\item Transaction-cost-aware backtesting and risk-constrained decisions.
+\item Monitoring for drift, anomalies, and evidence-quality failures.
+\item Run fingerprints, reconciliation, stage contracts, and audit bundles.
+\item Fail-closed governance: missing or failed evidence leads to hold-for-review or observation-only output.
+\end{itemize}
+
+\textbf{Research questions.} Which temporal contracts detect the most consequential leakage? How stable are model and decision rankings across regimes and cost assumptions? What evidence is sufficient to reproduce a claim? How can governance checks remain strict without preventing useful iteration?
+
+\textbf{Targeted doctoral extension.} With Binhang Yuan, I would study distributed data and experiment infrastructure for point-in-time, reproducible financial ML.
+
+\textbf{Evidence boundary.} A completed run, passing software tests, or a favorable historical metric does not establish investment validity or future performance. The project is designed to make that boundary operational and visible.
+
+\textbf{Artifact link.} \ApplicantGitHub\quad \textit{Replace with an immutable release or commit permalink before sending.}
+\end{document}

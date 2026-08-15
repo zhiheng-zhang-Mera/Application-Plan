@@ -1,0 +1,34 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.82in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,enumitem,tabularx,array,xcolor,hyperref,titlesec}
+\definecolor{accent}{HTML}{173B57}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\setlist{nosep,leftmargin=*}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\newcommand{\ApplicantName}{Zhiheng Zhang}
+\newcommand{\ApplicantEmail}{[CONFIRM EMAIL]}
+\newcommand{\ApplicantPhone}{[CONFIRM PHONE]}
+\newcommand{\ApplicantGitHub}{\url{https://github.com/zhiheng-zhang-Mera/Quant-Ultra/tree/1988d9a8530da91a8158de864d098ea869098923}}
+\pagestyle{plain}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Privacy Lens: One-Page Research Summary}\\[0.25em]
+{\large \ApplicantName}\\
+The Hong Kong Polytechnic University --- Houduo Qi
+\end{center}
+\vspace{0.35em}\hrule\vspace{0.65em}
+
+\textbf{Positioning.} Privacy Lens is a trustworthy-software research prototype used to study auditability, provenance, replay boundaries, and fail-closed validation in privacy-sensitive application flows.
+
+\textbf{Research value.} The project asks how a software system can preserve the source and context of an event, reject invalid or unsafe inputs, and generate audit evidence whose interpretation is explicit. It treats simulator output and short device tests as bounded engineering evidence, not as proof of universal device behavior or legal compliance.
+
+\textbf{Connection to Quant-Ultra.} The projects share a methodology: evidence should be traceable, invalid inputs should fail closed, and successful execution should not be confused with external validity. Privacy Lens supplies a second domain in which to test governance and provenance patterns. It remains secondary in this application so that the research narrative stays coherent.
+
+\textbf{Potential doctoral relevance.} The reusable questions concern provenance schemas, evidence contracts, monitoring, reproducible replay, human-readable audit records, and the boundary between technical checks and broader claims. These ideas can inform trustworthy data and ML systems without asserting that privacy compliance and financial modeling are interchangeable.
+
+\textbf{Artifact link.} [CONFIRM PRIVACY LENS PERMALINK AND THESIS/REPORT LINK BEFORE SENDING]
+\end{document}

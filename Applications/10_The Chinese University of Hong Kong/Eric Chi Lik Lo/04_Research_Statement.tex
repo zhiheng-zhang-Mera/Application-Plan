@@ -1,0 +1,55 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.82in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,enumitem,tabularx,array,xcolor,hyperref,titlesec}
+\definecolor{accent}{HTML}{173B57}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\setlist{nosep,leftmargin=*}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\newcommand{\ApplicantName}{Zhiheng Zhang}
+\newcommand{\ApplicantEmail}{[CONFIRM EMAIL]}
+\newcommand{\ApplicantPhone}{[CONFIRM PHONE]}
+\newcommand{\ApplicantGitHub}{\url{https://github.com/zhiheng-zhang-Mera/Quant-Ultra/tree/1988d9a8530da91a8158de864d098ea869098923}}
+\pagestyle{plain}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Research Statement}\\[0.25em]
+{\large \ApplicantName}\\
+The Chinese University of Hong Kong --- Eric Chi Lik Lo
+\end{center}
+\vspace{0.35em}\hrule\vspace{0.65em}
+
+\section*{Research Vision}
+My research goal is to make machine-learning evidence dependable in non-stationary, high-stakes environments. I focus on the infrastructure between raw data and a decision: temporal data construction, experiment design, model selection, constrained optimization, monitoring, provenance, and claim governance. Financial ML is my primary application because it combines severe distribution shift with strong incentives to overfit; the methods should generalize to other temporal decision systems.
+
+\section*{1. Auditable Temporal Data and Evaluation}
+Point-in-time correctness is often discussed as a dataset property, but in practice it is a system property. A feature can be temporally correct at ingestion and still leak information through revision handling, universe construction, imputation, cross-validation, or parameter tuning. I propose explicit temporal data contracts that record availability time, effective time, revision policy, and permitted downstream transformations. Experiments would inject controlled contract violations and measure which checks detect them, which metrics are distorted, and which downstream decisions change.
+
+The empirical design would combine synthetic controls, where the ground truth of a leak is known, with carefully versioned public financial datasets. Evaluation would use walk-forward folds, fold-local preprocessing and selection, embargo where dependence requires it, simple baselines, and sensitivity analyses. The output would be a benchmark of failure modes and a reference implementation whose lineage can be independently inspected.
+
+\section*{2. Learning and Decisions under Shift and Friction}
+Predictive performance does not directly translate into decision quality. A model can improve an average error metric while producing an unstable or infeasible portfolio after turnover, costs, liquidity, and risk constraints. I therefore want to study learning and optimization as a coupled but separately auditable pipeline. Models would be evaluated across regime partitions and controlled shifts; decision rules would be compared under identical information sets and explicit cost models.
+
+The emphasis is not on reporting the best Sharpe ratio. It is on understanding when apparent gains survive alternative windows, delayed information, higher costs, simpler baselines, and uncertainty in estimated parameters. Negative results would be preserved. Governance gates would prevent a decision-oriented result when reconciliation, provenance, or robustness checks fail.
+
+\section*{3. Systems for Reproducible Research}
+Large experiment programs create operational questions that are themselves researchable: how to identify equivalent data snapshots, cache without contaminating folds, schedule dependent experiments, trace a reported number back to code and data, and surface failures without overwhelming the researcher. Quant-Ultra is an initial testbed for studying these questions. I plan to develop immutable run fingerprints, typed stage contracts, data-quality assertions, resource-aware execution, and evidence bundles that connect a table or figure to its generating configuration.
+
+Privacy Lens provides a complementary testbed for fail-closed validation and bounded interpretation. Its role is to test whether provenance and governance patterns transfer across domains, while respecting the fact that simulator evidence does not establish legal compliance or broad device behavior.
+
+\section*{Fit and Proposed Collaboration}
+At The Chinese University of Hong Kong, I am particularly interested in Eric Chi Lik Lo's research on machine learning, big data, databases, data mining, and distributed systems. The proposed bridge is database and distributed-system support for point-in-time datasets and leakage-resistant analytics. This fit would let me deepen the theoretical or systems foundations of the work while contributing an existing implementation context, a strong concern for reproducibility, and a willingness to report failure modes as research results.
+
+\section*{Expected Contributions}
+\begin{enumerate}
+\item A taxonomy and benchmark suite for temporal-data and evaluation failures in non-stationary ML.
+\item Methods for drift-aware, cost-aware, and risk-constrained evaluation that separate prediction from decisions.
+\item A reproducible systems architecture linking data contracts, experiment lineage, monitoring, and governance gates.
+\item Open artifacts and reporting templates that state evidence boundaries and preserve negative results.
+\end{enumerate}
+
+Success would be measured by detection coverage, reproducibility, robustness across shifts and assumptions, computational cost, and clarity of claim boundaries---not by a single favorable backtest.
+\end{document}

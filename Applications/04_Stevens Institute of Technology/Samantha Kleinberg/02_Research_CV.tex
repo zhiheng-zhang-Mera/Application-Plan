@@ -1,0 +1,70 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.82in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,enumitem,tabularx,array,xcolor,hyperref,titlesec}
+\definecolor{accent}{HTML}{173B57}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\setlist{nosep,leftmargin=*}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\newcommand{\ApplicantName}{Zhiheng Zhang}
+\newcommand{\ApplicantEmail}{[CONFIRM EMAIL]}
+\newcommand{\ApplicantPhone}{[CONFIRM PHONE]}
+\newcommand{\ApplicantGitHub}{\url{https://github.com/zhiheng-zhang-Mera/Quant-Ultra/tree/1988d9a8530da91a8158de864d098ea869098923}}
+\pagestyle{plain}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Research Curriculum Vitae}\\[0.25em]
+{\large \ApplicantName}\\
+Stevens Institute of Technology --- Samantha Kleinberg
+\end{center}
+\vspace{0.35em}\hrule\vspace{0.65em}
+
+\textbf{Contact}: \ApplicantEmail\quad | \quad \ApplicantPhone\quad | \quad \ApplicantGitHub
+
+\section*{Research Objective}
+I seek doctoral training in reliable machine-learning and data systems for non-stationary, high-stakes environments. My central question is how a research system can make temporal validity, data provenance, model uncertainty, decision constraints, and claim boundaries inspectable rather than implicit. The proposed collaboration with Samantha Kleinberg focuses on distinguishing predictive association from temporally valid evidence in non-stationary financial time series.
+
+\section*{Education and Evidence of Preparation}
+\textbf{University of Melbourne, postgraduate computing study} \hfill 2025--present
+\begin{itemize}
+\item Research Methods (69), Machine Learning Applications for Health (76), Information Visualization (70), Evaluating User Experience (78), plus advanced algorithms, databases, machine learning, and social computing.
+\item Current Computer Science Research Project: supplied progress record reports 30/40 across the proposal and oral-presentation components; the remaining 60 percent is pending. This is reported as progress evidence, not as a final thesis result.
+\end{itemize}
+
+\textbf{The University of British Columbia, Okanagan, Bachelor of Science program} \hfill 2020--2024\\
+\textit{The supplied transcript lists no credential to date; verify the final award and conferral wording from the degree certificate.}
+\begin{itemize}
+\item Strong later-stage evidence in Capstone Software Engineering (93), Databases retake (90), Image Processing (88), Data Analytics and Software Engineering (86 each), Numerical Analysis (85), Algorithms (82), and Computer Ethics (84).
+\item The transcript also contains weaker early and individual results. Applications should present the full record and use research artifacts and referee evidence to explain growth without minimizing the record.
+\end{itemize}
+
+\section*{Primary Project: Quant-Ultra}
+\textbf{Problem.} Financial ML experiments are unusually vulnerable to time leakage, survivorship and feature availability errors, unstable regimes, cost-blind objectives, and post-hoc selection. A numerically attractive backtest is not decision-grade evidence if its data and evaluation path cannot be reconstructed.
+
+\textbf{System direction.} Quant-Ultra is framed as research infrastructure rather than a stock-picking product. It connects point-in-time data construction, leakage-resistant fold design, walk-forward evaluation, execution assumptions, transaction costs, risk-aware portfolio decisions, monitoring, reconciliation, and an audit trail. The design makes failure states visible and separates pipeline success from claims of investment validity.
+
+\textbf{Research contribution sought.} The doctoral extension would formalize temporal data contracts, evaluate robustness across regimes and data perturbations, compare constrained decision rules, and study which provenance and monitoring evidence is sufficient for reproducibility. In the context of Samantha Kleinberg's work, the most direct bridge is distinguishing predictive association from temporally valid evidence in non-stationary financial time series.
+
+\textbf{Evaluation principles.}
+\begin{itemize}
+\item Use time-respecting train/validation/test splits, embargo where relevant, and fold-local parameter selection.
+\item Separate predictive metrics from economic utility and report turnover, costs, risk, and sensitivity.
+\item Preserve negative and failed runs; require reconciliation and governance evidence before decision-oriented output.
+\item Compare against simple baselines and report uncertainty instead of selecting only favorable intervals.
+\end{itemize}
+
+\section*{Secondary Project: Privacy Lens}
+Privacy Lens provides a second testbed for trustworthy software. Its contribution to the application is methodological: fail-closed validation, provenance, replay limits, audit records, and careful separation between simulator evidence and broad real-world claims. The connection to Quant-Ultra is a common concern with accountable software behavior, not an assertion that privacy compliance and financial prediction are the same problem.
+
+\section*{Methods and Preparation}
+Preparation includes algorithms, databases, numerical analysis, probability, statistics, machine learning, data analytics, software engineering, human-computer interaction, ethics, and research methods. Current methodological interests include temporal validation, distribution-shift diagnostics, constrained optimization, data-quality contracts, experiment lineage, and interpretable failure analysis.
+
+\section*{Research Outputs and Open-Science Plan}
+No publication is claimed in the supplied evidence. Before submission, add only verified releases, archived commits, preprints, talks, or thesis artifacts. Planned artifact practice includes immutable experiment configurations, data-snapshot identifiers, environment manifests, test suites, negative-result logs, and concise model/data cards.
+
+\section*{References}
+Referee names are intentionally withheld until consent is confirmed. The target mix is a current research supervisor, an academic who can evaluate mathematical/ML depth, and an academic who can evaluate the later UBC engineering trajectory.
+\end{document}
