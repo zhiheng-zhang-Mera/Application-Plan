@@ -261,23 +261,43 @@ SCHOOLS = [
     },
     {
         "order": "16",
-        "folder": "Nanyang Technological University",
-        "school": "Nanyang Technological University, Singapore",
-        "program": "PhD in Computer Science and Engineering (College of Computing and Data Science)",
-        "contact": "Targeted faculty contact is recommended, but first obtain written clarification of the CCDS GRE/GMAT rule for an overseas-degree applicant.",
+        "folder": "National University of Singapore",
+        "school": "National University of Singapore",
+        "program": "PhD in Computer Science (School of Computing)",
+        "contact": "Departmental application; selective faculty contact is useful after reading current work, but supervisor consent is not listed as a formal application prerequisite.",
         "lor": "2 academic references",
-        "statement": "Research proposal where applicable, resume, Personal Statement, and verified research-output abstracts",
-        "source": "https://www.ntu.edu.sg/admissions/graduate/radmissionguide",
+        "statement": "Mandatory Statement of Purpose and CV, plus complete academic and identity documents",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdis/admissions/",
         "special_checks": [
-            "Obtain written CCDS clarification of the GRE/GMAT requirement for an overseas-degree applicant",
-            "Keep the application at NO-GO if GRE/GMAT is mandatory and no waiver is granted",
-            "Verify the CCDS-specific deadline and requirements rather than relying only on the central admission guide",
+            "Record GRE as not required; do not order or submit a score solely for this application",
+            "Submit the mandatory Statement of Purpose and CV with the online application",
+            "Verify the live August and January intake cut-off dates before submission",
         ],
         "faculty": [
-            ("Bo An", "multi-agent systems, computational game theory, reinforcement learning, optimization, and financial technology", "auditable reinforcement-learning and multi-agent decision infrastructure for financial markets with realistic costs and risk constraints"),
-            ("Gao Cong", "data management, data mining, large-scale analytics, and databases for AI", "database support for point-in-time financial data, traceable feature generation, and reproducible ML experiments"),
-            ("Anwitaman Datta", "distributed systems, data integrity, cybersecurity, decentralized finance, and technology governance", "resilient and auditable distributed financial systems connecting data integrity, operational risk, and bounded governance claims"),
-            ("Sean Du Xuefeng", "reliable machine learning, uncertainty quantification, and robust open-world AI", "reliable financial learning under open-world distribution shifts with explicit uncertainty and failure-oriented evaluation"),
+            ("Kian Hsiang Low", "learning and optimization, data-centric AI, collaborative AI, decision making, and trustworthy AI", "drift-aware financial learning and optimization with explicit uncertainty, temporal validation, and auditable decision constraints"),
+            ("Reza Shokri", "data privacy, trustworthy machine learning, and federated learning", "privacy-aware and auditable financial ML infrastructure with bounded claims, provenance, and failure-oriented evaluation"),
+            ("Anthony K H Tung", "database systems, data mining, time series, trustworthy AI, and deployable decision systems", "right-sized and explainable financial AI for rare events and changing regimes, supported by traceable point-in-time data"),
+            ("Jiancong Xiao", "learning theory, statistics, optimization, responsible machine learning, calibration, and robustness", "theoretical and empirical foundations for calibrated financial learning under distribution shift and asymmetric risk"),
+        ],
+    },
+    {
+        "order": "17",
+        "folder": "Singapore University of Technology and Design",
+        "school": "Singapore University of Technology and Design",
+        "program": "PhD Programme (ISTD / ESD research alignment)",
+        "contact": "Targeted faculty contact is recommended because pillar and supervisor fit shape the research pathway; the formal application remains university-level.",
+        "lor": "3 recommenders, preferably faculty able to assess research potential",
+        "statement": "Statement of Objectives plus CV, transcripts, identity evidence, and research outputs",
+        "source": "https://www.sutd.edu.sg/istd/149-2/",
+        "special_checks": [
+            "Record GRE as not required; the official ISTD page describes it only as recommended",
+            "Prepare the current Statement of Objectives and verify its live word limit",
+            "Confirm the chosen faculty member is accepting PhD students for the intended intake",
+        ],
+        "faculty": [
+            ("Yihan Du", "reinforcement learning, online learning, machine learning, AI safety, and alignment", "safe online financial learning that adapts to changing regimes while enforcing explicit risk and evidence constraints"),
+            ("Rakesh Nagi", "data science, machine learning, operations research, and optimization", "auditable optimization and ML infrastructure for sequential resource allocation under uncertainty and operational constraints"),
+            ("Karthik Natarajan", "data science, machine learning, distributionally robust optimization, and decision science", "distributionally robust financial decisions whose uncertainty sets, costs, and out-of-sample limitations remain transparent"),
         ],
     },
 ]
@@ -781,6 +801,7 @@ Every final supervisor folder contains the authored application materials, a tai
 - These are complete drafts, not submission-ready official records. The repository does not contain a current official Melbourne transcript, degree certificates, passport, English evidence, referee identities, or the complete writing sample.
 - No publication, award, employment, rank, converted GPA, or supervisor interest is asserted.
 - Faculty research hooks come from the plan and must be checked against current official profiles and recent work before sending.
+- The current GRE screen is recorded in `Applications/GRE_AUDIT.md`; NTU CCDS was removed because its programme-level rule requires GRE/GMAT for this overseas-degree profile.
 - HKUST CSE is treated as requiring a faculty member who agrees to supervise because its current FAQ says so; do not rely on the older optional-contact classification.
 - Department-level programs include individual faculty-fit packages for organization, but their email files are clearly marked as optional or not for mass outreach.
 

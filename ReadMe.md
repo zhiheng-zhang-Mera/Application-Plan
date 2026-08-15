@@ -1,6 +1,6 @@
 # 2027 PhD 申请计划工作表
 
-> **申请材料已生成**：按学校和导师组织的 63 个自包含申请包见 [`Applications/README.md`](Applications/README.md)。所有新撰写、拟导出为 PDF 的材料均保留为 `.tex` 源文件；套磁邮件和执行清单为 `.md`。现有官方成绩单 PDF 与 WAM 图片仅作为原始证据附件保留。每个导师目录的 `10_Fact_Check.md` 列出可用事实和提交前必须补充/核验的信息。
+> **申请材料已生成**：按学校和导师组织的 66 个自包含申请包见 [`Applications/README.md`](Applications/README.md)。所有新撰写、拟导出为 PDF 的材料均保留为 `.tex` 源文件；套磁邮件和执行清单为 `.md`。现有官方成绩单 PDF 与 WAM 图片仅作为原始证据附件保留。每个导师目录的 `10_Fact_Check.md` 列出可用事实和提交前必须补充/核验的信息。
 
 > **方向**：Financial ML / Quant Research Infrastructure / ML Systems / Data Systems / Trustworthy AI / Optimization  
 > **版本**：2026-08-15  
@@ -36,8 +36,11 @@
 | **12** | HKUST | PhD in CSE | B：可选，PI support 有价值 | 高价值冲刺 | **2027 Early deadline = 2026-08-15；错过后走 Regular** |
 | **13** | University of Technology Sydney (UTS) | PhD Thesis: Computer Science | **A：申请需导师同意或学院批准** | 澳洲主申 | 先联系 3 位导师并共同打磨 proposal；奖学金轮次前完成 pre-approval |
 | **14** | Curtin University | PhD - Computing | **A：EOI + 导师支持是正式申请前置** | 澳洲稳健主申 | 准备 2 页 proposal + 单独 references 页；先提交 EOI |
+| **15** | National University of Singapore (NUS) | School of Computing PhD in CS | C/B：系级申请，联系可选 | 新加坡高价值冲刺 | GRE 不要求；完成 SOP、CV、2 academic references 并核对 intake deadline |
+| **16** | Singapore University of Technology and Design (SUTD) | PhD - ISTD / ESD alignment | B：建议联系 | 新加坡主申 | GRE 不要求；准备 Statement of Objectives 并联系 3 位匹配导师 |
 | **R1** | UC Riverside | PhD in Computer Science | B：可选 | 条件备选 | 仅在 PI 回复积极时投；Master GPA expectation 风险高 |
-| **R2** | Nanyang Technological University (NTU) | PhD in CSE / CCDS | B：建议联系；规则冲突待核 | 条件冲刺 | **先书面确认海外学历申请人的 GRE/GMAT 是否可豁免；无豁免则按“不考 GRE”硬约束删除** |
+
+GRE 逐校审计及删除证据见 [`Applications/GRE_AUDIT.md`](Applications/GRE_AUDIT.md)。NTU CCDS 已因对海外高校毕业生默认强制 GRE/GMAT 而删除。
 
 ### 总材料库：先一次性准备
 
@@ -725,48 +728,76 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 ### Go / No-Go 条件
 
 - [ ] Eamonn Keogh / Papalexakis 至少一位给出明确正面信号 → **GO**
-- [ ] 无任何 PI 信号 + 其他 12 校材料尚未完成 → **NO-GO**
+- [ ] 无任何 PI 信号 + 其他主申材料尚未完成 → **NO-GO**
 
 ---
 
-## R2. Nanyang Technological University — PhD in Computer Science and Engineering (CCDS)
+## A5. National University of Singapore — School of Computing PhD in Computer Science
 
-**定位：条件冲刺，不占用无 GRE 主申请名额。**
+**定位：新加坡高价值冲刺。**
 
-**关键冲突：** NTU 中央 Research Programmes Admission Guide 将 GRE/GMAT/GATE 写为 “where applicable”，但 CCDS Computer Science and Engineering 项目页仍写明：非新加坡 Autonomous Universities 毕业生需要有效 GRE/GMAT，exceptional cases 才可能考虑 waiver。申请人海外本科背景下，必须先向 `ccdspostgrad@ntu.edu.sg` 取得书面解释；若不可豁免，则依据本计划“不准备 GRE”的硬约束删除。
+**GRE：不要求，仅鼓励有成绩者提交。** 不为本项目准备或补考 GRE。
 
-**申请轮次：** 中央指南当前列出 August intake 为 10 月 1 日至 1 月 31 日，January intake 为 6 月 1 日至 7 月 31 日；仍需核对 CCDS 当轮 deadline。
+**申请结构：** School of Computing 系级申请；当前材料清单要求 mandatory SOP、CV、完整学历材料、身份证明和 2 份 referee reports。导师联系不是官方列出的完整申请前置条件，但精确 faculty fit 有助于 SOP 和研究定位。
 
 ### 匹配导师
 
 | 顺序 | PI | 匹配度 | 最适合的切入点 | 行动 |
 |---:|---|---|---|---|
-| 1 | **Bo An** | **A+** | multi-agent systems / game theory / RL / optimization / TradeMaster fintech platform | [ ] GRE 澄清后第一批联系 |
-| 2 | **Gao Cong** | **A+** | data management / data mining / large-scale analytics / databases for AI | [ ] GRE 澄清后联系 |
-| 3 | **Anwitaman Datta** | **A** | distributed systems / integrity / cyber-risk / DeFi / technology governance | [ ] GRE 澄清后联系 |
-| 4 | **Sean Du Xuefeng** | **A** | reliable ML / uncertainty / open-world robustness | [ ] 确认 2027 PhD capacity |
+| 1 | **Kian Hsiang Low** | **A+** | learning & optimization / data-centric and collaborative AI / trustworthy AI | [ ] 第一批精确联系 |
+| 2 | **Reza Shokri** | **A+** | data privacy / trustworthy ML / federated learning | [ ] 第一批精确联系 |
+| 3 | **Anthony K. H. Tung** | **A+** | databases / data mining / time series / deployable trustworthy AI | [ ] 第一批精确联系 |
+| 4 | **Jiancong Xiao** | **A** | learning theory / statistics / optimization / calibration / robustness | [ ] 阅读近期论文后联系 |
 
 ### 申请材料清单
 
-- [ ] 先向 CCDS 获取 GRE/GMAT waiver/requirement 的书面答复
-- [ ] Online application
-- [ ] Bachelor/Master academic qualifications and transcripts
-- [ ] English proficiency；若以 English-medium instruction 申请 waiver，准备正式证明
-- [ ] Resume / CV
-- [ ] Personal Statement
-- [ ] Research Proposal（如 CCDS 当轮要求）
-- [ ] **2 academic references**
-- [ ] Research publication abstracts（仅列已核验成果；无 publication 不虚构）
-- [ ] Test scores（仅在规则确认要求或决定改变“不考 GRE”策略后）
-- [ ] Scholarship selection / funding indication
+- [ ] Online Graduate Admission System application + S$50 application fee
+- [ ] Mandatory Statement of Purpose
+- [ ] Mandatory CV
+- [ ] Bachelor/Master degree certificates and complete transcripts
+- [ ] Passport / identity or residence evidence
+- [ ] **2 academic referee reports**
+- [ ] English test only if the official language exemption does not apply
+- [ ] GRE：**not required，本计划不提交**
+- [ ] Verify the live August / January intake cut-off date
 
-### GO / NO-GO
+官方起点：<https://www.comp.nus.edu.sg/programmes/pg/phdis/admissions/>
 
-- [ ] **GO：** CCDS 书面确认可免 GRE/GMAT，且至少一位导师方向和容量信号合理
-- [ ] **NO-GO：** GRE/GMAT 必需且无 waiver，或海外学历门槛/导师容量不支持
-- [ ] 不因中央指南措辞较宽松，就忽略 CCDS 项目页更严格的项目级要求
+---
 
-官方起点：<https://www.ntu.edu.sg/admissions/graduate/radmissionguide>
+## A6. Singapore University of Technology and Design — PhD (ISTD / ESD alignment)
+
+**定位：新加坡主申，偏向 trustworthy ML、online learning、optimization 和 decision science。**
+
+**GRE：ISTD 官方页写明 not required, but recommended。** 按硬约束保留且不提交 GRE。
+
+### 匹配导师
+
+| 顺序 | PI | 匹配度 | 最适合的切入点 | 行动 |
+|---:|---|---|---|---|
+| 1 | **Yihan Du** | **A+** | reinforcement learning / online learning / AI safety and alignment | [ ] 第一批联系 |
+| 2 | **Rakesh Nagi** | **A+** | data science / ML / operations research / optimization | [ ] 第一批联系 |
+| 3 | **Karthik Natarajan** | **A+** | data science / ML / distributionally robust optimization | [ ] 第一批联系 |
+
+### 申请材料清单
+
+- [ ] Online PhD application and current application fee
+- [ ] Statement of Objectives；提交前确认 live word limit
+- [ ] CV and research-output evidence
+- [ ] Latest official transcripts and expected-completion letter if still enrolled
+- [ ] Passport / identity evidence
+- [ ] **3 recommenders**，优先选择能评价研究能力的 faculty
+- [ ] English test only if undergraduate medium of instruction was not English
+- [ ] GRE：**not required，本计划不提交**
+- [ ] Confirm the intended faculty member is accepting PhD students for the target intake
+
+官方起点：<https://www.sutd.edu.sg/istd/149-2/>
+
+---
+
+## 已删除：NTU CCDS
+
+NTU CCDS 项目级页面明确要求非新加坡 Autonomous Universities 毕业生提交有效 GRE/GMAT；exceptional waiver 只是个案申请，不改变默认强制规则。因此依照“不准备 GRE”的硬约束，已删除学校条目、4 个导师包、套磁任务和 dashboard 行。完整判定见 [`Applications/GRE_AUDIT.md`](Applications/GRE_AUDIT.md)。
 
 ---
 
@@ -784,7 +815,8 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 - [ ] Quant-Ultra 1-page summary v1
 - [ ] UTS：联系 Jie Lu / Guodong Long / Guangquan Zhang，索取 supervision/pre-approval 路径
 - [ ] Curtin：完成 2-page proposal + references 页并准备 EOI
-- [ ] NTU：向 CCDS 书面确认海外学历申请人的 GRE/GMAT requirement / waiver
+- [ ] NUS：完成 mandatory SOP / CV，核对 August / January intake cut-off
+- [ ] SUTD：准备 Statement of Objectives，联系 Yihan Du / Rakesh Nagi / Karthik Natarajan
 
 ## 2026-09
 
@@ -859,7 +891,8 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 | UCR | **3** |
 | UTS | Academic referee reports；**数量以 live portal 为准** |
 | Curtin | EOI/portal referee details；**数量以 live form 为准** |
-| NTU CCDS | **2 academic** |
+| NUS School of Computing | **2 academic** |
+| SUTD | **3 recommenders** |
 
 ---
 
@@ -903,10 +936,13 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 | CityU CS alt. | Minjing Dong | [ ] | [ ] | [ ] | **已公开 2027 opening** | 仅在考虑 CS route 时 |
 | HKUST | Binhang Yuan | [ ] | [ ] | [ ] | [ ] | |
 | HKUST | Kai Chen | [ ] | [ ] | [ ] | [ ] | |
-| NTU CCDS | Bo An | [ ] | [ ] | [ ] | [ ] | only after GRE clarification |
-| NTU CCDS | Gao Cong | [ ] | [ ] | [ ] | [ ] | only after GRE clarification |
-| NTU CCDS | Anwitaman Datta | [ ] | [ ] | [ ] | [ ] | only after GRE clarification |
-| NTU CCDS | Sean Du Xuefeng | [ ] | [ ] | [ ] | [ ] | confirm 2027 capacity |
+| NUS SoC | Kian Hsiang Low | [ ] | [ ] | [ ] | [ ] | selective contact |
+| NUS SoC | Reza Shokri | [ ] | [ ] | [ ] | [ ] | selective contact |
+| NUS SoC | Anthony K. H. Tung | [ ] | [ ] | [ ] | [ ] | selective contact |
+| NUS SoC | Jiancong Xiao | [ ] | [ ] | [ ] | [ ] | read recent work first |
+| SUTD | Yihan Du | [ ] | [ ] | [ ] | [ ] | confirm intake capacity |
+| SUTD | Rakesh Nagi | [ ] | [ ] | [ ] | [ ] | confirm intake capacity |
+| SUTD | Karthik Natarajan | [ ] | [ ] | [ ] | [ ] | confirm intake capacity |
 
 ## 不建议把时间花在群发：SOP faculty-fit 即可
 
@@ -939,7 +975,8 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 | UCR reserve | [ ] | **GO/NO-GO** | [ ] | [ ] | — | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
 | UTS | [ ] | **[ ] supervision** | [ ] | [ ] | **[ ]** | [ ] | [ ] | [ ] | optional | [ ] | [ ] | |
 | Curtin | **[ ] EOI** | **[ ] support** | [ ] | — | **[ ] 2 pages** | [ ] | [ ] | portal | — | [ ] | [ ] | |
-| NTU CCDS reserve | [ ] | **GRE GO/NO-GO** | [ ] | [ ] | if required | [ ] | [ ] | **[ ] 2** | optional | [ ] | [ ] | |
+| NUS SoC | [ ] | [ ] | [ ] | **[ ]** | — | [ ] | [ ] | **[ ] 2** | optional | [ ] | [ ] | |
+| SUTD | [ ] | [ ] | [ ] | **[ ] objectives** | optional | [ ] | [ ] | **[ ] 3** | optional | [ ] | [ ] | |
 
 ---
 
@@ -987,7 +1024,8 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 - [ ] HKUST CSE 不群发；官方明确指出 mass emails unlikely to be effective。
 - [ ] UTS 申请必须附 agreed supervision evidence 或 faculty approval；导师口头感兴趣不等于 admission offer。
 - [ ] Curtin 必须先走 EOI；没有导师支持和正式邀请时，不把正式 application 当作可提交状态。
-- [ ] NTU CCDS 的 GRE/GMAT 文案与中央指南存在冲突；没有书面 waiver 前保持 **NO-GO / HOLD_FOR_REVIEW**。
+- [ ] GRE 审计表必须在每所学校提交前 30 天更新；若项目级规则改为 required，则在缴费前删除。
+- [ ] NTU CCDS 已因海外学历申请人默认强制 GRE/GMAT 而删除，不再投入套磁或材料时间。
 
 ---
 
@@ -1013,7 +1051,9 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 - UTS — **Submit an application for a Doctorate or Master's by Research** / **Documentation needed to apply for a research degree**
 - UTS FEIT — **Research degrees** / official UTS researcher profiles
 - Curtin — **Doctor of Philosophy - Computing** / **How to apply for a research degree** / **Find a Researcher or Supervisor**
-- NTU — **Research Programmes Admission Guide** / **Doctor of Philosophy - Computer Science and Engineering** / **CCDS Faculty**
+- NUS School of Computing — **PhD Admission Requirements** / **PhD Application Information** / official faculty profiles
+- SUTD — **ISTD PhD Application Process** / **ESD PhD Programme** / official faculty profiles
+- NTU CCDS — **Doctor of Philosophy - Computer Science and Engineering**（仅作为 GRE 强制删除证据）
 
 ---
 

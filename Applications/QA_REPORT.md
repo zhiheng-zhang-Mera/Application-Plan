@@ -18,11 +18,11 @@ The repository path contains non-ASCII characters. The compile workflow therefor
 
 | Check | Result |
 |---|---:|
-| Supervisor folders | 63 passed |
-| Complete TeX sources | 504 passed |
-| Non-empty Markdown files | 253 passed |
-| Official transcript copies | 63 passed |
-| TeX compilations | 504 / 504 passed |
+| Supervisor folders | 66 passed |
+| Complete TeX sources | 528 passed |
+| Non-empty Markdown files | 265 passed |
+| Official transcript copies | 66 passed |
+| TeX compilations | 528 / 528 passed |
 | Compile failures | 0 |
 | LaTeX warnings | 0 |
 | Overfull boxes | 0 |
@@ -33,7 +33,7 @@ Each TeX source was compiled twice. The machine-readable compile manifest is wri
 
 ## Visual acceptance
 
-Eight representative document types from one package at each newly added university were rendered and inspected, covering 39 pages in total. The representative packages were Jie Lu at University of Technology Sydney, Aneesh Krishna at Curtin University, and Bo An at Nanyang Technological University:
+Eight representative document types from one package at each newly added university were rendered and inspected, covering 26 pages in total. The representative packages were Kian Hsiang Low at the National University of Singapore and Yihan Du at the Singapore University of Technology and Design:
 
 1. Academic CV
 2. Research CV
@@ -44,7 +44,11 @@ Eight representative document types from one package at each newly added univers
 7. Privacy Lens Research Summary
 8. Writing Sample Cover Note
 
-All inspected pages used US Letter media boxes and had extractable text. No clipping, overlap, unreadable glyphs, or content outside page bounds was observed. The new-school acceptance pass also removed an isolated final proposal line by tightening proposal paragraph spacing while retaining a readable two-page layout.
+All inspected pages used US Letter media boxes and had extractable text. No clipping, overlap, unreadable glyphs, or content outside page bounds was observed. Each representative proposal remained a readable two-page document.
+
+## GRE hard-constraint audit
+
+The current programme-level GRE review is recorded in `Applications/GRE_AUDIT.md`. NTU CCDS was removed because its official programme page states that GRE/GMAT is required for applicants who did not graduate from a Singapore Autonomous University. NUS School of Computing and SUTD were retained because their current official admissions pages state that GRE is not required. All other retained programmes were reviewed as not required, optional, recommended, or not listed as a programme requirement; each must still be checked against the live portal 30 days before submission.
 
 ## Acceptance boundary
 

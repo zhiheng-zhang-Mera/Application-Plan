@@ -21,13 +21,15 @@ Every final supervisor folder contains the authored application materials, a tai
 | 13 | University of California, Riverside | PhD in Computer Science | 3 | Reserve application: send a targeted inquiry first and apply only if the PI signal and full portfolio justify the cost. |
 | 14 | University of Technology Sydney | Doctor of Philosophy (PhD Thesis: Computer Science) | 3 | Agreed supervision or faculty approval is required; contact a supervisor and develop the proposal before the formal application. |
 | 15 | Curtin University | Doctor of Philosophy - Computing | 3 | Supervisor support is a formal pre-application gate: submit an expression of interest with a topic and CV, then apply only if invited. |
-| 16 | Nanyang Technological University, Singapore | PhD in Computer Science and Engineering (College of Computing and Data Science) | 4 | Targeted faculty contact is recommended, but first obtain written clarification of the CCDS GRE/GMAT rule for an overseas-degree applicant. |
+| 16 | National University of Singapore | PhD in Computer Science (School of Computing) | 4 | Departmental application; selective faculty contact is useful after reading current work, but supervisor consent is not listed as a formal application prerequisite. |
+| 17 | Singapore University of Technology and Design | PhD Programme (ISTD / ESD research alignment) | 3 | Targeted faculty contact is recommended because pillar and supervisor fit shape the research pathway; the formal application remains university-level. |
 
 ## Important limitations
 
 - These are complete drafts, not submission-ready official records. The repository does not contain a current official Melbourne transcript, degree certificates, passport, English evidence, referee identities, or the complete writing sample.
 - No publication, award, employment, rank, converted GPA, or supervisor interest is asserted.
 - Faculty research hooks come from the plan and must be checked against current official profiles and recent work before sending.
+- The current GRE screen is recorded in `Applications/GRE_AUDIT.md`; NTU CCDS was removed because its programme-level rule requires GRE/GMAT for this overseas-degree profile.
 - HKUST CSE is treated as requiring a faculty member who agrees to supervise because its current FAQ says so; do not rely on the older optional-contact classification.
 - Department-level programs include individual faculty-fit packages for organization, but their email files are clearly marked as optional or not for mass outreach.
 

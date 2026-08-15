@@ -12,9 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "tmp" / "pdfs" / "compile-manifest.json"
 OUTPUT = ROOT / "tmp" / "pdfs" / "rendered"
 REPRESENTATIVES = {
-    "uts_jie_lu": "Applications/14_University of Technology Sydney/Jie Lu/",
-    "curtin_aneesh_krishna": "Applications/15_Curtin University/Aneesh Krishna/",
-    "ntu_bo_an": "Applications/16_Nanyang Technological University/Bo An/",
+    "nus_kian_hsiang_low": "Applications/16_National University of Singapore/Kian Hsiang Low/",
+    "sutd_yihan_du": "Applications/17_Singapore University of Technology and Design/Yihan Du/",
 }
 
 
