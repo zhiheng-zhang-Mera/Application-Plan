@@ -11,7 +11,11 @@ from pypdf import PdfReader
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "tmp" / "pdfs" / "compile-manifest.json"
 OUTPUT = ROOT / "tmp" / "pdfs" / "rendered"
-REPRESENTATIVE = "Applications/10_The Chinese University of Hong Kong/Sinno Jialin Pan/"
+REPRESENTATIVES = {
+    "uts_jie_lu": "Applications/14_University of Technology Sydney/Jie Lu/",
+    "curtin_aneesh_krishna": "Applications/15_Curtin University/Aneesh Krishna/",
+    "ntu_bo_an": "Applications/16_Nanyang Technological University/Bo An/",
+}
 
 
 def render_pdf(pdf_path: Path, output_path: Path) -> dict[str, object]:
@@ -51,19 +55,22 @@ def render_pdf(pdf_path: Path, output_path: Path) -> dict[str, object]:
 
 def main() -> None:
     data = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    selected = [r for r in data["results"] if r["source"].startswith(REPRESENTATIVE)]
-    if len(selected) != 8:
-        raise SystemExit(f"Expected 8 representative documents, found {len(selected)}")
     OUTPUT.mkdir(parents=True, exist_ok=True)
     summary: dict[str, object] = {}
-    for result in sorted(selected, key=lambda r: r["source"]):
-        source_name = PurePosixPath(result["source"]).stem
-        pdf_path = Path(result["pdf"])
-        output_path = OUTPUT / f"{source_name}.png"
-        summary[result["source"]] = render_pdf(pdf_path, output_path)
+    selected_count = 0
+    for label, prefix in REPRESENTATIVES.items():
+        selected = [r for r in data["results"] if r["source"].startswith(prefix)]
+        if len(selected) != 8:
+            raise SystemExit(f"Expected 8 representative documents for {label}, found {len(selected)}")
+        selected_count += len(selected)
+        for result in sorted(selected, key=lambda r: r["source"]):
+            source_name = PurePosixPath(result["source"]).stem
+            pdf_path = Path(result["pdf"])
+            output_path = OUTPUT / f"{label}__{source_name}.png"
+            summary[result["source"]] = render_pdf(pdf_path, output_path)
     summary_path = OUTPUT / "render-summary.json"
     summary_path.write_text(json.dumps(summary, indent=2), encoding="utf-8")
-    print(f"RENDERED={len(selected)} SUMMARY={summary_path}")
+    print(f"RENDERED={selected_count} SUMMARY={summary_path}")
     for source, evidence in summary.items():
         print(
             f"{source}: pages={evidence['pages']} text_characters={evidence['text_characters']} "

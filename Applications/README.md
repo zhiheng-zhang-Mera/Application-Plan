@@ -19,6 +19,9 @@ Every final supervisor folder contains the authored application materials, a tai
 | 11 | University of Massachusetts Amherst | PhD in Computer Science | 5 | Departmental admission; faculty fit should be concentrated in the Personal Statement. |
 | 12 | The Hong Kong University of Science and Technology | PhD in Computer Science and Engineering | 4 | Current CSE FAQ says an applicant must have a faculty member who agrees to supervise; targeted contact is a prerequisite, not mass email. |
 | 13 | University of California, Riverside | PhD in Computer Science | 3 | Reserve application: send a targeted inquiry first and apply only if the PI signal and full portfolio justify the cost. |
+| 14 | University of Technology Sydney | Doctor of Philosophy (PhD Thesis: Computer Science) | 3 | Agreed supervision or faculty approval is required; contact a supervisor and develop the proposal before the formal application. |
+| 15 | Curtin University | Doctor of Philosophy - Computing | 3 | Supervisor support is a formal pre-application gate: submit an expression of interest with a topic and CV, then apply only if invited. |
+| 16 | Nanyang Technological University, Singapore | PhD in Computer Science and Engineering (College of Computing and Data Science) | 4 | Targeted faculty contact is recommended, but first obtain written clarification of the CCDS GRE/GMAT rule for an overseas-degree applicant. |
 
 ## Important limitations
 

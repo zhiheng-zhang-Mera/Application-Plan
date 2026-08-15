@@ -1,6 +1,6 @@
 # 2027 PhD 申请计划工作表
 
-> **申请材料已生成**：按学校和导师组织的 53 个自包含申请包见 [`Applications/README.md`](Applications/README.md)。所有新撰写、拟导出为 PDF 的材料均保留为 `.tex` 源文件；套磁邮件和执行清单为 `.md`。现有官方成绩单 PDF 与 WAM 图片仅作为原始证据附件保留。每个导师目录的 `10_Fact_Check.md` 列出可用事实和提交前必须补充/核验的信息。
+> **申请材料已生成**：按学校和导师组织的 63 个自包含申请包见 [`Applications/README.md`](Applications/README.md)。所有新撰写、拟导出为 PDF 的材料均保留为 `.tex` 源文件；套磁邮件和执行清单为 `.md`。现有官方成绩单 PDF 与 WAM 图片仅作为原始证据附件保留。每个导师目录的 `10_Fact_Check.md` 列出可用事实和提交前必须补充/核验的信息。
 
 > **方向**：Financial ML / Quant Research Infrastructure / ML Systems / Data Systems / Trustworthy AI / Optimization  
 > **版本**：2026-08-15  
@@ -34,7 +34,10 @@
 | **10** | CUHK | MPhil-PhD in CSE | **A：必须匹配导师** | 冲刺 | 2027 Early 已过；准备 Sep 2026 Regular + 套磁 |
 | **11** | UMass Amherst | PhD in Computer Science | C：系/学院录取 | 高价值冲刺 | SOP/Personal Statement faculty fit 优先 |
 | **12** | HKUST | PhD in CSE | B：可选，PI support 有价值 | 高价值冲刺 | **2027 Early deadline = 2026-08-15；错过后走 Regular** |
+| **13** | University of Technology Sydney (UTS) | PhD Thesis: Computer Science | **A：申请需导师同意或学院批准** | 澳洲主申 | 先联系 3 位导师并共同打磨 proposal；奖学金轮次前完成 pre-approval |
+| **14** | Curtin University | PhD - Computing | **A：EOI + 导师支持是正式申请前置** | 澳洲稳健主申 | 准备 2 页 proposal + 单独 references 页；先提交 EOI |
 | **R1** | UC Riverside | PhD in Computer Science | B：可选 | 条件备选 | 仅在 PI 回复积极时投；Master GPA expectation 风险高 |
+| **R2** | Nanyang Technological University (NTU) | PhD in CSE / CCDS | B：建议联系；规则冲突待核 | 条件冲刺 | **先书面确认海外学历申请人的 GRE/GMAT 是否可豁免；无豁免则按“不考 GRE”硬约束删除** |
 
 ### 总材料库：先一次性准备
 
@@ -172,6 +175,91 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 - [ ] Operating systems
 - [ ] 2-minute Quant-Ultra research pitch
 - [ ] 5-minute research proposal pitch
+
+---
+
+## A3. University of Technology Sydney — PhD Thesis: Computer Science
+
+**综合优先级：#13**
+
+**套磁：正式申请前置。** UTS 当前申请页要求申请包含 agreed supervision 的证据；也可由 faculty approval 替代，但不能在没有导师/学院支持的情况下把材料直接当作完整申请提交。
+
+**项目入口：** `C02096 Doctor of Philosophy (PhD Thesis: Computer Science)`，全日制最长 4 年。
+
+**GRE：** 当前 UTS HDR/Computer Science 官方要求未列 GRE；提交前仍按 live portal 复核。
+
+### 匹配导师
+
+| 顺序 | PI | 匹配度 | 最适合的切入点 | 行动 |
+|---:|---|---|---|---|
+| 1 | **Jie Lu** | **A+** | concept drift / transfer learning / decision support → 非平稳金融数据与漂移适应 | [ ] 第一批联系 |
+| 2 | **Guodong Long** | **A+** | trustworthy ML / federated learning / privacy-preserving intelligence → 可审计、隐私友好的金融 ML 系统 | [ ] 第一批联系 |
+| 3 | **Guangquan Zhang** | **A** | fuzzy optimization / multi-objective and bilevel decision making → 风险、成本、可行性多目标决策 | [ ] 联系 |
+
+### 申请材料清单
+
+- [ ] Online research-degree application
+- [ ] **Prospective supervisor agreed-supervision evidence 或 faculty approval**
+- [ ] 与 prospective supervisor 共同准备的 Research Proposal
+- [ ] CV / résumé，列明教育、研究项目、研究输出和相关经验
+- [ ] 所有 tertiary study 的正式 transcript、grading system 和已授予学位证明
+- [ ] 当前 Melbourne enrolment / transcript / research-project evidence
+- [ ] English proficiency 或合规的 English-medium instruction 证明
+- [ ] Academic referee reports；在 live portal 确认数量和提交方式
+- [ ] 既有 research project / thesis / writing sample evidence（如适用）
+- [ ] Scholarship consideration 所需材料和 faculty pre-approval
+
+### 执行任务
+
+- [ ] 先以 1-page Quant-Ultra summary + Research CV 联系 Lu / Long / Zhang
+- [ ] 将通用 proposal 改成 UTS 版本，突出 concept drift、decision support 和 trustworthy ML
+- [ ] 保存导师同意指导的邮件/PDF 证据
+- [ ] 复核 scholarship closing date；不能用全年可申请替代奖学金 deadline
+
+官方起点：<https://www.uts.edu.au/for-students/admissions-entry/how-to-apply/masters-by-research-phd>
+
+---
+
+## A4. Curtin University — Doctor of Philosophy - Computing
+
+**综合优先级：#14**
+
+**套磁：必须先完成 EOI 和导师匹配。** Curtin 当前课程页明确：先确定 topic 和 supervisor，提交 Expression of Interest；只有 EOI 成功且导师同意支持后，才会受邀提交正式申请。
+
+**项目代码：** `DR-COMPTG`；CRICOS `043987G`。
+
+**GRE：** 当前课程和 HDR 申请页未列 GRE；提交前复核 live portal。
+
+### 匹配导师
+
+| 顺序 | PI | 匹配度 | 最适合的切入点 | 行动 |
+|---:|---|---|---|---|
+| 1 | **Aneesh Krishna** | **A+** | AI / data mining / ML / software engineering / formal methods → reliable ML software governance | [ ] 第一批联系 |
+| 2 | **Scott Lindstrom** | **A+** | mathematical optimisation / ML / data science → 带摩擦和风险约束的可审计优化 | [ ] 第一批联系 |
+| 3 | **Sourav Das** | **A** | data science / statistics → 非平稳模型的统计评估、不确定性和敏感性分析 | [ ] 联系 |
+
+### EOI 与申请材料清单
+
+- [ ] 明确 proposed research topic
+- [ ] Current CV（含联系方式、研究兴趣、教育、研究/工作经历、技能、奖项和 referees）
+- [ ] **Expression of Interest，指定拟联系导师**
+- [ ] **2-page Research Proposal**
+- [ ] 单独 1-page references / bibliography
+- [ ] Proposal 包含 introduction、background/literature、aims、methodology、timeline 和资源需求
+- [ ] 导师支持/EOI 成功记录
+- [ ] 正式 online application（仅在获邀后）
+- [ ] Academic transcripts、degree/conferral evidence、grading information
+- [ ] English-language evidence
+- [ ] Scholarship/RTP 年度轮次材料；提交时复核中央轮次窗口
+
+### 执行任务
+
+- [ ] 为 Krishna 准备 ML software engineering / governance 版本
+- [ ] 为 Lindstrom 准备 optimization / market friction 版本
+- [ ] 为 Das 准备 statistical reliability / uncertainty 版本
+- [ ] EOI 未通过前不支付或推进正式申请
+
+官方起点：<https://www.curtin.edu.au/study/offering/course-research-doctor-of-philosophy---computing--dr-comptg/?region=int>
 
 ---
 
@@ -641,6 +729,47 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 
 ---
 
+## R2. Nanyang Technological University — PhD in Computer Science and Engineering (CCDS)
+
+**定位：条件冲刺，不占用无 GRE 主申请名额。**
+
+**关键冲突：** NTU 中央 Research Programmes Admission Guide 将 GRE/GMAT/GATE 写为 “where applicable”，但 CCDS Computer Science and Engineering 项目页仍写明：非新加坡 Autonomous Universities 毕业生需要有效 GRE/GMAT，exceptional cases 才可能考虑 waiver。申请人海外本科背景下，必须先向 `ccdspostgrad@ntu.edu.sg` 取得书面解释；若不可豁免，则依据本计划“不准备 GRE”的硬约束删除。
+
+**申请轮次：** 中央指南当前列出 August intake 为 10 月 1 日至 1 月 31 日，January intake 为 6 月 1 日至 7 月 31 日；仍需核对 CCDS 当轮 deadline。
+
+### 匹配导师
+
+| 顺序 | PI | 匹配度 | 最适合的切入点 | 行动 |
+|---:|---|---|---|---|
+| 1 | **Bo An** | **A+** | multi-agent systems / game theory / RL / optimization / TradeMaster fintech platform | [ ] GRE 澄清后第一批联系 |
+| 2 | **Gao Cong** | **A+** | data management / data mining / large-scale analytics / databases for AI | [ ] GRE 澄清后联系 |
+| 3 | **Anwitaman Datta** | **A** | distributed systems / integrity / cyber-risk / DeFi / technology governance | [ ] GRE 澄清后联系 |
+| 4 | **Sean Du Xuefeng** | **A** | reliable ML / uncertainty / open-world robustness | [ ] 确认 2027 PhD capacity |
+
+### 申请材料清单
+
+- [ ] 先向 CCDS 获取 GRE/GMAT waiver/requirement 的书面答复
+- [ ] Online application
+- [ ] Bachelor/Master academic qualifications and transcripts
+- [ ] English proficiency；若以 English-medium instruction 申请 waiver，准备正式证明
+- [ ] Resume / CV
+- [ ] Personal Statement
+- [ ] Research Proposal（如 CCDS 当轮要求）
+- [ ] **2 academic references**
+- [ ] Research publication abstracts（仅列已核验成果；无 publication 不虚构）
+- [ ] Test scores（仅在规则确认要求或决定改变“不考 GRE”策略后）
+- [ ] Scholarship selection / funding indication
+
+### GO / NO-GO
+
+- [ ] **GO：** CCDS 书面确认可免 GRE/GMAT，且至少一位导师方向和容量信号合理
+- [ ] **NO-GO：** GRE/GMAT 必需且无 waiver，或海外学历门槛/导师容量不支持
+- [ ] 不因中央指南措辞较宽松，就忽略 CCDS 项目页更严格的项目级要求
+
+官方起点：<https://www.ntu.edu.sg/admissions/graduate/radmissionguide>
+
+---
+
 # 1. 申请执行时间线
 
 ## 2026-08-15 ～ 2026-08-31
@@ -653,6 +782,9 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 - [ ] 第一批套磁：HKUST(GZ) 3 人、UM 3 人、Concordia 3 人、CUHK 3 人、PolyU Xiao Huang
 - [ ] 确认 3 位核心推荐人
 - [ ] Quant-Ultra 1-page summary v1
+- [ ] UTS：联系 Jie Lu / Guodong Long / Guangquan Zhang，索取 supervision/pre-approval 路径
+- [ ] Curtin：完成 2-page proposal + references 页并准备 EOI
+- [ ] NTU：向 CCDS 书面确认海外学历申请人的 GRE/GMAT requirement / waiver
 
 ## 2026-09
 
@@ -725,12 +857,15 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 | UMass Amherst | **2** |
 | HKUST | **2–5** |
 | UCR | **3** |
+| UTS | Academic referee reports；**数量以 live portal 为准** |
+| Curtin | EOI/portal referee details；**数量以 live form 为准** |
+| NTU CCDS | **2 academic** |
 
 ---
 
 # 3. 套磁工作表
 
-## 必须重点追踪：Concordia / CUHK
+## 必须重点追踪：Concordia / CUHK / UTS / Curtin
 
 | 学校 | PI | Email sent | Reply | Follow-up | Supervisor interest | 最终状态 |
 |---|---|---|---|---|---|---|
@@ -743,6 +878,12 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 | CUHK | Songtao Lu | [ ] | [ ] | [ ] | [ ] | |
 | CUHK | Sinno Jialin Pan | [ ] | [ ] | [ ] | [ ] | |
 | CUHK | Farzan Farnia | [ ] | [ ] | [ ] | [ ] | |
+| UTS | Jie Lu | [ ] | [ ] | [ ] | [ ] | agreed supervision required |
+| UTS | Guodong Long | [ ] | [ ] | [ ] | [ ] | agreed supervision required |
+| UTS | Guangquan Zhang | [ ] | [ ] | [ ] | [ ] | agreed supervision required |
+| Curtin | Aneesh Krishna | [ ] | [ ] | [ ] | [ ] | EOI gate |
+| Curtin | Scott Lindstrom | [ ] | [ ] | [ ] | [ ] | EOI gate |
+| Curtin | Sourav Das | [ ] | [ ] | [ ] | [ ] | EOI gate |
 
 ## 可选但高 ROI
 
@@ -762,6 +903,10 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 | CityU CS alt. | Minjing Dong | [ ] | [ ] | [ ] | **已公开 2027 opening** | 仅在考虑 CS route 时 |
 | HKUST | Binhang Yuan | [ ] | [ ] | [ ] | [ ] | |
 | HKUST | Kai Chen | [ ] | [ ] | [ ] | [ ] | |
+| NTU CCDS | Bo An | [ ] | [ ] | [ ] | [ ] | only after GRE clarification |
+| NTU CCDS | Gao Cong | [ ] | [ ] | [ ] | [ ] | only after GRE clarification |
+| NTU CCDS | Anwitaman Datta | [ ] | [ ] | [ ] | [ ] | only after GRE clarification |
+| NTU CCDS | Sean Du Xuefeng | [ ] | [ ] | [ ] | [ ] | confirm 2027 capacity |
 
 ## 不建议把时间花在群发：SOP faculty-fit 即可
 
@@ -792,6 +937,9 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 | UMass Amherst | [ ] | [ ] | [ ] | [ ] | — | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
 | HKUST | [ ] | [ ] | [ ] | — | **[ ]** | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
 | UCR reserve | [ ] | **GO/NO-GO** | [ ] | [ ] | — | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
+| UTS | [ ] | **[ ] supervision** | [ ] | [ ] | **[ ]** | [ ] | [ ] | [ ] | optional | [ ] | [ ] | |
+| Curtin | **[ ] EOI** | **[ ] support** | [ ] | — | **[ ] 2 pages** | [ ] | [ ] | portal | — | [ ] | [ ] | |
+| NTU CCDS reserve | [ ] | **GRE GO/NO-GO** | [ ] | [ ] | if required | [ ] | [ ] | **[ ] 2** | optional | [ ] | [ ] | |
 
 ---
 
@@ -837,6 +985,9 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 - [ ] Concordia 不要只交申请等系统自动匹配；正式联系 PI 会显著提高效率。
 - [ ] Buffalo / Stony / UMass 不要浪费大量时间群发冷邮件；把时间用在材料和 faculty-fit prose 上。
 - [ ] HKUST CSE 不群发；官方明确指出 mass emails unlikely to be effective。
+- [ ] UTS 申请必须附 agreed supervision evidence 或 faculty approval；导师口头感兴趣不等于 admission offer。
+- [ ] Curtin 必须先走 EOI；没有导师支持和正式邀请时，不把正式 application 当作可提交状态。
+- [ ] NTU CCDS 的 GRE/GMAT 文案与中央指南存在冲突；没有书面 waiver 前保持 **NO-GO / HOLD_FOR_REVIEW**。
 
 ---
 
@@ -859,6 +1010,10 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 - HKUST CSE — **Postgraduate Student Early Recruiting (Fall 2027 Intake)**
 - HKUST Fok Ying Tung Graduate School — **Documents Required**
 - UC Riverside CSE — **International Graduate Applicants, Fall 2027**
+- UTS — **Submit an application for a Doctorate or Master's by Research** / **Documentation needed to apply for a research degree**
+- UTS FEIT — **Research degrees** / official UTS researcher profiles
+- Curtin — **Doctor of Philosophy - Computing** / **How to apply for a research degree** / **Find a Researcher or Supervisor**
+- NTU — **Research Programmes Admission Guide** / **Doctor of Philosophy - Computer Science and Engineering** / **CCDS Faculty**
 
 ---
 

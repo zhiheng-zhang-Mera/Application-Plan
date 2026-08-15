@@ -219,6 +219,67 @@ SCHOOLS = [
             ("Vagelis Hristidis", "databases, data systems, and information retrieval", "database infrastructure for traceable financial evidence and reproducible downstream decision studies"),
         ],
     },
+    {
+        "order": "14",
+        "folder": "University of Technology Sydney",
+        "school": "University of Technology Sydney",
+        "program": "Doctor of Philosophy (PhD Thesis: Computer Science)",
+        "contact": "Agreed supervision or faculty approval is required; contact a supervisor and develop the proposal before the formal application.",
+        "lor": "Academic referee reports; confirm the current number and submission workflow in the live portal",
+        "statement": "Research proposal written with the prospective supervisor, CV, and research-experience evidence",
+        "source": "https://www.uts.edu.au/for-students/admissions-entry/how-to-apply/masters-by-research-phd",
+        "special_checks": [
+            "Attach evidence of agreed supervision or obtain documented faculty approval before submission",
+            "Complete the FEIT/faculty pre-approval process when applying for a competitive scholarship",
+            "Verify the scholarship closing date separately from the year-round admission pathway",
+        ],
+        "faculty": [
+            ("Jie Lu", "concept drift, transfer learning, computational intelligence, and data-driven decision support", "drift-aware financial learning and decision support evaluated across changing market regimes with explicit evidence boundaries"),
+            ("Guodong Long", "trustworthy machine learning, federated learning, privacy-preserving intelligence, and data science", "trustworthy financial ML infrastructure that combines personalised or federated learning with provenance, privacy, and temporal validation"),
+            ("Guangquan Zhang", "fuzzy optimization, fuzzy machine learning, multi-objective and bilevel decision making", "multi-objective financial decision systems whose risk, cost, feasibility, and uncertainty constraints remain independently auditable"),
+        ],
+    },
+    {
+        "order": "15",
+        "folder": "Curtin University",
+        "school": "Curtin University",
+        "program": "Doctor of Philosophy - Computing",
+        "contact": "Supervisor support is a formal pre-application gate: submit an expression of interest with a topic and CV, then apply only if invited.",
+        "lor": "Referee details and supporting evidence required by the current expression-of-interest and application forms",
+        "statement": "Two-page research proposal plus a separate references page, prepared for the expression of interest",
+        "source": "https://www.curtin.edu.au/study/offering/course-research-doctor-of-philosophy---computing--dr-comptg/?region=int",
+        "special_checks": [
+            "Submit the Expression of Interest before attempting the formal application",
+            "Keep the proposal to two pages and place references on a separate additional page",
+            "Proceed to the formal application only after the EOI succeeds and a supervisor supports the project",
+        ],
+        "faculty": [
+            ("Aneesh Krishna", "artificial intelligence, data mining, machine learning, software engineering, and formal methods", "reliable financial ML software engineering with testable data contracts, model governance, and reproducible failure analysis"),
+            ("Scott Lindstrom", "mathematical optimization, machine learning, and data science", "risk-aware optimization under market frictions and distribution shift, evaluated with leakage-resistant temporal protocols"),
+            ("Sourav Das", "data science and statistics", "statistically disciplined evaluation of non-stationary financial models with uncertainty, sensitivity analysis, and reproducible evidence"),
+        ],
+    },
+    {
+        "order": "16",
+        "folder": "Nanyang Technological University",
+        "school": "Nanyang Technological University, Singapore",
+        "program": "PhD in Computer Science and Engineering (College of Computing and Data Science)",
+        "contact": "Targeted faculty contact is recommended, but first obtain written clarification of the CCDS GRE/GMAT rule for an overseas-degree applicant.",
+        "lor": "2 academic references",
+        "statement": "Research proposal where applicable, resume, Personal Statement, and verified research-output abstracts",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/radmissionguide",
+        "special_checks": [
+            "Obtain written CCDS clarification of the GRE/GMAT requirement for an overseas-degree applicant",
+            "Keep the application at NO-GO if GRE/GMAT is mandatory and no waiver is granted",
+            "Verify the CCDS-specific deadline and requirements rather than relying only on the central admission guide",
+        ],
+        "faculty": [
+            ("Bo An", "multi-agent systems, computational game theory, reinforcement learning, optimization, and financial technology", "auditable reinforcement-learning and multi-agent decision infrastructure for financial markets with realistic costs and risk constraints"),
+            ("Gao Cong", "data management, data mining, large-scale analytics, and databases for AI", "database support for point-in-time financial data, traceable feature generation, and reproducible ML experiments"),
+            ("Anwitaman Datta", "distributed systems, data integrity, cybersecurity, decentralized finance, and technology governance", "resilient and auditable distributed financial systems connecting data integrity, operational risk, and bounded governance claims"),
+            ("Sean Du Xuefeng", "reliable machine learning, uncertainty quantification, and robust open-world AI", "reliable financial learning under open-world distribution shifts with explicit uncertainty and failure-oriented evaluation"),
+        ],
+    },
 ]
 
 
@@ -430,6 +491,7 @@ Success would be measured by detection coverage, reproducibility, robustness acr
 
 def proposal(school: dict, supervisor: str, area: str, hook: str) -> str:
     return preamble("Research Proposal", school["school"], supervisor) + rf"""
+\setlength{{\parskip}}{{0.45em}}
 \textbf{{Provisional title:}} Auditable Financial Machine Learning under Temporal Leakage, Distribution Shift, and Market Frictions
 
 \section*{{Motivation and Problem}}
@@ -575,6 +637,12 @@ If there is no response, send one concise follow-up after 7-10 days. Do not send
 
 
 def checklist_md(school: dict, supervisor: str) -> str:
+    special_checks = school.get("special_checks", [])
+    special_section = ""
+    if special_checks:
+        special_section = "\n## School-specific gates\n\n" + "\n".join(
+            f"- [ ] {item}" for item in special_checks
+        ) + "\n"
     return f"""# Application checklist - {school['school']} - {supervisor}
 
 Last package build: 2026-08-15. Treat dates and portal wording as time-sensitive and re-check the official page 30 days before submission.
@@ -604,7 +672,7 @@ Official starting point: {school['source']}
 - [ ] Writing sample if required or beneficial
 - [ ] Verified permanent project links, release tags, and commit hashes
 - [ ] Supervisor field / consent evidence where required
-
+{special_section}
 ## Current supervisor/contact gate
 
 - [ ] Verify {supervisor}'s current institutional profile and email

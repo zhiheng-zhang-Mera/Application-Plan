@@ -18,11 +18,11 @@ The repository path contains non-ASCII characters. The compile workflow therefor
 
 | Check | Result |
 |---|---:|
-| Supervisor folders | 53 passed |
-| Complete TeX sources | 424 passed |
-| Non-empty Markdown files | 213 passed |
-| Official transcript copies | 53 passed |
-| TeX compilations | 424 / 424 passed |
+| Supervisor folders | 63 passed |
+| Complete TeX sources | 504 passed |
+| Non-empty Markdown files | 253 passed |
+| Official transcript copies | 63 passed |
+| TeX compilations | 504 / 504 passed |
 | Compile failures | 0 |
 | LaTeX warnings | 0 |
 | Overfull boxes | 0 |
@@ -33,7 +33,7 @@ Each TeX source was compiled twice. The machine-readable compile manifest is wri
 
 ## Visual acceptance
 
-Eight representative document types from the Sinno Jialin Pan package were rendered and inspected, covering 13 pages:
+Eight representative document types from one package at each newly added university were rendered and inspected, covering 39 pages in total. The representative packages were Jie Lu at University of Technology Sydney, Aneesh Krishna at Curtin University, and Bo An at Nanyang Technological University:
 
 1. Academic CV
 2. Research CV
@@ -44,7 +44,7 @@ Eight representative document types from the Sinno Jialin Pan package were rende
 7. Privacy Lens Research Summary
 8. Writing Sample Cover Note
 
-All inspected pages used US Letter media boxes and had extractable text. No clipping, overlap, unreadable glyphs, or content outside page bounds was observed. The acceptance pass also corrected a long-link overflow, prevented an orphaned Academic CV project heading, and removed an obsolete replacement instruction from the Quant-Ultra summary.
+All inspected pages used US Letter media boxes and had extractable text. No clipping, overlap, unreadable glyphs, or content outside page bounds was observed. The new-school acceptance pass also removed an isolated final proposal line by tightening proposal paragraph spacing while retaining a readable two-page layout.
 
 ## Acceptance boundary
 
