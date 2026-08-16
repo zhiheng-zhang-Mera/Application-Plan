@@ -5,13 +5,13 @@ import subprocess
 import sys
 from pathlib import Path
 
-from build_application_packages import PROGRAM_LINKS, SCHOOLS
+from build_application_packages import FACULTY_DIRECTION_ZH, PROGRAM_LINKS, SCHOOLS
 
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "Applications"
 REQUIRED = {
-    "00_README.md",
+    "README.md",
     "01_Academic_CV.tex",
     "02_Research_CV.tex",
     "03_Statement_of_Purpose.tex",
@@ -68,6 +68,8 @@ def main() -> None:
         missing = REQUIRED - names
         if missing:
             fail(f"{package}: missing {sorted(missing)}")
+        if "00_README.md" in names:
+            fail(f"{package}: legacy 00_README.md still exists")
         attachments = package / "Attachments"
         for attachment in ["Transcript-ZhihengZhang.pdf", "Master-WAM.png"]:
             path = attachments / attachment
@@ -81,9 +83,19 @@ def main() -> None:
                 fail(f"{tex}: unbalanced braces")
             tex_count += 1
         for md in package.glob("*.md"):
-            if not md.read_text(encoding="utf-8").strip():
+            md_text = md.read_text(encoding="utf-8")
+            if not md_text.strip():
                 fail(f"{md}: empty Markdown")
+            if md.name != "08_Contact_Email.md" and not re.search(r"[\u4e00-\u9fff]", md_text):
+                fail(f"{md}: non-email Markdown lacks Chinese content")
             md_count += 1
+
+        supervisor_readme = (package / "README.md").read_text(encoding="utf-8")
+        if "## 导师研究方向与申请切入点" not in supervisor_readme:
+            fail(f"{package}: supervisor README lacks research-direction section")
+        direction = FACULTY_DIRECTION_ZH.get(package.name)
+        if not direction or direction not in supervisor_readme:
+            fail(f"{package}: supervisor README lacks individualized Chinese direction")
 
         sop = (package / "03_Statement_of_Purpose.tex").read_text(encoding="utf-8")
         sop_words = len(re.findall(r"\b[A-Za-z][A-Za-z'-]*\b", sop))
@@ -92,6 +104,14 @@ def main() -> None:
         email = (package / "08_Contact_Email.md").read_text(encoding="utf-8")
         if "Dear Professor" not in email or "Quant-Ultra" not in email:
             fail(f"{package}: contact email lacks required personalization skeleton")
+        if re.search(r"[\u4e00-\u9fff]", email):
+            fail(f"{package}: contact email must remain English")
+
+    for markdown in OUT.rglob("*.md"):
+        if markdown.name == "08_Contact_Email.md":
+            continue
+        if not re.search(r"[\u4e00-\u9fff]", markdown.read_text(encoding="utf-8")):
+            fail(f"{markdown}: non-email Markdown lacks Chinese content")
 
     tracked_pdfs = list(OUT.rglob("*.pdf"))
     unexpected = [p for p in tracked_pdfs if p.name != "Transcript-ZhihengZhang.pdf"]

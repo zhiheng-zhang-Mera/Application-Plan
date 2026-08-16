@@ -1,37 +1,37 @@
-# GRE requirement audit - 2027 PhD plan
+# 2027 年博士申请 GRE 要求审计
 
-Audit date: 2026-08-15. The decision rule is intentionally strict: remove a programme only when its current official programme-level material states that GRE/GMAT is required for this applicant profile. Optional, recommended, not required, or not listed as a programme requirement remains eligible, with a live-portal recheck before submission.
+审计日期：2026-08-15。判定规则从严：只有当项目当前官方材料明确规定当前申请背景必须提交 GRE/GMAT 时，才删除该项目。可选、建议、不要求或未列为项目要求的学校继续保留，但每次提交前仍须核对实时申请系统。
 
-| Package | Programme | Current GRE status | Decision | Official evidence |
+| 申请包 | 项目 | 当前 GRE 状态 | 决定 | 官方证据 |
 |---|---|---|---|---|
-| HKUST Guangzhou | PhD in Financial Technology | Programme-specific; not established as required in the current package evidence | Keep; recheck live catalogue | [Application guide](https://static.hkust-gz.edu.cn/PGOAS/Guidelines-for-Application-Submission-Research-PG-Program.pdf) |
-| University of Macau | PhD in Computer Science | Not listed as required | Keep | [2026/27 doctoral programmes](https://grs.um.edu.mo/index.php/prospective-students/doctoral-degrees-programmes/) |
-| Drexel | PhD in Computer Science | Optional but recommended | Keep | [Doctoral admissions](https://drexel.edu/cci/admissions/doctoral/) |
-| Stevens | PhD in Computer Science | Optional | Keep | [PhD application process](https://www.stevens.edu/academics/graduate-study/phd-application-process) |
-| University at Buffalo | PhD in CSE | Not required | Keep | [Application materials](https://engineering.buffalo.edu/computer-science-engineering/graduate/admissions/application-materials.html) |
-| Concordia | PhD in Computer Science | Not listed as required | Keep | [Programme admissions](https://www.concordia.ca/academics/graduate/computer-science-phd.html) |
-| PolyU | PhD in Computing | Not listed as a Computing requirement | Keep | [Computing research programme](https://www.polyu.edu.hk/study/pg/rpg/2026/comp) |
-| CityUHK | PhD in Computer Science / Data Science | Not listed as a programme requirement | Keep | [College admission overview](https://www.cityu.edu.hk/en/cc/programmes/research-degree-programmes/admission-overview) |
-| Stony Brook | PhD in Computer Science | Not required for PhD applicants | Keep | [Graduate admission](https://www.cs.stonybrook.edu/admissions/Graduate-Program) |
-| CUHK | MPhil-PhD in CSE | Not listed in the required application documents | Keep | [Regular admission](https://www.cse.cuhk.edu.hk/admission/mphil-phd/regular-admission/) |
-| UMass Amherst | PhD in Computer Science | No GRE required | Keep | [PhD application instructions](https://www.cics.umass.edu/academics/phd-computer-science/how-apply-phd-program) |
-| HKUST | PhD in CSE | Not required for Engineering programmes | Keep | [Engineering RPG FAQ](https://seng.hkust.edu.hk/sites/default/files/IMCE/RPG/FAQ.pdf) |
-| UC Riverside | PhD in Computer Science | Optional for PhD | Keep | [CSE PhD admissions](https://www1.cs.ucr.edu/graduate/admissions/domestic-applicants) |
-| UTS | PhD Thesis: Computer Science | Not listed as required | Keep | [Course entry requirements](https://www.uts.edu.au/courses/doctor-of-philosophy-phd-thesis-computer-science) |
-| Curtin | PhD - Computing | Not listed as required | Keep | [Course and application pathway](https://www.curtin.edu.au/study/offering/course-research-doctor-of-philosophy---computing--dr-comptg/?region=int) |
-| NUS School of Computing | PhD in Computer Science | Not required; encouraged only | Keep | [Admission requirements](https://www.comp.nus.edu.sg/programmes/pg/phdis/admissions/) |
-| SUTD | PhD, ISTD / ESD alignment | Not required; recommended only | Keep | [ISTD PhD application process](https://www.sutd.edu.sg/istd/149-2/) |
+| 香港科技大学（广州） | 金融科技博士 | 以项目规则为准；当前材料证据未确认其为强制要求 | 保留；复核实时项目目录 | [申请指南](https://static.hkust-gz.edu.cn/PGOAS/Guidelines-for-Application-Submission-Research-PG-Program.pdf) |
+| 澳门大学 | 计算机科学博士 | 未列为强制要求 | 保留 | [2026/27 博士项目](https://grs.um.edu.mo/index.php/prospective-students/doctoral-degrees-programmes/) |
+| 德雷塞尔大学 | 计算机科学博士 | 可选但建议 | 保留 | [博士招生](https://drexel.edu/cci/admissions/doctoral/) |
+| 史蒂文斯理工学院 | 计算机科学博士 | 可选 | 保留 | [博士申请流程](https://www.stevens.edu/academics/graduate-study/phd-application-process) |
+| 纽约州立大学布法罗分校 | 计算机科学与工程博士 | 不要求 | 保留 | [申请材料](https://engineering.buffalo.edu/computer-science-engineering/graduate/admissions/application-materials.html) |
+| 康考迪亚大学 | 计算机科学博士 | 未列为强制要求 | 保留 | [项目招生要求](https://www.concordia.ca/academics/graduate/computer-science-phd.html) |
+| 香港理工大学 | 计算机相关博士 | 未列为计算机相关项目要求 | 保留 | [计算机研究型项目](https://www.polyu.edu.hk/study/pg/rpg/2026/comp) |
+| 香港城市大学 | 计算机科学或数据科学博士 | 未列为项目要求 | 保留 | [学院招生概览](https://www.cityu.edu.hk/en/cc/programmes/research-degree-programmes/admission-overview) |
+| 纽约州立大学石溪分校 | 计算机科学博士 | 博士申请人不要求 | 保留 | [研究生招生](https://www.cs.stonybrook.edu/admissions/Graduate-Program) |
+| 香港中文大学 | 计算机科学与工程硕博连读 | 必交材料中未列出 | 保留 | [常规招生](https://www.cse.cuhk.edu.hk/admission/mphil-phd/regular-admission/) |
+| 马萨诸塞大学阿默斯特分校 | 计算机科学博士 | 不要求 | 保留 | [博士申请说明](https://www.cics.umass.edu/academics/phd-computer-science/how-apply-phd-program) |
+| 香港科技大学 | 计算机科学与工程博士 | 工程类研究项目不要求 | 保留 | [工程学院研究生项目常见问题](https://seng.hkust.edu.hk/sites/default/files/IMCE/RPG/FAQ.pdf) |
+| 加州大学河滨分校 | 计算机科学博士 | 博士申请可选 | 保留 | [计算机科学与工程博士招生](https://www1.cs.ucr.edu/graduate/admissions/domestic-applicants) |
+| 悉尼科技大学 | 计算机科学博士 | 未列为强制要求 | 保留 | [课程入学要求](https://www.uts.edu.au/courses/doctor-of-philosophy-phd-thesis-computer-science) |
+| 科廷大学 | 计算机博士 | 未列为强制要求 | 保留 | [课程与申请流程](https://www.curtin.edu.au/study/offering/course-research-doctor-of-philosophy---computing--dr-comptg/?region=int) |
+| 新加坡国立大学计算机学院 | 计算机科学博士 | 不要求，仅鼓励提交 | 保留 | [招生要求](https://www.comp.nus.edu.sg/programmes/pg/phdis/admissions/) |
+| 新加坡科技设计大学 | 信息系统技术与设计或工程系统设计方向博士 | 不要求，仅建议提交 | 保留 | [博士申请流程](https://www.sutd.edu.sg/istd/149-2/) |
 
-## Removed by the hard constraint
+## 因硬约束删除的项目
 
-| Programme | Official rule | Action |
+| 项目 | 官方规则 | 处理 |
 |---|---|---|
-| NTU College of Computing and Data Science - PhD in Computer Science and Engineering | A valid GRE/GMAT score is required for applicants who are not graduates of Singapore Autonomous Universities. Exceptional waiver requests may be considered, but the default programme rule remains required for this applicant profile. | Removed the school row, four supervisor packages, outreach tasks, and dashboard entries. |
+| 南洋理工大学计算与数据科学学院计算机科学与工程博士 | 非新加坡自治大学毕业的申请人必须提交有效 GRE/GMAT 成绩。项目可能考虑特殊豁免，但对当前申请背景的默认规则仍是强制提交。 | 已删除学校条目、4 个导师申请包、套磁任务和总表记录。 |
 
-Official evidence: [NTU CCDS PhD admission requirements](https://www.ntu.edu.sg/sss/admissions/graduate-education/detail/ccds-phd-cs-engineering)
+官方证据：[南洋理工大学计算与数据科学学院博士招生要求](https://www.ntu.edu.sg/sss/admissions/graduate-education/detail/ccds-phd-cs-engineering)
 
-## Submission control
+## 提交控制
 
-- Re-run this audit against the live programme page and portal 30 days before each submission.
-- Do not infer that a score is mandatory merely because a portal has a generic test-score field.
-- If a retained programme later changes to required GRE/GMAT with no applicable alternative, remove it before paying the application fee.
+- 每所学校提交前 30 天，重新根据实时项目页面和申请系统执行本审计。
+- 不得仅因申请系统存在通用考试成绩字段，就推断该成绩为强制要求。
+- 如果已保留项目后来改为强制要求 GRE/GMAT，且不存在适用于当前申请人的替代条件，应在支付申请费前删除该项目。

@@ -1,8 +1,8 @@
 # 2027 PhD 申请计划工作表
 
-> **申请材料已生成**：按优先级、学校和导师组织的 66 个自包含申请包见 [`Applications/README.md`](Applications/README.md)。17 个学校目录均采用中英双语名称，并在学校根目录提供中文 `README.md` 材料要求清单；每份清单均包含官方项目介绍、在线申请通道和材料要求核对链接。所有新撰写、拟导出为 PDF 的材料均保留为 `.tex` 源文件；套磁邮件和执行清单为 `.md`。现有官方成绩单 PDF 与 WAM 图片仅作为原始证据附件保留。每个导师目录的 `10_Fact_Check.md` 列出可用事实和提交前必须补充/核验的信息。
+> **申请材料已生成**：按优先级、学校和导师组织的 66 个自包含申请包见 [`Applications/README.md`](Applications/README.md)。17 个学校目录均采用中英双语名称，并在学校根目录提供中文 `README.md` 材料要求清单；每份清单均包含官方项目介绍、在线申请通道和材料要求核对链接。每个导师目录也使用标准 `README.md`，以中文介绍导师研究方向、申请切入点和完整文件清单。所有新撰写、拟导出为 PDF 的材料均保留为 `.tex` 源文件；除英文套磁邮件 `08_Contact_Email.md` 外，仓库内 Markdown 说明材料统一使用中文。现有官方成绩单 PDF 与 WAM 图片仅作为原始证据附件保留。每个导师目录的 `10_Fact_Check.md` 列出可用事实和提交前必须补充或核验的信息。
 
-> **方向**：Financial ML / Quant Research Infrastructure / ML Systems / Data Systems / Trustworthy AI / Optimization  
+> **方向**：金融机器学习 / 量化研究基础设施 / 机器学习系统 / 数据系统 / 可信人工智能 / 优化<br>
 > **版本**：2026-08-15  
 > **排序原则**：优先考虑 **录取成功率 × Funding × 研究匹配 × 高薪金融/Quant 就业出口**，学校综合排名仅作次要因素。  
 > **硬约束**：不准备 GRE；若 GRE required 则删除，optional/not required 优先。  

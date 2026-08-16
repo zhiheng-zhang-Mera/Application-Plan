@@ -1,58 +1,62 @@
-# Application package QA report
+# 申请材料包验收报告
 
-Acceptance run: 2026-08-15
+验收日期：2026-08-16
 
-## Local environment
+## 本地环境
 
-- Installation root: `D:\PhD-Tools\TinyTeX`
-- Distribution: TinyTeX-1 for Windows, release `v2026.05`
-- Engine: pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)
-- Installer cache: `D:\PhD-Tools\downloads\TinyTeX-1-windows-v2026.05.exe`
-- Installer SHA-256: `5E9CD432D9278012524E6E0D26E2CE3225C7490905425D356C458D6F9122BBDD`
-- Additional TeX packages installed for these sources: `microtype`, `enumitem`, and `titlesec`
-- Isolated staging/output roots: `D:\PhD-Tools\qa-input` and `D:\PhD-Tools\qa-output`
+- 安装根目录：`D:\PhD-Tools\TinyTeX`
+- 发行版：Windows 版 TinyTeX-1，版本 `v2026.05`
+- 编译引擎：pdfTeX 3.141592653-2.6-1.40.29（TeX Live 2026）
+- 安装程序缓存：`D:\PhD-Tools\downloads\TinyTeX-1-windows-v2026.05.exe`
+- 安装程序 SHA-256：`5E9CD432D9278012524E6E0D26E2CE3225C7490905425D356C458D6F9122BBDD`
+- 本批源文件安装的附加 TeX 包：`microtype`、`enumitem`、`titlesec`
+- 隔离暂存与输出目录：`D:\PhD-Tools\qa-input`、`D:\PhD-Tools\qa-output`
 
-The repository path contains non-ASCII characters. The compile workflow therefore copies each TeX source to a stable ASCII-only staging directory before invoking pdfLaTeX. Generated PDFs, logs, manifests, and page renders are QA intermediates and are intentionally excluded from Git.
+仓库路径含非 ASCII 字符。编译流程会先把每份 TeX 源文件复制到稳定的纯 ASCII 暂存目录，再调用 pdfLaTeX。生成的 PDF、日志、清单和页面渲染图均为验收中间产物，按设计不纳入 Git。
 
-## Automated acceptance
+## 自动验收
 
-| Check | Result |
+| 检查项 | 结果 |
 |---|---:|
-| Priority-ordered bilingual school folders | 17 passed |
-| Chinese school-level requirements READMEs | 17 passed |
-| Official programme and application links | 34 present |
-| Supervisor folders | 66 passed |
-| Complete TeX sources | 528 passed |
-| Non-empty Markdown files | 282 passed |
-| Official transcript copies | 66 passed |
-| TeX compilations | 528 / 528 passed |
-| Compile failures | 0 |
-| LaTeX warnings | 0 |
-| Overfull boxes | 0 |
-| Underfull boxes | 0 |
-| Unicode dash characters in TeX | 0 |
+| 按优先级排序的中英双语学校目录 | 17 个通过 |
+| 中文学校材料要求 README | 17 个通过 |
+| 官方项目介绍及申请通道链接 | 34 个存在 |
+| 导师目录 | 66 个通过 |
+| 标准导师 README 文件名 | 66 个通过；旧 `00_README.md` 为 0 个 |
+| 导师中文方向介绍 | 66 个通过 |
+| 完整 TeX 源文件 | 528 个通过 |
+| 非空 Markdown 文件 | 282 个通过 |
+| 官方成绩单副本 | 66 个通过 |
+| TeX 编译 | 528 / 528 个通过 |
+| 编译失败 | 0 |
+| LaTeX 警告 | 0 |
+| 行宽溢出 | 0 |
+| 行宽不足 | 0 |
+| TeX 中的 Unicode 破折号 | 0 |
 
-Each TeX source was compiled twice after the bilingual folder migration. The machine-readable compile manifest is written to `tmp/pdfs/compile-manifest.json` during acceptance. The migration moved UTS, Curtin, NUS, and SUTD to priorities 13--16 and placed the UC Riverside reserve package at 17; no legacy school directory remained.
+中英双语学校目录迁移后，每份 TeX 源文件均编译两次。机器可读编译清单会在验收时写入 `tmp/pdfs/compile-manifest.json`。目录迁移将悉尼科技大学、科廷大学、新加坡国立大学和新加坡科技设计大学排为第 13 至 16 位，并将加州大学河滨分校备选包排为第 17 位；没有遗留学校目录。
 
-## Visual acceptance
+本轮修改只涉及 Markdown 内容、README 文件名、生成器和验证器；版本差异中 TeX、PDF 及英文套磁邮件均为 0 个。因此本报告保留上一轮 528 份 TeX 的完整编译与视觉验收证据，本轮没有重复执行未变化文档的编译。
 
-Eight representative document types from one package at each newly added university were rendered and inspected, covering 26 pages in total. After folder renaming, the render selector again found exactly eight documents under Kian Hsiang Low at `15_新加坡国立大学 (National University of Singapore)` and Yihan Du at `16_新加坡科技设计大学 (Singapore University of Technology and Design)`:
+## 视觉验收
 
-1. Academic CV
-2. Research CV
-3. Statement of Purpose
-4. Research Statement
-5. Research Proposal
-6. Quant-Ultra Research Summary
-7. Privacy Lens Research Summary
-8. Writing Sample Cover Note
+每所新增大学各选一个申请包，对 8 种代表性文档进行了渲染和检查，共覆盖 26 页。文件夹重命名后，渲染选择器再次从新加坡国立大学 Kian Hsiang Low 目录和新加坡科技设计大学 Yihan Du 目录准确找到以下 8 份文档：
 
-All inspected pages used US Letter media boxes and had extractable text. No clipping, overlap, unreadable glyphs, or content outside page bounds was observed. Each representative proposal remained a readable two-page document.
+1. 学术简历
+2. 研究简历
+3. 目的陈述
+4. 研究陈述
+5. 研究计划
+6. Quant-Ultra 研究摘要
+7. Privacy Lens 研究摘要
+8. 写作样本说明页
 
-## GRE hard-constraint audit
+所有检查页面均采用美国信纸尺寸，且文本可提取。未发现裁切、重叠、不可读字符或内容超出页面边界。抽查的研究计划均保持为可读的两页文档。
 
-The current programme-level GRE review is recorded in `Applications/GRE_AUDIT.md`. NTU CCDS was removed because its official programme page states that GRE/GMAT is required for applicants who did not graduate from a Singapore Autonomous University. NUS School of Computing and SUTD were retained because their current official admissions pages state that GRE is not required. All other retained programmes were reviewed as not required, optional, recommended, or not listed as a programme requirement; each must still be checked against the live portal 30 days before submission.
+## GRE 硬约束审计
 
-## Acceptance boundary
+当前项目级 GRE 审查见 `Applications/GRE_AUDIT.md`。南洋理工大学计算与数据科学学院已删除，因为其官方项目页面规定非新加坡自治大学毕业的申请人必须提交 GRE/GMAT。新加坡国立大学计算机学院和新加坡科技设计大学予以保留，因为其当前官方招生页面说明 GRE 不要求。其他保留项目分别属于不要求、可选、建议或未列为项目要求；每次提交前 30 天仍须核对实时申请系统。
 
-This run establishes source completeness, TeX compilability, text extraction, and representative visual layout. It does not clear factual placeholders or make the packages submission-ready. Email, phone, exact degree titles and dates, referees, English-language evidence, writing-sample details, Privacy Lens permanent links, current faculty availability, current program requirements, and school-specific portal prompts must still be verified before any material is sent.
+## 验收边界
+
+本次验收证明源文件完整、TeX 可编译、文本可提取且代表性版面正常。它不负责消除事实占位符，也不代表材料已经可以提交。邮箱、电话、准确学位名称与日期、推荐人、英语证明、写作样本详情、Privacy Lens 永久链接、导师当前招生状态、项目实时要求和学校特定申请题目，在发送任何材料前仍须核实。

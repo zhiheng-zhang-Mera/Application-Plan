@@ -302,6 +302,76 @@ SCHOOLS = [
     },
 ]
 
+
+FACULTY_DIRECTION_ZH = {
+    "Shuo Sun": "人工智能与金融科技，重点关注基于学习的决策系统；本申请拟对接基于时点数据、市场状态变化和真实交易摩擦评估强化学习及量化策略的研究基础设施。",
+    "Sijia Chen": "面向金融风控的分布式计算与决策算法；本申请拟研究连接数据来源、约束优化与风险监控的可审计分布式决策流程。",
+    "Yuyu Luo": "以数据为中心的人工智能、数据库、数据分析与智能体；本申请拟研究面向时点金融数据、可复现实验和证据可追溯智能体流程的数据基础设施。",
+    "Liang Zhang": "数据挖掘、图学习、语言模型与应用人工智能；本申请拟研究非平稳金融数据的稳健表征学习，并采用防泄漏评估和有边界的结论。",
+    "Peng Wang": "数学优化、机器学习与人工智能；本申请拟研究风险感知优化，并通过时间留出和交易成本检验目标与约束。",
+    "Pengyang Wang": "数据挖掘、大数据分析与机器学习；本申请拟研究采用时点特征和漂移感知验证的非平稳金融数据可审计挖掘。",
+    "Dingqi Yang": "时空数据挖掘、机器学习与大数据；本申请拟将市场观测建模为时间结构数据，并显式检验分布漂移。",
+    "Huanle Xu": "大数据处理系统、在线学习与分布式系统；本申请拟研究适应变化金融环境的在线监控和分布式实验基础设施。",
+    "Ye Kanye Wang": "分布式系统、隐私、区块链与去中心化金融；本申请拟研究面向高风险金融及去中心化系统的审计就绪数据与决策基础设施。",
+    "Preetha Chatterjee": "机器学习和数据挖掘的软件工程；本申请拟研究包含可测试时序数据契约、实验谱系和治理门禁的可靠机器学习工程。",
+    "Xiaohua Tony Hu": "数据挖掘、文本挖掘与分析；本申请拟研究能够抵抗信息泄漏和市场状态不稳定的金融信号稳健挖掘流程。",
+    "Weimao Ke": "信息系统、分布式系统、机器学习与数据挖掘；本申请拟研究使数据来源和模型证据可复现的分布式研究基础设施。",
+    "Shahin Jabbari": "机器学习、公平性、优化与博弈论；本申请拟研究非平稳和多目标条件下的风险感知优化与可问责决策。",
+    "Shaoyi Huang": "高效且保护隐私的机器学习及算法—系统协同设计；本申请拟研究具备明确治理检查的高效、可复现金融机器学习实验系统。",
+    "Samantha Kleinberg": "因果推断与时间序列；本申请拟研究如何在非平稳金融时间序列中区分预测关联与时间上有效的证据。",
+    "Tian Han": "概率与生成式机器学习、可解释人工智能；本申请拟研究不确定性感知表征，并用滚动前推和成本感知评估检验其有效性。",
+    "Nikhil Muralidhar": "科学机器学习与领域感知机器学习；本申请拟把金融约束和证据边界直接纳入实验设计。",
+    "Kaiyi Ji": "优化、机器学习与大数据分析；本申请拟研究由防泄漏验证和可审计决策记录支撑的风险感知优化。",
+    "Varun Chandola": "异常检测与大数据分析；本申请拟把市场状态、漂移和异常监控作为金融机器学习评估的一等组成部分。",
+    "Tevfik Kosar": "数据密集型分布式与存储系统；本申请拟研究具有可复现数据谱系和可扩展实验执行能力的时点金融数据基础设施。",
+    "Changyou Chen": "贝叶斯推断、生成学习与强化学习；本申请拟在真实时间和市场约束下评估不确定性感知与序贯决策方法。",
+    "Nematollaah Shiri": "数据库、不确定数据、查询优化与数据分析；本申请拟研究支持防泄漏金融机器学习的时点数据构建和可查询数据来源。",
+    "Brigitte Jaumard": "大规模优化与运筹学；本申请拟研究显式纳入可行性、换手率和成本约束的风险感知组合与决策优化。",
+    "Andrew Delong": "机器学习、深度学习与优化；本申请拟研究时间分布漂移下的稳健学习与优化，并采用可证伪评估。",
+    "Emad Shihab": "数据驱动软件工程与人工智能软件工程；本申请拟以测试、可审计性和证据边界统一 Quant-Ultra 与 Privacy Lens 的软件治理研究。",
+    "Xiao Huang": "数据挖掘、机器学习与智能体人工智能；本申请拟研究工具、数据谱系和结论均可审计的智能体金融研究流程。",
+    "Houduo Qi": "优化、数据科学与投资组合优化；本申请拟把组合优化与时点数据、真实摩擦及稳健样本外证据结合。",
+    "Wanyu Lin": "可信人工智能、隐私与可解释性；本申请拟研究结合数据来源、有边界解释、监控和隐私治理的可信金融机器学习基础设施。",
+    "Wenqi Fan": "机器学习、数据挖掘、图学习与推荐系统；本申请拟研究变化金融关系的稳健图表征学习，并避免时间信息泄漏。",
+    "Qi Wu": "量化金融、金融科技与商业分析；本申请拟研究整合时间有效性、风险控制和部署审计能力的金融智能基础设施。",
+    "Kaidi Xu": "可信人工智能、不确定性与形式化验证；本申请拟研究高风险金融机器学习流程的可验证控制和不确定性感知评估。",
+    "Xinyue Li": "面向大规模数据的可扩展统计学习；本申请拟在时点金融数据上开展漂移感知且统计严谨的可扩展学习。",
+    "Yifan Sun": "机器学习的大规模与非凸优化；本申请拟研究以真实滚动前推金融评估为基础的大规模风险感知优化。",
+    "Anshul Gandhi": "机器学习系统、云系统与优化；本申请拟研究资源感知、可复现的金融机器学习实验和监控系统。",
+    "Ting Wang": "机器学习、安全、隐私与可信决策；本申请拟研究连接模型证据、隐私、数据来源和明确治理门禁的可信决策基础设施。",
+    "Praveen Tripathi": "机器学习、数据挖掘与时空分析；本申请拟研究带有分布漂移和异常监控的时间结构金融学习。",
+    "James Cheng": "数据分析、机器学习与推断的高性能系统；本申请拟研究具有可复现数据及实验谱系的高性能金融机器学习基础设施。",
+    "Eric Chi Lik Lo": "机器学习、大数据、数据库、数据挖掘与分布式系统；本申请拟研究支撑时点数据集和防泄漏分析的数据库及分布式系统。",
+    "Songtao Lu": "优化、机器学习与数据科学；本申请拟研究时间漂移、交易成本和明确风险约束下的稳健优化。",
+    "Sinno Jialin Pan": "迁移学习与领域自适应；本申请拟研究跨市场状态的领域自适应，同时避免未来信息污染评估。",
+    "Farzan Farnia": "稳健机器学习、优化与分布漂移；本申请拟研究金融决策系统面对分布变化时的稳健学习目标与压力测试。",
+    "Marco Serafini": "机器学习系统、数据管理与分布式系统；本申请拟研究连接时点金融数据、分布式实验执行和审计轨迹的可靠系统。",
+    "Peter Haas": "数据管理、应用概率、统计与优化；本申请拟研究服务于不确定性和成本感知金融决策的统计严谨数据系统。",
+    "Ben Marlin": "多变量时间序列机器学习；本申请拟研究缺失数据与时间漂移条件下的多变量金融学习，并采用严格滚动前推评估。",
+    "Alexandra Meliou": "数据质量、因果性与可信数据系统；本申请拟研究能够暴露金融机器学习证据何时不宜使用的数据质量和来源机制。",
+    "Mohammad Hajiesmaili": "不确定性下的优化、算法与学习；本申请拟研究不确定且持续变化金融环境中的在线与风险感知优化。",
+    "Binhang Yuan": "面向机器学习的数据管理与分布式机器学习；本申请拟研究支持时点数据和可复现实验的分布式金融机器学习基础设施。",
+    "Kai Chen": "机器学习系统、高性能网络与隐私计算；本申请拟研究具有明确运行和证据控制的高效、隐私友好金融机器学习系统。",
+    "Qiong Luo": "大数据系统及并行与分布式计算；本申请拟研究可扩展时点数据处理和可复现回测执行。",
+    "Lei Chen": "时间序列数据库、数据驱动机器学习与数据库智能；本申请拟研究支持防泄漏特征生成、监控和可审计机器学习的时间序列数据库。",
+    "Eamonn Keogh": "时间序列数据挖掘；本申请拟对非平稳金融时间序列开展可证伪分析，并严格防范数据泄漏和基准结论夸大。",
+    "Vagelis Papalexakis": "数据挖掘、机器学习与可信人工智能；本申请拟研究多关系金融数据的可信挖掘和透明失败分析。",
+    "Vagelis Hristidis": "数据库、数据系统与信息检索；本申请拟研究支撑可追溯金融证据和可复现下游决策研究的数据库基础设施。",
+    "Jie Lu": "概念漂移、迁移学习、计算智能与数据驱动决策支持；本申请拟研究跨变化市场状态的漂移感知金融学习与决策支持。",
+    "Guodong Long": "可信机器学习、联邦学习、隐私保护智能与数据科学；本申请拟把个性化或联邦学习与来源、隐私和时间验证结合。",
+    "Guangquan Zhang": "模糊优化、模糊机器学习、多目标与双层决策；本申请拟研究风险、成本、可行性和不确定性约束均可独立审计的多目标金融决策。",
+    "Aneesh Krishna": "人工智能、数据挖掘、机器学习、软件工程与形式化方法；本申请拟研究具备可测试数据契约、模型治理和可复现失败分析的可靠金融机器学习工程。",
+    "Scott Lindstrom": "数学优化、机器学习与数据科学；本申请拟研究市场摩擦和分布漂移下的风险感知优化，并采用防泄漏时间评估。",
+    "Sourav Das": "数据科学与统计；本申请拟通过不确定性、敏感性分析和可复现证据严谨评估非平稳金融模型。",
+    "Kian Hsiang Low": "学习与优化、数据中心人工智能、协作人工智能、决策与可信人工智能；本申请拟研究具有明确不确定性、时间验证和可审计约束的漂移感知金融学习。",
+    "Reza Shokri": "数据隐私、可信机器学习与联邦学习；本申请拟研究具有结论边界、数据来源和失败导向评估的隐私友好可审计金融机器学习基础设施。",
+    "Anthony K H Tung": "数据库系统、数据挖掘、时间序列、可信人工智能与可部署决策系统；本申请拟研究由可追溯时点数据支撑的稀有事件和变化状态金融人工智能。",
+    "Jiancong Xiao": "学习理论、统计、优化、负责任机器学习、校准与稳健性；本申请拟研究分布漂移和非对称风险下校准金融学习的理论与实证基础。",
+    "Yihan Du": "强化学习、在线学习、机器学习、人工智能安全与对齐；本申请拟研究适应变化市场状态并执行明确风险和证据约束的安全在线金融学习。",
+    "Rakesh Nagi": "数据科学、机器学习、运筹学与优化；本申请拟研究不确定性和运行约束下序贯资源配置的可审计优化与机器学习基础设施。",
+    "Karthik Natarajan": "数据科学、机器学习、分布鲁棒优化与决策科学；本申请拟研究不确定集合、成本和样本外局限均透明的分布鲁棒金融决策。",
+}
+
 PROGRAM_LINKS = {
     "The Hong Kong University of Science and Technology (Guangzhou)": {
         "program": "https://soch.hkust-gz.edu.cn/wp-content/uploads/2025/12/PhD-in-Financial-Technology-2026-27-Intake-20251218.pdf",
@@ -856,98 +926,103 @@ If there is no response, send one concise follow-up after 7-10 days. Do not send
 
 
 def checklist_md(school: dict, supervisor: str) -> str:
-    special_checks = school.get("special_checks", [])
+    special_checks = SPECIAL_CHECKS_ZH.get(
+        school["school"],
+        ["提交前重新核对实时项目页面、截止日期、申请费用、材料格式和文件大小限制。"],
+    )
     special_section = ""
     if special_checks:
-        special_section = "\n## School-specific gates\n\n" + "\n".join(
+        special_section = "\n## 学校特定门槛\n\n" + "\n".join(
             f"- [ ] {item}" for item in special_checks
         ) + "\n"
-    return f"""# Application checklist - {school['school']} - {supervisor}
+    details = SCHOOL_README_ZH[school["school"]]
+    return f"""# 申请清单｜{school['folder']}｜{supervisor}
 
-Last package build: 2026-08-15. Treat dates and portal wording as time-sensitive and re-check the official page 30 days before submission.
+材料包最近生成日期：2026-08-16。截止日期和申请系统文案均可能变化，须在提交前 30 天重新核对官方页面。
 
-Official starting point: {school['source']}
+官方核对入口：{school['source']}
 
-## Authored materials in this folder
+## 本目录内的申请材料
 
-- [ ] Fill contact, degree-title, project-link, and referee placeholders in both CVs.
-- [ ] Adapt `03_Statement_of_Purpose.tex` to the live prompt and word limit.
-- [ ] Verify every claim in `04_Research_Statement.tex` and `05_Research_Proposal.tex`.
-- [ ] Replace the placeholder bibliography with current, verified literature.
-- [ ] Compile and visually inspect every TeX source before portal upload.
-- [ ] Use `08_Contact_Email.md` only in line with this strategy: {school['contact']}
+- [ ] 补全两版简历中的联系方式、学位名称、项目链接和推荐人占位符。
+- [ ] 按实时申请题目和字数限制调整 `03_Statement_of_Purpose.tex`。
+- [ ] 核验 `04_Research_Statement.tex` 和 `05_Research_Proposal.tex` 中的每项陈述。
+- [ ] 用最新且已核实的文献替换参考文献占位内容。
+- [ ] 上传申请系统前编译并逐页检查所有 TeX 文件。
+- [ ] 仅按以下策略使用英文套磁邮件 `08_Contact_Email.md`：{details['outreach']}
 
-## Program package
+## 项目申请材料
 
-- [ ] Online application and fee or approved fee waiver
-- [ ] Resume / Academic CV and Research CV
-- [ ] {school['statement']}
-- [ ] {school['lor']}
-- [ ] Transcripts from every post-secondary institution
-- [ ] Degree certificate(s) or current-enrolment / expected-completion evidence
-- [ ] Official grading scale or legend where requested
-- [ ] English-proficiency score or accepted official medium-of-instruction evidence
-- [ ] Passport / identity document
-- [ ] Writing sample if required or beneficial
-- [ ] Verified permanent project links, release tags, and commit hashes
-- [ ] Supervisor field / consent evidence where required
+- [ ] 在线申请表及申请费，或获批的费用减免证明
+- [ ] 学术简历和研究简历
+- [ ] {details['statement']}
+- [ ] {details['lor']}
+- [ ] 所有高等教育阶段的正式成绩单
+- [ ] 学位证书，或在读及预计完成时间证明
+- [ ] 项目要求时提供官方评分标准或成绩图例
+- [ ] 英语能力成绩，或学校接受的英语授课证明
+- [ ] 护照或其他身份证明
+- [ ] 项目要求或有利于评审时提交写作样本
+- [ ] 已核实的项目永久链接、发布标签和提交哈希
+- [ ] 项目要求时提供导师选择或同意指导证明
 {special_section}
-## Current supervisor/contact gate
+## 当前导师及联系门槛
 
-- [ ] Verify {supervisor}'s current institutional profile and email
-- [ ] Read at least two recent relevant papers or project pages
-- [ ] Replace the broad research hook with one precise, accurate connection
-- [ ] Confirm 2027 student capacity before treating any reply as a positive signal
-- [ ] Save replies and any supervision commitment in the application record
+- [ ] 核实 {supervisor} 当前所在机构的官方主页和邮箱
+- [ ] 阅读至少两篇近期相关论文或项目页面
+- [ ] 用一个准确、具体的研究连接替换宽泛切入点
+- [ ] 确认 2027 年招生名额后，才把回复视为积极信号
+- [ ] 将回复和任何指导承诺保存在申请记录中
 
-## Missing user-supplied official items
+## 尚缺的申请人正式材料
 
-- [ ] Exact University of Melbourne degree title and expected completion date
-- [ ] Current official Melbourne transcript
-- [ ] UBC degree certificate
-- [ ] Melbourne enrolment / expected-completion letter or final certificate when available
-- [ ] Official medium-of-instruction evidence if the portal requires it
-- [ ] Passport / ID scan
-- [ ] English-test evidence if no exemption applies
-- [ ] Consenting referee names, titles, institutional emails, and submission status
-- [ ] Complete thesis or research-report writing sample
-- [ ] Verified Quant-Ultra and Privacy Lens permanent links
+- [ ] 墨尔本大学准确学位名称和预计完成日期
+- [ ] 墨尔本大学最新正式成绩单
+- [ ] 英属哥伦比亚大学学位证书
+- [ ] 墨尔本大学在读或预计完成证明；取得最终证书后及时替换
+- [ ] 申请系统要求时提供官方英语授课证明
+- [ ] 护照或身份证明扫描件
+- [ ] 不适用豁免时提供英语考试证明
+- [ ] 已同意推荐的推荐人姓名、职称、机构邮箱和提交状态
+- [ ] 完整论文或研究报告写作样本
+- [ ] 已核实的 Quant-Ultra 和 Privacy Lens 永久链接
 
-## Final claim-boundary review
+## 最终陈述边界检查
 
-- [ ] No publication, award, employment, language score, GPA conversion, ranking, or supervisor interest is claimed without evidence.
-- [ ] Quant-Ultra is described as research infrastructure, not investment advice or proven future performance.
-- [ ] Privacy Lens engineering evidence is not described as legal compliance or universal device validation.
-- [ ] The complete transcript is submitted; the academic trajectory is contextualized but no weak result is hidden.
+- [ ] 未在缺乏证据时声称论文、奖励、工作经历、语言成绩、绩点换算、排名或导师兴趣。
+- [ ] 将 Quant-Ultra 描述为研究基础设施，而非投资建议或已证明的未来业绩。
+- [ ] 未把 Privacy Lens 的工程证据描述为法律合规结论或全部设备验证。
+- [ ] 提交完整成绩单；可以解释学业轨迹，但不得隐藏较弱成绩。
 """
 
 
 def fact_check_md(school: dict, supervisor: str, area: str, hook: str) -> str:
-    return f"""# Fact-check record
+    direction = FACULTY_DIRECTION_ZH[supervisor]
+    return f"""# 事实核对记录
 
-## Safe to use from supplied evidence
+## 可依据现有证据使用的事实
 
-- Applicant name: Zhiheng Zhang.
-- The supplied UBC transcript records enrollment in a Bachelor of Science program but says `Credentials: None to date`; degree completion must not be claimed until a degree certificate or final transcript is added.
-- UBC transcript date: 2024-08-28; it contains the course results cited in the drafts.
-- UBC later-stage evidence includes capstone 93, databases retake 90, image processing 88, data analytics 86, software engineering 86, numerical analysis 85, and algorithms 82.
-- Melbourne WAM image lists the 2025 coursework and an in-progress 2026 Computer Science Research Project; the image labels the remaining project component as TBD.
-- Application positioning and project descriptions follow the repository's 2027 plan.
+- 申请人姓名：Zhiheng Zhang。
+- 现有英属哥伦比亚大学成绩单记录了理学学士项目就读情况，但标注 `Credentials: None to date`；在补充学位证书或最终成绩单前，不得声称已完成学位。
+- 英属哥伦比亚大学成绩单日期为 2024-08-28，其中包含草稿引用的课程成绩。
+- 后期课程证据包括：毕业项目 93、数据库重修 90、图像处理 88、数据分析 86、软件工程 86、数值分析 85、算法 82。
+- 墨尔本大学 WAM 图片列出 2025 年课程及 2026 年进行中的计算机科学研究项目；图片将剩余项目部分标为待定。
+- 申请定位和项目描述遵循仓库中的 2027 年申请计划。
 
-## Must be verified before submission
+## 提交前必须核实
 
-- Exact Melbourne degree title, enrollment status, expected completion date, and current official grades.
-- Exact UBC degree major and conferral wording from the degree certificate.
-- All contact details, project URLs, releases, commit hashes, and individual contributions.
-- Any publication, preprint, award, scholarship, internship, employment, ranking, GPA/WAM summary, or language-test claim.
-- Current research area and recruiting status of {supervisor}; the working fit is `{area}` and the proposed hook is `{hook}`.
-- The live 2027 requirements and deadline at {school['school']}.
+- 墨尔本大学准确学位名称、在读状态、预计完成日期和最新正式成绩。
+- 根据学位证书核实英属哥伦比亚大学准确专业及授予文字。
+- 所有联系方式、项目网址、发布版本、提交哈希和个人贡献。
+- 任何论文、预印本、奖励、奖学金、实习、工作经历、排名、绩点或 WAM 汇总及语言成绩陈述。
+- {supervisor} 当前研究方向、所在机构和招生状态。工作匹配说明：{direction}
+- {school['folder']} 2027 年实时申请要求和截止日期。
 
-## Official source used for the package checklist
+## 申请清单采用的官方来源
 
 {school['source']}
 
-The source URL is a starting point, not proof that the page will remain unchanged. Save a dated PDF/screenshot of the live requirement page when the application is submitted.
+该网址仅是核对起点，不能证明页面内容以后不会变化。提交申请时应保存带日期的实时要求页面 PDF 或截图。
 """
 
 
@@ -1016,32 +1091,42 @@ def school_readme_md(school: dict) -> str:
 
 
 def readme_md(school: dict, supervisor: str) -> str:
-    return f"""# {school['school']} - {supervisor}
+    direction = FACULTY_DIRECTION_ZH[supervisor]
+    details = SCHOOL_README_ZH[school["school"]]
+    return f"""# {school['folder']}｜{supervisor}
 
-Program: **{school['program']}**
+申请项目：**{school['program']}**
 
-Contact strategy: **{school['contact']}**
+套磁策略：**{details['outreach']}**
 
-This is a self-contained working package. Authored documents that will eventually be PDFs are supplied as LaTeX source, as requested. The official UBC transcript remains an original PDF attachment and the Melbourne WAM evidence remains its original image; neither has been reconstructed.
+## 导师研究方向与申请切入点
 
-## Files
+{direction}
 
-- `01_Academic_CV.tex` - concise academic CV
-- `02_Research_CV.tex` - research-focused CV
-- `03_Statement_of_Purpose.tex` - school and faculty-fit statement
-- `04_Research_Statement.tex` - reusable research agenda
-- `05_Research_Proposal.tex` - full proposal draft
-- `06_Quant_Ultra_Research_Summary.tex` - one-page project summary
-- `07_Privacy_Lens_Research_Summary.tex` - secondary project summary
-- `08_Contact_Email.md` - individualized outreach draft and sending rule
-- `09_Application_Checklist.md` - program materials and unresolved official items
-- `10_Fact_Check.md` - claim ledger for this package
-- `11_Writing_Sample_Cover_Note.tex` - cover note; the actual sample is still required
-- `Attachments/` - supplied official/background evidence
+> 该方向说明根据现有申请计划整理。发送邮件或提交申请前，必须用导师最新官方主页、近期论文和当前招生信息再次核实，不得把工作匹配写成导师已经表达兴趣。
 
-## Before any external use
+## 材料包说明
 
-Search all files for `CONFIRM`, `ADD`, `TBD`, and square-bracket placeholders. Complete those fields, verify the professor's current profile and the live portal requirements, compile the TeX files, and visually inspect the resulting PDFs. Drafts marked as low-ROI or department-only should not be sent merely because they exist.
+本目录是申请该导师的自包含工作包。所有拟导出为 PDF 的新撰写材料均以 LaTeX 源文件提供。英属哥伦比亚大学正式成绩单保留为原始 PDF 附件，墨尔本大学 WAM 证据保留为原始图片，二者均未重新制作。
+
+## 文件清单
+
+- `01_Academic_CV.tex`：精简学术简历
+- `02_Research_CV.tex`：研究导向简历
+- `03_Statement_of_Purpose.tex`：学校与导师匹配目的陈述
+- `04_Research_Statement.tex`：可复用研究陈述
+- `05_Research_Proposal.tex`：完整研究计划草稿
+- `06_Quant_Ultra_Research_Summary.tex`：一页项目摘要
+- `07_Privacy_Lens_Research_Summary.tex`：第二项目摘要
+- `08_Contact_Email.md`：英文定制套磁邮件及发送规则；按用户要求保留英文
+- `09_Application_Checklist.md`：项目材料和未解决事项清单
+- `10_Fact_Check.md`：本申请包的事实与陈述边界记录
+- `11_Writing_Sample_Cover_Note.tex`：写作样本说明页；仍需补充实际样本
+- `Attachments/`：现有正式材料和背景证据
+
+## 对外使用前
+
+检索所有文件中的 `CONFIRM`、`ADD`、`TBD` 和方括号占位符并逐项补全。核实导师最新主页及实时申请系统要求，编译全部 TeX 文件并逐页检查生成的 PDF。标记为低投入回报或仅供院系申请使用的草稿，不得因为文件已经生成就直接发送。
 """
 
 
@@ -1049,40 +1134,41 @@ def root_index() -> str:
     rows = []
     for s in sorted(SCHOOLS, key=lambda item: int(item["order"])):
         folder = f"{s['order']}_{s['folder']}"
-        rows.append(f"| {s['order']} | [{s['folder']}](<{folder}/>) | {s['program']} | {len(s['faculty'])} | {s['contact']} |")
-    return """# 2027 PhD application packages
+        outreach = SCHOOL_README_ZH[s["school"]]["outreach"]
+        rows.append(f"| {s['order']} | [{s['folder']}](<{folder}/>) | {s['program']} | {len(s['faculty'])} | {outreach} |")
+    return """# 2027 年博士申请材料包
 
-Generated from the application plan and the supplied background evidence on 2026-08-15.
+本目录依据申请计划和现有背景证据生成，最近更新日期为 2026-08-16。
 
-Every final supervisor folder contains the authored application materials, a tailored email draft, a program checklist, a fact-check ledger, and copies of the supplied academic evidence. TeX source is used for every newly authored document intended to become a PDF. Original official evidence remains in its original format.
+每个导师目录均包含为该导师准备的申请材料、英文定制套磁邮件、项目申请清单、事实核对记录及现有学业证据副本。所有拟生成 PDF 的新撰写材料均使用 TeX 源文件；原始正式证据保持原格式不变。除套磁邮件外，全部 Markdown 说明文件使用中文。
 
-| Priority | School | Program | Supervisor packages | Outreach strategy |
+| 优先级 | 学校 | 申请项目 | 导师申请包数量 | 套磁策略 |
 |---:|---|---|---:|---|
 """ + "\n".join(rows) + """
 
-## Important limitations
+## 重要边界
 
-- These are complete drafts, not submission-ready official records. The repository does not contain a current official Melbourne transcript, degree certificates, passport, English evidence, referee identities, or the complete writing sample.
-- No publication, award, employment, rank, converted GPA, or supervisor interest is asserted.
-- Faculty research hooks come from the plan and must be checked against current official profiles and recent work before sending.
-- The current GRE screen is recorded in `Applications/GRE_AUDIT.md`; NTU CCDS was removed because its programme-level rule requires GRE/GMAT for this overseas-degree profile.
-- HKUST CSE is treated as requiring a faculty member who agrees to supervise because its current FAQ says so; do not rely on the older optional-contact classification.
-- Department-level programs include individual faculty-fit packages for organization, but their email files are clearly marked as optional or not for mass outreach.
+- 这些文件是完整草稿，不是可以直接提交的正式记录。仓库尚不包含墨尔本大学最新正式成绩单、学位证书、护照、英语证明、推荐人身份和完整写作样本。
+- 未在缺乏证据时声称论文、奖励、工作经历、排名、绩点换算或导师兴趣。
+- 导师研究切入点来自当前计划；发送前必须根据导师最新官方主页和近期成果重新核对。
+- 当前 GRE 筛查记录见 `Applications/GRE_AUDIT.md`。南洋理工大学计算与数据科学学院因其项目规则对当前海外学历背景强制要求 GRE/GMAT，已从清单删除。
+- 香港科技大学计算机科学与工程博士按“必须有导师同意指导”处理，因为当前常见问题页面明确写有该条件；不得沿用旧的可选联系分类。
+- 院系统一录取项目仍按导师分别建包以便组织材料，但英文邮件中已明确标记为可选或禁止群发。
 
-## Build and validation
+## 生成与验证
 
-Run:
+执行：
 
 ```powershell
 python tools/build_application_packages.py
 python tools/validate_application_packages.py
 ```
 
-Compile TeX only after replacing placeholders. A compile check can still be run on drafts because placeholders are TeX-safe, but visual and factual approval is required before external use.
+替换占位符后再正式编译 TeX。占位符对 TeX 安全，因此草稿也可以执行编译检查；但任何对外使用仍须经过版面和事实审核。
 
-## D-drive QA environment
+## D 盘验收环境
 
-The verified local TeX environment is installed at `D:\\PhD-Tools\\TinyTeX` (TeX Live 2026). Because TeX cannot reliably create logs beneath the repository's non-ASCII path, the compile script copies each source to an ASCII-only staging folder under `D:\\PhD-Tools\\qa-input` and writes QA PDFs/logs under `D:\\PhD-Tools\\qa-output`.
+已验证的本地 TeX 环境安装于 `D:\\PhD-Tools\\TinyTeX`（TeX Live 2026）。由于 TeX 无法在含非 ASCII 字符的仓库路径下稳定创建日志，编译脚本会将源文件复制到 `D:\\PhD-Tools\\qa-input` 的纯 ASCII 暂存目录，并将验收 PDF 和日志写入 `D:\\PhD-Tools\\qa-output`。
 
 ```powershell
 python tools/build_application_packages.py
@@ -1091,7 +1177,7 @@ python tools/compile_application_packages.py --workers 8
 python tools/render_qa_representatives.py
 ```
 
-The compile and render manifests are written below `tmp/pdfs/` and are intentionally ignored by Git.
+编译和渲染清单写入 `tmp/pdfs/`，并按设计排除在 Git 跟踪之外。
 """
 
 
@@ -1110,7 +1196,10 @@ def build() -> None:
             target = school_dir / supervisor
             attachments = target / "Attachments"
             attachments.mkdir(parents=True, exist_ok=True)
-            write(target / "00_README.md", readme_md(school, supervisor))
+            legacy_readme = target / "00_README.md"
+            if legacy_readme.exists():
+                legacy_readme.unlink()
+            write(target / "README.md", readme_md(school, supervisor))
             write(target / "01_Academic_CV.tex", academic_cv(school, supervisor, area, hook))
             write(target / "02_Research_CV.tex", research_cv(school, supervisor, area, hook))
             write(target / "03_Statement_of_Purpose.tex", sop(school, supervisor, area, hook))

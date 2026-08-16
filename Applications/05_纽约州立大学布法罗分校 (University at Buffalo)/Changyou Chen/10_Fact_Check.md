@@ -1,25 +1,25 @@
-# Fact-check record
+# 事实核对记录
 
-## Safe to use from supplied evidence
+## 可依据现有证据使用的事实
 
-- Applicant name: Zhiheng Zhang.
-- The supplied UBC transcript records enrollment in a Bachelor of Science program but says `Credentials: None to date`; degree completion must not be claimed until a degree certificate or final transcript is added.
-- UBC transcript date: 2024-08-28; it contains the course results cited in the drafts.
-- UBC later-stage evidence includes capstone 93, databases retake 90, image processing 88, data analytics 86, software engineering 86, numerical analysis 85, and algorithms 82.
-- Melbourne WAM image lists the 2025 coursework and an in-progress 2026 Computer Science Research Project; the image labels the remaining project component as TBD.
-- Application positioning and project descriptions follow the repository's 2027 plan.
+- 申请人姓名：Zhiheng Zhang。
+- 现有英属哥伦比亚大学成绩单记录了理学学士项目就读情况，但标注 `Credentials: None to date`；在补充学位证书或最终成绩单前，不得声称已完成学位。
+- 英属哥伦比亚大学成绩单日期为 2024-08-28，其中包含草稿引用的课程成绩。
+- 后期课程证据包括：毕业项目 93、数据库重修 90、图像处理 88、数据分析 86、软件工程 86、数值分析 85、算法 82。
+- 墨尔本大学 WAM 图片列出 2025 年课程及 2026 年进行中的计算机科学研究项目；图片将剩余项目部分标为待定。
+- 申请定位和项目描述遵循仓库中的 2027 年申请计划。
 
-## Must be verified before submission
+## 提交前必须核实
 
-- Exact Melbourne degree title, enrollment status, expected completion date, and current official grades.
-- Exact UBC degree major and conferral wording from the degree certificate.
-- All contact details, project URLs, releases, commit hashes, and individual contributions.
-- Any publication, preprint, award, scholarship, internship, employment, ranking, GPA/WAM summary, or language-test claim.
-- Current research area and recruiting status of Changyou Chen; the working fit is `Bayesian inference, generative learning, and reinforcement learning` and the proposed hook is `uncertainty-aware and sequential decision methods evaluated under realistic temporal and market constraints`.
-- The live 2027 requirements and deadline at University at Buffalo, SUNY.
+- 墨尔本大学准确学位名称、在读状态、预计完成日期和最新正式成绩。
+- 根据学位证书核实英属哥伦比亚大学准确专业及授予文字。
+- 所有联系方式、项目网址、发布版本、提交哈希和个人贡献。
+- 任何论文、预印本、奖励、奖学金、实习、工作经历、排名、绩点或 WAM 汇总及语言成绩陈述。
+- Changyou Chen 当前研究方向、所在机构和招生状态。工作匹配说明：贝叶斯推断、生成学习与强化学习；本申请拟在真实时间和市场约束下评估不确定性感知与序贯决策方法。
+- 纽约州立大学布法罗分校 (University at Buffalo) 2027 年实时申请要求和截止日期。
 
-## Official source used for the package checklist
+## 申请清单采用的官方来源
 
 https://engineering.buffalo.edu/computer-science-engineering/graduate/admissions/application-materials.html
 
-The source URL is a starting point, not proof that the page will remain unchanged. Save a dated PDF/screenshot of the live requirement page when the application is submitted.
+该网址仅是核对起点，不能证明页面内容以后不会变化。提交申请时应保存带日期的实时要求页面 PDF 或截图。
