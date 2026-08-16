@@ -2,6 +2,8 @@
 
 申请项目：**Doctor of Philosophy (PhD Thesis: Computer Science)**
 
+套磁分类：**必须**
+
 套磁策略：**正式申请前须取得导师同意或学院批准，并单独核对奖学金预审流程。**
 
 ## 导师研究方向与申请切入点

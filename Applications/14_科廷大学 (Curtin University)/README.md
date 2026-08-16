@@ -2,6 +2,7 @@
 
 申请优先级：**14**<br>
 申请项目：**Doctor of Philosophy - Computing**
+套磁分类：**必须**
 
 ## 官方链接
 

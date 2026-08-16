@@ -2,6 +2,7 @@
 
 申请优先级：**05**<br>
 申请项目：**PhD in Computer Science and Engineering**
+套磁分类：**不需要**
 
 ## 官方链接
 
@@ -30,6 +31,14 @@
 ## 学校特定检查
 
 - [ ] 提交前重新核对实时项目页面、截止日期、申请费用、材料格式和文件大小限制。
+
+
+## 学院通用材料
+
+- [`Departmental_General_CV.tex`](Departmental_General_CV.tex)：不绑定单一导师的学院通用学术与研究履历
+- [`Research_Interest_Proposal.tex`](Research_Interest_Proposal.tex)：不绑定单一导师的研究兴趣计划
+
+两份材料均直接存放在学校目录下。对外使用前须核实占位符、实时项目要求、篇幅限制和学院名称；不得把学院通用版本误写成已获得任何导师支持。
 
 ## 导师申请包
 

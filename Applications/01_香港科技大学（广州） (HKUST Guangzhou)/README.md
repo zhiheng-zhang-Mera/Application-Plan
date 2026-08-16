@@ -2,6 +2,7 @@
 
 申请优先级：**01**<br>
 申请项目：**PhD in Financial Technology**
+套磁分类：**推荐**
 
 ## 官方链接
 

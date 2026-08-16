@@ -2,6 +2,8 @@
 
 申请项目：**MPhil-PhD in Computer Science and Engineering**
 
+套磁分类：**必须**
+
 套磁策略：**最终必须获得教授非正式指导意向；应进行高质量定向套磁。**
 
 ## 导师研究方向与申请切入点

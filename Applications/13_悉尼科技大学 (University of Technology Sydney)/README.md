@@ -2,6 +2,7 @@
 
 申请优先级：**13**<br>
 申请项目：**Doctor of Philosophy (PhD Thesis: Computer Science)**
+套磁分类：**必须**
 
 ## 官方链接
 

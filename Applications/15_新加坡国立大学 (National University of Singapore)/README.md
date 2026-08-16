@@ -2,6 +2,7 @@
 
 申请优先级：**15**<br>
 申请项目：**PhD in Computer Science (School of Computing)**
+套磁分类：**推荐**
 
 ## 官方链接
 

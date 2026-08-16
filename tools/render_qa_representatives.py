@@ -12,8 +12,18 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "tmp" / "pdfs" / "compile-manifest.json"
 OUTPUT = ROOT / "tmp" / "pdfs" / "rendered"
 REPRESENTATIVES = {
-    "nus_kian_hsiang_low": "Applications/15_新加坡国立大学 (National University of Singapore)/Kian Hsiang Low/",
-    "sutd_yihan_du": "Applications/16_新加坡科技设计大学 (Singapore University of Technology and Design)/Yihan Du/",
+    "macau_departmental": [
+        "Applications/02_澳门大学 (University of Macau)/Departmental_General_CV.tex",
+        "Applications/02_澳门大学 (University of Macau)/Research_Interest_Proposal.tex",
+    ],
+    "ub_departmental": [
+        "Applications/05_纽约州立大学布法罗分校 (University at Buffalo)/Departmental_General_CV.tex",
+        "Applications/05_纽约州立大学布法罗分校 (University at Buffalo)/Research_Interest_Proposal.tex",
+    ],
+    "concordia_departmental": [
+        "Applications/06_康考迪亚大学 (Concordia University)/Departmental_General_CV.tex",
+        "Applications/06_康考迪亚大学 (Concordia University)/Research_Interest_Proposal.tex",
+    ],
 }
 
 
@@ -57,10 +67,12 @@ def main() -> None:
     OUTPUT.mkdir(parents=True, exist_ok=True)
     summary: dict[str, object] = {}
     selected_count = 0
-    for label, prefix in REPRESENTATIVES.items():
-        selected = [r for r in data["results"] if r["source"].startswith(prefix)]
-        if len(selected) != 8:
-            raise SystemExit(f"Expected 8 representative documents for {label}, found {len(selected)}")
+    for label, sources in REPRESENTATIVES.items():
+        selected = [r for r in data["results"] if r["source"] in sources]
+        if len(selected) != len(sources):
+            raise SystemExit(
+                f"Expected {len(sources)} representative documents for {label}, found {len(selected)}"
+            )
         selected_count += len(selected)
         for result in sorted(selected, key=lambda r: r["source"]):
             source_name = PurePosixPath(result["source"]).stem

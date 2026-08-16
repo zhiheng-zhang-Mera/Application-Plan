@@ -2,6 +2,7 @@
 
 申请优先级：**10**<br>
 申请项目：**MPhil-PhD in Computer Science and Engineering**
+套磁分类：**必须**
 
 ## 官方链接
 

@@ -2,6 +2,8 @@
 
 申请项目：**PhD in Data Science and Artificial Intelligence / Computing**
 
+套磁分类：**推荐**
+
 套磁策略：**建议定向联系导师，并严格使用在线系统要求的研究计划模板。**
 
 ## 导师研究方向与申请切入点

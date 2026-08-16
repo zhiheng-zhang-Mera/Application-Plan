@@ -1,9 +1,9 @@
 # 2027 PhD 申请计划工作表
 
-> **申请材料已生成**：按优先级、学校和导师组织的 66 个自包含申请包见 [`Applications/README.md`](Applications/README.md)。17 个学校目录均采用中英双语名称，并在学校根目录提供中文 `README.md` 材料要求清单；每份清单均包含官方项目介绍、在线申请通道和材料要求核对链接。每个导师目录也使用标准 `README.md`，以中文介绍导师研究方向、申请切入点和完整文件清单。所有新撰写、拟导出为 PDF 的材料均保留为 `.tex` 源文件；除英文套磁邮件 `08_Contact_Email.md` 外，仓库内 Markdown 说明材料统一使用中文。现有官方成绩单 PDF 与 WAM 图片仅作为原始证据附件保留。每个导师目录的 `10_Fact_Check.md` 列出可用事实和提交前必须补充或核验的信息。
+> **申请材料已生成**：按优先级、学校和导师组织的 58 个自包含申请包见 [`Applications/README.md`](Applications/README.md)。15 个学校目录均采用中英双语名称，并在学校根目录提供中文 `README.md` 材料要求清单；每份清单均包含官方项目介绍、在线申请通道、材料要求核对链接，以及“必须/推荐/不需要”套磁分类。每个导师目录也使用标准 `README.md`，以中文介绍导师研究方向、申请切入点和完整文件清单。所有新撰写、拟导出为 PDF 的材料均保留为 `.tex` 源文件；除英文套磁邮件 `08_Contact_Email.md` 外，仓库内 Markdown 说明材料统一使用中文。现有官方成绩单 PDF 与 WAM 图片仅作为原始证据附件保留。每个导师目录的 `10_Fact_Check.md` 列出可用事实和提交前必须补充或核验的信息。
 
 > **方向**：金融机器学习 / 量化研究基础设施 / 机器学习系统 / 数据系统 / 可信人工智能 / 优化<br>
-> **版本**：2026-08-15  
+> **版本**：2026-08-16
 > **排序原则**：优先考虑 **录取成功率 × Funding × 研究匹配 × 高薪金融/Quant 就业出口**，学校综合排名仅作次要因素。  
 > **硬约束**：不准备 GRE；若 GRE required 则删除，optional/not required 优先。  
 > **申请叙事主线**：`Quant-Ultra` 作为主研究项目，定位为 **Auditable / Leakage-resistant Financial ML Research Infrastructure**；`Privacy Lens` 作为 auditability / governance / trustworthy software 的第二证据。
@@ -14,31 +14,29 @@
 
 ### 套磁分类
 
-- **A 类｜必须 / 事实上的录取前置条件**：最终 offer 前必须完成 supervisor match。这里要真正投入时间联系 PI。
-- **B 类｜可选 / 非前置条件**：可以先提交申请；套磁只用于提高识别度、验证招生状态或争取 PI 支持。
-- **C 类｜系级录取 / 套磁低 ROI**：不需要提前锁导师，重点应该放在 SOP / Research Statement 中写清 2–4 位 faculty fit。
+- **必须**：导师匹配或同意是录取/正式申请前置条件。
+- **推荐**：不是形式门槛，但定向联系有助于核实名额、研究匹配或获得 PI 支持。
+- **不需要**：系级录取，不需要提前锁导师；重点放在 SOP / Research Statement 的 faculty fit。
 
 ### 综合申请优先级
 
 | 总优先级 | 学校 | 项目建议 | 套磁类型 | 定位 | 当前关键动作 |
 |---:|---|---|---|---|---|
-| **1** | 香港科技大学（广州） (HKUST Guangzhou) | PhD in Financial Technology | B：可选但强烈建议 | 核心主申 | 尽早申请，rolling；联系 3–4 位 PI |
-| **2** | 澳门大学 (University of Macau) | PhD in Computer Science | B：可选 | 成功率主申 | 等 2027/28 正式轮次；先接触 3–5 位 PI |
-| **3** | 德雷塞尔大学 (Drexel University) | PhD in Computer Science | C/B：系级录取，联系可选 | 相对稳健主申 | 准备 500-word SOP + 2 LOR + transcript evaluation 策略 |
-| **4** | 史蒂文斯理工学院 (Stevens Institute of Technology) | PhD in Computer Science | B：可选 | 相对稳健主申 | 准备 writing sample；核实 2027 deadline |
-| **5** | 纽约州立大学布法罗分校 (University at Buffalo) | PhD in CSE | C：不需要提前套磁 | 核心主申 | 不群发 PI；把 2–3 位 faculty 写进 SOP |
-| **6** | 康考迪亚大学 (Concordia University) | PhD in CS / Software Engineering | **A：必须匹配导师** | 主申 | 先正式申请拿 Student ID，再重点套 3–4 位 |
-| **7** | 香港理工大学 (The Hong Kong Polytechnic University) | PhD in DSAI / Computing | B：可选但建议 | 主申 | **时间敏感**：准备标准 Research Proposal |
-| **8** | 香港城市大学 (City University of Hong Kong) | PhD in Data Science | B：可选但建议 | 主申 | DS 路线优先；联系 2–3 位 PI |
-| **9** | 纽约州立大学石溪分校 (Stony Brook University) | PhD in Computer Science | C：系级录取 | 主申 / 偏冲 | 直接做强申请；无需提前锁导师 |
-| **10** | 香港中文大学 (The Chinese University of Hong Kong) | MPhil-PhD in CSE | **A：必须匹配导师** | 冲刺 | 2027 Early 已过；准备 Sep 2026 Regular + 套磁 |
-| **11** | 马萨诸塞大学阿默斯特分校 (UMass Amherst) | PhD in Computer Science | C：系/学院录取 | 高价值冲刺 | SOP/Personal Statement faculty fit 优先 |
-| **12** | 香港科技大学 (HKUST) | PhD in CSE | B：可选，PI support 有价值 | 高价值冲刺 | **2027 Early deadline = 2026-08-15；错过后走 Regular** |
-| **13** | 悉尼科技大学 (University of Technology Sydney) | PhD Thesis: Computer Science | **A：申请需导师同意或学院批准** | 澳洲主申 | 先联系 3 位导师并共同打磨 proposal；奖学金轮次前完成 pre-approval |
-| **14** | 科廷大学 (Curtin University) | PhD - Computing | **A：EOI + 导师支持是正式申请前置** | 澳洲稳健主申 | 准备 2 页 proposal + 单独 references 页；先提交 EOI |
-| **15** | 新加坡国立大学 (National University of Singapore) | School of Computing PhD in CS | C/B：系级申请，联系可选 | 新加坡高价值冲刺 | GRE 不要求；完成 SOP、CV、2 academic references 并核对 intake deadline |
-| **16** | 新加坡科技设计大学 (Singapore University of Technology and Design) | PhD - ISTD / ESD alignment | B：建议联系 | 新加坡主申 | GRE 不要求；准备 Statement of Objectives 并联系 3 位匹配导师 |
-| **R1 / 17** | 加州大学河滨分校（备选） (University of California, Riverside) | PhD in Computer Science | B：可选 | 条件备选 | 仅在 PI 回复积极时投；Master GPA expectation 风险高 |
+| **1** | 香港科技大学（广州） (HKUST Guangzhou) | PhD in Financial Technology | **推荐** | 核心主申 | 尽早申请，rolling；联系 3–4 位 PI |
+| **2** | 澳门大学 (University of Macau) | PhD in Computer Science | **推荐** | 成功率主申 | 等 2027/28 正式轮次；先接触 3–5 位 PI |
+| **3** | 德雷塞尔大学 (Drexel University) | PhD in Computer Science | **不需要** | 相对稳健主申 | 准备 500-word SOP + 2 LOR + transcript evaluation 策略 |
+| **4** | 北卡罗来纳州立大学 (NC State University) | PhD in Computer Science | **推荐** | 相对稳健主申 | 联系 2–4 位高匹配 PI；同时完成院系申请 |
+| **5** | 纽约州立大学布法罗分校 (University at Buffalo) | PhD in CSE | **不需要** | 核心主申 | 不群发 PI；把 2–3 位 faculty 写进 SOP |
+| **6** | 康考迪亚大学 (Concordia University) | PhD in CS / Software Engineering | **必须** | 主申 | 先正式申请拿 Student ID，再重点套 3–4 位 |
+| **7** | 香港理工大学 (The Hong Kong Polytechnic University) | PhD in DSAI / Computing | **推荐** | 主申 | **时间敏感**：准备标准 Research Proposal |
+| **8** | 香港城市大学 (City University of Hong Kong) | PhD in Data Science | **推荐** | 主申 | DS 路线优先；联系 2–3 位 PI |
+| **9** | 康涅狄格大学 (University of Connecticut) | PhD in Computer Science and Engineering | **必须** | 主申 | 导师直接决定录取；先定向联系再提交 |
+| **10** | 香港中文大学 (The Chinese University of Hong Kong) | MPhil-PhD in CSE | **必须** | 冲刺 | 2027 Early 已过；准备 Sep 2026 Regular + 套磁 |
+| **12** | 香港科技大学 (HKUST) | PhD in CSE | **必须** | 高价值冲刺 | **2027 Early deadline = 2026-08-15；错过后走 Regular** |
+| **13** | 悉尼科技大学 (University of Technology Sydney) | PhD Thesis: Computer Science | **必须** | 澳洲主申 | 先联系 3 位导师并共同打磨 proposal；奖学金轮次前完成 pre-approval |
+| **14** | 科廷大学 (Curtin University) | PhD - Computing | **必须** | 澳洲稳健主申 | 准备 2 页 proposal + 单独 references 页；先提交 EOI |
+| **15** | 新加坡国立大学 (National University of Singapore) | School of Computing PhD in CS | **推荐** | 新加坡高价值冲刺 | GRE 不要求；完成 SOP、CV、2 academic references 并核对 intake deadline |
+| **16** | 新加坡科技设计大学 (Singapore University of Technology and Design) | PhD - ISTD / ESD alignment | **推荐** | 新加坡主申 | GRE 不要求；准备 Statement of Objectives 并联系 3 位匹配导师 |
 
 GRE 逐校审计及删除证据见 [`Applications/GRE_AUDIT.md`](Applications/GRE_AUDIT.md)。NTU CCDS 已因对海外高校毕业生默认强制 GRE/GMAT 而删除。
 
@@ -46,6 +44,9 @@ GRE 逐校审计及删除证据见 [`Applications/GRE_AUDIT.md`](Applications/GR
 
 - [ ] Academic CV：2 页版本
 - [ ] Research CV：3 页版本（更突出 Quant-Ultra / Privacy Lens / thesis）
+- [ ] 澳门大学学院通用 CV + Research Interest Proposal
+- [ ] University at Buffalo 学院通用 CV + Research Interest Proposal
+- [ ] Concordia University 学院通用 CV + Research Interest Proposal
 - [ ] 通用 Research Statement：约 1,000–1,500 words
 - [ ] 通用 SOP：约 700–1,000 words
 - [ ] 500-word SOP 精简版（Drexel / Concordia 等）
@@ -398,43 +399,36 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 
 ---
 
-## B3. Stevens Institute of Technology — PhD in Computer Science
+## B3. NC State University — PhD in Computer Science
 
 **综合优先级：#4**  
-**套磁：可选。** 当前项目要求不需要先拿 supervisor consent。  
-**GPA**：官方 CS PhD 最低 3.0/4.0。  
-**GRE/GMAT：optional。**  
-**2027 exact deadline**：项目页当前未给出明确 Fall 2027 CS PhD deadline；需要持续核对。  
+**套磁：推荐。** 录取与 funding 由院系委员会统筹；官方 FAQ 明确申请人可联系研究匹配的导师，以便其支持申请。不群发。
+**GRE：** 当前博士材料未列为强制项；国际硕士申请人的 GRE 规则不套用于博士，提交前再核对实时系统。
 
 ### 匹配导师
 
 | 顺序 | PI | 匹配度 | 对接点 | 使用方式 |
 |---:|---|---|---|---|
-| 1 | **Shaoyi Huang** | **A+** | efficient ML / algorithm-system co-design / large-scale ML / privacy-preserving ML | SOP + 可选邮件 |
-| 2 | **Samantha Kleinberg** | **A** | causal inference + time series | SOP |
-| 3 | **Tian Han** | **A-** | probabilistic / generative ML / explainable AI | SOP |
-| 4 | **Nikhil Muralidhar** | **A-** | scientific ML / domain-aware ML | 备用 |
+| 1 | **Timothy Menzies** | **A+** | data science / AI / software engineering / explainable optimization | 定向联系 |
+| 2 | **Xiaohui Gu** | **A+** | distributed systems / cloud / ML systems | 定向联系 |
+| 3 | **Xipeng Shen** | **A+** | programming systems / data-intensive intelligent computing | 定向联系 |
+| 4 | **Dongkuan Xu** | **A** | efficient and trustworthy generative / agentic AI | 阅读近期工作后联系 |
 
 ### 申请材料
 
-- [ ] Online application
-- [ ] Bachelor degree；CS PhD minimum GPA 3.0
-- [ ] Transcripts：所有 post-secondary institutions
-- [ ] **2 Letters of Recommendation**（program page；portal 如要求第 3 封则按系统）
-- [ ] **Statement of Purpose，500–1,000 words**
-- [ ] Resume/CV
-- [ ] **Professional Writing Sample**（PhD checklist 要求；thesis / research paper / publication）
-- [ ] Proof of English proficiency if required
-- [ ] GRE/GMAT：**optional for Computer Science PhD** → 不提交
-- [ ] Application fee：当前 USD 60
-- [ ] 非英文材料：原文 + certified word-for-word English translation
-- [ ] 被录取后 official transcripts
+- [ ] Graduate School online application
+- [ ] Personal statement：学术/研究准备、攻读 CS 研究生学位的理由、选择 NC State 的理由
+- [ ] 建议不超过 2 页的 Resume/CV
+- [ ] 所有高等教育阶段的成绩单、学位证明及必要英文译文
+- [ ] **3 封推荐信**，由能评价计算机研究生学习潜力的人提供
+- [ ] English proficiency 或有文件依据的豁免
+- [ ] 按实时页面核对 Fall 截止日期与 funding consideration date
 
 ### 执行任务
 
-- [ ] Writing sample 优先选择 Privacy Lens thesis 或其最完整 research-paper version
-- [ ] Quant-Ultra 作为 SOP 主项目；Writing Sample 不必强行金融化
-- [ ] 监控 Fall 2027 CS PhD deadline / assistantship consideration date
+- [ ] SOP 写入 2–3 位导师的具体 faculty fit
+- [ ] 仅向最高匹配 PI 发送精简定制邮件
+- [ ] 不等待 PI 回复才启动或提交院系申请
 
 ---
 
@@ -562,83 +556,37 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 
 ---
 
-## C3. Stony Brook University — PhD in Computer Science
+## A5. University of Connecticut — PhD in Computer Science and Engineering
 
 **综合优先级：#9**  
-**套磁：不需要提前锁导师。** Department-level admission；入学时先有 academic advisor，博士生应在 **前两个 semester** 找到正式 research/dissertation advisor。  
-**Fall 2027 PhD deadline：2026-12-15。**  
-**Funding**：full-time CS PhD admitted students 获 TA/RA/fellowship + tuition/fee scholarship support。  
+**套磁：必须。** 官方项目页明确说明，博士录取由单位导师决定，并将学生直接录入其研究组。
+**截止日期：** 官方项目页当前要求 1 月 1 日前提交以获得 full consideration；Fall 2027 提交前再核对。
+**GRE：不要求，可选提交。**
 
-> Stony Brook 当前“不得已有同级或更高级 CS graduate degree”的规则不会阻止 **CS master → CS PhD**；它限制的是重复申请同级或更低级 degree。
-
-### Faculty fit：主要写进 SOP
+### 匹配导师
 
 | 顺序 | PI | 匹配度 | 对接点 | 行动 |
 |---:|---|---|---|---|
-| 1 | **Yifan Sun** | **A+** | large-scale / nonconvex optimization for ML | [ ] SOP 写入 |
-| 2 | **Anshul Gandhi** | **A+** | systems for ML / cloud / optimization | [ ] SOP 写入 |
-| 3 | **Ting Wang** | **A+** | ML + security/privacy + trustworthy decision-making | [ ] SOP 写入 |
-| 4 | **Praveen Tripathi** | **A** | ML/data mining/spatiotemporal & time-series style problems | [ ] 备用 |
+| 1 | **Dongjin Song** | **A+** | ML / deep learning / time series / graph representation learning | [ ] 第一批联系 |
+| 2 | **Jinbo Bi** | **A+** | ML / data mining / distributed computing / optimization | [ ] 第一批联系 |
+| 3 | **Chuxu Zhang** | **A+** | ML / data mining / graph learning | [ ] 第一批联系 |
+| 4 | **Shiri Dori-Hacohen** | **A** | information retrieval / ML / fairness and safety in AI | [ ] 核对名额后联系 |
 
 ### 申请材料
 
-- [ ] Online application
-- [ ] **Statement of Purpose**
-- [ ] Resume/CV
-- [ ] **3 Recommendation Letters**；PhD 官方强烈建议 majority from academia
-- [ ] Scanned transcripts：所有 undergraduate + graduate institutions
-- [ ] Provisional/final degree certificates as applicable
-- [ ] 若 degree 使用 transfer credits：需上传 transfer-credit source institution transcript
-- [ ] English-language admissions survey / proficiency documents if required
-- [ ] TOEFL/IELTS if required；Duolingo 已不再接受
-- [ ] GRE：当前页面对 PhD 写 not required，但测试政策文字仍标注 2026 cycle；**Fall 2027 final policy需在提交前再确认一次**
-- [ ] Offer 后 official final transcripts / degree evidence
+- [ ] UConn Graduate School online application
+- [ ] Personal statement：学习目标、相关背景和独立研究准备
+- [ ] **3 封推荐信**，至少 1 封明确评价独立学习与研究能力
+- [ ] 学位、成绩单及必要的英文译文
+- [ ] English proficiency 或有文件依据的豁免
+- [ ] 在申请和 Personal Statement 中明确拟合作导师
+- [ ] GRE optional → 本计划不提交
 
 ### 执行任务
 
-- [ ] 不把时间花在 4 封冷邮件上
-- [ ] SOP 重点写 Yifan Sun + Anshul Gandhi + Ting Wang 中 2–3 位
-- [ ] 12 月 15 日前全部材料到齐，不踩 deadline
-
----
-
-## C4. UMass Amherst — PhD in Computer Science
-
-**综合优先级：#11**  
-**定位：高价值冲刺。** Research fit 极强，但 admission competition 高。  
-**套磁：不要求提前锁导师。** UMass CICS 可以先分配 temporary faculty advisor，之后再完成 formal advisor match。  
-**Deadline：每年 Dec 15；以 Fall 2027 为目标即按 2026-12-15 倒排，提交前确认 intake page。**  
-**GRE：No GRE required。**
-
-### Faculty fit：用于 Personal Statement / SOP fit
-
-| 顺序 | PI | 匹配度 | 对接点 | 行动 |
-|---:|---|---|---|---|
-| 1 | **Marco Serafini** | **A++** | systems for ML / data management / distributed systems | [ ] Statement 写入 |
-| 2 | **Peter Haas** | **A+** | data management + applied probability/statistics + optimization | [ ] Statement 写入 |
-| 3 | **Ben Marlin** | **A+** | multivariate time-series ML | [ ] 备用 |
-| 4 | **Alexandra Meliou** | **A+** | data quality / causality / trustworthy data systems | [ ] Statement 写入 |
-| 5 | **Mohammad Hajiesmaili** | **A** | optimization / algorithms / learning under uncertainty | [ ] 备用 |
-
-### 申请材料
-
-- [ ] University Graduate School online application
-- [ ] Application fee：当前 USD 90（或获 fee waiver）
-- [ ] **Personal Statement**
-  - [ ] research / industry experiences
-  - [ ] computing for common good / future impact
-  - [ ] contribution to diversity / positive STEM impact（按 prompt 回答，不空泛）
-- [ ] Unofficial transcripts for application
-- [ ] **2 Letters of Recommendation**
-- [ ] English proficiency scores if required
-- [ ] **No GRE**
-- [ ] 被录取后 official transcripts
-
-### 执行任务
-
-- [ ] 这是“研究 fit 值得买彩票”，不是保底
-- [ ] Personal Statement 重点写 system reliability / data correctness / non-stationarity
-- [ ] 不需要为了套磁等 PI 回复后才提交
+- [ ] 给 3–4 位 PI 分别准备研究切入点，不群发
+- [ ] 优先确认谁在 Fall 2027 有名额和 funding
+- [ ] 保存导师回复，并与申请中填写的 faculty advisor 保持一致
 
 ---
 
@@ -646,7 +594,7 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 
 **综合优先级：#12**  
 **定位：高价值冲刺。**  
-**套磁：可选；prospective-advisor support 对 offer 有价值，但 CSE 官方明确不鼓励 mass email。**  
+**套磁：必须。** 当前 CSE FAQ 要求有教师同意指导；必须定向联系，但官方明确不鼓励 mass email。
 **Fall 2027 CSE Early Recruiting deadline：2026-08-15。** 如果 portal 仍接受，今天检查并提交；错过 early recruiting 后仍可走 regular postgraduate application。  
 **GRE**：HKUST general RPG docs 表明 GRE/GMAT 仅在 program-specific requirement 时提交；CSE 不属于通常强制 GRE 的 Business programs。  
 
@@ -688,47 +636,6 @@ CUHK Early 页面明确 written/oral 会覆盖基础 CS / Math，因此 Regular 
 - [ ] **2026-08-15：先检查 Early portal 是否仍开放**
 - [ ] 如果已关闭：不要焦虑，建立 Regular application checklist
 - [ ] 不群发 4 位 PI；只给 1–2 位最高匹配发定制邮件
-
----
-
-# R 类：条件备选，不占主申请名额
-
-## R1. UC Riverside — PhD in Computer Science
-
-**定位：仅在 PI 有积极回复时投入申请费。**  
-**原因**：官方对拥有 master’s degree 的 applicant 写明 **expected GPA 3.5+**，这正好打到当前 profile 的弱项；虽然不是简单写成硬 cutoff，但成功率策略下应降级。  
-**Fall 2027 application opens：2026-10-01**  
-**International deadline：**
-- Fellowship consideration：**2027-01-05**
-- General：**2027-03-01**
-
-**GRE：PhD optional。**  
-
-### 匹配导师
-
-| 顺序 | PI | 匹配度 | 对接点 | 行动 |
-|---:|---|---|---|---|
-| 1 | **Eamonn Keogh** | **A++** | time-series data mining → non-stationary financial time series | [ ] 先套磁，再决定是否投 |
-| 2 | **Vagelis Papalexakis** | **A+** | data mining / ML / trustworthy AI | [ ] 套磁 |
-| 3 | **Vagelis Hristidis** | **A** | databases / data systems / IR | [ ] 备用 |
-
-### 申请材料
-
-- [ ] Online application
-- [ ] International application fee：当前 USD 155
-- [ ] Unofficial transcripts：所有 post-high-school institutions
-- [ ] 被录取接受 offer 后 official transcripts
-- [ ] **Graduate Statement of Purpose**（UCR 当前已用单一 Graduate SOP 替代原 SOP + Personal History Statement）
-- [ ] **3 Letters of Recommendation**
-- [ ] 若有 previous graduate program：至少 1 封应来自 research/program advisor
-- [ ] GRE optional → 不提交
-- [ ] TOEFL/IELTS only if required；English-exclusive bachelor/graduate degree 可触发 exemption，提交前确认
-- [ ] 额外 math-preparation evidence（官方建议未交 GRE 的 PhD applicant 用其他材料帮助 committee 评估数学基础）
-
-### Go / No-Go 条件
-
-- [ ] Eamonn Keogh / Papalexakis 至少一位给出明确正面信号 → **GO**
-- [ ] 无任何 PI 信号 + 其他主申材料尚未完成 → **NO-GO**
 
 ---
 
@@ -830,26 +737,25 @@ NTU CCDS 项目级页面明确要求非新加坡 Autonomous Universities 毕业�
 
 ## 2026-10
 
-- [ ] UCR Fall 2027 portal 2026-10-01 开放后仅创建 draft，不急交费
+- [ ] UConn 导师名额核对与第一轮定向套磁
 - [ ] 美国 SOP 母版完成
 - [ ] Buffalo faculty-fit SOP version
-- [ ] Stony Brook faculty-fit SOP version
-- [ ] UMass Personal Statement version
-- [ ] Stevens Writing Sample finalize
+- [ ] NC State faculty-fit SOP version
+- [ ] UConn 导师定制 Personal Statement version
 
 ## 2026-11
 
 - [ ] 推荐人发送完整 deadline spreadsheet
 - [ ] 美国所有推荐信 request 发出
-- [ ] 检查 Stony Brook Fall 2027 GRE 最终政策
+- [ ] 检查 NC State Fall 2027 博士 GRE 与 deadline 最终政策
 - [ ] Drexel 2027 official deadline / requirements 复核
-- [ ] Stevens 2027 deadline 复核
+- [ ] UConn 2027 full-consideration deadline 与导师名额复核
 - [ ] HKUST / CityU / CUHK regular round requirements 最终复核
 
 ## 2026-12
 
-- [ ] **Stony Brook：12/15 前提交**
-- [ ] **UMass：12/15 前提交**
+- [ ] **NC State：按实时博士 full-consideration deadline 提交**
+- [ ] **UConn：12/31 前完成，确保 1/1 full-consideration deadline 前到齐**
 - [ ] Drexel：按 priority deadline 提交
 - [ ] Buffalo：按 funding / full-consideration deadline 提交
 - [ ] 香港 HKPFS 如参与：按 RGC/校内 deadline 提前完成
@@ -857,7 +763,7 @@ NTU CCDS 项目级页面明确要求非新加坡 Autonomous Universities 毕业�
 ## 2027-01 ～ 2027-03
 
 - [ ] PolyU May 2027：1/13 前（若选该 intake）
-- [ ] UCR：只有 GO 条件成立才在 1/5 funding deadline 前投；否则放弃
+- [ ] UConn：复核申请完整性和导师对接记录
 - [ ] Concordia Fall：**3/1 international deadline 前完成**
 - [ ] CUHK interview / supervisor matching follow-up
 - [ ] 更新 Melbourne final thesis result / final transcript（如已出）
@@ -879,16 +785,14 @@ NTU CCDS 项目级页面明确要求非新加坡 Autonomous Universities 毕业�
 | HKUST(GZ) | **2–5** |
 | UM | **2**（至少 1 academic） |
 | Drexel | **2** |
-| Stevens | **2**（portal 若要求额外则遵循系统） |
+| NC State | **3** |
 | Buffalo | **3** |
 | Concordia | **3** |
 | PolyU DSAI | **2 academic** |
 | CityU DS | **2 academic** |
-| Stony Brook | **3** |
+| UConn | **3**（至少 1 封评价独立研究准备） |
 | CUHK full-time PhD | **至少 3** |
-| UMass Amherst | **2** |
 | HKUST | **2–5** |
-| UCR | **3** |
 | UTS | Academic referee reports；**数量以 live portal 为准** |
 | Curtin | EOI/portal referee details；**数量以 live form 为准** |
 | NUS School of Computing | **2 academic** |
@@ -936,6 +840,12 @@ NTU CCDS 项目级页面明确要求非新加坡 Autonomous Universities 毕业�
 | CityU CS alt. | Minjing Dong | [ ] | [ ] | [ ] | **已公开 2027 opening** | 仅在考虑 CS route 时 |
 | HKUST | Binhang Yuan | [ ] | [ ] | [ ] | [ ] | |
 | HKUST | Kai Chen | [ ] | [ ] | [ ] | [ ] | |
+| NC State | Timothy Menzies | [ ] | [ ] | [ ] | [ ] | 推荐定向联系 |
+| NC State | Xiaohui Gu | [ ] | [ ] | [ ] | [ ] | 推荐定向联系 |
+| NC State | Xipeng Shen | [ ] | [ ] | [ ] | [ ] | 推荐定向联系 |
+| UConn | Dongjin Song | [ ] | [ ] | [ ] | [ ] | **必须确认导师匹配** |
+| UConn | Jinbo Bi | [ ] | [ ] | [ ] | [ ] | **必须确认导师匹配** |
+| UConn | Chuxu Zhang | [ ] | [ ] | [ ] | [ ] | **必须确认导师匹配** |
 | NUS SoC | Kian Hsiang Low | [ ] | [ ] | [ ] | [ ] | selective contact |
 | NUS SoC | Reza Shokri | [ ] | [ ] | [ ] | [ ] | selective contact |
 | NUS SoC | Anthony K. H. Tung | [ ] | [ ] | [ ] | [ ] | selective contact |
@@ -949,10 +859,7 @@ NTU CCDS 项目级页面明确要求非新加坡 Autonomous Universities 毕业�
 | 学校 | Faculty 1 | Faculty 2 | Faculty 3 | SOP 已写入 |
 |---|---|---|---|---|
 | Buffalo | Kaiyi Ji | Varun Chandola | Tevfik Kosar | [ ] |
-| Stony Brook | Yifan Sun | Anshul Gandhi | Ting Wang | [ ] |
-| UMass Amherst | Marco Serafini | Peter Haas | Alexandra Meliou | [ ] |
 | Drexel | Preetha Chatterjee | Tony Hu | Weimao Ke | [ ] |
-| Stevens | Shaoyi Huang | Samantha Kleinberg | Tian Han | [ ] |
 
 ---
 
@@ -963,16 +870,14 @@ NTU CCDS 项目级页面明确要求非新加坡 Autonomous Universities 毕业�
 | HKUST(GZ) | [ ] | [ ] | [ ] | — | [ ] | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
 | UM | [ ] | [ ] | [ ] | [ ] | —/if requested | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
 | Drexel | [ ] | [ ] | [ ] | [ ] | — | [ ] | [ ] | [ ] | optional | [ ] | [ ] | |
-| Stevens | [ ] | [ ] | [ ] | [ ] | — | [ ] | [ ] | [ ] | **[ ]** | [ ] | [ ] | |
+| NC State | [ ] | [ ] | [ ] | [ ] | — | [ ] | [ ] | [ ] | optional | [ ] | [ ] | |
 | Buffalo | [ ] | [ ] | [ ] | [ ] | — | [ ] | [ ] | [ ] | optional | [ ] | [ ] | |
 | Concordia | [ ] | **[ ] match** | [ ] | [ ] | brief/if used | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
 | PolyU | [ ] | [ ] | [ ] | [ ] | **[ ]** | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
 | CityU DS | [ ] | [ ] | [ ] | [ ] | **[ ]** | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
-| Stony Brook | [ ] | [ ] | [ ] | [ ] | — | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
+| UConn | [ ] | **[ ] match** | [ ] | [ ] | — | [ ] | [ ] | [ ] | optional | [ ] | [ ] | |
 | CUHK | [ ] | **[ ] match** | [ ] | [ ] | —/interview | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
-| UMass Amherst | [ ] | [ ] | [ ] | [ ] | — | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
 | HKUST | [ ] | [ ] | [ ] | — | **[ ]** | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
-| UCR reserve | [ ] | **GO/NO-GO** | [ ] | [ ] | — | [ ] | [ ] | [ ] | — | [ ] | [ ] | |
 | UTS | [ ] | **[ ] supervision** | [ ] | [ ] | **[ ]** | [ ] | [ ] | [ ] | optional | [ ] | [ ] | |
 | Curtin | **[ ] EOI** | **[ ] support** | [ ] | — | **[ ] 2 pages** | [ ] | [ ] | portal | — | [ ] | [ ] | |
 | NUS SoC | [ ] | [ ] | [ ] | **[ ]** | — | [ ] | [ ] | **[ ] 2** | optional | [ ] | [ ] | |
@@ -1014,13 +919,12 @@ NTU CCDS 项目级页面明确要求非新加坡 Autonomous Universities 毕业�
 - [ ] **不要把任何学校叫“真正保底”**：PhD 录取高度依赖 cohort、funding 和 faculty capacity。
 - [ ] 每个 deadline 在提交前 30 天再去官方 portal 复核一次。
 - [ ] 所有 “2027 exact deadline 尚未发布” 的学校，不把上一年度日期当成最终日期。
-- [ ] Stony Brook Fall 2027 GRE policy 在 2026 年秋季再次复核；当前页面虽然给出 2027 deadline，但 GRE 文案仍引用 2026 cycle。
+- [ ] NC State 官方申请页对国际硕士申请人另有 GRE 要求；不得误套用到博士，但仍须在提交前核对实时博士 portal。
 - [ ] Drexel 明确 GRE optional but recommended：不考仍可申请，但 SOP / thesis / LOR 必须更强。
-- [ ] UCR 的 master-applicant 3.5 GPA expectation 是显著风险；只有 PI signal 足够好才投入。
 - [ ] PolyU Jan 2027 intake 不能以牺牲 Melbourne thesis 结果为代价；thesis grade 对整个 portfolio 比抢一个 intake 更重要。
 - [ ] CUHK 不要误以为过 department interview 就等于 offer；**还必须拿到 supervisor informal offer**。
 - [ ] Concordia 不要只交申请等系统自动匹配；正式联系 PI 会显著提高效率。
-- [ ] Buffalo / Stony / UMass 不要浪费大量时间群发冷邮件；把时间用在材料和 faculty-fit prose 上。
+- [ ] Buffalo 和 Drexel 不要浪费大量时间群发冷邮件；NC State 只联系最高匹配 PI；UConn 则必须完成定向导师对接。
 - [ ] HKUST CSE 不群发；官方明确指出 mass emails unlikely to be effective。
 - [ ] UTS 申请必须附 agreed supervision evidence 或 faculty approval；导师口头感兴趣不等于 admission offer。
 - [ ] Curtin 必须先走 EOI；没有导师支持和正式邀请时，不把正式 application 当作可提交状态。
@@ -1029,7 +933,7 @@ NTU CCDS 项目级页面明确要求非新加坡 Autonomous Universities 毕业�
 
 ---
 
-# 7. 官方信息核验记录（截至 2026-08-15）
+# 7. 官方信息核验记录（截至 2026-08-16）
 
 > 下列为本工作表制作时使用的主要官方页面名称。后续每次提交前仍需重新打开当年申请页确认。
 
@@ -1037,17 +941,15 @@ NTU CCDS 项目级页面明确要求非新加坡 Autonomous Universities 毕业�
 - HKUST(GZ) Financial Technology — **MPhil/PhD Program FAQ**
 - University of Macau Graduate School — **Doctoral Degree Programmes: International / Local applicant document checklists**
 - Drexel CCI — **Doctoral Admissions**
-- Stevens — **Ph.D. in Computer Science** / **Ph.D. Application Process**
+- NC State Computer Science — **Ph.D. in Computer Science** / **Application Procedure** / **Graduate FAQ**
 - University at Buffalo CSE — **Graduate Admissions** / **Frequently Asked Admissions Questions**
 - Concordia — **Computer Science PhD** / **Programs with additional requirements**
 - PolyU — **PhD/MPhil in Data Science and Artificial Intelligence** / **Supporting Documents for RPG Application**
 - CityUHK Department of Data Science — **PhD Programme in Data Science**
-- Stony Brook CS — **Graduate Admissions in Computer Science** / **Ph.D. Program**
+- UConn School of Computing — **Ph.D. Program** / **Faculty** / **Graduate School Application**
 - CUHK CSE — **Early Admission** / **Regular Admission** / **MPhil-PhD in CSE**
-- UMass Amherst CICS — **How to Apply — PhD Program**
 - HKUST CSE — **Postgraduate Student Early Recruiting (Fall 2027 Intake)**
 - HKUST Fok Ying Tung Graduate School — **Documents Required**
-- UC Riverside CSE — **International Graduate Applicants, Fall 2027**
 - UTS — **Submit an application for a Doctorate or Master's by Research** / **Documentation needed to apply for a research degree**
 - UTS FEIT — **Research degrees** / official UTS researcher profiles
 - Curtin — **Doctor of Philosophy - Computing** / **How to apply for a research degree** / **Find a Researcher or Supervisor**

@@ -61,18 +61,18 @@ SCHOOLS = [
     },
     {
         "order": "04",
-        "folder": "史蒂文斯理工学院 (Stevens Institute of Technology)",
-        "school": "Stevens Institute of Technology",
+        "folder": "北卡罗来纳州立大学 (NC State University)",
+        "school": "North Carolina State University",
         "program": "PhD in Computer Science",
-        "contact": "Departmental application; a selective email may be sent after checking faculty availability.",
-        "lor": "3 letters of recommendation for the Computer Science PhD",
-        "statement": "500-1,000-word Statement of Purpose plus a professional writing sample",
-        "source": "https://www.stevens.edu/academics/graduate-study/phd-application-process",
+        "contact": "Departmental admission; selective faculty contact is recommended but not required.",
+        "lor": "3 recommendations from people qualified to assess graduate-study potential",
+        "statement": "Personal statement and a two-page resume or curriculum vitae",
+        "source": "https://csc.ncsu.edu/academics/graduate/application-procedure/",
         "faculty": [
-            ("Shaoyi Huang", "efficient and privacy-preserving machine learning and algorithm-system co-design", "system-level co-design for efficient, reproducible financial ML experiments with explicit governance checks"),
-            ("Samantha Kleinberg", "causal inference and time series", "distinguishing predictive association from temporally valid evidence in non-stationary financial time series"),
-            ("Tian Han", "probabilistic and generative machine learning and explainable AI", "uncertainty-aware representations whose usefulness is tested through walk-forward, cost-aware evaluation"),
-            ("Nikhil Muralidhar", "scientific and domain-aware machine learning", "domain-aware learning in which financial constraints and evidence boundaries are built into experimental design"),
+            ("Timothy Menzies", "data science, artificial intelligence, and software engineering", "data-light and explainable methods for reliable ML software whose claims remain testable under temporal shift"),
+            ("Xiaohui Gu", "distributed systems, cloud computing, and machine-learning systems", "self-managing distributed infrastructure for reproducible point-in-time financial ML experiments and monitoring"),
+            ("Xipeng Shen", "programming systems, data-intensive computing, and machine-learning systems", "efficient data-intensive infrastructure for traceable financial ML training, evaluation, and deployment"),
+            ("Dongkuan Xu", "efficient, robust, and trustworthy generative and agentic AI systems", "reliable agentic financial research workflows with explicit provenance, resource controls, and evidence boundaries"),
         ],
     },
     {
@@ -140,18 +140,18 @@ SCHOOLS = [
     },
     {
         "order": "09",
-        "folder": "纽约州立大学石溪分校 (Stony Brook University)",
-        "school": "Stony Brook University",
-        "program": "PhD in Computer Science",
-        "contact": "Departmental admission; do not spend application time on generic cold email.",
-        "lor": "3 letters of recommendation, with a majority from academia preferred",
-        "statement": "Statement of Purpose",
-        "source": "https://www.cs.stonybrook.edu/admissions/Graduate-Program",
+        "folder": "康涅狄格大学 (University of Connecticut)",
+        "school": "University of Connecticut",
+        "program": "PhD in Computer Science and Engineering",
+        "contact": "Individual faculty admit PhD students directly into their research groups; targeted contact is required.",
+        "lor": "3 letters of recommendation, including at least one addressing readiness for independent research",
+        "statement": "Personal statement covering graduate aspirations, relevant background, and research preparation",
+        "source": "https://computing.engineering.uconn.edu/graduate-studies/ph-d-program/",
         "faculty": [
-            ("Yifan Sun", "large-scale and nonconvex optimization for machine learning", "large-scale risk-aware optimization grounded in realistic, walk-forward financial evaluation"),
-            ("Anshul Gandhi", "systems for machine learning, cloud systems, and optimization", "resource-aware, reproducible systems for financial ML experiments and monitoring"),
-            ("Ting Wang", "machine learning, security, privacy, and trustworthy decision-making", "trustworthy decision infrastructure joining model evidence, privacy, provenance, and explicit governance gates"),
-            ("Praveen Tripathi", "machine learning, data mining, and spatiotemporal analysis", "temporally structured financial learning with distribution-shift and anomaly monitoring"),
+            ("Dongjin Song", "machine learning, deep learning, time-series analysis, and graph representation learning", "time-series and graph learning for changing financial regimes with leakage-resistant evaluation"),
+            ("Jinbo Bi", "machine learning, data mining, distributed computing, and optimization", "distributed and optimization-aware financial ML supported by point-in-time data and auditable evidence"),
+            ("Chuxu Zhang", "machine learning, deep learning, data mining, and graph learning", "robust graph-based financial intelligence using traceable data and explicit temporal validation"),
+            ("Shiri Dori-Hacohen", "information retrieval, machine learning, and fairness and safety in AI", "safe retrieval and evidence-ranking methods for financial research agents with bounded conclusions"),
         ],
     },
     {
@@ -172,23 +172,6 @@ SCHOOLS = [
         ],
     },
     {
-        "order": "11",
-        "folder": "马萨诸塞大学阿默斯特分校 (UMass Amherst)",
-        "school": "University of Massachusetts Amherst",
-        "program": "PhD in Computer Science",
-        "contact": "Departmental admission; faculty fit should be concentrated in the Personal Statement.",
-        "lor": "2 letters of recommendation",
-        "statement": "Personal Statement / current application statement prompt",
-        "source": "https://www.cics.umass.edu/academics/phd-computer-science/how-apply-phd-program",
-        "faculty": [
-            ("Marco Serafini", "systems for machine learning, data management, and distributed systems", "reliable systems that connect point-in-time financial data, distributed experiment execution, and audit trails"),
-            ("Peter Haas", "data management, applied probability, statistics, and optimization", "statistically disciplined data systems for uncertainty-aware and cost-aware financial decisions"),
-            ("Ben Marlin", "multivariate time-series machine learning", "multivariate financial learning under missingness, temporal shift, and strict walk-forward evaluation"),
-            ("Alexandra Meliou", "data quality, causality, and trustworthy data systems", "data-quality and provenance mechanisms that expose when financial ML evidence is unsafe to use"),
-            ("Mohammad Hajiesmaili", "optimization, algorithms, and learning under uncertainty", "online and risk-aware optimization under uncertain, changing financial environments"),
-        ],
-    },
-    {
         "order": "12",
         "folder": "香港科技大学 (HKUST)",
         "school": "The Hong Kong University of Science and Technology",
@@ -202,21 +185,6 @@ SCHOOLS = [
             ("Kai Chen", "machine-learning systems, high-performance networking, and privacy computing", "efficient and privacy-aware financial ML systems with explicit operational and evidence controls"),
             ("Qiong Luo", "big-data systems and parallel and distributed computing", "scalable point-in-time data processing and reproducible backtest execution"),
             ("Lei Chen", "time-series databases, data-driven machine learning, and DB4AI", "time-series database support for leakage-resistant feature generation, monitoring, and auditable ML"),
-        ],
-    },
-    {
-        "order": "17",
-        "folder": "加州大学河滨分校（备选） (University of California Riverside - Reserve)",
-        "school": "University of California, Riverside",
-        "program": "PhD in Computer Science",
-        "contact": "Reserve application: send a targeted inquiry first and apply only if the PI signal and full portfolio justify the cost.",
-        "lor": "3 letters of recommendation",
-        "statement": "Graduate Statement of Purpose",
-        "source": "https://www1.cs.ucr.edu/graduate/admissions/international",
-        "faculty": [
-            ("Eamonn Keogh", "time-series data mining", "falsifiable analysis of non-stationary financial time series, with strong safeguards against data leakage and benchmark overclaiming"),
-            ("Vagelis Papalexakis", "data mining, machine learning, and trustworthy AI", "trustworthy mining of multi-relational financial data with transparent failure analysis"),
-            ("Vagelis Hristidis", "databases, data systems, and information retrieval", "database infrastructure for traceable financial evidence and reproducible downstream decision studies"),
         ],
     },
     {
@@ -317,10 +285,10 @@ FACULTY_DIRECTION_ZH = {
     "Xiaohua Tony Hu": "数据挖掘、文本挖掘与分析；本申请拟研究能够抵抗信息泄漏和市场状态不稳定的金融信号稳健挖掘流程。",
     "Weimao Ke": "信息系统、分布式系统、机器学习与数据挖掘；本申请拟研究使数据来源和模型证据可复现的分布式研究基础设施。",
     "Shahin Jabbari": "机器学习、公平性、优化与博弈论；本申请拟研究非平稳和多目标条件下的风险感知优化与可问责决策。",
-    "Shaoyi Huang": "高效且保护隐私的机器学习及算法—系统协同设计；本申请拟研究具备明确治理检查的高效、可复现金融机器学习实验系统。",
-    "Samantha Kleinberg": "因果推断与时间序列；本申请拟研究如何在非平稳金融时间序列中区分预测关联与时间上有效的证据。",
-    "Tian Han": "概率与生成式机器学习、可解释人工智能；本申请拟研究不确定性感知表征，并用滚动前推和成本感知评估检验其有效性。",
-    "Nikhil Muralidhar": "科学机器学习与领域感知机器学习；本申请拟把金融约束和证据边界直接纳入实验设计。",
+    "Timothy Menzies": "数据科学、人工智能与软件工程；本申请拟研究数据轻量且可解释的可靠机器学习软件，并保证其结论在时间漂移下仍可检验。",
+    "Xiaohui Gu": "分布式系统、云计算与机器学习系统；本申请拟研究面向时点金融机器学习实验和监控的自管理、可复现分布式基础设施。",
+    "Xipeng Shen": "编程系统、数据密集型计算与机器学习系统；本申请拟研究支持可追溯金融机器学习训练、评估和部署的高效数据基础设施。",
+    "Dongkuan Xu": "高效、稳健且可信的生成式与智能体人工智能；本申请拟研究具有明确数据来源、资源控制和证据边界的可靠金融研究智能体流程。",
     "Kaiyi Ji": "优化、机器学习与大数据分析；本申请拟研究由防泄漏验证和可审计决策记录支撑的风险感知优化。",
     "Varun Chandola": "异常检测与大数据分析；本申请拟把市场状态、漂移和异常监控作为金融机器学习评估的一等组成部分。",
     "Tevfik Kosar": "数据密集型分布式与存储系统；本申请拟研究具有可复现数据谱系和可扩展实验执行能力的时点金融数据基础设施。",
@@ -336,27 +304,19 @@ FACULTY_DIRECTION_ZH = {
     "Qi Wu": "量化金融、金融科技与商业分析；本申请拟研究整合时间有效性、风险控制和部署审计能力的金融智能基础设施。",
     "Kaidi Xu": "可信人工智能、不确定性与形式化验证；本申请拟研究高风险金融机器学习流程的可验证控制和不确定性感知评估。",
     "Xinyue Li": "面向大规模数据的可扩展统计学习；本申请拟在时点金融数据上开展漂移感知且统计严谨的可扩展学习。",
-    "Yifan Sun": "机器学习的大规模与非凸优化；本申请拟研究以真实滚动前推金融评估为基础的大规模风险感知优化。",
-    "Anshul Gandhi": "机器学习系统、云系统与优化；本申请拟研究资源感知、可复现的金融机器学习实验和监控系统。",
-    "Ting Wang": "机器学习、安全、隐私与可信决策；本申请拟研究连接模型证据、隐私、数据来源和明确治理门禁的可信决策基础设施。",
-    "Praveen Tripathi": "机器学习、数据挖掘与时空分析；本申请拟研究带有分布漂移和异常监控的时间结构金融学习。",
+    "Dongjin Song": "机器学习、深度学习、时间序列分析与图表征学习；本申请拟研究变化市场状态下的时间序列和图学习，并采用防泄漏评估。",
+    "Jinbo Bi": "机器学习、数据挖掘、分布式计算与优化；本申请拟研究由时点数据和可审计证据支撑的分布式、优化感知金融机器学习。",
+    "Chuxu Zhang": "机器学习、深度学习、数据挖掘与图学习；本申请拟利用可追溯数据和明确时间验证研究稳健的图金融智能。",
+    "Shiri Dori-Hacohen": "信息检索、机器学习与人工智能公平和安全；本申请拟研究面向金融研究智能体的安全检索与证据排序，并严格限定结论边界。",
     "James Cheng": "数据分析、机器学习与推断的高性能系统；本申请拟研究具有可复现数据及实验谱系的高性能金融机器学习基础设施。",
     "Eric Chi Lik Lo": "机器学习、大数据、数据库、数据挖掘与分布式系统；本申请拟研究支撑时点数据集和防泄漏分析的数据库及分布式系统。",
     "Songtao Lu": "优化、机器学习与数据科学；本申请拟研究时间漂移、交易成本和明确风险约束下的稳健优化。",
     "Sinno Jialin Pan": "迁移学习与领域自适应；本申请拟研究跨市场状态的领域自适应，同时避免未来信息污染评估。",
     "Farzan Farnia": "稳健机器学习、优化与分布漂移；本申请拟研究金融决策系统面对分布变化时的稳健学习目标与压力测试。",
-    "Marco Serafini": "机器学习系统、数据管理与分布式系统；本申请拟研究连接时点金融数据、分布式实验执行和审计轨迹的可靠系统。",
-    "Peter Haas": "数据管理、应用概率、统计与优化；本申请拟研究服务于不确定性和成本感知金融决策的统计严谨数据系统。",
-    "Ben Marlin": "多变量时间序列机器学习；本申请拟研究缺失数据与时间漂移条件下的多变量金融学习，并采用严格滚动前推评估。",
-    "Alexandra Meliou": "数据质量、因果性与可信数据系统；本申请拟研究能够暴露金融机器学习证据何时不宜使用的数据质量和来源机制。",
-    "Mohammad Hajiesmaili": "不确定性下的优化、算法与学习；本申请拟研究不确定且持续变化金融环境中的在线与风险感知优化。",
     "Binhang Yuan": "面向机器学习的数据管理与分布式机器学习；本申请拟研究支持时点数据和可复现实验的分布式金融机器学习基础设施。",
     "Kai Chen": "机器学习系统、高性能网络与隐私计算；本申请拟研究具有明确运行和证据控制的高效、隐私友好金融机器学习系统。",
     "Qiong Luo": "大数据系统及并行与分布式计算；本申请拟研究可扩展时点数据处理和可复现回测执行。",
     "Lei Chen": "时间序列数据库、数据驱动机器学习与数据库智能；本申请拟研究支持防泄漏特征生成、监控和可审计机器学习的时间序列数据库。",
-    "Eamonn Keogh": "时间序列数据挖掘；本申请拟对非平稳金融时间序列开展可证伪分析，并严格防范数据泄漏和基准结论夸大。",
-    "Vagelis Papalexakis": "数据挖掘、机器学习与可信人工智能；本申请拟研究多关系金融数据的可信挖掘和透明失败分析。",
-    "Vagelis Hristidis": "数据库、数据系统与信息检索；本申请拟研究支撑可追溯金融证据和可复现下游决策研究的数据库基础设施。",
     "Jie Lu": "概念漂移、迁移学习、计算智能与数据驱动决策支持；本申请拟研究跨变化市场状态的漂移感知金融学习与决策支持。",
     "Guodong Long": "可信机器学习、联邦学习、隐私保护智能与数据科学；本申请拟把个性化或联邦学习与来源、隐私和时间验证结合。",
     "Guangquan Zhang": "模糊优化、模糊机器学习、多目标与双层决策；本申请拟研究风险、成本、可行性和不确定性约束均可独立审计的多目标金融决策。",
@@ -385,9 +345,9 @@ PROGRAM_LINKS = {
         "program": "https://drexel.edu/cci/academics/doctoral-programs/",
         "apply": "https://drexel.edu/admissions/apply/grad-instructions/online-app",
     },
-    "Stevens Institute of Technology": {
-        "program": "https://www.stevens.edu/program/computer-science-doctoral-program",
-        "apply": "https://gradadmissions.stevens.edu/apply/",
+    "North Carolina State University": {
+        "program": "https://csc.ncsu.edu/academics/graduate/phd/",
+        "apply": "https://gradapply.ncsu.edu/apply/",
     },
     "University at Buffalo, SUNY": {
         "program": "https://engineering.buffalo.edu/computer-science-engineering/graduate/phd.html",
@@ -405,17 +365,13 @@ PROGRAM_LINKS = {
         "program": "https://www.ds.cityu.edu.hk/en/programmes/postgraduate-programmes/phd-programme-data-science",
         "apply": "https://www.cityu.edu.hk/zh-hk/pg/research-degree-programmes/apply-now",
     },
-    "Stony Brook University": {
-        "program": "https://www.cs.stonybrook.edu/graduate-program/phd-program",
-        "apply": "https://graduateadmissions.stonybrook.edu/apply/",
+    "University of Connecticut": {
+        "program": "https://computing.engineering.uconn.edu/graduate-studies/ph-d-program/",
+        "apply": "https://connect.grad.uconn.edu/apply/",
     },
     "The Chinese University of Hong Kong": {
         "program": "https://www.cse.cuhk.edu.hk/admission/mphil-phd/regular-admission/",
         "apply": "https://www.gradsch.cuhk.edu.hk/onlineapp/login_email.aspx",
-    },
-    "University of Massachusetts Amherst": {
-        "program": "https://www.cics.umass.edu/academics/phd-computer-science",
-        "apply": "https://applygrad.umass.edu/apply/",
     },
     "The Hong Kong University of Science and Technology": {
         "program": "https://cse.hkust.edu.hk/pg/programs/phd/",
@@ -436,10 +392,6 @@ PROGRAM_LINKS = {
     "Singapore University of Technology and Design": {
         "program": "https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/",
         "apply": "https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/application/",
-    },
-    "University of California, Riverside": {
-        "program": "https://www1.cs.ucr.edu/graduate/programs/computer-science",
-        "apply": "https://grad.ucr.edu/apply/",
     },
 }
 
@@ -462,11 +414,11 @@ SCHOOL_README_ZH = {
         "lor": "2 封推荐信。",
         "outreach": "院系统一录取；仅在确认研究匹配后选择性联系导师，不群发。",
     },
-    "Stevens Institute of Technology": {
-        "gre": "GRE 为可选项，不是申请硬门槛。",
-        "statement": "500–1,000 词目的陈述，并准备专业写作样本。",
-        "lor": "计算机科学博士按当前计划准备 3 封推荐信。",
-        "outreach": "可先提交院系申请；确认导师招生状态后再选择性联系。",
+    "North Carolina State University": {
+        "gre": "计算机科学博士未将 GRE 列为强制申请材料；项目页面中针对国际硕士申请人的 GRE 要求不应套用到博士。",
+        "statement": "个人陈述以及建议不超过 2 页的简历。",
+        "lor": "3 封能够评价研究生学习潜力的推荐信。",
+        "outreach": "院系统一录取；官方 FAQ 允许联系研究匹配的导师以便其支持申请，建议定向联系而不群发。",
     },
     "University at Buffalo, SUNY": {
         "gre": "计算机科学与工程博士申请不要求 GRE。",
@@ -492,23 +444,17 @@ SCHOOL_README_ZH = {
         "lor": "2 位学术推荐人。",
         "outreach": "建议联系匹配导师并确认招生容量，但仍须完成学校在线申请。",
     },
-    "Stony Brook University": {
-        "gre": "计算机科学博士申请不要求 GRE。",
-        "statement": "目的陈述。",
-        "lor": "3 封推荐信，建议多数来自学术推荐人。",
-        "outreach": "院系统一录取；无需投入时间进行泛化冷邮件。",
+    "University of Connecticut": {
+        "gre": "计算机科学与工程博士不要求 GRE，可选择提交。",
+        "statement": "说明研究生学习目标、相关背景和独立研究准备的个人陈述。",
+        "lor": "3 封推荐信，至少 1 封应明确评价独立学习和研究准备。",
+        "outreach": "博士录取由单位导师决定并直接录入其课题组；必须定向联系并确认导师匹配。",
     },
     "The Chinese University of Hong Kong": {
         "gre": "已核对的计算机科学与工程研究型项目材料未列强制 GRE。",
         "statement": "简历、最新成绩单、可用的排名证明，并准备院系面试。",
         "lor": "全日制博士至少 3 份保密推荐报告。",
         "outreach": "最终必须获得教授非正式指导意向；应进行高质量定向套磁。",
-    },
-    "University of Massachusetts Amherst": {
-        "gre": "计算机科学博士申请不要求 GRE。",
-        "statement": "Personal Statement 及当轮在线申请中的补充题目。",
-        "lor": "2 封推荐信。",
-        "outreach": "院系录取；导师匹配应集中写入申请陈述，不建议群发。",
     },
     "The Hong Kong University of Science and Technology": {
         "gre": "工程学院研究型研究生申请不要求 GRE。",
@@ -540,11 +486,40 @@ SCHOOL_README_ZH = {
         "lor": "3 位推荐人，优先选择能评价研究潜力的教师。",
         "outreach": "建议联系匹配导师并确认招生状态；正式申请仍通过学校系统完成。",
     },
-    "University of California, Riverside": {
-        "gre": "计算机科学博士申请 GRE 可选；该校继续作为第 17 位备选。",
-        "statement": "研究生目的陈述。",
-        "lor": "3 封推荐信。",
-        "outreach": "先进行定向联系，仅在导师反馈和整体材料支持时启用该备选申请。",
+}
+
+
+OUTREACH_LEVEL_ZH = {
+    "The Hong Kong University of Science and Technology (Guangzhou)": "推荐",
+    "University of Macau": "推荐",
+    "Drexel University": "不需要",
+    "North Carolina State University": "推荐",
+    "University at Buffalo, SUNY": "不需要",
+    "Concordia University": "必须",
+    "The Hong Kong Polytechnic University": "推荐",
+    "City University of Hong Kong": "推荐",
+    "University of Connecticut": "必须",
+    "The Chinese University of Hong Kong": "必须",
+    "The Hong Kong University of Science and Technology": "必须",
+    "University of Technology Sydney": "必须",
+    "Curtin University": "必须",
+    "National University of Singapore": "推荐",
+    "Singapore University of Technology and Design": "推荐",
+}
+
+
+SCHOOL_GENERAL_MATERIALS = {
+    "University of Macau": {
+        "areas": "machine learning, data mining, mathematical optimization, online and distributed systems, data provenance, and trustworthy decision infrastructure",
+        "fit": "The department's breadth across data intelligence, optimization, and distributed systems supports a school-wide application rather than a proposal tied to one prospective supervisor.",
+    },
+    "University at Buffalo, SUNY": {
+        "areas": "machine learning, optimization, anomaly detection, Bayesian and sequential learning, data-intensive distributed systems, and trustworthy analytics",
+        "fit": "The department's committee-based admission process and complementary strengths in learning, analytics, and systems support a department-level research agenda that can be refined after faculty matching.",
+    },
+    "Concordia University": {
+        "areas": "data management, machine learning, mathematical optimization, software engineering for AI, trustworthy analytics, and evidence-oriented intelligent systems",
+        "fit": "The program's complementary strengths in databases, optimization, machine learning, and software engineering support a department-level research agenda while the required supervisor match is developed through targeted outreach.",
     },
 }
 
@@ -620,6 +595,107 @@ def preamble(title: str, school: str, supervisor: str) -> str:
 
 def closing() -> str:
     return "\\end{document}\n"
+
+
+def departmental_cv(school: dict) -> str:
+    details = SCHOOL_GENERAL_MATERIALS[school["school"]]
+    return preamble("Departmental Curriculum Vitae", school["school"], "School-wide application") + rf"""
+\textbf{{Contact}}: \ApplicantEmail\quad | \quad \ApplicantPhone\quad | \quad \ApplicantGitHub
+
+\section*{{Research Profile}}
+Computer-science-trained applicant seeking doctoral study in reliable machine-learning and data systems for non-stationary, high-stakes environments. Primary work develops auditable, leakage-resistant financial ML research infrastructure; secondary work studies auditability, provenance, and fail-closed behavior in privacy-sensitive software. This version is intentionally department-wide and is not addressed to a single prospective supervisor.
+
+\section*{{Education}}
+\textbf{{University of Melbourne}} \hfill 2025--present\\
+Postgraduate computing coursework and research project. \textit{{Confirm the exact degree title and expected completion date from current official records before submission.}}
+\begin{{itemize}}
+\item Completed results include Evaluating User Experience (78), Machine Learning Applications for Health (76), Information Visualization (70), and Research Methods (69).
+\item The supplied Computer Science Research Project progress record reports 30/40 across proposal and oral-presentation components; remaining components are pending and no final thesis result is claimed.
+\end{{itemize}}
+
+\textbf{{The University of British Columbia, Okanagan}} \hfill 2020--2024\\
+Bachelor of Science program and computing coursework. \textit{{The supplied transcript lists no credential to date; confirm the exact award, major, and conferral date against the degree certificate.}}
+\begin{{itemize}}
+\item Selected later results: Capstone Software Engineering Project 93; Databases 90 on successful retake; Image Processing 88; Data Analytics 86; Software Engineering 86; Numerical Analysis 85; Analysis of Algorithms 82.
+\item The complete transcript should accompany the application; the later record demonstrates stronger performance in advanced computing and project-based work without concealing weaker earlier results.
+\end{{itemize}}
+
+\section*{{Research and Engineering Projects}}
+\textbf{{Quant-Ultra --- Auditable Financial ML Research Infrastructure}}
+\begin{{itemize}}
+\item Connects point-in-time data, temporal-leakage controls, walk-forward evaluation, transaction-cost-aware backtesting, risk-aware decisions, monitoring, reconciliation, and machine-readable audit evidence.
+\item Treats successful pipeline execution as engineering evidence rather than investment validity; missing provenance, failed reconciliation, unstable results, or weak baselines trigger review-only conclusions.
+\item Provides an implementation testbed for temporal data contracts, distribution-shift evaluation, constrained decisions, experiment lineage, and reproducible reporting.
+\end{{itemize}}
+
+\textbf{{Privacy Lens --- Trustworthy Software and Compliance Evidence}}
+\begin{{itemize}}
+\item Studies provenance, replay boundaries, audit records, and fail-closed validation in privacy-sensitive software.
+\item Serves as a second domain for testing how technical systems expose evidence limits; simulator evidence is not presented as legal or device-wide validity.
+\end{{itemize}}
+
+\section*{{Research Interests and Departmental Fit}}
+{tex_escape(details['areas'])}; reliable ML systems; temporal validity; distribution shift; risk-aware optimization; reproducible experiments; trustworthy decision systems.
+
+{tex_escape(details['fit'])}
+
+\section*{{Technical Preparation}}
+Python; algorithms and data structures; databases; numerical methods; probability and statistics; machine learning; data analytics; software engineering; experiment design; research communication. \textit{{Replace this summary with verified languages, tools, repositories, and proficiency levels before submission.}}
+
+\section*{{References and Evidence Boundary}}
+Three referees are planned: the Melbourne research supervisor, a CS/ML/algorithms academic, and an academic able to assess later-stage UBC project work. Add names and institutional contact details only after consent. No publication, award, rank, or unverified research outcome is claimed in this draft.
+""" + closing()
+
+
+def departmental_research_interest_proposal(school: dict) -> str:
+    details = SCHOOL_GENERAL_MATERIALS[school["school"]]
+    return preamble("Research Interest Proposal", school["school"], "School-wide application") + rf"""
+\setlength{{\parskip}}{{0.45em}}
+\textbf{{Provisional title:}} Reliable Machine-Learning and Data Systems under Temporal Shift
+
+\section*{{Research Interest and Motivation}}
+My research interest is the infrastructure between raw temporal data and a defensible decision: point-in-time data construction, experiment design, model selection, constrained optimization, monitoring, provenance, and claim governance. Financial ML is a useful stress test because data are revised, asset universes change, regimes shift, decisions incur costs, and repeated experimentation creates strong selection pressure. A favorable backtest is not dependable evidence when its information set, parameter choices, and execution assumptions cannot be reconstructed.
+
+I propose a department-level agenda rather than a commitment to one method or supervisor. The common objective is to build systems in which temporal validity, uncertainty, decision constraints, and evidence boundaries are explicit and independently inspectable.
+
+\section*{{Research Questions}}
+\begin{{enumerate}}
+\item Which machine-readable temporal data contracts are sufficient to detect leakage from revisions, universe construction, feature transformation, cross-validation, and model selection?
+\item How should evaluation separate predictive quality from decision utility under distribution shift, transaction costs, turnover, liquidity, and risk constraints?
+\item Which provenance, reconciliation, and monitoring evidence is necessary for another researcher to reproduce, challenge, or falsify a reported result?
+\item Can fail-closed governance gates reduce unsupported conclusions while preserving a usable and computationally efficient research workflow?
+\end{{enumerate}}
+
+\section*{{Proposed Methodology}}
+\textbf{{Temporal-contract benchmark.}} Define contracts for observation time, effective time, revision state, universe membership, and permitted transformations. Inject known violations into synthetic controls and carefully versioned public datasets. Measure detection coverage, false alarms, metric distortion, and downstream decision impact.
+
+\textbf{{Shift-aware learning and evaluation.}} Train and select statistical and machine-learning baselines through rolling or expanding windows with fold-local preprocessing and parameter governance. Evaluate natural regime partitions and controlled perturbations to missingness, noise, feature distributions, and label relationships. Report dispersion and uncertainty across folds instead of only a pooled average.
+
+\textbf{{Decision layer with explicit frictions.}} Feed predictions into separately auditable decision rules subject to turnover, transaction-cost, exposure, concentration, and risk constraints. Vary cost and liquidity assumptions and distinguish forecast metrics from decision outcomes. Economic results will be historical experimental evidence, not prospective investment advice.
+
+\textbf{{Reproducible systems and governance.}} Preserve code revision, environment, data-snapshot identifiers, configuration, random seeds, stage results, and reconciliation checks for every run. Typed stage contracts will prevent downstream use of missing or invalid evidence. Predefined gates will issue research-only, observation-only, or hold-for-review outputs when evidence is insufficient.
+
+\section*{{Departmental Fit}}
+The relevant school-wide areas are {tex_escape(details['areas'])}. {tex_escape(details['fit'])} The proposal can therefore develop through complementary supervision in learning methods, optimization, data management, or distributed systems while preserving one coherent research question: when is a machine-learning result sufficiently traceable and robust to support a bounded decision claim?
+
+\section*{{Expected Contributions}}
+\begin{{enumerate}}
+\item A taxonomy and benchmark suite for temporal-data and evaluation failures in non-stationary ML.
+\item Drift-aware, cost-aware, and risk-constrained evaluation protocols that keep prediction and decisions separately auditable.
+\item A reference architecture connecting data contracts, experiment lineage, monitoring, reconciliation, and governance gates.
+\item Open, reproducible artifacts and reporting templates that preserve negative results and state explicit claim boundaries.
+\end{{enumerate}}
+
+\section*{{Preparation, Feasibility, and Risks}}
+Quant-Ultra provides an existing engineering testbed for point-in-time data, walk-forward evaluation, costs, risk controls, monitoring, and evidence bundles. Privacy Lens provides a second setting for provenance and fail-closed validation. These artifacts support early prototyping but do not establish research novelty, investment validity, legal compliance, or publication. Doctoral work would require a verified literature review, supervisor-guided problem refinement, ethical and licensing review, and defensible empirical baselines.
+
+Financial-data licensing may restrict redistribution, so the benchmark will combine redistributable sources, synthetic controls, and published transformation code. Market results may be unstable; instability will be treated as a finding and assessed across regimes. System complexity may obscure causal conclusions; preregistered ablations and simple baselines will keep individual mechanisms testable.
+
+\section*{{Indicative Plan}}
+Year 1: literature review, formal problem definitions, temporal-contract benchmark, and baseline pipeline. Year 2: shift-aware learning studies and explicit decision constraints. Year 3: reproducible systems architecture, monitoring, and governance experiments. Final period: cross-domain validation, open artifacts, publications, and dissertation integration.
+
+\textit{{Submission note: adapt this school-wide draft to the live prompt and page limit. Verify current faculty capacity and replace the provisional literature scope with a supervisor-reviewed bibliography before submission.}}
+""" + closing()
 
 
 def academic_cv(school: dict, supervisor: str, area: str, hook: str) -> str:
@@ -1038,16 +1114,25 @@ def school_readme_md(school: dict) -> str:
         ["提交前重新核对实时项目页面、截止日期、申请费用、材料格式和文件大小限制。"],
     )
     school_checks = "\n".join(f"- [ ] {item}" for item in special_checks)
-    reserve_note = (
-        "\n> 本目录为备选申请。仅在更高优先级学校已完成审核且导师反馈积极时启用。\n"
-        if school["order"] == "17"
+    general_materials = (
+        """
+## 学院通用材料
+
+- [`Departmental_General_CV.tex`](Departmental_General_CV.tex)：不绑定单一导师的学院通用学术与研究履历
+- [`Research_Interest_Proposal.tex`](Research_Interest_Proposal.tex)：不绑定单一导师的研究兴趣计划
+
+两份材料均直接存放在学校目录下。对外使用前须核实占位符、实时项目要求、篇幅限制和学院名称；不得把学院通用版本误写成已获得任何导师支持。
+
+"""
+        if school["school"] in SCHOOL_GENERAL_MATERIALS
         else ""
     )
     return f"""# {school['folder']}
 
 申请优先级：**{school['order']}**<br>
 申请项目：**{school['program']}**
-{reserve_note}
+套磁分类：**{OUTREACH_LEVEL_ZH[school['school']]}**
+
 ## 官方链接
 
 - [项目介绍页面]({links['program']})
@@ -1076,7 +1161,7 @@ def school_readme_md(school: dict) -> str:
 
 {school_checks}
 
-## 导师申请包
+{general_materials}## 导师申请包
 
 套磁策略：**{details['outreach']}**
 
@@ -1096,6 +1181,8 @@ def readme_md(school: dict, supervisor: str) -> str:
     return f"""# {school['folder']}｜{supervisor}
 
 申请项目：**{school['program']}**
+
+套磁分类：**{OUTREACH_LEVEL_ZH[school['school']]}**
 
 套磁策略：**{details['outreach']}**
 
@@ -1134,16 +1221,18 @@ def root_index() -> str:
     rows = []
     for s in sorted(SCHOOLS, key=lambda item: int(item["order"])):
         folder = f"{s['order']}_{s['folder']}"
+        level = OUTREACH_LEVEL_ZH[s["school"]]
         outreach = SCHOOL_README_ZH[s["school"]]["outreach"]
-        rows.append(f"| {s['order']} | [{s['folder']}](<{folder}/>) | {s['program']} | {len(s['faculty'])} | {outreach} |")
+        rows.append(f"| {s['order']} | [{s['folder']}](<{folder}/>) | {s['program']} | {len(s['faculty'])} | **{level}** | {outreach} |")
     return """# 2027 年博士申请材料包
 
 本目录依据申请计划和现有背景证据生成，最近更新日期为 2026-08-16。
 
 每个导师目录均包含为该导师准备的申请材料、英文定制套磁邮件、项目申请清单、事实核对记录及现有学业证据副本。所有拟生成 PDF 的新撰写材料均使用 TeX 源文件；原始正式证据保持原格式不变。除套磁邮件外，全部 Markdown 说明文件使用中文。
+澳门大学与纽约州立大学布法罗分校的学校目录下另有不绑定单一导师的 `Departmental_General_CV.tex` 和 `Research_Interest_Proposal.tex`。
 
-| 优先级 | 学校 | 申请项目 | 导师申请包数量 | 套磁策略 |
-|---:|---|---|---:|---|
+| 优先级 | 学校 | 申请项目 | 导师申请包数量 | 套磁分类 | 套磁策略 |
+|---:|---|---|---:|---|---|
 """ + "\n".join(rows) + """
 
 ## 重要边界
@@ -1192,6 +1281,12 @@ def build() -> None:
     for school in sorted(SCHOOLS, key=lambda item: int(item["order"])):
         school_dir = OUT / f"{school['order']}_{school['folder']}"
         write(school_dir / "README.md", school_readme_md(school))
+        if school["school"] in SCHOOL_GENERAL_MATERIALS:
+            write(school_dir / "Departmental_General_CV.tex", departmental_cv(school))
+            write(
+                school_dir / "Research_Interest_Proposal.tex",
+                departmental_research_interest_proposal(school),
+            )
         for supervisor, area, hook in school["faculty"]:
             target = school_dir / supervisor
             attachments = target / "Attachments"

@@ -2,6 +2,8 @@
 
 申请项目：**PhD in Computer Science / Software Engineering**
 
+套磁分类：**必须**
+
 套磁策略：**录取前必须完成导师匹配；建议先建立申请并取得 Student ID，再重点联系导师。**
 
 ## 导师研究方向与申请切入点

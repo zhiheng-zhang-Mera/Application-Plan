@@ -2,6 +2,7 @@
 
 申请优先级：**16**<br>
 申请项目：**PhD Programme (ISTD / ESD research alignment)**
+套磁分类：**推荐**
 
 ## 官方链接
 
