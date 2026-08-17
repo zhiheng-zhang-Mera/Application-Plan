@@ -1,46 +1,9 @@
-# Research Interest Proposal
+A reported financial machine-learning result is supported by many hidden dependencies: source records, point-in-time queries, feature transformations, model versions, experiment configurations, validation checks, and decision rules. When those dependencies are scattered across scripts and logs, even an attractive result can be difficult to reproduce, diagnose, or challenge. I propose to extend Quant-Ultra, my existing infrastructure for leakage-resistant financial ML, so that evidence lineage becomes a first-class data and software object. Quant-Ultra already integrates temporal data controls, rolling evaluation, realistic costs, risk-aware decisions, monitoring, reconciliation, and bounded claims. The doctoral project will make each result queryable through typed provenance, database constraints, software contracts, and optimized validation workflows.
 
-**Applicant:** Zhiheng Zhang
+The research will ask which schema can connect market observations, queries, features, models, backtests, validation outcomes, and portfolio claims without excessive overhead. It will investigate how database constraints and executable software contracts can stop temporally invalid or internally inconsistent evidence before it enters an experiment. Because validation checks differ in cost, latency, coverage, and risk consequence, the project will also study how limited validation effort should be allocated. A final question is which controls most improve failure detection, fault localization, and independent reconstruction of a result.
 
-**School:** Concordia University
+I will first design a typed quantitative-evidence model covering data, transformations, experiments, decisions, and claim boundaries. A contract-based assurance layer will combine database constraints, property-based tests, reconciliation rules, and mutation tests that inject known timing, provenance, configuration, and reporting failures. I will then formulate validation selection and scheduling as a constrained optimization problem balancing coverage, latency, computational cost, and consequence. Reviewer-oriented experiments will measure detection rate, fault-localization time, provenance-query performance, storage and runtime overhead, and the effort required to reproduce a reported conclusion.
 
-**Email:** nicholas_zhang2020@163.com
+Evaluation will compare each extension with unchanged Quant-Ultra baselines so that apparent gains cannot come from altered windows, cost models, or reporting rules. Controlled failure injection will establish ground truth, while ablations will isolate the effect of schemas, contracts, reconciliation, and optimization. The study will preserve negative results and failed checks and will report sensitivity to workload, data scale, and risk priorities. Success means that reviewers can detect faults and achieve reproducible reconstruction of bounded claims at an acceptable operational cost, not that the system merely produces a favorable backtest.
 
-**Phone:** (+86)15601654187
-
-## Quant-Ultra: Evidence-Aware Data and Software Infrastructure for Reproducible Financial ML
-
-A Quant-Ultra result depends on source records, point-in-time queries, feature transformations, model versions, backtest configurations, validation checks, and decision rules. When these dependencies are scattered across logs and scripts, a favorable metric can be difficult to reproduce or challenge. The proposed research will make quantitative evidence lineage a first-class data and software object that can be queried, tested, optimized, and connected to bounded claims.
-
-Quant-Ultra is the central research platform for this proposal. It combines point-in-time market data, leakage-resistant rolling evaluation, realistic transaction costs and turnover, risk-aware decisions, monitoring, reconciliation, and reproducible evidence bundles. It separates forecast quality from portfolio utility and restricts conclusions when provenance, stability, reconciliation, or baseline evidence is insufficient. My proposed doctoral work will make every quantitative result queryable through typed provenance, database constraints, software contracts, reconciliation, and optimized validation workflows.
-
-## Research Questions
-
-- Which provenance schema can connect market data, queries, features, models, backtests, validation evidence, and portfolio claims without excessive overhead?
-- How can database constraints and software contracts prevent temporally invalid or inconsistent evidence from entering Quant-Ultra experiments?
-- How should validation effort be allocated when checks differ in cost, latency, coverage, and risk consequence?
-- Which engineering controls most improve reproducibility, fault localization, and independent review of quantitative results?
-
-## Proposed Approach
-
-**Quant evidence model.** Design a typed lineage schema for market data, transformations, experiments, backtests, validation outcomes, and bounded decision claims.
-
-**Contract-based assurance.** Implement database constraints, property-based tests, reconciliation rules, and mutation tests that inject known quantitative evidence failures.
-
-**Validation optimization.** Select and schedule checks through constrained optimization balancing coverage, latency, compute cost, and risk consequence.
-
-**Reviewer-oriented evaluation.** Measure failure detection, fault-localization time, provenance-query performance, and effort required to reconstruct a reported result.
-
-Evaluation will begin with transparent baselines and preserve temporal ordering, fold-local model selection, explicit frictions, and negative results. I will report performance across rolling folds and regimes, sensitivity to costs and constraints, and whether conclusions remain stable under alternative data and execution assumptions. Ablations will isolate each added component. Success requires an improvement in reproducible evidence or bounded decision quality after realistic frictions, not merely a higher pooled prediction score.
-
-Each extension will be compared against unchanged Quant-Ultra baselines so that gains cannot be attributed to altered data windows, cost models, or reporting rules. Every experiment will preserve configurations, intermediate evidence, and failure states for independent review and replication. This preserves comparison across applications.
-
-## Fit and Expected Contributions
-
-Concordia's strengths in databases, optimization, machine learning, and software engineering support a Quant-Ultra research agenda on how data and software architecture determine the reliability of quantitative evidence.
-
-- A queryable provenance model linking Quant-Ultra artifacts to validation evidence and claims.
-- A failure-injection benchmark for data and software assurance in financial ML pipelines.
-- Optimization methods for allocating validation effort under operational constraints.
-
-Year 1: provenance schema and quantitative failure taxonomy. Year 2: contract-based assurance and mutation benchmark. Year 3: validation optimization and reviewer studies. Final period: cross-workflow synthesis, open artifacts, and dissertation integration.
+Concordia University is particularly well aligned with this agenda through its strengths in database modeling and query optimization, large-scale optimization, machine learning, and empirical software engineering. Quant-Ultra provides the financial testbed, while my Privacy Lens prototype provides a second domain for testing provenance, replay boundaries, fail-closed validation, and careful evidence claims. Expected contributions are a queryable provenance model, a failure-injection benchmark for ML software assurance, and methods for allocating validation effort. The work would advance from schema and failure taxonomy to contract-based assurance, validation optimization, reviewer studies, and cross-workflow synthesis. My preparation spans databases, software engineering, algorithms, numerical analysis, automated testing, visualization, and a privacy-sensitive Android prototype. These experiences motivate a research approach that evaluates not only model output, but also the quality of the software process, review interface, and evidence chain through which that output becomes a claim.

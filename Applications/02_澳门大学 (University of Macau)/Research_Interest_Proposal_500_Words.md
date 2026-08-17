@@ -1,46 +1,9 @@
-# Research Interest Proposal
+Financial markets are relational as well as temporal. Assets, sectors, and risk exposures influence one another through structures that change with economic conditions, yet many financial machine-learning studies build graphs from information that was not actually available at the decision time or report pooled results that conceal regime instability. I propose to extend Quant-Ultra, my existing research infrastructure for point-in-time data and leakage-resistant evaluation, into a framework for trustworthy spatiotemporal and graph learning. Quant-Ultra already connects versioned inputs, rolling experiments, transaction costs, portfolio constraints, monitoring, reconciliation, and bounded evidence claims. This foundation makes it possible to study relational models without treating a favorable backtest as proof of investment validity.
 
-**Applicant:** Zhiheng Zhang
+The research will ask how evolving asset universes, graph edges, observation times, revisions, and permitted transformations should be represented in a point-in-time data contract. It will then examine which temporal, graph, and online-learning methods remain calibrated when both market relationships and regimes change. A further question is whether distributed feature and experiment pipelines can preserve complete lineage while controlling latency and computational cost. Ultimately, relational forecasts must be judged by whether they improve risk-aware decisions after turnover, transaction costs, exposure limits, concentration limits, and uncertainty are applied.
 
-**School:** University of Macau
+I will first construct a relational benchmark containing versioned market graphs and controlled changes in membership, edges, missingness, revisions, and regimes. Transparent temporal baselines will be compared with graph and adaptive learning methods through rolling windows and fold-local preprocessing. Calibrated outputs will enter an auditable portfolio layer whose rules explicitly constrain cost, turnover, exposure, concentration, and drawdown. Each stage will record the lineage of sources, features, graphs, models, decisions, and validation results, allowing the computational overhead and reliability benefits of stronger evidence controls to be measured.
 
-**Email:** nicholas_zhang2020@163.com
+Evaluation will preserve temporal ordering and compare every extension with unchanged Quant-Ultra baselines. Results will be reported across folds and market regimes, together with calibration, sensitivity to costs and constraints, and stability under alternative data and execution assumptions. Ablation studies will isolate the contribution of relational information, adaptation, and provenance controls. Negative or unstable findings will remain in the evidence record. A method will count as useful only if it improves reproducible evidence or bounded decision quality after realistic frictions, rather than merely increasing an in-sample prediction score.
 
-**Phone:** (+86)15601654187
-
-## Quant-Ultra: Trustworthy Spatiotemporal and Graph Learning for Dynamic Financial Markets
-
-Quant-Ultra already treats temporal validity, data provenance, realistic frictions, and bounded claims as first-class requirements in financial ML. The next research step is to model markets as evolving relational systems: assets, sectors, and risk exposures interact through structures that change across time. A reliable quantitative system must learn from these changing relationships without leaking future information or hiding instability behind pooled performance.
-
-Quant-Ultra is the central research platform for this proposal. It combines point-in-time market data, leakage-resistant rolling evaluation, realistic transaction costs and turnover, risk-aware decisions, monitoring, reconciliation, and reproducible evidence bundles. It separates forecast quality from portfolio utility and restricts conclusions when provenance, stability, reconciliation, or baseline evidence is insufficient. My proposed doctoral work will develop point-in-time representations of evolving asset, sector, and market relationships, then evaluate temporal and graph-learning methods under regime change.
-
-## Research Questions
-
-- How should point-in-time data contracts represent evolving asset universes, graph edges, observation times, revisions, and permitted transformations?
-- Which temporal, graph, or online-learning methods remain calibrated when market relationships and regimes change together?
-- How can distributed feature and experiment pipelines preserve lineage while controlling latency and computational cost?
-- Do relational signals improve risk-adjusted decisions after turnover, transaction costs, exposure limits, and uncertainty are applied?
-
-## Proposed Approach
-
-**Point-in-time relational benchmark.** Extend Quant-Ultra with versioned market graphs and controlled changes to membership, edges, missingness, revisions, and regimes.
-
-**Adaptive graph learning.** Compare transparent temporal baselines with graph and online-learning methods using rolling windows, fold-local preprocessing, and regime-aware evaluation.
-
-**Constrained portfolio layer.** Feed calibrated forecasts into auditable allocation rules with turnover, cost, exposure, concentration, and drawdown constraints.
-
-**Distributed evidence.** Preserve source, feature, graph, model, and decision lineage across reproducible pipeline stages and measure the cost of stronger controls.
-
-Evaluation will begin with transparent baselines and preserve temporal ordering, fold-local model selection, explicit frictions, and negative results. I will report performance across rolling folds and regimes, sensitivity to costs and constraints, and whether conclusions remain stable under alternative data and execution assumptions. Ablations will isolate each added component. Success requires an improvement in reproducible evidence or bounded decision quality after realistic frictions, not merely a higher pooled prediction score.
-
-Each extension will be compared against unchanged Quant-Ultra baselines so that gains cannot be attributed to altered data windows, cost models, or reporting rules. Every experiment will preserve configurations, intermediate evidence, and failure states for independent review and replication. This preserves comparison across applications.
-
-## Fit and Expected Contributions
-
-UM's strengths in data intelligence, optimization, and online and distributed systems support a Quant-Ultra extension focused on dynamic market structure and temporally valid graph evidence.
-
-- A point-in-time benchmark for evolving financial graphs and temporal distribution shift.
-- Evaluation protocols separating relational predictive value from cost- and risk-adjusted decision utility.
-- A provenance-aware distributed architecture for reproducible graph-based quantitative research.
-
-Year 1: relational data contracts and transparent baselines. Year 2: adaptive graph learning and calibration. Year 3: constrained portfolio experiments and distributed provenance. Final period: cross-market validation and dissertation integration.
+The University of Macau is a strong setting for this work because its research spans data-centric intelligence, spatiotemporal and graph data, optimization, cloud computing, and distributed systems. The expected outcomes are a point-in-time benchmark for evolving financial graphs, evaluation protocols that separate predictive value from decision utility, and a provenance-aware architecture for reproducible graph research. The project would progress from data contracts and baselines to adaptive learning, constrained portfolio experiments, distributed evidence, and cross-market validation. My broader preparation in databases, software engineering, data analytics, numerical methods, image processing, and privacy-sensitive mobile systems supports both the technical and evidence-governance parts of this agenda. It also motivates a design in which complex models remain inspectable, reproducible, and answerable to clear limitations throughout the research process.

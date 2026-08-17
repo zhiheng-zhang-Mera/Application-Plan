@@ -1,46 +1,9 @@
-# Research Interest Proposal
+A reliable financial machine-learning system must recognize more than ordinary prediction error. It must distinguish corrupted data from a transient anomaly and a persistent change in market regime, often before definitive labels become available. I propose to extend Quant-Ultra, my existing infrastructure for point-in-time financial data and leakage-resistant evaluation, into an anomaly-aware sequential decision framework. Quant-Ultra already connects rolling experiments, realistic transaction costs, risk constraints, monitoring, reconciliation, and machine-readable evidence. Its governance rules restrict conclusions when provenance, stability, or baseline evidence is insufficient. The proposed research will add explicit models of drift, delayed feedback, uncertainty, and response policy while preserving this bounded-claim discipline.
 
-**Applicant:** Zhiheng Zhang
+The central questions concern detection, calibration, and action. How can sequential models separate data failure, short-lived abnormal behavior, and durable regime change? Which uncertainty measures remain informative when labels are delayed, models are repeatedly selected, and the data distribution shifts? How should anomaly evidence alter position limits, turnover, exposure, or the decision to abstain? Finally, can distributed monitoring and complete provenance reduce false confidence without making the research workflow impractical?
 
-**School:** University at Buffalo, SUNY
+I will begin by building a sequential failure benchmark within Quant-Ultra. It will inject controlled data, context, and regime anomalies into point-in-time rolling experiments and will vary detection difficulty and feedback delay. Statistical detectors, representation-learning methods, and Bayesian baselines will be compared using false alarms, detection delay, calibration, and recovery after change. Their outputs will feed a risk-aware response layer that chooses among normal operation, constrained exposure, abstention, and human review. The full path from data and model state to uncertainty, alert, response, and portfolio outcome will be preserved for reconstruction.
 
-**Email:** nicholas_zhang2020@163.com
+Evaluation will use time-respecting splits, fold-local model selection, unchanged cost assumptions, and transparent baselines. Performance will be reported across rolling folds and regimes, with sensitivity to uncertainty thresholds, transaction costs, exposure constraints, and delayed labels. Ablations will test whether gains arise from detection, calibration, or the response policy itself. Negative results and failed governance checks will be retained. Success will require better calibrated and more auditable decisions after realistic frictions, not simply a higher pooled predictive score or a profitable historical interval.
 
-**Phone:** (+86)15601654187
-
-## Quant-Ultra: Anomaly-Aware Sequential Learning for Risk-Constrained Financial Decisions
-
-Quant-Ultra provides point-in-time data, walk-forward evaluation, realistic costs, risk controls, monitoring, reconciliation, and audit evidence for financial ML. Its next research challenge is to distinguish data failure, transient anomaly, and persistent regime change while feedback is delayed. A quantitative system should not only detect unusual behavior; it should calibrate uncertainty and choose whether to continue, constrain, abstain, or request review.
-
-Quant-Ultra is the central research platform for this proposal. It combines point-in-time market data, leakage-resistant rolling evaluation, realistic transaction costs and turnover, risk-aware decisions, monitoring, reconciliation, and reproducible evidence bundles. It separates forecast quality from portfolio utility and restricts conclusions when provenance, stability, reconciliation, or baseline evidence is insufficient. My proposed doctoral work will strengthen walk-forward evaluation with explicit anomaly, drift, delayed-feedback, uncertainty, and response-policy layers.
-
-## Research Questions
-
-- How can sequential models distinguish corrupted market data, transient anomalies, and persistent regime change?
-- Which uncertainty and calibration measures remain informative under delayed labels, repeated model selection, and distribution shift?
-- How should anomaly evidence change position limits, turnover, exposure, or abstention policies?
-- Can distributed monitoring and provenance reduce false confidence while preserving a usable quantitative workflow?
-
-## Proposed Approach
-
-**Sequential failure benchmark.** Extend Quant-Ultra with delayed-feedback simulations and controlled data, context, and regime anomalies evaluated through rolling windows.
-
-**Detection and calibration.** Compare statistical, representation, and Bayesian baselines using detection delay, false alarms, calibration, and post-change recovery.
-
-**Risk-aware response.** Map calibrated evidence into normal operation, constrained exposure, abstention, or review and measure downstream utility after costs.
-
-**Monitoring evidence.** Record data, model, uncertainty, alert, response, and portfolio lineage across reproducible pipeline stages.
-
-Evaluation will begin with transparent baselines and preserve temporal ordering, fold-local model selection, explicit frictions, and negative results. I will report performance across rolling folds and regimes, sensitivity to costs and constraints, and whether conclusions remain stable under alternative data and execution assumptions. Ablations will isolate each added component. Success requires an improvement in reproducible evidence or bounded decision quality after realistic frictions, not merely a higher pooled prediction score.
-
-Each extension will be compared against unchanged Quant-Ultra baselines so that gains cannot be attributed to altered data windows, cost models, or reporting rules. Every experiment will preserve configurations, intermediate evidence, and failure states for independent review and replication. This preserves comparison across applications.
-
-## Fit and Expected Contributions
-
-UB CSE's strengths in machine learning, optimization, anomaly detection, and data-intensive systems support a Quant-Ultra research agenda on detecting market change and responding through bounded decisions.
-
-- A financial benchmark separating data failure, transient anomaly, and market regime change.
-- Calibration protocols for delayed and shifting quantitative feedback.
-- Auditable response policies connecting anomaly evidence to risk-constrained portfolio decisions.
-
-Year 1: failure taxonomy and sequential baselines. Year 2: uncertainty calibration and shift-aware learning. Year 3: constrained response policies and distributed monitoring. Final period: cross-market evaluation and dissertation integration.
+University at Buffalo CSE provides a compelling environment because its strengths span artificial intelligence, machine learning and data mining, databases and data science, distributed systems, and information integrity. The proposed work connects these capabilities through a concrete high-stakes testbed. Expected contributions are a benchmark that distinguishes market change from data failure, calibration protocols for delayed and shifting feedback, and auditable policies linking anomaly evidence to risk-constrained decisions. The research would move from failure taxonomy and sequential baselines to uncertainty calibration, constrained response, distributed monitoring, and cross-market evaluation. My broader work in databases, algorithms, software engineering, image processing, health-oriented ML, visualization, and privacy-sensitive mobile systems provides complementary preparation for this agenda. It has also taught me to treat monitoring interfaces, test evidence, and explicit capability limits as integral parts of a trustworthy learning system rather than documentation added after model development.

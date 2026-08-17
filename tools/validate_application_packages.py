@@ -95,6 +95,15 @@ def main() -> None:
                 fail(f"{brief}: expected approximately 500 English words, found {brief_words}")
             if re.search(r"[\u4e00-\u9fff]", brief_text):
                 fail(f"{brief}: submission-ready proposal must remain English")
+            markdown_layout = [
+                r"(?m)^\s*#{1,6}\s+",
+                r"(?m)^\s*[-*+]\s+",
+                r"(?m)^\s*\d+[.)]\s+",
+                r"(?m)^\s*>",
+                r"\*\*|__|```|`[^`]+`|\[[^\]]+\]\([^)]+\)",
+            ]
+            if any(re.search(pattern, brief_text) for pattern in markdown_layout):
+                fail(f"{brief}: concise RP must be plain essay prose without Markdown layout")
             editorial_markers = ["before submission", "submission note", "中文说明", "[confirm"]
             if any(marker in brief_text.lower() for marker in editorial_markers):
                 fail(f"{brief}: contains internal editorial instructions")
@@ -111,7 +120,7 @@ def main() -> None:
                     fail(f"{brief}: alignment term missing from one version: {term}")
 
             cv_text = (school_dir / "Departmental_General_CV.tex").read_text(encoding="utf-8")
-            contact_texts = [cv_text, full_rp, brief_text]
+            contact_texts = [cv_text, full_rp]
             for contact in ["nicholas_zhang2020@163.com", "(+86)15601654187"]:
                 if any(contact not in text for text in contact_texts):
                     fail(f"{school_dir}: one or more school-level materials lack confirmed contact: {contact}")
