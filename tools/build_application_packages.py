@@ -514,6 +514,8 @@ SCHOOL_GENERAL_MATERIALS = {
         "cv_emphasis": "Develop point-in-time representations of evolving asset, sector, and market relationships, then evaluate temporal and graph-learning methods under regime change.",
         "interests": "financial machine learning; spatiotemporal and graph learning; online adaptation; distributed data systems; robust optimization; reproducible quantitative research",
         "fit": "UM's strengths in data intelligence, optimization, and online and distributed systems support a Quant-Ultra extension focused on dynamic market structure and temporally valid graph evidence.",
+        "privacy_emphasis": "Use Privacy Lens as a trustworthy mobile-systems testbed for provenance, privacy-aware data handling, replay boundaries, and fail-closed evidence under incomplete observation.",
+        "academic_emphasis": "Connect the UBC capstone and database, image-processing, data-analytics, software-engineering, numerical-analysis, and algorithms work with Melbourne projects in health ML, information visualization, user experience, and research methods to show breadth across data, systems, and human-facing AI.",
         "rp_title": "Quant-Ultra: Trustworthy Spatiotemporal and Graph Learning for Dynamic Financial Markets",
         "motivation": "Quant-Ultra already treats temporal validity, data provenance, realistic frictions, and bounded claims as first-class requirements in financial ML. The next research step is to model markets as evolving relational systems: assets, sectors, and risk exposures interact through structures that change across time. A reliable quantitative system must learn from these changing relationships without leaking future information or hiding instability behind pooled performance.",
         "questions": [
@@ -541,6 +543,8 @@ SCHOOL_GENERAL_MATERIALS = {
         "cv_emphasis": "Strengthen walk-forward evaluation with explicit anomaly, drift, delayed-feedback, uncertainty, and response-policy layers.",
         "interests": "financial machine learning; sequential and Bayesian learning; anomaly detection; uncertainty calibration; robust optimization; distributed monitoring",
         "fit": "UB CSE's strengths in machine learning, optimization, anomaly detection, and data-intensive systems support a Quant-Ultra research agenda on detecting market change and responding through bounded decisions.",
+        "privacy_emphasis": "Use Privacy Lens as a second high-stakes systems testbed for anomaly evidence, information integrity, mobile monitoring, provenance, and abstention when observations cannot support a strong conclusion.",
+        "academic_emphasis": "Present the UBC capstone plus database, image-processing, data-analytics, software-engineering, numerical-analysis, and algorithms projects alongside Melbourne work in health ML, information visualization, user experience, and research methods as preparation spanning AI, data science, and systems.",
         "rp_title": "Quant-Ultra: Anomaly-Aware Sequential Learning for Risk-Constrained Financial Decisions",
         "motivation": "Quant-Ultra provides point-in-time data, walk-forward evaluation, realistic costs, risk controls, monitoring, reconciliation, and audit evidence for financial ML. Its next research challenge is to distinguish data failure, transient anomaly, and persistent regime change while feedback is delayed. A quantitative system should not only detect unusual behavior; it should calibrate uncertainty and choose whether to continue, constrain, abstain, or request review.",
         "questions": [
@@ -568,6 +572,8 @@ SCHOOL_GENERAL_MATERIALS = {
         "cv_emphasis": "Make every quantitative result queryable through typed provenance, database constraints, software contracts, reconciliation, and optimized validation workflows.",
         "interests": "financial machine learning; data provenance; database support for ML; software engineering for AI; validation optimization; reproducible quantitative systems",
         "fit": "Concordia's strengths in databases, optimization, machine learning, and software engineering support a Quant-Ultra research agenda on how data and software architecture determine the reliability of quantitative evidence.",
+        "privacy_emphasis": "Give Privacy Lens equal methodological weight as an Android and GDPR-oriented prototype for empirical software engineering, typed validation, replay and provenance controls, testing, and careful separation of technical evidence from legal conclusions.",
+        "academic_emphasis": "Use the UBC capstone and database, software-engineering, algorithms, numerical-analysis, image-processing, and data-analytics work together with Melbourne health-ML, visualization, UX, and research-methods projects to demonstrate software, data, optimization, and evaluation breadth.",
         "rp_title": "Quant-Ultra: Evidence-Aware Data and Software Infrastructure for Reproducible Financial ML",
         "motivation": "A Quant-Ultra result depends on source records, point-in-time queries, feature transformations, model versions, backtest configurations, validation checks, and decision rules. When these dependencies are scattered across logs and scripts, a favorable metric can be difficult to reproduce or challenge. The proposed research will make quantitative evidence lineage a first-class data and software object that can be queried, tested, optimized, and connected to bounded claims.",
         "questions": [
@@ -680,7 +686,7 @@ CONFIRMED_PHONE = "(+86)15601654187"
 def departmental_cv(school: dict) -> str:
     details = SCHOOL_GENERAL_MATERIALS[school["school"]]
     return preamble(
-        "Quantitative Research Curriculum Vitae",
+        "Academic and Research Curriculum Vitae",
         school["school"],
         "PhD application",
         CONFIRMED_EMAIL_TEX,
@@ -689,7 +695,7 @@ def departmental_cv(school: dict) -> str:
 \textbf{{Contact}}: \ApplicantEmail\quad | \quad \ApplicantPhone\quad | \quad \ApplicantGitHub
 
 \section*{{Research Profile}}
-Computer-science-trained applicant focused on {tex_escape(details['cv_focus'])}. My central research artifact is Quant-Ultra, an implemented platform for point-in-time financial data, leakage-resistant evaluation, realistic trading frictions, risk-aware decisions, monitoring, reconciliation, and machine-readable audit evidence. I seek to develop this platform into a rigorous doctoral research program rather than present engineering completion as scientific or investment validity.
+Computer-science-trained applicant building reliable data, machine-learning, and software systems for high-stakes decisions. For {tex_escape(school['school'])}, the principal research direction is {tex_escape(details['cv_focus'])}. The portfolio spans financial ML infrastructure, privacy-sensitive Android software, and assessed academic projects; Quant-Ultra is the primary research platform, not the applicant's only project background.
 
 \section*{{Education}}
 \textbf{{University of Melbourne}} \hfill 2025--present\\
@@ -706,13 +712,28 @@ Undergraduate study in computer science and related quantitative coursework.
 \item Later-stage results demonstrate strong performance in advanced computing, numerical analysis, data systems, and project-based software engineering.
 \end{{itemize}}
 
-\section*{{Quant-Ultra --- Auditable Financial ML Research Infrastructure}}
+\section*{{Project Portfolio}}
+\textbf{{Quant-Ultra --- Auditable Financial ML Research Infrastructure}}
 \begin{{itemize}}
 \item \textbf{{Point-in-time data:}} represents observation time, effective time, revision state, and permitted transformations so historical experiments cannot silently use future information.
 \item \textbf{{Evaluation:}} combines rolling or expanding windows, fold-local preprocessing, parameter governance, realistic transaction costs, turnover, liquidity assumptions, and risk constraints.
 \item \textbf{{Evidence controls:}} preserves code revision, configuration, data identifiers, stage results, monitoring, reconciliation, and failure states for reproducible review.
 \item \textbf{{Claim governance:}} issues research-only, observation-only, or hold-for-review conclusions when provenance, stability, reconciliation, or baseline evidence is insufficient.
 \item \textbf{{School-specific extension:}} {tex_escape(details['cv_emphasis'])}
+\end{{itemize}}
+
+\textbf{{Privacy Lens --- Android Privacy and Compliance-Evidence Prototype}}
+\begin{{itemize}}
+\item Develops a privacy dashboard and permission-audit prototype with explicit event provenance, temporal validation, replay boundaries, deterministic simulation, and fail-closed handling of malformed or insufficient evidence.
+\item Uses automated tests and device-oriented QA artifacts while keeping a strict boundary between prototype evidence, real-device coverage, and any legal-compliance conclusion.
+\item \textbf{{School-specific relevance:}} {tex_escape(details['privacy_emphasis'])}
+\end{{itemize}}
+
+\textbf{{Academic and Capstone Project Background}}
+\begin{{itemize}}
+\item UBC project-based preparation includes a Capstone Software Engineering Project and assessed work in databases, image processing, data analytics, software engineering, numerical analysis, and algorithms.
+\item Melbourne preparation includes an in-progress Computer Science Research Project and assessed work in machine learning for health, information visualization, user experience evaluation, and research methods.
+\item \textbf{{School-specific relevance:}} {tex_escape(details['academic_emphasis'])}
 \end{{itemize}}
 
 \section*{{Research Direction at {tex_escape(school['school'])}}}
@@ -722,8 +743,8 @@ Undergraduate study in computer science and related quantitative coursework.
 
 The proposed extension will retain Quant-Ultra's common research contract: point-in-time inputs, leakage-resistant model selection, independently auditable forecast and decision layers, explicit costs and risk, preserved negative results, and bounded claims.
 
-\section*{{Technical Preparation}}
-Python; algorithms and data structures; databases; numerical methods; probability and statistics; machine learning; data analytics; software engineering; experiment design; research communication; Git-based reproducibility; LaTeX technical writing.
+\section*{{Technical and Research Preparation}}
+Python; TypeScript; Android and React Native prototyping; algorithms and data structures; databases; numerical methods; probability and statistics; machine learning; data analytics; software engineering; automated testing; experiment design; research communication; Git-based reproducibility; LaTeX technical writing.
 
 \section*{{Research Practice}}
 I separate implementation evidence from scientific validity. Quantitative results are evaluated with transparent baselines, temporal controls, sensitivity analysis, explicit frictions, and reproducible records. No publication, award, investment performance, or unverified research outcome is claimed.
@@ -834,6 +855,59 @@ Each extension will be compared against unchanged Quant-Ultra baselines so that 
 
 
 def academic_cv(school: dict, supervisor: str, area: str, hook: str) -> str:
+    details = SCHOOL_GENERAL_MATERIALS.get(school["school"])
+    if details:
+        return preamble("Academic Curriculum Vitae", school["school"], supervisor) + rf"""
+\textbf{{Contact}}: \ApplicantEmail\quad | \quad \ApplicantPhone\quad | \quad \ApplicantGitHub
+
+\section*{{Academic and Research Profile}}
+Computer-science-trained applicant with project experience across reliable machine learning, data systems, privacy-sensitive Android software, software engineering, and human-facing evaluation. The application to work with {tex_escape(supervisor)} emphasizes {tex_escape(hook)}, while retaining the full project portfolio rather than reducing the CV to quantitative finance.
+
+\section*{{Education}}
+\textbf{{University of Melbourne}} \hfill 2025--present\\
+Postgraduate computing coursework and an in-progress Computer Science Research Project. \textit{{Exact degree title and expected completion date must be confirmed before submission.}}
+\begin{{itemize}}
+\item Evaluating User Experience (78), Machine Learning Applications for Health (76), Information Visualization (70), and Research Methods (69).
+\item The supplied research-project progress record shows 30/40 for proposal and oral-presentation components; remaining components are pending, so no final thesis result is claimed.
+\end{{itemize}}
+
+\textbf{{The University of British Columbia, Okanagan}} \hfill 2020--2024\\
+Bachelor of Science program and computing coursework. \textit{{The supplied 2024 transcript lists no credential to date; confirm the awarded major and conferral wording before submission.}}
+\begin{{itemize}}
+\item Capstone Software Engineering Project 93; Databases 90 on successful retake; Image Processing 88; Data Analytics 86; Software Engineering 86; Numerical Analysis 85; Analysis of Algorithms 82.
+\item The later record provides evidence of growth through advanced computing and project-based work; the complete transcript should remain visible to reviewers.
+\end{{itemize}}
+
+\section*{{Complete Project Background}}
+\textbf{{Quant-Ultra --- Auditable Financial ML Infrastructure}}
+\begin{{itemize}}
+\item Implements point-in-time data controls, leakage-resistant walk-forward evaluation, transaction-cost and risk constraints, monitoring, reconciliation, and machine-readable evidence.
+\item Treats successful execution as engineering evidence rather than investment validity and routes insufficient evidence to review-only states.
+\item Application emphasis: {tex_escape(hook)}.
+\end{{itemize}}
+
+\textbf{{Privacy Lens --- Android Privacy and Compliance-Evidence Prototype}}
+\begin{{itemize}}
+\item Studies trustworthy mobile-software behavior through permission-audit views, deterministic simulation, provenance, temporal validation, replay boundaries, and fail-closed input handling.
+\item Automated checks and device-oriented QA are reported with explicit limits; the prototype is not presented as proof of legal compliance or universal device validity.
+\item Application relevance: {tex_escape(details['privacy_emphasis'])}
+\end{{itemize}}
+
+\textbf{{Academic and Capstone Projects}}
+\begin{{itemize}}
+\item Project-based work spans software engineering, databases, image processing, data analytics, algorithms, numerical analysis, health ML, information visualization, UX evaluation, and research methods.
+\item Application relevance: {tex_escape(details['academic_emphasis'])}
+\end{{itemize}}
+
+\section*{{Technical Preparation}}
+Python; TypeScript; Android and React Native prototyping; algorithms; databases; numerical methods; probability and statistics; machine learning; data analytics; software engineering; automated testing; experiment design; research communication. \textit{{Confirm tools and proficiency levels before submission.}}
+
+\section*{{Research Interests and Fit}}
+{tex_escape(area)}; {tex_escape(details['interests'])}; reliable ML systems; temporal validity; provenance; trustworthy software; bounded decision support.
+
+\section*{{References}}
+Three referees are planned: the Melbourne research supervisor, a CS/ML/algorithms academic, and an academic able to assess later-stage UBC project work. Add names and institutional contacts only after consent.
+""" + closing()
     return preamble("Academic Curriculum Vitae", school["school"], supervisor) + rf"""
 \textbf{{Contact}}: \ApplicantEmail\quad | \quad \ApplicantPhone\quad | \quad \ApplicantGitHub
 
@@ -883,6 +957,56 @@ Three referees are planned: the Melbourne research supervisor, a CS/ML/algorithm
 
 
 def research_cv(school: dict, supervisor: str, area: str, hook: str) -> str:
+    details = SCHOOL_GENERAL_MATERIALS.get(school["school"])
+    if details:
+        return preamble("Research Curriculum Vitae", school["school"], supervisor) + rf"""
+\textbf{{Contact}}: \ApplicantEmail\quad | \quad \ApplicantPhone\quad | \quad \ApplicantGitHub
+
+\section*{{Research Objective}}
+I seek doctoral training in reliable data, machine-learning, and software systems for non-stationary, high-stakes environments. My portfolio uses two substantial research prototypes and a broad academic-project foundation to study temporal validity, provenance, uncertainty, constraints, testing, and evidence boundaries. With {tex_escape(supervisor)}, the proposed focus is {tex_escape(hook)}.
+
+\section*{{Education and Evidence of Preparation}}
+\textbf{{University of Melbourne, postgraduate computing study}} \hfill 2025--present
+\begin{{itemize}}
+\item Assessed work: Research Methods (69), Machine Learning Applications for Health (76), Information Visualization (70), and Evaluating User Experience (78).
+\item Computer Science Research Project in progress: 30/40 across proposal and oral-presentation components in the supplied record; the remaining 60 percent is pending and no final result is claimed.
+\end{{itemize}}
+
+\textbf{{The University of British Columbia, Okanagan, Bachelor of Science program}} \hfill 2020--2024\\
+\textit{{The supplied transcript lists no credential to date; verify final award and conferral wording from the degree certificate.}}
+\begin{{itemize}}
+\item Later project and course evidence includes Capstone Software Engineering (93), Databases retake (90), Image Processing (88), Data Analytics and Software Engineering (86 each), Numerical Analysis (85), Algorithms (82), and Computer Ethics (84).
+\item The complete record includes weaker earlier results and should be submitted without minimization; research artifacts and referees provide evidence of the subsequent trajectory.
+\end{{itemize}}
+
+\section*{{Research Project I: Quant-Ultra}}
+\textbf{{Research problem.}} Financial ML can fail through temporal leakage, unstable data availability, regime change, cost-blind objectives, and post-hoc selection. Quant-Ultra therefore treats data timing, experiment design, decision constraints, and evidence lineage as a single research system.
+
+\textbf{{Implemented foundation.}} The platform connects point-in-time data construction, fold-local and walk-forward evaluation, execution assumptions, costs, risk-aware portfolio decisions, monitoring, reconciliation, and machine-readable audit records. Failed provenance, validation, or reconciliation produces bounded review states rather than unsupported recommendations.
+
+\textbf{{Doctoral bridge.}} {tex_escape(hook)}. The project will preserve transparent baselines, time-respecting splits, uncertainty reporting, realistic frictions, negative results, and independent reconstruction of claims.
+
+\section*{{Research Project II: Privacy Lens}}
+\textbf{{Research problem.}} Privacy-sensitive mobile systems can overstate what sparse permission, event, or simulator observations prove. Privacy Lens studies how an Android-oriented audit prototype can expose provenance, temporal context, uncertainty, and capability limits to both users and reviewers.
+
+\textbf{{Implemented foundation.}} The prototype combines privacy-dashboard presentation, permission-audit and simulation flows, typed and temporal validation, replay boundaries, fail-closed rules, automated tests, and device-oriented QA evidence. Simulator results remain labelled synthetic, and technical checks are not represented as legal-compliance findings.
+
+\textbf{{Doctoral bridge.}} {tex_escape(details['privacy_emphasis'])}
+
+\section*{{Academic and Capstone Project Portfolio}}
+The assessed portfolio adds breadth beyond the two research systems: a UBC capstone plus work in databases, software engineering, image processing, data analytics, algorithms, numerical analysis, and ethics; and Melbourne work in health ML, information visualization, UX evaluation, research methods, and an ongoing research project. {tex_escape(details['academic_emphasis'])}
+
+\section*{{School and Supervisor Alignment}}
+\textbf{{Departmental emphasis.}} {tex_escape(details['fit'])}
+
+\textbf{{Supervisor emphasis.}} {tex_escape(area)}. The proposed connection is {tex_escape(hook)}.
+
+\section*{{Methods and Research Practice}}
+Preparation includes Python, TypeScript, Android and React Native prototyping, algorithms, databases, numerical analysis, probability and statistics, machine learning, data analytics, software engineering, HCI, ethics, automated testing, experiment design, and reproducible technical writing. I separate implementation evidence from scientific, legal, and investment validity; preserve negative results; and limit claims to evidence that can be reconstructed.
+
+\section*{{Outputs and References}}
+No publication is claimed in the supplied evidence. Add only verified releases, archived commits, preprints, talks, or thesis artifacts. Referee details remain withheld until consent is confirmed.
+""" + closing()
     return preamble("Research Curriculum Vitae", school["school"], supervisor) + rf"""
 \textbf{{Contact}}: \ApplicantEmail\quad | \quad \ApplicantPhone\quad | \quad \ApplicantGitHub
 
