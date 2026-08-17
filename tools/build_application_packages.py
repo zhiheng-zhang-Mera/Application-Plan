@@ -764,6 +764,51 @@ Data licensing may restrict redistribution, so experiments will combine redistri
 """ + closing()
 
 
+def departmental_research_interest_brief_md(school: dict) -> str:
+    details = SCHOOL_GENERAL_MATERIALS[school["school"]]
+    questions = "\n".join(f"- {item}" for item in details["questions"])
+    methods = "\n\n".join(
+        f"**{title}.** {description}" for title, description in details["methods"]
+    )
+    contributions = "; ".join(details["contributions"])
+    return f"""# Research Interest Proposal — 500-Word Version
+
+> 中文说明：本文件是根据同目录完整 RP 提炼的英文约 500 词版本；提交前须按在线系统的实时题目和字数规则复核。
+
+**Applicant:** Zhiheng Zhang
+
+**School:** {school['school']}
+
+**Working title:** {details['rp_title']}
+
+## Research Interest
+
+{details['motivation']}
+
+Quant-Ultra, an auditable financial ML system, connects point-in-time data, controlled evaluation, constrained decisions, monitoring, reconciliation, and evidence bundles. Privacy Lens adds a second setting for provenance and fail-closed behavior. These implementations motivate doctoral work on when computational evidence is traceable and robust enough to support a bounded decision; they do not establish novelty, publication, investment validity, or legal compliance.
+
+## Research Questions
+
+{questions}
+
+## Proposed Approach
+
+{methods}
+
+## School Fit and Expected Contribution
+
+{details['fit']} The expected contributions are: {contributions} The proposal remains school-wide and does not imply support from a particular supervisor. Its scope can be narrowed after faculty consultation and a verified review of the relevant literature.
+
+## Feasibility and Plan
+
+Early prototyping is feasible, but research will begin with simple baselines, explicit contracts, controlled failure injection, and reproducible records. Where licensing prevents release, experiments will use redistributable data and synthetic controls. Evaluation will retain negative results, separate prediction from decision utility, and report uncertainty across environments. Modular experiments and preregistered ablations, where appropriate, will reduce the risk that system complexity obscures causal conclusions.
+
+{details['plan']}
+
+Before submission, the final version will add a supervisor-reviewed bibliography, confirm ethical and licensing requirements, and match the live prompt. This brief communicates a specific, testable direction while keeping claims within current evidence.
+"""
+
+
 def academic_cv(school: dict, supervisor: str, area: str, hook: str) -> str:
     return preamble("Academic Curriculum Vitae", school["school"], supervisor) + rf"""
 \textbf{{Contact}}: \ApplicantEmail\quad | \quad \ApplicantPhone\quad | \quad \ApplicantGitHub
@@ -1186,8 +1231,9 @@ def school_readme_md(school: dict) -> str:
 
 - [`Departmental_General_CV.tex`](Departmental_General_CV.tex)：不绑定单一导师的学院通用学术与研究履历
 - [`Research_Interest_Proposal.tex`](Research_Interest_Proposal.tex)：不绑定单一导师的研究兴趣计划
+- [`Research_Interest_Proposal_500_Words.md`](Research_Interest_Proposal_500_Words.md)：根据完整 RP 提炼的英文约 500 词版本
 
-两份材料均直接存放在学校目录下。对外使用前须核实占位符、实时项目要求、篇幅限制和学院名称；不得把学院通用版本误写成已获得任何导师支持。
+三份材料均直接存放在学校目录下。对外使用前须核实占位符、实时项目要求、篇幅限制和学院名称；不得把学院通用版本误写成已获得任何导师支持。
 
 """
         if school["school"] in SCHOOL_GENERAL_MATERIALS
@@ -1295,7 +1341,7 @@ def root_index() -> str:
 本目录依据申请计划和现有背景证据生成，最近更新日期为 2026-08-16。
 
 每个导师目录均包含为该导师准备的申请材料、英文定制套磁邮件、项目申请清单、事实核对记录及现有学业证据副本。所有拟生成 PDF 的新撰写材料均使用 TeX 源文件；原始正式证据保持原格式不变。除套磁邮件外，全部 Markdown 说明文件使用中文。
-澳门大学与纽约州立大学布法罗分校的学校目录下另有不绑定单一导师的 `Departmental_General_CV.tex` 和 `Research_Interest_Proposal.tex`。
+澳门大学、纽约州立大学布法罗分校与康考迪亚大学的学校目录下另有不绑定单一导师的学院通用 CV、完整 RP 和约 500 词 RP。
 
 | 优先级 | 学校 | 申请项目 | 导师申请包数量 | 套磁分类 | 套磁策略 |
 |---:|---|---|---:|---|---|
@@ -1352,6 +1398,10 @@ def build() -> None:
             write(
                 school_dir / "Research_Interest_Proposal.tex",
                 departmental_research_interest_proposal(school),
+            )
+            write(
+                school_dir / "Research_Interest_Proposal_500_Words.md",
+                departmental_research_interest_brief_md(school),
             )
         for supervisor, area, hook in school["faculty"]:
             target = school_dir / supervisor

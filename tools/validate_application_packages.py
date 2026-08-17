@@ -82,6 +82,16 @@ def main() -> None:
             for filename in expected_school_tex:
                 if f"[`{filename}`]({filename})" not in readme_text:
                     fail(f"school README lacks general-material link {filename}: {school_readme}")
+            brief_name = "Research_Interest_Proposal_500_Words.md"
+            brief = school_dir / brief_name
+            if not brief.exists():
+                fail(f"school-level 500-word proposal missing: {brief}")
+            if f"[`{brief_name}`]({brief_name})" not in readme_text:
+                fail(f"school README lacks general-material link {brief_name}: {school_readme}")
+            brief_text = brief.read_text(encoding="utf-8")
+            brief_words = len(re.findall(r"\b[A-Za-z][A-Za-z'-]*\b", brief_text))
+            if not 475 <= brief_words <= 525:
+                fail(f"{brief}: expected approximately 500 English words, found {brief_words}")
         for tex in school_dir.glob("*.tex"):
             text = tex.read_text(encoding="utf-8")
             if "\\begin{document}" not in text or "\\end{document}" not in text:
@@ -95,7 +105,7 @@ def main() -> None:
     if len(package_dirs) != expected_packages:
         fail(f"expected {expected_packages} package folders, found {len(package_dirs)}")
 
-    md_count = 1 + len(school_dirs)  # root index plus school requirements READMEs
+    md_count = 1 + len(school_dirs) + len(SCHOOL_GENERAL_MATERIALS)
     for package in package_dirs:
         names = {p.name for p in package.iterdir() if p.is_file()}
         missing = REQUIRED - names
