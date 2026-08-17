@@ -35,7 +35,7 @@
 | 行宽不足 | 0 |
 | TeX 中的 Unicode 破折号 | 0 |
 
-本轮删除 Stevens、Stony Brook、UMass Amherst 和 UC Riverside，并在原 04、09 位新增 NC State 和 UConn。非美国学校保持原有编号和目录，不因重新编号而删除或重建。澳门大学、UB 和 Concordia 各新增一份学院通用 CV 与 Research Interest Proposal，且不包含任何目标导师姓名。机器可读编译清单已刷新至 `tmp/pdfs/compile-manifest.json`，共 470 份 TeX，失败、LaTeX 警告、行宽溢出和行宽不足均为 0。
+本轮删除 Stevens、Stony Brook、UMass Amherst 和 UC Riverside，并在原 04、09 位新增 NC State 和 UConn。非美国学校保持原有编号和目录，不因重新编号而删除或重建。澳门大学、UB 和 Concordia 各有一份学院通用 CV 与 Research Interest Proposal，且不包含任何目标导师姓名。三校内容分别特化为时空智能、序列学习与异常检测、数据溯源与 AI 软件保障，不再共用同一研究问题或方法路线。机器可读编译清单已刷新至 `tmp/pdfs/compile-manifest.json`，共 470 份 TeX，失败、LaTeX 警告、行宽溢出和行宽不足均为 0。
 
 ## 视觉验收
 

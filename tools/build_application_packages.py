@@ -510,16 +510,85 @@ OUTREACH_LEVEL_ZH = {
 
 SCHOOL_GENERAL_MATERIALS = {
     "University of Macau": {
-        "areas": "machine learning, data mining, mathematical optimization, online and distributed systems, data provenance, and trustworthy decision infrastructure",
-        "fit": "The department's breadth across data intelligence, optimization, and distributed systems supports a school-wide application rather than a proposal tied to one prospective supervisor.",
+        "cv_focus": "trustworthy spatiotemporal intelligence for dynamic urban and networked environments",
+        "cv_project": "Reframe Quant-Ultra's point-in-time data contracts as a foundation for temporally valid learning over evolving spatial, mobility, and network data.",
+        "cv_secondary": "Use Privacy Lens to study provenance and fail-closed validation when contextual or location-linked data create privacy and evidence risks.",
+        "interests": "spatiotemporal data mining; online learning; distributed intelligence; graph and mobility analytics; privacy-aware data systems; robust optimization",
+        "fit": "UM's breadth in data intelligence, optimization, and online and distributed systems supports an agenda connecting dynamic data, reliable learning, and accountable decisions.",
+        "rp_title": "Trustworthy Spatiotemporal Learning for Dynamic Urban Decision Systems",
+        "motivation": "Urban, mobility, and networked data change across locations, populations, sensors, and time. Models trained on convenient historical snapshots can fail when spatial coverage shifts, observations arrive late, or context changes. The proposed research asks how spatiotemporal learning systems can remain temporally valid, privacy-aware, and operationally useful under these changes.",
+        "questions": [
+            "How can spatiotemporal data contracts represent observation time, location context, revisions, missingness, and permitted feature transformations?",
+            "Which online or graph-learning methods remain calibrated when spatial coverage and temporal regimes change together?",
+            "How should privacy, latency, resource, and decision constraints be incorporated without hiding failures behind a single aggregate score?",
+            "What provenance and monitoring evidence is sufficient to reproduce and challenge an urban decision result?",
+        ],
+        "methods": [
+            ("Spatiotemporal benchmark", "Construct versioned public and synthetic mobility or network datasets with controlled spatial gaps, delayed observations, revisions, and regime changes."),
+            ("Adaptive learning", "Compare temporal, graph, and online-learning baselines using location-held-out and rolling-window evaluation with fold-local preprocessing."),
+            ("Constrained decisions", "Evaluate calibrated predictions through separately auditable decision rules with privacy, latency, resource, and robustness constraints."),
+            ("Distributed evidence", "Prototype provenance-aware pipelines that preserve data lineage, geographic coverage, model versions, monitoring results, and failure states."),
+        ],
+        "contributions": [
+            "A benchmark for coupled spatial and temporal distribution shift.",
+            "Evaluation protocols that separate predictive accuracy, geographic robustness, privacy, and decision utility.",
+            "A provenance-aware architecture for distributed spatiotemporal learning.",
+        ],
+        "plan": "Year 1: literature review and benchmark design. Year 2: adaptive spatiotemporal learning and calibration. Year 3: constrained decision and distributed provenance experiments. Final period: cross-dataset validation and dissertation integration.",
     },
     "University at Buffalo, SUNY": {
-        "areas": "machine learning, optimization, anomaly detection, Bayesian and sequential learning, data-intensive distributed systems, and trustworthy analytics",
-        "fit": "The department's committee-based admission process and complementary strengths in learning, analytics, and systems support a department-level research agenda that can be refined after faculty matching.",
+        "cv_focus": "robust sequential learning and anomaly-aware decision systems under distribution shift",
+        "cv_project": "Emphasize Quant-Ultra's walk-forward evaluation, uncertainty-aware monitoring, risk constraints, and separation of forecast quality from decision utility.",
+        "cv_secondary": "Use Privacy Lens as a second failure-oriented testbed for anomaly detection, provenance, replay boundaries, and conservative automated responses.",
+        "interests": "sequential and Bayesian learning; anomaly detection; robust optimization; uncertainty calibration; distributed ML systems; trustworthy analytics",
+        "fit": "UB CSE's complementary strengths in learning, optimization, anomaly detection, and data-intensive systems support a committee-facing agenda that can later be refined through faculty matching.",
+        "rp_title": "Anomaly-Aware Sequential Learning for Reliable High-Stakes Decisions",
+        "motivation": "Sequential decision systems must distinguish ordinary variation from structural change while acting under uncertainty and cost. In financial and other streaming settings, labels arrive late, anomalies may be rare, and repeated model selection can make apparent improvements fragile. The proposed research joins sequential learning, anomaly detection, and constrained optimization in an auditable evaluation framework.",
+        "questions": [
+            "How can sequential models distinguish transient anomalies, persistent regime change, and data-quality failures?",
+            "Which uncertainty and calibration measures remain informative under delayed labels and distribution shift?",
+            "How should anomaly signals interact with turnover, cost, exposure, and risk constraints in a decision layer?",
+            "Can distributed monitoring and provenance reduce false confidence without making the system unusably conservative?",
+        ],
+        "methods": [
+            ("Sequential evaluation", "Use rolling and expanding windows, delayed-label simulations, and regime-aware splits while preserving fold-local model selection."),
+            ("Anomaly taxonomy", "Inject data, context, and behavioral anomalies and compare statistical, representation, and Bayesian baselines."),
+            ("Risk-aware response", "Map calibrated anomaly evidence into abstention, review, or constrained decisions and measure both detection and downstream utility."),
+            ("Distributed monitoring", "Record model, data, uncertainty, alert, and decision lineage across reproducible pipeline stages."),
+        ],
+        "contributions": [
+            "A benchmark separating anomaly, drift, and data-integrity failures in sequential ML.",
+            "Calibration and evaluation methods for delayed and shifting feedback.",
+            "Auditable response policies connecting anomaly evidence to bounded decisions.",
+        ],
+        "plan": "Year 1: anomaly taxonomy, sequential baselines, and delayed-feedback benchmark. Year 2: uncertainty calibration and shift-aware learning. Year 3: constrained response policies and distributed monitoring. Final period: cross-domain evaluation and dissertation integration.",
     },
     "Concordia University": {
-        "areas": "data management, machine learning, mathematical optimization, software engineering for AI, trustworthy analytics, and evidence-oriented intelligent systems",
-        "fit": "The program's complementary strengths in databases, optimization, machine learning, and software engineering support a department-level research agenda while the required supervisor match is developed through targeted outreach.",
+        "cv_focus": "evidence-aware data and software infrastructure for reliable artificial intelligence",
+        "cv_project": "Present Quant-Ultra as a software and data-governance system whose typed contracts, reconciliation checks, and reproducible runs make AI evidence queryable and testable.",
+        "cv_secondary": "Use Privacy Lens to examine traceability, invalid-source handling, replay boundaries, and engineering assurance for privacy-sensitive AI software.",
+        "interests": "data provenance; database support for ML; software engineering for AI; constrained optimization; uncertainty-aware analytics; reproducible systems",
+        "fit": "Concordia's combination of databases, optimization, machine learning, and software engineering supports research on how data and software architecture determine the reliability of AI evidence; the agenda is designed for refinement during required supervisor matching.",
+        "rp_title": "Evidence-Aware Data and Software Infrastructure for Reliable AI",
+        "motivation": "AI reliability depends not only on a model but also on the data queries, transformations, software stages, configurations, and validation rules that surround it. These dependencies are often difficult to inspect after a result is produced. The proposed research treats evidence lineage as a first-class data and software object that can be queried, tested, optimized, and governed.",
+        "questions": [
+            "Which provenance schema can connect source records, queries, transformations, models, tests, and decision claims without excessive overhead?",
+            "How can database constraints and software contracts detect temporally invalid or inconsistent ML evidence before downstream use?",
+            "How should validation effort be optimized when checks have different costs, coverage, and operational consequences?",
+            "Which software-engineering practices make failure states reproducible and understandable to independent reviewers?",
+        ],
+        "methods": [
+            ("Evidence data model", "Design a typed lineage schema for datasets, queries, transformations, experiments, validation results, and bounded claims."),
+            ("Contract-based assurance", "Implement database constraints, property-based tests, reconciliation rules, and mutation tests that inject known evidence failures."),
+            ("Validation optimization", "Formulate check selection and execution as a constrained optimization problem balancing coverage, latency, and compute cost."),
+            ("Software evaluation", "Study reproducibility, fault localization, reviewer effort, and false assurance across financial ML and privacy-sensitive prototypes."),
+        ],
+        "contributions": [
+            "A queryable provenance model linking ML artifacts to validation evidence and claims.",
+            "A failure-injection benchmark for data and software assurance in AI pipelines.",
+            "Optimization methods for allocating validation effort under operational constraints.",
+        ],
+        "plan": "Year 1: provenance schema, literature review, and failure taxonomy. Year 2: contract-based assurance and mutation benchmark. Year 3: validation optimization and reviewer studies. Final period: cross-domain synthesis, open artifacts, and dissertation integration.",
     },
 }
 
@@ -602,8 +671,8 @@ def departmental_cv(school: dict) -> str:
     return preamble("Departmental Curriculum Vitae", school["school"], "School-wide application") + rf"""
 \textbf{{Contact}}: \ApplicantEmail\quad | \quad \ApplicantPhone\quad | \quad \ApplicantGitHub
 
-\section*{{Research Profile}}
-Computer-science-trained applicant seeking doctoral study in reliable machine-learning and data systems for non-stationary, high-stakes environments. Primary work develops auditable, leakage-resistant financial ML research infrastructure; secondary work studies auditability, provenance, and fail-closed behavior in privacy-sensitive software. This version is intentionally department-wide and is not addressed to a single prospective supervisor.
+\section*{{School-Specific Research Profile}}
+Computer-science-trained applicant seeking doctoral study in {tex_escape(details['cv_focus'])}. The application is anchored in two implemented systems and is tailored to {tex_escape(school['school'])}: {tex_escape(details['cv_project'])} {tex_escape(details['cv_secondary'])}
 
 \section*{{Education}}
 \textbf{{University of Melbourne}} \hfill 2025--present\\
@@ -621,26 +690,28 @@ Bachelor of Science program and computing coursework. \textit{{The supplied tran
 \end{{itemize}}
 
 \section*{{Research and Engineering Projects}}
-\textbf{{Quant-Ultra --- Auditable Financial ML Research Infrastructure}}
+\textbf{{Quant-Ultra --- Primary Evidence for This Application}}
 \begin{{itemize}}
-\item Connects point-in-time data, temporal-leakage controls, walk-forward evaluation, transaction-cost-aware backtesting, risk-aware decisions, monitoring, reconciliation, and machine-readable audit evidence.
-\item Treats successful pipeline execution as engineering evidence rather than investment validity; missing provenance, failed reconciliation, unstable results, or weak baselines trigger review-only conclusions.
-\item Provides an implementation testbed for temporal data contracts, distribution-shift evaluation, constrained decisions, experiment lineage, and reproducible reporting.
+\item {tex_escape(details['cv_project'])}
+\item Existing implementation connects point-in-time data, leakage controls, walk-forward evaluation, constrained decisions, monitoring, reconciliation, and machine-readable audit evidence.
+\item Missing provenance, failed reconciliation, unstable results, or weak baselines trigger review-only conclusions; successful execution is not presented as scientific or investment validity.
 \end{{itemize}}
 
-\textbf{{Privacy Lens --- Trustworthy Software and Compliance Evidence}}
+\begin{{samepage}}
+\textbf{{Privacy Lens --- Complementary Cross-Domain Evidence}}
 \begin{{itemize}}
-\item Studies provenance, replay boundaries, audit records, and fail-closed validation in privacy-sensitive software.
-\item Serves as a second domain for testing how technical systems expose evidence limits; simulator evidence is not presented as legal or device-wide validity.
+\item {tex_escape(details['cv_secondary'])}
+\item Provides a second domain for testing provenance and failure handling; simulator evidence is not presented as legal or device-wide validity.
 \end{{itemize}}
+\end{{samepage}}
 
-\section*{{Research Interests and Departmental Fit}}
-{tex_escape(details['areas'])}; reliable ML systems; temporal validity; distribution shift; risk-aware optimization; reproducible experiments; trustworthy decision systems.
+\section*{{Research Interests at {tex_escape(school['school'])}}}
+{tex_escape(details['interests'])}.
 
 {tex_escape(details['fit'])}
 
-\section*{{Technical Preparation}}
-Python; algorithms and data structures; databases; numerical methods; probability and statistics; machine learning; data analytics; software engineering; experiment design; research communication. \textit{{Replace this summary with verified languages, tools, repositories, and proficiency levels before submission.}}
+\section*{{Relevant Preparation}}
+Python; algorithms and data structures; databases; numerical methods; probability and statistics; machine learning; data analytics; software engineering; experiment design; research communication. The strongest supporting coursework includes Databases (90), Data Analytics (86), Software Engineering (86), Numerical Analysis (85), Analysis of Algorithms (82), and a Capstone Software Engineering Project (93). \textit{{Replace the generic tool summary with verified proficiency levels before submission.}}
 
 \section*{{References and Evidence Boundary}}
 Three referees are planned: the Melbourne research supervisor, a CS/ML/algorithms academic, and an academic able to assess later-stage UBC project work. Add names and institutional contact details only after consent. No publication, award, rank, or unverified research outcome is claimed in this draft.
@@ -649,50 +720,45 @@ Three referees are planned: the Melbourne research supervisor, a CS/ML/algorithm
 
 def departmental_research_interest_proposal(school: dict) -> str:
     details = SCHOOL_GENERAL_MATERIALS[school["school"]]
+    questions = "\n".join(rf"\item {tex_escape(item)}" for item in details["questions"])
+    methods = "\n\n".join(
+        rf"\textbf{{{tex_escape(title)}.}} {tex_escape(description)}"
+        for title, description in details["methods"]
+    )
+    contributions = "\n".join(rf"\item {tex_escape(item)}" for item in details["contributions"])
     return preamble("Research Interest Proposal", school["school"], "School-wide application") + rf"""
 \setlength{{\parskip}}{{0.45em}}
-\textbf{{Provisional title:}} Reliable Machine-Learning and Data Systems under Temporal Shift
+\textbf{{Provisional title:}} {tex_escape(details['rp_title'])}
 
 \section*{{Research Interest and Motivation}}
-My research interest is the infrastructure between raw temporal data and a defensible decision: point-in-time data construction, experiment design, model selection, constrained optimization, monitoring, provenance, and claim governance. Financial ML is a useful stress test because data are revised, asset universes change, regimes shift, decisions incur costs, and repeated experimentation creates strong selection pressure. A favorable backtest is not dependable evidence when its information set, parameter choices, and execution assumptions cannot be reconstructed.
+{tex_escape(details['motivation'])}
 
-I propose a department-level agenda rather than a commitment to one method or supervisor. The common objective is to build systems in which temporal validity, uncertainty, decision constraints, and evidence boundaries are explicit and independently inspectable.
+Quant-Ultra supplies an implemented starting point rather than proof of novelty: it connects point-in-time data, controlled evaluation, constrained decisions, monitoring, reconciliation, and evidence bundles. Privacy Lens supplies a second setting for provenance and fail-closed behavior. The doctoral contribution would be a school-specific research program with verified literature, defensible baselines, and supervisor-guided refinement.
 
 \section*{{Research Questions}}
 \begin{{enumerate}}
-\item Which machine-readable temporal data contracts are sufficient to detect leakage from revisions, universe construction, feature transformation, cross-validation, and model selection?
-\item How should evaluation separate predictive quality from decision utility under distribution shift, transaction costs, turnover, liquidity, and risk constraints?
-\item Which provenance, reconciliation, and monitoring evidence is necessary for another researcher to reproduce, challenge, or falsify a reported result?
-\item Can fail-closed governance gates reduce unsupported conclusions while preserving a usable and computationally efficient research workflow?
+{questions}
 \end{{enumerate}}
 
 \section*{{Proposed Methodology}}
-\textbf{{Temporal-contract benchmark.}} Define contracts for observation time, effective time, revision state, universe membership, and permitted transformations. Inject known violations into synthetic controls and carefully versioned public datasets. Measure detection coverage, false alarms, metric distortion, and downstream decision impact.
+{methods}
 
-\textbf{{Shift-aware learning and evaluation.}} Train and select statistical and machine-learning baselines through rolling or expanding windows with fold-local preprocessing and parameter governance. Evaluate natural regime partitions and controlled perturbations to missingness, noise, feature distributions, and label relationships. Report dispersion and uncertainty across folds instead of only a pooled average.
-
-\textbf{{Decision layer with explicit frictions.}} Feed predictions into separately auditable decision rules subject to turnover, transaction-cost, exposure, concentration, and risk constraints. Vary cost and liquidity assumptions and distinguish forecast metrics from decision outcomes. Economic results will be historical experimental evidence, not prospective investment advice.
-
-\textbf{{Reproducible systems and governance.}} Preserve code revision, environment, data-snapshot identifiers, configuration, random seeds, stage results, and reconciliation checks for every run. Typed stage contracts will prevent downstream use of missing or invalid evidence. Predefined gates will issue research-only, observation-only, or hold-for-review outputs when evidence is insufficient.
-
+\newpage
 \section*{{Departmental Fit}}
-The relevant school-wide areas are {tex_escape(details['areas'])}. {tex_escape(details['fit'])} The proposal can therefore develop through complementary supervision in learning methods, optimization, data management, or distributed systems while preserving one coherent research question: when is a machine-learning result sufficiently traceable and robust to support a bounded decision claim?
+{tex_escape(details['fit'])} The document intentionally avoids naming one supervisor, but its problem definition and methods are specific to this school's research profile and can be narrowed during faculty consultation.
 
 \section*{{Expected Contributions}}
 \begin{{enumerate}}
-\item A taxonomy and benchmark suite for temporal-data and evaluation failures in non-stationary ML.
-\item Drift-aware, cost-aware, and risk-constrained evaluation protocols that keep prediction and decisions separately auditable.
-\item A reference architecture connecting data contracts, experiment lineage, monitoring, reconciliation, and governance gates.
-\item Open, reproducible artifacts and reporting templates that preserve negative results and state explicit claim boundaries.
+{contributions}
 \end{{enumerate}}
 
 \section*{{Preparation, Feasibility, and Risks}}
-Quant-Ultra provides an existing engineering testbed for point-in-time data, walk-forward evaluation, costs, risk controls, monitoring, and evidence bundles. Privacy Lens provides a second setting for provenance and fail-closed validation. These artifacts support early prototyping but do not establish research novelty, investment validity, legal compliance, or publication. Doctoral work would require a verified literature review, supervisor-guided problem refinement, ethical and licensing review, and defensible empirical baselines.
+The existing systems support early prototyping but do not establish research novelty, investment validity, legal compliance, or publication. Doctoral work requires a verified literature review, ethical and licensing review, simple baselines, preregistered ablations where appropriate, and independent replication. Negative or unstable results will be retained rather than filtered from the evidence record.
 
-Financial-data licensing may restrict redistribution, so the benchmark will combine redistributable sources, synthetic controls, and published transformation code. Market results may be unstable; instability will be treated as a finding and assessed across regimes. System complexity may obscure causal conclusions; preregistered ablations and simple baselines will keep individual mechanisms testable.
+Data licensing may restrict redistribution, so experiments will combine redistributable sources, synthetic controls, and published transformation code. System complexity may obscure causal conclusions; modular experiments and failure injection will keep individual mechanisms testable.
 
 \section*{{Indicative Plan}}
-Year 1: literature review, formal problem definitions, temporal-contract benchmark, and baseline pipeline. Year 2: shift-aware learning studies and explicit decision constraints. Year 3: reproducible systems architecture, monitoring, and governance experiments. Final period: cross-domain validation, open artifacts, publications, and dissertation integration.
+{tex_escape(details['plan'])}
 
 \textit{{Submission note: adapt this school-wide draft to the live prompt and page limit. Verify current faculty capacity and replace the provisional literature scope with a supervisor-reviewed bibliography before submission.}}
 """ + closing()

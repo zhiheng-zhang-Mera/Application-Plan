@@ -26,48 +26,48 @@ Concordia University --- School-wide application
 \vspace{0.35em}\hrule\vspace{0.65em}
 
 \setlength{\parskip}{0.45em}
-\textbf{Provisional title:} Reliable Machine-Learning and Data Systems under Temporal Shift
+\textbf{Provisional title:} Evidence-Aware Data and Software Infrastructure for Reliable AI
 
 \section*{Research Interest and Motivation}
-My research interest is the infrastructure between raw temporal data and a defensible decision: point-in-time data construction, experiment design, model selection, constrained optimization, monitoring, provenance, and claim governance. Financial ML is a useful stress test because data are revised, asset universes change, regimes shift, decisions incur costs, and repeated experimentation creates strong selection pressure. A favorable backtest is not dependable evidence when its information set, parameter choices, and execution assumptions cannot be reconstructed.
+AI reliability depends not only on a model but also on the data queries, transformations, software stages, configurations, and validation rules that surround it. These dependencies are often difficult to inspect after a result is produced. The proposed research treats evidence lineage as a first-class data and software object that can be queried, tested, optimized, and governed.
 
-I propose a department-level agenda rather than a commitment to one method or supervisor. The common objective is to build systems in which temporal validity, uncertainty, decision constraints, and evidence boundaries are explicit and independently inspectable.
+Quant-Ultra supplies an implemented starting point rather than proof of novelty: it connects point-in-time data, controlled evaluation, constrained decisions, monitoring, reconciliation, and evidence bundles. Privacy Lens supplies a second setting for provenance and fail-closed behavior. The doctoral contribution would be a school-specific research program with verified literature, defensible baselines, and supervisor-guided refinement.
 
 \section*{Research Questions}
 \begin{enumerate}
-\item Which machine-readable temporal data contracts are sufficient to detect leakage from revisions, universe construction, feature transformation, cross-validation, and model selection?
-\item How should evaluation separate predictive quality from decision utility under distribution shift, transaction costs, turnover, liquidity, and risk constraints?
-\item Which provenance, reconciliation, and monitoring evidence is necessary for another researcher to reproduce, challenge, or falsify a reported result?
-\item Can fail-closed governance gates reduce unsupported conclusions while preserving a usable and computationally efficient research workflow?
+\item Which provenance schema can connect source records, queries, transformations, models, tests, and decision claims without excessive overhead?
+\item How can database constraints and software contracts detect temporally invalid or inconsistent ML evidence before downstream use?
+\item How should validation effort be optimized when checks have different costs, coverage, and operational consequences?
+\item Which software-engineering practices make failure states reproducible and understandable to independent reviewers?
 \end{enumerate}
 
 \section*{Proposed Methodology}
-\textbf{Temporal-contract benchmark.} Define contracts for observation time, effective time, revision state, universe membership, and permitted transformations. Inject known violations into synthetic controls and carefully versioned public datasets. Measure detection coverage, false alarms, metric distortion, and downstream decision impact.
+\textbf{Evidence data model.} Design a typed lineage schema for datasets, queries, transformations, experiments, validation results, and bounded claims.
 
-\textbf{Shift-aware learning and evaluation.} Train and select statistical and machine-learning baselines through rolling or expanding windows with fold-local preprocessing and parameter governance. Evaluate natural regime partitions and controlled perturbations to missingness, noise, feature distributions, and label relationships. Report dispersion and uncertainty across folds instead of only a pooled average.
+\textbf{Contract-based assurance.} Implement database constraints, property-based tests, reconciliation rules, and mutation tests that inject known evidence failures.
 
-\textbf{Decision layer with explicit frictions.} Feed predictions into separately auditable decision rules subject to turnover, transaction-cost, exposure, concentration, and risk constraints. Vary cost and liquidity assumptions and distinguish forecast metrics from decision outcomes. Economic results will be historical experimental evidence, not prospective investment advice.
+\textbf{Validation optimization.} Formulate check selection and execution as a constrained optimization problem balancing coverage, latency, and compute cost.
 
-\textbf{Reproducible systems and governance.} Preserve code revision, environment, data-snapshot identifiers, configuration, random seeds, stage results, and reconciliation checks for every run. Typed stage contracts will prevent downstream use of missing or invalid evidence. Predefined gates will issue research-only, observation-only, or hold-for-review outputs when evidence is insufficient.
+\textbf{Software evaluation.} Study reproducibility, fault localization, reviewer effort, and false assurance across financial ML and privacy-sensitive prototypes.
 
+\newpage
 \section*{Departmental Fit}
-The relevant school-wide areas are data management, machine learning, mathematical optimization, software engineering for AI, trustworthy analytics, and evidence-oriented intelligent systems. The program's complementary strengths in databases, optimization, machine learning, and software engineering support a department-level research agenda while the required supervisor match is developed through targeted outreach. The proposal can therefore develop through complementary supervision in learning methods, optimization, data management, or distributed systems while preserving one coherent research question: when is a machine-learning result sufficiently traceable and robust to support a bounded decision claim?
+Concordia's combination of databases, optimization, machine learning, and software engineering supports research on how data and software architecture determine the reliability of AI evidence; the agenda is designed for refinement during required supervisor matching. The document intentionally avoids naming one supervisor, but its problem definition and methods are specific to this school's research profile and can be narrowed during faculty consultation.
 
 \section*{Expected Contributions}
 \begin{enumerate}
-\item A taxonomy and benchmark suite for temporal-data and evaluation failures in non-stationary ML.
-\item Drift-aware, cost-aware, and risk-constrained evaluation protocols that keep prediction and decisions separately auditable.
-\item A reference architecture connecting data contracts, experiment lineage, monitoring, reconciliation, and governance gates.
-\item Open, reproducible artifacts and reporting templates that preserve negative results and state explicit claim boundaries.
+\item A queryable provenance model linking ML artifacts to validation evidence and claims.
+\item A failure-injection benchmark for data and software assurance in AI pipelines.
+\item Optimization methods for allocating validation effort under operational constraints.
 \end{enumerate}
 
 \section*{Preparation, Feasibility, and Risks}
-Quant-Ultra provides an existing engineering testbed for point-in-time data, walk-forward evaluation, costs, risk controls, monitoring, and evidence bundles. Privacy Lens provides a second setting for provenance and fail-closed validation. These artifacts support early prototyping but do not establish research novelty, investment validity, legal compliance, or publication. Doctoral work would require a verified literature review, supervisor-guided problem refinement, ethical and licensing review, and defensible empirical baselines.
+The existing systems support early prototyping but do not establish research novelty, investment validity, legal compliance, or publication. Doctoral work requires a verified literature review, ethical and licensing review, simple baselines, preregistered ablations where appropriate, and independent replication. Negative or unstable results will be retained rather than filtered from the evidence record.
 
-Financial-data licensing may restrict redistribution, so the benchmark will combine redistributable sources, synthetic controls, and published transformation code. Market results may be unstable; instability will be treated as a finding and assessed across regimes. System complexity may obscure causal conclusions; preregistered ablations and simple baselines will keep individual mechanisms testable.
+Data licensing may restrict redistribution, so experiments will combine redistributable sources, synthetic controls, and published transformation code. System complexity may obscure causal conclusions; modular experiments and failure injection will keep individual mechanisms testable.
 
 \section*{Indicative Plan}
-Year 1: literature review, formal problem definitions, temporal-contract benchmark, and baseline pipeline. Year 2: shift-aware learning studies and explicit decision constraints. Year 3: reproducible systems architecture, monitoring, and governance experiments. Final period: cross-domain validation, open artifacts, publications, and dissertation integration.
+Year 1: provenance schema, literature review, and failure taxonomy. Year 2: contract-based assurance and mutation benchmark. Year 3: validation optimization and reviewer studies. Final period: cross-domain synthesis, open artifacts, and dissertation integration.
 
 \textit{Submission note: adapt this school-wide draft to the live prompt and page limit. Verify current faculty capacity and replace the provisional literature scope with a supervisor-reviewed bibliography before submission.}
 \end{document}
