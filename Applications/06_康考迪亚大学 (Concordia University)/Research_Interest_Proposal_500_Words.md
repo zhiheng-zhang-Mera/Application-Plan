@@ -1,44 +1,19 @@
-# Research Interest Proposal — 500-Word Version
-
-> 中文说明：本文件是根据同目录完整 RP 提炼的英文约 500 词版本；提交前须按在线系统的实时题目和字数规则复核。
+# Research Interest Proposal
 
 **Applicant:** Zhiheng Zhang
 
 **School:** Concordia University
 
-**Working title:** Evidence-Aware Data and Software Infrastructure for Reliable AI
+## Evidence-Aware Data and Software Infrastructure for Reliable AI
 
-## Research Interest
+My research interest is evidence-aware data and software infrastructure for reliable artificial intelligence. An AI result depends on far more than a trained model: it also depends on source records, database queries, transformations, software versions, configurations, tests, and validation rules. When these dependencies are scattered across logs and scripts, a result may be difficult to reproduce or challenge even if the final metric appears convincing. I want to make evidence lineage a first-class object that can be queried, tested, and governed.
 
-AI reliability depends not only on a model but also on the data queries, transformations, software stages, configurations, and validation rules that surround it. These dependencies are often difficult to inspect after a result is produced. The proposed research treats evidence lineage as a first-class data and software object that can be queried, tested, optimized, and governed.
+The project will begin with a typed provenance model connecting datasets, queries, transformations, experiments, validation results, and bounded claims. The model will record both successful stages and invalid or missing evidence. Database constraints and software contracts will then check temporal consistency, source validity, schema expectations, and reconciliation rules before downstream use. Property-based and mutation tests will inject known failures to measure which controls detect them, how quickly the cause can be localized, and whether the system communicates the failure clearly to an independent reviewer.
 
-Quant-Ultra, an auditable financial ML system, connects point-in-time data, controlled evaluation, constrained decisions, monitoring, reconciliation, and evidence bundles. Privacy Lens adds a second setting for provenance and fail-closed behavior. These implementations motivate doctoral work on when computational evidence is traceable and robust enough to support a bounded decision; they do not establish novelty, publication, investment validity, or legal compliance.
+Because exhaustive validation can be expensive, a second component will study how to allocate assurance effort. I will formulate check selection and execution as a constrained optimization problem in which tests differ in cost, latency, coverage, and consequence. Policies will be evaluated against simple fixed test suites and risk-based baselines. The objective is not to remove human judgment, but to identify when automated evidence is sufficient for routine continuation and when the system should abstain or require review.
 
-## Research Questions
+My preparation comes from Quant-Ultra, an implemented financial ML pipeline with typed stage contracts, point-in-time controls, reconciliation checks, monitoring, and reproducible evidence bundles. Privacy Lens provides complementary experience with invalid-source handling, replay boundaries, and audit records in privacy-sensitive software. Together they offer two settings for failure injection and cross-domain evaluation without assuming that existing engineering artifacts already establish research novelty.
 
-- Which provenance schema can connect source records, queries, transformations, models, tests, and decision claims without excessive overhead?
-- How can database constraints and software contracts detect temporally invalid or inconsistent ML evidence before downstream use?
-- How should validation effort be optimized when checks have different costs, coverage, and operational consequences?
-- Which software-engineering practices make failure states reproducible and understandable to independent reviewers?
+Concordia's strengths in databases, optimization, machine learning, and software engineering make it an excellent environment for this work. I expect the research to produce a queryable provenance model linking AI artifacts to validation evidence, a failure-injection benchmark for data and software assurance, and optimization methods for allocating validation effort under operational constraints. The resulting infrastructure would help researchers reproduce results, locate failures, and state more defensible boundaries around AI-supported decisions.
 
-## Proposed Approach
-
-**Evidence data model.** Design a typed lineage schema for datasets, queries, transformations, experiments, validation results, and bounded claims.
-
-**Contract-based assurance.** Implement database constraints, property-based tests, reconciliation rules, and mutation tests that inject known evidence failures.
-
-**Validation optimization.** Formulate check selection and execution as a constrained optimization problem balancing coverage, latency, and compute cost.
-
-**Software evaluation.** Study reproducibility, fault localization, reviewer effort, and false assurance across financial ML and privacy-sensitive prototypes.
-
-## School Fit and Expected Contribution
-
-Concordia's combination of databases, optimization, machine learning, and software engineering supports research on how data and software architecture determine the reliability of AI evidence; the agenda is designed for refinement during required supervisor matching. The expected contributions are: A queryable provenance model linking ML artifacts to validation evidence and claims.; A failure-injection benchmark for data and software assurance in AI pipelines.; Optimization methods for allocating validation effort under operational constraints. The proposal remains school-wide and does not imply support from a particular supervisor. Its scope can be narrowed after faculty consultation and a verified review of the relevant literature.
-
-## Feasibility and Plan
-
-Early prototyping is feasible, but research will begin with simple baselines, explicit contracts, controlled failure injection, and reproducible records. Where licensing prevents release, experiments will use redistributable data and synthetic controls. Evaluation will retain negative results, separate prediction from decision utility, and report uncertainty across environments. Modular experiments and preregistered ablations, where appropriate, will reduce the risk that system complexity obscures causal conclusions.
-
-Year 1: provenance schema, literature review, and failure taxonomy. Year 2: contract-based assurance and mutation benchmark. Year 3: validation optimization and reviewer studies. Final period: cross-domain synthesis, open artifacts, and dissertation integration.
-
-Before submission, the final version will add a supervisor-reviewed bibliography, confirm ethical and licensing requirements, and match the live prompt. This brief communicates a specific, testable direction while keeping claims within current evidence.
+Evaluation will compare the proposed architecture with conventional experiment logs and fixed validation pipelines. Key measures will include failure-detection coverage, false alarms, time to locate a fault, provenance-query latency, compute cost, and the effort required for an independent reviewer to reconstruct a claim. Ablation studies will test whether each schema element or contract adds useful assurance. The optimization component will be considered successful only if it preserves critical coverage while reducing cost or latency relative to transparent baselines. By publishing failure cases as well as successful runs, the project will support cumulative evidence about which engineering controls genuinely improve AI reliability.

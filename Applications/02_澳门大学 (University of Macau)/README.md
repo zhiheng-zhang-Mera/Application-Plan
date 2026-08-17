@@ -37,7 +37,7 @@
 
 - [`Departmental_General_CV.tex`](Departmental_General_CV.tex)：不绑定单一导师的学院通用学术与研究履历
 - [`Research_Interest_Proposal.tex`](Research_Interest_Proposal.tex)：不绑定单一导师的研究兴趣计划
-- [`Research_Interest_Proposal_500_Words.md`](Research_Interest_Proposal_500_Words.md)：根据完整 RP 提炼的英文约 500 词版本
+- [`Research_Interest_Proposal_500_Words.md`](Research_Interest_Proposal_500_Words.md)：采用独立叙事、可直接使用的英文约 500 词版本
 
 三份材料均直接存放在学校目录下。对外使用前须核实占位符、实时项目要求、篇幅限制和学院名称；不得把学院通用版本误写成已获得任何导师支持。
 

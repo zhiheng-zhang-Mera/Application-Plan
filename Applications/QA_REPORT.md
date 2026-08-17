@@ -25,7 +25,7 @@
 | 标准导师 README 文件名 | 58 个通过；旧 `00_README.md` 为 0 个 |
 | 导师中文方向介绍 | 58 个通过 |
 | 学院通用 CV / Research Interest Proposal | 澳门大学、UB 与 Concordia 各 2 份，共 6 份通过 |
-| 约 500 词 Research Interest Proposal（Markdown） | 澳门大学 486 词、UB 481 词、Concordia 507 词 |
+| 约 500 词 Research Interest Proposal（Markdown） | 澳门大学 477 词、UB 481 词、Concordia 491 词；均为独立叙事、英文可直接使用版 |
 | 完整 TeX 源文件 | 470 个通过 |
 | 非空 Markdown 文件 | 251 个通过 |
 | 官方成绩单副本 | 58 个通过 |
@@ -36,7 +36,7 @@
 | 行宽不足 | 0 |
 | TeX 中的 Unicode 破折号 | 0 |
 
-本轮删除 Stevens、Stony Brook、UMass Amherst 和 UC Riverside，并在原 04、09 位新增 NC State 和 UConn。非美国学校保持原有编号和目录，不因重新编号而删除或重建。澳门大学、UB 和 Concordia 各有一份学院通用 CV、完整 Research Interest Proposal 和约 500 词 Markdown 精简版，且不包含任何目标导师姓名。三校内容分别特化为时空智能、序列学习与异常检测、数据溯源与 AI 软件保障，不再共用同一研究问题或方法路线。机器可读编译清单已刷新至 `tmp/pdfs/compile-manifest.json`，共 470 份 TeX，失败、LaTeX 警告、行宽溢出和行宽不足均为 0。
+本轮删除 Stevens、Stony Brook、UMass Amherst 和 UC Riverside，并在原 04、09 位新增 NC State 和 UConn。非美国学校保持原有编号和目录，不因重新编号而删除或重建。澳门大学、UB 和 Concordia 各有一份学院通用 CV、完整 Research Interest Proposal 和约 500 词 Markdown 短文，且不包含任何目标导师姓名。三校内容分别特化为时空智能、序列学习与异常检测、数据溯源与 AI 软件保障；完整 RP 与短文采用不同结构和论证路径，短文不含内部编辑提示，可直接用于相应字数场景。机器可读编译清单已刷新至 `tmp/pdfs/compile-manifest.json`，共 470 份 TeX，失败、LaTeX 警告、行宽溢出和行宽不足均为 0。
 
 ## 视觉验收
 

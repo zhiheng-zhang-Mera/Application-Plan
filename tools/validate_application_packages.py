@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 import subprocess
 import sys
+from difflib import SequenceMatcher
 from pathlib import Path
 
 from build_application_packages import (
@@ -92,6 +93,17 @@ def main() -> None:
             brief_words = len(re.findall(r"\b[A-Za-z][A-Za-z'-]*\b", brief_text))
             if not 475 <= brief_words <= 525:
                 fail(f"{brief}: expected approximately 500 English words, found {brief_words}")
+            if re.search(r"[\u4e00-\u9fff]", brief_text):
+                fail(f"{brief}: submission-ready proposal must remain English")
+            editorial_markers = ["before submission", "submission note", "中文说明", "[confirm"]
+            if any(marker in brief_text.lower() for marker in editorial_markers):
+                fail(f"{brief}: contains internal editorial instructions")
+            full_rp = (school_dir / "Research_Interest_Proposal.tex").read_text(encoding="utf-8")
+            full_tokens = re.findall(r"[A-Za-z][A-Za-z'-]*", full_rp.lower())
+            brief_tokens = re.findall(r"[A-Za-z][A-Za-z'-]*", brief_text.lower())
+            similarity = SequenceMatcher(None, full_tokens, brief_tokens, autojunk=False).ratio()
+            if similarity >= 0.55:
+                fail(f"{brief}: too similar to full RP ({similarity:.3f})")
         for tex in school_dir.glob("*.tex"):
             text = tex.read_text(encoding="utf-8")
             if "\\begin{document}" not in text or "\\end{document}" not in text:
@@ -151,7 +163,7 @@ def main() -> None:
             fail(f"{package}: contact email must remain English")
 
     for markdown in OUT.rglob("*.md"):
-        if markdown.name == "08_Contact_Email.md":
+        if markdown.name in {"08_Contact_Email.md", "Research_Interest_Proposal_500_Words.md"}:
             continue
         if not re.search(r"[\u4e00-\u9fff]", markdown.read_text(encoding="utf-8")):
             fail(f"{markdown}: non-email Markdown lacks Chinese content")
