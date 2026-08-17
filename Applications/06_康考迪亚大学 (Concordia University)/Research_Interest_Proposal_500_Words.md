@@ -4,16 +4,43 @@
 
 **School:** Concordia University
 
-## Evidence-Aware Data and Software Infrastructure for Reliable AI
+**Email:** nicholas_zhang2020@163.com
 
-My research interest is evidence-aware data and software infrastructure for reliable artificial intelligence. An AI result depends on far more than a trained model: it also depends on source records, database queries, transformations, software versions, configurations, tests, and validation rules. When these dependencies are scattered across logs and scripts, a result may be difficult to reproduce or challenge even if the final metric appears convincing. I want to make evidence lineage a first-class object that can be queried, tested, and governed.
+**Phone:** (+86)15601654187
 
-The project will begin with a typed provenance model connecting datasets, queries, transformations, experiments, validation results, and bounded claims. The model will record both successful stages and invalid or missing evidence. Database constraints and software contracts will then check temporal consistency, source validity, schema expectations, and reconciliation rules before downstream use. Property-based and mutation tests will inject known failures to measure which controls detect them, how quickly the cause can be localized, and whether the system communicates the failure clearly to an independent reviewer.
+## Quant-Ultra: Evidence-Aware Data and Software Infrastructure for Reproducible Financial ML
 
-Because exhaustive validation can be expensive, a second component will study how to allocate assurance effort. I will formulate check selection and execution as a constrained optimization problem in which tests differ in cost, latency, coverage, and consequence. Policies will be evaluated against simple fixed test suites and risk-based baselines. The objective is not to remove human judgment, but to identify when automated evidence is sufficient for routine continuation and when the system should abstain or require review.
+A Quant-Ultra result depends on source records, point-in-time queries, feature transformations, model versions, backtest configurations, validation checks, and decision rules. When these dependencies are scattered across logs and scripts, a favorable metric can be difficult to reproduce or challenge. The proposed research will make quantitative evidence lineage a first-class data and software object that can be queried, tested, optimized, and connected to bounded claims.
 
-My preparation comes from Quant-Ultra, an implemented financial ML pipeline with typed stage contracts, point-in-time controls, reconciliation checks, monitoring, and reproducible evidence bundles. Privacy Lens provides complementary experience with invalid-source handling, replay boundaries, and audit records in privacy-sensitive software. Together they offer two settings for failure injection and cross-domain evaluation without assuming that existing engineering artifacts already establish research novelty.
+Quant-Ultra is the central research platform for this proposal. It combines point-in-time market data, leakage-resistant rolling evaluation, realistic transaction costs and turnover, risk-aware decisions, monitoring, reconciliation, and reproducible evidence bundles. It separates forecast quality from portfolio utility and restricts conclusions when provenance, stability, reconciliation, or baseline evidence is insufficient. My proposed doctoral work will make every quantitative result queryable through typed provenance, database constraints, software contracts, reconciliation, and optimized validation workflows.
 
-Concordia's strengths in databases, optimization, machine learning, and software engineering make it an excellent environment for this work. I expect the research to produce a queryable provenance model linking AI artifacts to validation evidence, a failure-injection benchmark for data and software assurance, and optimization methods for allocating validation effort under operational constraints. The resulting infrastructure would help researchers reproduce results, locate failures, and state more defensible boundaries around AI-supported decisions.
+## Research Questions
 
-Evaluation will compare the proposed architecture with conventional experiment logs and fixed validation pipelines. Key measures will include failure-detection coverage, false alarms, time to locate a fault, provenance-query latency, compute cost, and the effort required for an independent reviewer to reconstruct a claim. Ablation studies will test whether each schema element or contract adds useful assurance. The optimization component will be considered successful only if it preserves critical coverage while reducing cost or latency relative to transparent baselines. By publishing failure cases as well as successful runs, the project will support cumulative evidence about which engineering controls genuinely improve AI reliability.
+- Which provenance schema can connect market data, queries, features, models, backtests, validation evidence, and portfolio claims without excessive overhead?
+- How can database constraints and software contracts prevent temporally invalid or inconsistent evidence from entering Quant-Ultra experiments?
+- How should validation effort be allocated when checks differ in cost, latency, coverage, and risk consequence?
+- Which engineering controls most improve reproducibility, fault localization, and independent review of quantitative results?
+
+## Proposed Approach
+
+**Quant evidence model.** Design a typed lineage schema for market data, transformations, experiments, backtests, validation outcomes, and bounded decision claims.
+
+**Contract-based assurance.** Implement database constraints, property-based tests, reconciliation rules, and mutation tests that inject known quantitative evidence failures.
+
+**Validation optimization.** Select and schedule checks through constrained optimization balancing coverage, latency, compute cost, and risk consequence.
+
+**Reviewer-oriented evaluation.** Measure failure detection, fault-localization time, provenance-query performance, and effort required to reconstruct a reported result.
+
+Evaluation will begin with transparent baselines and preserve temporal ordering, fold-local model selection, explicit frictions, and negative results. I will report performance across rolling folds and regimes, sensitivity to costs and constraints, and whether conclusions remain stable under alternative data and execution assumptions. Ablations will isolate each added component. Success requires an improvement in reproducible evidence or bounded decision quality after realistic frictions, not merely a higher pooled prediction score.
+
+Each extension will be compared against unchanged Quant-Ultra baselines so that gains cannot be attributed to altered data windows, cost models, or reporting rules. Every experiment will preserve configurations, intermediate evidence, and failure states for independent review and replication. This preserves comparison across applications.
+
+## Fit and Expected Contributions
+
+Concordia's strengths in databases, optimization, machine learning, and software engineering support a Quant-Ultra research agenda on how data and software architecture determine the reliability of quantitative evidence.
+
+- A queryable provenance model linking Quant-Ultra artifacts to validation evidence and claims.
+- A failure-injection benchmark for data and software assurance in financial ML pipelines.
+- Optimization methods for allocating validation effort under operational constraints.
+
+Year 1: provenance schema and quantitative failure taxonomy. Year 2: contract-based assurance and mutation benchmark. Year 3: validation optimization and reviewer studies. Final period: cross-workflow synthesis, open artifacts, and dissertation integration.

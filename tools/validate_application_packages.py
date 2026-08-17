@@ -102,8 +102,21 @@ def main() -> None:
             full_tokens = re.findall(r"[A-Za-z][A-Za-z'-]*", full_rp.lower())
             brief_tokens = re.findall(r"[A-Za-z][A-Za-z'-]*", brief_text.lower())
             similarity = SequenceMatcher(None, full_tokens, brief_tokens, autojunk=False).ratio()
-            if similarity >= 0.55:
-                fail(f"{brief}: too similar to full RP ({similarity:.3f})")
+            if similarity < 0.20:
+                fail(f"{brief}: insufficiently aligned with full RP ({similarity:.3f})")
+            if similarity >= 0.80:
+                fail(f"{brief}: too close to full RP rather than a concise version ({similarity:.3f})")
+            for term in SCHOOL_GENERAL_MATERIALS[school["school"]]["alignment_terms"]:
+                if term.lower() not in full_rp.lower() or term.lower() not in brief_text.lower():
+                    fail(f"{brief}: alignment term missing from one version: {term}")
+
+            cv_text = (school_dir / "Departmental_General_CV.tex").read_text(encoding="utf-8")
+            contact_texts = [cv_text, full_rp, brief_text]
+            for contact in ["nicholas_zhang2020@163.com", "(+86)15601654187"]:
+                if any(contact not in text for text in contact_texts):
+                    fail(f"{school_dir}: one or more school-level materials lack confirmed contact: {contact}")
+            if any("[CONFIRM EMAIL]" in text or "[CONFIRM PHONE]" in text for text in contact_texts):
+                fail(f"{school_dir}: school-level material still contains contact placeholders")
         for tex in school_dir.glob("*.tex"):
             text = tex.read_text(encoding="utf-8")
             if "\\begin{document}" not in text or "\\end{document}" not in text:
