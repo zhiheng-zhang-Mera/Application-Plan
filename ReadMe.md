@@ -772,6 +772,14 @@ NTU CCDS 项目级页面明确要求非新加坡 Autonomous Universities 毕业�
 
 # 2. 推荐信分配表
 
+## Recommenders（推荐人）
+
+| 序号 | 机构 | 推荐人 | 邮箱 |
+|---:|---|---|---|
+| 1 | Uni-Melb | Richard Sinnott | rsinnott@unimelb.edu.au |
+| 2 | Uni-Melb | Ting Dang | TingDang@unimelb.edu.au |
+| 3 | Employer | XiaoPing Zhang | [E-mail address holder] |
+
 | 推荐人 | 最适合强调 | 目标学校 | Request 已发 | 已提交 |
 |---|---|---|---|---|
 | Referee A — Melbourne thesis/research supervisor | research independence, thesis quality, methodology | 全部；尤其 CUHK/Concordia/香港 | [ ] | [ ] |
