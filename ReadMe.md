@@ -774,11 +774,11 @@ NTU CCDS 项目级页面明确要求非新加坡 Autonomous Universities 毕业�
 
 ## Recommenders（推荐人）
 
-| 序号 | 机构 | 推荐人 | 邮箱 |
-|---:|---|---|---|
-| 1 | Uni-Melb | Richard Sinnott | rsinnott@unimelb.edu.au |
-| 2 | Uni-Melb | Ting Dang | TingDang@unimelb.edu.au |
-| 3 | Employer | XiaoPing Zhang | [E-mail address holder] |
+| 序号 | 机构 | 推荐人 |职位 | 邮箱 |
+|---:|---|---|---|---|
+| 1 | Uni-Melb | Richard Sinnott | Professor & Director | rsinnott@unimelb.edu.au |
+| 2 | Uni-Melb | Ting Dang |Senior Lecturer | TingDang@unimelb.edu.au |
+| 3 | Employer | XiaoPing Zhang | Employer | shjychem@126.com |
 
 | 推荐人 | 最适合强调 | 目标学校 | Request 已发 | 已提交 |
 |---|---|---|---|---|
