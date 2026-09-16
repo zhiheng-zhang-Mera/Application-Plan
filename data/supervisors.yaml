@@ -1,0 +1,31 @@
+schema_version: 1
+updated_at: 2026-09-16
+
+supervisors:
+  - id: concordia-zhijie-wang
+    university: Concordia University
+    name: Zhijie Wang
+    program_id: concordia-cs-phd
+    contact_state: interviewed
+    fit_summary: "Strong fit around software/AI systems and autonomous engineering themes."
+    narrative_route: [codex-boss, ds-hns]
+    next_action: "Clarify supervision/funding/application mechanics based on the latest discussion."
+    evidence_note: "Interview/contact history is known; do not infer a formal offer."
+
+  - id: um-lin-yan
+    university: University of Macau
+    name: Lin Yan
+    program_id: university-of-macau-cs-phd
+    contact_state: no_response_after_followups
+    fit_summary: "Previously contacted; low current ROI after multiple unanswered emails."
+    narrative_route: [codex-boss, ds-hns, quant-ultra]
+    next_action: "Do not spend more time unless new recruitment evidence appears."
+
+  - id: um-unspecified-new-supervisors
+    university: University of Macau
+    name: "New supervisor shortlist"
+    program_id: university-of-macau-cs-phd
+    contact_state: research_needed
+    fit_summary: "Application is already submitted; future outreach should target the strongest current fit rather than repeat old contacts."
+    narrative_route: [codex-boss, ds-hns, quant-ultra]
+    next_action: "Refresh faculty shortlist only when follow-up becomes useful."
