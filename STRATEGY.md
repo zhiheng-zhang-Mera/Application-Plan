@@ -51,7 +51,55 @@
 
 偏好顺序：**直接申请 > 简单导师聊天 > 录视频 > 正式 panel > 技术考试 / 多轮筛选**。
 
-## 3. Utility
+## 3. Research Style Fit
+
+用户不擅长纯理论方向。这个限制在通过 Hard Gate 之后、计算 research fit 之前单独评估。
+
+### 优先方向
+
+优先寻找可以主要依靠以下能力完成博士工作的导师/课题：
+
+- systems building / software systems / infrastructure
+- autonomous software engineering / coding agents / developer tools
+- LLM systems / agent orchestration / multi-agent evaluation
+- empirical software engineering / mining software repositories
+- testing / debugging / program repair / reliability / fault recovery
+- applied ML / trustworthy AI / security / privacy engineering
+- benchmarks / experiments / ablation / user studies / performance evaluation
+- 能把数学作为工具使用，但论文核心贡献仍然是系统、方法实现、实验结果或实证研究
+
+### 降权方向
+
+下列方向并非自动 REJECT，但默认降低优先级：
+
+- theorem-heavy formal methods
+- complexity theory / algorithms theory
+- logic-heavy programming languages theory
+- proof-centric verification where novel proofs are the main contribution
+- optimization/statistical theory where derivation is the central research output
+- cryptographic theory / information theory / learning theory
+
+### 直接避免
+
+如果导师近期主要论文和学生课题显示：
+
+- 大部分核心贡献是 theorem / lemma / proof / asymptotic bound
+- 博士训练强依赖高阶数学推导，而工程实现只是辅助
+- 与用户现有 Boss / DS-Hns / Quant / software-building 能力无法形成可执行实验路线
+
+则标记 `theory_mismatch: true`，通常降为 `BACKUP` 或 `REJECT`；除非该导师同时有明确的 applied/systems 子方向可走。
+
+建议机器字段：
+
+- `research_style`: systems / empirical / applied_ml / mixed / theory_heavy / pure_theory
+- `theory_burden`: low / medium / high
+- `implementation_centrality`: high / medium / low
+- `experiment_centrality`: high / medium / low
+- `theory_mismatch`: true / false / unknown
+
+用户偏好：**systems / empirical / applied > mixed > theory-heavy > pure theory**。
+
+## 4. Utility
 
 只做描述性判断，不制造一个假精确总分：
 
@@ -60,13 +108,14 @@
 - local living-cost coverage
 - research fit
 - coding / systems / agentic-AI compatibility
+- **research style fit / theory burden**
 - graduation rigidity / burden
 - location convenience
 - existing-profile feasibility
 
 推荐标签：`excellent / good / mixed / poor / unknown`。
 
-## 4. Lifestyle：低权重参考
+## 5. Lifestyle：低权重参考
 
 ### LGBT / trans
 
@@ -82,7 +131,7 @@
 
 **二者都不能单独推翻 Hard Gate 或 funding 判断。**
 
-## 5. Research Narrative Routing
+## 6. Research Narrative Routing
 
 不要再全局绑定 Quant-Ultra。
 
@@ -93,17 +142,21 @@
 
 每所学校、每位导师单独选择 `narrative_route`。
 
-## 6. Action State
+当一个导师同时有理论与应用方向时，默认只保留其 **systems / empirical / applied** 路线，不因为导师整体声誉而强行进入理论子方向。
 
-- `APPLY_NOW`：当前即可推进，**包括成绩门槛在内的硬条件已过**
+## 7. Action State
+
+- `APPLY_NOW`：当前即可推进，**包括成绩门槛在内的硬条件已过**，且 research style 没有明显理论错配
 - `APPLY`：值得申请，但还有少量非硬门槛前置动作
-- `BACKUP`：可投，但摩擦/匹配/性价比有明显折损
-- `WATCH`：信息未刷新、等待新轮次、或**成绩门槛依赖尚未完成的学位/最终 WAM**
+- `BACKUP`：可投，但摩擦、匹配、性价比或 theory burden 有明显折损
+- `WATCH`：信息未刷新、等待新轮次、成绩门槛依赖尚未完成的学位/最终 WAM，或 research style 尚未核清
 - `HOLD`：已申请、已有特殊进展，暂不参与筛校
-- `REJECT`：确认违反硬条件或用户主动关闭
+- `REJECT`：确认违反硬条件、纯理论严重错配且没有应用路线，或用户主动关闭
 
-## 7. 信息新鲜度
+## 8. 信息新鲜度
 
 高变化字段必须带 `last_verified`：deadline、GRE、English、**academic score threshold**、funding、supervisor requirement、fee、interview/exam。
 
-未刷新时宁可写 `unknown`，不要把 8 月旧资料伪装成 9 月当前事实。
+导师/课题还需记录近期研究风格证据；不能只根据 faculty profile 上一个宽泛关键词判断“匹配”。
+
+未刷新时宁可写 `unknown`，不要把旧资料伪装成当前事实。
