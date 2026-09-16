@@ -1,44 +1,37 @@
 # Watchlist
 
-> **未刷新 ≠ 不值得申请。** 这里专门放“研究匹配不错，但至少还有一个成绩等效、funding、GRE/英语、流程摩擦或当前轮次问题没有核清”的项目。
->
-> **成绩门槛优先于导师匹配。** 明确要求 GPA / WAM / degree classification 的项目，在用户成绩不能按学校官方规则确认满足前，不得自动晋级 ACTIVE。
+> 这里只保留**研究风格明显合适，而且只差 1–2 个可核验条件**的候选。泛匹配、长期没具体导师、理论负担偏高或 ROI 太低的项目不再堆在这里，统一进入 `PRUNED.md`。
 
-## 成绩门槛待确认
+## 成绩 / degree-equivalency 待确认
 
-| 学校 | 保留理由 | 当前阻塞项 |
+| 学校 / 职位 | 为什么值得保留 | 当前阻塞项 |
 |---|---|---|
-| University of Waterloo | Boss / DS-Hns 导师匹配与 funding 都很强 | CS PhD 标准硕士路径要求相关 Master's **78% average**；等待 Melbourne final WAM / 官方等效 |
-| Queen's University | SE / AI-for-SE 匹配强，PhD funding 清晰 | Computing PhD 要求 Master's minimum **A standing / first class**；等待 final WAM / classification |
-| Dalhousie University | SE / debugging / autonomous systems 导师匹配不错 | CS PhD 要求相关 Master's **minimum A- average**；等待 final WAM / equivalency |
-| University of British Columbia | 顶级 SE / verification / LLM-tools 匹配；PhD funding floor 高 | 通用基线约 B+ / 76%，但具体 PhD + 已有 Master's 路径仍需按官方等效核验 |
-| University of Alberta | codeLLM / AI-assisted programming / multi-agent 导师池非常强；全校 PhD 有最低 funding guarantee | Computing Science 的 GPA / research-master 路径、英语/GRE 当前口径需精确核验；不可只套大学通用 3.0 |
-| Nanyang Technological University | AI agents / AI-assisted development / security fit 强 | PhD 要求 strong Bachelor's + Honours (Distinction) or equivalent；UBC 学位等级等效未确认 |
-| NTNU — Trustworthy Agentic AI vacancy | 与 Boss / DS-Hns 几乎正面重合；带薪职位 | 通常要求 NTNU scale **B 或更好**；需做 UBC/Melbourne 等效 + 英语材料核验 |
-| NTNU — Multi-Agent Communication vacancy | multi-agent / LLM communication + Software Engineering group | 博士入学成绩等效与英语材料待核验 |
+| University of Waterloo | Yuntian Deng 的 multi-agent / LLM collaboration、Pengyu Nie 的 SE/testing 都偏实验与工程；funding 强 | 标准 CS PhD 硕士路径要求相关 Master's **78% average**；等待 Melbourne final WAM / 官方等效 |
+| Queen's University | Filipe Cogo / Yuan Tian / Bram Adams 以 empirical SE、software analytics、DevOps 为主，风格适合 | Computing PhD 要求 Master's minimum **A standing / first class** |
+| Dalhousie University | Tushar Sharma / Masud Rahman 的 refactoring、debugging、maintenance、repository mining 偏工程/实验 | CS PhD 要求相关 Master's **minimum A- average** |
+| University of British Columbia | Caroline Lemieux 的 testing / program analysis / SE tooling 很合适；Ivan Beschastnikh 只在 systems/tooling 型课题下保留 | PhD academic-equivalency 需按官方规则确认 |
+| University of Alberta | **Zhou Yang** 的 trustworthy codeLLMs 很直接；Matthew Taylor 可作为 multi-agent 系统备选 | Computing Science 的 academic/research-master 路径、英语/GRE 口径待精确核验；Jocelyn Chen 因 formal/program-synthesis 理论负担较高已从优先导师池移除 |
+| Nanyang Technological University | Penghui Li 的 security / program analysis / AI-assisted development、Yewen Pu 的 agent/code-generation evaluation 偏应用 | strong Bachelor's + Honours (Distinction) or equivalent；degree classification 未确认 |
+| NTNU — Trustworthy Agentic AI vacancy | agentic AI + autonomous systems，职位制、偏实现应用 | 通常要求 NTNU scale **B 或更好**；需做成绩等效 + 英语材料核验 |
+| NTNU — Multi-Agent Communication vacancy | multi-agent / LLM communication + Software Engineering group，方向偏实验 | 博士入学成绩等效与英语材料待核验 |
 
-## 资金 / 流程待确认
+## Funding / 流程待确认
 
-| 学校 | 保留理由 | 当前阻塞项 |
+| 学校 | 为什么值得保留 | 当前阻塞项 |
 |---|---|---|
-| University of Victoria | Norha Villegas / Ratnadira Widyasari / Amber Horvath 与 agentic AI、AI4SE、GenAI developer tooling 高匹配 | GRE 对国际申请者高度推荐；funding 为 offer-dependent，需先确认够覆盖生活 |
-| University of Manitoba | Shaowei Wang 的 AI-for-SE / LLM / bug fixing / AIOps 与 DS-Hns 很直接 | 成绩线看起来较友好，但 supervisor funding 不能视为保证；需确认 funding/capacity |
-| HKUST (Guangzhou) | FinTech / AI / data 方向仍有潜在匹配 | GRE、英语、funding、interview、当前 intake |
-| Drexel | CS/SE/ML systems 仍可能低套磁成本 | 英语、funding、deadline、interview |
-| Stevens | ML systems / time-series 路线仍可匹配 | funding、英语、writing sample、deadline |
-| CityUHK | Data Science / trustworthy AI / LLM systems 仍有潜在匹配 | 2027 intake、政府资助名额/studentship、proposal、interview |
-| Stony Brook | Systems/ML fit 高 | 英语、funding、GRE current policy、deadline |
-| UMass Amherst | Systems/data/ML fit 高但竞争强 | funding、English、current materials |
+| University of Victoria | **Norha Villegas / Ratnadira Widyasari / Amber Horvath** 都明显偏 agentic systems、AI4SE、GenAI developer tooling | GRE 对国际申请者高度推荐；funding 为 offer-dependent，需要先确认覆盖生活 |
+| University of Manitoba | **Shaowei Wang** 的 LLM + code generation/search + bug fixing + AIOps/DevOps 与 DS-Hns 非常直接 | supervisor funding/capacity 需要确认 |
+| CityUHK | trustworthy AI / LLM systems 仍可能有工程型入口 | 需要绑定到具体 2027 PI + studentship；没有具体 PI 前不升级 |
+| HKUST (Guangzhou) | FinTech / AI / data 可给 Quant-Ultra / Boss 留一条应用路线 | GRE、英语、funding、当前 intake 和具体 PI 仍未核清 |
 
-## 本轮明确不直接晋级 ACTIVE 的高匹配项目
+## 已从 WATCH 清掉
 
-- **NUS CS PhD**：Abhik Roychoudhury / Jin Song Dong / Chengpeng Wang 与 autonomous software engineering / trustworthy agents 非常强，但 programme 有海外 scholarship interview 和 mandatory PhD Qualifying Examination，按低摩擦标准降为 BACKUP。
-- **MBZUAI CS PhD**：funding 很有吸引力，但申请含 mandatory screening exam，按“尽量不考试”的偏好降为 BACKUP。
-- **UVic**：导师 fit 很高，不是因为研究弱而 WATCH；主要是 GRE 推荐 + funding 需要 supervisor-level confirmation。
+以下项目不再因为“也许不错”长期占坑：**Drexel、Stevens、Stony Brook、UMass Amherst**。它们已移到 `PRUNED.md`，只有出现新的 implementation-first PI / vacancy / funding 信号才重开。
 
-## Round-2 数据入口
+NUS 与 MBZUAI 不是 WATCH：研究 fit 尚可，但流程摩擦明确偏高，统一放 `BACKUP.md`。
 
-- `data/expansion-round2-2026-09-16.yaml`：第二轮全球扩池的 programme staging 数据
-- `data/supervisors-expansion-round2-2026-09-16.yaml`：对应导师池
+## 升级条件
 
-当一个候选的 score gate / GRE / English / funding / current intake 均核清后，再合并进 `data/programs.yaml` 和 `data/supervisors.yaml`，并进入 ACTIVE / BACKUP / REJECT。
+只有在以下字段都足够清楚后才升 ACTIVE：
+
+`academic gate → research-style fit → GRE/English → funding → supervisor/capacity → exam/interview friction → deadline`
