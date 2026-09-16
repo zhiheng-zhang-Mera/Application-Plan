@@ -1,0 +1,32 @@
+schema_version: 1
+updated_at: 2026-09-16
+
+applications:
+  - id: university-of-macau-cs-phd
+    program_id: university-of-macau-cs-phd
+    state: submitted
+    submitted_at: 2026-08-20
+    payment: completed
+    references:
+      status: partial_last_known
+      note: "Three referees were invited; at least two submissions were confirmed in prior tracking. Recheck portal before treating all three as complete."
+    next_action: "Wait for process updates; do targeted supervisor follow-up only when useful."
+    evidence_note: "Submitted and paid are treated as confirmed workflow facts."
+
+  - id: concordia-cs-phd
+    program_id: concordia-cs-phd
+    state: outreach
+    submitted_at: null
+    payment: unknown
+    supervisor_track:
+      status: active
+      note: "Prior supervisor contact and interview/discussion occurred. Do not label as formal offer without documentary evidence."
+    next_action: "Clarify supervisor commitment, funding package, formal application/offer requirements, and next administrative step."
+
+  - id: buffalo-cse-phd
+    program_id: buffalo-cse-phd
+    state: closed_by_user
+    submitted_at: null
+    payment: not_applicable
+    close_reason: ENGLISH_RETEST_REQUIRED
+    next_action: "None unless official English-proficiency policy changes."
