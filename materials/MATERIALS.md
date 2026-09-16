@@ -26,9 +26,21 @@
 
 ## References
 
-- [ ] Core referee list
+- [x] Core referee workflow — [Referee Control Center](referees/README.md)
+- [x] Sinott pack — [materials/referees/sinott](referees/sinott/README.md)
+- [x] Ting Dang pack — [materials/referees/ting-dang](referees/ting-dang/README.md)
 - [ ] Current contact details
 - [ ] Deadline/status tracking
+
+### Referee rule
+
+推荐人材料必须区分：
+
+- **推荐人实际知道的内容**；
+- **上次联系后新增、需要首次介绍的内容**；
+- **用户给推荐人的 draft** 与 **推荐人最终实际提交的信**。
+
+Boss / DS-Hns 目前对 Sinott 和 Ting Dang 都属于“此前不知道的新项目”，不能倒推成既有了解或指导经历。
 
 ## Rule
 
