@@ -1,0 +1,184 @@
+schema_version: 1
+updated_at: 2026-09-16
+purpose: "Supervisor overlay paired with expansion-round2-2026-09-16.yaml."
+
+supervisors:
+  - id: ubc-caroline-lemieux
+    university: University of British Columbia
+    name: Caroline Lemieux
+    program_id: ubc-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Software engineering, program analysis/verification, automated testing, and 2026/27 teaching on software-engineering tools in the era of LLMs."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "Only contact after UBC academic eligibility is confirmed; pitch testing/reliability and coding-agent evaluation."
+    source_url: https://www.cs.ubc.ca/people/caroline-lemieux
+
+  - id: ubc-ivan-beschastnikh
+    university: University of British Columbia
+    name: Ivan Beschastnikh
+    program_id: ubc-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Software engineering + systems + formal methods; current work includes evaluating AI on formal modeling of complex real-world systems."
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    next_action: "Use reliable long-running agent/system verification narrative after score-gate confirmation."
+    source_url: https://www.cs.ubc.ca/people/ivan-beschastnikh
+
+  - id: ualberta-zhou-yang
+    university: University of Alberta
+    name: Zhou Yang
+    program_id: ualberta-computing-phd
+    contact_state: not_contacted
+    fit_summary: "Direct fit: trustworthy codeLLMs spanning robustness, security, privacy and software-engineering ecosystems."
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    next_action: "High-priority if Alberta academic gate clears; foreground autonomous coding reliability/security rather than generic LLM work."
+    source_url: https://apps.ualberta.ca/directory/person/zy25
+
+  - id: ualberta-jocelyn-chen
+    university: University of Alberta
+    name: Jocelyn Qiaochu Chen
+    program_id: ualberta-computing-phd
+    contact_state: not_contacted
+    fit_summary: "Programming languages, formal methods, NLP, AI-assisted programming and neurosymbolic program synthesis."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "Potentially excellent, but her published note expects prior research training/research-based MSc for direct PhD; verify whether the Melbourne research project qualifies before outreach."
+    source_url: https://sites.ualberta.ca/~qiaochu8
+
+  - id: ualberta-matthew-taylor
+    university: University of Alberta
+    name: Matthew Taylor
+    program_id: ualberta-computing-phd
+    contact_state: not_contacted
+    fit_summary: "Long-standing work in reinforcement learning, human-in-the-loop AI and multi-agent systems."
+    narrative_route: [codex-boss]
+    next_action: "Secondary Alberta route if Boss is framed around multi-agent learning/coordination rather than software engineering."
+    source_url: https://apps.ualberta.ca/directory/person/mtaylor3
+
+  - id: uvic-norha-villegas
+    university: University of Victoria
+    name: Norha M. Villegas
+    program_id: uvic-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Near-direct DS-Hns/Boss overlap: self-adaptive and autonomic systems, agentic AI and generative-AI ecosystems, resilient/trustworthy software-intensive systems."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "Top UVic target if funding and academic gate clear; emphasize self-healing long-horizon autonomous software execution."
+    source_url: https://www.uvic.ca/ecs/computerscience/faculty-staff/faculty/villegas-norha.php
+
+  - id: uvic-ratnadira-widyasari
+    university: University of Victoria
+    name: Ratnadira Widyasari
+    program_id: uvic-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Software quality assurance, AI4SE, explainable AI and generative AI for reliable software-engineering tools."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "Pitch testing/quality/reliability benchmarks for coding agents."
+    source_url: https://www.uvic.ca/ecs/computerscience/faculty-staff/faculty/widyasari-ratnadira.php
+
+  - id: uvic-amber-horvath
+    university: University of Victoria
+    name: Amber Horvath
+    program_id: uvic-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Human-centered software engineering, developer tooling and generative AI, especially tools for understanding code."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "Use human-AI developer workflow and agentic coding interface narrative."
+    source_url: https://www.uvic.ca/ecs/computerscience/faculty-staff/faculty/horvath-amber.php
+
+  - id: manitoba-shaowei-wang
+    university: University of Manitoba
+    name: Shaowei Wang
+    program_id: manitoba-cs-phd
+    contact_state: not_contacted
+    fit_summary: "AI for software engineering, LLMs, code generation/search, bug fixing, vulnerability detection, AIOps and DevOps."
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    next_action: "Best Manitoba target; first confirm supervisor funding/capacity because program funding is not cleanly guaranteed."
+    source_url: https://umanitoba.ca/science/directory/computer-science/shaowei-wang
+
+  - id: nyu-thomas-wies
+    university: New York University
+    name: Thomas Wies
+    program_id: nyu-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Program analysis/verification, automated deduction, concurrent software and software productivity; strong reliability foundation for DS-Hns."
+    narrative_route: [ds-hns, privacy-lens]
+    next_action: "Secondary-to-strong NYU target; pitch verification and reliability of autonomous software systems rather than generic agents."
+    source_url: https://cs.nyu.edu/~wies/
+
+  - id: nyu-greg-durrett
+    university: New York University
+    name: Greg Durrett
+    program_id: nyu-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Large language models, NLP and machine learning; useful Boss route but less software-engineering-specific than the Canadian SE targets."
+    narrative_route: [codex-boss]
+    next_action: "Only prioritize if positioning Boss around model/agent reasoning and evaluation rather than orchestration infrastructure."
+    source_url: https://cs.nyu.edu/dynamic/people/faculty/type/22/
+
+  - id: nus-abhik-roychoudhury
+    university: National University of Singapore
+    name: Abhik Roychoudhury
+    program_id: nus-cs-phd
+    contact_state: not_contacted
+    fit_summary: "One of the strongest global matches for DS-Hns: automatic program repair, trusted automatic programming and the AutoCodeRover coding agent."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "Research fit is exceptional, but NUS remains BACKUP because of qualifying-exam/interview friction; contact only if willing to accept that process."
+    source_url: https://www.comp.nus.edu.sg/news/how-nus-computing-research-became-the-technology-behind-sonars-globally-launched-ai-remediation-agent/
+
+  - id: nus-jinsong-dong
+    university: National University of Singapore
+    name: Jin Song Dong
+    program_id: nus-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Formal methods with LLM agents, trusted AI, verified LLM code synthesis and autonomous systems."
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+    next_action: "Strong NUS backup target for trustworthy/verified agents."
+    source_url: https://www.comp.nus.edu.sg/cs/people/dongjs/
+
+  - id: nus-chengpeng-wang
+    university: National University of Singapore
+    name: Chengpeng Wang
+    program_id: nus-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Program analysis, synthesis, software testing, software reliability and trustworthy AI agents."
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    next_action: "Very strong new-faculty fit; treat as NUS backup due programme friction, not research mismatch."
+    source_url: https://www.comp.nus.edu.sg/cs/people/wangcp/
+
+  - id: ntu-penghui-li
+    university: Nanyang Technological University
+    name: Penghui Li
+    program_id: ntu-ccds-phd
+    contact_state: not_contacted
+    fit_summary: "Software/system security, program analysis, automated vulnerability detection, LLM-agent and AI-assisted-development security."
+    narrative_route: [ds-hns, privacy-lens, codex-boss]
+    next_action: "High-value only if NTU degree-equivalency gate clears."
+    source_url: https://www.ntu.edu.sg/computing/our-faculty
+
+  - id: ntu-yewen-pu
+    university: Nanyang Technological University
+    name: Yewen Pu
+    program_id: ntu-ccds-phd
+    contact_state: not_contacted
+    fit_summary: "Human-AI collaboration, agents and code generation; explicitly studies where AI agents fail on tasks humans find straightforward."
+    narrative_route: [codex-boss, ds-hns]
+    next_action: "Excellent conceptual fit for Boss evaluation once academic equivalency is resolved."
+    source_url: https://www.ntu.edu.sg/computing/our-faculty/new-faculty-at-ccds-%282025%29
+
+  - id: tudelft-jeremie-decouchant
+    university: Delft University of Technology
+    name: Jeremie Decouchant
+    program_id: tudelft-waltz-phd-2026
+    contact_state: vacancy_application
+    fit_summary: "Supervises the open WALTZ PhD on decentralized/trustworthy AI pipelines, spanning fault tolerance, decentralized learning, privacy and LLM-based systems."
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    next_action: "Vacancy deadline 2026-09-24: apply through the vacancy rather than doing a long pre-application outreach cycle."
+    source_url: https://www.academictransfer.com/en/jobs/363401/phd-position-decentralized-and-trustworthy-ai-pipelines-eu-project-waltz
+
+  - id: ntnu-agus-hasan
+    university: Norwegian University of Science and Technology
+    name: Agus Hasan
+    program_id: ntnu-trustworthy-agentic-ai-2026
+    contact_state: vacancy_application
+    fit_summary: "Contact professor for the current Trustworthy Agentic Artificial Intelligence PhD vacancy; research focuses on safe, transparent and accountable agentic AI in autonomous/maritime settings."
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+    next_action: "First resolve NTNU B-grade equivalency and English documentation; then apply through Jobbnorge before 2026-10-31."
+    source_url: https://www.jobbnorge.no/ledige-stillinger/stilling/308144/phd-candidate-in-trustworthy-agentic-artificial-intelligence
