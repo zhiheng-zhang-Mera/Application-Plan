@@ -2,42 +2,46 @@
 
 > 这里只放**现在值得主动推进**的项目。已提交项目不放这里。
 >
-> 排序按：**硬条件已过 → 研究风格适合 → 当前紧迫度 → Boss / DS-Hns 匹配**。
+> 排序按：**硬条件已过 → Research Method Fit → 当前紧迫度 → 项目叙事匹配**。
 >
-> 用户偏好 implementation-first：系统实现、软件工程、实验、benchmark、agent evaluation、tooling、applied ML 优先；pure theory / theorem-heavy / proof-centric 方向不作为主线。
+> 高匹配研究形态现在包括：**AI4SE、autonomous software engineering、agentic AI / AI systems、applied AI4Science**。核心要求不是“必须软件工程”，而是研究主要可以靠**系统实现、实验、benchmark、仿真、数据分析、真实任务验证**完成。
 
-| 学校 / 职位 | 状态 | 为什么还值得做 | 当前最匹配导师 | 下一步 |
+| 学校 / 职位 | 状态 | Research Method Fit | 当前最匹配路线 | 下一步 |
 |---|---|---|---|---|
-| TU Delft — WALTZ PhD: Decentralized and Trustworthy AI Pipelines | **APPLY_NOW** | 当前 vacancy 截止 **2026-09-24**；带薪 PhD；研究围绕 decentralized / trustworthy AI pipelines、fault tolerance、privacy、LLM systems，明显偏系统实现与实验 | Jérémie Decouchant | 直接按 vacancy 准备 CV + motivation + project evidence；不需要先走长周期套磁 |
-| KAUST | **APPLY_NOW / APPLY** | funding 清晰；distributed/cloud/ML systems、fault tolerance、trustworthy AI 可走工程系统路线 | Marco Canini / Ali Shoker / Di Wang | 优先 Fall 2027；套磁只找系统/可靠性/工程方向，不碰纯理论支线 |
-| Hong Kong Polytechnic University | **APPLY_NOW** | software testing / program repair / GenAI 工程方向强，适合 DS-Hns 的实现与 benchmark 路线 | **Yu Pei** / Jing Li / Hongxia Yang | Yu Pei 为第一优先；强调 fault recovery、testing、coding-agent evaluation |
-| HKUST | **APPLY_NOW** | 无统一 PhD minimum GPA；software engineering / LLM systems / security 有较多工程型入口 | Junxian He / Jiasi Shen / Shuai Wang | regular application 可直接走；优先项目/实验导向的导师和课题 |
-| University of Hong Kong | **APPLY_NOW / VERIFY CLASSIFICATION** | systems reliability、AI systems、LLM/security 路线可做实现型研究 | Ka Ho Chow / Heming Cui / Zuming Jiang | 付款前确认 degree classification；Zuming Jiang 仅在课题明确偏 systems implementation/testing 时保留 |
-| Simon Fraser University | **APPLY / VERIFY MASTER ROUTE** | LLM + software engineering + systems 可走 empirical/system-building 路线；funding 较清晰 | Linyi Li / Keval Vora / Hang Ma | 完成 Master's 路径的 academic equivalency 核验后推进 |
-| Concordia University | **APPLY / SUPERVISOR TRACK** | 已有 Zhijie Wang 实际导师接触；现有 Boss / DS-Hns 项目更适合工程与系统研究叙事 | Zhijie Wang | 继续澄清 supervisor commitment、funding、正式 application/offer 流程 |
+| TU Delft — WALTZ PhD: Decentralized and Trustworthy AI Pipelines | **APPLY_NOW** | **Excellent — AI systems / trustworthy AI / distributed pipelines**；系统实现、fault tolerance、privacy、LLM-based pipeline 都偏工程实验 | Codex Boss + DS-Hns + Privacy Lens | 直接按 vacancy 准备 CV + motivation + project evidence；不需要长周期套磁 |
+| KAUST | **APPLY_NOW / APPLY** | **Excellent — AI systems + applied AI4Science potential**；可走 distributed/ML systems、reliability，也可继续筛 scientific/biomedical AI 的工程型 PI | DS-Hns + Codex Boss；可扩展 drug-simulator / Param-Health | 优先 Fall 2027；导师搜索同时覆盖 systems 和 applied AI4Science，但避免重理论 scientific ML |
+| Hong Kong Polytechnic University | **APPLY_NOW** | **Excellent — AI4SE / applied GenAI**；testing、program repair、coding-agent evaluation 很直接；也可容纳应用型 data/AI 课题 | DS-Hns + Codex Boss | Yu Pei 第一优先；其他导师只有在 implementation/experiment 路线明确时保留 |
+| HKUST | **APPLY_NOW** | **Excellent — AI4SE / AI systems / applied AI**；software engineering、LLM systems、security 都有工程入口，后续可扩 applied AI4Science PI 搜索 | Codex Boss + DS-Hns + Privacy Lens | regular application 可直接走；导师筛选新增 AI4Science 但必须是实验/系统型 |
+| University of Hong Kong | **APPLY_NOW / VERIFY CLASSIFICATION** | **Excellent — systems / trustworthy AI / applied AI**；现有 systems/LLM/security 路线合适，也允许后续拓展 biomedical/scientific AI | Codex Boss + DS-Hns；可扩 drug-simulator / Param-Health | 付款前确认 degree classification；只保留 implementation / experiment-central 课题 |
+| Simon Fraser University | **APPLY / VERIFY MASTER ROUTE** | **Excellent — AI4SE / LLM / systems / agent evaluation**；方法学明显偏 empirical/system-building | DS-Hns + Codex Boss + Privacy Lens | 完成 Master's-entry academic equivalency 核验后推进 |
+| Concordia University | **APPLY / SUPERVISOR TRACK** | **Excellent — software/AI systems**；已有实际导师线，Boss / DS-Hns 可直接作为工程型研究基础 | Codex Boss + DS-Hns | 继续澄清 supervisor commitment、funding、正式 application/offer 流程 |
 
-## 不再放 ACTIVE 的项目
+## 重洗后没有恢复到 ACTIVE 的项目
 
-- **NYU Courant CS PhD**：硬条件本身不差，但上一轮导师池存在错误；Thomas Wies 当前核心工作明显偏 verification / automated deduction / proof-oriented reasoning，和 implementation-first 偏好不够合。NYU 已转 `PRUNED`，不再占主线时间。
-- **Waterloo / Queen's / Dalhousie / UBC / Alberta / NTU / NTNU**：仍有值得保留的工程型导师或 vacancy，但成绩/degree-equivalency 等硬门槛未核清，留 `WATCHLIST`。
+- **NYU Courant**：即使现在接受 AI4Science，现有候选记录仍缺乏足够具体的 implementation-first AI4SE / AI4Science 主导师证据，因此继续 `PRUNED`。
+- **Waterloo / Queen's / Dalhousie / UBC / Alberta / NTU / NTNU**：Research Method Fit 本身很好，但 academic / degree-equivalency / English 等门槛尚未核清，继续 `WATCH`。
+- **NUS / MBZUAI / CUHK**：研究方法可以匹配，但考试 / QE / 面试等培养或申请摩擦仍然偏高，继续 `BACKUP`。
 
 ## 当前执行顺序
 
-1. **TU Delft WALTZ** — deadline 最近，且研究方式非常贴现有项目。
-2. **PolyU / KAUST** — 工程型 fit + funding/流程相对清晰。
-3. **HKUST / HKU** — 继续正常批次；HKU 先核 classification。
+1. **TU Delft WALTZ** — deadline 最近，研究方法高度匹配。
+2. **PolyU / KAUST** — 一个偏 AI4SE，一个同时覆盖 AI systems / applied AI4Science。
+3. **HKUST / HKU** — 传统申请主线，同时继续补筛 applied AI4Science 工程型 PI。
 4. **Concordia** — 已有导师线，不重新撒网。
 5. **SFU** — 等 Master's-entry 学术等效确认。
 
-## 研究风格检查
+## Research Method Gate
 
-任何导师即使关键词匹配，也必须再看近年论文/学生课题：
+导师即使关键词匹配，也必须满足至少一种可执行研究路线：
 
-- `implementation_centrality` 至少 medium；
-- `experiment_centrality` 至少 medium；
-- 若主要产出依赖 theorem/proof/semantics/complexity derivation，则降到 BACKUP/PRUNED；
-- formal methods 不是自动淘汰：如果主要产出是 testing、verification tooling、agent evaluation、system implementation，仍可保留。
+- system/tool implementation
+- empirical evaluation / benchmark
+- simulation / computational experiments
+- real-world data analysis
+- agent / software / scientific workflow evaluation
+
+如果主要产出是 theorem / proof / heavy derivation，或 AI4Science 需要高强度理论物理、纯数学、理论化学等先修才能开始主要研究，则降级到 `PRUNED/REJECT`。
 
 ## 升级规则
 
-WATCHLIST 中的项目只有在重新核验 **academic score/classification、GRE、英语、funding、研究风格、考试/面试负担、当前 intake、deadline** 后才进入 ACTIVE。
+WATCHLIST 中的项目只有在重新核验 **academic score/classification、GRE、英语、funding、research-method fit、考试/面试负担、当前 intake、deadline** 后才进入 ACTIVE。
