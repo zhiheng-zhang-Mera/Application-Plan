@@ -1,1 +1,0 @@
-The exact legacy content remains permanently recoverable from blob `78c9d133ba74aca5807e8354f62d97431f7648e3` and pre-restructure commits. This file is provenance documentation only.
