@@ -1,0 +1,1 @@
+This marker exists solely for migration verification. Before merge, `archive/README-2026-08-15.md` must match legacy blob `78c9d133ba74aca5807e8354f62d97431f7648e3` exactly.
