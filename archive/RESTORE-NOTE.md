@@ -1,0 +1,1 @@
+The authoritative historical source is legacy blob `78c9d133ba74aca5807e8354f62d97431f7648e3`; current screening logic must never parse this archive as live requirements.
