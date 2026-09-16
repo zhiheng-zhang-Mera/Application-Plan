@@ -1,0 +1,239 @@
+schema_version: 1
+updated_at: 2026-09-16
+
+programs:
+  - id: university-of-macau-cs-phd
+    university: University of Macau
+    program: PhD in Computer Science
+    country_region: Macau SAR
+    action_state: HOLD
+    decision_note: "Application already submitted; manage under applications.yaml."
+    verification:
+      last_verified: null
+      source_urls: []
+    hard_gates:
+      gre_required: unknown
+      english_retest_required: unknown
+      funded: unknown
+      academic_floor_pass: true
+      region_pass: true
+    friction:
+      supervisor_first: unknown
+      interview_burden: unknown
+      exam_burden: unknown
+      outreach_burden: recommended
+      proposal_burden: unknown
+      reference_count: unknown
+      application_fee: unknown
+      video_allowed: unknown
+    utility:
+      funding: unknown
+      research_fit: good
+      coding_systems_fit: good
+      graduation_burden: unknown
+      cost_coverage: unknown
+    lifestyle:
+      lgbt_trans: {level: unknown, notes: "", last_verified: null}
+      acg: {level: unknown, notes: ""}
+    narrative_route: [codex-boss, ds-hns, quant-ultra]
+
+  - id: concordia-cs-phd
+    university: Concordia University
+    program: PhD in Computer Science / related supervisor track
+    country_region: Canada
+    action_state: APPLY
+    decision_note: "Active supervisor/outreach case with prior interview history; funding and formal conditions still need confirmation."
+    verification:
+      last_verified: null
+      source_urls: []
+    hard_gates:
+      gre_required: unknown
+      english_retest_required: unknown
+      funded: unknown
+      academic_floor_pass: true
+      region_pass: true
+    friction:
+      supervisor_first: true
+      interview_burden: normal
+      exam_burden: unknown
+      outreach_burden: required
+      proposal_burden: unknown
+      reference_count: unknown
+      application_fee: unknown
+      video_allowed: unknown
+    utility:
+      funding: unknown
+      research_fit: good
+      coding_systems_fit: excellent
+      graduation_burden: unknown
+      cost_coverage: unknown
+    lifestyle:
+      lgbt_trans: {level: unknown, notes: "", last_verified: null}
+      acg: {level: unknown, notes: ""}
+    narrative_route: [codex-boss, ds-hns, quant-ultra]
+
+  - id: buffalo-cse-phd
+    university: University at Buffalo
+    program: PhD in Computer Science and Engineering
+    country_region: United States
+    action_state: REJECT
+    rejection_reason: ENGLISH_RETEST_REQUIRED
+    decision_note: "Closed by user after admissions confirmed a new English-test score is required."
+    verification:
+      last_verified: 2026-09-12
+      source_urls: []
+    hard_gates:
+      gre_required: unknown
+      english_retest_required: true
+      funded: unknown
+      academic_floor_pass: true
+      region_pass: true
+    friction:
+      supervisor_first: unknown
+      interview_burden: unknown
+      exam_burden: unknown
+      outreach_burden: unknown
+      proposal_burden: unknown
+      reference_count: unknown
+      application_fee: unknown
+      video_allowed: unknown
+    utility:
+      funding: unknown
+      research_fit: good
+      coding_systems_fit: good
+      graduation_burden: unknown
+      cost_coverage: unknown
+    lifestyle:
+      lgbt_trans: {level: unknown, notes: "", last_verified: null}
+      acg: {level: unknown, notes: ""}
+    narrative_route: [codex-boss, ds-hns, quant-ultra]
+
+  - id: hkust-gz-fintech-phd
+    university: HKUST (Guangzhou)
+    program: PhD in Financial Technology
+    country_region: Mainland China
+    action_state: WATCH
+    decision_note: "Legacy high-interest target; current rules must be refreshed before promotion."
+    verification: {last_verified: null, source_urls: []}
+    hard_gates: {gre_required: unknown, english_retest_required: unknown, funded: unknown, academic_floor_pass: true, region_pass: true}
+    friction: {supervisor_first: unknown, interview_burden: unknown, exam_burden: unknown, outreach_burden: unknown, proposal_burden: unknown, reference_count: unknown, application_fee: unknown, video_allowed: unknown}
+    utility: {funding: unknown, research_fit: good, coding_systems_fit: good, graduation_burden: unknown, cost_coverage: unknown}
+    lifestyle: {lgbt_trans: {level: unknown, notes: "", last_verified: null}, acg: {level: unknown, notes: ""}}
+    narrative_route: [quant-ultra, codex-boss]
+
+  - id: drexel-cs-phd
+    university: Drexel University
+    program: PhD in Computer Science
+    country_region: United States
+    action_state: WATCH
+    decision_note: "Legacy candidate; refresh English, funding, interview and current-cycle requirements."
+    verification: {last_verified: null, source_urls: []}
+    hard_gates: {gre_required: unknown, english_retest_required: unknown, funded: unknown, academic_floor_pass: true, region_pass: true}
+    friction: {supervisor_first: unknown, interview_burden: unknown, exam_burden: unknown, outreach_burden: unknown, proposal_burden: unknown, reference_count: unknown, application_fee: unknown, video_allowed: unknown}
+    utility: {funding: unknown, research_fit: good, coding_systems_fit: good, graduation_burden: unknown, cost_coverage: unknown}
+    lifestyle: {lgbt_trans: {level: unknown, notes: "", last_verified: null}, acg: {level: unknown, notes: ""}}
+    narrative_route: [codex-boss, ds-hns]
+
+  - id: stevens-cs-phd
+    university: Stevens Institute of Technology
+    program: PhD in Computer Science
+    country_region: United States
+    action_state: WATCH
+    decision_note: "Legacy candidate; refresh current-cycle requirements and funding."
+    verification: {last_verified: null, source_urls: []}
+    hard_gates: {gre_required: unknown, english_retest_required: unknown, funded: unknown, academic_floor_pass: true, region_pass: true}
+    friction: {supervisor_first: unknown, interview_burden: unknown, exam_burden: unknown, outreach_burden: unknown, proposal_burden: unknown, reference_count: unknown, application_fee: unknown, video_allowed: unknown}
+    utility: {funding: unknown, research_fit: good, coding_systems_fit: good, graduation_burden: unknown, cost_coverage: unknown}
+    lifestyle: {lgbt_trans: {level: unknown, notes: "", last_verified: null}, acg: {level: unknown, notes: ""}}
+    narrative_route: [codex-boss, ds-hns]
+
+  - id: polyu-dsai-phd
+    university: Hong Kong Polytechnic University
+    program: PhD in Data Science and Artificial Intelligence / Computing
+    country_region: Hong Kong SAR
+    action_state: WATCH
+    decision_note: "Legacy candidate; current intake timing and friction require refresh."
+    verification: {last_verified: null, source_urls: []}
+    hard_gates: {gre_required: unknown, english_retest_required: unknown, funded: unknown, academic_floor_pass: true, region_pass: true}
+    friction: {supervisor_first: unknown, interview_burden: unknown, exam_burden: unknown, outreach_burden: unknown, proposal_burden: unknown, reference_count: unknown, application_fee: unknown, video_allowed: unknown}
+    utility: {funding: unknown, research_fit: good, coding_systems_fit: good, graduation_burden: unknown, cost_coverage: unknown}
+    lifestyle: {lgbt_trans: {level: unknown, notes: "", last_verified: null}, acg: {level: unknown, notes: ""}}
+    narrative_route: [codex-boss, quant-ultra]
+
+  - id: cityuhk-ds-phd
+    university: City University of Hong Kong
+    program: PhD in Data Science
+    country_region: Hong Kong SAR
+    action_state: WATCH
+    decision_note: "Legacy candidate; current rules and funding must be refreshed."
+    verification: {last_verified: null, source_urls: []}
+    hard_gates: {gre_required: unknown, english_retest_required: unknown, funded: unknown, academic_floor_pass: true, region_pass: true}
+    friction: {supervisor_first: unknown, interview_burden: unknown, exam_burden: unknown, outreach_burden: unknown, proposal_burden: unknown, reference_count: unknown, application_fee: unknown, video_allowed: unknown}
+    utility: {funding: unknown, research_fit: good, coding_systems_fit: good, graduation_burden: unknown, cost_coverage: unknown}
+    lifestyle: {lgbt_trans: {level: unknown, notes: "", last_verified: null}, acg: {level: unknown, notes: ""}}
+    narrative_route: [codex-boss, quant-ultra]
+
+  - id: stony-brook-cs-phd
+    university: Stony Brook University
+    program: PhD in Computer Science
+    country_region: United States
+    action_state: WATCH
+    decision_note: "Legacy candidate; refresh current-cycle GRE/English/funding details before promotion."
+    verification: {last_verified: null, source_urls: []}
+    hard_gates: {gre_required: unknown, english_retest_required: unknown, funded: unknown, academic_floor_pass: true, region_pass: true}
+    friction: {supervisor_first: unknown, interview_burden: unknown, exam_burden: unknown, outreach_burden: unknown, proposal_burden: unknown, reference_count: unknown, application_fee: unknown, video_allowed: unknown}
+    utility: {funding: unknown, research_fit: good, coding_systems_fit: excellent, graduation_burden: unknown, cost_coverage: unknown}
+    lifestyle: {lgbt_trans: {level: unknown, notes: "", last_verified: null}, acg: {level: unknown, notes: ""}}
+    narrative_route: [codex-boss, ds-hns]
+
+  - id: cuhk-cse-phd
+    university: Chinese University of Hong Kong
+    program: MPhil-PhD in Computer Science and Engineering
+    country_region: Hong Kong SAR
+    action_state: BACKUP
+    decision_note: "Research fit may be strong, but legacy process indicates higher exam/interview/supervisor friction; refresh before investing."
+    verification: {last_verified: null, source_urls: []}
+    hard_gates: {gre_required: unknown, english_retest_required: unknown, funded: unknown, academic_floor_pass: true, region_pass: true}
+    friction: {supervisor_first: unknown, interview_burden: heavy, exam_burden: technical, outreach_burden: required, proposal_burden: unknown, reference_count: unknown, application_fee: unknown, video_allowed: unknown}
+    utility: {funding: unknown, research_fit: good, coding_systems_fit: good, graduation_burden: unknown, cost_coverage: unknown}
+    lifestyle: {lgbt_trans: {level: unknown, notes: "", last_verified: null}, acg: {level: unknown, notes: ""}}
+    narrative_route: [codex-boss, ds-hns, quant-ultra]
+
+  - id: umass-amherst-cs-phd
+    university: UMass Amherst
+    program: PhD in Computer Science
+    country_region: United States
+    action_state: WATCH
+    decision_note: "High-fit legacy reach; refresh current-cycle requirements and funding before spending application effort."
+    verification: {last_verified: null, source_urls: []}
+    hard_gates: {gre_required: unknown, english_retest_required: unknown, funded: unknown, academic_floor_pass: true, region_pass: true}
+    friction: {supervisor_first: unknown, interview_burden: unknown, exam_burden: unknown, outreach_burden: unknown, proposal_burden: unknown, reference_count: unknown, application_fee: unknown, video_allowed: unknown}
+    utility: {funding: unknown, research_fit: excellent, coding_systems_fit: excellent, graduation_burden: unknown, cost_coverage: unknown}
+    lifestyle: {lgbt_trans: {level: unknown, notes: "", last_verified: null}, acg: {level: unknown, notes: ""}}
+    narrative_route: [codex-boss, ds-hns]
+
+  - id: hkust-cse-phd
+    university: Hong Kong University of Science and Technology
+    program: PhD in Computer Science and Engineering
+    country_region: Hong Kong SAR
+    action_state: WATCH
+    decision_note: "Legacy reach; refresh regular-round requirements and funding."
+    verification: {last_verified: null, source_urls: []}
+    hard_gates: {gre_required: unknown, english_retest_required: unknown, funded: unknown, academic_floor_pass: true, region_pass: true}
+    friction: {supervisor_first: unknown, interview_burden: unknown, exam_burden: unknown, outreach_burden: unknown, proposal_burden: unknown, reference_count: unknown, application_fee: unknown, video_allowed: unknown}
+    utility: {funding: unknown, research_fit: excellent, coding_systems_fit: excellent, graduation_burden: unknown, cost_coverage: unknown}
+    lifestyle: {lgbt_trans: {level: unknown, notes: "", last_verified: null}, acg: {level: unknown, notes: ""}}
+    narrative_route: [codex-boss, ds-hns]
+
+  - id: ucr-cs-phd
+    university: University of California, Riverside
+    program: PhD in Computer Science
+    country_region: United States
+    action_state: BACKUP
+    decision_note: "Conditional legacy backup because prior academic-profile expectations may create poor ROI; refresh before application fee."
+    verification: {last_verified: null, source_urls: []}
+    hard_gates: {gre_required: unknown, english_retest_required: unknown, funded: unknown, academic_floor_pass: true, region_pass: true}
+    friction: {supervisor_first: unknown, interview_burden: unknown, exam_burden: unknown, outreach_burden: recommended, proposal_burden: unknown, reference_count: unknown, application_fee: unknown, video_allowed: unknown}
+    utility: {funding: unknown, research_fit: good, coding_systems_fit: good, graduation_burden: unknown, cost_coverage: unknown}
+    lifestyle: {lgbt_trans: {level: unknown, notes: "", last_verified: null}, acg: {level: unknown, notes: ""}}
+    narrative_route: [quant-ultra, codex-boss]
