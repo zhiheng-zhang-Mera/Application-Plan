@@ -46,6 +46,16 @@
 - [Concordia](applications/concordia/STATUS.md)
 - [University at Buffalo](applications/university-at-buffalo/STATUS.md)
 
+## 推荐人
+
+→ [Referee Control Center](materials/referees/README.md)
+
+当前核心推荐人：**Sinott / Ting Dang**。
+
+- Sinott：上次由老师自行撰写，默认继续走“简短提醒 + CV/更新 + 系统请求”，不主动塞推荐信草稿。
+- Ting Dang：上次由用户提供 draft 供 review；旧稿只作为历史基线，不视为最终提交版本。
+- **Boss / DS-Hns 对两位推荐人都属于此前不知道的新项目**；下一次如果提及，只能作为上次联系后新增的独立项目首次介绍。
+
 ## 研究项目怎么用
 
 | 导师方向 | 主叙事 |
