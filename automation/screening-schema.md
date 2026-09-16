@@ -2,7 +2,7 @@
 
 ## Decision flow
 
-`Hard Gate → Friction → Utility → Action State`
+`Hard Gate → Research Style Fit → Friction → Utility → Action State`
 
 ## Hard Gate
 
@@ -25,13 +25,41 @@ Rules:
 - Distinguish cumulative, last-60-credit, upper-level, final-two-year, master's, and honours-classification requirements.
 - Preferred/competitive averages are risk signals; only explicit eligibility minima are hard gates.
 
+## Research Style Fit
+
+The user is implementation/engineering-oriented and is not a good fit for pure-theory PhD work. Evaluate this before generic research-fit scoring.
+
+Capture for each supervisor or vacancy:
+
+- `research_style`: `systems | empirical | applied_ml | mixed | theory_heavy | pure_theory | unknown`
+- `theory_burden`: `low | medium | high | unknown`
+- `implementation_centrality`: `high | medium | low | unknown`
+- `experiment_centrality`: `high | medium | low | unknown`
+- `theory_mismatch`: `true | false | unknown`
+- `style_evidence`: short note based on recent papers, advertised projects, lab/student work, or vacancy description
+
+Default preference:
+
+`systems / empirical / applied_ml > mixed > theory_heavy > pure_theory`
+
+Positive evidence includes software/system building, agent implementation, benchmarks, experiments, testing, program repair, developer tooling, infrastructure, empirical SE, security engineering, applied trustworthy AI, and performance/reliability evaluation.
+
+Negative evidence includes theorem/proof-centric work, complexity or algorithms theory, logic-heavy PL theory, proof-centric verification, mathematical optimization theory, cryptographic theory, information theory, or learning theory when these are the central research outputs.
+
+Rules:
+
+- Do not reject a mixed supervisor merely because their profile mentions formal methods, verification, optimization, or PL. Check whether there is a concrete systems/empirical track.
+- `pure_theory` or `theory_mismatch=true` normally means `BACKUP` or `REJECT`, unless an explicit applied/systems project is available.
+- If research style is unclear, keep `theory_mismatch=unknown`; do not promote solely on topic-keyword similarity.
+- Recent student projects and papers matter more than broad faculty-profile keywords.
+
 ## Friction
 
 Track supervisor-first, interview, exam, proposal, outreach, references, fee, and recorded-video availability.
 
 ## Utility
 
-Track funding, cost coverage, research fit, coding/systems fit, graduation burden, and location practicality.
+Track funding, cost coverage, research fit, coding/systems fit, **research-style fit / theory burden**, graduation burden, and location practicality.
 
 ## Low-weight lifestyle
 
@@ -48,3 +76,5 @@ Application states: `not_started | researching | outreach | preparing | submitte
 If a mutable fact is stale or inherited from archive, downgrade it to `unknown` until refreshed. Never infer “still true” from silence.
 
 Academic score thresholds are mutable enough to require a current-cycle verification whenever a program is promoted into `ACTIVE`.
+
+Research-style evidence should also be refreshed when a supervisor is promoted for outreach; use recent papers/projects rather than relying indefinitely on an old faculty bio.
