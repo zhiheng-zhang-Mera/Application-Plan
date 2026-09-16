@@ -1,0 +1,218 @@
+schema_version: 1
+updated_at: 2026-09-16
+purpose: "Round-2 global expansion. Staging data for candidates not yet merged into programs.yaml; score gate is checked before friction/fit."
+
+candidates:
+  - id: ubc-cs-phd
+    university: University of British Columbia
+    program: PhD in Computer Science
+    country_region: Canada
+    action_state: WATCH
+    decision_note: "Very strong research/funding target, but PhD academic eligibility must be checked against the completed master's/final WAM before promotion. UBC-wide PhD funding floor is CAD 40,000/year for years 1-4 from Sep 2026."
+    verification:
+      last_verified: 2026-09-16
+      source_urls:
+        - https://www.cs.ubc.ca/students/grad/admissions
+        - https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science
+        - https://www.cs.ubc.ca/grads/awards-support-current-grad-students/financial-assistantship/stipends-support-details-2026-2027
+    academic_gate:
+      requirement: "Graduate-school baseline usually B+ / 76%; program-specific review may be higher."
+      user_status: "PENDING_FINAL_MELBOURNE_WAM_AND_PROGRAM_EQUIVALENCY"
+    hard_gates: {gre_required: unknown, english_retest_required: false, funded: true, region_pass: true}
+    friction: {supervisor_first: false, interview_burden: unknown, exam_burden: none, outreach_burden: recommended}
+    utility: {funding: excellent, research_fit: excellent, coding_systems_fit: excellent, cost_coverage: good}
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+
+  - id: ualberta-computing-phd
+    university: University of Alberta
+    program: PhD in Computing Science
+    country_region: Canada
+    action_state: WATCH
+    decision_note: "Excellent new faculty match for codeLLMs, AI-assisted programming and multi-agent systems. University-wide PhD minimum guaranteed funding is CAD 100k over four years, with at least CAD 25k in year 1. Admission GPA/equivalency and research-based-master expectations need program-level confirmation."
+    verification:
+      last_verified: 2026-09-16
+      source_urls:
+        - https://www.ualberta.ca/en/graduate-studies/fees-funding/index.html
+        - https://apps.ualberta.ca/directory/person/zy25
+        - https://apps.ualberta.ca/directory/person/qiaochu8
+        - https://apps.ualberta.ca/directory/person/mtaylor3
+    academic_gate:
+      requirement: "University admission GPA typically >=3.0/4.0 on recent graded coursework; Computing Science may apply additional screening."
+      user_status: "NEEDS_OFFICIAL_EQUIVALENCY_CHECK"
+    hard_gates: {gre_required: unknown, english_retest_required: unknown, funded: true, region_pass: true}
+    friction: {supervisor_first: recommended, interview_burden: unknown, exam_burden: unknown, outreach_burden: recommended}
+    utility: {funding: good, research_fit: excellent, coding_systems_fit: excellent, cost_coverage: good}
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+
+  - id: uvic-cs-phd
+    university: University of Victoria
+    program: PhD in Computer Science
+    country_region: Canada
+    action_state: WATCH
+    decision_note: "Exceptional supervisor fit in agentic AI / autonomic systems / GenAI software engineering, but GRE is highly recommended for international applicants and funding is offer-dependent rather than a clean department-wide guarantee."
+    verification:
+      last_verified: 2026-09-16
+      source_urls:
+        - https://www.uvic.ca/graduate/programs/graduate-programs/credential-pages/computer-science-msc/computer-science-phd.php
+        - https://www.uvic.ca/ecs/computerscience/programs/graduate-admission-faqs/index.php
+        - https://www.uvic.ca/ecs/computerscience/programs/phd/index.php
+    academic_gate:
+      requirement: "Faculty/program eligibility must be checked using UVic equivalency; no assumption from raw Australian WAM."
+      user_status: "NEEDS_EQUIVALENCY_CHECK"
+    hard_gates: {gre_required: false, gre_recommended: true, english_retest_required: false, funded: unknown, region_pass: true}
+    friction: {supervisor_first: false, interview_burden: normal, exam_burden: none, outreach_burden: recommended}
+    utility: {funding: mixed, research_fit: excellent, coding_systems_fit: excellent, cost_coverage: mixed}
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+
+  - id: manitoba-cs-phd
+    university: University of Manitoba
+    program: PhD in Computer Science
+    country_region: Canada
+    action_state: WATCH
+    decision_note: "Lower admissions friction than many Canadian peers and a strong AI-for-SE faculty match. Funding exists but is competitive/not automatically guaranteed at a sufficiently high level, so do not promote until supervisor funding is confirmed."
+    verification:
+      last_verified: 2026-09-16
+      source_urls:
+        - https://umanitoba.ca/graduate-studies/admissions/programs-of-study/computer-science-phd
+        - https://umanitoba.ca/graduate-studies/admissions/requirements
+        - https://umanitoba.ca/science/directory/computer-science/shaowei-wang
+    academic_gate:
+      requirement: "Master's degree + cumulative GPA >=3.0/equivalent in the last two years of study."
+      user_status: "LIKELY_ELIGIBLE_BUT_EQUIVALENCY_NOT_ASSUMED"
+    hard_gates: {gre_required: unknown, english_retest_required: false, funded: unknown, region_pass: true}
+    friction: {supervisor_first: unknown, interview_burden: unknown, exam_burden: unknown, outreach_burden: recommended}
+    utility: {funding: mixed, research_fit: excellent, coding_systems_fit: excellent, cost_coverage: good}
+    narrative_route: [ds-hns, codex-boss]
+
+  - id: nyu-cs-phd
+    university: New York University
+    program: PhD in Computer Science (Courant)
+    country_region: United States
+    action_state: APPLY
+    decision_note: "No explicit minimum grade cutoff; GRE not required; all full-time CS PhD students in good standing receive stipend + tuition/fees + health insurance. Very competitive, but it passes the lazy hard-gate logic better than many US programs."
+    verification:
+      last_verified: 2026-09-16
+      source_urls:
+        - https://cs.nyu.edu/dynamic/phd/admissions/
+        - https://cs.nyu.edu/home/phd/admission
+    academic_gate:
+      requirement: "No explicit GPA minimum; outstanding grades expected and holistic research evaluation used."
+      user_status: "NO_NUMERIC_HARD_CUTOFF_FOUND"
+    hard_gates: {gre_required: false, english_retest_required: false, funded: true, region_pass: true}
+    friction: {supervisor_first: false, interview_burden: unknown, exam_burden: none, outreach_burden: optional}
+    utility: {funding: excellent, research_fit: good, coding_systems_fit: excellent, cost_coverage: mixed}
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+
+  - id: nus-cs-phd
+    university: National University of Singapore
+    program: PhD in Computer Science
+    country_region: Singapore
+    action_state: BACKUP
+    decision_note: "Excellent direct research fit in agentic software engineering and trustworthy AI, GRE is not required, and English-medium degrees avoid the language retest. However, research-scholarship applicants may face overseas interviews and the programme has a mandatory qualifying examination, which conflicts with the low-friction preference."
+    verification:
+      last_verified: 2026-09-16
+      source_urls:
+        - https://www.comp.nus.edu.sg/programmes/pg/phdcs/admissions/
+        - https://www.comp.nus.edu.sg/programmes/pg/phdcs/
+    academic_gate:
+      requirement: "Research scholarship normally requires at least 2nd Class Upper Honours or equivalent in a relevant discipline."
+      user_status: "NEEDS_UBC_DEGREE_EQUIVALENCY_CHECK"
+    hard_gates: {gre_required: false, english_retest_required: false, funded: true, region_pass: true}
+    friction: {supervisor_first: false, interview_burden: normal, exam_burden: technical, outreach_burden: optional, qualifying_exam: mandatory}
+    utility: {funding: good, research_fit: excellent, coding_systems_fit: excellent, cost_coverage: good}
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+
+  - id: ntu-ccds-phd
+    university: Nanyang Technological University
+    program: PhD in Computing and Data Science
+    country_region: Singapore
+    action_state: WATCH
+    decision_note: "Outstanding 2026 faculty fit for AI agents and AI-assisted development, but the formal minimum is a strong bachelor's degree with Honours (Distinction) or equivalent; GRE is not mandatory but explicitly strengthens admission. Degree-equivalency check is required before investing application effort."
+    verification:
+      last_verified: 2026-09-16
+      source_urls:
+        - https://www.ntu.edu.sg/engineering/coe-programmes/graduate/coe-programme-detail/ccds-phd-computing-datascience
+        - https://www.ntu.edu.sg/admissions/graduate/radmissionguide
+    academic_gate:
+      requirement: "Strong bachelor's degree with minimum Honours (Distinction) or equivalent."
+      user_status: "EQUIVALENCY_UNCERTAIN_DO_NOT_PROMOTE"
+    hard_gates: {gre_required: false, english_retest_required: false, funded: unknown, region_pass: true}
+    friction: {supervisor_first: false, interview_burden: unknown, exam_burden: unknown, outreach_burden: optional, proposal_burden: normal}
+    utility: {funding: unknown, research_fit: excellent, coding_systems_fit: excellent, cost_coverage: unknown}
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+
+  - id: mbzuai-cs-phd
+    university: Mohamed bin Zayed University of Artificial Intelligence
+    program: PhD in Computer Science
+    country_region: United Arab Emirates
+    action_state: BACKUP
+    decision_note: "Strong AI ecosystem and scholarship model, but the application requires a screening exam. This is retained only as a high-friction backup because the user explicitly prefers no entrance tests."
+    verification:
+      last_verified: 2026-09-16
+      source_urls:
+        - https://mbzuai.ac.ae/academics/phd-programs/doctoral-computer-science
+        - https://mbzuai.ac.ae/admissions/graduate-phd-admissions
+    academic_gate:
+      requirement: "Program-dependent minimum CGPA 3.0 or 3.5/4.0."
+      user_status: "PROGRAM_SPECIFIC_THRESHOLD_NEEDS_CHECK"
+    hard_gates: {gre_required: false, english_retest_required: unknown, funded: true, region_pass: true}
+    friction: {supervisor_first: false, interview_burden: unknown, exam_burden: technical, outreach_burden: none, screening_exam: mandatory}
+    utility: {funding: excellent, research_fit: good, coding_systems_fit: good, cost_coverage: excellent}
+    narrative_route: [codex-boss, privacy-lens]
+
+  - id: tudelft-waltz-phd-2026
+    university: Delft University of Technology
+    program: "PhD Position: Decentralized and Trustworthy AI Pipelines (WALTZ)"
+    country_region: Netherlands
+    action_state: APPLY_NOW
+    decision_note: "Vacancy-style salaried PhD with unusually direct overlap across LLM systems, trustworthy AI, distributed/fault-tolerant pipelines and privacy. Deadline 2026-09-24. No GRE/standardized entrance test requirement in the vacancy; MSc completed or close to completion is accepted."
+    verification:
+      last_verified: 2026-09-16
+      source_urls:
+        - https://www.academictransfer.com/en/jobs/363401/phd-position-decentralized-and-trustworthy-ai-pipelines-eu-project-waltz
+    academic_gate:
+      requirement: "Relevant MSc completed or close to completion; no numeric GPA cutoff stated in the vacancy."
+      user_status: "PASS_ON_STATED_NUMERIC_GATE"
+    hard_gates: {gre_required: false, english_retest_required: false, funded: true, region_pass: true}
+    friction: {supervisor_first: false, interview_burden: normal, exam_burden: none, outreach_burden: none}
+    utility: {funding: excellent, research_fit: excellent, coding_systems_fit: excellent, cost_coverage: good}
+    salary: "EUR 3,204-4,051/month"
+    supervisor: "Jeremie Decouchant"
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+
+  - id: ntnu-trustworthy-agentic-ai-2026
+    university: Norwegian University of Science and Technology
+    program: "PhD Candidate in Trustworthy Agentic Artificial Intelligence"
+    country_region: Norway
+    action_state: WATCH
+    decision_note: "Extremely direct Boss/DS-Hns research fit and vacancy deadline 2026-10-31. However, the vacancy normally expects a B-or-better academic background on the NTNU scale; do not promote until Melbourne/UBC equivalency and English-test exemption are checked."
+    verification:
+      last_verified: 2026-09-16
+      source_urls:
+        - https://www.jobbnorge.no/ledige-stillinger/stilling/308144/phd-candidate-in-trustworthy-agentic-artificial-intelligence
+    academic_gate:
+      requirement: "Normally average grade B or better on NTNU scale, or equally strong academic foundation under another grading system."
+      user_status: "EQUIVALENCY_CHECK_REQUIRED"
+    hard_gates: {gre_required: false, english_retest_required: unknown, funded: true, region_pass: true}
+    friction: {supervisor_first: false, interview_burden: normal, exam_burden: none, outreach_burden: none, reference_count: 3}
+    utility: {funding: excellent, research_fit: excellent, coding_systems_fit: excellent, cost_coverage: good}
+    supervisor: "Agus Hasan"
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+
+  - id: ntnu-multi-agent-learning-2026
+    university: Norwegian University of Science and Technology
+    program: "PhD Candidate in Multi-Agent Communication to Enhance Human Learning"
+    country_region: Norway
+    action_state: WATCH
+    decision_note: "Direct multi-agent/LLM communication research within a Software Engineering group; deadline 2026-12-01. Academic equivalency and English documentation need a dedicated pass before promotion."
+    verification:
+      last_verified: 2026-09-16
+      source_urls:
+        - https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/288797
+    academic_gate:
+      requirement: "Vacancy-specific doctoral admission eligibility; numeric equivalency requires checking full advertisement/university regulations."
+      user_status: "NEEDS_EQUIVALENCY_CHECK"
+    hard_gates: {gre_required: false, english_retest_required: unknown, funded: true, region_pass: true}
+    friction: {supervisor_first: false, interview_burden: normal, exam_burden: none, outreach_burden: none}
+    utility: {funding: excellent, research_fit: excellent, coding_systems_fit: good, cost_coverage: good}
+    narrative_route: [codex-boss]
