@@ -29,3 +29,225 @@ supervisors:
     fit_summary: "Application is already submitted; future outreach should target the strongest current fit rather than repeat old contacts."
     narrative_route: [codex-boss, ds-hns, quant-ultra]
     next_action: "Refresh faculty shortlist only when follow-up becomes useful."
+
+  - id: waterloo-yuntian-deng
+    university: University of Waterloo
+    name: Yuntian Deng
+    program_id: waterloo-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Excellent direct fit: LLM communication, collaboration, multi-agent systems and division of labour map closely to Codex Boss."
+    narrative_route: [codex-boss]
+    next_action: "High-priority targeted outreach after reading 1-2 recent papers; emphasize multi-AI orchestration and adjudication/evaluation."
+    source_url: https://uwaterloo.ca/artificial-intelligence-group/contacts/yuntian-deng
+
+  - id: waterloo-pengyu-nie
+    university: University of Waterloo
+    name: Pengyu Nie
+    program_id: waterloo-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Excellent DS-Hns fit: software developer productivity, maintenance/testing and integration of software engineering with ML/NLP."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "Targeted outreach using long-horizon coding, automated testing and fault-recovery narrative."
+    source_url: https://uwaterloo.ca/math-innovation/contacts/pengyu-nie
+
+  - id: waterloo-xinyue-shen
+    university: University of Waterloo
+    name: Xinyue Shen
+    program_id: waterloo-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Excellent trustworthy-agent fit: LLM/agent security and safety plus responsible AI."
+    narrative_route: [privacy-lens, codex-boss, ds-hns]
+    next_action: "Targeted outreach around safety, permission surfaces, autonomous coding-agent reliability and auditability."
+    source_url: https://cs.uwaterloo.ca/contacts/xinyue-shen
+
+  - id: queens-filipe-cogo
+    university: Queen's University
+    name: Filipe Cogo
+    program_id: queens-computing-phd
+    contact_state: not_contacted
+    fit_summary: "Strong AI-for-software-engineering / mining-software-repositories match for DS-Hns and Boss."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "Targeted outreach; foreground autonomous software engineering and empirical evaluation."
+
+  - id: queens-yuan-tian
+    university: Queen's University
+    name: Yuan Tian
+    program_id: queens-computing-phd
+    contact_state: not_contacted
+    fit_summary: "Strong software engineering plus applied ML/deep learning fit."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "Targeted outreach around software engineering automation and ML-assisted engineering workflows."
+
+  - id: queens-bram-adams
+    university: Queen's University
+    name: Bram Adams
+    program_id: queens-computing-phd
+    contact_state: not_contacted
+    fit_summary: "Strong software analytics, release engineering and DevOps alignment with long-horizon autonomous coding infrastructure."
+    narrative_route: [ds-hns]
+    next_action: "Use DS-Hns reliability/continuous-delivery/fault-recovery narrative rather than generic LLM pitch."
+
+  - id: dalhousie-tushar-sharma
+    university: Dalhousie University
+    name: Tushar Sharma
+    program_id: dalhousie-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Strong software engineering, code quality/refactoring, repository mining and ML-for-SE fit."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "High-priority because Dalhousie is supervisor-first; send a compact project-specific inquiry."
+
+  - id: dalhousie-masud-rahman
+    university: Dalhousie University
+    name: Masud Rahman
+    program_id: dalhousie-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Strong debugging, code search/review, maintenance and mining-software-repositories fit."
+    narrative_route: [ds-hns]
+    next_action: "Pitch DS-Hns as a long-horizon software-engineering agent with debugging and recovery evaluation."
+
+  - id: dalhousie-nils-wilde
+    university: Dalhousie University
+    name: Nils Wilde
+    program_id: dalhousie-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Autonomous systems, multi-robot coordination and planning offer a secondary agentic-systems route."
+    narrative_route: [codex-boss]
+    next_action: "Lower priority than Sharma/Rahman unless shifting Boss toward planning and multi-agent coordination."
+
+  - id: sfu-linyi-li
+    university: Simon Fraser University
+    name: Linyi Li
+    program_id: sfu-computing-phd
+    contact_state: not_contacted
+    fit_summary: "Excellent overlap across large language models, trustworthy ML/security and software engineering."
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+    next_action: "Top SFU outreach target; combine agent reliability, SE automation and trustworthy-LLM evaluation."
+
+  - id: sfu-keval-vora
+    university: Simon Fraser University
+    name: Keval Vora
+    program_id: sfu-computing-phd
+    contact_state: not_contacted
+    fit_summary: "Excellent systems fit: distributed/data-intensive systems, ML workloads, software engineering and performance."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "Pitch orchestration/runtime reliability rather than generic agent research."
+
+  - id: sfu-hang-ma
+    university: Simon Fraser University
+    name: Hang Ma
+    program_id: sfu-computing-phd
+    contact_state: not_contacted
+    fit_summary: "AI, robotics and multi-agent systems fit the coordination/planning side of Boss."
+    narrative_route: [codex-boss]
+    next_action: "Secondary SFU target for multi-agent planning/coordination narrative."
+
+  - id: polyu-jing-li
+    university: Hong Kong Polytechnic University
+    name: Jing Li
+    program_id: polyu-dsai-phd
+    contact_state: not_contacted
+    fit_summary: "NLP/ML and agentic-AI programme involvement make this a strong Boss-facing fit."
+    narrative_route: [codex-boss]
+    next_action: "Urgent if targeting Jan 2027 Computing deadline; otherwise prepare Sep 2027 outreach."
+
+  - id: polyu-yu-pei
+    university: Hong Kong Polytechnic University
+    name: Yu Pei
+    program_id: polyu-dsai-phd
+    contact_state: not_contacted
+    fit_summary: "Very strong DS-Hns fit through software testing, program repair and automatic fault repair."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "Top PolyU target; pitch fault recovery, long-horizon coding and acceptance-bench evaluation."
+
+  - id: polyu-hongxia-yang
+    university: Hong Kong Polytechnic University
+    name: Hongxia Yang
+    program_id: polyu-dsai-phd
+    contact_state: not_contacted
+    fit_summary: "Strong generative-AI and foundation-model background relevant to Boss model orchestration."
+    narrative_route: [codex-boss]
+    next_action: "Use Boss research-pipeline/orchestration narrative."
+
+  - id: hkust-junxian-he
+    university: Hong Kong University of Science and Technology
+    name: Junxian He
+    program_id: hkust-cse-phd
+    contact_state: not_contacted
+    fit_summary: "Strong AI plus software-engineering/programming-languages intersection for LLM systems and coding agents."
+    narrative_route: [codex-boss, ds-hns]
+    next_action: "High-priority HKUST target; regular application can proceed even without reply."
+
+  - id: hkust-jiasi-shen
+    university: Hong Kong University of Science and Technology
+    name: Jiasi Shen
+    program_id: hkust-cse-phd
+    contact_state: not_contacted
+    fit_summary: "Software engineering / programming languages fit for automated software construction and analysis."
+    narrative_route: [ds-hns]
+    next_action: "Target with DS-Hns engineering narrative."
+
+  - id: hkust-shuai-wang
+    university: Hong Kong University of Science and Technology
+    name: Shuai Wang
+    program_id: hkust-cse-phd
+    contact_state: not_contacted
+    fit_summary: "Cybersecurity plus software engineering/programming languages offers a good reliable-agent/security route."
+    narrative_route: [privacy-lens, ds-hns, codex-boss]
+    next_action: "Pitch permission/security boundary and autonomous-agent reliability work."
+
+  - id: hku-ka-ho-chow
+    university: University of Hong Kong
+    name: Ka Ho Chow
+    program_id: hku-cds-phd
+    contact_state: not_contacted
+    fit_summary: "Excellent fit across LLMs, trustworthy AI, cybersecurity and systems; current profile explicitly advertises PhD openings."
+    narrative_route: [codex-boss, privacy-lens, ds-hns]
+    next_action: "Top HKU outreach target; send a concise tailored email while Main Round is open."
+
+  - id: hku-zuming-jiang
+    university: University of Hong Kong
+    name: Zuming Jiang
+    program_id: hku-cds-phd
+    contact_state: not_contacted
+    fit_summary: "Strong systems reliability/security/performance fit using testing, formal verification and program analysis."
+    narrative_route: [ds-hns, privacy-lens]
+    next_action: "Pitch DS-Hns fault recovery, verification and long-running autonomous execution."
+
+  - id: hku-heming-cui
+    university: University of Hong Kong
+    name: Heming Cui
+    program_id: hku-cds-phd
+    contact_state: not_contacted
+    fit_summary: "Strong distributed systems and distributed AI training/serving infrastructure fit."
+    narrative_route: [codex-boss, ds-hns]
+    next_action: "Pitch scalable orchestration/runtime architecture rather than generic application-layer agents."
+
+  - id: kaust-marco-canini
+    university: King Abdullah University of Science and Technology
+    name: Marco Canini
+    program_id: kaust-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Excellent distributed/cloud/large-scale systems and ML-systems alignment with Boss/DS-Hns infrastructure."
+    narrative_route: [ds-hns, codex-boss]
+    next_action: "Top KAUST systems target; focus on reliable large-scale orchestration and system operation."
+    source_url: https://cs.kaust.edu.sa/profiles/table
+
+  - id: kaust-di-wang
+    university: King Abdullah University of Science and Technology
+    name: Di Wang
+    program_id: kaust-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Machine learning, data mining, privacy and security provide a strong trustworthy-LLM/agent route."
+    narrative_route: [privacy-lens, codex-boss]
+    next_action: "Target if emphasizing privacy, efficient/trustworthy ML or LLM infrastructure."
+    source_url: https://cs.kaust.edu.sa/profiles/by-profile-group/faculty
+
+  - id: kaust-ali-shoker
+    university: King Abdullah University of Science and Technology
+    name: Ali Shoker
+    program_id: kaust-cs-phd
+    contact_state: not_contacted
+    fit_summary: "Distributed systems, resilience, fault tolerance, cybersecurity and trustworthy AI strongly match DS-Hns reliability goals."
+    narrative_route: [ds-hns, privacy-lens]
+    next_action: "Pitch 24h-style fault-tolerant autonomous execution, restart/recovery and security boundaries."
+    source_url: https://cs.kaust.edu.sa/profiles/table
