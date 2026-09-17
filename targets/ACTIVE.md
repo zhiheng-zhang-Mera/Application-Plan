@@ -4,60 +4,53 @@
 >
 > 排序按：**硬条件已过 → Research Method Fit → 当前导师仍收人 / program compatibility → 当前紧迫度 → 项目叙事匹配**。
 >
-> 高匹配研究形态现在包括：**AI4SE、autonomous software engineering、agentic AI / AI systems、applied AI4Science**。核心要求不是“必须软件工程”，而是研究主要可以靠**系统实现、实验、benchmark、仿真、数据分析、真实任务验证**完成。
+> 高匹配研究形态包括：**AI4SE、autonomous software engineering、agentic AI / AI systems、applied AI4Science**。主要研究必须能靠系统实现、实验、benchmark、仿真、数据分析或真实任务验证完成。
 
 | 学校 / 职位 | 状态 | Research Method Fit | 当前最匹配路线 | 下一步 |
 |---|---|---|---|---|
-| Concordia University | **APPLY / SUPERVISOR-MATCH PRIORITY** | **Excellent — AI4SE / coding agents / empirical SE / autonomous software engineering**；CS/SE PhD 在 supervisor match 前不会发 admission offer，因此当前明确收人的高匹配导师具有最高执行价值 | Codex Boss + DS-Hns | **并行双轨**：Zhijie Wang 继续已有 follow-up；同时扩充已核验仍收人的 Concordia 导师池，首批新联系见 `targets/FIRST-CONTACT-2026-09-17.md` |
-| TU Delft — WALTZ PhD: Decentralized and Trustworthy AI Pipelines | **APPLY_NOW** | **Excellent — AI systems / trustworthy AI / distributed pipelines**；系统实现、fault tolerance、privacy、LLM-based pipeline 都偏工程实验 | Codex Boss + DS-Hns + Privacy Lens | 直接按 vacancy 准备 CV + motivation + project evidence；不需要长周期套磁 |
-| Singapore University of Technology and Design — SUTD PhD / ISTD | **APPLY_NOW — JAN 2027 DEADLINE 2026-09-30** | **Excellent — AI4SE / trustworthy software & AI / agentic AI**；当前 ISTD PhD opportunity 同时有可靠 AI4SE、Code-LLM validation、trustworthy agents、multi-agent collaboration 等多个 implementation/empirical 项目 | DS-Hns + Codex Boss + Privacy Lens | GRE 不要求、英语授课本科可免语言考试；立即并行申请 + 联系 Thanh Le-Cong / Ezekiel Soremekun / Esther Zhao / Wenxuan Zhang；见 `targets/SINGAPORE-2026-09-17.md` |
-| KAUST | **APPLY_NOW / APPLY** | **Excellent — AI systems + applied AI4Science potential**；可走 distributed/ML systems、reliability，也可继续筛 scientific/biomedical AI 的工程型 PI | DS-Hns + Codex Boss；可扩展 drug-simulator / Param-Health | 优先 Fall 2027；导师搜索同时覆盖 systems 和 applied AI4Science，但避免重理论 scientific ML |
-| Hong Kong Polytechnic University | **APPLY_NOW** | **Excellent — AI4SE / applied GenAI**；testing、program repair、coding-agent evaluation 很直接；也可容纳应用型 data/AI 课题 | DS-Hns + Codex Boss | Yu Pei 第一优先；其他导师只有在 implementation/experiment 路线明确且当前 intake 已核验时保留 |
-| HKUST | **APPLY_NOW** | **Excellent — AI4SE / AI systems / applied AI**；software engineering、LLM systems、security 都有工程入口，后续可扩 applied AI4Science PI 搜索 | Codex Boss + DS-Hns + Privacy Lens | regular application 可直接走；导师筛选新增 AI4Science 但必须是实验/系统型并刷新当前招生状态 |
-| University of Hong Kong | **APPLY_NOW / VERIFY CLASSIFICATION** | **Excellent — systems / trustworthy AI / applied AI**；现有 systems/LLM/security 路线合适，也允许后续拓展 biomedical/scientific AI | Codex Boss + DS-Hns；可扩 drug-simulator / Param-Health | 付款前确认 degree classification；只保留 implementation / experiment-central 课题，并在套磁前刷新当前招生状态 |
-| Simon Fraser University | **APPLY / VERIFY MASTER ROUTE** | **Excellent — AI4SE / LLM / systems / agent evaluation**；方法学明显偏 empirical/system-building | DS-Hns + Codex Boss + Privacy Lens | 完成 Master's-entry academic equivalency 核验后推进；导师进入首发队列前需重新确认当前 capacity |
+| Concordia University | **APPLY / SUPERVISOR-MATCH PRIORITY** | Excellent — AI4SE / coding agents / empirical SE | Codex Boss + DS-Hns | Zhijie Wang follow-up 与 5 名当前仍收人的新导师并行；见 `targets/FIRST-CONTACT-2026-09-17.md` |
+| TU Delft — WALTZ PhD | **APPLY_NOW** | Excellent — trustworthy/distributed AI pipelines | Boss + DS-Hns + Privacy Lens | 直接按 vacancy 申请 |
+| SUTD PhD / ISTD — Jan 2027 | **APPLY_NOW — 2026-09-30** | Excellent — AI4SE / trustworthy software & AI / agents | DS-Hns + Boss + Privacy Lens | 正式申请与 Thanh / Ezekiel / Esther / Wenxuan 套磁并行；见 `targets/SINGAPORE-2026-09-17.md` |
+| KAUST | **APPLY_NOW / APPLY** | Excellent — AI systems / applied AI4Science | DS-Hns + Boss | 继续筛 systems / applied AI4Science 工程型 PI |
+| Hong Kong Polytechnic University — Computing PhD | **APPLY** | Excellent — testing / program repair / AI4SE | DS-Hns + Boss | **Yu Pei** 当前明确招 PhD，首发；Hongxia Yang 因 coding test + presentation 留 BACKUP |
+| City University of Hong Kong — CS PhD | **APPLY** | Excellent — security/reliability / systems / agentic AI | DS-Hns + Boss + Privacy Lens | **Heqing Huang → Nan Guan** 首发；Zhisong Zhang 刷新 exact 2027 capacity 后再发 |
+| Chinese University of Hong Kong — CSE Regular Admission | **APPLY / MEDIUM FRICTION** | Good–Excellent — applied AI / AI4Science / systems | Boss; scientific-agent route | **Yu Li** 当前明确招 PhD；旧“written exam”记录来自 Early Admission，Regular Admission 当前只写英文 oral interview |
+| HKUST — CSE PhD | **APPLY** | Excellent — AI4SE / AI systems / security | Boss + DS-Hns + Privacy Lens | 学校申请保留；旧 Junxian He / Jiasi Shen / Shuai Wang 记录必须先刷新个人 capacity，不能直接自动套磁 |
+| Simon Fraser University | **APPLY / VERIFY MASTER ROUTE** | Excellent — AI4SE / LLM / systems | DS-Hns + Boss | 完成 Master's-entry academic equivalency 核验后推进 |
 
 ## Concordia 当前执行策略（2026-09-17）
 
-- **不再采用“已有 Zhijie 线，所以不扩池”的旧规则。** Zhijie Wang 仍是已有有效接触，单独保持 follow-up，不占新的 cold-outreach 名额。
-- 新增硬执行门：只有存在当前 `Seeking students / Accepting inquiries / looking for PhD students / PhD funding available` 等明确证据的导师，才可进入首批新联系。
-- 对现有 Computer Science PhD 路线，优先确认能否直接完成该 program 的 supervisor match；只明确招收其他 PhD program 的导师不自动视为兼容。
-- 2026-09-17 第一批新联系优先顺序：**Tse-Hsun (Peter) Chen → Peter Rigby → Jinqiu Yang → Shin Hwei Tan → Yann-Gaël Guéhéneuc**。
-- Jun Yan、Nikolaos Tsantalis 等保留在下一层；前者 agentic/security 很强但领域负担更偏 cyber-physical / energy，后者 maintenance/refactoring 很匹配但与当前 Boss/DS-Hns 的 agentic overlap 略窄。
+- Zhijie Wang 保持已有 follow-up，不占 cold-outreach 名额。
+- 首批新联系：**Tse-Hsun (Peter) Chen → Peter Rigby → Jinqiu Yang → Shin Hwei Tan → Yann-Gaël Guéhéneuc**。
+- 只有当前存在 `Seeking students / Accepting inquiries / looking for PhD students / funding available` 等证据的导师才进入首批。
 
 ## Singapore 当前执行策略（2026-09-17）
 
-- **SUTD 升级为 ACTIVE/APPLY_NOW**：Jan 2027 截止 2026-09-30；GRE 不是硬要求；本科英语授课可免 TOEFL/IELTS；当前页面未公布可直接比较的 numeric GPA / honours classification floor。
-- Funding 为竞争性而非保证：SUTD PhD Fellowship / PGF 对国际学生开放并覆盖 applicable tuition；因此申请时必须同时争取 scholarship，不把“可申请”写成“已获资助”。
-- 第一波导师：**Thanh Le-Cong → Ezekiel Soremekun → Esther Zhao → Wenxuan Zhang**；均有当前 SUTD PhD-opportunity 证据。
-- **NUS 继续 BACKUP**：研究 fit 极强，但 scholarship-equivalency、奖学金 interview 和 mandatory QE 增加摩擦。Chengpeng Wang 已确认 2026.09 正在招 PhD，邮件稿已准备，但不自动抢占 ACTIVE 批次。
-- **NTU 继续 WATCH**：当前 CCDS 页面不再把 GRE 列为 mandatory，但明确要求 Bachelor's minimum Honours (Distinction) or equivalent；UBC 等效未核清前不套磁。Penghui Li 2027 正在招人但明确要求走 form、不要发邮件。
-- **SMU CS/IS → REJECT**：当前 GRE/GMAT 硬门槛触发 `GRE_REQUIRED`。
+- **SUTD = APPLY_NOW**：Jan 2027 截止 2026-09-30；GRE 非硬要求；本科英语授课可免语言考试；当前有多个明确 PhD opportunity。
+- **NUS = BACKUP**：research fit 很强，但 scholarship-equivalency + scholarship interview + mandatory QE 增加摩擦。
+- **NTU = WATCH**：Bachelor's minimum Honours (Distinction) or equivalent 未核清；Penghui Li 2027 在招但要求走 form、不要发邮件。
+- **SMU CS/IS = REJECT**：GRE/GMAT hard gate。
 
-## 重洗后没有恢复到 ACTIVE 的项目
+## Hong Kong 当前执行策略（2026-09-17）
 
-- **NYU Courant**：即使现在接受 AI4Science，现有候选记录仍缺乏足够具体的 implementation-first AI4SE / AI4Science 主导师证据，因此继续 `PRUNED`。
-- **Waterloo / Queen's / Dalhousie / UBC / Alberta / NTU / NTNU**：Research Method Fit 本身很好，但 academic / degree-equivalency / English 等门槛尚未核清，继续 `WATCH`。
-- **NUS / MBZUAI / CUHK**：研究方法可以匹配，但 academic-equivalency、考试 / QE / 面试等培养或申请摩擦仍然偏高，继续 `BACKUP`。
+- 详细筛选与当前招生证据见 `targets/HONG-KONG-2026-09-17.md`。
+- **PolyU**：Yu Pei 当前明确招 PhD，AI4SE/repair/testing 高匹配；可直接首发。
+- **CityUHK**：从旧 WATCH 升级为 APPLY；当前已找到 Heqing Huang、Nan Guan 的明确 opening，Zhisong Zhang 官方 profile 仍标 Accepting PhD Students。
+- **CUHK CSE**：从旧 BACKUP 升级为 APPLY / medium friction。2027 Regular Admission 没有旧记录里的 1 小时 written exam；当前是 shortlisted 后英文 oral interview。Yu Li 当前明确招 PhD/MPhil。
+- **HKUST**：programme active，但本轮没有验证旧 shortlist 的个人最新 capacity，因此不从 stale YAML 自动发信。
+- **HKU**：移到 WATCH。Zuming Jiang / Ka Ho Chow / Heming Cui 都有强 current recruitment signal，但 bachelor honours/equivalency 尚未在 repo 中核清；邮件稿已准备，门禁未过前不发。
 
 ## 当前执行顺序
 
-1. **Concordia supervisor match** — 已有 Zhijie 线并行跟进，同时立即尝试 5 名“当前仍收人”的新候选；这一步现在是最快形成 admission path 的动作。
-2. **TU Delft WALTZ** — vacancy deadline 2026-09-24，属于直接职位申请，不与导师套磁批次冲突。
-3. **SUTD Jan 2027** — deadline **2026-09-30**；正式申请与 4 位当前有 PhD opportunity 的 ISTD 导师套磁并行，不等邮件回复才开始申请。
-4. **PolyU / KAUST** — 一个偏 AI4SE，一个同时覆盖 AI systems / applied AI4Science；发信前刷新具体导师 capacity。
-5. **HKUST / HKU** — 传统申请主线，同时继续补筛 applied AI4Science 工程型 PI。
-6. **SFU** — 等 Master's-entry 学术等效确认。
+1. **Concordia supervisor match** — 已有 live lead + 5 名当前招生 PI。
+2. **TU Delft WALTZ** — 2026-09-24 vacancy deadline。
+3. **SUTD Jan 2027** — 2026-09-30 deadline；申请与套磁并行。
+4. **Hong Kong first wave** — Yu Pei → Heqing Huang → Yu Li → Nan Guan；Zhisong Zhang 刷新 exact 2027 capacity 后补发。
+5. **KAUST / HKUST / SFU** — 各自按 programme gate / PI capacity 推进。
 
 ## Research Method Gate
 
-导师即使关键词匹配，也必须满足至少一种可执行研究路线：
-
-- system/tool implementation
-- empirical evaluation / benchmark
-- simulation / computational experiments
-- real-world data analysis
-- agent / software / scientific workflow evaluation
+导师即使关键词匹配，也必须满足至少一种可执行路线：system/tool implementation、empirical evaluation/benchmark、simulation/computational experiments、real-world data analysis、agent/software/scientific-workflow evaluation。
 
 如果主要产出是 theorem / proof / heavy derivation，或 AI4Science 需要高强度理论物理、纯数学、理论化学等先修才能开始主要研究，则降级到 `PRUNED/REJECT`。
 
