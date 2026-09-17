@@ -2,9 +2,30 @@
 
 ## Current rule
 
-不要继续广撒网。申请已提交，后续联系只服务于明确目的：导师匹配、招生状态确认、或需要补充研究材料。
+Application already submitted. Contact only for targeted supervisor matching; no mass outreach. Same-school / same-department cooldown applies.
+
+## First layer
+
+| Order | Supervisor | Email | Contact state |
+|---|---|---|---|
+| 1 | Li Li | `LLiLi@um.edu.mo` | not contacted; explicit current PhD opening |
+| 2 | Xiaobo Zhou | `waynexzhou@um.edu.mo` | not contacted; explicit current PhD opportunity |
+| 3 | Leong Hou U | `ryanlhu@um.edu.mo` | not contacted; actively seeking PhD students |
+| 4 | Cheng-Zhong Xu | `czxu@um.edu.mo` | not contacted; continuously looking for students |
+
+## Hold / research-only
+
+- Steven Morad — `smorad@um.edu.mo` — capacity not verified.
+- Derek Fai Wong — `derekfw@um.edu.mo` — capacity not verified.
+- Christian Montag — `cmontag@um.edu.mo` — computational-health fit, capacity not verified.
+- Jerome Yen — `jeromeyen@um.edu.mo` — Quant-Ultra/FinTech fit, capacity not verified.
 
 ## Known history
 
-- Lin Yan：此前已多次联系，暂无回复；当前不建议继续投入。
-- 新导师名单：仅在需要主动推进时重新筛选。
+- **Lin Yan:** previously contacted multiple times without reply. Keep paused; do not follow up again without fresh recruitment evidence.
+
+## Send sequencing
+
+Default UM/CIS sequence: `Li Li -> Xiaobo Zhou -> Leong Hou U -> Cheng-Zhong Xu`.
+
+Wait 3–5 working days between new UM/CIS cold contacts unless the current professor explicitly declines / has no capacity. If one professor becomes interested or requests further discussion/materials, freeze the rest of the UM/CIS cold-outreach queue.
