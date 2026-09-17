@@ -1,0 +1,220 @@
+schema_version: 1
+updated_at: 2026-09-17
+purpose: "Hong Kong refresh under hard-gate -> research-method -> recruitment/capacity -> friction ordering."
+
+programmes:
+  - id: polyu-comp-phd-2027
+    university: Hong Kong Polytechnic University
+    programme: Computing PhD
+    state: APPLY
+    gre_required: false
+    gre_evidence: "No GRE/GMAT requirement appears on the 2027 COMP PhD programme/supporting-document page; unlike PolyU Business programmes, COMP lists CV, research proposal, transcripts and fellowship referees without GRE."
+    english_route: "English-language degree route accepted under university rules."
+    academic_gate: "Master's degree required for doctoral admission; user is completing Melbourne master's before 2027 intake."
+    funding: "PRPgS considered concurrently; HKPFS/PPPFS/IPFS/Kuok schemes available."
+    deadline: "2027-05-31 for Sep 2027 COMP entry; HKPFS full application deadline 2026-12-01."
+    last_verified: 2026-09-17
+
+  - id: cityu-cs-phd-2027
+    university: City University of Hong Kong
+    programme: Computer Science PhD
+    state: APPLY
+    gre_required: false
+    english_route: "English test required only when entrance qualification was not taught in English."
+    academic_gate: "PhD accepts a Master's degree (or equivalent) from a recognised university; in-progress applicants can provide interim transcript and expected-completion evidence."
+    funding: "Government-funded admitted PhD students receive university scholarship; HKPFS also available."
+    deadline: "Main 2027/28 round 2026-12-01."
+    last_verified: 2026-09-17
+
+  - id: cuhk-cse-phd-2027
+    university: Chinese University of Hong Kong
+    programme: CSE MPhil-PhD / PhD
+    state: APPLY
+    gre_required: false
+    english_route: "Degree programme taught in English satisfies CUHK Graduate School English requirement."
+    academic_gate: "PhD normally requires a recognised Master's degree; CSE regular-admission page explicitly accepts current students and allows 2027 graduates to provide certificates before Aug 2027."
+    funding: "All admitted full-time research students receive around HK$19,100/month; HKPFS higher."
+    friction: "Regular admission = English oral interview if shortlisted; the 1-hour written exam belongs to Early Admission, not current Regular Admission. Three referees required for full-time doctoral applicants."
+    deadline: "Regular round 1: 2026-10-06; round 2: 2027-01-12; round 3: 2027-03-31."
+    last_verified: 2026-09-17
+
+  - id: hkust-cse-phd-2027
+    university: Hong Kong University of Science and Technology
+    programme: CSE PhD
+    state: APPLY
+    gre_required: false
+    english_route: "English-medium bachelor's degree waives TOEFL/IELTS."
+    academic_gate: "Good academic record + bachelor's degree by enrollment; no numeric floor shown on current CSE programme page."
+    deadline: "Spring 2027 non-local: 2026-11-01; Fall 2027 non-local: 2027-06-01; HKPFS: 2026-12-01."
+    outreach_note: "Department is recruiting 2027 students, but this refresh did not find equally fresh personal-capacity statements for the previously shortlisted Junxian He / Jiasi Shen / Shuai Wang. Keep programme active; do not auto-email stale PI entries."
+    last_verified: 2026-09-17
+
+  - id: hku-cds-phd-2027
+    university: University of Hong Kong
+    programme: Computing & Data Science PhD
+    state: WATCH
+    gre_required: false
+    english_route: "English-medium degree satisfies the language route."
+    academic_gate: "Current page normally requires a bachelor's degree with honours or equivalent; UBC equivalency is not yet documented in the repo."
+    funding: "HKU PGS at least HK$225,120/year; HKU Presidential/HKPFS packages also available."
+    deadline: "Main round 2026-12-01."
+    blocker: "Confirm UBC bachelor's honours-equivalency / acceptable qualification route before send/submission."
+    last_verified: 2026-09-17
+
+supervisors:
+  - id: polyu-yu-pei-refresh
+    university: Hong Kong Polytechnic University
+    name: Yu Pei
+    email: csypei@comp.polyu.edu.hk
+    programme_id: polyu-comp-phd-2027
+    recruitment_status: explicit_open
+    recruitment_evidence: "Current personal page: looking for self-motivated PhD students and RAs; asks for CV and academic transcripts."
+    research_domain: ai4se
+    research_method: empirical
+    theory_burden: low
+    implementation_centrality: high
+    experiment_centrality: high
+    narrative_route: [ds-hns, codex-boss]
+    fit_summary: "Automated program repair, automated testing, fault localization and MSR directly match long-horizon coding-agent reliability and semantic acceptance."
+    action: send_ready
+    source_url: https://www4.comp.polyu.edu.hk/~csypei/
+
+  - id: cityu-heqing-huang
+    university: City University of Hong Kong
+    name: Heqing Huang
+    email: heqhuang@cityu.edu.hk
+    programme_id: cityu-cs-phd-2027
+    recruitment_status: explicit_open
+    recruitment_evidence: "Current CityU Scholars profile says Accepting PhD Students; personal page explicitly says looking for PhD/MPhil/RA/Postdoc."
+    research_domain: trustworthy_ai
+    research_method: systems
+    theory_burden: medium
+    implementation_centrality: high
+    experiment_centrality: high
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    fit_summary: "Software security/reliability, program analysis, fuzzing and a 2026 ACL paper on a new performance vulnerability in AI agents make a direct agent-security/reliability route."
+    action: send_ready
+    source_url: https://5hadowblad3.github.io/
+
+  - id: cuhk-yu-li
+    university: Chinese University of Hong Kong
+    name: Yu Li
+    email: liyu@cse.cuhk.edu.hk
+    programme_id: cuhk-cse-phd-2027
+    recruitment_status: explicit_open
+    recruitment_evidence: "Current homepage states Opening: Intern, PhD/MPhil students; group page says multiple quotas each year."
+    research_domain: ai4science
+    research_method: applied_ml
+    theory_burden: medium
+    domain_theory_burden: medium
+    implementation_centrality: high
+    experiment_centrality: high
+    narrative_route: [codex-boss]
+    fit_summary: "ML + healthcare/bioinformatics, current group work includes multimodal diffusion/LLM agents for drug mechanism analysis; good scientific-agent / computational-health route."
+    action: send_ready
+    source_url: https://liyu95.com/
+
+  - id: cityu-nan-guan
+    university: City University of Hong Kong
+    name: Nan Guan
+    email: nanguan@cityu.edu.hk
+    programme_id: cityu-cs-phd-2027
+    recruitment_status: explicit_open
+    recruitment_evidence: "Current homepage says Recruiting with multiple PhD openings including LLM-aided System Design; explicitly welcomes both theoretical and system applicants."
+    research_domain: systems
+    research_method: systems
+    theory_burden: medium
+    implementation_centrality: high
+    experiment_centrality: high
+    narrative_route: [ds-hns, codex-boss]
+    fit_summary: "LLM-aided system design, real-time systems and 2026 LLM-agent schedulability tooling provide a strong systems/runtime route for DS-Hns."
+    action: send_ready
+    source_url: https://www.cs.cityu.edu.hk/~nanguan/
+
+  - id: cityu-zhisong-zhang
+    university: City University of Hong Kong
+    name: Zhisong Zhang
+    email: zhisong.zhang@cityu.edu.hk
+    programme_id: cityu-cs-phd-2027
+    recruitment_status: accepting
+    recruitment_evidence: "Current CityU Scholars profile marks Accepting PhD Students; research areas include NLP, AI and Autonomous Agents. Personal page lists PhD/MPhil recruiting for 2026, so refresh exact 2027 capacity before send."
+    research_domain: agentic_ai
+    research_method: empirical
+    theory_burden: medium
+    implementation_centrality: high
+    experiment_centrality: high
+    narrative_route: [codex-boss]
+    fit_summary: "Long-context LMs and LLM-based agent systems map directly to Boss's long-horizon state/memory/orchestration and multi-agent evaluation."
+    action: refresh_then_send
+    source_url: https://scholars.cityu.edu.hk/en/persons/zhisong-zhang/
+
+  - id: hku-zuming-jiang-refresh
+    university: University of Hong Kong
+    name: Zuming Jiang
+    email: jzuming.hku@gmail.com
+    official_email: jzuming@hku.hk
+    programme_id: hku-cds-phd-2027
+    recruitment_status: explicit_open
+    recruitment_evidence: "Current homepage: multiple fully-funded PhD/Postdoc/RA positions in Systems, Security, Databases and AI applications."
+    research_domain: systems
+    research_method: empirical
+    theory_burden: medium
+    implementation_centrality: high
+    experiment_centrality: high
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    fit_summary: "Testing/fuzzing for OS/distributed databases plus systems/security/AI applications are highly compatible with agent verification and long-horizon systems reliability."
+    action: conditional_hku_gate
+    source_url: https://jzuming.github.io/
+
+  - id: hku-ka-ho-chow-refresh
+    university: University of Hong Kong
+    name: Ka Ho Chow
+    email: kachow@cs.hku.hk
+    programme_id: hku-cds-phd-2027
+    recruitment_status: explicit_open
+    recruitment_evidence: "Current HKU profile: several openings for PhD students."
+    research_domain: trustworthy_ai
+    research_method: systems
+    theory_burden: medium
+    implementation_centrality: high
+    experiment_centrality: high
+    narrative_route: [codex-boss, privacy-lens, ds-hns]
+    fit_summary: "Trustworthy AI systems, cybersecurity, ML systems and LLM security are a strong agent-security route."
+    action: conditional_hku_gate
+    source_url: https://www.cs.hku.hk/people/academic-staff/kachow
+
+  - id: hku-heming-cui-refresh
+    university: University of Hong Kong
+    name: Heming Cui
+    email: heming@cs.hku.hk
+    programme_id: hku-cds-phd-2027
+    recruitment_status: recurring_open
+    recruitment_evidence: "Current HKU profile says he recruits a few systems-relevant PhD students every year and asks strong systems applicants to email CV + bachelor transcript."
+    research_domain: systems
+    research_method: systems
+    theory_burden: medium
+    implementation_centrality: high
+    experiment_centrality: high
+    narrative_route: [ds-hns, codex-boss]
+    fit_summary: "Distributed AI training/serving, reliable/security systems and fault tolerance fit DS-Hns if framed as solid systems work rather than generic agents."
+    action: conditional_hku_gate
+    source_url: https://www.cs.hku.hk/index.php/people/academic-staff/heming
+
+held_or_pruned:
+  - name: Hongxia Yang
+    university: Hong Kong Polytechnic University
+    reason: "Excellent GenAI/agentic fit and explicitly fully-funded PhD recruiting, but her current process explicitly requires a coding test followed by a presentation; high friction under current preference. Keep as BACKUP within Hong Kong."
+    email: hongxia.yang@polyu.edu.hk
+  - name: Jing Li
+    university: Hong Kong Polytechnic University
+    reason: "Explicitly open to PhD applicants; useful NLP/decision/agent route, but less direct than first-wave candidates."
+    email: jing-amelia.li@polyu.edu.hk
+  - name: Songtao Lu
+    university: Chinese University of Hong Kong
+    reason: "Explicit Fall 2027 recruiting, but theoretical ML/optimization and complexity analysis are central; method burden too high for current implementation-first route."
+  - name: Chi-Wing Fu
+    university: Chinese University of Hong Kong
+    reason: "Explicitly recruiting, but current opening is AI + 3D computational design/LEGO; domain fit is materially weaker."
+  - name: HKUST previous shortlist
+    university: Hong Kong University of Science and Technology
+    reason: "Programme remains active, but fresh personal recruitment evidence was not verified for Junxian He / Jiasi Shen / Shuai Wang in this pass. Do not auto-send based on stale supervisor YAML."
