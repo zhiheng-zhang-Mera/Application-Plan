@@ -12,6 +12,27 @@ Use outreach when one strong supervisor signal can materially improve admission 
 
 For department-admission programs, prefer strong faculty-fit prose in SOP over mass cold-emailing.
 
+## Human manual-operation surface
+
+The repository root `README.md` is the **human manual-outreach control center and contact ledger**.
+
+It should let the user quickly:
+
+1. see the current manual send queue;
+2. copy a supervisor email address;
+3. open the exact individualized email draft;
+4. open the relevant attachment/supporting-material checklist;
+5. manually send the message from the user's email client; and
+6. record the resulting contact history (`last_contact`, contact count/history, reply state, next action/cooldown).
+
+`data/*.yaml` remains the machine-oriented candidate/program source, but stale structured data must **not** overwrite a newer human contact-history entry in the root README or the relevant `applications/*/CONTACTS.md` / `TIMELINE.md`.
+
+For the question **"has this supervisor already been contacted / what happened?"**, use this precedence:
+
+`README manual ledger -> applications/* contact/timeline records -> structured data -> old staging/search notes`.
+
+Do not fabricate an exact date or contact count when the historical record only supports a qualitative statement such as "existing thread", "interviewed", or "multiple unanswered follow-ups".
+
 ## Candidate-state precedence
 
 Before generating or sending any outreach, resolve the human-control state in this order:
@@ -54,12 +75,29 @@ Rules:
 - re-check this gate immediately before each new outreach batch.
 - for Concordia CS/SE PhD, treat the supervisor-match step as execution-critical: the official admissions process states that an admission offer is not issued until a supervisor match is made. This increases the priority of verified-active Concordia supervisors without changing the academic hard gates.
 
+## Same-school / same-department cooldown
+
+Do not expose multiple professors in the same department to a burst of similar cold emails.
+
+Default manual/automation behavior:
+
+- keep **one new cold contact per `university + department` in the foreground at a time**;
+- normally wait about **72 hours / 3–5 working days** before moving to the next professor in the same department;
+- an explicit `declined` or `no_capacity` response can immediately unlock the next professor;
+- `interested`, `requested_materials`, `interview`, or `supervision_discussion` freezes the remaining same-department cold-outreach queue;
+- a live existing thread/follow-up counts as the foreground relationship for that department unless the user deliberately overrides it;
+- deadline pressure may shorten cooldown, but does not justify same-day department-wide cold emailing.
+
+The root README should show which professor is the current foreground contact and which same-school candidates are `HOLD` behind that contact.
+
 ## Automation rules
 
 - Never mass-email every faculty member in a department.
 - Never send to a supervisor whose programme is PRUNED/REJECTED, even if they remain in historical/staging YAML.
 - Stop repeated follow-ups after clear non-response unless new evidence changes the case.
 - Use the program's `narrative_route` to select Boss / DS-Hns / Quant-Ultra / Privacy Lens evidence.
-- Log every sent message and reply state in structured application/supervisor data.
+- For fully automatic sending, log every sent message and reply state in structured application/supervisor data **and** refresh the README human ledger.
+- For manual sending, do not mark a message `SENT` until the user actually confirms/sends it; prepared drafts remain `READY` / `HOLD`.
 - Do not claim prior contact, interest, funding, or supervision unless it is recorded as evidence.
 - If candidate-state sources conflict, the stricter human-control file under `targets/` wins until data is reconciled.
+- If contact-history sources conflict, the newer explicit human ledger/application contact record wins over stale `not_contacted` YAML.
