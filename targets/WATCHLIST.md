@@ -1,54 +1,55 @@
 # Watchlist
 
-> 这里只保留**Research Method Fit 已经明显合适，而且只差 1–2 个可核验条件**的候选。
+> 这里只保留**Research Method Fit 已明显合适，而且只差 1–2 个可核验条件**的候选。
 >
-> 高匹配不再局限于 AI4SE：**applied AI4Science / scientific agents / simulation / computational health / scientific workflow automation** 同样可以进入高优先级，只要主要产出仍是实现、实验、仿真、benchmark 或数据分析，而不是纯理论推导。
+> applied AI4Science / scientific agents / simulation / computational health 同样可以进入高优先级，只要主要产出仍是实现、实验、仿真、benchmark 或数据分析，而不是纯理论推导。
 
 ## 成绩 / degree-equivalency 待确认
 
 | 学校 / 职位 | 为什么值得保留 | 当前阻塞项 |
 |---|---|---|
-| University of Waterloo | Yuntian Deng 的 multi-agent / LLM collaboration、Pengyu Nie 的 SE/testing 都偏实验与工程；后续也可补筛 applied AI4Science PI | 标准 CS PhD 硕士路径要求相关 Master's **78% average**；等待 Melbourne final WAM / 官方等效 |
-| Queen's University | Filipe Cogo / Yuan Tian / Bram Adams 以 empirical SE、software analytics、DevOps 为主，风格适合 | Computing PhD 要求 Master's minimum **A standing / first class** |
+| University of Waterloo | Yuntian Deng 的 multi-agent / LLM collaboration、Pengyu Nie 的 SE/testing 都偏实验与工程 | 标准 CS PhD 硕士路径要求相关 Master's **78% average**；等待 Melbourne final WAM / 官方等效 |
+| Queen's University | Filipe Cogo / Yuan Tian / Bram Adams 以 empirical SE、software analytics、DevOps 为主 | Computing PhD 要求 Master's minimum **A standing / first class** |
 | Dalhousie University | Tushar Sharma / Masud Rahman 的 refactoring、debugging、maintenance、repository mining 偏工程/实验 | CS PhD 要求相关 Master's **minimum A- average** |
-| University of British Columbia | Caroline Lemieux 的 testing / SE tooling 很合适；学校本身也值得后续补筛 scientific/biomedical AI 的 implementation-first PI | PhD academic-equivalency 需按官方规则确认 |
-| University of Alberta | **Zhou Yang** 的 trustworthy codeLLMs 很直接；Matthew Taylor 可作 multi-agent 系统备选；学校也适合后续补筛 applied AI4Science | Computing Science 的 academic/research-master 路径、英语/GRE 口径待精确核验 |
-| **Nanyang Technological University — CCDS PhD** | **Penghui Li** 当前明确招 Spring/Fall 2027 PhD，方向是 security + program analysis + agentic AI；Yewen Pu 的 human-AI collaboration / agent failure / code generation 也高度匹配 | 当前 2026 CCDS 页面明确要求 strong Bachelor's with minimum **Honours (Distinction) or equivalent**；UBC BSc 等效未确认。当前页面只说 GRE/GATE 会显著增强申请，并未列作 mandatory；旧页面的“GRE required”记录视为过时冲突，不据此淘汰，但提交前再核一次 |
+| University of British Columbia | Caroline Lemieux 的 testing / SE tooling 很合适 | PhD academic-equivalency 需按官方规则确认 |
+| University of Alberta | Zhou Yang 的 trustworthy codeLLMs 很直接；Matthew Taylor 可作 multi-agent 系统备选 | Computing Science academic/research-master route、英语/GRE 口径待精确核验 |
+| **Nanyang Technological University — CCDS PhD** | Penghui Li 当前明确招 Spring/Fall 2027 PhD；Yewen Pu 的 agent/code-generation fit 也高 | 当前 CCDS 页面要求 strong Bachelor's with minimum **Honours (Distinction) or equivalent**；UBC BSc 等效未确认 |
+| **University of Hong Kong — CS/CDS PhD** | **Zuming Jiang / Ka Ho Chow / Heming Cui** 都有当前明确或持续 PhD recruitment signal，且 systems / security / trustworthy AI 与 Boss/DS-Hns 高匹配 | 当前 HKU admission language normally requires a **bachelor's degree with honours or equivalent**；repo 尚未有 UBC honours-equivalency 书面依据。英语和 funding 本身不是主要阻塞。 |
 | NTNU — Trustworthy Agentic AI vacancy | agentic AI + autonomous systems，职位制、偏实现应用 | 通常要求 NTNU scale **B 或更好**；需做成绩等效 + 英语材料核验 |
 | NTNU — Multi-Agent Communication vacancy | multi-agent / LLM communication + Software Engineering group，方向偏实验 | 博士入学成绩等效与英语材料待核验 |
 
 ## NTU refresh — 2026-09-17
 
-- Current CCDS PhD page: Bachelor’s degree must be **minimum Honours (Distinction) or equivalent**. This remains the blocking hard gate.
-- English: TOEFL/IELTS is listed for applicants whose Bachelor’s degree was **not conducted in English**.
-- GRE/GATE: current CCDS page says scores can **greatly enhance** admission chances; it does not list them among the mandatory core documents. A stale/legacy NTU page still says GRE/GMAT required, so refresh again before any paid submission.
-- **Penghui Li** — explicitly recruiting PhD students for Spring/Fall 2027 in LLMs for security + security/reliability of AI/agent systems. His page explicitly says **do not email; use the form**. Therefore even after the academic gate clears, outreach automation must use his form workflow rather than email.
-- **Yewen Pu** — strong fit in human-AI collaboration, agents/code generation and empirical agent failure modes; no explicit current PhD-opening statement found in this refresh, so capacity remains unknown.
-- Form-ready Penghui research-interest text is stored in `applications/singapore/OUTREACH-DRAFTS-2026-09-17.md`; do not submit it before equivalency clears.
+- Current CCDS PhD page: Bachelor's degree must be minimum **Honours (Distinction) or equivalent**.
+- English: TOEFL/IELTS only when Bachelor's degree was not conducted in English.
+- GRE/GATE: current page says scores can greatly enhance admission chances; it does not list them among mandatory core documents. Refresh before paid submission because legacy pages conflict.
+- Penghui Li explicitly recruits 2027 PhD students but says **do not email; use the form**.
+- Form-ready research-interest text is in `applications/singapore/OUTREACH-DRAFTS-2026-09-17.md`.
 
-## Funding / 流程待确认
+## HKU refresh — 2026-09-17
 
-| 学校 | 为什么值得保留 | 当前阻塞项 |
+- Main-round deadline: **2026-12-01**.
+- English-medium degree satisfies the language route.
+- Funding is strong: normal HKU PGS is at least HK$225,120/year, with HKU Presidential/HKPFS packages above that.
+- **Zuming Jiang**: current page advertises multiple fully-funded PhD positions in systems/security/databases/AI applications.
+- **Ka Ho Chow**: current HKU page explicitly says several PhD openings; trustworthy AI systems / cybersecurity / ML systems / LLM security.
+- **Heming Cui**: profile states he recruits a few systems-relevant PhD students every year; distributed AI training/serving + reliable/secure systems.
+- Draft emails are ready in `applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md`, but outreach stays blocked until the academic-equivalency gate clears.
+
+## Funding / flow to confirm
+
+| School | Why keep | Current blocker |
 |---|---|---|
-| University of Victoria | **Norha Villegas / Ratnadira Widyasari / Amber Horvath** 都明显偏 agentic systems、AI4SE、GenAI developer tooling；风格非常合适 | GRE 对国际申请者高度推荐；funding 为 offer-dependent，需要先确认覆盖生活 |
-| University of Manitoba | **Shaowei Wang** 的 LLM + code generation/search + bug fixing + AIOps/DevOps 与 DS-Hns 非常直接 | supervisor funding/capacity 需要确认 |
-| CityUHK | trustworthy AI / LLM systems 仍可能有工程型入口；如果找到 applied AI4Science / scientific-data PI 也可保留 | 需要绑定到具体 2027 PI + studentship；没有具体 PI 前不升级 |
-| HKUST (Guangzhou) | FinTech / AI / data 可给 Quant-Ultra / Boss 留一条应用路线；若后续找到科学计算/AI4Science 工程 PI 也可重定位 | GRE、英语、funding、当前 intake 和具体 PI 仍未核清 |
+| University of Victoria | Norha Villegas / Ratnadira Widyasari / Amber Horvath are strong agentic/AI4SE/tooling fits | GRE highly recommended for international applicants; offer-dependent funding needs coverage check |
+| University of Manitoba | Shaowei Wang's LLM + code generation/search + bug fixing + AIOps/DevOps is very direct | supervisor funding/capacity needs confirmation |
+| HKUST (Guangzhou) | FinTech / AI / data can support Quant/Boss; possible engineering AI4Science routes | GRE/English/funding/current intake and specific PI still not cleanly verified |
 
-## 本轮重洗结论
+## Hong Kong movement this round
 
-- **SUTD 已从新加坡筛选中直接进入 ACTIVE/APPLY_NOW**：当前没有 GRE/英语重考硬阻塞，且存在多个明确当前 PhD opportunity；详见 `targets/SINGAPORE-2026-09-17.md`。
-- **NTU 不因新导师公开招人而绕过 academic gate**：Penghui Li 很强且确实在招 2027，但 Honours (Distinction) equivalency 未确认前继续 WATCH。
-- **没有因为加入 AI4Science 而直接恢复任何 PRUNED 项目**：新门禁扩大的是“可接受研究领域”，不是放宽“必须有具体、可执行、工程/实验型研究路线”的要求。
-- **UBC / Alberta / HKUST / HKU / KAUST** 后续导师搜索范围可扩到 applied AI4Science，但只有在 simulation / computational / agentic / workflow / biomedical-data 等工程型课题下才算高匹配。
-- **纯 scientific ML 理论、PDE-heavy、theoretical chemistry/physics-heavy** 仍按 method mismatch 降权。
+- **CityUHK moved OUT of WATCH and into ACTIVE/APPLY**: current programme gate is clean enough, and current recruiting PIs were found (Heqing Huang / Nan Guan; Zhisong Zhang needs exact 2027 refresh).
+- **HKU moved from ACTIVE-with-verification to WATCH** because the new hard-gate policy requires the bachelor's honours/equivalency issue to be documented before outreach/application is treated as cleared.
+- **CUHK moved from BACKUP to ACTIVE/APPLY** after correcting the stale Early-Admission written-exam assumption.
 
-## 已从 WATCH 清掉
-
-Drexel、Stevens、Stony Brook、UMass Amherst 继续留在 `PRUNED.md`。它们目前仍缺少足够具体的 AI4SE / agentic systems / applied AI4Science 工程型 PI 证据。
-
-NUS 与 MBZUAI 不是 WATCH：NUS 当前 research fit 极好，但 scholarship-equivalency + mandatory QE / interview friction 使其继续放 `BACKUP.md`；MBZUAI 同样因流程摩擦留 BACKUP。
-
-## 升级条件
+## Upgrade condition
 
 `academic gate → research-method fit → GRE/English → funding → supervisor/capacity → exam/interview friction → deadline`
