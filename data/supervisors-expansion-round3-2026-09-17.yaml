@@ -1,0 +1,154 @@
+schema_version: 1
+updated_at: 2026-09-17
+purpose: "Concordia-focused supervisor expansion with current recruitment/capacity evidence. Used for outreach ordering; targets/ remains human-control source of truth."
+
+supervisors:
+  - id: concordia-tse-hsun-peter-chen
+    university: Concordia University
+    name: Tse-Hsun (Peter) Chen
+    email: tse-hsun.chen@concordia.ca
+    program_id: concordia-cs-phd
+    contact_state: not_contacted
+    research_domain: ai4se
+    research_method: empirical
+    theory_burden: low
+    implementation_centrality: high
+    experiment_centrality: high
+    recruitment_status: accepting_inquiries
+    recruitment_scope: unspecified
+    recruitment_evidence: "Official Concordia faculty profile labels him Thesis supervisor — Accepting inquiries."
+    recruitment_source_url: https://www.concordia.ca/faculty/tsehsun-chen.html
+    recruitment_last_verified: 2026-09-17
+    program_supervisor_compatibility: likely
+    compatibility_note: "CSSE faculty and thesis supervisor; exact current CS PhD matching should be confirmed in the inquiry if not shown on the profile."
+    fit_summary: "Direct AI4SE fit: coding agents, trustworthy AI, automated debugging, fault localization, issue resolution and AIOps."
+    narrative_route: [ds-hns, codex-boss]
+    outreach_priority: 1
+
+  - id: concordia-peter-rigby
+    university: Concordia University
+    name: Peter Rigby
+    email: peter.rigby@concordia.ca
+    program_id: concordia-cs-phd
+    contact_state: not_contacted
+    research_domain: ai4se
+    research_method: empirical
+    theory_burden: low
+    implementation_centrality: high
+    experiment_centrality: high
+    recruitment_status: open_phd_position
+    recruitment_scope: phd
+    recruitment_evidence: "Recent 2026 post explicitly says 'I'm looking for PhD students'; current FSE 2026 work includes Agentic RACER autonomous maintenance."
+    recruitment_source_url: https://www.linkedin.com/posts/peter-rigby-27532a7b_we-have-5-paper-presentations-at-fse-this-activity-7480637142008782849-f5Ep
+    recruitment_last_verified: 2026-09-17
+    program_supervisor_compatibility: likely
+    compatibility_note: "CSSE professor actively recruiting PhD students; exact match to the existing CS PhD application should be confirmed in reply."
+    fit_summary: "Very strong overlap with autonomous software maintenance, code review, developer collaboration and empirical evaluation at scale."
+    narrative_route: [ds-hns, codex-boss]
+    outreach_priority: 2
+
+  - id: concordia-jinqiu-yang
+    university: Concordia University
+    name: Jinqiu Yang
+    email: jinqiu.yang@concordia.ca
+    program_id: concordia-cs-phd
+    contact_state: not_contacted
+    research_domain: ai4se
+    research_method: empirical
+    theory_burden: low
+    implementation_centrality: high
+    experiment_centrality: high
+    recruitment_status: funding_available
+    recruitment_scope: masters_and_phd
+    recruitment_evidence: "Current personal/lab page states she is looking for a few students and that funding is available for Master's and PhD."
+    recruitment_source_url: https://jinqiuyang.github.io/
+    recruitment_last_verified: 2026-09-17
+    program_supervisor_compatibility: likely
+    compatibility_note: "Currently supervises PhD students in CSSE and recent Computer Science theses; exact current application matching can be confirmed in the inquiry."
+    fit_summary: "Automated program repair, software testing/reliability, ML-system QA and MSR fit coding-agent reliability and acceptance evaluation."
+    narrative_route: [ds-hns, codex-boss]
+    outreach_priority: 3
+
+  - id: concordia-shin-hwei-tan
+    university: Concordia University
+    name: Shin Hwei Tan
+    email: shinhwei.tan@concordia.ca
+    program_id: concordia-cs-phd
+    contact_state: not_contacted
+    research_domain: ai4se
+    research_method: empirical
+    theory_burden: low
+    implementation_centrality: high
+    experiment_centrality: high
+    recruitment_status: seeking_students
+    recruitment_scope: phd
+    recruitment_evidence: "Official Concordia profile labels her Thesis supervisor — Seeking students."
+    recruitment_source_url: https://www.concordia.ca/faculty/shinhwei-tan.html
+    recruitment_last_verified: 2026-09-17
+    program_supervisor_compatibility: confirmed
+    compatibility_note: "Official profile explicitly lists Computer Science (PhD)."
+    fit_summary: "Automated program repair, testing and LLM-based repair are direct matches for autonomous repair and regression-aware acceptance."
+    narrative_route: [ds-hns, codex-boss]
+    outreach_priority: 4
+
+  - id: concordia-yann-gael-gueheneuc
+    university: Concordia University
+    name: Yann-Gaël Guéhéneuc
+    email: yann-gael.gueheneuc@concordia.ca
+    program_id: concordia-cs-phd
+    contact_state: not_contacted
+    research_domain: ai4se
+    research_method: empirical
+    theory_burden: low
+    implementation_centrality: high
+    experiment_centrality: high
+    recruitment_status: seeking_students
+    recruitment_scope: phd
+    recruitment_evidence: "Official Concordia profile labels him Thesis supervisor — Seeking students."
+    recruitment_source_url: https://www.concordia.ca/faculty/yanngael-gueheneuc.html
+    recruitment_last_verified: 2026-09-17
+    program_supervisor_compatibility: confirmed
+    compatibility_note: "Official profile explicitly lists Computer Science (PhD)."
+    fit_summary: "Empirical software engineering, software quality/comprehension and development-release-testing analysis fit DS-Hns evaluation and observability."
+    narrative_route: [ds-hns]
+    outreach_priority: 5
+
+  - id: concordia-jun-yan
+    university: Concordia University
+    name: Jun Yan
+    email: jun.yan@concordia.ca
+    program_id: concordia-cs-phd
+    contact_state: not_contacted
+    research_domain: agentic_ai
+    research_method: applied_ml
+    theory_burden: medium
+    domain_theory_burden: medium
+    recruitment_status: open_phd_position
+    recruitment_scope: phd
+    recruitment_evidence: "Official profile says Seeking students and advertises multiple open PhD positions."
+    recruitment_source_url: https://www.concordia.ca/faculty/jun-yan.html
+    recruitment_last_verified: 2026-09-17
+    program_supervisor_compatibility: confirmed
+    compatibility_note: "Official profile explicitly lists Computer Science (PhD)."
+    fit_summary: "Strong agentic AI, trustworthiness, resilience and multi-agent fit, but more cyber-physical/energy domain burden."
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+    outreach_priority: 6
+
+  - id: concordia-nikolaos-tsantalis
+    university: Concordia University
+    name: Nikolaos Tsantalis
+    email: nikolaos.tsantalis@concordia.ca
+    program_id: concordia-cs-phd
+    contact_state: not_contacted
+    research_domain: ai4se
+    research_method: empirical
+    theory_burden: low
+    recruitment_status: accepting_inquiries
+    recruitment_scope: graduate
+    recruitment_evidence: "Personal site advertises open graduate positions for students interested in software maintenance."
+    recruitment_source_url: https://users.encs.concordia.ca/~nikolaos/
+    recruitment_last_verified: 2026-09-17
+    program_supervisor_compatibility: likely
+    fit_summary: "Software maintenance, refactoring and evolution are strong DS-Hns fits; less direct agentic overlap than first batch."
+    narrative_route: [ds-hns]
+    outreach_priority: 7
