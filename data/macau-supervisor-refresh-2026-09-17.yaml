@@ -1,0 +1,102 @@
+schema_version: 1
+updated_at: 2026-09-17
+scope: university-of-macau-post-submission-supervisor-match
+
+programme:
+  university: University of Macau
+  department: Department of Computer and Information Science
+  application_state: submitted
+  submitted_at: 2026-08-20
+  strategy: "Targeted post-submission supervisor matching only; no mass outreach."
+
+supervisors:
+  - id: um-li-li
+    name: Li Li
+    email: LLiLi@um.edu.mo
+    department: Computer and Information Science
+    contact_state: not_contacted
+    recruitment_status: open_phd_position
+    recruitment_scope: "PhD student / RA / postdoc / visiting student"
+    recruitment_last_verified: 2026-09-17
+    recruitment_evidence: "Current personal page explicitly says research positions are available for PhD students and invites interested candidates to contact him."
+    source_url: https://www.fst.um.edu.mo/personal/llili/
+    program_supervisor_compatibility: confirmed
+    fit_summary: "Excellent systems-for-LLM fit: efficient LLM fine-tuning/inference, mobile/cloud systems, distributed learning and real-time/edge ML."
+    narrative_route: [ds-hns, codex-boss]
+    priority: 1
+    next_action: "First UM cold outreach after same-school cooldown; pitch reliable/resource-aware long-horizon AI runtime and LLM systems."
+
+  - id: um-xiaobo-zhou
+    name: Xiaobo Zhou
+    email: waynexzhou@um.edu.mo
+    department: Computer and Information Science
+    contact_state: not_contacted
+    recruitment_status: seeking_students
+    recruitment_scope: "PhD students in OS, architecture, parallel/distributed computing, Systems ML"
+    recruitment_last_verified: 2026-09-17
+    recruitment_evidence: "Current page has a dedicated PhD Student Opportunities section and says he is looking for self-motivated PhD students; asks candidates to email CV."
+    source_url: https://www.fst.um.edu.mo/personal/waynexzhou/
+    program_supervisor_compatibility: confirmed
+    fit_summary: "Excellent systems match: cloud computing, Systems ML, distributed computing, memory/OS, performance and reliability."
+    narrative_route: [ds-hns, codex-boss]
+    priority: 2
+    next_action: "Contact after Li Li cooldown if no active UM supervision discussion; use systems/reliability/resource scheduling narrative."
+
+  - id: um-leong-hou-u
+    name: Leong Hou U
+    email: ryanlhu@um.edu.mo
+    department: Computer and Information Science
+    contact_state: not_contacted
+    recruitment_status: seeking_students
+    recruitment_scope: "PhD / RA / postdoc in data engineering and AI"
+    recruitment_last_verified: 2026-09-17
+    recruitment_evidence: "Current page says he is actively seeking individuals and explicitly lists PhD students; page has 2026 research/news updates."
+    source_url: https://www.fst.um.edu.mo/personal/ryanlhu/
+    program_supervisor_compatibility: confirmed
+    fit_summary: "Strong empirical AI/data route: large-scale data processing, graph learning, reinforcement learning, multi-agent RL and scalable analytics."
+    narrative_route: [codex-boss, quant-ultra]
+    priority: 3
+    next_action: "Use multi-agent/RL + scalable evaluation story; do not present Boss merely as orchestration UI."
+
+  - id: um-cheng-zhong-xu
+    name: Cheng-Zhong Xu
+    email: czxu@um.edu.mo
+    department: Computer and Information Science
+    contact_state: not_contacted
+    recruitment_status: accepting_inquiries
+    recruitment_scope: "Self-motivated students; financial support available for demonstrated commitment"
+    recruitment_last_verified: 2026-09-17
+    recruitment_evidence: "Current research page says he continuously looks for self-motivated students and financial support is available for demonstrated passion/commitment."
+    source_url: https://www.fst.um.edu.mo/personal/czxu/research/
+    program_supervisor_compatibility: confirmed
+    fit_summary: "Very strong senior systems route: systems support for AI, cloud computing, big data, data-driven intelligence."
+    narrative_route: [ds-hns, codex-boss]
+    priority: 4
+    next_action: "Contact only after earlier UM candidates or if senior-lab systems route becomes strategically preferable."
+
+secondary_research_leads:
+  - name: Steven Morad
+    email: smorad@um.edu.mo
+    status: capacity_unknown
+    fit: "Reinforcement learning, sequence modeling, robotics; potentially useful for agent planning/evaluation."
+    source_url: https://www.fst.um.edu.mo/people/smorad/
+  - name: Derek Fai Wong
+    email: derekfw@um.edu.mo
+    status: capacity_unknown
+    fit: "NLP, representation learning, deep learning; possible LLM/NLP route but less direct than first tier."
+    source_url: https://www.fst.um.edu.mo/people/derekfw/
+  - name: Christian Montag
+    email: cmontag@um.edu.mo
+    status: capacity_unknown
+    fit: "Digital phenotyping, mobile sensing and digital biomarkers; potentially relevant to computational-health direction."
+    source_url: https://www.fst.um.edu.mo/people/academic-staff/
+  - name: Jerome Yen
+    email: jeromeyen@um.edu.mo
+    status: capacity_unknown
+    fit: "FinTech, financial engineering and algorithmic trading; possible Quant-Ultra route but current PhD opening not verified."
+    source_url: https://www.fst.um.edu.mo/people/jeromeyen/
+
+excluded_or_hold:
+  - name: Lin Yan
+    reason: "Already contacted multiple times with no response; current marginal outreach value is low."
+    action: do_not_follow_up_without_new_recruitment_signal
