@@ -2,7 +2,7 @@
 
 ## Decision flow
 
-`Hard Gate → Research Method Fit → Friction → Utility → Action State`
+`Hard Gate → Research Method Fit → Current Recruitment / Capacity → Program-Supervisor Compatibility → Friction → Utility → Action State`
 
 ## Hard Gate
 
@@ -81,6 +81,37 @@ Rules:
 - If research method is unclear, keep `method_mismatch=unknown`; do not promote solely on topic-keyword similarity.
 - Recent student projects and papers matter more than broad faculty-profile keywords.
 
+## Current Recruitment / Capacity Gate
+
+A supervisor is not eligible for the **first-contact batch** merely because the research fit is strong. Before outreach, verify a current signal that the person is still taking students or at least accepting supervision inquiries.
+
+Capture:
+
+- `recruitment_status`: `seeking_students | accepting_inquiries | open_phd_position | funding_available | likely_open | unknown | not_accepting`
+- `recruitment_scope`: `phd | masters_and_phd | program_specific | unspecified`
+- `recruitment_evidence`: exact short description of the current signal
+- `recruitment_source_url`
+- `recruitment_last_verified`
+- `program_supervisor_compatibility`: `confirmed | likely | unknown | incompatible`
+- `compatibility_note`: whether the supervisor can supervise the exact target program, not merely another PhD in the same school
+
+Evidence priority:
+
+1. current official faculty profile explicitly saying `Seeking students` / `Accepting inquiries`;
+2. current lab/personal page explicitly advertising PhD openings or funding;
+3. recent dated post/vacancy explicitly recruiting PhD students;
+4. recent supervision activity without an explicit recruitment statement = `likely_open`, not confirmed;
+5. old/stale recruitment language = `unknown` until refreshed.
+
+Rules:
+
+- `not_accepting` -> exclude from outreach immediately.
+- `unknown` -> research/verify first; do **not** place in the first-contact five.
+- `likely_open` -> may remain in the wider pool, but loses to equally matched candidates with explicit current recruitment evidence.
+- For supervisor-match programmes such as Concordia CS/SE PhD, current capacity and exact program compatibility are high-priority execution criteria because an admission offer depends on establishing a supervisor match.
+- If a faculty member recruits for a different PhD program only, do not assume they can complete the current application's supervisor match. Mark compatibility `unknown` or `incompatible` until verified.
+- Re-verify recruitment status immediately before every outreach batch; do not inherit it indefinitely from an earlier screening round.
+
 ## Friction
 
 Track supervisor-first, interview, exam, proposal, outreach, references, fee, and recorded-video availability.
@@ -106,3 +137,5 @@ If a mutable fact is stale or inherited from archive, downgrade it to `unknown` 
 Academic score thresholds are mutable enough to require a current-cycle verification whenever a program is promoted into `ACTIVE`.
 
 Research-method evidence should also be refreshed when a supervisor is promoted for outreach; use recent papers/projects rather than relying indefinitely on an old faculty bio.
+
+Supervisor recruitment/capacity is treated as a fast-changing field and must be refreshed for the current outreach date.
