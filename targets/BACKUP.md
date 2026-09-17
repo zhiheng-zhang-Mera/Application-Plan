@@ -1,26 +1,43 @@
 # Backup Targets
 
-> 这里放**研究方法基本适合，但申请/培养流程明显不够懒**的项目。AI4SE 和 applied AI4Science 都可以留在这里；问题主要是流程，而不是研究形态。
+> 这里放**研究方法基本适合，但申请/培养流程明显不够懒**的项目。问题主要是流程摩擦，不代表研究质量差。
 
 | 学校 / 项目 | 为什么只是 Backup | Research Method Fit | 重开条件 |
 |---|---|---|---|
-| NUS CS PhD | Current 2026 policy: GRE **not required** and English test only when prior university was not English-medium. However Research Scholarship requires a Bachelor's with at least **2nd Class Upper Honours or equivalent**, and the user's UBC equivalency is not formally verified. Scholarship applicants face an overseas interview, and the programme has a **mandatory PhD Qualifying Examination with no exemption**. Chengpeng Wang is explicitly recruiting PhD students as of 2026.09; Abhik Roychoudhury has a current 2026–31 Agentic AI software project but current PhD capacity still needs verification. | **Excellent for AI4SE / agentic software engineering**：Chengpeng Wang = program analysis + agentic SE + agent security；Abhik Roychoudhury = AutoCodeRover / program repair / testing / trustworthy agents。Jin Song Dong 等 mixed/formal-methods faculty 仍只考虑 implementation/testing/tooling 子路线。 | Confirm scholarship degree-equivalency; explicitly accept scholarship interview + mandatory QE friction; then activate targeted outreach. Drafts in `applications/singapore/OUTREACH-DRAFTS-2026-09-17.md` |
-| MBZUAI CS PhD | funding 很有吸引力，但申请含 mandatory screening exam | **Good for applied AI / agentic AI / AI4Science**；研究形态本身适合，但流程不符合“尽量不考试” | 用户愿意接受 screening exam，且具体 programme GPA 门槛通过 |
-| CUHK CSE | 旧版流程显示考试 + 面试 + supervisor 匹配摩擦较高 | 只保留 AI4SE / agentic systems / applied AI4Science / empirical systems 型导师；不碰 pure theory | 当期流程明显变轻，或出现非常强的具体 PI + funding 信号 |
+| NUS CS PhD | GRE 不要求、英语授课背景可免语言测试，但 Research Scholarship 要求 Bachelor's >= 2nd Class Upper Honours or equivalent；UBC equivalency 未正式核验。海外 scholarship applicant 有 interview，programme 有 mandatory QE | **Excellent — AI4SE / agentic software engineering**；Chengpeng Wang 当前明确招 PhD；Abhik Roychoudhury 技术 fit 极强 | Confirm scholarship degree-equivalency，并明确接受 interview + mandatory QE 摩擦；drafts 在 `applications/singapore/OUTREACH-DRAFTS-2026-09-17.md` |
+| MBZUAI CS PhD | funding 很有吸引力，但申请含 mandatory screening exam | **Good — applied AI / agentic AI / AI4Science** | 用户愿意接受 screening exam，且具体 programme GPA gate 通过 |
+
+## Hong Kong PI-level backup
+
+### Hongxia Yang — PolyU
+
+- Email: `hongxia.yang@polyu.edu.hk`
+- Current page explicitly recruits fully-funded PhD students in Generative AI / LLMs / MLLMs / RL / decentralized computing.
+- Research fit with Boss is excellent.
+- **But the current recruitment workflow explicitly includes a coding test followed by a presentation.** Under the low-friction strategy, keep her as a high-fit BACKUP rather than first-wave outreach.
+
+### Jing Li — PolyU
+
+- Email: `jing-amelia.li@polyu.edu.hk`
+- Explicitly open to PhD applicants; good NLP / reasoning / decision / agent route.
+- Keep as second-wave because the current DS-Hns/Boss overlap is less direct than Yu Pei / first-wave CityU targets.
 
 ## NUS refresh — 2026-09-17
 
-- **GRE:** not required; submission encouraged.
-- **English:** TOEFL/IELTS applies to international applicants whose previous university did not use English as the main medium. Existing English-medium degree evidence should be used; do not volunteer to retake English tests without a contrary official ruling.
-- **Funding:** Research Scholarship is competitive and includes a monthly allowance + full tuition subsidy.
-- **Academic funding gate:** Research Scholarship applicants need Bachelor's >= 2nd Class Upper Honours or equivalent in Computing/related discipline. Treat UBC equivalency as `unknown`, not assumed pass/fail.
-- **Friction:** overseas interview for foreign Research Scholarship applicants; mandatory PhD QE by 18 months, max 2 attempts, no exemption; scholarship ends on QE failure.
-- **Current strongest recruiting PI:** Chengpeng Wang (`wang-chengpeng@nus.edu.sg`) — RISE Lab page updated 2026.09 explicitly recruits PhD students and asks for CV + short research-problem description.
-- **Exceptional fit / capacity verify:** Abhik Roychoudhury (`abhik@comp.nus.edu.sg`) — current 2026–31 single-PI project *Agentic AI based Software of the Future: from Scale to Trust*; do not infer an open PhD slot solely from the grant.
+- GRE: not required; submission encouraged.
+- English: TOEFL/IELTS only when previous university did not use English as the main medium.
+- Funding: Research Scholarship is competitive, with monthly allowance + full tuition subsidy.
+- Academic funding gate: Bachelor's >= 2nd Class Upper Honours or equivalent; UBC equivalency remains `unknown`.
+- Friction: overseas scholarship interview + mandatory PhD QE, max 2 attempts, no exemption.
+- Current strongest recruiting PI: Chengpeng Wang (`wang-chengpeng@nus.edu.sg`).
 
-## 仍然不恢复的项目
+## Hong Kong correction — 2026-09-17
 
-- **UC Riverside** → `PRUNED`：当前没有足够具体的 implementation/experiment-first 导师优势。
-- **NYU Courant** → `PRUNED`：新增 AI4Science 允许项后，仍缺少足够具体的高匹配 PI 证据；不能因为学校本身强就恢复。
+**CUHK CSE has been removed from BACKUP.** The old record mixed the Early Admission process (written exam + oral) with 2027 Regular Admission. Current Regular Admission only states an English oral interview for shortlisted candidates, while full-time research students receive a monthly stipend. CUHK is now `APPLY / MEDIUM FRICTION`, with Yu Li as the first current recruiting PI.
 
-Backup 不是“学校差”，而是**研究方法可以，但对当前低摩擦申请策略不划算**。
+## Still not restored
+
+- **UC Riverside** → `PRUNED`: no sufficiently concrete implementation/experiment-first PI advantage.
+- **NYU Courant** → `PRUNED`: still lacks sufficiently concrete high-fit implementation-first PI evidence.
+
+Backup means **research can work, but the current friction/ROI does not justify first-wave effort**.
