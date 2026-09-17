@@ -7,22 +7,26 @@
 ## 现在最该做什么
 
 1. **University of Macau**：已提交，进入等待 / 导师匹配阶段；不再作为“要不要申请”的候选。
-2. **Concordia**：继续作为活跃导师匹配案例，重点处理 supervisor / funding / offer 细节。
-3. **ACTIVE**：只推进硬条件和研究风格都基本通过的项目。
-4. **WATCH**：只保留差 1–2 个可核验条件、且研究风格明显适合的候选。
-5. **PRUNED**：泛匹配、理论负担高、长期没具体 PI、或 ROI 太低的项目默认不再投入时间。
-6. **Buffalo**：因已确认需要重新提交英语考试成绩，当前关闭。
+2. **Concordia**：继续作为活跃导师匹配案例，重点处理 supervisor / funding / offer 细节，并已扩充当前仍收人的导师池。
+3. **TU Delft WALTZ**：直接 vacancy，deadline 2026-09-24。
+4. **SUTD Jan 2027**：新加坡筛选后进入 `APPLY_NOW`；deadline **2026-09-30**，正式申请与导师联系并行推进。
+5. **ACTIVE / WATCH / BACKUP**：继续严格按 hard gate → research-method fit → recruitment/capacity → friction 执行。
+6. **Buffalo / SMU CS-IS**：分别因英语重考、GRE/GMAT 硬门槛当前关闭。
 
 ## 当前主线
 
 | 项目 | 状态 | 备注 |
 |---|---|---|
 | University of Macau | **SUBMITTED** | 等待后续 |
-| Concordia University | **ACTIVE / SUPERVISOR TRACK** | 已有导师接触 |
+| Concordia University | **ACTIVE / SUPERVISOR TRACK** | 已有导师接触 + 新扩导师池 |
 | TU Delft WALTZ PhD vacancy | **APPLY_NOW** | implementation/system-heavy，当前直接带薪 vacancy |
+| **SUTD PhD / ISTD — Jan 2027** | **APPLY_NOW** | GRE not required；英语授课本科可免语言考试；current PhD opportunities 与 Boss/DS-Hns 高匹配；2026-09-30 截止 |
 | PolyU / HKUST / KAUST | **ACTIVE** | 当前工程型 fit 较干净 |
 | HKU / SFU | **ACTIVE WITH VERIFICATION** | 先核 degree/classification route |
+| NUS Computing | **BACKUP** | AI4SE fit 很强，但 scholarship equivalency + interview + mandatory QE 摩擦 |
+| NTU CCDS | **WATCH** | Honours (Distinction) equivalency 未核清；Penghui Li 2027 在招但暂不越过 academic gate |
 | University at Buffalo | **CLOSED** | 英语重考硬门槛 |
+| SMU CS / IS PhD | **REJECTED** | GRE/GMAT 硬门槛；除非获得书面 special waiver |
 
 ## 懒人筛选规则
 
@@ -41,6 +45,7 @@
 ## 候选池
 
 - [ACTIVE](targets/ACTIVE.md) — 现在值得推进
+- [Singapore 2026-09-17](targets/SINGAPORE-2026-09-17.md) — SUTD/NUS/NTU/SMU 本轮清洗 + 导师池
 - [WATCHLIST](targets/WATCHLIST.md) — 研究风格合适，但有少量硬条件待核
 - [BACKUP](targets/BACKUP.md) — 研究合适，但流程/考试/摩擦太重
 - [PRUNED](targets/PRUNED.md) — 当前不值得继续花时间；默认不自动重新推荐
@@ -51,6 +56,7 @@
 - [总状态](STATUS.md)
 - [University of Macau](applications/university-of-macau/STATUS.md)
 - [Concordia](applications/concordia/STATUS.md)
+- [Singapore](applications/singapore/STATUS.md)
 - [University at Buffalo](applications/university-at-buffalo/STATUS.md)
 
 ## 推荐人
