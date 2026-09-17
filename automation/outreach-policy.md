@@ -36,6 +36,24 @@ The user is implementation-first and not strong in pure-theory research. Before 
 
 If research style is unknown, inspect recent papers/projects before outreach. Do not guess from a faculty bio keyword list.
 
+## Current recruitment and program-compatibility gate
+
+Before a supervisor enters the **first-contact queue**, verify both:
+
+1. a current signal that the supervisor is seeking students, accepting supervision inquiries, advertising a PhD opening, or explicitly stating PhD funding/capacity; and
+2. compatibility with the exact target program, especially when a school has multiple PhD programs with separate supervisor lists.
+
+Store `recruitment_status`, `recruitment_evidence`, `recruitment_source_url`, `recruitment_last_verified`, `program_supervisor_compatibility`, and `compatibility_note`.
+
+Rules:
+
+- `not_accepting` -> never contact in the current round.
+- `unknown` -> verify first; do not include in the first-contact five.
+- recent explicit `seeking_students`, `accepting_inquiries`, `open_phd_position`, or `funding_available` outranks an equally matched supervisor with only historical supervision evidence.
+- do not infer current capacity merely because a professor has current students.
+- re-check this gate immediately before each new outreach batch.
+- for Concordia CS/SE PhD, treat the supervisor-match step as execution-critical: the official admissions process states that an admission offer is not issued until a supervisor match is made. This increases the priority of verified-active Concordia supervisors without changing the academic hard gates.
+
 ## Automation rules
 
 - Never mass-email every faculty member in a department.
