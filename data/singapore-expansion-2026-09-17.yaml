@@ -1,0 +1,239 @@
+schema_version: 1
+updated_at: 2026-09-17
+purpose: "Singapore-specific expansion under the current hard-gate + implementation-first screening rules. Public facts were refreshed for the 2027 cycle."
+
+programmes:
+  - id: sutd-istd-phd-jan-2027
+    university: Singapore University of Technology and Design
+    programme: SUTD PhD / ISTD
+    action_state: APPLY_NOW
+    intake: January 2027
+    deadline: 2026-09-30
+    gre: "not required; highly recommended"
+    english: "TOEFL/IELTS required only if undergraduate medium of instruction was not English"
+    academic_gate: "Bachelor's degree or above with excellent academic standing; no numeric/classification floor published on the current programme page"
+    academic_floor_pass: "no_confirmed_numeric_disqualifier"
+    funding: "Competitive SUTD PhD Fellowship/PGF open to all nationalities; tuition coverage up to 4 years. International stipend from 2026: S$3,100/month fellowship or S$4,300/month PGF; teaching/lab duties apply for subsidised fees."
+    friction: "3 academic referees, 3,000-word Statement of Objectives, shortlist interview possible; ISTD has oral QE, oral PE and thesis defence during candidature"
+    research_method_fit: excellent
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    source_urls:
+      - https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/application
+      - https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/criteria-for-admission/
+      - https://www.sutd.edu.sg/programme-listing/istd-phd-programme/phd-opportunities/
+      - https://www.sutd.edu.sg/admissions/graduate/scholarship/sutd-graduate-fellowships-scholarships/
+    last_verified: 2026-09-17
+
+  - id: nus-computing-phd-2027
+    university: National University of Singapore
+    programme: PhD in Computer Science
+    action_state: BACKUP
+    gre: "not required; encouraged"
+    english: "TOEFL/IELTS required for international applicants whose prior university did not use English as the main medium"
+    academic_gate: "General admission: good relevant bachelor's/master's. Research Scholarship requires bachelor's >= 2nd Class Upper Honours or equivalent in Computing/related discipline. Equivalency of the user's completed UBC BSc has not been formally verified."
+    academic_floor_pass: unknown
+    funding: "Competitive NUS Research Scholarship provides monthly allowance plus full tuition subsidy; scholarship applicants face overseas interview."
+    friction: "Research Scholarship interview + mandatory PhD Qualifying Examination by 18 months, max two attempts, no exemption; scholarship terminates on QE failure"
+    research_method_fit: excellent
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    source_urls:
+      - https://www.comp.nus.edu.sg/programmes/pg/phdis/admissions/
+      - https://www.comp.nus.edu.sg/programmes/pg/phdcs/
+      - https://www.comp.nus.edu.sg/programmes/pg/scholarships/
+    last_verified: 2026-09-17
+
+  - id: ntu-ccds-phd-2027
+    university: Nanyang Technological University
+    programme: PhD in Computing and Data Science
+    action_state: WATCH
+    gre: "Current CCDS page lists GRE/GATE as evidence that can greatly enhance admission chances, not as a mandatory item; an older legacy page still says GRE/GMAT required, so current 2026 CCDS page takes precedence but policy should be rechecked before submission."
+    english: "TOEFL/IELTS required when Bachelor's degree was not conducted in English"
+    academic_gate: "Strong Bachelor's degree with minimum Honours (Distinction) or equivalent"
+    academic_floor_pass: unknown
+    score_gate_note: "UBC BSc equivalency to NTU Honours (Distinction) has not been formally established; do not promote to ACTIVE until confirmed."
+    research_method_fit: excellent
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    source_urls:
+      - https://www.ntu.edu.sg/education/graduate-programme/ccds-phd-computing-datascience
+      - https://www.ntu.edu.sg/admissions/graduate/radmissionguide
+    last_verified: 2026-09-17
+
+  - id: smu-cs-phd-2027
+    university: Singapore Management University
+    programme: PhD in Computer Science / Information Systems
+    action_state: REJECT
+    reason_code: GRE_REQUIRED
+    hard_gate: "Current official admissions pages require GRE or GMAT except for graduates of SMU/NUS/NTU/SUTD or special approval. The user's UBC/Melbourne degrees do not receive the automatic waiver."
+    reopen_condition: "Official written special approval/waiver or policy change removes the GRE/GMAT requirement."
+    source_urls:
+      - https://graduatestudies.smu.edu.sg/phd/admissions/requirements
+      - https://computing.smu.edu.sg/phd/admissions-fees-scholarships
+    last_verified: 2026-09-17
+
+supervisors:
+  - id: sutd-thanh-le-cong
+    university: Singapore University of Technology and Design
+    programme_id: sutd-istd-phd-jan-2027
+    name: Thanh Le-Cong
+    email: congthanh_le@sutd.edu.sg
+    contact_state: not_contacted
+    recruitment_status: current_advertised_phd_opportunity
+    recruitment_evidence: "SUTD ISTD current PhD opportunities page advertises 'Reliable and secure software engineering with and for AI' and explicitly welcomes students."
+    research_domain: ai4se
+    research_method: systems
+    theory_burden: low
+    implementation_centrality: high
+    experiment_centrality: high
+    fit_summary: "Near-direct DS-Hns/Boss fit: AI-enabled software engineering/security, automated debugging, vulnerability management, and QA for AI-enabled software/AI agents using practical tools and real systems."
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    outreach_state: SEND_FIRST_WAVE
+    source_urls:
+      - https://www.sutd.edu.sg/programme-listing/istd-phd-programme/phd-opportunities/
+      - https://www.sutd.edu.sg/istd/research/software-design/
+    last_verified: 2026-09-17
+
+  - id: sutd-ezekiel-soremekun
+    university: Singapore University of Technology and Design
+    programme_id: sutd-istd-phd-jan-2027
+    name: Ezekiel Soremekun
+    email: ezekiel_soremekun@sutd.edu.sg
+    contact_state: not_contacted
+    recruitment_status: current_advertised_phd_opportunity
+    recruitment_evidence: "SUTD ISTD current PhD opportunities page advertises 'Trustworthy software and AI'."
+    research_domain: ai4se
+    research_method: empirical
+    theory_burden: low
+    implementation_centrality: high
+    experiment_centrality: high
+    fit_summary: "Automated testing/debugging/program analysis plus validation of Code LLMs and AI systems; excellent match for Boss semantic acceptance and DS-Hns long-horizon reliability."
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    outreach_state: SEND_FIRST_WAVE
+    source_urls:
+      - https://www.sutd.edu.sg/programme-listing/istd-phd-programme/phd-opportunities/
+      - https://www.sutd.edu.sg/profile/ezekiel-soremekun
+      - https://www.sutd.edu.sg/istd/research/secure-computing/
+    last_verified: 2026-09-17
+
+  - id: sutd-esther-zhao
+    university: Singapore University of Technology and Design
+    programme_id: sutd-istd-phd-jan-2027
+    name: Ruochen (Esther) Zhao
+    email: esther_zhao@sutd.edu.sg
+    contact_state: not_contacted
+    recruitment_status: current_advertised_phd_opportunity
+    recruitment_evidence: "SUTD ISTD current PhD opportunities page advertises 'AI agents for a more reliable future' and explicitly describes PhD-student opportunities."
+    research_domain: agentic_ai
+    research_method: empirical
+    theory_burden: low
+    implementation_centrality: high
+    experiment_centrality: high
+    fit_summary: "Trustworthy LLM agents, deep-research and multi-agent evaluation, unfaithful/deceptive behavior, self-evolving agents and agent-society simulation align closely with Codex Boss."
+    narrative_route: [codex-boss, ds-hns]
+    outreach_state: SEND_FIRST_WAVE
+    source_urls:
+      - https://www.sutd.edu.sg/programme-listing/istd-phd-programme/phd-opportunities/
+      - https://www.sutd.edu.sg/profile/esther-zhao-ruochen/
+    last_verified: 2026-09-17
+
+  - id: sutd-wenxuan-zhang
+    university: Singapore University of Technology and Design
+    programme_id: sutd-istd-phd-jan-2027
+    name: Wenxuan Zhang
+    email: wxzhang@sutd.edu.sg
+    contact_state: not_contacted
+    recruitment_status: current_advertised_phd_opportunity
+    recruitment_evidence: "SUTD ISTD current PhD opportunities page advertises work on inclusive, efficient and trustworthy LLMs, including safety/robustness and multi-agent collaboration."
+    research_domain: agentic_ai
+    research_method: empirical
+    theory_burden: low
+    implementation_centrality: high
+    experiment_centrality: high
+    fit_summary: "Good Boss route around multi-agent collaboration, trustworthy LLMs and robust real-world systems; less directly AI4SE than Le-Cong/Soremekun."
+    narrative_route: [codex-boss]
+    outreach_state: SEND_FIRST_WAVE
+    source_urls:
+      - https://www.sutd.edu.sg/programme-listing/istd-phd-programme/phd-opportunities/
+      - https://repository.sutd.edu.sg/esploro/profile/wenxuan_zhang_1
+    last_verified: 2026-09-17
+
+  - id: nus-chengpeng-wang
+    university: National University of Singapore
+    programme_id: nus-computing-phd-2027
+    name: Chengpeng Wang
+    email: wang-chengpeng@nus.edu.sg
+    contact_state: not_contacted
+    recruitment_status: explicitly_recruiting
+    recruitment_evidence: "Personal/lab page updated 2026.09 explicitly says RISE Lab is looking for PhD students and asks applicants to email CV + short research-problem description."
+    research_domain: ai4se
+    research_method: empirical
+    theory_burden: medium
+    implementation_centrality: high
+    experiment_centrality: high
+    fit_summary: "Program analysis, agentic software engineering, testing/software reliability and agent security are an exceptional DS-Hns/Boss research fit."
+    narrative_route: [ds-hns, codex-boss, privacy-lens]
+    outreach_state: DRAFT_READY_BACKUP_PROGRAM
+    source_urls:
+      - https://chengpeng-wang.github.io/
+      - https://chengpeng-wang.github.io/lab.html
+    last_verified: 2026-09-17
+
+  - id: nus-abhik-roychoudhury
+    university: National University of Singapore
+    programme_id: nus-computing-phd-2027
+    name: Abhik Roychoudhury
+    email: abhik@comp.nus.edu.sg
+    contact_state: not_contacted
+    recruitment_status: verify_before_contact
+    recruitment_evidence: "Current NUS profile shows the 2026-31 single-PI project 'Agentic AI based Software of the Future: from Scale to Trust' and current AutoCodeRover agentic-SE work, but no equally fresh explicit PhD-opening statement was found in this refresh."
+    research_domain: ai4se
+    research_method: empirical
+    theory_burden: medium
+    implementation_centrality: high
+    experiment_centrality: high
+    fit_summary: "Exceptional technical overlap with automated program repair, testing, agentic software engineering and trustworthy autonomous coding; contact only after current capacity is confirmed."
+    narrative_route: [ds-hns, codex-boss]
+    outreach_state: VERIFY_CAPACITY_THEN_SEND
+    source_urls:
+      - https://www.comp.nus.edu.sg/cs/people/abhik/
+      - https://www.comp.nus.edu.sg/cs/research/plse/projects/
+    last_verified: 2026-09-17
+
+  - id: ntu-penghui-li
+    university: Nanyang Technological University
+    programme_id: ntu-ccds-phd-2027
+    name: Penghui Li
+    email: penghui.li@ntu.edu.sg
+    contact_state: do_not_email_use_form
+    recruitment_status: explicitly_recruiting
+    recruitment_evidence: "Current openings page: PhD students for Spring/Fall 2027 in LLMs for security and security/reliability of AI/agent systems; explicitly says 'There is no need to email me' and requires the form."
+    research_domain: trustworthy_ai
+    research_method: systems
+    theory_burden: medium
+    implementation_centrality: high
+    experiment_centrality: high
+    fit_summary: "Excellent DS-Hns/Privacy Lens/Boss route around agent security, program analysis, vulnerability/patch analysis and trustworthy real-world agent deployments."
+    narrative_route: [ds-hns, privacy-lens, codex-boss]
+    outreach_state: HOLD_FOR_ACADEMIC_GATE_USE_FORM
+    source_urls:
+      - https://peng-hui.github.io/openings.html
+      - https://www.ntu.edu.sg/computing/our-faculty
+    last_verified: 2026-09-17
+
+  - id: ntu-yewen-pu
+    university: Nanyang Technological University
+    programme_id: ntu-ccds-phd-2027
+    name: Yewen Pu
+    email: yewen.pu@ntu.edu.sg
+    contact_state: not_contacted
+    recruitment_status: no_explicit_current_phd_opening_found
+    research_domain: agentic_ai
+    research_method: empirical
+    theory_burden: low
+    implementation_centrality: high
+    experiment_centrality: high
+    fit_summary: "Strong Boss evaluation fit through human-AI collaboration, agent failure benchmarks and code generation, but no explicit current PhD recruitment signal was found in this pass."
+    narrative_route: [codex-boss, ds-hns]
+    outreach_state: VERIFY_CAPACITY_AFTER_ACADEMIC_GATE
+    source_urls:
+      - https://www.ntu.edu.sg/computing/our-faculty/new-faculty-at-ccds-%282025%29
+    last_verified: 2026-09-17
