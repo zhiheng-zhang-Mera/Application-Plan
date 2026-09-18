@@ -123,6 +123,20 @@
 
 </details>
 
+
+<details open>
+<summary><strong>University of Alberta — candidate pool</strong></summary>
+
+> 仅保留本轮前三名；当前均未联系。不要自动恢复已淘汰的 Alberta 第二梯队。详细定位见 [candidate pool](applications/university-of-alberta/README.md)。
+
+| 导师 | 邮箱 | 主要匹配 | 最近联系 | 历史 | 当前状态 | 下一步 |
+|---|---|---|---|---|---|---|
+| **Jocelyn Qiaochu Chen** | `jocelyn.chen@ualberta.ca` | reliable AI-assisted programming / PL-formal methods × code/tool agents | — | 0 | **NOT_CONTACTED** | 发信前刷新 capacity/funding；Alberta 首选 |
+| **Zhou Yang** | `zy25@ualberta.ca` | trustworthy CodeLLMs / AI4SE / robustness-security-privacy | — | 0 | **NOT_CONTACTED** | 发信前刷新 capacity/funding；第二顺位 |
+| **Majeed Kazemitabaar** | `majeedkazemi@ualberta.ca` | Human–AI interaction / end-user programming / GenAI programming | — | 0 | **NOT_CONTACTED** | 刷新其明确招生信号与 funding；第三顺位 |
+
+</details>
+
 <details open>
 <summary><strong>University of Macau — 已提交后的 supervisor-match 池</strong></summary>
 
@@ -158,6 +172,7 @@
 |---|---|---|
 | University of Macau | **SUBMITTED / supervisor matching** — `YPC711655` | [STATUS](applications/university-of-macau/STATUS.md) · [SUPERVISORS](applications/university-of-macau/SUPERVISORS.md) |
 | Concordia | **ACTIVE / supervisor match** | [STATUS](applications/concordia/STATUS.md) · [CONTACTS](applications/concordia/CONTACTS.md) |
+| University of Alberta | **WATCH / 3 SUPERVISORS ONLY** | [candidate pool](applications/university-of-alberta/README.md) |
 | SUTD | **APPLY_NOW** | [Singapore pool](targets/SINGAPORE-2026-09-17.md) |
 | PolyU / CityU / CUHK / HKUST | **APPLY** | [Hong Kong pool](targets/HONG-KONG-2026-09-17.md) |
 | HKU | **WATCH — academic equivalency** | [Hong Kong pool](targets/HONG-KONG-2026-09-17.md) |
