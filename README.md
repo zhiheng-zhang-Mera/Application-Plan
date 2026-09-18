@@ -15,7 +15,7 @@
 | **SENT / WAITING** | CityUHK | **Heqing Huang** | `heqhuang@cityu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#2-heqing-huang--cityuhk) | [定制 CV PDF](CV-generate/cityuhk-heqing-huang.pdf) + transcripts | **2026-09-18** | 等待回复；Nan Guan 暂不发送 |
 | **SENT / WAITING** | CUHK | **Yu Li** | `liyu@cse.cuhk.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#3-yu-li--cuhk) | [定制 CV PDF](CV-generate/cuhk-yu-li.pdf) + transcripts | **2026-09-18** | 等待回复 |
 | **SENT / WAITING** | SUTD | **Thanh Le-Cong** | `congthanh_le@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#1-thanh-le-cong) | [定制 CV PDF](CV-generate/sutd-thanh-le-cong.pdf) + transcripts | **2026-09-18** | 等待回复；Ezekiel 暂不发送 |
-| **SENT / WAITING** | University of Macau | **Li Li** | `LLiLi@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) | [定制 CV PDF](CV-generate/um-li-li.pdf) | **2026-09-18** | 等待回复；UM 下一位保持 HOLD |
+| **REPLIED / PRIVATE CONTACT** | University of Macau | **Li Li** | `LLiLi@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) | [定制 CV PDF](CV-generate/um-li-li.pdf) | **2026-09-18** | 已回复并主动转私人联系方式；视为 warm lead；冻结 UM/CIS 其他 cold outreach |
 | **SENT / WAITING** | Concordia | **Zhijie Wang** | `zhijie.wang@concordia.ca` | [follow-up](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#parallel-follow-up--zhijie-wang) | **无附件**；正文含 Boss / DS-Hns 链接 | **2026-09-18** | 等待回复；Concordia 新 cold outreach 暂缓 |
 
 ### 下一批候选池（材料已预生成）
@@ -27,7 +27,7 @@
 | 1 | Concordia | **Tse-Hsun (Peter) Chen** | `tse-hsun.chen@concordia.ca` | [正文](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#1--tse-hsun-peter-chen) | [PDF](CV-generate/concordia-tse-hsun-peter-chen.pdf) | **HOLD** — Zhijie 线无实质进展后再考虑 |
 | 2 | SUTD | **Ezekiel Soremekun** | `ezekiel_soremekun@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#2-ezekiel-soremekun) | [PDF](CV-generate/sutd-ezekiel-soremekun.pdf) | **HOLD** — Thanh cooldown / decline 后解锁 |
 | 3 | CityUHK | **Nan Guan** | `nanguan@cityu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#4-nan-guan--cityuhk) | [PDF](CV-generate/cityuhk-nan-guan.pdf) | **HOLD** — Heqing cooldown / decline 后解锁 |
-| 4 | University of Macau | **Xiaobo Zhou** | `waynexzhou@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#2-xiaobo-zhou--send-only-after-li-li-cooldown--decline) | [PDF](CV-generate/um-xiaobo-zhou.pdf) | **HOLD** — Li Li cooldown / decline 后解锁 |
+| 4 | University of Macau | **Xiaobo Zhou** | `waynexzhou@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#2-xiaobo-zhou--send-only-after-li-li-cooldown--decline) | [PDF](CV-generate/um-xiaobo-zhou.pdf) | **HOLD / FROZEN** — Li Li 已回复并转私人渠道；仅在该线明确结束后再解锁 |
 | 5 | PolyU | **Jing Li** | `jing-amelia.li@polyu.edu.hk` | 发送前再定制正文 | [PDF](CV-generate/polyyu-jing-li.pdf) | **HOLD** — Yu Pei cooldown / decline 后解锁 |
 
 ### 手动发送固定流程
@@ -142,7 +142,7 @@
 
 | 导师 | 邮箱 | 邮件稿 | 最近联系 | 联系历史 / 次数 | 当前状态 | 下一步 |
 |---|---|---|---|---|---|---|
-| **Li Li** | `LLiLi@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) | **2026-09-18** | 1 | **SENT / WAITING** | 等待回复；Xiaobo Zhou 保持 HOLD |
+| **Li Li** | `LLiLi@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) | **2026-09-18** | 1 + reply | **REPLIED / PRIVATE CONTACT / WARM LEAD** | 对方主动转私人联系方式；继续私人渠道沟通；暂不联系 Xiaobo Zhou 等 UM/CIS 导师 |
 | Xiaobo Zhou | `waynexzhou@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#2-xiaobo-zhou--send-only-after-li-li-cooldown--decline) | — | 0 | HOLD | Li Li clear 后解锁 |
 | Leong Hou U | `ryanlhu@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#3-leong-hou-u--send-only-after-earlier-um-contacts-clear) | — | 0 | HOLD | 前序 clear 后再发 |
 | Cheng-Zhong Xu | `czxu@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#4-cheng-zhong-xu--senior-systems-route) | — | 0 | HOLD | senior systems route；最后顺位 |
