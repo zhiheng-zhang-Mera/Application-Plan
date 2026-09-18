@@ -32,6 +32,11 @@ jobs:
             "cuhk-yu-li"
             "sutd-thanh-le-cong"
             "um-li-li"
+            "concordia-tse-hsun-peter-chen"
+            "sutd-ezekiel-soremekun"
+            "cityuhk-nan-guan"
+            "um-xiaobo-zhou"
+            "polyyu-jing-li"
           )
           cd CV-generate
           for name in "${files[@]}"; do
