@@ -6,7 +6,7 @@
 
 | Contact | Email | State | Current recruitment signal | Next action |
 |---|---|---|---|---|
-| Zhijie Wang | `zhijie.wang@concordia.ca` | interview/discussion completed | Official profile: **Seeking students** | Follow up only on concrete supervision, funding, and application mechanics |
+| Zhijie Wang | `zhijie.wang@concordia.ca` | interview/discussion completed; prior follow-up may have been missed | Official profile: **Seeking students** | Re-contact from Melbourne student email with Boss/Hns project update and closed-loop research framing |
 
 ## New first-contact batch
 
