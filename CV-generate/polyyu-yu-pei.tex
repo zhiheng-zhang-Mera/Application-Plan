@@ -1,0 +1,99 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.58in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{parskip}
+
+\definecolor{accent}{HTML}{1F1F1F}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=1.18em,itemsep=1.1pt,topsep=1.5pt,parsep=0pt,partopsep=0pt}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.40em}\rule{\textwidth}{0.32pt}]
+\titlespacing*{\section}{0pt}{0.55em}{0.28em}
+
+\newcommand{\entry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}X>{\raggedleft\arraybackslash}p{0.28\textwidth}@{}}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}
+}
+\newcommand{\project}[4]{%
+  \begin{tabularx}{\textwidth}{@{}X>{\raggedleft\arraybackslash}p{0.23\textwidth}@{}}
+    \textbf{#1} --- \textit{#2} & #3 \\
+    \multicolumn{2}{@{}l@{}}{\footnotesize #4}
+  \end{tabularx}
+}
+
+\begin{document}
+
+{\LARGE\bfseries Zhiheng Zhang}\\[-0.05em]
+\href{mailto:m15601654187@163.com}{m15601654187@163.com}
+\quad $\vert$ \quad
+\href{mailto:zhihezhang@student.unimelb.edu.au}{zhihezhang@student.unimelb.edu.au}\\
+\href{https://github.com/zhiheng-zhang-Mera}{github.com/zhiheng-zhang-Mera}
+\hfill Melbourne, Australia
+
+\vspace{0.30em}
+
+\section{Research Profile}
+Computer Science researcher and research engineer interested in \textbf{autonomous program repair, software testing, fault localization, and reliable coding-agent evaluation}. My current systems work focuses on long-horizon execution and on whether agent-generated tests and outputs provide meaningful evidence that intended software behavior has actually been repaired.
+
+\section{Education}
+\entry{University of Melbourne}{Melbourne, Australia}{Master's degree in Computer Science}{Expected 2026}
+\entry{University of British Columbia}{Vancouver, Canada}{Bachelor of Science in Computer Science}{Completed Summer 2024}
+
+\section{Selected Research and Engineering Projects}
+
+\project{DS-Hns}{Long-horizon autonomous software-work runtime}{2026--present}{\href{https://github.com/zhiheng-zhang-Mera/DS-Hns}{github.com/zhiheng-zhang-Mera/DS-Hns}}
+\begin{itemize}
+  \item Building an execution layer for unattended software work around the official DeepSeek Harness interface, with optional capabilities isolated as extensions.
+  \item Implemented ordered/scheduled task queues, hardware-adaptive local concurrency, unified task lifecycle and terminal events, task history, and terminal notifications.
+  \item Designed extension-failure isolation, restart/recovery-oriented execution, and an idempotent Windows installer with explicit optional-plugin flow.
+  \item Using the system as a testbed for \textbf{reliable coding agents, persistent execution, recovery, scheduling, and completion verification}.
+\end{itemize}
+
+\project{Codex Boss}{Multi-agent orchestration and evidence-based acceptance platform}{2026--present}{\href{https://github.com/zhiheng-zhang-Mera/Codex-Boss}{github.com/zhiheng-zhang-Mera/Codex-Boss}}
+\begin{itemize}
+  \item Building a platform for long-running AI workflows in which multiple agents can plan, execute, critique, and adjudicate work while preserving durable task state.
+  \item Developed platform foundations spanning durable state/events, capability boundaries, plugin isolation, knowledge/data lifecycle, dogfooding, and acceptance/verification.
+  \item Investigating how autonomous systems can distinguish genuine task completion from superficially plausible but weak evidence.
+  \item Current semantic-acceptance work deliberately retains unresolved failure cases: a vacuous case is rejected, while a meaningful case still exposes a false negative in the evidence reader rather than being reported as solved.
+  \item Current regression evidence on the relevant branch includes \textbf{2,508 unit tests across 215 files}, plus Electron, renderer, and test typechecking.
+\end{itemize}
+
+\project{Privacy Lens}{Trustworthy-software / privacy project}{}{}
+\begin{itemize}
+  \item Explored privacy-risk interpretation and user-facing warning mechanisms with attention to bounded interpretation, auditability, evidence boundaries, and trustworthy software behavior.
+  \item Supports broader interests in trustworthy AI, software governance, and high-stakes automated systems.
+\end{itemize}
+
+\project{Quant-Ultra}{Empirical quantitative-research and decision-system project}{2026--present}{\href{https://github.com/zhiheng-zhang-Mera/Quant-ultra}{github.com/zhiheng-zhang-Mera/Quant-ultra}}
+\begin{itemize}
+  \item Developed a personal quantitative-research platform with emphasis on robustness, temporal evaluation, data integrity, risk-aware decision making, and reproducible workflows.
+  \item Shifted the project away from headline-return claims toward evaluation quality, non-stationary data, temporal leakage, walk-forward reasoning, and auditable experiment infrastructure.
+\end{itemize}
+
+
+\section{Research Interests}
+Automated program repair; software testing and fault localization; coding-agent validation; regression-aware acceptance; empirical software engineering; long-horizon autonomous software maintenance.
+
+\section{Technical and Research Strengths}
+\begin{itemize}
+  \item End-to-end research engineering: problem formulation, system design, iterative implementation, testing, debugging, and empirical evaluation.
+  \item Multi-module software design with explicit persistence, lifecycle, extensibility, isolation, recovery, and acceptance criteria.
+  \item Git/GitHub-based experimental development, branch-based iteration, regression testing, and reproducible project documentation.
+  \item Practical multi-AI workflow design: using multiple AI systems as coding/research collaborators while independently reviewing plans, evidence, failure modes, and completion claims.
+\end{itemize}
+
+\section{Current Research Direction}
+I want to study \textbf{repair validation for autonomous coding agents}: how testing and fault-localization signals can distinguish behaviorally meaningful repairs from plausible patches or weak generated tests, and how these methods perform on real repositories over long-running maintenance tasks.
+
+\end{document}
