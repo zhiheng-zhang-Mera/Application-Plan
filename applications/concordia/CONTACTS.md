@@ -1,12 +1,12 @@
 # Concordia — Contacts
 
-**Last verified:** 2026-09-17
+**Last verified:** 2026-09-18
 
 ## Existing live lead
 
 | Contact | Email | State | Current recruitment signal | Next action |
 |---|---|---|---|---|
-| Zhijie Wang | `zhijie.wang@concordia.ca` | interview/discussion completed; prior follow-up may have been missed | Official profile: **Seeking students** | Re-contact from Melbourne student email with Boss/Hns project update and closed-loop research framing |
+| Zhijie Wang | `zhijie.wang@concordia.ca` | **follow-up sent 2026-09-18; waiting for reply** | Official profile: **Seeking students** | Hold new Concordia cold outreach while waiting; next candidate is Tse-Hsun (Peter) Chen if this line goes inactive |
 
 ## New first-contact batch
 
