@@ -6,16 +6,28 @@
 
 ## 🚀 当前人工发送批次
 
-> 原则：**同一学校 / 同一系不要同批连发。** 当前批次每校只放 1 个前台联系人；发完后回到下方台账更新 `最近联系 / 次数 / 状态 / 下一步`。
+> **2026-09-18：本轮 6 封已发送，当前统一进入等待回复阶段。** 同校 / 同系的新 cold outreach 暂不立即接续；优先等待回复或 cooldown 到期后再解锁下一位。
 
-| 操作 | 学校 | 导师 | 邮箱（直接复制） | 邮件正文 | 附件 / 辅助材料 | 当前联络历史 | 下一步 |
+| 状态 | 学校 | 导师 | 邮箱 | 邮件记录 | 已发送材料 | 最近联系 | 下一步 |
 |---|---|---|---|---|---|---|---|
-| **READY** | PolyU | **Yu Pei** | `csypei@comp.polyu.edu.hk` | [打开正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#1-yu-pei--polyu) | [定制 CV PDF](CV-generate/polyyu-yu-pei.pdf) + transcripts + [项目定位](materials/project-positioning.md) | 未联系 | 手动发送；发送后冻结 PolyU 同系新 cold outreach |
-| **READY** | CityUHK | **Heqing Huang** | `heqhuang@cityu.edu.hk` | [打开正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#2-heqing-huang--cityuhk) | [定制 CV PDF](CV-generate/cityuhk-heqing-huang.pdf) + transcripts + Boss / DS-Hns | 未联系 | 手动发送；Nan Guan / Zhisong 暂停 |
-| **READY** | CUHK | **Yu Li** | `liyu@cse.cuhk.edu.hk` | [打开正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#3-yu-li--cuhk) | [定制 CV PDF](CV-generate/cuhk-yu-li.pdf) + transcripts + [research profile](materials/research-profile.md) | 未联系 | 手动发送；主打 scientific agents / computational health |
-| **READY** | SUTD | **Thanh Le-Cong** | `congthanh_le@sutd.edu.sg` | [打开正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#1-thanh-le-cong) | [定制 CV PDF](CV-generate/sutd-thanh-le-cong.pdf) + transcripts + Boss / DS-Hns | 未联系 | 手动发送；SUTD 下一位先锁住 |
-| **READY** | University of Macau | **Li Li** | `LLiLi@um.edu.mo` | [打开正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) | [定制 CV PDF](CV-generate/um-li-li.pdf)；必要时 transcript / application info | 未联系 | 已提交申请后的 supervisor-match 联系；UM 其余导师先锁住 |
-| **FOLLOW-UP** | Concordia | **Zhijie Wang** | `zhijie.wang@concordia.ca` | [打开 follow-up](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#parallel-follow-up--zhijie-wang) | **无附件**；正文内含 Boss / DS-Hns 链接 | **已有邮件往来 + Zoom/讨论** | 用墨大学生邮箱重新触达；Concordia 新 cold outreach 暂缓 |
+| **SENT / WAITING** | PolyU | **Yu Pei** | `csypei@comp.polyu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#1-yu-pei--polyu) | [定制 CV PDF](CV-generate/polyyu-yu-pei.pdf) + transcripts | **2026-09-18** | 等待回复；cooldown 前不联系同校下一位 |
+| **SENT / WAITING** | CityUHK | **Heqing Huang** | `heqhuang@cityu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#2-heqing-huang--cityuhk) | [定制 CV PDF](CV-generate/cityuhk-heqing-huang.pdf) + transcripts | **2026-09-18** | 等待回复；Nan Guan 暂不发送 |
+| **SENT / WAITING** | CUHK | **Yu Li** | `liyu@cse.cuhk.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#3-yu-li--cuhk) | [定制 CV PDF](CV-generate/cuhk-yu-li.pdf) + transcripts | **2026-09-18** | 等待回复 |
+| **SENT / WAITING** | SUTD | **Thanh Le-Cong** | `congthanh_le@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#1-thanh-le-cong) | [定制 CV PDF](CV-generate/sutd-thanh-le-cong.pdf) + transcripts | **2026-09-18** | 等待回复；Ezekiel 暂不发送 |
+| **SENT / WAITING** | University of Macau | **Li Li** | `LLiLi@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) | [定制 CV PDF](CV-generate/um-li-li.pdf) | **2026-09-18** | 等待回复；UM 下一位保持 HOLD |
+| **SENT / WAITING** | Concordia | **Zhijie Wang** | `zhijie.wang@concordia.ca` | [follow-up](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#parallel-follow-up--zhijie-wang) | **无附件**；正文含 Boss / DS-Hns 链接 | **2026-09-18** | 等待回复；Concordia 新 cold outreach 暂缓 |
+
+### 下一批候选池（材料已预生成）
+
+> 这些人**不是立即发送名单**。只有当前同校联系人明确拒绝 / 无名额，或达到 cooldown 且仍无回复时，才按顺位解锁。
+
+| 顺位 | 学校 | 导师 | 邮箱 | 邮件稿 | 定制 CV | 当前状态 / 解锁条件 |
+|---:|---|---|---|---|---|---|
+| 1 | Concordia | **Tse-Hsun (Peter) Chen** | `tse-hsun.chen@concordia.ca` | [正文](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#1--tse-hsun-peter-chen) | [PDF](CV-generate/concordia-tse-hsun-peter-chen.pdf) | **HOLD** — Zhijie 线无实质进展后再考虑 |
+| 2 | SUTD | **Ezekiel Soremekun** | `ezekiel_soremekun@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#2-ezekiel-soremekun) | [PDF](CV-generate/sutd-ezekiel-soremekun.pdf) | **HOLD** — Thanh cooldown / decline 后解锁 |
+| 3 | CityUHK | **Nan Guan** | `nanguan@cityu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#4-nan-guan--cityuhk) | [PDF](CV-generate/cityuhk-nan-guan.pdf) | **HOLD** — Heqing cooldown / decline 后解锁 |
+| 4 | University of Macau | **Xiaobo Zhou** | `waynexzhou@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#2-xiaobo-zhou--send-only-after-li-li-cooldown--decline) | [PDF](CV-generate/um-xiaobo-zhou.pdf) | **HOLD** — Li Li cooldown / decline 后解锁 |
+| 5 | PolyU | **Jing Li** | `jing-amelia.li@polyu.edu.hk` | 发送前再定制正文 | [PDF](CV-generate/polyyu-jing-li.pdf) | **HOLD** — Yu Pei cooldown / decline 后解锁 |
 
 ### 手动发送固定流程
 
@@ -60,7 +72,7 @@
 
 | 导师 | 邮箱 | 邮件稿 | 最近联系 | 联系历史 / 次数 | 当前状态 | 下一步 |
 |---|---|---|---|---|---|---|
-| **Zhijie Wang** | `zhijie.wang@concordia.ca` | [follow-up](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#parallel-follow-up--zhijie-wang) | 已有历史线程 | 邮件往来 + 20-min Zoom/讨论 | **FOLLOW_UP** | 原线程询问 supervision / funding / next step |
+| **Zhijie Wang** | `zhijie.wang@concordia.ca` | [follow-up](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#parallel-follow-up--zhijie-wang) | **2026-09-18** | 邮件往来 + 20-min Zoom/讨论 + 本次学生邮箱追踪 | **SENT / WAITING** | 等待回复；暂缓 Concordia 新 cold outreach |
 | Tse-Hsun (Peter) Chen | `tse-hsun.chen@concordia.ca` | [正文](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#1--tse-hsun-peter-chen) | — | 0 | HOLD | Zhijie 线无实质进展后再解锁 |
 | Peter Rigby | `peter.rigby@concordia.ca` | [正文](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#2--peter-rigby) | — | 0 | HOLD | Chen 之后的同校顺位 |
 | Jinqiu Yang | `jinqiu.yang@concordia.ca` | [正文](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#3--jinqiu-yang) | — | 0 | HOLD | 同校 cooldown 后再考虑 |
@@ -78,7 +90,7 @@
 
 | 导师 | 学校 | 邮箱 | 邮件稿 / 操作 | 最近联系 | 历史 | 当前状态 | 下一步 |
 |---|---|---|---|---|---|---|---|
-| **Thanh Le-Cong** | SUTD | `congthanh_le@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#1-thanh-le-cong) | — | 0 | **READY** | 当前 SUTD 前台联系人 |
+| **Thanh Le-Cong** | SUTD | `congthanh_le@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#1-thanh-le-cong) | **2026-09-18** | 1 | **SENT / WAITING** | 等待回复；Ezekiel 保持 HOLD |
 | Ezekiel Soremekun | SUTD | `ezekiel_soremekun@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#2-ezekiel-soremekun) | — | 0 | HOLD | Thanh 无回应 / decline 后解锁 |
 | Ruochen (Esther) Zhao | SUTD | `esther_zhao@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#3-ruochen-esther-zhao) | — | 0 | HOLD | SUTD 后续顺位 |
 | Wenxuan Zhang | SUTD | `wxzhang@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#4-wenxuan-zhang) | — | 0 | HOLD | SUTD 后续顺位 |
@@ -94,9 +106,9 @@
 
 | 导师 | 学校 | 邮箱 | 邮件稿 | 最近联系 | 历史 | 当前状态 | 下一步 |
 |---|---|---|---|---|---|---|---|
-| **Yu Pei** | PolyU | `csypei@comp.polyu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#1-yu-pei--polyu) | — | 0 | **READY** | 当前 PolyU 前台联系人 |
-| **Heqing Huang** | CityUHK | `heqhuang@cityu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#2-heqing-huang--cityuhk) | — | 0 | **READY** | 当前 CityU 前台联系人 |
-| **Yu Li** | CUHK | `liyu@cse.cuhk.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#3-yu-li--cuhk) | — | 0 | **READY** | 当前 CUHK 前台联系人 |
+| **Yu Pei** | PolyU | `csypei@comp.polyu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#1-yu-pei--polyu) | **2026-09-18** | 1 | **SENT / WAITING** | 等待回复；Jing Li 保持 HOLD |
+| **Heqing Huang** | CityUHK | `heqhuang@cityu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#2-heqing-huang--cityuhk) | **2026-09-18** | 1 | **SENT / WAITING** | 等待回复；Nan Guan 保持 HOLD |
+| **Yu Li** | CUHK | `liyu@cse.cuhk.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#3-yu-li--cuhk) | **2026-09-18** | 1 | **SENT / WAITING** | 等待回复 |
 | Nan Guan | CityUHK | `nanguan@cityu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#4-nan-guan--cityuhk) | — | 0 | HOLD | Heqing clear 后才解锁 |
 | Zhisong Zhang | CityUHK | `zhisong.zhang@cityu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#5-zhisong-zhang--cityuhk) | — | 0 | WATCH | 先确认 exact 2027 capacity |
 | Zuming Jiang | HKU | `jzuming.hku@gmail.com` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#zuming-jiang) | — | 0 | WATCH | HKU honours/equivalency gate 清掉后发 |
@@ -115,7 +127,7 @@
 
 | 导师 | 邮箱 | 邮件稿 | 最近联系 | 联系历史 / 次数 | 当前状态 | 下一步 |
 |---|---|---|---|---|---|---|
-| **Li Li** | `LLiLi@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) | — | 0 | **READY** | 当前 UM 前台联系人 |
+| **Li Li** | `LLiLi@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) | **2026-09-18** | 1 | **SENT / WAITING** | 等待回复；Xiaobo Zhou 保持 HOLD |
 | Xiaobo Zhou | `waynexzhou@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#2-xiaobo-zhou--send-only-after-li-li-cooldown--decline) | — | 0 | HOLD | Li Li clear 后解锁 |
 | Leong Hou U | `ryanlhu@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#3-leong-hou-u--send-only-after-earlier-um-contacts-clear) | — | 0 | HOLD | 前序 clear 后再发 |
 | Cheng-Zhong Xu | `czxu@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#4-cheng-zhong-xu--senior-systems-route) | — | 0 | HOLD | senior systems route；最后顺位 |
