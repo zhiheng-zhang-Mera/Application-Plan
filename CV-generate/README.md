@@ -13,6 +13,11 @@ This folder contains the reusable LaTeX CV mother template and supervisor-specif
 | `sutd-thanh-le-cong.tex` | Thanh Le-Cong, SUTD | Reliable/secure AI4SE, coding agents, debugging and QA |
 | `um-li-li.tex` | Li Li, University of Macau | Resource-aware LLM/agent systems, scheduling and recovery |
 | `concordia-zhijie-wang.tex` | Zhijie Wang, Concordia | Reliable autonomous software engineering and multi-agent evaluation |
+| `concordia-tse-hsun-peter-chen.tex` | Tse-Hsun (Peter) Chen, Concordia | Coding agents, debugging, fault localization, AIOps |
+| `sutd-ezekiel-soremekun.tex` | Ezekiel Soremekun, SUTD | Trustworthy software/AI, Code LLM validation, testing/debugging |
+| `cityuhk-nan-guan.tex` | Nan Guan, CityUHK | LLM-aided system design, runtime/scheduling, reliability |
+| `um-xiaobo-zhou.tex` | Xiaobo Zhou, University of Macau | Systems ML, OS/distributed support for long-running AI workloads |
+| `polyyu-jing-li.tex` | Jing Li, PolyU | NLP/reasoning, trustworthy LLM agents, multi-agent evaluation |
 
 ## Maintenance rules
 
