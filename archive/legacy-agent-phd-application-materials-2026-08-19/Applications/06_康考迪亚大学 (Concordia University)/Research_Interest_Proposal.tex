@@ -1,0 +1,79 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.82in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,enumitem,tabularx,array,xcolor,hyperref,titlesec}
+\definecolor{accent}{HTML}{173B57}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\setlist{nosep,leftmargin=*}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\widowpenalty=10000
+\clubpenalty=10000
+\displaywidowpenalty=10000
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\newcommand{\ApplicantName}{Zhiheng Zhang}
+\newcommand{\ApplicantEmail}{\href{mailto:nicholas_zhang2020@163.com}{nicholas\_zhang2020@163.com}}
+\newcommand{\ApplicantPhone}{(+86)15601654187}
+\newcommand{\ApplicantGitHub}{\href{https://github.com/zhiheng-zhang-Mera/Quant-Ultra/tree/1988d9a8530da91a8158de864d098ea869098923}{Quant-Ultra @ 1988d9a}}
+\pagestyle{plain}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Research Interest Proposal}\\[0.25em]
+{\large \ApplicantName}\\
+Concordia University --- PhD application
+\end{center}
+\vspace{0.35em}\hrule\vspace{0.65em}
+
+\setlength{\parskip}{0.45em}
+\textbf{Contact:} \ApplicantEmail\quad | \quad \ApplicantPhone
+
+\textbf{Research title:} Quant-Ultra: Evidence-Aware Data and Software Infrastructure for Reproducible Financial ML
+
+\section*{Research Interest and Motivation}
+A Quant-Ultra result depends on source records, point-in-time queries, feature transformations, model versions, backtest configurations, validation checks, and decision rules. When these dependencies are scattered across logs and scripts, a favorable metric can be difficult to reproduce or challenge. The proposed research will make quantitative evidence lineage a first-class data and software object that can be queried, tested, optimized, and connected to bounded claims.
+
+\section*{Quant-Ultra Research Foundation}
+Quant-Ultra is the core platform for this proposal. It connects point-in-time market data, temporal-leakage controls, rolling evaluation, transaction-cost and turnover assumptions, risk-aware decision rules, monitoring, reconciliation, and machine-readable evidence bundles. Its design separates forecast quality from portfolio utility and treats a successful run as engineering evidence rather than proof of investment validity. Missing provenance, unstable results, failed reconciliation, or weak baselines trigger bounded review states instead of unsupported recommendations.
+
+The proposed doctoral work will make every quantitative result queryable through typed provenance, database constraints, software contracts, reconciliation, and optimized validation workflows. All extensions will preserve the same contract: historically available inputs, fold-local model selection, explicit frictions, reproducible configurations, retained negative results, and claims limited to the evidence produced.
+
+\section*{Research Questions}
+\begin{enumerate}
+\item Which provenance schema can connect market data, queries, features, models, backtests, validation evidence, and portfolio claims without excessive overhead?
+\item How can database constraints and software contracts prevent temporally invalid or inconsistent evidence from entering Quant-Ultra experiments?
+\item How should validation effort be allocated when checks differ in cost, latency, coverage, and risk consequence?
+\item Which engineering controls most improve reproducibility, fault localization, and independent review of quantitative results?
+\end{enumerate}
+
+\section*{Proposed Methodology}
+\textbf{Quant evidence model.} Design a typed lineage schema for market data, transformations, experiments, backtests, validation outcomes, and bounded decision claims.
+
+\textbf{Contract-based assurance.} Implement database constraints, property-based tests, reconciliation rules, and mutation tests that inject known quantitative evidence failures.
+
+\textbf{Validation optimization.} Select and schedule checks through constrained optimization balancing coverage, latency, compute cost, and risk consequence.
+
+\textbf{Reviewer-oriented evaluation.} Measure failure detection, fault-localization time, provenance-query performance, and effort required to reconstruct a reported result.
+
+\section*{Evaluation and Success Criteria}
+Experiments will begin with transparent statistical or rule-based baselines before adding more complex learning methods. Evaluation will report performance across rolling folds and market regimes, uncertainty or calibration where applicable, sensitivity to costs and constraints, and the stability of conclusions under alternative data and execution assumptions. Ablation studies will isolate the contribution of each new component. A method will be considered useful only when it improves reproducible evidence or bounded decision quality after realistic frictions, not merely when it raises an in-sample or pooled predictive metric.
+
+\newpage
+\section*{Departmental Fit}
+Concordia's strengths in databases, optimization, machine learning, and software engineering support a Quant-Ultra research agenda on how data and software architecture determine the reliability of quantitative evidence. This department-level framing allows complementary supervision while Quant-Ultra remains the common empirical platform, evaluation contract, and reproducibility boundary.
+
+\section*{Expected Contributions}
+\begin{enumerate}
+\item A queryable provenance model linking Quant-Ultra artifacts to validation evidence and claims.
+\item A failure-injection benchmark for data and software assurance in financial ML pipelines.
+\item Optimization methods for allocating validation effort under operational constraints.
+\end{enumerate}
+
+\section*{Preparation, Feasibility, and Risks}
+The existing Quant-Ultra implementation makes early prototyping feasible. The doctoral research will add a verified literature review, ethical and licensing review, simple baselines, preregistered ablations where appropriate, and independent replication. Negative or unstable results will remain part of the evidence record.
+
+Data licensing may restrict redistribution, so experiments will combine redistributable sources, synthetic controls, and published transformation code. System complexity may obscure causal conclusions; modular experiments and failure injection will keep individual mechanisms testable.
+
+\section*{Indicative Plan}
+Year 1: provenance schema and quantitative failure taxonomy. Year 2: contract-based assurance and mutation benchmark. Year 3: validation optimization and reviewer studies. Final period: cross-workflow synthesis, open artifacts, and dissertation integration.
+\end{document}

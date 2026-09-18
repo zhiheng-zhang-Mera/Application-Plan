@@ -1,0 +1,79 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.82in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,enumitem,tabularx,array,xcolor,hyperref,titlesec}
+\definecolor{accent}{HTML}{173B57}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\setlist{nosep,leftmargin=*}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\widowpenalty=10000
+\clubpenalty=10000
+\displaywidowpenalty=10000
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\newcommand{\ApplicantName}{Zhiheng Zhang}
+\newcommand{\ApplicantEmail}{\href{mailto:nicholas_zhang2020@163.com}{nicholas\_zhang2020@163.com}}
+\newcommand{\ApplicantPhone}{(+86)15601654187}
+\newcommand{\ApplicantGitHub}{\href{https://github.com/zhiheng-zhang-Mera/Quant-Ultra/tree/1988d9a8530da91a8158de864d098ea869098923}{Quant-Ultra @ 1988d9a}}
+\pagestyle{plain}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Research Interest Proposal}\\[0.25em]
+{\large \ApplicantName}\\
+University of Macau --- PhD application
+\end{center}
+\vspace{0.35em}\hrule\vspace{0.65em}
+
+\setlength{\parskip}{0.45em}
+\textbf{Contact:} \ApplicantEmail\quad | \quad \ApplicantPhone
+
+\textbf{Research title:} Quant-Ultra: Trustworthy Spatiotemporal and Graph Learning for Dynamic Financial Markets
+
+\section*{Research Interest and Motivation}
+Quant-Ultra already treats temporal validity, data provenance, realistic frictions, and bounded claims as first-class requirements in financial ML. The next research step is to model markets as evolving relational systems: assets, sectors, and risk exposures interact through structures that change across time. A reliable quantitative system must learn from these changing relationships without leaking future information or hiding instability behind pooled performance.
+
+\section*{Quant-Ultra Research Foundation}
+Quant-Ultra is the core platform for this proposal. It connects point-in-time market data, temporal-leakage controls, rolling evaluation, transaction-cost and turnover assumptions, risk-aware decision rules, monitoring, reconciliation, and machine-readable evidence bundles. Its design separates forecast quality from portfolio utility and treats a successful run as engineering evidence rather than proof of investment validity. Missing provenance, unstable results, failed reconciliation, or weak baselines trigger bounded review states instead of unsupported recommendations.
+
+The proposed doctoral work will develop point-in-time representations of evolving asset, sector, and market relationships, then evaluate temporal and graph-learning methods under regime change. All extensions will preserve the same contract: historically available inputs, fold-local model selection, explicit frictions, reproducible configurations, retained negative results, and claims limited to the evidence produced.
+
+\section*{Research Questions}
+\begin{enumerate}
+\item How should point-in-time data contracts represent evolving asset universes, graph edges, observation times, revisions, and permitted transformations?
+\item Which temporal, graph, or online-learning methods remain calibrated when market relationships and regimes change together?
+\item How can distributed feature and experiment pipelines preserve lineage while controlling latency and computational cost?
+\item Do relational signals improve risk-adjusted decisions after turnover, transaction costs, exposure limits, and uncertainty are applied?
+\end{enumerate}
+
+\section*{Proposed Methodology}
+\textbf{Point-in-time relational benchmark.} Extend Quant-Ultra with versioned market graphs and controlled changes to membership, edges, missingness, revisions, and regimes.
+
+\textbf{Adaptive graph learning.} Compare transparent temporal baselines with graph and online-learning methods using rolling windows, fold-local preprocessing, and regime-aware evaluation.
+
+\textbf{Constrained portfolio layer.} Feed calibrated forecasts into auditable allocation rules with turnover, cost, exposure, concentration, and drawdown constraints.
+
+\textbf{Distributed evidence.} Preserve source, feature, graph, model, and decision lineage across reproducible pipeline stages and measure the cost of stronger controls.
+
+\section*{Evaluation and Success Criteria}
+Experiments will begin with transparent statistical or rule-based baselines before adding more complex learning methods. Evaluation will report performance across rolling folds and market regimes, uncertainty or calibration where applicable, sensitivity to costs and constraints, and the stability of conclusions under alternative data and execution assumptions. Ablation studies will isolate the contribution of each new component. A method will be considered useful only when it improves reproducible evidence or bounded decision quality after realistic frictions, not merely when it raises an in-sample or pooled predictive metric.
+
+\newpage
+\section*{Departmental Fit}
+UM's strengths in data intelligence, optimization, and online and distributed systems support a Quant-Ultra extension focused on dynamic market structure and temporally valid graph evidence. This department-level framing allows complementary supervision while Quant-Ultra remains the common empirical platform, evaluation contract, and reproducibility boundary.
+
+\section*{Expected Contributions}
+\begin{enumerate}
+\item A point-in-time benchmark for evolving financial graphs and temporal distribution shift.
+\item Evaluation protocols separating relational predictive value from cost- and risk-adjusted decision utility.
+\item A provenance-aware distributed architecture for reproducible graph-based quantitative research.
+\end{enumerate}
+
+\section*{Preparation, Feasibility, and Risks}
+The existing Quant-Ultra implementation makes early prototyping feasible. The doctoral research will add a verified literature review, ethical and licensing review, simple baselines, preregistered ablations where appropriate, and independent replication. Negative or unstable results will remain part of the evidence record.
+
+Data licensing may restrict redistribution, so experiments will combine redistributable sources, synthetic controls, and published transformation code. System complexity may obscure causal conclusions; modular experiments and failure injection will keep individual mechanisms testable.
+
+\section*{Indicative Plan}
+Year 1: relational data contracts and transparent baselines. Year 2: adaptive graph learning and calibration. Year 3: constrained portfolio experiments and distributed provenance. Final period: cross-market validation and dissertation integration.
+\end{document}

@@ -1,0 +1,79 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.82in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,enumitem,tabularx,array,xcolor,hyperref,titlesec}
+\definecolor{accent}{HTML}{173B57}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\setlist{nosep,leftmargin=*}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\widowpenalty=10000
+\clubpenalty=10000
+\displaywidowpenalty=10000
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\newcommand{\ApplicantName}{Zhiheng Zhang}
+\newcommand{\ApplicantEmail}{\href{mailto:nicholas_zhang2020@163.com}{nicholas\_zhang2020@163.com}}
+\newcommand{\ApplicantPhone}{(+86)15601654187}
+\newcommand{\ApplicantGitHub}{\href{https://github.com/zhiheng-zhang-Mera/Quant-Ultra/tree/1988d9a8530da91a8158de864d098ea869098923}{Quant-Ultra @ 1988d9a}}
+\pagestyle{plain}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Research Interest Proposal}\\[0.25em]
+{\large \ApplicantName}\\
+University at Buffalo, SUNY --- PhD application
+\end{center}
+\vspace{0.35em}\hrule\vspace{0.65em}
+
+\setlength{\parskip}{0.45em}
+\textbf{Contact:} \ApplicantEmail\quad | \quad \ApplicantPhone
+
+\textbf{Research title:} Quant-Ultra: Anomaly-Aware Sequential Learning for Risk-Constrained Financial Decisions
+
+\section*{Research Interest and Motivation}
+Quant-Ultra provides point-in-time data, walk-forward evaluation, realistic costs, risk controls, monitoring, reconciliation, and audit evidence for financial ML. Its next research challenge is to distinguish data failure, transient anomaly, and persistent regime change while feedback is delayed. A quantitative system should not only detect unusual behavior; it should calibrate uncertainty and choose whether to continue, constrain, abstain, or request review.
+
+\section*{Quant-Ultra Research Foundation}
+Quant-Ultra is the core platform for this proposal. It connects point-in-time market data, temporal-leakage controls, rolling evaluation, transaction-cost and turnover assumptions, risk-aware decision rules, monitoring, reconciliation, and machine-readable evidence bundles. Its design separates forecast quality from portfolio utility and treats a successful run as engineering evidence rather than proof of investment validity. Missing provenance, unstable results, failed reconciliation, or weak baselines trigger bounded review states instead of unsupported recommendations.
+
+The proposed doctoral work will strengthen walk-forward evaluation with explicit anomaly, drift, delayed-feedback, uncertainty, and response-policy layers. All extensions will preserve the same contract: historically available inputs, fold-local model selection, explicit frictions, reproducible configurations, retained negative results, and claims limited to the evidence produced.
+
+\section*{Research Questions}
+\begin{enumerate}
+\item How can sequential models distinguish corrupted market data, transient anomalies, and persistent regime change?
+\item Which uncertainty and calibration measures remain informative under delayed labels, repeated model selection, and distribution shift?
+\item How should anomaly evidence change position limits, turnover, exposure, or abstention policies?
+\item Can distributed monitoring and provenance reduce false confidence while preserving a usable quantitative workflow?
+\end{enumerate}
+
+\section*{Proposed Methodology}
+\textbf{Sequential failure benchmark.} Extend Quant-Ultra with delayed-feedback simulations and controlled data, context, and regime anomalies evaluated through rolling windows.
+
+\textbf{Detection and calibration.} Compare statistical, representation, and Bayesian baselines using detection delay, false alarms, calibration, and post-change recovery.
+
+\textbf{Risk-aware response.} Map calibrated evidence into normal operation, constrained exposure, abstention, or review and measure downstream utility after costs.
+
+\textbf{Monitoring evidence.} Record data, model, uncertainty, alert, response, and portfolio lineage across reproducible pipeline stages.
+
+\section*{Evaluation and Success Criteria}
+Experiments will begin with transparent statistical or rule-based baselines before adding more complex learning methods. Evaluation will report performance across rolling folds and market regimes, uncertainty or calibration where applicable, sensitivity to costs and constraints, and the stability of conclusions under alternative data and execution assumptions. Ablation studies will isolate the contribution of each new component. A method will be considered useful only when it improves reproducible evidence or bounded decision quality after realistic frictions, not merely when it raises an in-sample or pooled predictive metric.
+
+\newpage
+\section*{Departmental Fit}
+UB CSE's strengths in machine learning, optimization, anomaly detection, and data-intensive systems support a Quant-Ultra research agenda on detecting market change and responding through bounded decisions. This department-level framing allows complementary supervision while Quant-Ultra remains the common empirical platform, evaluation contract, and reproducibility boundary.
+
+\section*{Expected Contributions}
+\begin{enumerate}
+\item A financial benchmark separating data failure, transient anomaly, and market regime change.
+\item Calibration protocols for delayed and shifting quantitative feedback.
+\item Auditable response policies connecting anomaly evidence to risk-constrained portfolio decisions.
+\end{enumerate}
+
+\section*{Preparation, Feasibility, and Risks}
+The existing Quant-Ultra implementation makes early prototyping feasible. The doctoral research will add a verified literature review, ethical and licensing review, simple baselines, preregistered ablations where appropriate, and independent replication. Negative or unstable results will remain part of the evidence record.
+
+Data licensing may restrict redistribution, so experiments will combine redistributable sources, synthetic controls, and published transformation code. System complexity may obscure causal conclusions; modular experiments and failure injection will keep individual mechanisms testable.
+
+\section*{Indicative Plan}
+Year 1: failure taxonomy and sequential baselines. Year 2: uncertainty calibration and shift-aware learning. Year 3: constrained response policies and distributed monitoring. Final period: cross-market evaluation and dissertation integration.
+\end{document}
