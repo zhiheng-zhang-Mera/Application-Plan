@@ -1,10 +1,17 @@
 # University of Macau — Status
 
-**State:** SUBMITTED / TARGETED SUPERVISOR MATCH  
+**State:** SUBMITTED / WARM SUPERVISOR LEAD  
 **Submitted:** 2026-08-20  
 **Application No.:** `YPC711655`  
 **Payment:** completed  
 **Supervisor-pool refresh:** 2026-09-17
+
+## Live lead update — 2026-09-18
+
+- **Li Li replied to the first supervisor-match outreach and moved the conversation to a private contact channel.**
+- Treat this as a **warm lead / active supervision discussion signal**, not as an admission or funding commitment.
+- The private contact detail itself is intentionally **not stored in this repository**.
+- **Freeze all other UM/CIS cold outreach** while this line is active. Re-open Xiaobo Zhou only if the Li Li line clearly ends or he explicitly redirects the applicant elsewhere.
 
 ## Current strategy
 
@@ -34,7 +41,15 @@
 
 ## Application-side notes
 
-UM PhD general route accepts a recognised Master's degree; English test applies when the previous degree's medium of instruction was not English. Funding is competitive and subject to quota/selection; do not treat application submission as funding confirmation.
+UM PhD general route accepts a recognised Master's degree; English test applies when the previous degree's medium of instruction was not English. Funding is competitive and subject to quota/selection; do not treat application submission, supervisor interest, or private-channel contact as funding confirmation.
+
+### Funding decision reference (verified 2026-09-18)
+
+- **UM PhD Scholarship (UMPS): MOP 20,000/month**, up to 48 months.
+- **UM PhD Teaching/Research Assistant Type A: starts at MOP 12,500/month**, with increases up to **MOP 14,000/month** under the progress-rating rules.
+- **Type B** is primarily tuition-offset support rather than a normal living stipend.
+- During an active UMPS/TRA support period, tuition is normally offset monthly from the stipend; the 2026/27 full PhD tuition is **MOP 150,000** over the normative period.
+- Working decision rule for this application: **MOP 20,000/month = strong accept-level funding; MOP 12,500–14,000/month = financially viable but compare against other offers; tuition-only/Type B = normally insufficient unless paired with another meaningful living stipend.**
 
 ## Recommendation-letter status
 
