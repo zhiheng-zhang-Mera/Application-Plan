@@ -10,12 +10,12 @@
 
 | 操作 | 学校 | 导师 | 邮箱（直接复制） | 邮件正文 | 附件 / 辅助材料 | 当前联络历史 | 下一步 |
 |---|---|---|---|---|---|---|---|
-| **READY** | PolyU | **Yu Pei** | `csypei@comp.polyu.edu.hk` | [打开正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#1-yu-pei--polyu) | CV + transcripts + [项目定位](materials/project-positioning.md) | 未联系 | 手动发送；发送后冻结 PolyU 同系新 cold outreach |
-| **READY** | CityUHK | **Heqing Huang** | `heqhuang@cityu.edu.hk` | [打开正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#2-heqing-huang--cityuhk) | CV + transcripts + Boss / DS-Hns | 未联系 | 手动发送；Nan Guan / Zhisong 暂停 |
-| **READY** | CUHK | **Yu Li** | `liyu@cse.cuhk.edu.hk` | [打开正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#3-yu-li--cuhk) | CV + transcripts + [research profile](materials/research-profile.md) | 未联系 | 手动发送；主打 scientific agents / computational health |
-| **READY** | SUTD | **Thanh Le-Cong** | `congthanh_le@sutd.edu.sg` | [打开正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#1-thanh-le-cong) | CV + transcripts + Boss / DS-Hns | 未联系 | 手动发送；SUTD 下一位先锁住 |
-| **READY** | University of Macau | **Li Li** | `LLiLi@um.edu.mo` | [打开正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) | CV；必要时 transcript / application info | 未联系 | 已提交申请后的 supervisor-match 联系；UM 其余导师先锁住 |
-| **FOLLOW-UP** | Concordia | **Zhijie Wang** | `zhijie.wang@concordia.ca` | [打开 follow-up](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#parallel-follow-up--zhijie-wang) | 复用原线程；项目进展即可 | **已有邮件往来 + Zoom/讨论** | 原线程跟进 supervision / funding / next step；Concordia 新 cold outreach 暂缓 |
+| **READY** | PolyU | **Yu Pei** | `csypei@comp.polyu.edu.hk` | [打开正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#1-yu-pei--polyu) | [定制 CV PDF](CV-generate/polyyu-yu-pei.pdf) + transcripts + [项目定位](materials/project-positioning.md) | 未联系 | 手动发送；发送后冻结 PolyU 同系新 cold outreach |
+| **READY** | CityUHK | **Heqing Huang** | `heqhuang@cityu.edu.hk` | [打开正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#2-heqing-huang--cityuhk) | [定制 CV PDF](CV-generate/cityuhk-heqing-huang.pdf) + transcripts + Boss / DS-Hns | 未联系 | 手动发送；Nan Guan / Zhisong 暂停 |
+| **READY** | CUHK | **Yu Li** | `liyu@cse.cuhk.edu.hk` | [打开正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#3-yu-li--cuhk) | [定制 CV PDF](CV-generate/cuhk-yu-li.pdf) + transcripts + [research profile](materials/research-profile.md) | 未联系 | 手动发送；主打 scientific agents / computational health |
+| **READY** | SUTD | **Thanh Le-Cong** | `congthanh_le@sutd.edu.sg` | [打开正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#1-thanh-le-cong) | [定制 CV PDF](CV-generate/sutd-thanh-le-cong.pdf) + transcripts + Boss / DS-Hns | 未联系 | 手动发送；SUTD 下一位先锁住 |
+| **READY** | University of Macau | **Li Li** | `LLiLi@um.edu.mo` | [打开正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) | [定制 CV PDF](CV-generate/um-li-li.pdf)；必要时 transcript / application info | 未联系 | 已提交申请后的 supervisor-match 联系；UM 其余导师先锁住 |
+| **FOLLOW-UP** | Concordia | **Zhijie Wang** | `zhijie.wang@concordia.ca` | [打开 follow-up](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#parallel-follow-up--zhijie-wang) | **无附件**；正文内含 Boss / DS-Hns 链接 | **已有邮件往来 + Zoom/讨论** | 用墨大学生邮箱重新触达；Concordia 新 cold outreach 暂缓 |
 
 ### 手动发送固定流程
 
