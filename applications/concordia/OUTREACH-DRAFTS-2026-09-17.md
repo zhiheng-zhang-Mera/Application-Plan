@@ -161,23 +161,60 @@ This is the broad empirical-SE version. Focus on traces, quality and maintainabi
 
 # Parallel follow-up — Zhijie Wang
 
-> Use this only for the existing email thread. Do not restart with a cold-email introduction.
+> Existing live lead. A previous follow-up was already sent from the personal email and may have been missed. For the next contact, use the University of Melbourne student email: `zhihezhang@student.unimelb.edu.au`.
+>
+> During the interview, Codex-Boss and DS-Hns were mentioned verbally but were not shown in detail. This follow-up is therefore framed as a project update / re-introduction rather than a second reminder.
 
 **To:** `zhijie.wang@concordia.ca`  
-**Suggested subject:** keep the existing thread subject
+**Subject:** `Follow-up and Project Updates after Our PhD Discussion`  
+**Send from:** `zhihezhang@student.unimelb.edu.au`
 
-Dear Professor Wang,
+Dear Prof. Wang,
 
-Thank you again for our earlier discussion. I wanted to send a short update because the two projects we discussed have moved forward substantially.
+I hope you are doing well. I am following up on our earlier PhD discussion. I previously sent a short follow-up from my personal email, but I thought it would be better to contact you again using my University of Melbourne student email in case the earlier message was missed.
 
-For **Codex Boss**, I have been restructuring the platform around durable state/events, capability boundaries, plugin isolation, knowledge/data lifecycle and acceptance/verification. The current semantic-acceptance work is deliberately testing cases where an agent can produce superficially plausible evidence; the latest branch rejects the vacuous case but still exposes a false-negative on a meaningful case, which I am treating as an evaluation problem rather than marking the phase complete. The current regression suite is 2,508 tests across 215 files.
+Thank you again for taking the time to speak with me. During our interview, I briefly mentioned my Codex-Boss and DS-Hns projects, although I did not have the opportunity to show them in detail. Since then, I have continued developing both projects substantially.
 
-**DS-Hns** has also become a more concrete long-horizon software-engineering system, with scheduled/ordered tasks, hardware-adaptive execution, explicit task lifecycle, failure isolation and a plugin-oriented architecture.
+Codex-Boss is evolving into an experimental framework for coordinating multiple AI agents across longer research and software-development workflows, including task decomposition, cross-agent review, persistent execution state, and evaluation pipelines.
 
-These developments have made me even more interested in research around reliable autonomous software engineering and evaluation. If you still see a possible supervision fit, could I ask what the next concrete step would be on your side, and how the funding / scholarship / RA or TA structure would normally work for a PhD student in your group?
+DS-Hns focuses more on the execution layer for long-running autonomous software-engineering tasks, including persistent task state, restart-and-resume mechanisms, modular capabilities, task delegation, and unattended development workflows.
 
-Best regards,
-Zhiheng Zhang
+One direction I am particularly interested in exploring is how these systems can form a closed-loop development process: Codex-Boss can coordinate planning, review, and evaluation; DS-Hns can carry out and maintain longer-running implementation tasks; and other software or research projects can serve as real task environments. The outcomes, failures, and evaluation signals from those projects could then feed back into the design of Boss and Hns, creating an iterative cycle of system improvement rather than treating each project independently.
+
+This has gradually shifted my interests toward broader research questions around autonomous agents, multi-agent coordination, long-horizon task execution, feedback-driven improvement, reliability, and evaluation. I believe some of these directions may overlap with the research topics we discussed during the interview.
+
+The two main projects are available here:
+
+Codex-Boss:  
+https://github.com/zhiheng-zhang-Mera/Codex-Boss
+
+DS-Hns:  
+https://github.com/zhiheng-zhang-Mera/DS-Hns
+
+My other projects are also available through my GitHub profile:  
+https://github.com/zhiheng-zhang-Mera
+
+I remain very interested in the possibility of pursuing PhD research under your supervision at Concordia. If you think these recent developments could fit with your current research directions, I would be very happy to discuss them further.
+
+Thank you again for your time and consideration.
+
+Best regards,  
+Zhiheng Zhang  
+Master of Computer Science  
+The University of Melbourne  
+zhihezhang@student.unimelb.edu.au  
+Personal email: m15601654187@163.com
+
+### Record / rationale
+
+- Previous follow-up: already sent from personal email; no confirmed response recorded.
+- Next follow-up route: University of Melbourne student email.
+- Interview context: Boss and Hns were mentioned but not demonstrated.
+- Core research framing: `Boss → Hns → external projects → evaluation/failure signals → Boss/Hns` as a closed-loop iterative improvement workflow.
+- Avoid describing this as completed “recursive self-improvement”; it is a research direction / system design hypothesis.
+- Direct repositories:
+  - https://github.com/zhiheng-zhang-Mera/Codex-Boss
+  - https://github.com/zhiheng-zhang-Mera/DS-Hns
 
 ## Send checklist
 
