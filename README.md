@@ -143,7 +143,7 @@
 
 | 项目 | 状态 | 详情 |
 |---|---|---|
-| University of Macau | **SUBMITTED / supervisor matching** | [STATUS](applications/university-of-macau/STATUS.md) · [SUPERVISORS](applications/university-of-macau/SUPERVISORS.md) |
+| University of Macau | **SUBMITTED / supervisor matching** — `YPC711655` | [STATUS](applications/university-of-macau/STATUS.md) · [SUPERVISORS](applications/university-of-macau/SUPERVISORS.md) |
 | Concordia | **ACTIVE / supervisor match** | [STATUS](applications/concordia/STATUS.md) · [CONTACTS](applications/concordia/CONTACTS.md) |
 | SUTD | **APPLY_NOW** | [Singapore pool](targets/SINGAPORE-2026-09-17.md) |
 | PolyU / CityU / CUHK / HKUST | **APPLY** | [Hong Kong pool](targets/HONG-KONG-2026-09-17.md) |
