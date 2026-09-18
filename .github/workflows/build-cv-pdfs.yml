@@ -1,0 +1,52 @@
+name: Build tailored CV PDFs
+
+on:
+  push:
+    paths:
+      - ".github/workflows/build-cv-pdfs.yml"
+      - "CV-generate/*.tex"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            latexmk texlive-latex-base texlive-latex-recommended \
+            texlive-latex-extra texlive-fonts-recommended lmodern
+
+      - name: Compile tailored CVs
+        run: |
+          set -euo pipefail
+          files=(
+            "polyyu-yu-pei"
+            "cityuhk-heqing-huang"
+            "cuhk-yu-li"
+            "sutd-thanh-le-cong"
+            "um-li-li"
+          )
+          cd CV-generate
+          for name in "${files[@]}"; do
+            latexmk -pdf -interaction=nonstopmode -halt-on-error "${name}.tex"
+          done
+          rm -f *.aux *.fdb_latexmk *.fls *.log *.out
+
+      - name: Commit PDFs
+        run: |
+          if git diff --quiet -- CV-generate/*.pdf && git ls-files --error-unmatch CV-generate/polyyu-yu-pei.pdf >/dev/null 2>&1; then
+            echo "PDFs already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CV-generate/*.pdf
+          git commit -m "Build tailored CV PDFs [skip ci]" || exit 0
+          git push
