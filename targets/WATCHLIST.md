@@ -12,7 +12,7 @@
 | Queen's University | Filipe Cogo / Yuan Tian / Bram Adams 以 empirical SE、software analytics、DevOps 为主 | Computing PhD 要求 Master's minimum **A standing / first class** |
 | Dalhousie University | Tushar Sharma / Masud Rahman 的 refactoring、debugging、maintenance、repository mining 偏工程/实验 | CS PhD 要求相关 Master's **minimum A- average** |
 | University of British Columbia | Caroline Lemieux 的 testing / SE tooling 很合适 | PhD academic-equivalency 需按官方规则确认 |
-| University of Alberta | Zhou Yang 的 trustworthy codeLLMs 很直接；Matthew Taylor 可作 multi-agent 系统备选 | Computing Science academic/research-master route、英语/GRE 口径待精确核验 |
+| University of Alberta | **仅保留 Jocelyn Qiaochu Chen / Zhou Yang / Majeed Kazemitabaar**；分别对应 reliable AI-assisted programming、trustworthy CodeLLMs/AI4SE、Human–AI/end-user programming | Computing Science 最终成绩等效、导师当前 capacity 与具体 funding route 发信前刷新；候选池见 `applications/university-of-alberta/README.md` |
 | **Nanyang Technological University — CCDS PhD** | Penghui Li 当前明确招 Spring/Fall 2027 PhD；Yewen Pu 的 agent/code-generation fit 也高 | 当前 CCDS 页面要求 strong Bachelor's with minimum **Honours (Distinction) or equivalent**；UBC BSc 等效未确认 |
 | **University of Hong Kong — CS/CDS PhD** | **Zuming Jiang / Ka Ho Chow / Heming Cui** 都有当前明确或持续 PhD recruitment signal，且 systems / security / trustworthy AI 与 Boss/DS-Hns 高匹配 | 当前 HKU admission language normally requires a **bachelor's degree with honours or equivalent**；repo 尚未有 UBC honours-equivalency 书面依据。英语和 funding 本身不是主要阻塞。 |
 | NTNU — Trustworthy Agentic AI vacancy | agentic AI + autonomous systems，职位制、偏实现应用 | 通常要求 NTNU scale **B 或更好**；需做成绩等效 + 英语材料核验 |
