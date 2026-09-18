@@ -1,6 +1,6 @@
 # University of Macau Outreach Drafts — 2026-09-17
 
-> Application already submitted on 2026-08-20. These are targeted supervisor-match drafts, not a batch campaign. Send sequentially with the UM/CIS cooldown rule.
+> Application already submitted on 2026-08-20. **Application No.: `YPC711655`.** These are targeted supervisor-match drafts, not a batch campaign. Send sequentially with the UM/CIS cooldown rule.
 >
 > Do not re-contact Lin Yan unless new recruitment evidence appears.
 
@@ -106,6 +106,6 @@ Zhiheng Zhang
 - [ ] Default first contact: **Li Li**.
 - [ ] Wait 3–5 working days before moving to the next UM/CIS candidate unless the current professor explicitly declines / has no capacity.
 - [ ] If any professor becomes interested or enters supervision discussion, freeze the remaining UM/CIS cold-outreach queue.
-- [ ] Attach latest CV; provide transcripts/application reference only as appropriate.
+- [ ] Attach latest CV; provide transcripts/application reference only as appropriate. UM application number: `YPC711655`.
 - [ ] Do not claim funding is guaranteed. UM scholarship/assistantship is competitive and quota/selection dependent.
 - [ ] Do not describe Codex Boss semantic acceptance as fully solved; keep current claims conservative.
