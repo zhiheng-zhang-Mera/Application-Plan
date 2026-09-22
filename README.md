@@ -20,14 +20,13 @@
 
 ### 今日联络池（2026-09-22，全量刷新）
 
-> **旧“下一批候选池”作废，不作为今日排序依据。** 当前保留 4 个通过全部硬门禁的槽位；不为了凑数保留理论负担或 internal-only 边缘项。详细 recruitment evidence、门禁和操作说明见 [今日池](targets/CONTACT-POOL-2026-09-22.md)。
+> **旧“下一批候选池”作废，不作为今日排序依据。** 当前保留 3 个通过全部硬门禁的槽位；不为了凑数保留理论负担或 internal-only 边缘项。详细 recruitment evidence、门禁和操作说明见 [今日池](targets/CONTACT-POOL-2026-09-22.md)。
 
 | 顺位 | 学校 | 导师 / Lab | 联系方式 | 材料包 | 当前信号 | 今日状态 |
 |---:|---|---|---|---|---|---|
 | 1 | HKU | **Ka Ho Chow** | `kachow@cs.hku.hk` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#2-ka-ho-chow--university-of-hong-kong) · [CV source](CV-generate/hku-ka-ho-chow.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | 官方页明确 **several PhD openings** | **BODY_READY / CV_PDF_PENDING** |
 | 2 | Simon Fraser University | **Keval Vora** | `keval@sfu.ca` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#3-keval-vora--simon-fraser-university) · [CV source](CV-generate/sfu-keval-vora.tex) · transcript only if requested | 当前页明确 **Open Positions** / prospective grads contact | **BODY_READY / CV_PDF_PENDING** |
-| 3 | KAUST | **Marco Canini** | `marco@kaust.edu.sa` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#4-marco-canini--kaust) · [CV source](CV-generate/kaust-marco-canini.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | SANDS 当前页明确接收 prospective PhD interest | **BODY_READY / CV_PDF_PENDING** |
-| 4 | CUHK-Shenzhen | **Xiaoxue Gao** | `gaoxiaoxue@cuhk.edu.cn` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#5-xiaoxue-gao--cuhk-shenzhen) · [CV source](CV-generate/cuhksz-xiaoxue-gao.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | Spring/Fall 2027 **fully funded PhD**；明确欢迎直接邮件；Agentic AI / multimodal / trustworthy AI | **BODY_READY / CV_PDF_PENDING** |
+| 3 | CUHK-Shenzhen | **Xiaoxue Gao** | `gaoxiaoxue@cuhk.edu.cn` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#5-xiaoxue-gao--cuhk-shenzhen) · [CV source](CV-generate/cuhksz-xiaoxue-gao.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | Spring/Fall 2027 **fully funded PhD**；明确欢迎直接邮件；Agentic AI / multimodal / trustworthy AI | **BODY_READY / CV_PDF_PENDING** |
 
 > **刷新今日池时必须依次过三道硬门禁：公开邮箱、允许直接联系、非纯算法/纯理论。** 任一失败都直接删除候选；通过后才生成正文和材料包。没有当日正文/package 的候选不得标 `READY`；PDF 等真实附件不存在时必须显式保留 `*_PENDING`，不能假绿灯。
 
@@ -183,7 +182,7 @@
 | NUS | **BACKUP** | [BACKUP](targets/BACKUP.md) |
 | NTU | **WATCH** | [WATCHLIST](targets/WATCHLIST.md) |
 | TU Delft WALTZ | **APPLY_NOW** | [ACTIVE](targets/ACTIVE.md) |
-| KAUST | **ACTIVE** | [ACTIVE](targets/ACTIVE.md) |
+| KAUST | **VERIFY OTHER PI / Marco excluded for 2027 capacity conflict** | [ACTIVE](targets/ACTIVE.md) |
 | CUHK-Shenzhen — SAI | **ACTIVE / direct-email outreach** | [ACTIVE](targets/ACTIVE.md) |
 | Buffalo / SMU | **CLOSED / REJECTED** | [REJECTED](targets/REJECTED.md) |
 
