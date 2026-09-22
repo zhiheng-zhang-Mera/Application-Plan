@@ -2,7 +2,7 @@
 
 > Generated together with `targets/CONTACT-POOL-2026-09-22.md`.
 >
-> **Contract:** a candidate is not `READY` unless this file contains a current individualized body/form response and the contact-pool row contains a material package. Refreshing the pool must regenerate this file rather than reusing an old body unchanged.
+> **Contract:** a candidate first needs a publicly verified direct supervisor email. If no public email exists, delete the candidate from outreach surfaces. Only then may this file generate the individualized body/form response and material package. Refreshing the pool must regenerate this file rather than reusing an old body unchanged.
 
 ## Common material base
 
@@ -151,7 +151,8 @@ Zhiheng Zhang
 
 ## 5. NYU Abu Dhabi — SANAD Lab — Sarah Nadi / Karim Ali
 
-> **Do not cold-email.** Use the SANAD internal interest form, then complete the separate formal NYU application.
+**Verified public emails:** `sarah.nadi@nyu.edu` / `karim.ali@nyu.edu`  
+**Official action for this opening:** **do not cold-email**; use the SANAD internal interest form, then complete the separate formal NYU application.
 
 ### Form-ready research-interest text
 
@@ -177,6 +178,7 @@ My background is in Computer Science: a BSc from UBC and a current Master’s de
 
 Before changing any row from `READY` to `SENT` / `SUBMITTED`:
 
+- [x] public direct supervisor email exists and is verified from an official/public source;
 - [ ] recruitment/capacity page re-opened on send day;
 - [x] individualized body/form text exists in this daily pack;
 - [ ] candidate-specific CV PDF exists if the target requests a CV;
