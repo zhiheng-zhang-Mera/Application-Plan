@@ -2,7 +2,7 @@
 
 ## Decision flow
 
-`Hard Gate → Research Method Fit → Public Contact Email Gate → Current Recruitment / Capacity → Program-Supervisor Compatibility → Friction → Utility → Action State`
+`Hard Gate → Research Method Fit → Public Contact Email Gate → Direct-Contact Channel Gate → Current Recruitment / Capacity → Program-Supervisor Compatibility → Friction → Utility → Action State`
 
 ## Hard Gate
 
@@ -76,7 +76,8 @@ Capture for each supervisor or vacancy:
 Rules:
 
 - Do not reject a mixed supervisor merely because their profile mentions formal methods, verification, optimization, PL, scientific ML, or simulation. Check whether there is a concrete systems/empirical/applied project track.
-- `pure_theory` or `method_mismatch=true` normally means `PRUNED` or `REJECT`, unless an explicit applied/systems project is available.
+- **Pure algorithm/theory routes are hard-excluded from outreach.** If the supervisor/vacancy is primarily algorithms theory, theorem/proof work, complexity, proof-centric formal methods, theoretical ML/optimization, or derivation-first research with implementation only auxiliary, delete it from outreach candidate surfaces.
+- `pure_theory` -> exclude. `method_mismatch=true` -> exclude. A mixed supervisor survives only when a concrete systems/empirical/applied subtrack is explicitly available and that subtrack is the proposed route.
 - `theory_heavy` with a clear implementation/experiment subtrack may remain `BACKUP` or `WATCH`.
 - If research method is unclear, keep `method_mismatch=unknown`; do not promote solely on topic-keyword similarity.
 - Recent student projects and papers matter more than broad faculty-profile keywords.
@@ -100,6 +101,25 @@ Rules:
 - a contact form, application portal, LinkedIn account, or private contact channel does **not** substitute for the public-email gate;
 - if a public email exists but the advertised position explicitly asks applicants to use a form rather than email, the candidate may remain eligible, but the stored action must follow the advertised form route and the public email is kept only as verified contact identity;
 - historical outreach events may remain in the audit log even if the old address is no longer publicly recoverable; the deletion rule applies to **candidate eligibility**, not destruction of historical evidence.
+
+## Direct-Contact Channel Gate
+
+A public email is necessary but **not sufficient**. The advertised PhD/supervisor route must also permit direct outreach.
+
+Capture:
+
+- `contact_channel`: `direct_email_allowed | email_or_form | internal_only | unknown`
+- `contact_channel_evidence`
+- `contact_channel_source_url`
+- `contact_channel_last_verified`
+
+Rules:
+
+- `direct_email_allowed` or `email_or_form` -> eligible, subject to the other gates;
+- `internal_only` -> **delete from outreach candidate surfaces immediately**, even if the supervisor has a public email;
+- treat a route as `internal_only` when the current recruitment page explicitly says to use only an internal form/portal, explicitly says not to email, or provides no direct-contact application path;
+- a normal university application that is required **in addition to** a supervisor who explicitly welcomes direct email is not `internal_only`;
+- `unknown` -> verify before promotion; do not place in the current contact pool.
 
 ## Current Recruitment / Capacity Gate
 
