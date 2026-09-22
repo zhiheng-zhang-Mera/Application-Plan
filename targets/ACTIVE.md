@@ -10,7 +10,6 @@
 
 | 学校 / 职位 | 状态 | Research Method Fit | 当前最匹配路线 | 下一步 |
 |---|---|---|---|---|
-| University of Alberta | **OUTREACH_READY / DEGREE-ROUTE VERIFY** | Excellent — AI-assisted programming / program synthesis / reliable code | DS-Hns + Boss | **Jocelyn Qiaochu Chen 今日 READY**；邮件中不回避其 research-based MSc → PhD 路径说明 |
 | HKU — Computing PhD | **OUTREACH_READY / APPLICATION-GATE VERIFY** | Excellent — trustworthy AI / security / systems | Boss + DS-Hns + Privacy Lens | **Ka Ho Chow 今日 READY**；正式申请前继续核 academic-equivalency gate |
 | Simon Fraser University | **OUTREACH_READY / VERIFY MASTER ROUTE** | Excellent — systems / scalable runtime / software infrastructure | DS-Hns + Boss | **Keval Vora 今日 READY**；当前页明确 Open Positions |
 | KAUST | **OUTREACH_READY / APPLY** | Excellent — AI/ML systems / distributed infrastructure | DS-Hns + Boss | **Marco Canini 今日 READY**；Fall 2027 formal application 2026-09-28 open |
@@ -47,7 +46,7 @@
 
 ## 当前执行顺序（刷新 2026-09-22）
 
-1. **今日新联络池** — Jocelyn Qiaochu Chen (UAlberta) → Ka Ho Chow (HKU) → Keval Vora (SFU) → Marco Canini (KAUST) → Xiaoxue Gao (CUHK-Shenzhen)；见 `targets/CONTACT-POOL-2026-09-22.md`。
+1. **今日新联络池** — Ka Ho Chow (HKU) → Keval Vora (SFU) → Marco Canini (KAUST) → Xiaoxue Gao (CUHK-Shenzhen)；见 `targets/CONTACT-POOL-2026-09-22.md`。不为凑满 5 个保留理论负担或 internal-only 候选。
 2. **TU Delft WALTZ** — 2026-09-24 vacancy deadline；这是 direct application，不占 supervisor cold-contact school lock。
 3. **2026-09-25 expiry sweep** — 若仍无实质回复：Yu Pei / Heqing Huang / Yu Li / Thanh Le-Cong 各发唯一一次 second/final follow-up 并同时解锁对应学校；Zhijie Wang 线改 DORMANT 并解锁 Concordia，不发第三封。
 4. **KAUST Fall 2027** — 2026-09-28 开放正式申请；Marco Canini 当前 outreach 与正式申请可并行，但不把导师回复当作申请硬前置。
