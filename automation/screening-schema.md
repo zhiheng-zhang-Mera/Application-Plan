@@ -148,6 +148,8 @@ Rules:
 - `not_accepting` -> exclude from outreach immediately.
 - `unknown` -> research/verify first; do **not** place in the first-contact five.
 - `likely_open` -> may remain in the wider pool, but loses to equally matched candidates with explicit current recruitment evidence.
+- A generic evergreen statement such as “always interested in hearing from potential students” proves contact openness, **not current-intake PhD capacity**. It cannot promote a supervisor into the daily outreach pool without intake-specific or otherwise current capacity evidence.
+- If current sources conflict on capacity, use `recruitment_status=unknown` and exclude from the current outreach pool until resolved.
 - For supervisor-match programmes such as Concordia CS/SE PhD, current capacity and exact program compatibility are high-priority execution criteria because an admission offer depends on establishing a supervisor match.
 - If a faculty member recruits for a different PhD program only, do not assume they can complete the current application's supervisor match. Mark compatibility `unknown` or `incompatible` until verified.
 - Re-verify recruitment status immediately before every outreach batch; do not inherit it indefinitely from an earlier screening round.
