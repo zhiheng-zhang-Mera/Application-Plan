@@ -2,6 +2,20 @@
 
 > 只维护可复用母版；学校特例放到各 application/target 页面。
 
+## Outreach material-package convention
+
+The human outreach UI uses **one material-package entry per supervisor** rather than separate "email body" and "attachments" columns.
+
+A complete package can contain:
+
+- individualized subject + full email body, or form-ready text for no-email targets;
+- candidate-specific research CV **PDF when the target requests a CV**;
+- transcript/supporting academic document only when appropriate for that target;
+- project links and any target-specific research-interest text;
+- an explicit state for anything not yet real, e.g. `CV_SOURCE_GENERATED / CV_PDF_PENDING`.
+
+Daily pool refreshes must create a same-date `applications/OUTREACH-PACK-YYYY-MM-DD.md`. Missing artifacts must be shown as pending; never link to an invented PDF.
+
 ## Academic
 
 - [ ] UBC transcript
