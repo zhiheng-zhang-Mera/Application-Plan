@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-09-16
+updated_at: 2026-09-22
 
 supervisors:
   - id: concordia-zhijie-wang
@@ -260,3 +260,34 @@ supervisors:
     narrative_route: [ds-hns, privacy-lens]
     next_action: "Pitch 24h-style fault-tolerant autonomous execution, restart/recovery and security boundaries."
     source_url: https://cs.kaust.edu.sa/profiles/table
+
+
+  - id: cuhksz-xiaoxue-gao
+    university: The Chinese University of Hong Kong, Shenzhen
+    name: Xiaoxue Gao
+    program_id: cuhksz-sai-ai-phd
+    public_contact_email: gaoxiaoxue@cuhk.edu.cn
+    public_contact_email_source_url: https://sai.cuhk.edu.cn/en/teacher/322
+    public_contact_email_last_verified: 2026-09-22
+    public_contact_email_status: verified
+    contact_channel: direct_email_allowed
+    contact_channel_source_url: https://xiaoxue1117.github.io/
+    contact_channel_last_verified: 2026-09-22
+    recruitment_status: funding_available
+    recruitment_scope: phd
+    recruitment_evidence: "Recruiting fully funded PhD students for Spring/Fall 2027; interested applicants are asked to email CV and target intake/position."
+    recruitment_source_url: https://xiaoxue1117.github.io/
+    recruitment_last_verified: 2026-09-22
+    research_domain: agentic_ai
+    research_method: empirical
+    theory_burden: low
+    domain_theory_burden: medium
+    implementation_centrality: high
+    experiment_centrality: high
+    simulation_centrality: low
+    method_mismatch: false
+    style_evidence: "Selected route is agentic AI / multimodal language models / trustworthy AI with system building, robustness/safety evaluation and empirical benchmarking; speech/audio is an application domain rather than a claimed prior specialty."
+    contact_state: not_contacted
+    fit_summary: "Strong applied agentic/multimodal/trustworthy-AI fit with direct email recruitment; use Boss/DS-Hns reliability and evaluation narrative without claiming speech expertise."
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+    next_action: "Use the 2026-09-22 generated outreach package after the tailored CV PDF is compiled and checked."
