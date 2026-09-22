@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-09-16
+updated_at: 2026-09-22
 
 programs:
   - id: university-of-macau-cs-phd
@@ -349,4 +349,42 @@ programs:
     friction: {supervisor_first: false, interview_burden: unknown, exam_burden: none, outreach_burden: recommended, proposal_burden: unknown, reference_count: unknown, application_fee: unknown, video_allowed: unknown}
     utility: {funding: excellent, research_fit: good, coding_systems_fit: excellent, graduation_burden: mixed, cost_coverage: excellent}
     lifestyle: {lgbt_trans: {level: difficult, notes: "Keep as a low-weight lifestyle caution; does not change the admission/funding hard-gate result.", last_verified: 2026-09-16}, acg: {level: limited, notes: ""}}
+    narrative_route: [codex-boss, ds-hns, privacy-lens]
+
+
+  - id: cuhksz-sai-ai-phd
+    university: The Chinese University of Hong Kong, Shenzhen
+    program: MPhil-PhD in Artificial Intelligence
+    country_region: China
+    action_state: APPLY
+    decision_note: "Current Xiaoxue Gao route explicitly welcomes direct supervisor email for fully funded Spring/Fall 2027 PhD recruitment. Official SAI admissions allow applicants to contact preferred supervisors in advance or apply directly; an English-medium prior degree satisfies the listed English-language route."
+    verification:
+      last_verified: 2026-09-22
+      source_urls:
+        - https://sai.cuhk.edu.cn/en/node/35
+        - https://xiaoxue1117.github.io/
+    hard_gates:
+      gre_required: false
+      english_retest_required: false
+      funded: true
+      academic_floor_pass: unknown
+      region_pass: true
+    friction:
+      supervisor_first: false
+      interview_burden: unknown
+      exam_burden: none
+      outreach_burden: recommended
+      proposal_burden: normal
+      reference_count: 2
+      application_fee: RMB600
+      video_allowed: unknown
+    utility:
+      funding: good
+      research_fit: excellent
+      coding_systems_fit: good
+      graduation_burden: unknown
+      cost_coverage: good
+    lifestyle:
+      lgbt_trans: {level: unknown, notes: "", last_verified: null}
+      acg: {level: unknown, notes: ""}
     narrative_route: [codex-boss, ds-hns, privacy-lens]
