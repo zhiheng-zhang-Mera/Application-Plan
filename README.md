@@ -9,34 +9,34 @@
 > **2026-09-22：今日联络池已全量刷新，旧池不顺延。** 2026-09-18 已联络的导师及其学校/院系继续占用学校锁，因此 **Concordia、SUTD、PolyU、CityUHK、CUHK、University of Macau 不进入今日新首发池**。
 > 今日完整筛选与最新证据见 [targets/CONTACT-POOL-2026-09-22.md](targets/CONTACT-POOL-2026-09-22.md)；历史事件见 [applications/OUTREACH-LOG.md](applications/OUTREACH-LOG.md)。
 
-| 状态 | 学校 | 导师 | 邮箱 | 邮件记录 | 已发送材料 | 最近联系 | 失效 / 解锁触发 | 下一步 |
-|---|---|---|---|---|---|---|---|---|
-| **SENT / WAITING** | PolyU | **Yu Pei** | `csypei@comp.polyu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#1-yu-pei--polyu) | [定制 CV PDF](CV-generate/polyyu-yu-pei.pdf) + transcripts | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 PolyU | 到期前等待；到期只追 1 次 |
-| **SENT / WAITING** | CityUHK | **Heqing Huang** | `heqhuang@cityu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#2-heqing-huang--cityuhk) | [定制 CV PDF](CV-generate/cityuhk-heqing-huang.pdf) + transcripts | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 CityUHK | 到期前等待；到期只追 1 次 |
-| **SENT / WAITING** | CUHK | **Yu Li** | `liyu@cse.cuhk.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#3-yu-li--cuhk) | [定制 CV PDF](CV-generate/cuhk-yu-li.pdf) + transcripts | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 CUHK | 到期前等待；到期只追 1 次 |
-| **SENT / WAITING** | SUTD | **Thanh Le-Cong** | `congthanh_le@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#1-thanh-le-cong) | [定制 CV PDF](CV-generate/sutd-thanh-le-cong.pdf) + transcripts | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 SUTD | 到期前等待；到期只追 1 次 |
-| **REPLIED / PRIVATE CONTACT** | University of Macau | **Li Li** | `LLiLi@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) | [定制 CV PDF](CV-generate/um-li-li.pdf) | **2026-09-18** | **不自动失效**：明确结束/无名额，或私人渠道追 1 次后再沉默 10 个工作日 | warm lead；UM/CIS 继续冻结 |
-| **FOLLOW-UP SENT / WAITING** | Concordia | **Zhijie Wang** | `zhijie.wang@concordia.ca` | [follow-up](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#parallel-follow-up--zhijie-wang) | **无附件**；正文含 Boss / DS-Hns 链接 | **2026-09-18** | **2026-09-25**：仍无回复 → DORMANT + 解锁 Concordia；**不发第三封** | 到期前等待 |
+| 状态 | 学校 | 导师 | 邮箱 | 材料包 | 最近联系 | 失效 / 解锁触发 | 下一步 |
+|---|---|---|---|---|---|---|---|
+| **SENT / WAITING** | PolyU | **Yu Pei** | `csypei@comp.polyu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#1-yu-pei--polyu) · [定制 CV](CV-generate/polyyu-yu-pei.pdf) · transcript | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 PolyU | 到期前等待；到期只追 1 次 |
+| **SENT / WAITING** | CityUHK | **Heqing Huang** | `heqhuang@cityu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#2-heqing-huang--cityuhk) · [定制 CV](CV-generate/cityuhk-heqing-huang.pdf) · transcript | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 CityUHK | 到期前等待；到期只追 1 次 |
+| **SENT / WAITING** | CUHK | **Yu Li** | `liyu@cse.cuhk.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#3-yu-li--cuhk) · [定制 CV](CV-generate/cuhk-yu-li.pdf) · transcript | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 CUHK | 到期前等待；到期只追 1 次 |
+| **SENT / WAITING** | SUTD | **Thanh Le-Cong** | `congthanh_le@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#1-thanh-le-cong) · [定制 CV](CV-generate/sutd-thanh-le-cong.pdf) · transcript | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 SUTD | 到期前等待；到期只追 1 次 |
+| **REPLIED / PRIVATE CONTACT** | University of Macau | **Li Li** | `LLiLi@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) · [定制 CV](CV-generate/um-li-li.pdf) | **2026-09-18** | **不自动失效**：明确结束/无名额，或私人渠道追 1 次后再沉默 10 个工作日 | warm lead；UM/CIS 继续冻结 |
+| **FOLLOW-UP SENT / WAITING** | Concordia | **Zhijie Wang** | `zhijie.wang@concordia.ca` | [follow-up 正文](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#parallel-follow-up--zhijie-wang) · **无附件** · Boss/DS-Hns links | **2026-09-18** | **2026-09-25**：仍无回复 → DORMANT + 解锁 Concordia；**不发第三封** | 到期前等待 |
 
 ### 今日联络池（2026-09-22，全量刷新）
 
 > **旧“下一批候选池”作废，不作为今日排序依据。** 以下 5 个槽位来自 5 个未被上一轮占用的学校；详细 recruitment evidence、门禁和操作说明见 [今日池](targets/CONTACT-POOL-2026-09-22.md)。
 
-| 顺位 | 学校 | 导师 / Lab | 联系方式 | 当前信号 | 今日状态 |
-|---:|---|---|---|---|---|
-| 1 | University of Alberta | **Jocelyn Qiaochu Chen** | `jocelyn.chen@ualberta.ca`；subject 含 `Prospective Student` | upcoming cycle 明确招 **1–2 fully funded PhD** | **READY** |
-| 2 | HKU | **Ka Ho Chow** | `kachow@cs.hku.hk` | 官方页明确 **several PhD openings** | **READY** |
-| 3 | Simon Fraser University | **Keval Vora** | `keval@sfu.ca`；brief interests + CV | 当前页明确 **Open Positions** / prospective grads contact | **READY** |
-| 4 | KAUST | **Marco Canini** | `marco@kaust.edu.sa`；发前先读其 PhD contact instructions | SANDS 当前页明确长期接收 PhD interest；AI/ML systems 强匹配 | **READY** |
-| 5 | NYU Abu Dhabi — SANAD | **Sarah Nadi / Karim Ali** | **内部 interest form，不冷邮件** | **Fall 2027 fully funded PhD**；AI4SE / LLM-code correctness | **READY — FORM** |
+| 顺位 | 学校 | 导师 / Lab | 联系方式 | 材料包 | 当前信号 | 今日状态 |
+|---:|---|---|---|---|---|---|
+| 1 | University of Alberta | **Jocelyn Qiaochu Chen** | `jocelyn.chen@ualberta.ca` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#1-jocelyn-qiaochu-chen--university-of-alberta) · [CV source](CV-generate/ualberta-jocelyn-chen.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | upcoming cycle 明确招 **1–2 fully funded PhD** | **BODY_READY / CV_PDF_PENDING** |
+| 2 | HKU | **Ka Ho Chow** | `kachow@cs.hku.hk` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#2-ka-ho-chow--university-of-hong-kong) · [CV source](CV-generate/hku-ka-ho-chow.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | 官方页明确 **several PhD openings** | **BODY_READY / CV_PDF_PENDING** |
+| 3 | Simon Fraser University | **Keval Vora** | `keval@sfu.ca` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#3-keval-vora--simon-fraser-university) · [CV source](CV-generate/sfu-keval-vora.tex) · transcript only if requested | 当前页明确 **Open Positions** / prospective grads contact | **BODY_READY / CV_PDF_PENDING** |
+| 4 | KAUST | **Marco Canini** | `marco@kaust.edu.sa` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#4-marco-canini--kaust) · [CV source](CV-generate/kaust-marco-canini.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | SANDS 当前页明确接收 prospective PhD interest | **BODY_READY / CV_PDF_PENDING** |
+| 5 | NYU Abu Dhabi — SANAD | **Sarah Nadi / Karim Ali** | **内部 interest form，不冷邮件** | [form text + package](applications/OUTREACH-PACK-2026-09-22.md#5-nyu-abu-dhabi--sanad-lab--sarah-nadi--karim-ali) · [CV source](CV-generate/nyuad-sanad.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | **Fall 2027 fully funded PhD**；AI4SE / LLM-code correctness | **FORM_TEXT_READY / CV_PDF_PENDING** |
 
-> 今日池只是 **READY**，不是 **SENT**。实际发送/提交后才写入联络台账并启动 5-workday timer。
+> **刷新今日池时必须同步生成正文和材料包。** 没有当日正文/package 的候选不得标 `READY`；PDF 等真实附件不存在时必须显式保留 `*_PENDING`，不能假绿灯。
 
 ### 手动发送固定流程
 
-1. 从上表复制邮箱。
-2. 点 **邮件正文**，复制对应的完整个性化正文和 subject。
-3. 按该行 **附件 / 辅助材料** 检查材料。
+1. 从上表复制邮箱 / 打开指定 form。
+2. 点该行 **材料包**，正文、subject、附件、项目链接都在同一个入口。
+3. 检查材料包里的附件状态；`PDF_PENDING` 等未完成项不得跳过。
 4. 在邮箱里手动发送；**不要 CC/BCC 群发**。
 5. 回本页更新：`最近联系日期`、`联系次数`、`状态`、`失效/解锁日期`。
 6. 首封无实质回复：第 5 个工作日触发 `STALE_NO_REPLY`，**发第二封/最终 follow-up，同时解锁该学校/院系**。
