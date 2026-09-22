@@ -1,6 +1,6 @@
 # PhD Application Control Center — 2027
 
-> **README = 人工操作首页 + 联络台账。** 这里不是长篇策略说明书：打开仓库后，优先在这里完成 **找邮箱 → 打开对应邮件稿 → 复制正文 → 检查附件/辅助材料 → 去邮箱手动发送 → 回来登记联络历史**。
+> **README = 人工操作首页 + 联络台账。** 这里不是长篇策略说明书：打开仓库后，优先在这里完成 **找邮箱/表单 → 打开对应材料包（正文 + 附件 + 项目链接）→ 检查 pending 项 → 手动发送/提交 → 回来登记联络历史**。
 >
 > 机器筛选数据仍在 `data/`，详细学校规则在 `targets/` / `applications/`；但**人工是否已经联系过某位导师、最近一次联系、当前回复状态，以本页台账和对应 application 联系记录为准**。
 
@@ -11,10 +11,10 @@
 
 | 状态 | 学校 | 导师 | 邮箱 | 材料包 | 最近联系 | 失效 / 解锁触发 | 下一步 |
 |---|---|---|---|---|---|---|---|
-| **SENT / WAITING** | PolyU | **Yu Pei** | `csypei@comp.polyu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#1-yu-pei--polyu) · [定制 CV](CV-generate/polyyu-yu-pei.pdf) · transcript | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 PolyU | 到期前等待；到期只追 1 次 |
-| **SENT / WAITING** | CityUHK | **Heqing Huang** | `heqhuang@cityu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#2-heqing-huang--cityuhk) · [定制 CV](CV-generate/cityuhk-heqing-huang.pdf) · transcript | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 CityUHK | 到期前等待；到期只追 1 次 |
-| **SENT / WAITING** | CUHK | **Yu Li** | `liyu@cse.cuhk.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#3-yu-li--cuhk) · [定制 CV](CV-generate/cuhk-yu-li.pdf) · transcript | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 CUHK | 到期前等待；到期只追 1 次 |
-| **SENT / WAITING** | SUTD | **Thanh Le-Cong** | `congthanh_le@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#1-thanh-le-cong) · [定制 CV](CV-generate/sutd-thanh-le-cong.pdf) · transcript | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 SUTD | 到期前等待；到期只追 1 次 |
+| **SENT / WAITING** | PolyU | **Yu Pei** | `csypei@comp.polyu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#1-yu-pei--polyu) · [定制 CV](CV-generate/polyyu-yu-pei.pdf) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 PolyU | 到期前等待；到期只追 1 次 |
+| **SENT / WAITING** | CityUHK | **Heqing Huang** | `heqhuang@cityu.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#2-heqing-huang--cityuhk) · [定制 CV](CV-generate/cityuhk-heqing-huang.pdf) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 CityUHK | 到期前等待；到期只追 1 次 |
+| **SENT / WAITING** | CUHK | **Yu Li** | `liyu@cse.cuhk.edu.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#3-yu-li--cuhk) · [定制 CV](CV-generate/cuhk-yu-li.pdf) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 CUHK | 到期前等待；到期只追 1 次 |
+| **SENT / WAITING** | SUTD | **Thanh Le-Cong** | `congthanh_le@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#1-thanh-le-cong) · [定制 CV](CV-generate/sutd-thanh-le-cong.pdf) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | **2026-09-18** | **2026-09-25**：仍无实质回复 → 二封 + 同时解锁 SUTD | 到期前等待；到期只追 1 次 |
 | **REPLIED / PRIVATE CONTACT** | University of Macau | **Li Li** | `LLiLi@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) · [定制 CV](CV-generate/um-li-li.pdf) | **2026-09-18** | **不自动失效**：明确结束/无名额，或私人渠道追 1 次后再沉默 10 个工作日 | warm lead；UM/CIS 继续冻结 |
 | **FOLLOW-UP SENT / WAITING** | Concordia | **Zhijie Wang** | `zhijie.wang@concordia.ca` | [follow-up 正文](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#parallel-follow-up--zhijie-wang) · **无附件** · Boss/DS-Hns links | **2026-09-18** | **2026-09-25**：仍无回复 → DORMANT + 解锁 Concordia；**不发第三封** | 到期前等待 |
 
@@ -134,7 +134,7 @@
 
 | 导师 | 邮箱 | 主要匹配 | 最近联系 | 历史 | 当前状态 | 下一步 |
 |---|---|---|---|---|---|---|
-| **Jocelyn Qiaochu Chen** | `jocelyn.chen@ualberta.ca` | reliable AI-assisted programming / PL-formal methods × code/tool agents | — | 0 | **NOT_CONTACTED** | 发信前刷新 capacity/funding；Alberta 首选 |
+| **Jocelyn Qiaochu Chen** | `jocelyn.chen@ualberta.ca` | reliable AI-assisted programming / PL-formal methods × code/tool agents | — | 0 | **BODY_READY / CV_PDF_PENDING** | [今日材料包](applications/OUTREACH-PACK-2026-09-22.md#1-jocelyn-qiaochu-chen--university-of-alberta)；先生成/核验 CV PDF，再发送 |
 | **Zhou Yang** | `zy25@ualberta.ca` | trustworthy CodeLLMs / AI4SE / robustness-security-privacy | — | 0 | **NOT_CONTACTED** | 发信前刷新 capacity/funding；第二顺位 |
 | **Majeed Kazemitabaar** | `majeedkazemi@ualberta.ca` | Human–AI interaction / end-user programming / GenAI programming | — | 0 | **NOT_CONTACTED** | 刷新其明确招生信号与 funding；第三顺位 |
 
