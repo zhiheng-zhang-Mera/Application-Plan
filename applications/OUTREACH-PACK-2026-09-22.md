@@ -45,10 +45,10 @@ Zhiheng Zhang
 ### Material package
 
 - **Body:** this section.
-- **Attach:** candidate-specific research CV PDF once generated + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
+- **Attach:** [tailored CV source](../CV-generate/ualberta-jocelyn-chen.tex) → compile to PDF before send + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
 - **Links in body:** DS-Hns + Codex Boss.
 - **Do not claim:** that formal verification is already implemented in Boss/DS-Hns; frame it as the proposed research bridge.
-- **CV state:** `PDF_PENDING` — use the mother template only as source until a candidate-specific PDF is generated.
+- **CV state:** `SOURCE_GENERATED / PDF_PENDING`.
 
 ---
 
@@ -77,10 +77,10 @@ Zhiheng Zhang
 ### Material package
 
 - **Body:** this section.
-- **Attach:** candidate-specific research CV PDF once generated + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
+- **Attach:** [tailored CV source](../CV-generate/hku-ka-ho-chow.tex) → compile to PDF before send + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
 - **Links in body:** DS-Hns + Codex Boss.
 - **Supporting narrative:** Privacy Lens only as secondary evidence; do not turn the opening into a generic privacy/compliance pitch.
-- **CV state:** `PDF_PENDING`.
+- **CV state:** `SOURCE_GENERATED / PDF_PENDING`.
 
 ---
 
@@ -109,10 +109,10 @@ Zhiheng Zhang
 ### Material package
 
 - **Body:** this section; it doubles as the requested brief research-interest description.
-- **Attach:** candidate-specific research CV PDF once generated. Transcript is **not default** unless requested.
+- **Attach:** [tailored CV source](../CV-generate/sfu-keval-vora.tex) → compile to PDF before send. Transcript is **not default** unless requested.
 - **Links in body:** DS-Hns + Codex Boss.
 - **Lead project:** DS-Hns; Boss is supporting orchestration/evaluation infrastructure.
-- **CV state:** `PDF_PENDING`.
+- **CV state:** `SOURCE_GENERATED / PDF_PENDING`.
 
 ---
 
@@ -141,10 +141,10 @@ Zhiheng Zhang
 ### Material package
 
 - **Body:** this section.
-- **Attach:** candidate-specific research CV PDF once generated + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
+- **Attach:** [tailored CV source](../CV-generate/kaust-marco-canini.tex) → compile to PDF before send + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
 - **Links in body:** DS-Hns + Codex Boss.
 - **Route:** systems/runtime first; avoid generic “multi-agent AI” framing.
-- **CV state:** `PDF_PENDING`.
+- **CV state:** `SOURCE_GENERATED / PDF_PENDING`.
 - **Separate action:** formal KAUST Fall 2027 application remains required.
 
 ---
@@ -166,9 +166,9 @@ My background is in Computer Science: a BSc from UBC and a current Master’s de
 ### Material package
 
 - **Body/form text:** use the text above; adapt only to the actual form fields.
-- **Upload if the form requests it:** candidate-specific research CV PDF once generated + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
+- **Upload if the form requests it:** [tailored CV source](../CV-generate/nyuad-sanad.tex) → compile to PDF if the form requests CV upload + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
 - **Links:** DS-Hns + Codex Boss.
-- **CV state:** `PDF_PENDING`.
+- **CV state:** `SOURCE_GENERATED / PDF_PENDING`.
 - **Separate action:** SANAD interest form does not replace the formal NYU PhD application.
 
 ---
