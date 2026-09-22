@@ -12,7 +12,7 @@
 |---|---|---|---|---|
 | HKU — Computing PhD | **OUTREACH_READY / APPLICATION-GATE VERIFY** | Excellent — trustworthy AI / security / systems | Boss + DS-Hns + Privacy Lens | **Ka Ho Chow 今日 READY**；正式申请前继续核 academic-equivalency gate |
 | Simon Fraser University | **OUTREACH_READY / VERIFY MASTER ROUTE** | Excellent — systems / scalable runtime / software infrastructure | DS-Hns + Boss | **Keval Vora 今日 READY**；当前页明确 Open Positions |
-| KAUST | **OUTREACH_READY / APPLY** | Excellent — AI/ML systems / distributed infrastructure | DS-Hns + Boss | **Marco Canini 今日 READY**；Fall 2027 formal application 2026-09-28 open |
+| KAUST | **VERIFY OTHER PI / MARCO EXCLUDED FOR 2027** | Excellent systems fit at school level; Marco capacity unresolved for target intake | DS-Hns + Boss | Do not contact Marco for Fall 2027; screen another direct-contact, non-theory KAUST PI with explicit current-intake capacity |
 | CUHK-Shenzhen — SAI MPhil-PhD AI | **OUTREACH_READY** | Excellent on selected applied route — agentic AI / multimodal LMs / trustworthy AI | Boss + DS-Hns | **Xiaoxue Gao 今日 READY**；fully funded Spring/Fall 2027，明确欢迎邮件；不夸大 speech/audio 专业背景 |
 | Concordia University | **LOCKED UNTIL 2026-09-25** | Excellent — AI4SE / coding agents / empirical SE | Codex Boss + DS-Hns | Zhijie 当前 follow-up 占学校锁；9/25 无回复 → DORMANT + unlock，不发第三封 |
 | TU Delft — WALTZ PhD | **APPLY_NOW** | Excellent — trustworthy/distributed AI pipelines | Boss + DS-Hns + Privacy Lens | 直接按 vacancy 申请；不属于 supervisor cold outreach |
@@ -46,10 +46,10 @@
 
 ## 当前执行顺序（刷新 2026-09-22）
 
-1. **今日新联络池** — Ka Ho Chow (HKU) → Keval Vora (SFU) → Marco Canini (KAUST) → Xiaoxue Gao (CUHK-Shenzhen)；见 `targets/CONTACT-POOL-2026-09-22.md`。不为凑满 5 个保留理论负担或 internal-only 候选。
+1. **今日新联络池** — Ka Ho Chow (HKU) → Keval Vora (SFU) → Xiaoxue Gao (CUHK-Shenzhen)；见 `targets/CONTACT-POOL-2026-09-22.md`。不为凑满 5 个保留理论负担或 internal-only 候选。
 2. **TU Delft WALTZ** — 2026-09-24 vacancy deadline；这是 direct application，不占 supervisor cold-contact school lock。
 3. **2026-09-25 expiry sweep** — 若仍无实质回复：Yu Pei / Heqing Huang / Yu Li / Thanh Le-Cong 各发唯一一次 second/final follow-up 并同时解锁对应学校；Zhijie Wang 线改 DORMANT 并解锁 Concordia，不发第三封。
-4. **KAUST Fall 2027** — 2026-09-28 开放正式申请；Marco Canini 当前 outreach 与正式申请可并行，但不把导师回复当作申请硬前置。
+4. **KAUST Fall 2027** — 2026-09-28 开放正式申请；Marco Canini 不进入 2027 outreach。若继续 KAUST，只筛明确对目标 intake 有 capacity、允许直接邮箱联系且非纯理论的其他 PI。
 5. **SUTD formal application** — 2026-09-30 deadline 继续推进；学校在 2026-09-25 前仍受 Thanh live-contact lock 约束。
 6. **CUHK-Shenzhen / Xiaoxue Gao** — Fall 2027 direct-email outreach；走 agentic AI / multimodal / trustworthy AI 的系统与实验路线。
 
