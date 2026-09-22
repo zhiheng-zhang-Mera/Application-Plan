@@ -235,11 +235,14 @@ supervisors:
     university: King Abdullah University of Science and Technology
     name: Marco Canini
     program_id: kaust-cs-phd
-    contact_state: not_contacted
-    fit_summary: "Excellent distributed/cloud/large-scale systems and ML-systems alignment with Boss/DS-Hns infrastructure."
+    contact_state: capacity_conflict_do_not_contact_2027
+    recruitment_status: unknown
+    recruitment_last_verified: 2026-09-22
+    recruitment_evidence: "Current SANDS student page gives evergreen PhD-contact instructions but no Fall 2027 capacity. A prior search observation indicated no PhD intake before Fall 2028; this exact statement was not reproduced in the latest indexed official page, so use the restrictive interpretation and exclude him from 2027 outreach until intake-specific capacity is reverified."
+    fit_summary: "Excellent distributed/cloud/large-scale systems and ML-systems alignment, but current target-intake capacity is not safely established."
     narrative_route: [ds-hns, codex-boss]
-    next_action: "Top KAUST systems target; focus on reliable large-scale orchestration and system operation."
-    source_url: https://cs.kaust.edu.sa/profiles/table
+    next_action: "Do not contact for Fall 2027. Re-check only for Fall 2028 or if a newer intake-specific source explicitly reopens PhD capacity."
+    source_url: https://sands.kaust.edu.sa/students/
 
   - id: kaust-di-wang
     university: King Abdullah University of Science and Technology
