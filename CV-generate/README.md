@@ -18,7 +18,6 @@ This folder contains the reusable LaTeX CV mother template and supervisor-specif
 | `cityuhk-nan-guan.tex` | Nan Guan, CityUHK | LLM-aided system design, runtime/scheduling, reliability |
 | `um-xiaobo-zhou.tex` | Xiaobo Zhou, University of Macau | Systems ML, OS/distributed support for long-running AI workloads |
 | `polyyu-jing-li.tex` | Jing Li, PolyU | NLP/reasoning, trustworthy LLM agents, multi-agent evaluation |
-| `ualberta-jocelyn-chen.tex` | Jocelyn Qiaochu Chen, Alberta | AI-assisted programming, synthesis/analysis/testing, reliable coding-agent verification |
 | `hku-ka-ho-chow.tex` | Ka Ho Chow, HKU | Trustworthy agent systems, capability boundaries, LLM/system security |
 | `sfu-keval-vora.tex` | Keval Vora, SFU | Reliable long-running AI runtimes, scalable systems, performance/recovery |
 | `kaust-marco-canini.tex` | Marco Canini, KAUST | Distributed/cloud systems for AI/ML, fault-tolerant orchestration |
