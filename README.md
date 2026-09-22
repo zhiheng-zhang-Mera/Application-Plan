@@ -28,7 +28,7 @@
 | 2 | HKU | **Ka Ho Chow** | `kachow@cs.hku.hk` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#2-ka-ho-chow--university-of-hong-kong) · [CV source](CV-generate/hku-ka-ho-chow.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | 官方页明确 **several PhD openings** | **BODY_READY / CV_PDF_PENDING** |
 | 3 | Simon Fraser University | **Keval Vora** | `keval@sfu.ca` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#3-keval-vora--simon-fraser-university) · [CV source](CV-generate/sfu-keval-vora.tex) · transcript only if requested | 当前页明确 **Open Positions** / prospective grads contact | **BODY_READY / CV_PDF_PENDING** |
 | 4 | KAUST | **Marco Canini** | `marco@kaust.edu.sa` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#4-marco-canini--kaust) · [CV source](CV-generate/kaust-marco-canini.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | SANDS 当前页明确接收 prospective PhD interest | **BODY_READY / CV_PDF_PENDING** |
-| 5 | MBZUAI | **Dongxia Wu — ATLAS Lab** | `dongxia.wu@mbzuai.ac.ae` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#5-dongxia-wu--mbzuai--atlas-lab) · [CV source](CV-generate/mbzuai-dongxia-wu.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | Fall 2027 明确招 PhD；Foundation Models & Agents / AI for Science 可直接邮件 | **BODY_READY / CV_PDF_PENDING** |
+| 5 | CUHK-Shenzhen | **Xiaoxue Gao** | `gaoxiaoxue@cuhk.edu.cn` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#5-xiaoxue-gao--cuhk-shenzhen) · [CV source](CV-generate/cuhksz-xiaoxue-gao.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | Spring/Fall 2027 **fully funded PhD**；明确欢迎直接邮件；Agentic AI / multimodal / trustworthy AI | **BODY_READY / CV_PDF_PENDING** |
 
 > **刷新今日池时必须依次过三道硬门禁：公开邮箱、允许直接联系、非纯算法/纯理论。** 任一失败都直接删除候选；通过后才生成正文和材料包。没有当日正文/package 的候选不得标 `READY`；PDF 等真实附件不存在时必须显式保留 `*_PENDING`，不能假绿灯。
 
@@ -186,7 +186,7 @@
 | NTU | **WATCH** | [WATCHLIST](targets/WATCHLIST.md) |
 | TU Delft WALTZ | **APPLY_NOW** | [ACTIVE](targets/ACTIVE.md) |
 | KAUST | **ACTIVE** | [ACTIVE](targets/ACTIVE.md) |
-| MBZUAI | **ACTIVE / direct-email outreach** | [ACTIVE](targets/ACTIVE.md) |
+| CUHK-Shenzhen — SAI | **ACTIVE / direct-email outreach** | [ACTIVE](targets/ACTIVE.md) |
 | Buffalo / SMU | **CLOSED / REJECTED** | [REJECTED](targets/REJECTED.md) |
 
 ---
