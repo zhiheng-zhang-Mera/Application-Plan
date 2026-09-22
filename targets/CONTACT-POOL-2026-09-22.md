@@ -6,7 +6,7 @@
 >
 > Evidence below was refreshed on **2026-09-22**. Before an actual send, re-open the recruitment page once; do not send if the signal has changed.
 >
-> **Public-email hard gate:** every supervisor must have a publicly verifiable direct email before entering this file. No public email = delete the candidate rather than carrying them as WATCH/HOLD/form-only.
+> **Hard gates:** every supervisor must have a publicly verifiable direct email, the current route must explicitly permit direct outreach, and the proposed research route must not be pure algorithms/theory. Missing email, internal-only/form-only routing, or pure-theory fit = delete the candidate rather than carrying them as WATCH/HOLD/BACKUP.
 >
 > **Daily-pack rule:** every pool refresh must also regenerate `applications/OUTREACH-PACK-YYYY-MM-DD.md` with an individualized body/form response and a material package for every selected candidate. A row may not be `READY` if the body/package is missing.
 
@@ -18,14 +18,15 @@
 | 2 | University of Hong Kong | **Ka Ho Chow** | Email `kachow@cs.hku.hk` | [正文 + package](../applications/OUTREACH-PACK-2026-09-22.md#2-ka-ho-chow--university-of-hong-kong) · [CV source](../CV-generate/hku-ka-ho-chow.tex) · [transcript](../Documents/Transcript-ZhihengZhang.pdf) | Official profile says **several openings for PhD students** | **BODY_READY / CV_PDF_PENDING** |
 | 3 | Simon Fraser University | **Keval Vora** | Email `keval@sfu.ca`; brief interests + CV | [正文 + package](../applications/OUTREACH-PACK-2026-09-22.md#3-keval-vora--simon-fraser-university) · [CV source](../CV-generate/sfu-keval-vora.tex) · transcript only if requested | Current page says **Open Positions** and asks prospective grads to contact him with interests + CV | **BODY_READY / CV_PDF_PENDING** |
 | 4 | KAUST | **Marco Canini** | Email `marco@kaust.edu.sa`; read his PhD-contact instructions before sending | [正文 + package](../applications/OUTREACH-PACK-2026-09-22.md#4-marco-canini--kaust) · [CV source](../CV-generate/kaust-marco-canini.tex) · [transcript](../Documents/Transcript-ZhihengZhang.pdf) | SANDS page explicitly addresses prospective PhD students; distributed/cloud + AI/ML systems fit | **BODY_READY / CV_PDF_PENDING** |
-| 5 | NYU Abu Dhabi — SANAD Lab | **Sarah Nadi / Karim Ali** | Public emails verified: `sarah.nadi@nyu.edu`, `karim.ali@nyu.edu`; **official opening still says use the internal interest form instead of directly emailing** | [form text + package](../applications/OUTREACH-PACK-2026-09-22.md#5-nyu-abu-dhabi--sanad-lab--sarah-nadi--karim-ali) · [CV source](../CV-generate/nyuad-sanad.tex) · [transcript](../Documents/Transcript-ZhihengZhang.pdf) | **Fully funded Fall 2027 PhD**; AI4SE / LLM-code correctness; deadline **2026-12-12** | **FORM_TEXT_READY / CV_PDF_PENDING** |
+| 5 | MBZUAI — ATLAS Lab | **Dongxia Wu** | Email `dongxia.wu@mbzuai.ac.ae`; subject format: `[Name] — [Position] — [Research Direction(s)] — ATLAS Lab Application` | [正文 + package](../applications/OUTREACH-PACK-2026-09-22.md#5-dongxia-wu--mbzuai--atlas-lab) · [CV source](../CV-generate/mbzuai-dongxia-wu.tex) · [transcript](../Documents/Transcript-ZhihengZhang.pdf) | Fall 2027 PhD recruiting; direct email explicitly invited; route only through **Foundation Models & Agents / AI for Science**, not her theory/optimization-heavy lines | **BODY_READY / CV_PDF_PENDING** |
 
 ## Why these five
 
 - All five are from universities **not occupied by the 2026-09-18 contact batch**.
 - Every slot has a **current recruitment/contact signal**, not just historical faculty-fit keywords.
 - The pool deliberately mixes exact AI4SE/reliable-code work with systems/orchestration work so Boss and DS-Hns can be presented as research artifacts without pretending they are already finished research results.
-- NYUAD passes the public-email gate: Sarah Nadi and Karim Ali both have official NYU public emails. The advertised SANAD opening nevertheless explicitly asks candidates to indicate interest through its internal system instead of directly emailing, so the action remains form-based.
+- SANAD was removed from the pool because the advertised Fall 2027 route explicitly requires the internal interest system rather than direct outreach; public faculty emails do not override the direct-contact gate.
+- Dongxia Wu replaces that slot because ATLAS Lab explicitly recruits Fall 2027 PhD students and explicitly asks interested candidates to email her. The selected narrative is **Foundation Models & Agents / AI for Science**; probabilistic/optimization-heavy theory routes are not used.
 - University of Alberta is worth contacting now, but Jocelyn Chen's page says the direct PhD route assumes prior research training; if the current master's is not treated as research-based, her stated route is the funded research MSc first. Do not hide this in the outreach.
 - KAUST Fall 2027 applications open **2026-09-28**; supervisor contact is optional at university level, so the Marco Canini email is a targeted fit signal rather than an admission prerequisite.
 
@@ -76,6 +77,4 @@ They are **not rejected**. They remain behind their live school relationship and
 - Marco Canini / SANDS: https://sands.kaust.edu.sa/
 - KAUST 2026–27 admissions timeline: https://admissions.kaust.edu.sa/how-to-apply/admission-timelines
 - KAUST entry requirements: https://admissions.kaust.edu.sa/how-to-apply/entry-requirements
-- SANAD Fall 2027 PhD: https://sanadlab.org/positions/phd/
-- Sarah Nadi official profile/email: https://nyuad.nyu.edu/en/academics/divisions/science/faculty/sarah-nadi.html
-- Karim Ali official profile/email: https://nyuad.nyu.edu/en/academics/divisions/science/faculty/karim-ali.html
+- Dongxia Wu / ATLAS Lab: https://dongxiaw.github.io/
