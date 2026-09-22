@@ -8,6 +8,8 @@ This repository is a source of truth, not permission to blindly submit applicati
 - update structured screening fields with source + verification date
 - generate school-specific checklists
 - verify each proposed supervisor has a public direct email; delete candidates that fail this gate
+- verify the current opening permits direct email/contact; delete internal-form/portal-only candidates
+- delete pure algorithm/theory and other pure-theory/method-mismatch candidates before material generation
 - refresh the daily outreach pool only together with a same-date `applications/OUTREACH-PACK-YYYY-MM-DD.md`
 - generate individualized outreach subjects/bodies or form-ready text from `narrative_route`
 - generate/refresh candidate-specific CV source when a CV is requested and expose the remaining PDF/material state explicitly
@@ -31,6 +33,8 @@ This repository is a source of truth, not permission to blindly submit applicati
 - resurrect a `REJECT` program without checking its reopen condition
 - mass-email faculty
 - retain an outreach candidate without a publicly verified direct email
+- retain a form/portal-only outreach route
+- retain a pure algorithm/theory supervisor in outreach candidate surfaces
 - let LGBT/trans or ACG preference override a hard-gate decision
 
 ## Output contract
@@ -40,6 +44,8 @@ For ordinary screening, agents should update structured data and refresh the hum
 For a **daily outreach-pool refresh**, completion requires all of the following in the same run:
 
 - public-email verification for every selected supervisor;
+- direct-contact-channel verification for every selected supervisor;
+- research-method verification showing the selected route is not pure theory;
 - current pool file;
 - same-date daily outreach pack;
 - individualized body/form text for every selected target;
