@@ -22,7 +22,7 @@ This folder contains the reusable LaTeX CV mother template and supervisor-specif
 | `hku-ka-ho-chow.tex` | Ka Ho Chow, HKU | Trustworthy agent systems, capability boundaries, LLM/system security |
 | `sfu-keval-vora.tex` | Keval Vora, SFU | Reliable long-running AI runtimes, scalable systems, performance/recovery |
 | `kaust-marco-canini.tex` | Marco Canini, KAUST | Distributed/cloud systems for AI/ML, fault-tolerant orchestration |
-| `mbzuai-dongxia-wu.tex` | Dongxia Wu, MBZUAI | Trustworthy scientific agents, AI-for-science workflows, empirical/reproducible evaluation |
+| `cuhksz-xiaoxue-gao.tex` | Xiaoxue Gao, CUHK-Shenzhen | Agentic AI, trustworthy multimodal systems, robustness/safety evaluation |
 
 ## Maintenance rules
 
