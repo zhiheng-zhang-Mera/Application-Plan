@@ -57,6 +57,18 @@ The user is implementation-first and not strong in pure-theory research. Before 
 
 If research style is unknown, inspect recent papers/projects before outreach. Do not guess from a faculty bio keyword list.
 
+## Public email hard gate
+
+Before a supervisor can appear in `ACTIVE`, `WATCH`, `HOLD`, `BACKUP`, a daily contact pool, or a generated outreach pack as an outreach candidate, verify a **public direct contact email**.
+
+- Accept only an email published on an official university/faculty page or the supervisor/lab's own public page.
+- Never infer an address from a naming pattern.
+- If no public email can be verified, **delete that supervisor from all outreach-candidate surfaces immediately**. Do not preserve them as a form-only candidate or a "verify later" row.
+- Historical sent/replied records are audit evidence and are not erased by this rule.
+- A candidate whose public email is verified may still have an official **form-only** action when the advertised position explicitly says not to email; the form instruction wins for the actual outreach channel.
+
+Store the verified email, source URL and verification date before generating a body or material package.
+
 ## Current recruitment and program-compatibility gate
 
 Before a supervisor enters the **first-contact queue**, verify both:
@@ -81,13 +93,14 @@ Every refresh of the current outreach pool must be **self-contained**. Selecting
 
 Required outputs for a refresh dated `YYYY-MM-DD`:
 
-1. regenerate `targets/CONTACT-POOL-YYYY-MM-DD.md`;
-2. regenerate `applications/OUTREACH-PACK-YYYY-MM-DD.md`;
-3. for every selected email candidate, generate a new individualized **subject + complete body** in that daily pack;
-4. for form-only targets, generate the exact **form-ready research-interest text** instead of an email;
-5. generate or refresh a candidate-specific research-CV source under `CV-generate/` when a CV is part of the target's requested material;
-6. expose a single **material package** from the README/pool row containing the body/form text, CV, transcript/supporting documents as appropriate, and project links;
-7. never mark a row `READY` while a required artifact is missing. Use explicit states such as `BODY_READY / CV_PDF_PENDING` or `FORM_TEXT_READY / MATERIAL_PENDING`.
+1. verify a public direct email for every proposed supervisor and drop every candidate that fails this gate;
+2. regenerate `targets/CONTACT-POOL-YYYY-MM-DD.md`;
+3. regenerate `applications/OUTREACH-PACK-YYYY-MM-DD.md`;
+4. for every selected email candidate, generate a new individualized **subject + complete body** in that daily pack;
+5. for form-only targets, generate the exact **form-ready research-interest text** instead of an email;
+6. generate or refresh a candidate-specific research-CV source under `CV-generate/` when a CV is part of the target's requested material;
+7. expose a single **material package** from the README/pool row containing the body/form text, CV, transcript/supporting documents as appropriate, and project links;
+8. never mark a row `READY` while a required artifact is missing. Use explicit states such as `BODY_READY / CV_PDF_PENDING` or `FORM_TEXT_READY / MATERIAL_PENDING`.
 
 A previous-day body may be used as source material, but the refresh must rewrite/revalidate it against the newly verified recruitment signal and current project claims. **Do not silently point a new pool at an old draft and call that generation.**
 
