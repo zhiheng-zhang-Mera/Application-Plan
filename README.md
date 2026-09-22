@@ -1,12 +1,12 @@
 # PhD Application Control Center — 2027
 
-> **README = 人工操作首页 + 联络台账。** 这里不是长篇策略说明书：打开仓库后，优先在这里完成 **找邮箱/表单 → 打开对应材料包（正文 + 附件 + 项目链接）→ 检查 pending 项 → 手动发送/提交 → 回来登记联络历史**。
+> **README = 人工操作首页 + 联络台账。** 这里不是长篇策略说明书：打开仓库后，优先在这里完成 **找公开邮箱 → 确认该路线允许直接联系 → 打开对应材料包（正文 + 附件 + 项目链接）→ 检查 pending 项 → 手动发送 → 回来登记联络历史**。
 >
 > 机器筛选数据仍在 `data/`，详细学校规则在 `targets/` / `applications/`；但**人工是否已经联系过某位导师、最近一次联系、当前回复状态，以本页台账和对应 application 联系记录为准**。
 
 ## 🚀 当前人工发送批次
 
-> **2026-09-22：今日联络池已全量刷新，旧池不顺延。** 2026-09-18 已联络的导师及其学校/院系继续占用学校锁，因此 **Concordia、SUTD、PolyU、CityUHK、CUHK、University of Macau 不进入今日新首发池**。另外，**没有公开可验证导师邮箱的候选直接删除，不进入任何 outreach pool。**
+> **2026-09-22：今日联络池已全量刷新，旧池不顺延。** 2026-09-18 已联络的导师及其学校/院系继续占用学校锁，因此 **Concordia、SUTD、PolyU、CityUHK、CUHK、University of Macau 不进入今日新首发池**。另外，**没有公开可验证导师邮箱、必须走内部 form/portal、或主要研究是纯算法/纯理论的候选都直接删除，不进入任何 outreach pool。**
 > 今日完整筛选与最新证据见 [targets/CONTACT-POOL-2026-09-22.md](targets/CONTACT-POOL-2026-09-22.md)；历史事件见 [applications/OUTREACH-LOG.md](applications/OUTREACH-LOG.md)。
 
 | 状态 | 学校 | 导师 | 邮箱 | 材料包 | 最近联系 | 失效 / 解锁触发 | 下一步 |
@@ -28,13 +28,13 @@
 | 2 | HKU | **Ka Ho Chow** | `kachow@cs.hku.hk` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#2-ka-ho-chow--university-of-hong-kong) · [CV source](CV-generate/hku-ka-ho-chow.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | 官方页明确 **several PhD openings** | **BODY_READY / CV_PDF_PENDING** |
 | 3 | Simon Fraser University | **Keval Vora** | `keval@sfu.ca` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#3-keval-vora--simon-fraser-university) · [CV source](CV-generate/sfu-keval-vora.tex) · transcript only if requested | 当前页明确 **Open Positions** / prospective grads contact | **BODY_READY / CV_PDF_PENDING** |
 | 4 | KAUST | **Marco Canini** | `marco@kaust.edu.sa` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#4-marco-canini--kaust) · [CV source](CV-generate/kaust-marco-canini.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | SANDS 当前页明确接收 prospective PhD interest | **BODY_READY / CV_PDF_PENDING** |
-| 5 | NYU Abu Dhabi — SANAD | **Sarah Nadi / Karim Ali** | `sarah.nadi@nyu.edu` / `karim.ali@nyu.edu`；**该职位官方仍要求走 internal interest form，不直接邮件** | [form text + package](applications/OUTREACH-PACK-2026-09-22.md#5-nyu-abu-dhabi--sanad-lab--sarah-nadi--karim-ali) · [CV source](CV-generate/nyuad-sanad.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | **Fall 2027 fully funded PhD**；AI4SE / LLM-code correctness | **FORM_TEXT_READY / CV_PDF_PENDING** |
+| 5 | MBZUAI | **Dongxia Wu — ATLAS Lab** | `dongxia.wu@mbzuai.ac.ae` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#5-dongxia-wu--mbzuai--atlas-lab) · [CV source](CV-generate/mbzuai-dongxia-wu.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | Fall 2027 明确招 PhD；Foundation Models & Agents / AI for Science 可直接邮件 | **BODY_READY / CV_PDF_PENDING** |
 
-> **刷新今日池时必须先过公开邮箱硬门禁，再同步生成正文和材料包。** 找不到公开可验证导师邮箱就直接删除该候选；没有当日正文/package 的候选不得标 `READY`；PDF 等真实附件不存在时必须显式保留 `*_PENDING`，不能假绿灯。
+> **刷新今日池时必须依次过三道硬门禁：公开邮箱、允许直接联系、非纯算法/纯理论。** 任一失败都直接删除候选；通过后才生成正文和材料包。没有当日正文/package 的候选不得标 `READY`；PDF 等真实附件不存在时必须显式保留 `*_PENDING`，不能假绿灯。
 
 ### 手动发送固定流程
 
-1. 从上表复制邮箱 / 打开指定 form。
+1. 从上表复制公开邮箱。
 2. 点该行 **材料包**，正文、subject、附件、项目链接都在同一个入口。
 3. 检查材料包里的附件状态；`PDF_PENDING` 等未完成项不得跳过。
 4. 在邮箱里手动发送；**不要 CC/BCC 群发**。
@@ -100,7 +100,6 @@
 | Wenxuan Zhang | SUTD | `wxzhang@sutd.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#4-wenxuan-zhang) | — | 0 | HOLD | SUTD 后续顺位 |
 | Chengpeng Wang | NUS | `wang-chengpeng@nus.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#5-chengpeng-wang) | — | 0 | BACKUP | NUS programme gate 主动启用后才发 |
 | Abhik Roychoudhury | NUS | `abhik@comp.nus.edu.sg` | [正文](applications/singapore/OUTREACH-DRAFTS-2026-09-17.md#6-abhik-roychoudhury--capacity-verification-draft) | — | 0 | WATCH | 先刷新 current PhD capacity |
-| Penghui Li | NTU | `penghui.li@ntu.edu.sg` | **不要发邮件；用 form** | — | 0 | WATCH | academic gate 清掉后走导师指定 form |
 | Yewen Pu | NTU | `yewen.pu@ntu.edu.sg` | — | — | 0 | WATCH | academic gate + capacity 都要先刷新 |
 
 </details>
@@ -187,6 +186,7 @@
 | NTU | **WATCH** | [WATCHLIST](targets/WATCHLIST.md) |
 | TU Delft WALTZ | **APPLY_NOW** | [ACTIVE](targets/ACTIVE.md) |
 | KAUST | **ACTIVE** | [ACTIVE](targets/ACTIVE.md) |
+| MBZUAI | **ACTIVE / direct-email outreach** | [ACTIVE](targets/ACTIVE.md) |
 | Buffalo / SMU | **CLOSED / REJECTED** | [REJECTED](targets/REJECTED.md) |
 
 ---
