@@ -75,20 +75,25 @@ Rules:
 - re-check this gate immediately before each new outreach batch.
 - for Concordia CS/SE PhD, treat the supervisor-match step as execution-critical: the official admissions process states that an admission offer is not issued until a supervisor match is made. This increases the priority of verified-active Concordia supervisors without changing the academic hard gates.
 
-## Same-school / same-department cooldown
+## Same-school / same-department contact lifecycle
 
-Do not expose multiple professors in the same department to a burst of similar cold emails.
+Do not expose multiple professors in the same department to a burst of similar cold emails. Use a deterministic lifecycle instead of an approximate cooldown.
 
 Default manual/automation behavior:
 
 - keep **one new cold contact per `university + department` in the foreground at a time**;
-- normally wait about **72 hours / 3–5 working days** before moving to the next professor in the same department;
-- an explicit `declined` or `no_capacity` response can immediately unlock the next professor;
-- `interested`, `requested_materials`, `interview`, or `supervision_discussion` freezes the remaining same-department cold-outreach queue;
-- a live existing thread/follow-up counts as the foreground relationship for that department unless the user deliberately overrides it;
-- deadline pressure may shorten cooldown, but does not justify same-day department-wide cold emailing.
+- `T0` is the timestamp of the first cold email;
+- count business days in the receiver's local calendar; Saturday/Sunday do not count;
+- if there is **no substantive human reply by 10:00 receiver-local time on business day 5**, set `STALE_NO_REPLY`;
+- at that exact trigger, do both: **(1) send exactly one second/final follow-up to the same supervisor; (2) set the university/department to `UNLOCKED` for the next supervisor**;
+- after the second email, another 5 business days without a substantive reply sets `NO_REPLY_FINAL / CLOSED`; **never send a third email**;
+- an explicit `declined` or `no_capacity` response unlocks immediately and normally suppresses the second follow-up;
+- `interested`, `requested_materials`, `interview`, `supervision_discussion`, or an active private-channel relationship freezes the remaining same-department cold-outreach queue;
+- delivery receipts and generic auto-replies are not substantive replies; if an out-of-office response provides a return date, defer the waiting window until after that return date;
+- an already-existing follow-up thread is not restarted as a new cold contact. If its final follow-up expires, mark it `DORMANT` and unlock the school rather than sending another message;
+- a warm/private-channel lead is exempt from the ordinary 5-business-day cold timer. Use the explicit relationship state and documented manual-clear condition instead.
 
-The root README should show which professor is the current foreground contact and which same-school candidates are `HOLD` behind that contact.
+The root README and `applications/OUTREACH-LOG.md` must show the foreground contact, the exact invalidation/unlock date when known, and which same-school candidates are `HOLD` behind that contact.
 
 ## Automation rules
 
