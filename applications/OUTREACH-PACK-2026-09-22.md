@@ -16,7 +16,7 @@ Use only what the target asks for. Do not attach everything by default.
 - DS-Hns: https://github.com/zhiheng-zhang-Mera/DS-Hns
 - Quant-Ultra: https://github.com/zhiheng-zhang-Mera/Quant-ultra
 
-> Current repo does **not** yet contain candidate-specific PDF CVs for today's four. Material-package rows therefore distinguish the generated body from the CV-PDF state instead of pretending a PDF exists.
+> Current repo does **not** yet contain candidate-specific PDF CVs for today's three. Material-package rows therefore distinguish the generated body from the CV-PDF state instead of pretending a PDF exists.
 
 ---
 
@@ -84,40 +84,7 @@ Zhiheng Zhang
 
 ---
 
-## 3. Marco Canini — KAUST
-
-**To:** `marco@kaust.edu.sa`  
-**Subject:** Prospective PhD student — reliable distributed systems for long-running AI/agent workloads
-
-Dear Professor Canini,
-
-My name is Zhiheng Zhang. I am completing a Master’s degree in Computer Science at the University of Melbourne after a BSc in Computer Science from UBC, and I am preparing a Fall 2027 PhD application to KAUST.
-
-I am particularly interested in the SANDS group’s work on distributed and cloud systems and systems support for AI/ML. My current project **DS-Hns** is a runtime for long-horizon autonomous software work, with durable task state, scheduling, hardware-adaptive concurrency, failure isolation and restart/recovery mechanisms. **Codex Boss** provides a higher-level multi-agent orchestration and evidence-based acceptance layer.
-
-I would like to study how long-running AI and agent workloads can be supported by **reliable distributed infrastructure**: state persistence and recovery, resource-aware execution, fault containment, reproducibility, and mechanisms for determining when a distributed autonomous workflow has actually reached a valid terminal state. I am interested in systems implementation and empirical evaluation rather than treating orchestration as only an application-layer prompt problem.
-
-Would this direction be potentially relevant to current PhD work in SANDS? I am also preparing the formal KAUST application and would not treat a supervisor reply as a substitute for the admissions process.
-
-I have attached my CV and transcript. Relevant repositories:
-- https://github.com/zhiheng-zhang-Mera/DS-Hns
-- https://github.com/zhiheng-zhang-Mera/Codex-Boss
-
-Best regards,  
-Zhiheng Zhang
-
-### Material package
-
-- **Body:** this section.
-- **Attach:** [tailored CV source](../CV-generate/kaust-marco-canini.tex) → compile to PDF before send + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
-- **Links in body:** DS-Hns + Codex Boss.
-- **Route:** systems/runtime first; avoid generic “multi-agent AI” framing.
-- **CV state:** `SOURCE_GENERATED / PDF_PENDING`.
-- **Separate action:** formal KAUST Fall 2027 application remains required.
-
----
-
-## 4. Xiaoxue Gao — CUHK-Shenzhen
+## 3. Xiaoxue Gao — CUHK-Shenzhen
 
 **To:** `gaoxiaoxue@cuhk.edu.cn`  
 **Subject:** Prospective PhD Student — Fall 2027 — Zhiheng Zhang
