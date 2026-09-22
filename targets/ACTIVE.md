@@ -10,30 +10,33 @@
 
 | 学校 / 职位 | 状态 | Research Method Fit | 当前最匹配路线 | 下一步 |
 |---|---|---|---|---|
-| Concordia University | **APPLY / SUPERVISOR-MATCH PRIORITY** | Excellent — AI4SE / coding agents / empirical SE | Codex Boss + DS-Hns | Zhijie Wang follow-up 与 5 名当前仍收人的新导师并行；见 `targets/FIRST-CONTACT-2026-09-17.md` |
-| TU Delft — WALTZ PhD | **APPLY_NOW** | Excellent — trustworthy/distributed AI pipelines | Boss + DS-Hns + Privacy Lens | 直接按 vacancy 申请 |
-| SUTD PhD / ISTD — Jan 2027 | **APPLY_NOW — 2026-09-30** | Excellent — AI4SE / trustworthy software & AI / agents | DS-Hns + Boss + Privacy Lens | 正式申请与 Thanh / Ezekiel / Esther / Wenxuan 套磁并行；见 `targets/SINGAPORE-2026-09-17.md` |
-| KAUST | **APPLY_NOW / APPLY** | Excellent — AI systems / applied AI4Science | DS-Hns + Boss | 继续筛 systems / applied AI4Science 工程型 PI |
-| Hong Kong Polytechnic University — Computing PhD | **APPLY** | Excellent — testing / program repair / AI4SE | DS-Hns + Boss | **Yu Pei** 当前明确招 PhD，首发；Hongxia Yang 因 coding test + presentation 留 BACKUP |
-| City University of Hong Kong — CS PhD | **APPLY** | Excellent — security/reliability / systems / agentic AI | DS-Hns + Boss + Privacy Lens | **Heqing Huang → Nan Guan** 首发；Zhisong Zhang 刷新 exact 2027 capacity 后再发 |
-| Chinese University of Hong Kong — CSE Regular Admission | **APPLY / MEDIUM FRICTION** | Good–Excellent — applied AI / AI4Science / systems | Boss; scientific-agent route | **Yu Li** 当前明确招 PhD；旧“written exam”记录来自 Early Admission，Regular Admission 当前只写英文 oral interview |
-| HKUST — CSE PhD | **APPLY** | Excellent — AI4SE / AI systems / security | Boss + DS-Hns + Privacy Lens | 学校申请保留；旧 Junxian He / Jiasi Shen / Shuai Wang 记录必须先刷新个人 capacity，不能直接自动套磁 |
-| Simon Fraser University | **APPLY / VERIFY MASTER ROUTE** | Excellent — AI4SE / LLM / systems | DS-Hns + Boss | 完成 Master's-entry academic equivalency 核验后推进 |
+| University of Alberta | **OUTREACH_READY / DEGREE-ROUTE VERIFY** | Excellent — AI-assisted programming / program synthesis / reliable code | DS-Hns + Boss | **Jocelyn Qiaochu Chen 今日 READY**；邮件中不回避其 research-based MSc → PhD 路径说明 |
+| HKU — Computing PhD | **OUTREACH_READY / APPLICATION-GATE VERIFY** | Excellent — trustworthy AI / security / systems | Boss + DS-Hns + Privacy Lens | **Ka Ho Chow 今日 READY**；正式申请前继续核 academic-equivalency gate |
+| Simon Fraser University | **OUTREACH_READY / VERIFY MASTER ROUTE** | Excellent — systems / scalable runtime / software infrastructure | DS-Hns + Boss | **Keval Vora 今日 READY**；当前页明确 Open Positions |
+| KAUST | **OUTREACH_READY / APPLY** | Excellent — AI/ML systems / distributed infrastructure | DS-Hns + Boss | **Marco Canini 今日 READY**；Fall 2027 formal application 2026-09-28 open |
+| NYU Abu Dhabi — SANAD Fall 2027 | **INTEREST_FORM_READY** | Excellent — AI4SE / LLM-code correctness / program analysis | DS-Hns + Boss | **走 SANAD internal interest form，不冷邮件**；formal NYU application 仍单独提交 |
+| Concordia University | **LOCKED UNTIL 2026-09-25** | Excellent — AI4SE / coding agents / empirical SE | Codex Boss + DS-Hns | Zhijie 当前 follow-up 占学校锁；9/25 无回复 → DORMANT + unlock，不发第三封 |
+| TU Delft — WALTZ PhD | **APPLY_NOW** | Excellent — trustworthy/distributed AI pipelines | Boss + DS-Hns + Privacy Lens | 直接按 vacancy 申请；不属于 supervisor cold outreach |
+| SUTD PhD / ISTD — Jan 2027 | **APPLY_NOW — OUTREACH LOCKED UNTIL 2026-09-25** | Excellent — AI4SE / trustworthy software & AI / agents | DS-Hns + Boss + Privacy Lens | 正式申请继续；Thanh 线到 9/25 才按规则二封 + unlock |
+| Hong Kong Polytechnic University — Computing PhD | **APPLY / OUTREACH LOCKED UNTIL 2026-09-25** | Excellent — testing / program repair / AI4SE | DS-Hns + Boss | Yu Pei 线等待；9/25 无实质回复 → 二封 + unlock |
+| City University of Hong Kong — CS PhD | **APPLY / OUTREACH LOCKED UNTIL 2026-09-25** | Excellent — security/reliability / systems / agentic AI | DS-Hns + Boss + Privacy Lens | Heqing Huang 线等待；9/25 无实质回复 → 二封 + unlock |
+| Chinese University of Hong Kong — CSE Regular Admission | **APPLY / OUTREACH LOCKED UNTIL 2026-09-25** | Good–Excellent — applied AI / AI4Science / systems | Boss; scientific-agent route | Yu Li 线等待；9/25 无实质回复 → 二封 + unlock |
+| HKUST — CSE PhD | **APPLY / VERIFY PI CAPACITY** | Excellent — AI4SE / AI systems / security | Boss + DS-Hns + Privacy Lens | 学校申请保留；旧 shortlist 不进入今日池，需重新验证个人 capacity 后才可进新批次 |
 
-## Concordia 当前执行策略（2026-09-17）
+## Concordia 历史执行快照（2026-09-17；非当前联络顺序）
 
 - Zhijie Wang 保持已有 follow-up，不占 cold-outreach 名额。
 - 首批新联系：**Tse-Hsun (Peter) Chen → Peter Rigby → Jinqiu Yang → Shin Hwei Tan → Yann-Gaël Guéhéneuc**。
 - 只有当前存在 `Seeking students / Accepting inquiries / looking for PhD students / funding available` 等证据的导师才进入首批。
 
-## Singapore 当前执行策略（2026-09-17）
+## Singapore 历史执行快照（2026-09-17；当前以 2026-09-22 override 为准）
 
 - **SUTD = APPLY_NOW**：Jan 2027 截止 2026-09-30；GRE 非硬要求；本科英语授课可免语言考试；当前有多个明确 PhD opportunity。
 - **NUS = BACKUP**：research fit 很强，但 scholarship-equivalency + scholarship interview + mandatory QE 增加摩擦。
 - **NTU = WATCH**：Bachelor's minimum Honours (Distinction) or equivalent 未核清；Penghui Li 2027 在招但要求走 form、不要发邮件。
 - **SMU CS/IS = REJECT**：GRE/GMAT hard gate。
 
-## Hong Kong 当前执行策略（2026-09-17）
+## Hong Kong 历史执行快照（2026-09-17；当前以 2026-09-22 override 为准）
 
 - 详细筛选与当前招生证据见 `targets/HONG-KONG-2026-09-17.md`。
 - **PolyU**：Yu Pei 当前明确招 PhD，AI4SE/repair/testing 高匹配；可直接首发。
