@@ -5,6 +5,8 @@
 > 排序按：**硬条件已过 → Research Method Fit → 当前导师仍收人 / program compatibility → 当前紧迫度 → 项目叙事匹配**。
 >
 > 高匹配研究形态包括：**AI4SE、autonomous software engineering、agentic AI / AI systems、applied AI4Science**。主要研究必须能靠系统实现、实验、benchmark、仿真、数据分析或真实任务验证完成。
+>
+> **2026-09-22 outreach override:** 今日联络顺序以 `targets/CONTACT-POOL-2026-09-22.md` 为唯一当前池；`FIRST-CONTACT-2026-09-17.md` 与 2026-09-18 hold queue 只保留历史价值，**不得顺延成今日队列**。Concordia、SUTD、PolyU、CityUHK、CUHK、University of Macau 因上一轮 live contact 暂不进入今日新首发。
 
 | 学校 / 职位 | 状态 | Research Method Fit | 当前最匹配路线 | 下一步 |
 |---|---|---|---|---|
@@ -40,13 +42,14 @@
 - **HKUST**：programme active，但本轮没有验证旧 shortlist 的个人最新 capacity，因此不从 stale YAML 自动发信。
 - **HKU**：移到 WATCH。Zuming Jiang / Ka Ho Chow / Heming Cui 都有强 current recruitment signal，但 bachelor honours/equivalency 尚未在 repo 中核清；邮件稿已准备，门禁未过前不发。
 
-## 当前执行顺序
+## 当前执行顺序（刷新 2026-09-22）
 
-1. **Concordia supervisor match** — 已有 live lead + 5 名当前招生 PI。
-2. **TU Delft WALTZ** — 2026-09-24 vacancy deadline。
-3. **SUTD Jan 2027** — 2026-09-30 deadline；申请与套磁并行。
-4. **Hong Kong first wave** — Yu Pei → Heqing Huang → Yu Li → Nan Guan；Zhisong Zhang 刷新 exact 2027 capacity 后补发。
-5. **KAUST / HKUST / SFU** — 各自按 programme gate / PI capacity 推进。
+1. **今日新联络池** — Jocelyn Qiaochu Chen (UAlberta) → Ka Ho Chow (HKU) → Keval Vora (SFU) → Marco Canini (KAUST) → SANAD internal interest form (NYUAD)；见 `targets/CONTACT-POOL-2026-09-22.md`。
+2. **TU Delft WALTZ** — 2026-09-24 vacancy deadline；这是 direct application，不占 supervisor cold-contact school lock。
+3. **2026-09-25 expiry sweep** — 若仍无实质回复：Yu Pei / Heqing Huang / Yu Li / Thanh Le-Cong 各发唯一一次 second/final follow-up 并同时解锁对应学校；Zhijie Wang 线改 DORMANT 并解锁 Concordia，不发第三封。
+4. **KAUST Fall 2027** — 2026-09-28 开放正式申请；Marco Canini 当前 outreach 与正式申请可并行，但不把导师回复当作申请硬前置。
+5. **SUTD formal application** — 2026-09-30 deadline 继续推进；学校在 2026-09-25 前仍受 Thanh live-contact lock 约束。
+6. **NYUAD SANAD** — 使用 lab internal interest form + NYU formal application 双轨；不要把内部 form 当成正式申请替代品。
 
 ## Research Method Gate
 
