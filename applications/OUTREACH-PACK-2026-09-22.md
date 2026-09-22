@@ -16,43 +16,11 @@ Use only what the target asks for. Do not attach everything by default.
 - DS-Hns: https://github.com/zhiheng-zhang-Mera/DS-Hns
 - Quant-Ultra: https://github.com/zhiheng-zhang-Mera/Quant-ultra
 
-> Current repo does **not** yet contain candidate-specific PDF CVs for today's five. Material-package rows therefore distinguish the generated body from the CV-PDF state instead of pretending a PDF exists.
+> Current repo does **not** yet contain candidate-specific PDF CVs for today's four. Material-package rows therefore distinguish the generated body from the CV-PDF state instead of pretending a PDF exists.
 
 ---
 
-## 1. Jocelyn Qiaochu Chen — University of Alberta
-
-**To:** `jocelyn.chen@ualberta.ca`  
-**Subject:** Prospective Student — reliable AI-assisted programming and coding-agent verification
-
-Dear Professor Chen,
-
-My name is Zhiheng Zhang. I am completing a Master’s degree in Computer Science at the University of Melbourne after a BSc in Computer Science from UBC, and I am preparing PhD applications for 2027.
-
-I was particularly interested in your work on AI-assisted programming, program synthesis, formal methods, and abstractions for reasoning about programs and language models. These topics connect closely to problems emerging from two systems I am building. **DS-Hns** is a long-horizon software-work runtime with durable task state, scheduling, failure isolation and recovery; **Codex Boss** coordinates multiple AI workers and evaluates whether the evidence they produce is sufficient to accept a task as complete.
-
-A research problem I would like to study more rigorously is how AI-assisted programming systems can combine **generation with verification**: using program-analysis, synthesis, testing or formal evidence to distinguish genuinely correct repairs and implementations from outputs that merely look plausible or pass weak tests. I am especially interested in implementation- and experiment-led work where these methods are evaluated on real repository tasks.
-
-I also noticed your note about prior research training for direct PhD applicants. My current master’s includes a research component, and I would be happy to clarify its scope and provide my thesis/research materials if useful. Would my background and this direction be appropriate to discuss for your upcoming fully funded PhD openings?
-
-I have attached my CV and transcript. Relevant repositories:
-- https://github.com/zhiheng-zhang-Mera/DS-Hns
-- https://github.com/zhiheng-zhang-Mera/Codex-Boss
-
-Best regards,  
-Zhiheng Zhang
-
-### Material package
-
-- **Body:** this section.
-- **Attach:** [tailored CV source](../CV-generate/ualberta-jocelyn-chen.tex) → compile to PDF before send + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
-- **Links in body:** DS-Hns + Codex Boss.
-- **Do not claim:** that formal verification is already implemented in Boss/DS-Hns; frame it as the proposed research bridge.
-- **CV state:** `SOURCE_GENERATED / PDF_PENDING`.
-
----
-
-## 2. Ka Ho Chow — University of Hong Kong
+## 1. Ka Ho Chow — University of Hong Kong
 
 **To:** `kachow@cs.hku.hk`  
 **Subject:** Prospective PhD student — trustworthy agent systems, capability boundaries and LLM security
@@ -84,7 +52,7 @@ Zhiheng Zhang
 
 ---
 
-## 3. Keval Vora — Simon Fraser University
+## 2. Keval Vora — Simon Fraser University
 
 **To:** `keval@sfu.ca`  
 **Subject:** Prospective PhD student — reliable long-running AI systems and software runtime infrastructure
@@ -116,7 +84,7 @@ Zhiheng Zhang
 
 ---
 
-## 4. Marco Canini — KAUST
+## 3. Marco Canini — KAUST
 
 **To:** `marco@kaust.edu.sa`  
 **Subject:** Prospective PhD student — reliable distributed systems for long-running AI/agent workloads
@@ -149,7 +117,7 @@ Zhiheng Zhang
 
 ---
 
-## 5. Xiaoxue Gao — CUHK-Shenzhen
+## 4. Xiaoxue Gao — CUHK-Shenzhen
 
 **To:** `gaoxiaoxue@cuhk.edu.cn`  
 **Subject:** Prospective PhD Student — Fall 2027 — Zhiheng Zhang
