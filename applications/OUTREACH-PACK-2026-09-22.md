@@ -2,7 +2,7 @@
 
 > Generated together with `targets/CONTACT-POOL-2026-09-22.md`.
 >
-> **Contract:** a candidate first needs a publicly verified direct supervisor email. If no public email exists, delete the candidate from outreach surfaces. Only then may this file generate the individualized body/form response and material package. Refreshing the pool must regenerate this file rather than reusing an old body unchanged.
+> **Contract:** a candidate needs (1) a publicly verified direct supervisor email, (2) a current route that permits direct contact, and (3) a non-pure-theory research route. Failure on any gate deletes the candidate from outreach surfaces. Only then may this file generate the individualized body and material package. Refreshing the pool must regenerate this file rather than reusing an old body unchanged.
 
 ## Common material base
 
@@ -149,28 +149,38 @@ Zhiheng Zhang
 
 ---
 
-## 5. NYU Abu Dhabi — SANAD Lab — Sarah Nadi / Karim Ali
+## 5. Dongxia Wu — MBZUAI — ATLAS Lab
 
-**Verified public emails:** `sarah.nadi@nyu.edu` / `karim.ali@nyu.edu`  
-**Official action for this opening:** **do not cold-email**; use the SANAD internal interest form, then complete the separate formal NYU application.
+**To:** `dongxia.wu@mbzuai.ac.ae`  
+**Subject:** Zhiheng Zhang — PhD — Foundation Models & Agents / AI for Science — ATLAS Lab Application
 
-### Form-ready research-interest text
+Dear Professor Wu,
 
-I am interested in reliable autonomous software engineering and the correctness of LLM-generated code. My current project **DS-Hns** is a long-horizon software-work runtime with durable task state, explicit lifecycle, failure isolation and recovery. **Codex Boss** coordinates multiple AI workers and evaluates whether their outputs provide sufficient evidence for task completion.
+My name is Zhiheng Zhang. I am completing a Master’s degree in Computer Science at the University of Melbourne after a BSc in Computer Science from UBC, and I am preparing PhD applications for Fall 2027.
 
-These systems have exposed a practical research problem I would like to study more rigorously: coding agents can produce patches or tests that appear plausible while providing weak evidence that the intended behavior is correct, while overly strict evaluators can also reject meaningful evidence. I am interested in combining **program analysis, software testing, repair/debugging signals and runtime evidence** to evaluate LLM-generated code and autonomous repository-level changes. I would like to build empirical benchmarks and system mechanisms that measure both false acceptance and false rejection on real software tasks, with security and reproducibility treated as first-class requirements.
+I saw that the ATLAS Lab is recruiting Fall 2027 PhD students and that you explicitly welcome applications by email. Among the directions listed on your page, I am most interested in **Foundation Models & Agents** and **AI for Science**, especially where the work is driven by system building, simulation/data workflows, rigorous evaluation and reproducibility.
 
-My background is in Computer Science: a BSc from UBC and a current Master’s degree at the University of Melbourne. My relevant engineering projects are:
-- DS-Hns: https://github.com/zhiheng-zhang-Mera/DS-Hns
-- Codex Boss: https://github.com/zhiheng-zhang-Mera/Codex-Boss
+My main project, **Codex Boss**, is a multi-agent orchestration and evidence-based acceptance platform for long-running tasks. **DS-Hns** is a long-horizon software-work runtime with durable state, scheduling, failure isolation and recovery. These projects have made me interested in a broader research question: how scientific agents should combine tools, persistent state, evidence, uncertainty and explicit acceptance criteria so that long-running research workflows remain auditable rather than merely plausible.
+
+For your group, I would like to explore **trustworthy scientific agents and reproducible AI-for-science workflows**: agents that can coordinate simulation or data-analysis steps, preserve experiment state, expose evidence for intermediate decisions, and be evaluated on reproducibility and failure modes. I would prefer this systems/agent/evaluation route rather than a pure probabilistic-modeling or optimization-theory project.
+
+Would this direction be relevant to your Fall 2027 PhD recruitment?
+
+I have attached my CV and academic transcript. Relevant repositories:
+- https://github.com/zhiheng-zhang-Mera/Codex-Boss
+- https://github.com/zhiheng-zhang-Mera/DS-Hns
+
+Best regards,  
+Zhiheng Zhang
 
 ### Material package
 
-- **Body/form text:** use the text above; adapt only to the actual form fields.
-- **Upload if the form requests it:** [tailored CV source](../CV-generate/nyuad-sanad.tex) → compile to PDF if the form requests CV upload + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
-- **Links:** DS-Hns + Codex Boss.
+- **Body:** this section.
+- **Attach:** [tailored CV source](../CV-generate/mbzuai-dongxia-wu.tex) → compile to PDF before send + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
+- **Links in body:** Codex Boss + DS-Hns.
+- **Selected route:** Foundation Models & Agents / AI for Science; do **not** pitch the probabilistic-ML or combinatorial-optimization lines as the main PhD route.
+- **Research-method gate:** systems/agents/evaluation/data-workflow route only; pure algorithm/theory route is excluded.
 - **CV state:** `SOURCE_GENERATED / PDF_PENDING`.
-- **Separate action:** SANAD interest form does not replace the formal NYU PhD application.
 
 ---
 
@@ -179,6 +189,8 @@ My background is in Computer Science: a BSc from UBC and a current Master’s de
 Before changing any row from `READY` to `SENT` / `SUBMITTED`:
 
 - [x] public direct supervisor email exists and is verified from an official/public source;
+- [x] advertised route permits direct email/contact and is not internal-form/portal-only;
+- [x] proposed research route is systems/empirical/applied rather than pure algorithm/theory;
 - [ ] recruitment/capacity page re-opened on send day;
 - [x] individualized body/form text exists in this daily pack;
 - [ ] candidate-specific CV PDF exists if the target requests a CV;
