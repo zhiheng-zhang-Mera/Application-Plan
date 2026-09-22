@@ -6,7 +6,7 @@
 
 ## 🚀 当前人工发送批次
 
-> **2026-09-22：今日联络池已全量刷新，旧池不顺延。** 2026-09-18 已联络的导师及其学校/院系继续占用学校锁，因此 **Concordia、SUTD、PolyU、CityUHK、CUHK、University of Macau 不进入今日新首发池**。
+> **2026-09-22：今日联络池已全量刷新，旧池不顺延。** 2026-09-18 已联络的导师及其学校/院系继续占用学校锁，因此 **Concordia、SUTD、PolyU、CityUHK、CUHK、University of Macau 不进入今日新首发池**。另外，**没有公开可验证导师邮箱的候选直接删除，不进入任何 outreach pool。**
 > 今日完整筛选与最新证据见 [targets/CONTACT-POOL-2026-09-22.md](targets/CONTACT-POOL-2026-09-22.md)；历史事件见 [applications/OUTREACH-LOG.md](applications/OUTREACH-LOG.md)。
 
 | 状态 | 学校 | 导师 | 邮箱 | 材料包 | 最近联系 | 失效 / 解锁触发 | 下一步 |
@@ -28,9 +28,9 @@
 | 2 | HKU | **Ka Ho Chow** | `kachow@cs.hku.hk` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#2-ka-ho-chow--university-of-hong-kong) · [CV source](CV-generate/hku-ka-ho-chow.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | 官方页明确 **several PhD openings** | **BODY_READY / CV_PDF_PENDING** |
 | 3 | Simon Fraser University | **Keval Vora** | `keval@sfu.ca` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#3-keval-vora--simon-fraser-university) · [CV source](CV-generate/sfu-keval-vora.tex) · transcript only if requested | 当前页明确 **Open Positions** / prospective grads contact | **BODY_READY / CV_PDF_PENDING** |
 | 4 | KAUST | **Marco Canini** | `marco@kaust.edu.sa` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#4-marco-canini--kaust) · [CV source](CV-generate/kaust-marco-canini.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | SANDS 当前页明确接收 prospective PhD interest | **BODY_READY / CV_PDF_PENDING** |
-| 5 | NYU Abu Dhabi — SANAD | **Sarah Nadi / Karim Ali** | **内部 interest form，不冷邮件** | [form text + package](applications/OUTREACH-PACK-2026-09-22.md#5-nyu-abu-dhabi--sanad-lab--sarah-nadi--karim-ali) · [CV source](CV-generate/nyuad-sanad.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | **Fall 2027 fully funded PhD**；AI4SE / LLM-code correctness | **FORM_TEXT_READY / CV_PDF_PENDING** |
+| 5 | NYU Abu Dhabi — SANAD | **Sarah Nadi / Karim Ali** | `sarah.nadi@nyu.edu` / `karim.ali@nyu.edu`；**该职位官方仍要求走 internal interest form，不直接邮件** | [form text + package](applications/OUTREACH-PACK-2026-09-22.md#5-nyu-abu-dhabi--sanad-lab--sarah-nadi--karim-ali) · [CV source](CV-generate/nyuad-sanad.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | **Fall 2027 fully funded PhD**；AI4SE / LLM-code correctness | **FORM_TEXT_READY / CV_PDF_PENDING** |
 
-> **刷新今日池时必须同步生成正文和材料包。** 没有当日正文/package 的候选不得标 `READY`；PDF 等真实附件不存在时必须显式保留 `*_PENDING`，不能假绿灯。
+> **刷新今日池时必须先过公开邮箱硬门禁，再同步生成正文和材料包。** 找不到公开可验证导师邮箱就直接删除该候选；没有当日正文/package 的候选不得标 `READY`；PDF 等真实附件不存在时必须显式保留 `*_PENDING`，不能假绿灯。
 
 ### 手动发送固定流程
 
@@ -120,9 +120,9 @@
 | Heming Cui | HKU | `heming@cs.hku.hk` | [正文](applications/hong-kong/OUTREACH-DRAFTS-2026-09-17.md#heming-cui) | — | 0 | WATCH | HKU gate |
 | Hongxia Yang | PolyU | `hongxia.yang@polyu.edu.hk` | — | — | 0 | BACKUP | coding test + presentation 摩擦高 |
 | Jing Li | PolyU | `jing-amelia.li@polyu.edu.hk` | — | — | 0 | HOLD | 第二波；不与 Yu Pei 同时联系 |
-| Junxian He | HKUST | — | — | — | 0 | WATCH | 旧 shortlist；先刷新个人 capacity |
-| Jiasi Shen | HKUST | — | — | — | 0 | WATCH | 旧 shortlist；先刷新个人 capacity |
-| Shuai Wang | HKUST | — | — | — | 0 | WATCH | 旧 shortlist；先刷新个人 capacity |
+| Junxian He | HKUST | `junxianh@cse.ust.hk` | — | — | 0 | WATCH | 公开邮箱已核；旧 shortlist，先刷新个人 capacity |
+| Jiasi Shen | HKUST | `sjs@cse.ust.hk` | — | — | 0 | WATCH | 公开邮箱已核；旧 shortlist，先刷新个人 capacity |
+| Shuai Wang | HKUST | `shuaiw@cse.ust.hk` | — | — | 0 | WATCH | 公开邮箱已核；旧 shortlist，先刷新个人 capacity |
 
 </details>
 
