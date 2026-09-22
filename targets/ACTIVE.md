@@ -14,7 +14,7 @@
 | HKU — Computing PhD | **OUTREACH_READY / APPLICATION-GATE VERIFY** | Excellent — trustworthy AI / security / systems | Boss + DS-Hns + Privacy Lens | **Ka Ho Chow 今日 READY**；正式申请前继续核 academic-equivalency gate |
 | Simon Fraser University | **OUTREACH_READY / VERIFY MASTER ROUTE** | Excellent — systems / scalable runtime / software infrastructure | DS-Hns + Boss | **Keval Vora 今日 READY**；当前页明确 Open Positions |
 | KAUST | **OUTREACH_READY / APPLY** | Excellent — AI/ML systems / distributed infrastructure | DS-Hns + Boss | **Marco Canini 今日 READY**；Fall 2027 formal application 2026-09-28 open |
-| NYU Abu Dhabi — SANAD Fall 2027 | **INTEREST_FORM_READY** | Excellent — AI4SE / LLM-code correctness / program analysis | DS-Hns + Boss | **走 SANAD internal interest form，不冷邮件**；formal NYU application 仍单独提交 |
+| MBZUAI — ATLAS Lab / Fall 2027 | **OUTREACH_READY** | Excellent on selected applied route — Foundation Models & Agents / AI for Science | Boss + DS-Hns | **Dongxia Wu 今日 READY**；仅走 scientific agents / trustworthy workflow / empirical evaluation 路线，不走纯概率/优化理论线 |
 | Concordia University | **LOCKED UNTIL 2026-09-25** | Excellent — AI4SE / coding agents / empirical SE | Codex Boss + DS-Hns | Zhijie 当前 follow-up 占学校锁；9/25 无回复 → DORMANT + unlock，不发第三封 |
 | TU Delft — WALTZ PhD | **APPLY_NOW** | Excellent — trustworthy/distributed AI pipelines | Boss + DS-Hns + Privacy Lens | 直接按 vacancy 申请；不属于 supervisor cold outreach |
 | SUTD PhD / ISTD — Jan 2027 | **APPLY_NOW — OUTREACH LOCKED UNTIL 2026-09-25** | Excellent — AI4SE / trustworthy software & AI / agents | DS-Hns + Boss + Privacy Lens | 正式申请继续；Thanh 线到 9/25 才按规则二封 + unlock |
@@ -33,7 +33,7 @@
 
 - **SUTD = APPLY_NOW**：Jan 2027 截止 2026-09-30；GRE 非硬要求；本科英语授课可免语言考试；当前有多个明确 PhD opportunity。
 - **NUS = BACKUP**：research fit 很强，但 scholarship-equivalency + scholarship interview + mandatory QE 增加摩擦。
-- **NTU = WATCH**：Bachelor's minimum Honours (Distinction) or equivalent 未核清；Penghui Li 2027 在招但要求走 form、不要发邮件。
+- **NTU = WATCH**：Bachelor's minimum Honours (Distinction) or equivalent 未核清；只保留未来可直接联系且非纯理论的候选，form-only 导师不进入 outreach pool。
 - **SMU CS/IS = REJECT**：GRE/GMAT hard gate。
 
 ## Hong Kong 历史执行快照（2026-09-17；当前以 2026-09-22 override 为准）
@@ -47,18 +47,18 @@
 
 ## 当前执行顺序（刷新 2026-09-22）
 
-1. **今日新联络池** — Jocelyn Qiaochu Chen (UAlberta) → Ka Ho Chow (HKU) → Keval Vora (SFU) → Marco Canini (KAUST) → SANAD internal interest form (NYUAD)；见 `targets/CONTACT-POOL-2026-09-22.md`。
+1. **今日新联络池** — Jocelyn Qiaochu Chen (UAlberta) → Ka Ho Chow (HKU) → Keval Vora (SFU) → Marco Canini (KAUST) → Dongxia Wu (MBZUAI)；见 `targets/CONTACT-POOL-2026-09-22.md`。
 2. **TU Delft WALTZ** — 2026-09-24 vacancy deadline；这是 direct application，不占 supervisor cold-contact school lock。
 3. **2026-09-25 expiry sweep** — 若仍无实质回复：Yu Pei / Heqing Huang / Yu Li / Thanh Le-Cong 各发唯一一次 second/final follow-up 并同时解锁对应学校；Zhijie Wang 线改 DORMANT 并解锁 Concordia，不发第三封。
 4. **KAUST Fall 2027** — 2026-09-28 开放正式申请；Marco Canini 当前 outreach 与正式申请可并行，但不把导师回复当作申请硬前置。
 5. **SUTD formal application** — 2026-09-30 deadline 继续推进；学校在 2026-09-25 前仍受 Thanh live-contact lock 约束。
-6. **NYUAD SANAD** — 使用 lab internal interest form + NYU formal application 双轨；不要把内部 form 当成正式申请替代品。
+6. **MBZUAI / Dongxia Wu** — Fall 2027 direct-email outreach；只按 Foundation Models & Agents / AI for Science 的系统、实验、可复现工作流路线推进。
 
 ## Research Method Gate
 
 导师即使关键词匹配，也必须满足至少一种可执行路线：system/tool implementation、empirical evaluation/benchmark、simulation/computational experiments、real-world data analysis、agent/software/scientific-workflow evaluation。
 
-如果主要产出是 theorem / proof / heavy derivation，或 AI4Science 需要高强度理论物理、纯数学、理论化学等先修才能开始主要研究，则降级到 `PRUNED/REJECT`。
+如果主要产出是 pure algorithms / theorem / proof / complexity / heavy derivation，或 AI4Science 需要高强度理论物理、纯数学、理论化学等先修才能开始主要研究，**直接从 outreach candidate surfaces 删除**，不保留为 WATCH/HOLD/BACKUP。Mixed 导师只有明确存在 systems / empirical / applied 子路线时才保留。
 
 ## 升级规则
 
