@@ -149,20 +149,20 @@ Zhiheng Zhang
 
 ---
 
-## 5. Dongxia Wu — MBZUAI — ATLAS Lab
+## 5. Xiaoxue Gao — CUHK-Shenzhen
 
-**To:** `dongxia.wu@mbzuai.ac.ae`  
-**Subject:** Zhiheng Zhang — PhD — Foundation Models & Agents / AI for Science — ATLAS Lab Application
+**To:** `gaoxiaoxue@cuhk.edu.cn`  
+**Subject:** Prospective PhD Student — Fall 2027 — Zhiheng Zhang
 
-Dear Professor Wu,
+Dear Professor Gao,
 
 My name is Zhiheng Zhang. I am completing a Master’s degree in Computer Science at the University of Melbourne after a BSc in Computer Science from UBC, and I am preparing PhD applications for Fall 2027.
 
-I saw that the ATLAS Lab is recruiting Fall 2027 PhD students and that you explicitly welcome applications by email. Among the directions listed on your page, I am most interested in **Foundation Models & Agents** and **AI for Science**, especially where the work is driven by system building, simulation/data workflows, rigorous evaluation and reproducibility.
+I saw that you are recruiting fully funded PhD students for Spring and Fall 2027, and that you welcome interested applicants to contact you directly by email. I am particularly interested in the **agentic AI, multimodal language-model, and trustworthy-AI** parts of your research.
 
-My main project, **Codex Boss**, is a multi-agent orchestration and evidence-based acceptance platform for long-running tasks. **DS-Hns** is a long-horizon software-work runtime with durable state, scheduling, failure isolation and recovery. These projects have made me interested in a broader research question: how scientific agents should combine tools, persistent state, evidence, uncertainty and explicit acceptance criteria so that long-running research workflows remain auditable rather than merely plausible.
+My main project, **Codex Boss**, is a multi-agent orchestration and evidence-based acceptance platform for long-running tasks. **DS-Hns** is a long-horizon software-work runtime with durable state, scheduling, failure isolation and recovery. These projects have made me interested in how agentic systems should preserve state, coordinate tools and evidence, recover from failure, and expose enough information to evaluate whether their outputs are trustworthy.
 
-For your group, I would like to explore **trustworthy scientific agents and reproducible AI-for-science workflows**: agents that can coordinate simulation or data-analysis steps, preserve experiment state, expose evidence for intermediate decisions, and be evaluated on reproducibility and failure modes. I would prefer this systems/agent/evaluation route rather than a pure probabilistic-modeling or optimization-theory project.
+A direction I would like to explore is **trustworthy agentic and multimodal AI systems**: evaluating robustness and safety of agents that operate across multiple modalities or tools, studying how errors propagate across long-horizon workflows, and building reproducible benchmarks or system mechanisms that make those failures observable. I would approach speech/audio as an application domain for agentic and multimodal systems rather than claim prior specialist speech-processing experience.
 
 Would this direction be relevant to your Fall 2027 PhD recruitment?
 
@@ -176,10 +176,11 @@ Zhiheng Zhang
 ### Material package
 
 - **Body:** this section.
-- **Attach:** [tailored CV source](../CV-generate/mbzuai-dongxia-wu.tex) → compile to PDF before send + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
+- **Attach:** [tailored CV source](../CV-generate/cuhksz-xiaoxue-gao.tex) → compile to PDF before send + [transcript](../Documents/Transcript-ZhihengZhang.pdf).
 - **Links in body:** Codex Boss + DS-Hns.
-- **Selected route:** Foundation Models & Agents / AI for Science; do **not** pitch the probabilistic-ML or combinatorial-optimization lines as the main PhD route.
-- **Research-method gate:** systems/agents/evaluation/data-workflow route only; pure algorithm/theory route is excluded.
+- **Selected route:** agentic AI / multimodal LMs / trustworthy AI with systems and empirical evaluation.
+- **Do not claim:** prior specialist expertise in speech/audio processing; use it as the application domain for agentic/multimodal reliability questions.
+- **Program gate already checked:** the SAI programme allows prior supervisor contact; an English-medium degree satisfies the listed English requirement route.
 - **CV state:** `SOURCE_GENERATED / PDF_PENDING`.
 
 ---
