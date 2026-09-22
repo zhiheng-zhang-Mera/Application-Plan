@@ -93,6 +93,8 @@ Rules:
 - `unknown` -> verify first; do not include in the first-contact five.
 - recent explicit `seeking_students`, `accepting_inquiries`, `open_phd_position`, or `funding_available` outranks an equally matched supervisor with only historical supervision evidence.
 - do not infer current capacity merely because a professor has current students.
+- do not treat evergreen language such as “always interested in hearing from potential students” as proof of current-intake capacity; it only clears the contact-openness part of the gate.
+- if an intake-specific no-capacity/defer signal conflicts with a generic contact page, the restrictive intake-specific signal wins; remove the supervisor from the current pool until the relevant intake reopens.
 - re-check this gate immediately before each new outreach batch.
 - for Concordia CS/SE PhD, treat the supervisor-match step as execution-critical: the official admissions process states that an admission offer is not issued until a supervisor match is made. This increases the priority of verified-active Concordia supervisors without changing the academic hard gates.
 
