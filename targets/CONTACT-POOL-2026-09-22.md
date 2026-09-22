@@ -10,24 +10,23 @@
 >
 > **Daily-pack rule:** every pool refresh must also regenerate `applications/OUTREACH-PACK-YYYY-MM-DD.md` with an individualized body/form response and a material package for every selected candidate. A row may not be `READY` if the body/package is missing.
 
-## Today's fresh four
+## Today's fresh three
 
 | Priority | University | Supervisor / lab | Contact action | Generated body + material package | Current signal | State |
 |---:|---|---|---|---|---|---|
 | 1 | University of Hong Kong | **Ka Ho Chow** | Email `kachow@cs.hku.hk` | [正文 + package](../applications/OUTREACH-PACK-2026-09-22.md#2-ka-ho-chow--university-of-hong-kong) · [CV source](../CV-generate/hku-ka-ho-chow.tex) · [transcript](../Documents/Transcript-ZhihengZhang.pdf) | Official profile says **several openings for PhD students** | **BODY_READY / CV_PDF_PENDING** |
 | 2 | Simon Fraser University | **Keval Vora** | Email `keval@sfu.ca`; brief interests + CV | [正文 + package](../applications/OUTREACH-PACK-2026-09-22.md#3-keval-vora--simon-fraser-university) · [CV source](../CV-generate/sfu-keval-vora.tex) · transcript only if requested | Current page says **Open Positions** and asks prospective grads to contact him with interests + CV | **BODY_READY / CV_PDF_PENDING** |
-| 3 | KAUST | **Marco Canini** | Email `marco@kaust.edu.sa`; read his PhD-contact instructions before sending | [正文 + package](../applications/OUTREACH-PACK-2026-09-22.md#4-marco-canini--kaust) · [CV source](../CV-generate/kaust-marco-canini.tex) · [transcript](../Documents/Transcript-ZhihengZhang.pdf) | SANDS page explicitly addresses prospective PhD students; distributed/cloud + AI/ML systems fit | **BODY_READY / CV_PDF_PENDING** |
-| 4 | CUHK-Shenzhen — School of Artificial Intelligence | **Xiaoxue Gao** | Email `gaoxiaoxue@cuhk.edu.cn`; professor explicitly asks interested PhD applicants to email CV + target position/intake | [正文 + package](../applications/OUTREACH-PACK-2026-09-22.md#5-xiaoxue-gao--cuhk-shenzhen) · [CV source](../CV-generate/cuhksz-xiaoxue-gao.tex) · [transcript](../Documents/Transcript-ZhihengZhang.pdf) | **Fully funded Spring/Fall 2027 PhD**; agentic AI in speech/audio, multimodal LMs, trustworthy AI; direct outreach allowed | **BODY_READY / CV_PDF_PENDING** |
+| 3 | CUHK-Shenzhen — School of Artificial Intelligence | **Xiaoxue Gao** | Email `gaoxiaoxue@cuhk.edu.cn`; professor explicitly asks interested PhD applicants to email CV + target position/intake | [正文 + package](../applications/OUTREACH-PACK-2026-09-22.md#5-xiaoxue-gao--cuhk-shenzhen) · [CV source](../CV-generate/cuhksz-xiaoxue-gao.tex) · [transcript](../Documents/Transcript-ZhihengZhang.pdf) | **Fully funded Spring/Fall 2027 PhD**; agentic AI in speech/audio, multimodal LMs, trustworthy AI; direct outreach allowed | **BODY_READY / CV_PDF_PENDING** |
 
-## Why these four
+## Why these three
 
-- All four are from universities **not occupied by the 2026-09-18 contact batch**.
+- All three are from universities **not occupied by the 2026-09-18 contact batch**.
 - Every slot has a **current recruitment/contact signal**, not just historical faculty-fit keywords.
 - The pool deliberately mixes exact AI4SE/reliable-code work with systems/orchestration work so Boss and DS-Hns can be presented as research artifacts without pretending they are already finished research results.
 - SANAD was removed from the pool because the advertised Fall 2027 route explicitly requires the internal interest system rather than direct outreach; public faculty emails do not override the direct-contact gate.
 - Xiaoxue Gao replaces that slot because she explicitly recruits fully funded Spring/Fall 2027 PhD students and explicitly asks interested applicants to email her. The selected narrative is **agentic AI + trustworthy multimodal systems + empirical evaluation**; speech/audio is treated as the application domain, not as a requirement to pretend prior specialist experience.
 - Jocelyn Qiaochu Chen was removed despite active recruitment: her current page explicitly grounds the work in programming languages, formal methods, program synthesis and logic and emphasizes mathematical background, which is outside this outreach pool's theory-burden gate.
-- KAUST Fall 2027 applications open **2026-09-28**; supervisor contact is optional at university level, so the Marco Canini email is a targeted fit signal rather than an admission prerequisite.
+- Marco Canini was removed from the Fall 2027 pool. His current SANDS student page contains evergreen PhD-contact instructions but does not establish Fall 2027 capacity, while a prior search observation indicated no PhD intake before Fall 2028. Treat this as a capacity conflict and do not contact him for 2027 unless a newer intake-specific source reopens the route.
 
 ## Explicitly not reused today
 
@@ -71,7 +70,6 @@ They are **not rejected**. They remain behind their live school relationship and
 - Ka Ho Chow: https://www.cs.hku.hk/people/academic-staff/kachow
 - Keval Vora: https://www.cs.sfu.ca/~keval/
 - SFU Computing Science PhD: https://www.sfu.ca/fas/study/future-graduates/programs/phd-computing/
-- Marco Canini / SANDS: https://sands.kaust.edu.sa/
 - KAUST 2026–27 admissions timeline: https://admissions.kaust.edu.sa/how-to-apply/admission-timelines
 - KAUST entry requirements: https://admissions.kaust.edu.sa/how-to-apply/entry-requirements
 - Xiaoxue Gao personal recruitment page: https://xiaoxue1117.github.io/
