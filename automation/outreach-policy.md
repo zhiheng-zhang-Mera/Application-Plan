@@ -20,8 +20,8 @@ It should let the user quickly:
 
 1. see the current manual send queue;
 2. copy a supervisor email address;
-3. open the exact individualized email draft;
-4. open the relevant attachment/supporting-material checklist;
+3. open the exact individualized email/form draft;
+4. open the single material package that contains the draft plus the relevant attachments/supporting materials;
 5. manually send the message from the user's email client; and
 6. record the resulting contact history (`last_contact`, contact count/history, reply state, next action/cooldown).
 
@@ -74,6 +74,24 @@ Rules:
 - do not infer current capacity merely because a professor has current students.
 - re-check this gate immediately before each new outreach batch.
 - for Concordia CS/SE PhD, treat the supervisor-match step as execution-critical: the official admissions process states that an admission offer is not issued until a supervisor match is made. This increases the priority of verified-active Concordia supervisors without changing the academic hard gates.
+
+## Daily pool generation contract
+
+Every refresh of the current outreach pool must be **self-contained**. Selecting names without generating their send materials is incomplete.
+
+Required outputs for a refresh dated `YYYY-MM-DD`:
+
+1. regenerate `targets/CONTACT-POOL-YYYY-MM-DD.md`;
+2. regenerate `applications/OUTREACH-PACK-YYYY-MM-DD.md`;
+3. for every selected email candidate, generate a new individualized **subject + complete body** in that daily pack;
+4. for form-only targets, generate the exact **form-ready research-interest text** instead of an email;
+5. generate or refresh a candidate-specific research-CV source under `CV-generate/` when a CV is part of the target's requested material;
+6. expose a single **material package** from the README/pool row containing the body/form text, CV, transcript/supporting documents as appropriate, and project links;
+7. never mark a row `READY` while a required artifact is missing. Use explicit states such as `BODY_READY / CV_PDF_PENDING` or `FORM_TEXT_READY / MATERIAL_PENDING`.
+
+A previous-day body may be used as source material, but the refresh must rewrite/revalidate it against the newly verified recruitment signal and current project claims. **Do not silently point a new pool at an old draft and call that generation.**
+
+For the sent/waiting pool, the human control table should use **one `材料包 / material package` column** rather than separate body and attachment columns. The package may link to the historical body and exact artifacts that were actually sent.
 
 ## Same-school / same-department contact lifecycle
 
