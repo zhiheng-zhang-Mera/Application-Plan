@@ -20,15 +20,14 @@
 
 ### 今日联络池（2026-09-22，全量刷新）
 
-> **旧“下一批候选池”作废，不作为今日排序依据。** 以下 5 个槽位来自 5 个未被上一轮占用的学校；详细 recruitment evidence、门禁和操作说明见 [今日池](targets/CONTACT-POOL-2026-09-22.md)。
+> **旧“下一批候选池”作废，不作为今日排序依据。** 当前保留 4 个通过全部硬门禁的槽位；不为了凑数保留理论负担或 internal-only 边缘项。详细 recruitment evidence、门禁和操作说明见 [今日池](targets/CONTACT-POOL-2026-09-22.md)。
 
 | 顺位 | 学校 | 导师 / Lab | 联系方式 | 材料包 | 当前信号 | 今日状态 |
 |---:|---|---|---|---|---|---|
-| 1 | University of Alberta | **Jocelyn Qiaochu Chen** | `jocelyn.chen@ualberta.ca` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#1-jocelyn-qiaochu-chen--university-of-alberta) · [CV source](CV-generate/ualberta-jocelyn-chen.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | upcoming cycle 明确招 **1–2 fully funded PhD** | **BODY_READY / CV_PDF_PENDING** |
-| 2 | HKU | **Ka Ho Chow** | `kachow@cs.hku.hk` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#2-ka-ho-chow--university-of-hong-kong) · [CV source](CV-generate/hku-ka-ho-chow.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | 官方页明确 **several PhD openings** | **BODY_READY / CV_PDF_PENDING** |
-| 3 | Simon Fraser University | **Keval Vora** | `keval@sfu.ca` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#3-keval-vora--simon-fraser-university) · [CV source](CV-generate/sfu-keval-vora.tex) · transcript only if requested | 当前页明确 **Open Positions** / prospective grads contact | **BODY_READY / CV_PDF_PENDING** |
-| 4 | KAUST | **Marco Canini** | `marco@kaust.edu.sa` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#4-marco-canini--kaust) · [CV source](CV-generate/kaust-marco-canini.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | SANDS 当前页明确接收 prospective PhD interest | **BODY_READY / CV_PDF_PENDING** |
-| 5 | CUHK-Shenzhen | **Xiaoxue Gao** | `gaoxiaoxue@cuhk.edu.cn` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#5-xiaoxue-gao--cuhk-shenzhen) · [CV source](CV-generate/cuhksz-xiaoxue-gao.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | Spring/Fall 2027 **fully funded PhD**；明确欢迎直接邮件；Agentic AI / multimodal / trustworthy AI | **BODY_READY / CV_PDF_PENDING** |
+| 1 | HKU | **Ka Ho Chow** | `kachow@cs.hku.hk` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#2-ka-ho-chow--university-of-hong-kong) · [CV source](CV-generate/hku-ka-ho-chow.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | 官方页明确 **several PhD openings** | **BODY_READY / CV_PDF_PENDING** |
+| 2 | Simon Fraser University | **Keval Vora** | `keval@sfu.ca` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#3-keval-vora--simon-fraser-university) · [CV source](CV-generate/sfu-keval-vora.tex) · transcript only if requested | 当前页明确 **Open Positions** / prospective grads contact | **BODY_READY / CV_PDF_PENDING** |
+| 3 | KAUST | **Marco Canini** | `marco@kaust.edu.sa` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#4-marco-canini--kaust) · [CV source](CV-generate/kaust-marco-canini.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | SANDS 当前页明确接收 prospective PhD interest | **BODY_READY / CV_PDF_PENDING** |
+| 4 | CUHK-Shenzhen | **Xiaoxue Gao** | `gaoxiaoxue@cuhk.edu.cn` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#5-xiaoxue-gao--cuhk-shenzhen) · [CV source](CV-generate/cuhksz-xiaoxue-gao.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | Spring/Fall 2027 **fully funded PhD**；明确欢迎直接邮件；Agentic AI / multimodal / trustworthy AI | **BODY_READY / CV_PDF_PENDING** |
 
 > **刷新今日池时必须依次过三道硬门禁：公开邮箱、允许直接联系、非纯算法/纯理论。** 任一失败都直接删除候选；通过后才生成正文和材料包。没有当日正文/package 的候选不得标 `READY`；PDF 等真实附件不存在时必须显式保留 `*_PENDING`，不能假绿灯。
 
@@ -129,11 +128,10 @@
 <details open>
 <summary><strong>University of Alberta — candidate pool</strong></summary>
 
-> 仅保留本轮前三名；当前均未联系。不要自动恢复已淘汰的 Alberta 第二梯队。详细定位见 [candidate pool](applications/university-of-alberta/README.md)。
+> 当前只保留通过非理论路线筛选的 Alberta 候选；Jocelyn Qiaochu Chen 已因核心路线偏 PL / formal methods / program synthesis / logic 而从 outreach candidate surfaces 移除。详细定位见 [candidate pool](applications/university-of-alberta/README.md)。
 
 | 导师 | 邮箱 | 主要匹配 | 最近联系 | 历史 | 当前状态 | 下一步 |
 |---|---|---|---|---|---|---|
-| **Jocelyn Qiaochu Chen** | `jocelyn.chen@ualberta.ca` | reliable AI-assisted programming / PL-formal methods × code/tool agents | — | 0 | **BODY_READY / CV_PDF_PENDING** | [今日材料包](applications/OUTREACH-PACK-2026-09-22.md#1-jocelyn-qiaochu-chen--university-of-alberta)；先生成/核验 CV PDF，再发送 |
 | **Zhou Yang** | `zy25@ualberta.ca` | trustworthy CodeLLMs / AI4SE / robustness-security-privacy | — | 0 | **NOT_CONTACTED** | 发信前刷新 capacity/funding；第二顺位 |
 | **Majeed Kazemitabaar** | `majeedkazemi@ualberta.ca` | Human–AI interaction / end-user programming / GenAI programming | — | 0 | **NOT_CONTACTED** | 刷新其明确招生信号与 funding；第三顺位 |
 
