@@ -171,6 +171,9 @@ supervisors:
   - id: hkust-junxian-he
     university: Hong Kong University of Science and Technology
     name: Junxian He
+    public_contact_email: junxianh@cse.ust.hk
+    public_contact_email_source_url: https://cse.hkust.edu.hk/admin/people/faculty/
+    public_contact_email_last_verified: 2026-09-22
     program_id: hkust-cse-phd
     contact_state: not_contacted
     fit_summary: "Strong AI plus software-engineering/programming-languages intersection for LLM systems and coding agents."
@@ -180,6 +183,9 @@ supervisors:
   - id: hkust-jiasi-shen
     university: Hong Kong University of Science and Technology
     name: Jiasi Shen
+    public_contact_email: sjs@cse.ust.hk
+    public_contact_email_source_url: https://cse.hkust.edu.hk/admin/people/faculty/
+    public_contact_email_last_verified: 2026-09-22
     program_id: hkust-cse-phd
     contact_state: not_contacted
     fit_summary: "Software engineering / programming languages fit for automated software construction and analysis."
@@ -189,6 +195,9 @@ supervisors:
   - id: hkust-shuai-wang
     university: Hong Kong University of Science and Technology
     name: Shuai Wang
+    public_contact_email: shuaiw@cse.ust.hk
+    public_contact_email_source_url: https://cse.hkust.edu.hk/admin/people/faculty/
+    public_contact_email_last_verified: 2026-09-22
     program_id: hkust-cse-phd
     contact_state: not_contacted
     fit_summary: "Cybersecurity plus software engineering/programming languages offers a good reliable-agent/security route."
