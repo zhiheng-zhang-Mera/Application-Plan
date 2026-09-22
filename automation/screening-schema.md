@@ -2,7 +2,7 @@
 
 ## Decision flow
 
-`Hard Gate → Research Method Fit → Current Recruitment / Capacity → Program-Supervisor Compatibility → Friction → Utility → Action State`
+`Hard Gate → Research Method Fit → Public Contact Email Gate → Current Recruitment / Capacity → Program-Supervisor Compatibility → Friction → Utility → Action State`
 
 ## Hard Gate
 
@@ -81,6 +81,26 @@ Rules:
 - If research method is unclear, keep `method_mismatch=unknown`; do not promote solely on topic-keyword similarity.
 - Recent student projects and papers matter more than broad faculty-profile keywords.
 
+## Public Contact Email Gate
+
+A supervisor is **not eligible for any outreach candidate pool** unless a publicly verifiable direct contact email exists.
+
+Capture:
+
+- `public_contact_email`
+- `public_contact_email_source_url`
+- `public_contact_email_last_verified`
+- `public_contact_email_status`: `verified | missing`
+
+Rules:
+
+- verify the email from an official university/faculty page or the supervisor/lab's own public page;
+- do not infer, pattern-generate, or guess an address from a university naming convention;
+- `missing` -> **delete the person from outreach candidate surfaces immediately**; do not keep them as `WATCH`, `HOLD`, `BACKUP`, a form-only exception, or a daily-pool placeholder;
+- a contact form, application portal, LinkedIn account, or private contact channel does **not** substitute for the public-email gate;
+- if a public email exists but the advertised position explicitly asks applicants to use a form rather than email, the candidate may remain eligible, but the stored action must follow the advertised form route and the public email is kept only as verified contact identity;
+- historical outreach events may remain in the audit log even if the old address is no longer publicly recoverable; the deletion rule applies to **candidate eligibility**, not destruction of historical evidence.
+
 ## Current Recruitment / Capacity Gate
 
 A supervisor is not eligible for the **first-contact batch** merely because the research fit is strong. Before outreach, verify a current signal that the person is still taking students or at least accepting supervision inquiries.
@@ -139,3 +159,5 @@ Academic score thresholds are mutable enough to require a current-cycle verifica
 Research-method evidence should also be refreshed when a supervisor is promoted for outreach; use recent papers/projects rather than relying indefinitely on an old faculty bio.
 
 Supervisor recruitment/capacity is treated as a fast-changing field and must be refreshed for the current outreach date.
+
+Public contact email must also be verified on each promotion into a current outreach pool. A candidate with no verified public email is removed rather than carried forward.
