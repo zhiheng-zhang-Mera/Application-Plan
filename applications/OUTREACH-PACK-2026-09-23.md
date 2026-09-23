@@ -42,12 +42,12 @@ Zhiheng Zhang
 
 ### Material package
 - **Body:** this section.
-- **Attach:** [tailored CV source](../CV-generate/nyu-qiaoyu-tan.tex) → compile to PDF before send.
+- **Attach:** [tailored CV PDF](../CV-generate/nyu-qiaoyu-tan.pdf) · [source](../CV-generate/nyu-qiaoyu-tan.tex).
 - **Attach:** [academic transcript](../Documents/Transcript-ZhihengZhang.pdf), because the recruiting page explicitly asks for CV + transcripts.
 - **Links in body:** Codex Boss + DS-Hns.
 - **Lead route:** trustworthy agentic AI / empirical agent evaluation.
 - **Do not claim:** prior specialist multimodal/diffusion expertise; publications; completed semantic-acceptance research.
-- **CV state:** `SOURCE_GENERATED / PDF_PENDING`.
+- **CV state:** `PDF_READY`.
 
 ---
 
@@ -77,12 +77,12 @@ Zhiheng Zhang
 
 ### Material package
 - **Body:** this section; this is also the requested short note.
-- **Attach:** [tailored CV source](../CV-generate/dartmouth-shawn-shan.tex) → compile to PDF before send.
+- **Attach:** [tailored CV PDF](../CV-generate/dartmouth-shawn-shan.pdf) · [source](../CV-generate/dartmouth-shawn-shan.tex).
 - **Transcript:** not a default cold-email attachment because the opening asks for CV + short note; keep ready if requested.
 - **Links in body:** Codex Boss + DS-Hns.
 - **Lead route:** trustworthy AI security / provenance / auditing.
 - **Do not claim:** generative-model poisoning expertise; prior security publications; finished research conclusions from Boss.
-- **CV state:** `SOURCE_GENERATED / PDF_PENDING`.
+- **CV state:** `PDF_READY`.
 
 ---
 
@@ -112,13 +112,13 @@ Zhiheng Zhang
 
 ### Material package
 - **Body:** this section.
-- **Attach:** [tailored CV source](../CV-generate/psu-yuchen-yang.tex) → compile to PDF before send.
+- **Attach:** [tailored CV PDF](../CV-generate/psu-yuchen-yang.pdf) · [source](../CV-generate/psu-yuchen-yang.tex).
 - **Optional supporting material:** transcript only if useful/requested; current recruiting page requires CV and treats software/GitHub as useful evidence.
 - **Links in body:** Codex Boss + DS-Hns.
 - **Lead route:** ML-systems security / trustworthy AI / empirical system-building.
 - **Program route:** Penn State PhD in Informatics.
 - **Do not claim:** adversarial-ML theory background; publications; unsupported performance results.
-- **CV state:** `SOURCE_GENERATED / PDF_PENDING`.
+- **CV state:** `PDF_READY`.
 
 ---
 
@@ -131,7 +131,7 @@ Zhiheng Zhang
 - [x] selected research route is systems/empirical/applied rather than pure theory;
 - [x] individualized body exists in this 2026-09-23 pack;
 - [x] candidate-specific CV source exists;
-- [ ] candidate-specific CV PDF exists;
+- [x] candidate-specific CV PDF exists;
 - [ ] recruitment page re-opened immediately before send;
 - [ ] requested attachment set checked;
 - [ ] manual send logged only after the message is actually sent.
