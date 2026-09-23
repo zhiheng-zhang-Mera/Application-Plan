@@ -10,9 +10,9 @@
 
 | Priority | University / program | Supervisor | Contact action | Material package | Current signal | State |
 |---:|---|---|---|---|---|---|
-| 1 | NYU Courant CS PhD — NYU Shanghai Global Track | **Qiaoyu Tan** | Email `qiaoyu.tan@nyu.edu`; CV + transcript | [正文 + package](../applications/OUTREACH-PACK-2026-09-23.md#1-qiaoyu-tan--nyu-shanghai--nyu-courant) · [CV source](../CV-generate/nyu-qiaoyu-tan.tex) · [transcript](../Documents/Transcript-ZhihengZhang.pdf) | Explicitly recruiting **multiple fully funded Fall 2027 PhD students from NYU Courant** in Agent / Trustworthy AI | **BODY_READY / CV_PDF_PENDING** |
-| 2 | Dartmouth College — Computer Science PhD | **Shawn Shan** | Email `Shawn.Shan@dartmouth.edu`; CV + short note | [正文 + package](../applications/OUTREACH-PACK-2026-09-23.md#2-shawn-shan--dartmouth-college) · [CV source](../CV-generate/dartmouth-shawn-shan.tex) | Explicitly recruiting **1–2 fully funded Fall 2027 PhD students**; direct pre-application email invited | **BODY_READY / CV_PDF_PENDING** |
-| 3 | Penn State — PhD in Informatics | **Yuchen Yang** | Email `yuchen.yang@psu.edu`; CV + GitHub/software links | [正文 + package](../applications/OUTREACH-PACK-2026-09-23.md#3-yuchen-yang--penn-state) · [CV source](../CV-generate/psu-yuchen-yang.tex) | Current recruiting page explicitly invites **PhD applicants**; trustworthy AI / ML systems security; direct email invited | **BODY_READY / CV_PDF_PENDING** |
+| 1 | NYU Courant CS PhD — NYU Shanghai Global Track | **Qiaoyu Tan** | Email `qiaoyu.tan@nyu.edu`; CV + transcript | [正文 + package](../applications/OUTREACH-PACK-2026-09-23.md#1-qiaoyu-tan--nyu-shanghai--nyu-courant) · [CV PDF](../CV-generate/nyu-qiaoyu-tan.pdf) · [source](../CV-generate/nyu-qiaoyu-tan.tex) · [transcript](../Documents/Transcript-ZhihengZhang.pdf) | Explicitly recruiting **multiple fully funded Fall 2027 PhD students from NYU Courant** in Agent / Trustworthy AI | **READY** |
+| 2 | Dartmouth College — Computer Science PhD | **Shawn Shan** | Email `Shawn.Shan@dartmouth.edu`; CV + short note | [正文 + package](../applications/OUTREACH-PACK-2026-09-23.md#2-shawn-shan--dartmouth-college) · [CV PDF](../CV-generate/dartmouth-shawn-shan.pdf) · [source](../CV-generate/dartmouth-shawn-shan.tex) | Explicitly recruiting **1–2 fully funded Fall 2027 PhD students**; direct pre-application email invited | **READY** |
+| 3 | Penn State — PhD in Informatics | **Yuchen Yang** | Email `yuchen.yang@psu.edu`; CV + GitHub/software links | [正文 + package](../applications/OUTREACH-PACK-2026-09-23.md#3-yuchen-yang--penn-state) · [CV PDF](../CV-generate/psu-yuchen-yang.pdf) · [source](../CV-generate/psu-yuchen-yang.tex) | Current recruiting page explicitly invites **PhD applicants**; trustworthy AI / ML systems security; direct email invited | **READY** |
 
 ## Why these three pass
 
@@ -54,7 +54,7 @@ Before manually sending any row:
 - [x] GRE / English / academic gate clean enough for first contact;
 - [x] individualized body generated today;
 - [x] tailored CV source generated today;
-- [ ] tailored CV PDF exists;
+- [x] tailored CV PDF exists;
 - [ ] recruitment page re-opened immediately before send;
 - [ ] attachments added exactly as requested;
 - [ ] manual send recorded in README + OUTREACH-LOG only after the user actually sends.
