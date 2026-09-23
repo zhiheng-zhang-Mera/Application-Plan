@@ -36,17 +36,12 @@
 - UBC satisfies the listed Canada-based English-test exemption.
 - Selected route is ML-systems security / trustworthy AI with empirical system-building.
 
-## Removed / held by gate in this refresh
+## Strict-gate holds retained outside today's queue
 
-- **Heye Huang / KAIST — EXCLUDED FROM DIRECT OUTREACH:** personal lab page invites email, but the current KAIST Mobility/IMPACTs recruiting route says **do not contact professors directly** and routes inquiries through the group address. Restrictive intake-specific instruction wins.
-- **Wenxi Wang / UVA — EXCLUDED FROM DIRECT OUTREACH:** current Fall 2027 opening routes applications through an application form; public faculty email does not override the form-only route.
-- **SANAD Lab / NYU Abu Dhabi — EXCLUDED FROM DIRECT OUTREACH:** current PhD opening explicitly uses the lab interest system rather than direct cold email.
-- **Zishen Wan / Columbia — WATCH:** excellent Fall 2027 AI-for-computing / LLM-agent opening, but the repository does not yet have a clean Fall 2027-specific GRE gate; do not promote on a 2026-cycle testing statement.
-- **Jiaming Cui / Virginia Tech — WATCH:** explicit current PhD recruitment and excellent multi-agent fit, but VT publishes a 3.0 admission floor and the repository does not contain an official UBC-to-VT GPA equivalency. Do not invent a conversion.
-- **Jialun Cao / Imperial — WATCH:** strong current opening but master/classification gate depends on the still-unfinished Melbourne degree.
-- **TUM agentic-AI vacancy — WATCH:** requires a completed master's degree; user has not yet completed the Melbourne degree.
-- **University of Alberta — WATCH:** Zhou Yang has no refreshed 2027 capacity signal; Majeed Kazemitabaar's current route/capacity evidence is not clean enough for today's first-contact queue.
-- **Bo Hui / Purdue ACC-CIT — EXCLUDED FOR NOW:** exact doctoral home has GRE/admissions-policy ambiguity relative to the user's no-GRE constraint.
+- **Zishen Wan / Columbia — WATCH:** direct email + current Fall 2027 opening pass, but the repository still lacks a clean Fall 2027-specific GRE gate.
+- **Jiaming Cui / Virginia Tech — WATCH:** direct email + current recruitment pass, but the published 3.0 floor cannot be converted from the UBC record by assumption.
+- **Jialun Cao / Imperial — WATCH:** direct contact and research fit pass, but the degree/classification gate depends on the unfinished Melbourne master's result.
+- Candidates whose current route is form-only / group-channel-only / do-not-email were **deleted from outreach candidate surfaces rather than carried forward**.
 
 ## Send gate
 
