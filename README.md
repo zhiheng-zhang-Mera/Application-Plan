@@ -6,8 +6,8 @@
 
 ## 🚀 当前人工发送批次
 
-> **2026-09-22：今日联络池已全量刷新，旧池不顺延。** 2026-09-18 已联络的导师及其学校/院系继续占用学校锁，因此 **Concordia、SUTD、PolyU、CityUHK、CUHK、University of Macau 不进入今日新首发池**。另外，**没有公开可验证导师邮箱、必须走内部 form/portal、或主要研究是纯算法/纯理论的候选都直接删除，不进入任何 outreach pool。**
-> 今日完整筛选与最新证据见 [targets/CONTACT-POOL-2026-09-22.md](targets/CONTACT-POOL-2026-09-22.md)；历史事件见 [applications/OUTREACH-LOG.md](applications/OUTREACH-LOG.md)。
+> **2026-09-23：今日联络池已全量刷新，旧池不顺延。** 2026-09-18 已联络的导师及其学校/院系继续占用学校锁，因此 **Concordia、SUTD、PolyU、CityUHK、CUHK、University of Macau 不进入今日新首发池**。另外，**没有公开可验证导师邮箱、必须走内部 form/portal、主要研究是纯算法/纯理论，或 GRE/英语/成绩硬门禁仍 unresolved 的候选都不能进入今日首联。**
+> 今日完整筛选与最新证据见 [targets/CONTACT-POOL-2026-09-23.md](targets/CONTACT-POOL-2026-09-23.md)；历史事件见 [applications/OUTREACH-LOG.md](applications/OUTREACH-LOG.md)。
 
 | 状态 | 学校 | 导师 | 邮箱 | 材料包 | 最近联系 | 失效 / 解锁触发 | 下一步 |
 |---|---|---|---|---|---|---|---|
@@ -18,17 +18,17 @@
 | **REPLIED / PRIVATE CONTACT** | University of Macau | **Li Li** | `LLiLi@um.edu.mo` | [正文](applications/university-of-macau/OUTREACH-DRAFTS-2026-09-17.md#1-li-li--first-um-contact) · [定制 CV](CV-generate/um-li-li.pdf) | **2026-09-18** | **不自动失效**：明确结束/无名额，或私人渠道追 1 次后再沉默 10 个工作日 | warm lead；UM/CIS 继续冻结 |
 | **FOLLOW-UP SENT / WAITING** | Concordia | **Zhijie Wang** | `zhijie.wang@concordia.ca` | [follow-up 正文](applications/concordia/OUTREACH-DRAFTS-2026-09-17.md#parallel-follow-up--zhijie-wang) · **无附件** · Boss/DS-Hns links | **2026-09-18** | **2026-09-25**：仍无回复 → DORMANT + 解锁 Concordia；**不发第三封** | 到期前等待 |
 
-### 今日联络池（2026-09-22，全量刷新）
+### 今日联络池（2026-09-23，全量刷新）
 
-> **旧“下一批候选池”作废，不作为今日排序依据。** 当前保留 3 个通过全部硬门禁的槽位；不为了凑数保留理论负担或 internal-only 边缘项。详细 recruitment evidence、门禁和操作说明见 [今日池](targets/CONTACT-POOL-2026-09-22.md)。
+> **昨天及更早的 daily pool 不自动顺延。** 当前只保留 3 个已通过公开邮箱、direct-contact、current recruitment、program compatibility、research-method、GRE/English/academic gate 的新首联槽位。详细证据和被门禁拦下的灰区见 [今日池](targets/CONTACT-POOL-2026-09-23.md)。
 
-| 顺位 | 学校 | 导师 / Lab | 联系方式 | 材料包 | 当前信号 | 今日状态 |
+| 顺位 | 学校 | 导师 | 联系方式 | 材料包 | 当前信号 | 今日状态 |
 |---:|---|---|---|---|---|---|
-| 1 | HKU | **Ka Ho Chow** | `kachow@cs.hku.hk` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#2-ka-ho-chow--university-of-hong-kong) · [CV source](CV-generate/hku-ka-ho-chow.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | 官方页明确 **several PhD openings** | **BODY_READY / CV_PDF_PENDING** |
-| 2 | Simon Fraser University | **Keval Vora** | `keval@sfu.ca` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#3-keval-vora--simon-fraser-university) · [CV source](CV-generate/sfu-keval-vora.tex) · transcript only if requested | 当前页明确 **Open Positions** / prospective grads contact | **BODY_READY / CV_PDF_PENDING** |
-| 3 | CUHK-Shenzhen | **Xiaoxue Gao** | `gaoxiaoxue@cuhk.edu.cn` | [正文 + package](applications/OUTREACH-PACK-2026-09-22.md#5-xiaoxue-gao--cuhk-shenzhen) · [CV source](CV-generate/cuhksz-xiaoxue-gao.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | Spring/Fall 2027 **fully funded PhD**；明确欢迎直接邮件；Agentic AI / multimodal / trustworthy AI | **BODY_READY / CV_PDF_PENDING** |
+| 1 | NYU Courant / NYU Shanghai | **Qiaoyu Tan** | `qiaoyu.tan@nyu.edu` | [正文 + package](applications/OUTREACH-PACK-2026-09-23.md#1-qiaoyu-tan--nyu-shanghai--nyu-courant) · [CV source](CV-generate/nyu-qiaoyu-tan.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | **multiple fully funded Fall 2027 PhDs**；Agent / Trustworthy AI | **BODY_READY / CV_PDF_PENDING** |
+| 2 | Dartmouth College | **Shawn Shan** | `Shawn.Shan@dartmouth.edu` | [正文 + package](applications/OUTREACH-PACK-2026-09-23.md#2-shawn-shan--dartmouth-college) · [CV source](CV-generate/dartmouth-shawn-shan.tex) | **1–2 fully funded Fall 2027 PhDs**；允许预先邮件 CV + short note | **BODY_READY / CV_PDF_PENDING** |
+| 3 | Penn State — Informatics PhD | **Yuchen Yang** | `yuchen.yang@psu.edu` | [正文 + package](applications/OUTREACH-PACK-2026-09-23.md#3-yuchen-yang--penn-state) · [CV source](CV-generate/psu-yuchen-yang.tex) | 当前明确招 PhD；trustworthy AI / ML-systems security；direct email | **BODY_READY / CV_PDF_PENDING** |
 
-> **刷新今日池时必须依次过三道硬门禁：公开邮箱、允许直接联系、非纯算法/纯理论。** 任一失败都直接删除候选；通过后才生成正文和材料包。没有当日正文/package 的候选不得标 `READY`；PDF 等真实附件不存在时必须显式保留 `*_PENDING`，不能假绿灯。
+> **不为数量放松门禁。** 2026-09-22 的 HKU / SFU / CUHK-Shenzhen 材料仍保留在仓库，但不作为今天的自动顺延顺位。今天新 CV PDF 出现前不得把对应行标成 `READY`。
 
 ### 手动发送固定流程
 
