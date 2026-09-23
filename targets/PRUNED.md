@@ -11,7 +11,6 @@
 | Stony Brook CS PhD | `HIGH_COMPETITION_WEAK_SPECIFIC_FIT` | 学校强，但现池中仍缺直接做 AI4SE / coding agents / scientific agents / applied systems evaluation 的具体 PI | 找到明确 implementation/experiment-first PI |
 | UMass Amherst CS PhD | `HIGH_COMPETITION_WEAK_SPECIFIC_FIT` | Systems/ML 强，但当前没有比现有目标更直接的 Boss/DS-Hns 或 applied AI4Science 工程路线 | 出现明确招收且研究方式偏系统实现、实验或仿真的 PI |
 | UC Riverside CS PhD | `ACADEMIC_ROI_WEAK` | academic-profile 风险仍在，且没有形成足够强的 AI4SE / agentic / AI4Science 工程型导师优势 | 明确 PI 兴趣 + 硬门槛通过 + funding 清晰 |
-| NYU Courant CS PhD | `WEAK_SPECIFIC_METHOD_FIT` | 新门禁已经允许 applied AI4Science，但当前候选记录仍缺少足够具体、值得投入的 AI4SE / agentic systems / applied AI4Science 主导师；上一轮导师池错误已清理 | 找到当前 tenure-track PI，明确以 empirical agent evaluation / developer tooling / scientific agents / applied systems 为主要产出方式 |
 
 ## 不应放进 PRUNED 的情况
 
@@ -36,3 +35,7 @@
 - 需要大量 theoretical physics / pure math / theoretical chemistry / PDE derivation 才能开始主要研究的方向
 
 **AI4Science 不会自动把 PRUNED 学校捞回来；必须出现具体 PI / vacancy / funding 证据。**
+
+## Reopened 2026-09-23
+
+- **NYU Courant CS PhD / NYU Shanghai Global Track** moved from PRUNED to ACTIVE because the documented reopen condition is now met: Qiaoyu Tan is a current tenure-track CS faculty member explicitly recruiting multiple fully funded Fall 2027 PhD students from NYU Courant in Agent / Trustworthy AI, direct email is invited, and the selected route is empirical/system-oriented rather than pure theory.
