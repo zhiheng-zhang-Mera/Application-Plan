@@ -24,11 +24,11 @@
 
 | 顺位 | 学校 | 导师 | 联系方式 | 材料包 | 当前信号 | 今日状态 |
 |---:|---|---|---|---|---|---|
-| 1 | NYU Courant / NYU Shanghai | **Qiaoyu Tan** | `qiaoyu.tan@nyu.edu` | [正文 + package](applications/OUTREACH-PACK-2026-09-23.md#1-qiaoyu-tan--nyu-shanghai--nyu-courant) · [CV source](CV-generate/nyu-qiaoyu-tan.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | **multiple fully funded Fall 2027 PhDs**；Agent / Trustworthy AI | **BODY_READY / CV_PDF_PENDING** |
-| 2 | Dartmouth College | **Shawn Shan** | `Shawn.Shan@dartmouth.edu` | [正文 + package](applications/OUTREACH-PACK-2026-09-23.md#2-shawn-shan--dartmouth-college) · [CV source](CV-generate/dartmouth-shawn-shan.tex) | **1–2 fully funded Fall 2027 PhDs**；允许预先邮件 CV + short note | **BODY_READY / CV_PDF_PENDING** |
-| 3 | Penn State — Informatics PhD | **Yuchen Yang** | `yuchen.yang@psu.edu` | [正文 + package](applications/OUTREACH-PACK-2026-09-23.md#3-yuchen-yang--penn-state) · [CV source](CV-generate/psu-yuchen-yang.tex) | 当前明确招 PhD；trustworthy AI / ML-systems security；direct email | **BODY_READY / CV_PDF_PENDING** |
+| 1 | NYU Courant / NYU Shanghai | **Qiaoyu Tan** | `qiaoyu.tan@nyu.edu` | [正文 + package](applications/OUTREACH-PACK-2026-09-23.md#1-qiaoyu-tan--nyu-shanghai--nyu-courant) · [CV PDF](CV-generate/nyu-qiaoyu-tan.pdf) · [source](CV-generate/nyu-qiaoyu-tan.tex) · [transcript](Documents/Transcript-ZhihengZhang.pdf) | **multiple fully funded Fall 2027 PhDs**；Agent / Trustworthy AI | **READY** |
+| 2 | Dartmouth College | **Shawn Shan** | `Shawn.Shan@dartmouth.edu` | [正文 + package](applications/OUTREACH-PACK-2026-09-23.md#2-shawn-shan--dartmouth-college) · [CV PDF](CV-generate/dartmouth-shawn-shan.pdf) · [source](CV-generate/dartmouth-shawn-shan.tex) | **1–2 fully funded Fall 2027 PhDs**；允许预先邮件 CV + short note | **READY** |
+| 3 | Penn State — Informatics PhD | **Yuchen Yang** | `yuchen.yang@psu.edu` | [正文 + package](applications/OUTREACH-PACK-2026-09-23.md#3-yuchen-yang--penn-state) · [CV PDF](CV-generate/psu-yuchen-yang.pdf) · [source](CV-generate/psu-yuchen-yang.tex) | 当前明确招 PhD；trustworthy AI / ML-systems security；direct email | **READY** |
 
-> **不为数量放松门禁。** 2026-09-22 的 HKU / SFU / CUHK-Shenzhen 材料仍保留在仓库，但不作为今天的自动顺延顺位。今天新 CV PDF 出现前不得把对应行标成 `READY`。
+> **不为数量放松门禁。** 2026-09-22 的 HKU / SFU / CUHK-Shenzhen 材料仍保留在仓库，但不作为今天的自动顺延顺位。今天 3 份定制 CV 已由 GitHub Actions 成功编译并落盘，当前三行均可进入人工发送前最后复核。
 
 ### 手动发送固定流程
 
