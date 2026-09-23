@@ -17,6 +17,9 @@
 | **University of Hong Kong — CS/CDS PhD** | **Zuming Jiang / Ka Ho Chow / Heming Cui** 都有当前明确或持续 PhD recruitment signal，且 systems / security / trustworthy AI 与 Boss/DS-Hns 高匹配 | 当前 HKU admission language normally requires a **bachelor's degree with honours or equivalent**；repo 尚未有 UBC honours-equivalency 书面依据。英语和 funding 本身不是主要阻塞。 |
 | NTNU — Trustworthy Agentic AI vacancy | agentic AI + autonomous systems，职位制、偏实现应用 | 通常要求 NTNU scale **B 或更好**；需做成绩等效 + 英语材料核验 |
 | NTNU — Multi-Agent Communication vacancy | multi-agent / LLM communication + Software Engineering group，方向偏实验 | 博士入学成绩等效与英语材料待核验 |
+| Columbia University — CS PhD / Zishen Wan | Fall 2027 fully funded AI-for-computing / LLM-agent opening; strong systems fit and direct email allowed | **Fall 2027 GRE policy not yet cleanly verified**; do not rely on a 2026-cycle testing statement |
+| Virginia Tech — CS PhD / Jiaming Cui | Current explicit PhD recruitment; large-scale multi-agent systems with applied scientific/decision workflows | VT publishes a **3.0 admission floor**; repo lacks an official UBC-to-VT GPA equivalency, so do not invent a conversion |
+| Imperial College London — Jialun Cao | Current funded agentic/AI-systems opening; implementation fit is strong | Academic/classification gate depends on the still-unfinished Melbourne master's result |
 
 ## NTU refresh — 2026-09-17
 
