@@ -41,6 +41,12 @@ jobs:
             "cityuhk-nan-guan"
             "um-xiaobo-zhou"
             "polyyu-jing-li"
+            "hku-ka-ho-chow"
+            "sfu-keval-vora"
+            "cuhksz-xiaoxue-gao"
+            "nyu-qiaoyu-tan"
+            "dartmouth-shawn-shan"
+            "psu-yuchen-yang"
           )
           cd CV-generate
           for name in "${files[@]}"; do
