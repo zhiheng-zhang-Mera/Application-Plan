@@ -4,7 +4,41 @@
 >
 > 机器筛选数据仍在 `data/`，详细学校规则在 `targets/` / `applications/`；但**人工是否已经联系过某位导师、最近一次联系、当前回复状态，以本页台账和对应 application 联系记录为准**。
 
-## 🚀 当前人工发送批次
+## 🧭 2026-09-30 全局重洗 — **CURRENT**
+
+> **当前学校/导师筛选真相以 [targets/POOL-REFRESH-2026-09-30.md](targets/POOL-REFRESH-2026-09-30.md) 为准。** 2026-09-17 / 09-22 / 09-23 的 daily pool 和 ACTIVE/WATCH 旧排序只保留历史证据，不再自动顺延。
+>
+> 本轮已经把研究画像切换到 **Boss + DS-Hns + Utopia**：除 AI4SE / trustworthy agents 外，正式加入 **distributed / edge / multi-device / ubiquitous / wearable / embodied-enabling systems**；同时保留严格守真边界，不把 Utopia 尚未接受的 assistant/persona、LLM router、Boss/Hns connector 写成已完成。
+>
+> **重要日期纠正：SUTD Jan-2027 官方申请截止为 2026-10-30；TU Delft WALTZ 的 2026-09-24 vacancy 已过期。**
+
+| 区域 | 当前结论 | 代表候选 / 动作 |
+|---|---|---|
+| **澳门** | **SUBMITTED / WARM** | Li Li 继续私人渠道；Utopia 使 edge/mobile/cloud fit 更强 |
+| **香港** | **APPLY + WATCH 混合** | CUHK **James Cheng** 新增为最强 fresh agent/embodied 候选；CityU Heqing、PolyU Yu Pei 保留；HKU/HKUST 继续核门禁 |
+| **新加坡** | **SUTD APPLY_NOW** | Ruochen Zhao / Thanh Le-Cong；NUS BACKUP；NTU WATCH；SMU REJECT |
+| **加拿大** | **主池收紧** | Concordia / UBC / SFU 保留；Alberta / Manitoba WATCH；Waterloo / Queen's / Dalhousie REJECT |
+| **韩国** | **KAIST 重新开放** | Junehwa Song = wearable / ubiquitous / systems 高匹配；Fall-2027 capacity 待核；UNIST REJECT |
+| **中东** | **KAUST 保留，MBZUAI BACKUP** | KAUST 先解决 Marco 旧 capacity 冲突；MBZUAI 因 mandatory screening exam 降级 |
+| **中国大陆 / 大湾区** | **扩展到 agent + edge** | CUHK-SZ **Jinke Ren** 新增；HKUST(GZ) 高潜 WATCH，继续找低理论负担 systems/edge PI |
+| **美国 / 欧洲旧候选** | **只留有具体当前路线的** | NYU / Dartmouth / Penn State 保留；Columbia / VT / Imperial / NTNU WATCH；TU Delft closed |
+
+### 本轮硬清除
+
+- **Waterloo CS PhD** — Master's 路径 78% hard floor。
+- **Queen's Computing PhD** — Master's + A / first-class hard floor。
+- **Dalhousie CS PhD** — PhD minimum A-。
+- **UNIST** — 国际研究生 English Test Report mandatory。
+- **SMU** — GRE/GMAT hard gate。
+- **TU Delft WALTZ** — 当前 vacancy deadline 已过。
+
+### 当前联络安全规则
+
+本轮**没有根据 Gmail 空结果擅自判定“无回复”**。2026-09-18 已发出的 PolyU / CityUHK / CUHK / SUTD / Concordia 线程，以及 UM 的私人渠道状态，仍以人工台账和实际已知回复为准。新导师（例如 James Cheng）进入候选池，并不等于可以绕过同校线程直接发送。
+
+---
+
+## 🗃️ 2026-09-23 历史人工发送批次（非当前池）
 
 > **2026-09-23：今日联络池已全量刷新，旧池不顺延。** 2026-09-18 已联络的导师及其学校/院系继续占用学校锁，因此 **Concordia、SUTD、PolyU、CityUHK、CUHK、University of Macau 不进入今日新首发池**。另外，**没有公开可验证导师邮箱、必须走内部 form/portal、主要研究是纯算法/纯理论，或 GRE/英语/成绩硬门禁仍 unresolved 的候选都不能进入今日首联。**
 > 今日完整筛选与最新证据见 [targets/CONTACT-POOL-2026-09-23.md](targets/CONTACT-POOL-2026-09-23.md)；历史事件见 [applications/OUTREACH-LOG.md](applications/OUTREACH-LOG.md)。
@@ -181,8 +215,8 @@
 | HKU | **WATCH — academic equivalency** | [Hong Kong pool](targets/HONG-KONG-2026-09-17.md) |
 | NUS | **BACKUP** | [BACKUP](targets/BACKUP.md) |
 | NTU | **WATCH** | [WATCHLIST](targets/WATCHLIST.md) |
-| TU Delft WALTZ | **APPLY_NOW** | [ACTIVE](targets/ACTIVE.md) |
-| KAUST | **VERIFY OTHER PI / Marco excluded for 2027 capacity conflict** | [ACTIVE](targets/ACTIVE.md) |
+| TU Delft WALTZ | **CLOSED — deadline passed 2026-09-24** | [PRUNED](targets/PRUNED.md) |
+| KAUST | **APPLY / reconcile old Marco capacity-conflict note before outreach** | [ACTIVE](targets/ACTIVE.md) |
 | CUHK-Shenzhen — SAI | **ACTIVE / direct-email outreach** | [ACTIVE](targets/ACTIVE.md) |
 | Buffalo / SMU | **CLOSED / REJECTED** | [REJECTED](targets/REJECTED.md) |
 
