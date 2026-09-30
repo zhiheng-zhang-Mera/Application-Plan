@@ -1,0 +1,81 @@
+version: "2026-09-30"
+canonical_markdown: "targets/POOL-REFRESH-2026-09-30.md"
+research_profile: "materials/research-profile.md"
+project_positioning: "materials/project-positioning.md"
+
+constraints:
+  gre_required: reject
+  english_retest_required: reject
+  confirmed_academic_floor_below_forecast: reject
+  pure_theory: reject
+  funding_required: true
+  current_capacity_required_for_first_outreach: true
+  direct_outreach_preferred: true
+
+regions:
+  macau:
+    state: submitted_warm
+    primary:
+      school: University of Macau
+      supervisor: Li Li
+      action: continue_private_channel
+  hong_kong:
+    state: active_mixed
+    active:
+      - {school: CUHK, supervisor: James Cheng, action: reconcile_school_thread_then_prepare}
+      - {school: CityUHK, supervisor: Heqing Huang, action: preserve_existing_thread}
+      - {school: PolyU, supervisor: Yu Pei, action: preserve_existing_thread}
+    watch:
+      - HKU
+      - HKUST
+  singapore:
+    active:
+      - {school: SUTD, deadline: "2026-10-30", supervisors: ["Ruochen Zhao", "Thanh Le-Cong"]}
+    backup:
+      - NUS
+    watch:
+      - NTU
+    rejected:
+      - SMU
+  canada:
+    active:
+      - {school: Concordia, supervisors: ["Tse-Hsun (Peter) Chen", "Shin Hwei Tan", "Jinqiu Yang", "Peter Rigby"]}
+      - {school: UBC, supervisors: ["Caroline Lemieux"]}
+      - {school: SFU, supervisors: ["Keval Vora"]}
+    watch:
+      - University of Alberta
+      - University of Manitoba
+      - University of Victoria
+    rejected:
+      - University of Waterloo
+      - Queen's University
+      - Dalhousie University
+  korea:
+    high_priority_watch:
+      - {school: KAIST, supervisors: ["Junehwa Song"]}
+    watch:
+      - POSTECH
+    rejected:
+      - UNIST
+  middle_east:
+    active:
+      - {school: KAUST, action: reconcile_marco_capacity_conflict}
+    backup:
+      - MBZUAI
+  mainland_china_gba:
+    active:
+      - {school: CUHK-Shenzhen, supervisors: ["Jinke Ren", "Xiaoxue Gao"]}
+    high_priority_watch:
+      - HKUST_Guangzhou
+  us_europe:
+    active:
+      - {school: NYU_Courant_NYU_Shanghai, supervisor: Qiaoyu Tan}
+      - {school: Dartmouth, supervisor: Shawn Shan}
+      - {school: Penn_State_IST, supervisor: Yuchen Yang}
+    watch:
+      - Columbia
+      - Virginia_Tech
+      - Imperial
+      - NTNU
+    closed:
+      - {school: TU_Delft_WALTZ, reason: deadline_passed_2026_09_24}
