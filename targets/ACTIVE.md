@@ -1,67 +1,31 @@
-# Active Targets
+# Active Targets — refreshed 2026-09-30
 
-> 这里只放**现在值得主动推进**的项目。已提交项目不放这里。
+> Canonical screening source: [POOL-REFRESH-2026-09-30](POOL-REFRESH-2026-09-30.md).
 >
-> 排序按：**硬条件已过 → Research Method Fit → 当前导师仍收人 / program compatibility → 当前紧迫度 → 项目叙事匹配**。
->
-> 高匹配研究形态包括：**AI4SE、autonomous software engineering、agentic AI / AI systems、applied AI4Science**。主要研究必须能靠系统实现、实验、benchmark、仿真、数据分析或真实任务验证完成。
->
-> **2026-09-23 outreach override:** 今日联络顺序以 `targets/CONTACT-POOL-2026-09-23.md` 为唯一当前池；昨天和更早的 daily pool 只保留历史/候选价值，**不得顺延成今日队列**。Concordia、SUTD、PolyU、CityUHK、CUHK、University of Macau 因 live contact 暂不进入今日新首发。
+> This page contains schools/projects worth **active application or near-term supervisor work**. It is **not** a send queue. Same-school contact history must be reconciled against `applications/OUTREACH-LOG.md` before any new email.
 
-| 学校 / 职位 | 状态 | Research Method Fit | 当前最匹配路线 | 下一步 |
+| School / program | State | Clean supervisor route | Why it survives now | Next action |
 |---|---|---|---|---|
-| NYU Courant CS PhD — NYU Shanghai Global Track | **OUTREACH_READY / REOPENED 2026-09-23** | Excellent — Agent / Trustworthy AI / empirical agent evaluation | Codex Boss + DS-Hns | **Qiaoyu Tan 今日 1 号位**；Fall 2027 multiple fully funded PhDs，CV + transcript |
-| Dartmouth College — CS PhD | **OUTREACH_READY** | Excellent — trustworthy AI / security / provenance / auditing | Boss + DS-Hns + Privacy Lens | **Shawn Shan 今日 2 号位**；1–2 fully funded Fall 2027 PhDs，允许预先邮件 CV + short note |
-| Penn State — PhD in Informatics | **OUTREACH_READY** | Excellent — ML systems security / trustworthy AI / system building | Boss + DS-Hns + Privacy Lens | **Yuchen Yang 今日 3 号位**；当前明确收 PhD，直接邮件，no GRE / no hard minimum GPA |
-| HKU — Computing PhD | **ACTIVE / PREVIOUS PACK — NOT TODAY** | Excellent — trustworthy AI / security / systems | Boss + DS-Hns + Privacy Lens | **Ka Ho Chow 今日 READY**；正式申请前继续核 academic-equivalency gate |
-| Simon Fraser University | **ACTIVE / PREVIOUS PACK — NOT TODAY** | Excellent — systems / scalable runtime / software infrastructure | DS-Hns + Boss | **Keval Vora 今日 READY**；当前页明确 Open Positions |
-| KAUST | **VERIFY OTHER PI / MARCO EXCLUDED FOR 2027** | Excellent systems fit at school level; Marco capacity unresolved for target intake | DS-Hns + Boss | Do not contact Marco for Fall 2027; screen another direct-contact, non-theory KAUST PI with explicit current-intake capacity |
-| CUHK-Shenzhen — SAI MPhil-PhD AI | **ACTIVE / PREVIOUS PACK — NOT TODAY** | Excellent on selected applied route — agentic AI / multimodal LMs / trustworthy AI | Boss + DS-Hns | **Xiaoxue Gao 今日 READY**；fully funded Spring/Fall 2027，明确欢迎邮件；不夸大 speech/audio 专业背景 |
-| Concordia University | **LOCKED UNTIL 2026-09-25** | Excellent — AI4SE / coding agents / empirical SE | Codex Boss + DS-Hns | Zhijie 当前 follow-up 占学校锁；9/25 无回复 → DORMANT + unlock，不发第三封 |
-| TU Delft — WALTZ PhD | **APPLY_NOW** | Excellent — trustworthy/distributed AI pipelines | Boss + DS-Hns + Privacy Lens | 直接按 vacancy 申请；不属于 supervisor cold outreach |
-| SUTD PhD / ISTD — Jan 2027 | **APPLY_NOW — OUTREACH LOCKED UNTIL 2026-09-25** | Excellent — AI4SE / trustworthy software & AI / agents | DS-Hns + Boss + Privacy Lens | 正式申请继续；Thanh 线到 9/25 才按规则二封 + unlock |
-| Hong Kong Polytechnic University — Computing PhD | **APPLY / OUTREACH LOCKED UNTIL 2026-09-25** | Excellent — testing / program repair / AI4SE | DS-Hns + Boss | Yu Pei 线等待；9/25 无实质回复 → 二封 + unlock |
-| City University of Hong Kong — CS PhD | **APPLY / OUTREACH LOCKED UNTIL 2026-09-25** | Excellent — security/reliability / systems / agentic AI | DS-Hns + Boss + Privacy Lens | Heqing Huang 线等待；9/25 无实质回复 → 二封 + unlock |
-| Chinese University of Hong Kong — CSE Regular Admission | **APPLY / OUTREACH LOCKED UNTIL 2026-09-25** | Good–Excellent — applied AI / AI4Science / systems | Boss; scientific-agent route | Yu Li 线等待；9/25 无实质回复 → 二封 + unlock |
-| HKUST — CSE PhD | **APPLY / VERIFY PI CAPACITY** | Excellent — AI4SE / AI systems / security | Boss + DS-Hns + Privacy Lens | 学校申请保留；旧 shortlist 不进入今日池，需重新验证个人 capacity 后才可进新批次 |
+| **SUTD PhD / ISTD — Jan 2027** | **APPLY_NOW** | Ruochen (Esther) Zhao; existing Thanh Le-Cong thread | agent reliability / trustworthy software; English-medium waiver; official deadline corrected to **2026-10-30** | Continue formal application; reconcile Thanh thread before another SUTD contact |
+| **CUHK CSE PhD** | **APPLY** | **James Cheng**; existing Yu Li thread | explicit Aug-2027 recruitment; LLM-agent benchmarking, long-horizon agents, RL infrastructure, embodied-AI project | Reconcile existing CUHK thread, then James is the strongest fresh HK candidate |
+| **CityUHK CS PhD** | **APPLY** | Heqing Huang | taught Master's route is eligible; systems/security/reliability fit remains strong | Preserve 9/18 history; reconcile before new same-school contact |
+| **PolyU Computing PhD** | **APPLY** | Yu Pei | direct AI4SE/testing/repair empirical fit | Preserve 9/18 history; reconcile before new same-school contact |
+| **Concordia CS/SE PhD** | **ACTIVE** | Tse-Hsun (Peter) Chen; Shin Hwei Tan; Jinqiu Yang; Peter Rigby | clean AI4SE/coding-agent/reliability routes; remains the minimum acceptable school floor | Reconcile Zhijie follow-up lifecycle; then contact one clean candidate only |
+| **UBC CS PhD** | **APPLY / HIGH-COMPETITION** | Caroline Lemieux thematic route | no GRE; Canada/Australia degree English exemption; strong funded PhD package; LLM-era SE/testing fit | Apply by current cycle deadline; verify 2027 individual capacity before PI outreach |
+| **Simon Fraser University CS PhD** | **APPLY** | Keval Vora | current Open Positions; strong scalable systems route | Verify Fall-2027 program timing, then targeted contact |
+| **CUHK-Shenzhen** | **ACTIVE** | **Jinke Ren**; Xiaoxue Gao secondary | Jinke Ren explicitly recruits 2027 Fall AI-agent PhDs; direct public email | Verify exact PhD-program/supervisor compatibility, then build new package |
+| **NYU Courant / NYU Shanghai Global Track** | **OUTREACH_READY** | Qiaoyu Tan | current Fall-2027 funded Agent / Trustworthy AI recruitment | Re-open recruitment page, then use refreshed Utopia-aware package |
+| **Dartmouth CS PhD** | **OUTREACH_READY** | Shawn Shan | current Fall-2027 funded trustworthy-AI/security route | Re-open recruitment page, then use refreshed package |
+| **Penn State IST PhD** | **OUTREACH_READY** | Yuchen Yang | current recruiting; trustworthy AI / ML-systems security / system building | Re-open recruitment page, then use refreshed package |
+| **KAUST PhD** | **APPLY / RECONCILE PI** | Marco Canini currently public-open, but conflicts with older repo exclusion | program hard gates/funding fit well; distributed/ML systems fit is high | Reconcile the old Marco capacity-conflict evidence before outreach |
 
-## Concordia 历史执行快照（2026-09-17；非当前联络顺序）
+## Submitted / live relationship outside ACTIVE
 
-- Zhijie Wang 保持已有 follow-up，不占 cold-outreach 名额。
-- 首批新联系：**Tse-Hsun (Peter) Chen → Peter Rigby → Jinqiu Yang → Shin Hwei Tan → Yann-Gaël Guéhéneuc**。
-- 只有当前存在 `Seeking students / Accepting inquiries / looking for PhD students / funding available` 等证据的导师才进入首批。
+- **University of Macau / Li Li** remains **SUBMITTED + WARM LEAD**. It is intentionally not a new-contact target. Utopia materially strengthens the edge/mobile/cloud systems narrative.
 
-## Singapore 历史执行快照（2026-09-17；当前以 2026-09-23 override 为准）
+## Current execution rule
 
-- **SUTD = APPLY_NOW**：Jan 2027 截止 2026-09-30；GRE 非硬要求；本科英语授课可免语言考试；当前有多个明确 PhD opportunity。
-- **NUS = BACKUP**：research fit 很强，但 scholarship-equivalency + scholarship interview + mandatory QE 增加摩擦。
-- **NTU = WATCH**：Bachelor's minimum Honours (Distinction) or equivalent 未核清；只保留未来可直接联系且非纯理论的候选，form-only 导师不进入 outreach pool。
-- **SMU CS/IS = REJECT**：GRE/GMAT hard gate。
-
-## Hong Kong 历史执行快照（2026-09-17；当前以 2026-09-23 override 为准）
-
-- 详细筛选与当前招生证据见 `targets/HONG-KONG-2026-09-17.md`。
-- **PolyU**：Yu Pei 当前明确招 PhD，AI4SE/repair/testing 高匹配；可直接首发。
-- **CityUHK**：从旧 WATCH 升级为 APPLY；当前已找到 Heqing Huang、Nan Guan 的明确 opening，Zhisong Zhang 官方 profile 仍标 Accepting PhD Students。
-- **CUHK CSE**：从旧 BACKUP 升级为 APPLY / medium friction。2027 Regular Admission 没有旧记录里的 1 小时 written exam；当前是 shortlisted 后英文 oral interview。Yu Li 当前明确招 PhD/MPhil。
-- **HKUST**：programme active，但本轮没有验证旧 shortlist 的个人最新 capacity，因此不从 stale YAML 自动发信。
-- **HKU**：移到 WATCH。Zuming Jiang / Ka Ho Chow / Heming Cui 都有强 current recruitment signal，但 bachelor honours/equivalency 尚未在 repo 中核清；邮件稿已准备，门禁未过前不发。
-
-## 当前执行顺序（刷新 2026-09-23）
-
-1. **今日新联络池** — Qiaoyu Tan (NYU) → Shawn Shan (Dartmouth) → Yuchen Yang (Penn State)；见 `targets/CONTACT-POOL-2026-09-23.md`。只保留已经通过全部首联门禁的人。
-2. **TU Delft WALTZ** — 2026-09-24 vacancy deadline；这是 direct application，不占 supervisor cold-contact school lock。
-3. **2026-09-25 expiry sweep** — 若仍无实质回复：Yu Pei / Heqing Huang / Yu Li / Thanh Le-Cong 各发唯一一次 second/final follow-up 并同时解锁对应学校；Zhijie Wang 线改 DORMANT 并解锁 Concordia，不发第三封。
-4. **KAUST Fall 2027** — 2026-09-28 开放正式申请；Marco Canini 不进入 2027 outreach。若继续 KAUST，只筛明确对目标 intake 有 capacity、允许直接邮箱联系且非纯理论的其他 PI。
-5. **SUTD formal application** — 2026-09-30 deadline 继续推进；学校在 2026-09-25 前仍受 Thanh live-contact lock 约束。
-6. **Previous daily packs** — 2026-09-22 的 HKU / SFU / CUHK-Shenzhen 材料保留，但不自动顺延为今天队列。
-
-## Research Method Gate
-
-导师即使关键词匹配，也必须满足至少一种可执行路线：system/tool implementation、empirical evaluation/benchmark、simulation/computational experiments、real-world data analysis、agent/software/scientific-workflow evaluation。
-
-如果主要产出是 pure algorithms / theorem / proof / complexity / heavy derivation，或 AI4Science 需要高强度理论物理、纯数学、理论化学等先修才能开始主要研究，**直接从 outreach candidate surfaces 删除**，不保留为 WATCH/HOLD/BACKUP。Mixed 导师只有明确存在 systems / empirical / applied 子路线时才保留。
-
-## 升级规则
-
-WATCHLIST 中的项目只有在重新核验 **academic score/classification、GRE、English、funding、research-method fit、当前导师 recruitment/capacity、program-supervisor compatibility、考试/面试负担、当前 intake、deadline** 后才进入 ACTIVE。
+1. No old daily pool auto-rollover.
+2. No new same-department email until its historical lock/thread is reconciled.
+3. Every new contact package must use the refreshed [research profile](../materials/research-profile.md) and [project positioning](../materials/project-positioning.md).
+4. A stale supervisor opening cannot be promoted simply because the school is ACTIVE.
