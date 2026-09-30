@@ -31,7 +31,7 @@ The user is strongest when research is completed through implementation, experim
 
 Capture for each supervisor or vacancy:
 
-- `research_domain`: `ai4se | agentic_ai | ai_systems | ai4science | trustworthy_ai | systems | applied_ml | mixed | other`
+- `research_domain`: `ai4se | agentic_ai | ai_systems | edge_ai | ubiquitous_computing | wearable_computing | embodied_systems | ai4science | trustworthy_ai | systems | applied_ml | mixed | other`
 - `research_method`: `systems | empirical | simulation | applied_ml | data_driven | mixed | theory_heavy | pure_theory | unknown`
 - `theory_burden`: `low | medium | high | unknown`
 - `domain_theory_burden`: `low | medium | high | unknown`
@@ -49,6 +49,9 @@ Capture for each supervisor or vacancy:
 - AIOps / DevOps / maintenance / self-healing software
 - agentic AI / multi-agent systems / agent evaluation / orchestration
 - LLM systems / AI infrastructure / distributed AI systems
+- edge AI / multi-device AI systems / heterogeneous-device execution
+- ubiquitous / wearable computing where software systems, sensing, device coordination and experiments are central
+- embodied-enabling systems / agent-device action infrastructure when robotics/control theory is not the primary burden
 - trustworthy / secure / reliable agents
 - scientific agents / autonomous research
 - hypothesis generation / experiment planning / scientific workflow automation
@@ -179,6 +182,8 @@ If a mutable fact is stale or inherited from archive, downgrade it to `unknown` 
 Academic score thresholds are mutable enough to require a current-cycle verification whenever a program is promoted into `ACTIVE`.
 
 Research-method evidence should also be refreshed when a supervisor is promoted for outreach; use recent papers/projects rather than relying indefinitely on an old faculty bio.
+
+The current portfolio router is `materials/research-profile.md` + `materials/project-positioning.md`. As of 2026-09-30, Utopia adds first-class screening routes for edge / multi-device / ubiquitous / wearable / embodied-enabling systems. Keyword overlap alone is insufficient: an embodied/edge candidate is downgraded when the actual project is theory-, control-, optimization- or game-theory-first.
 
 Supervisor recruitment/capacity is treated as a fast-changing field and must be refreshed for the current outreach date.
 
