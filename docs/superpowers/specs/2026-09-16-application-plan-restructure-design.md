@@ -1,3 +1,14 @@
+<!-- 中文默认视图 -->
+
+# 历史说明 — 2026-09-16-application-plan-restructure-design.md
+
+> 历史重构设计规格，仅用于追溯；当前仓库结构与规则以 README、rules/ 和 docs/STRUCTURE.md 为准。
+>
+> 本页属于历史证据/设计快照。为了避免改写历史原文，旧英文内容原样保留在下方折叠区。正常日常操作无需展开。
+
+<details>
+<summary><strong>展开历史英文原始快照</strong></summary>
+
 # Application-Plan Restructure Design
 
 ## Goal
@@ -427,3 +438,6 @@ The restructure is successful when:
 - historical content is preserved in `archive/`;
 - stale program facts are clearly marked rather than silently trusted;
 - the repository can later be consumed by Boss / DS-Hns / automated outreach tooling without scraping long Markdown prose.
+
+
+</details>
