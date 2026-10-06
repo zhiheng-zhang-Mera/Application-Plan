@@ -153,6 +153,7 @@ NUS 与 MBZUAI 仍是 **BACKUP**，不是 REJECT：研究方向可以，但 QE /
 | 低 ROI 但可用路线 | [targets/BACKUP.md](targets/BACKUP.md) |
 | 硬淘汰 | [targets/REJECTED.md](targets/REJECTED.md) |
 | **最新港校/大陆分校/新加坡刷新** | [targets/POOL-REFRESH-2026-10-06-HK-SG.md](targets/POOL-REFRESH-2026-10-06-HK-SG.md) |
+| **2026-10-6 导师素材快照** | [tracking-hist/2026-10-6/PACKAGE-INDEX.md](tracking-hist/2026-10-6/PACKAGE-INDEX.md) |
 | 2026-09-30 全局历史快照 | [targets/POOL-REFRESH-2026-09-30.md](targets/POOL-REFRESH-2026-09-30.md) |
 | 套磁历史 | [applications/OUTREACH-LOG.md](applications/OUTREACH-LOG.md) |
 | 机器状态 | `data/programs.yaml` / `data/applications.yaml` / `data/supervisors.yaml` |

@@ -1,0 +1,37 @@
+snapshot_date: 2026-10-06
+not_sent: true
+utopia_main: b06504f1f96984c960b2661b8ee3a7130796d379
+digital_city_main: b6e7ca7648a5c9c030f4cee25b4819d18dcf6acc
+package_count:
+  supervisors: 24
+  program_level: 1
+regions:
+  hong_kong:
+    - {school: CUHK, supervisor: James Cheng, path: hong-kong/CUHK/James-Cheng}
+    - {school: HKUST, supervisor: Mo Li, path: hong-kong/HKUST/Mo-Li}
+    - {school: HKUST, supervisor: Shing-Chi Cheung, path: hong-kong/HKUST/Shing-Chi-Cheung}
+    - {school: HKUST, supervisor: Song Guo, path: hong-kong/HKUST/Song-Guo}
+    - {school: HKU, supervisor: Chenshu Wu, path: hong-kong/HKU/Chenshu-Wu}
+    - {school: HKU, supervisor: Heming Cui, path: hong-kong/HKU/Heming-Cui}
+    - {school: HKU, supervisor: Zuming Jiang, path: hong-kong/HKU/Zuming-Jiang}
+    - {school: HKU, supervisor: Ka Ho Chow, path: hong-kong/HKU/Ka-Ho-Chow}
+    - {school: CityUHK, supervisor: Heqing Huang, path: hong-kong/CityUHK/Heqing-Huang}
+    - {school: CityUHK, supervisor: Zhenjiang Li, path: hong-kong/CityUHK/Zhenjiang-Li}
+    - {school: CityUHK, supervisor: Nan Guan, path: hong-kong/CityUHK/Nan-Guan}
+    - {school: CityUHK, supervisor: Weifa Liang, path: hong-kong/CityUHK/Weifa-Liang}
+    - {school: PolyU, supervisor: Yu Pei, path: hong-kong/PolyU/Yu-Pei}
+    - {school: PolyU, supervisor: Yu Liu, path: hong-kong/PolyU/Yu-Liu}
+  hk_mainland_branches:
+    - {school: CUHK-Shenzhen, supervisor: Jinke Ren, path: hk-mainland-branches/CUHK-Shenzhen/Jinke-Ren}
+    - {school: HKUST-GZ, supervisor: Zhidan Liu, path: hk-mainland-branches/HKUST-GZ/Zhidan-Liu}
+    - {school: HKUST-GZ, supervisor: Tengfei Chang, path: hk-mainland-branches/HKUST-GZ/Tengfei-Chang}
+    - {school: HKUST-GZ, supervisor: Kaishun Wu, path: hk-mainland-branches/HKUST-GZ/Kaishun-Wu}
+    - {school: HKUST-GZ, supervisor: Lingjie Duan, path: hk-mainland-branches/HKUST-GZ/Lingjie-Duan}
+  singapore:
+    - {school: SUTD, supervisor: Ruochen Zhao, path: singapore/SUTD/Ruochen-Zhao}
+    - {school: SUTD, supervisor: Thanh Le-Cong, path: singapore/SUTD/Thanh-Le-Cong}
+    - {school: NTU, supervisor: Rui Tan, path: singapore/NTU/Rui-Tan}
+    - {school: NUS, supervisor: Chengpeng Wang, path: singapore/NUS/Chengpeng-Wang}
+    - {school: NUS, supervisor: Abhik Roychoudhury, path: singapore/NUS/Abhik-Roychoudhury}
+program_level:
+  - {program: SUTD Jan 2027 PhD, path: singapore/SUTD/_program-Jan-2027}
