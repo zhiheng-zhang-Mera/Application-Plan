@@ -1,3 +1,14 @@
+<!-- 中文默认视图 -->
+
+# 历史说明 — CONTACT-POOL-2026-09-23.md
+
+> 2026-09-23 的历史 contact pool。当前 NYU / Dartmouth / Penn State 等候选需要按 Utopia-first 画像重新刷新后再发送。
+>
+> 本页属于历史证据/设计快照。为了避免改写历史原文，旧英文内容原样保留在下方折叠区。正常日常操作无需展开。
+
+<details>
+<summary><strong>展开历史英文原始快照</strong></summary>
+
 # Contact Pool — 2026-09-23
 
 > **Strict daily refresh.** This pool is rebuilt from current evidence and does not inherit yesterday's ordering.
@@ -70,3 +81,6 @@ Before manually sending any row:
 - Penn State IST faculty profile: https://ist.psu.edu/directory/yfy5369
 - Penn State IST graduate FAQ: https://ist.psu.edu/admissions/frequently-asked-questions/graduate-program-faqs
 - Penn State IST PhD application: https://ist.psu.edu/admissions/doctorate
+
+
+</details>
