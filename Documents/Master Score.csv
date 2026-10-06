@@ -1,14 +1,14 @@
 record_type,year,study_period,subject,course_title,raw_mark,normalized_mark_percent,credit_points,status,project_group,project_score_earned,project_score_possible,included_in_current_wam,notes
-course,2025,Semester 1,COMP 90049,Introduction to Machine Learning,59,59,12.5,completed,,,,yes,
-course,2025,Semester 1,COMP 90050,Advanced database system,50,50,12.5,completed,,,,yes,
-course,2025,Semester 1,COMP 90077,Advanced algorithms and data structure,52,52,12.5,completed,,,,yes,
-course,2025,Semester 1,INFO 90004,Evaluating User Experience,78,78,12.5,completed,,,,yes,
-course,2025,Semester 2,COMP 90044,Rasarch Methods,69,69,12.5,completed,,,,yes,
-course,2025,Semester 2,COMP 90089,Machine Learning Applications for Heath,76,76,12.5,completed,,,,yes,
-course,2025,Semester 2,INFO 90007,Social Computing,56,56,12.5,completed,,,,yes,
-course,2025,Semester 2,GEOM 90007,Information Visualization,70,70,12.5,completed,,,,yes,
-course,2026,Semester 1,COMP 90078,Computer Science Research Project (Part 1+2 - Research Proposal),30/40 combined with COMP 90079,75,25,completed,Research Project first 40/100,30,40,yes,Combined project score; 30/40 = 75% normalized across COMP 90078 + COMP 90079.
-course,2026,Semester 1,COMP 90079,Computer Science Research Project (Part 1+2 - Oral Presentation),shared combined score,75,25,completed,Research Project first 40/100,,,yes,Shares the combined 30/40 result with COMP 90078; not an independent 30-point mark.
-course,2026,Semester 2,COMP 90080,Computer Science Research Project (Part 3),TBD,,25,pending,Research Project remaining 60/100,,60,no,Combined with COMP 90081 for the remaining 60/100 of the project.
-course,2026,Semester 2,COMP 90081,Computer Science Research Project (Part 4),TBD,,25,pending,Research Project remaining 60/100,,,no,Shares the pending remaining project component with COMP 90080.
-summary,,Snapshot,CURRENT_WAM,Completed assessed credit points only,,67.5,150,derived,,,,,Weighted from eight completed 2025 subjects (100 CP) plus COMP 90078/90079 normalized to 75% across 50 CP; pending 2026 Semester 2 project parts excluded.
+course,2025,Semester 1,COMP90049,Introduction to Machine Learning,59,59,12.5,completed,,,,yes,
+course,2025,Semester 1,COMP90050,Advanced database system,50,50,12.5,completed,,,,yes,
+course,2025,Semester 1,COMP90077,Advanced algorithms and data structure,52,52,12.5,completed,,,,yes,
+course,2025,Semester 1,INFO90004,Evaluating User Experience,78,78,12.5,completed,,,,yes,
+course,2025,Semester 2,COMP90044,Research Methods,69,69,12.5,completed,,,,yes,
+course,2025,Semester 2,COMP90089,Machine Learning Applications for Health,76,76,12.5,completed,,,,yes,
+course,2025,Semester 2,INFO90007,Social Computing,56,56,12.5,completed,,,,yes,
+course,2025,Semester 2,GEOM90007,Information Visualization,70,70,12.5,completed,,,,yes,
+course,2026,Semester 1,COMP90078,Computer Science Research Project (Part 1+2 - Research Proposal),30/40 combined with COMP90079,75,25,completed,Research Project first 40/100,30,40,yes,Combined project score; 30/40 = 75% normalized across COMP90078 + COMP90079.
+course,2026,Semester 1,COMP90079,Computer Science Research Project (Part 1+2 - Oral Presentation),shared combined score,75,25,completed,Research Project first 40/100,,,yes,Shares the combined 30/40 result with COMP90078; not an independent 30-point mark.
+course,2026,Semester 2,COMP90080,Computer Science Research Project (Part 3),TBD,,25,pending,Research Project remaining 60/100,,60,no,Combined with COMP90081 for the remaining 60/100 of the project.
+course,2026,Semester 2,COMP90081,Computer Science Research Project (Part 4),TBD,,25,pending,Research Project remaining 60/100,,,no,Shares the pending remaining project component with COMP90080.
+summary,,Snapshot,CURRENT_WAM,Completed assessed credit points only,,67.5,150,derived,,,,,Weighted from eight completed 2025 subjects (100 CP) plus COMP90078/90079 normalized to 75% across 50 CP; pending 2026 Semester 2 project parts excluded.
