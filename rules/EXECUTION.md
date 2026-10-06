@@ -511,3 +511,116 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 
 如果 Utopia 当前状态无法可靠读取或验收边界不清楚，宁可保留更保守的旧安全 claim，也不能根据 commit 名称或规划文件猜测“已经完成”。
 
+## 17. Gmail 内嵌执行层
+
+默认申请邮箱已经验证为：
+
+`zhiheng0mera@gmail.com`
+
+仓库只保存**账号标识、thread/message 映射、状态与标签约定**，不保存 Gmail 密码、OAuth token 或其他认证秘密。
+
+机器配置：
+
+- `data/integrations.yaml`
+- `data/outreach.yaml`
+
+### 17.1 分工
+
+**Gmail connector 负责动作：**
+
+- search；
+- read message/thread；
+- create/update draft；
+- send draft / send email；
+- label；
+- archive。
+
+**Application-Plan 负责状态：**
+
+- supervisor/application ID；
+- contact email；
+- Gmail thread ID；
+- last message ID；
+- sent/replied/waiting 状态；
+- follow-up lifecycle；
+- application dashboard。
+
+### 17.2 默认邮箱标签
+
+统一使用：
+
+- `PhD-Application`
+- `PhD-Application/Outreach`
+- `PhD-Application/Waiting`
+- `PhD-Application/Replied`
+- `PhD-Application/Referee`
+
+新发送的导师套磁默认进入 `Outreach + Waiting`。检测到实质回复后，应加入 `Replied` 并移除 `Waiting`。
+
+推荐人邮件使用 `Referee`。
+
+### 17.3 在当前对话中直接操作
+
+当前 ChatGPT 对话可作为邮箱控制面。
+
+支持的自然语言操作包括：
+
+- “检查申请邮箱”
+- “查 X 导师有没有回复”
+- “打开 X 导师整个线程”
+- “给 X 导师生成并保存 Gmail 草稿”
+- “修改 X 的草稿”
+- “发送刚才审核过的 X 草稿”
+- “给 X 导师回复这封邮件”
+- “同步套磁状态”
+- “把结束的申请邮件归档”
+
+不需要用户自己复制到 Gmail 再执行。
+
+### 17.4 发送策略
+
+默认流程：
+
+`PACKAGE_READY → Gmail Draft → HUMAN_REVIEW → explicit SEND → thread mapping → Waiting`
+
+因此：
+
+- 生成新套磁时默认先建 draft；
+- 用户明确说“发送/发出去”时，可以从当前对话直接发送；
+- 回复邮件前必须先读取原 thread；
+- 发送后必须把真实 Gmail `thread_id` / `message_id` 回写 `data/outreach.yaml`；
+- 只有 Gmail 实际返回发送成功，才能把状态改为 `SENT / WAITING`。
+
+### 17.5 历史邮件迁移
+
+2026-09-18 等旧套磁历史仍以 `applications/OUTREACH-LOG.md` 为真实证据。
+
+如果默认邮箱中暂时找不到对应 thread：
+
+- 不得推断“没发过”；
+- 不得推断“没回复”；
+- `data/outreach.yaml` 中保持 `mailbox_mapping_status: PENDING`；
+- 等找到真实 thread、导入其他邮箱证据或用户确认后再完成映射。
+
+### 17.6 邮箱同步规则
+
+“同步申请邮箱”至少执行：
+
+1. 读取 `data/outreach.yaml` 中已经映射的 thread；
+2. 搜索当前 inbox / sent 中新的申请相关消息；
+3. 判断是否为 substantive reply / OOO / bounce；
+4. 更新 Gmail labels；
+5. 更新 `data/outreach.yaml`；
+6. 必要时更新 `applications/OUTREACH-LOG.md`；
+7. 重新计算 follow-up / unlock 状态；
+8. 刷新 README 看板。
+
+### 17.7 安全边界
+
+允许从当前对话直接执行，但：
+
+- **draft 创建/修改**不需要额外“发送确认”；
+- **真正发送新邮件或回复**需要用户在当次对话明确要求发送；
+- archive / label 等非破坏性整理可以按用户指令直接执行；
+- 删除邮件、Trash 等破坏性动作不属于默认 application pipeline。
+
