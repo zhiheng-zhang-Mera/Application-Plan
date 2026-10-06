@@ -1,0 +1,79 @@
+schema_version: 1
+updated_at: 2026-10-06
+mailbox: zhiheng0mera@gmail.com
+
+# Gmail thread/message mapping is canonical here after direct operations.
+# Historical outreach predating this integration remains valid evidence even when
+# no matching Gmail thread has yet been mapped in the default mailbox.
+
+threads:
+  - supervisor_id: polyu-yu-pei
+    contact_email: csypei@comp.polyu.edu.hk
+    historical_state: SENT_WAITING
+    historical_last_outbound: 2026-09-18
+    gmail_thread_id: null
+    gmail_last_message_id: null
+    mailbox_mapping_status: PENDING
+    evidence_source: applications/OUTREACH-LOG.md
+
+  - supervisor_id: cityuhk-heqing-huang
+    contact_email: heqhuang@cityu.edu.hk
+    historical_state: SENT_WAITING
+    historical_last_outbound: 2026-09-18
+    gmail_thread_id: null
+    gmail_last_message_id: null
+    mailbox_mapping_status: PENDING
+    evidence_source: applications/OUTREACH-LOG.md
+
+  - supervisor_id: cuhk-yu-li
+    contact_email: liyu@cse.cuhk.edu.hk
+    historical_state: SENT_WAITING
+    historical_last_outbound: 2026-09-18
+    gmail_thread_id: null
+    gmail_last_message_id: null
+    mailbox_mapping_status: PENDING
+    evidence_source: applications/OUTREACH-LOG.md
+
+  - supervisor_id: sutd-thanh-le-cong
+    contact_email: congthanh_le@sutd.edu.sg
+    historical_state: SENT_WAITING
+    historical_last_outbound: 2026-09-18
+    gmail_thread_id: null
+    gmail_last_message_id: null
+    mailbox_mapping_status: PENDING
+    evidence_source: applications/OUTREACH-LOG.md
+
+  - supervisor_id: um-li-li
+    contact_email: LLiLi@um.edu.mo
+    historical_state: REPLIED_PRIVATE_CONTACT_WARM_LEAD
+    historical_last_outbound: 2026-09-18
+    gmail_thread_id: null
+    gmail_last_message_id: null
+    mailbox_mapping_status: PENDING
+    evidence_source: applications/OUTREACH-LOG.md
+
+  - supervisor_id: concordia-zhijie-wang
+    contact_email: zhijie.wang@concordia.ca
+    historical_state: FOLLOWUP_SENT_WAITING
+    historical_last_outbound: 2026-09-18
+    gmail_thread_id: null
+    gmail_last_message_id: null
+    mailbox_mapping_status: PENDING
+    evidence_source: applications/OUTREACH-LOG.md
+
+state_rules:
+  DRAFT:
+    gmail_label: "PhD-Application/Outreach"
+  SENT_WAITING:
+    add_labels:
+      - "PhD-Application/Outreach"
+      - "PhD-Application/Waiting"
+  REPLIED:
+    add_labels:
+      - "PhD-Application/Outreach"
+      - "PhD-Application/Replied"
+    remove_labels:
+      - "PhD-Application/Waiting"
+  REFEREE:
+    add_labels:
+      - "PhD-Application/Referee"
