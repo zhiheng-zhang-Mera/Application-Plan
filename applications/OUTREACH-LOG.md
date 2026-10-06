@@ -48,3 +48,10 @@
 - 新的导师邮件可以直接在 ChatGPT 内创建 draft、审核后发送，并把 Gmail thread/message ID 写回 `data/outreach.yaml`。
 - 旧 2026-09-18 套磁历史仍然有效；当前默认 Gmail 中尚未完成 thread 映射时，标记为 `PENDING`，不能据此推断没有发送或没有回复。
 - 邮箱标签采用 `PhD-Application/*` 命名空间。
+
+
+## 2026-10-06 — Concordia Zhijie Wang 路线关闭
+
+| 日期 | 学校 | 导师 | 事件 | 状态 | 备注 |
+|---|---|---|---|---|---|
+| 2026-10-06 | Concordia University | Zhijie Wang | 用户确认拒收并关闭该路线 | **DECLINED / DO_NOT_CONTACT / TRASH** | 释放 Concordia 同系联系锁；除非用户明确重开，否则不再联系。已连接的 `zhiheng0mera@gmail.com` 中未找到对应线程；历史 follow-up 来自 Melbourne 学生邮箱，因此无法从当前 Gmail 连接执行实体 Trash。 |
