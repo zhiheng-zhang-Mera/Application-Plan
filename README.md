@@ -86,6 +86,25 @@ NUS 与 MBZUAI 仍是 **BACKUP**，不是 REJECT：研究方向可以，但 QE /
 
 其他 deadline 在申请包进入“可提交”状态前必须重新打开官方页面刷新。
 
+
+## 邮箱控制
+
+默认申请邮箱：**`zhiheng0mera@gmail.com`**（已验证连接）
+
+这里可以直接操作 Gmail，不必再手动复制：
+
+- **“检查申请邮箱”** → 搜索申请相关新邮件与回复；
+- **“查 X 导师有没有回复”** → 读取对应 thread；
+- **“给 X 导师存一个草稿”** → 完成协议、Utopia/CV、个性化 QA 后直接建立 Gmail draft；
+- **“发送 X 的草稿”** → 你明确确认发送后，直接从这里发出；
+- **“同步套磁状态”** → Gmail thread → `data/outreach.yaml` → README；
+- **“检查推荐信邮箱”** → 查询并整理 referee 相关邮件。
+
+邮箱配置：[data/integrations.yaml](data/integrations.yaml) · 线程映射：[data/outreach.yaml](data/outreach.yaml)
+
+> 仓库不保存 Gmail 密码或 OAuth token。旧套磁如果尚未映射到这个 Gmail，不会因为搜索不到就被判定为“未发送/未回复”。
+
+
 ---
 
 ## 材料健康状态
@@ -137,7 +156,7 @@ NUS 与 MBZUAI 仍是 **BACKUP**，不是 REJECT：研究方向可以，但 QE /
 - **“刷新申请池”** → 刷新 hard gate、2027 招生、funding 与优先级；查导师时同时检查 faculty profile、个人主页/lab/openings 页和专属套磁要求。
 - **“今天该做什么”** → 只返回 P0/P1 和 deadline。
 - **“给 X 学校生成申请包”** → 先读取目标导师个人/lab 招生页与邮件协议；再实时读取 Utopia + Digital-City 当前状态、刷新该导师 CV 的 Utopia 部分、重新编译 PDF；最后生成专人专用英语内容并跑 QA。
-- **“检查套磁状态”** → 先核对真实邮件历史，再决定是否解锁下一位 PI。
+- **“检查套磁状态”** → 直接读取已连接 Gmail + 历史日志，更新 thread/reply/waiting 状态，再决定是否解锁下一位 PI。
 - **“检查材料缺口”** → 只显示会阻塞当前申请的缺项。
 - **“检查申请状态”** → submitted / waiting / interview / offer / closed。
 
