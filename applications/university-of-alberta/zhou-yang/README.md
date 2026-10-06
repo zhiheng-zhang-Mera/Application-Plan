@@ -1,19 +1,19 @@
 # Zhou Yang — University of Alberta
 
-- **Status:** NOT_CONTACTED
-- **Email:** `zy25@ualberta.ca`
-- **Priority:** Alberta #2
-- **Primary route:** DS-Hns + Codex Boss
-- **Fit:** trustworthy CodeLLMs; AI for Software Engineering; robustness, security and privacy
+- **状态：** NOT_CONTACTED
+- **Email：** `zy25@ualberta.ca`
+- **路线：** DS-Hns + Codex Boss
+- **匹配：** trustworthy CodeLLMs；AI4SE；robustness / security / privacy
 
-## Why retained
+## 为什么保留
 
-Very direct fit with autonomous software engineering: long-running coding tasks, generated-code reliability, failure recovery, software-agent infrastructure and trustworthy CodeLLM workflows.
+与 autonomous software engineering 很直接：long-running coding tasks、generated-code reliability、failure recovery、software-agent infrastructure、trustworthy CodeLLM workflow。
 
-## Safe outreach emphasis
+## 安全套磁重点
 
-Lead with DS-Hns as an autonomous software-workbench/runtime project and Boss as the higher-level orchestration layer. Focus on reliability questions rather than claiming benchmarked research results that do not yet exist.
+以 DS-Hns 的 long-horizon execution / recovery 为主，Boss 作为上层 verification/governance 支撑。  
+强调 reliability research question，不声称尚不存在的 benchmark 结果。
 
-## Next action
+## 下一步
 
-Re-confirm current PhD capacity and funding before drafting first-contact email.
+在生成**英语**首封邮件前，重新确认 Fall-2027 PhD capacity 与 funding。
