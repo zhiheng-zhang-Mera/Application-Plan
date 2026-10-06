@@ -1,0 +1,21 @@
+snapshot_date: 2026-10-06
+status: BLOCKED_ACADEMIC_EQUIVALENCY
+not_sent: true
+supervisor: "Zuming Jiang"
+school: "HKU CS"
+email: "jzuming.hku@gmail.com"
+personal_or_lab_page: "https://jzuming.github.io/"
+contact_method: "email"
+subject: "Prospective PhD student — systems reliability and agentic software infrastructure"
+required_attachments:
+  - CV
+  - brief research interest or plan
+optional_attachments:
+  []
+blockers:
+  - HKU academic-equivalency route must be documented.
+utopia_snapshot:
+  utopia_main: b06504f1f96984c960b2661b8ee3a7130796d379
+  digital_city_main: b6e7ca7648a5c9c030f4cee25b4819d18dcf6acc
+cv_state: GENERATED_FROM_CURRENT_SNAPSHOT
+send_state: DO_NOT_SEND

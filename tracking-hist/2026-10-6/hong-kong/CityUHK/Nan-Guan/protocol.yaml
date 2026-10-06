@@ -1,0 +1,20 @@
+snapshot_date: 2026-10-06
+status: HOLD_CITYU_THREAD_LOCK
+not_sent: true
+supervisor: "Nan Guan"
+school: "CityUHK CS"
+email: "nanguan@cityu.edu.hk"
+personal_or_lab_page: "https://www.cs.cityu.edu.hk/~nanguan/"
+contact_method: "email"
+subject: "Prospective PhD student — LLM-aided system design and edge-device intelligence"
+required_attachments:
+  - CV
+optional_attachments:
+  []
+blockers:
+  - Heqing Huang thread must be reconciled and school lock released.
+utopia_snapshot:
+  utopia_main: b06504f1f96984c960b2661b8ee3a7130796d379
+  digital_city_main: b6e7ca7648a5c9c030f4cee25b4819d18dcf6acc
+cv_state: GENERATED_FROM_CURRENT_SNAPSHOT
+send_state: DO_NOT_SEND

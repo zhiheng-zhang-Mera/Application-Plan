@@ -1,0 +1,23 @@
+snapshot_date: 2026-10-06
+status: BLOCKED_ACADEMIC_EQUIVALENCY_AND_RANK
+not_sent: true
+supervisor: "Chenshu Wu"
+school: "HKU CS"
+email: "chenshu@cs.hku.hk"
+personal_or_lab_page: "https://aiot.cs.hku.hk/openings/"
+contact_method: "email"
+subject: "Prospective PhD student — AIoT systems for ubiquitous personal computing"
+required_attachments:
+  - CV with GPA and ranking
+  - transcript
+  - brief background and research interests
+optional_attachments:
+  - research proposal
+blockers:
+  - HKU academic-equivalency route must be documented.
+  - Official class/major rank is not available in current records.
+utopia_snapshot:
+  utopia_main: b06504f1f96984c960b2661b8ee3a7130796d379
+  digital_city_main: b6e7ca7648a5c9c030f4cee25b4819d18dcf6acc
+cv_state: GENERATED_FROM_CURRENT_SNAPSHOT
+send_state: DO_NOT_SEND

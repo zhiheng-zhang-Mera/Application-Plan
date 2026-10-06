@@ -1,0 +1,23 @@
+snapshot_date: 2026-10-06
+status: HOLD_CITYU_THREAD_LOCK
+not_sent: true
+supervisor: "Weifa Liang"
+school: "CityUHK CS"
+email: ""
+personal_or_lab_page: "https://www.cs.cityu.edu.hk/~weliang/index.html"
+contact_method: "email"
+subject: "Prospective PhD student — mobile edge computing and reliable multi-device AI systems"
+required_attachments:
+  - CV
+  - undergraduate and postgraduate transcripts
+  - one-page research statement
+optional_attachments:
+  - 1-3 representative published papers if available
+blockers:
+  - Heqing Huang thread must be reconciled and school lock released.
+  - Public direct email must be reverified at send time.
+utopia_snapshot:
+  utopia_main: b06504f1f96984c960b2661b8ee3a7130796d379
+  digital_city_main: b6e7ca7648a5c9c030f4cee25b4819d18dcf6acc
+cv_state: GENERATED_FROM_CURRENT_SNAPSHOT
+send_state: DO_NOT_SEND
