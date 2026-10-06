@@ -1,0 +1,46 @@
+schema_version: 1
+updated_at: 2026-10-06
+
+gmail:
+  provider: Gmail
+  account: zhiheng0mera@gmail.com
+  verified: true
+  connector: ChatGPT Gmail
+  default_application_mailbox: true
+  credentials_stored_in_repository: false
+
+  capabilities:
+    search: true
+    read_message: true
+    read_thread: true
+    create_draft: true
+    update_draft: true
+    send_draft: true
+    send_email: true
+    label: true
+    archive: true
+
+  labels:
+    root: "PhD-Application"
+    outreach: "PhD-Application/Outreach"
+    waiting: "PhD-Application/Waiting"
+    replied: "PhD-Application/Replied"
+    referee: "PhD-Application/Referee"
+
+  operating_policy:
+    default_new_outreach_action: create_draft
+    direct_send_requires_explicit_user_instruction: true
+    reply_requires_thread_read_first: true
+    never_store_password_or_oauth_token: true
+    write_back_thread_mapping_after_send: true
+    write_back_message_mapping_after_send: true
+
+  chat_control_surface:
+    enabled: true
+    examples:
+      - "检查申请邮箱"
+      - "查看某导师邮件线程"
+      - "给某导师生成并保存 Gmail 草稿"
+      - "发送已经审核过的某导师草稿"
+      - "同步套磁回复状态"
+      - "归档已结束的申请邮件"
