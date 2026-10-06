@@ -1,16 +1,19 @@
 schema_version: 1
-updated_at: 2026-09-22
+updated_at: 2026-10-06
 
 supervisors:
   - id: concordia-zhijie-wang
     university: Concordia University
     name: Zhijie Wang
     program_id: concordia-cs-phd
-    contact_state: interviewed
-    fit_summary: "Strong fit around software/AI systems and autonomous engineering themes."
+    contact_state: declined_do_not_contact
+    repository_bucket: trash
+    closed_at: 2026-10-06
+    close_reason: USER_CONFIRMED_DECLINED
+    fit_summary: "Historical contact/interview route is closed."
     narrative_route: [codex-boss, ds-hns]
-    next_action: "Clarify supervision/funding/application mechanics based on the latest discussion."
-    evidence_note: "Interview/contact history is known; do not infer a formal offer."
+    next_action: "None. Do not contact again unless the user explicitly reopens this supervisor."
+    evidence_note: "User confirmed the route is declined/closed on 2026-10-06."
 
   - id: um-lin-yan
     university: University of Macau
