@@ -1,0 +1,278 @@
+version: "2026-10-06"
+scope:
+  - hong_kong
+  - hk_mainland_branches
+  - singapore
+
+strategy:
+  primary: "Utopia -> PCF / ubiquitous agentic computing"
+  supporting:
+    - ds-hns
+    - codex-boss
+
+hong_kong:
+  active:
+    - id: cuhk-james-cheng
+      school: CUHK
+      supervisor: James Cheng
+      state: ACTIVE_AFTER_THREAD_RECONCILE
+      fit: A+
+      intake: "August 2027"
+      email: jcheng@cse.cuhk.edu.hk
+      protocol:
+        subject: "phd application"
+        required:
+          - detailed_cv
+          - transcript
+      sources:
+        - https://www.cse.cuhk.edu.hk/~jcheng/index.html
+    - id: hkust-mo-li
+      school: HKUST
+      supervisor: Mo Li
+      state: ACTIVE
+      fit: A+
+      email: lim@cse.ust.hk
+      recruitment: "constantly looking for prospective PhD students/RAs"
+      route: "Utopia/PCF -> mobile systems / AIoT"
+      sources:
+        - https://cse.hkust.edu.hk/~lim/
+    - id: hkust-shing-chi-cheung
+      school: HKUST
+      supervisor: Shing-Chi Cheung
+      state: ACTIVE
+      fit: A
+      route: "DS-Hns/Boss -> AI4SE"
+      protocol:
+        required:
+          - resume
+          - recent_photograph
+      sources:
+        - https://www.cse.ust.hk/~scc/
+    - id: hkust-song-guo
+      school: HKUST
+      supervisor: Song Guo
+      state: ACTIVE_SECONDARY
+      fit: A-
+      email: songguo@cse.ust.hk
+      route: "Utopia -> Physical AI / Pervasive Intelligence"
+      sources:
+        - https://home.cse.ust.hk/~songguo/
+
+  watch:
+    - id: hku-chenshu-wu
+      supervisor: Chenshu Wu
+      fit: A+
+      blocker: HKU_ACADEMIC_EQUIVALENCY_ROUTE
+      email: chenshu@cs.hku.hk
+      protocol:
+        required:
+          - cv_with_gpa_and_rank
+          - transcript
+          - background_and_research_interests
+        recommended:
+          - research_proposal
+      sources:
+        - https://aiot.cs.hku.hk/openings/
+    - id: hku-heming-cui
+      supervisor: Heming Cui
+      fit: A+
+      blocker: HKU_ACADEMIC_EQUIVALENCY_ROUTE
+      protocol:
+        required:
+          - pdf_cv
+          - bachelor_course_transcript
+          - explicit_systems_reliability_security_strength
+      sources:
+        - https://www.cs.hku.hk/index.php/people/academic-staff/heming
+    - id: hku-zuming-jiang
+      supervisor: Zuming Jiang
+      fit: A
+      blocker: HKU_ACADEMIC_EQUIVALENCY_ROUTE
+      email: jzuming.hku@gmail.com
+      protocol:
+        required:
+          - cv
+          - brief_research_interest_or_plan
+      sources:
+        - https://jzuming.github.io/
+    - id: hku-ka-ho-chow
+      supervisor: Ka Ho Chow
+      fit: A-
+      blocker: HKU_ACADEMIC_EQUIVALENCY_ROUTE
+      email: kachow@cs.hku.hk
+      sources:
+        - https://khchow.com/
+
+  hold_due_existing_thread:
+    - id: cityu-heqing-huang
+      supervisor: Heqing Huang
+      existing_thread: true
+    - id: cityu-zhenjiang-li
+      supervisor: Zhenjiang Li
+      fit: A+
+      unlock_after: cityu_existing_thread_reconcile
+    - id: cityu-nan-guan
+      supervisor: Nan Guan
+      fit: A
+      unlock_after: cityu_existing_thread_reconcile
+    - id: cityu-weifa-liang
+      supervisor: Weifa Liang
+      fit: A-
+      unlock_after: cityu_existing_thread_reconcile
+      protocol:
+        required:
+          - cv
+          - all_undergraduate_and_postgraduate_transcripts
+          - one_page_research_statement
+        optional_if_available:
+          - one_to_three_representative_published_papers
+    - id: polyu-yu-pei
+      supervisor: Yu Pei
+      existing_thread: true
+    - id: polyu-yu-liu
+      supervisor: Yu Liu
+      fit: A
+      unlock_after: polyu_existing_thread_reconcile
+      protocol:
+        required:
+          - cv
+          - academic_transcripts
+
+hk_mainland_branches:
+  active:
+    - id: cuhksz-jinke-ren
+      school: CUHK-Shenzhen
+      supervisor: Jinke Ren
+      intake: "Fall 2027"
+      fit: A
+      email: jinkeren@cuhk.edu.cn
+      protocol:
+        required:
+          - cv
+          - transcripts
+          - representative_publications
+          - research_interests
+          - academic_credentials
+      package_blocker: representative_publication_material_must_be_selected
+      sources:
+        - https://myweb.cuhk.edu.cn/jinkeren
+        - https://sds.cuhk.edu.cn/en/phd-programmes-CSE/applications
+
+  high_priority_watch:
+    - id: hkustgz-zhidan-liu
+      supervisor: Zhidan Liu
+      fit: A+
+      reason: "ubiquitous computing / mobile sensing / AIoT / GUI Agent"
+      blocker: intake_specific_2027_capacity
+      email: zhidanliu@hkust-gz.edu.cn
+      sources:
+        - https://liuzhidan.github.io/group/
+    - id: hkustgz-tengfei-chang
+      supervisor: Tengfei Chang
+      fit: A
+      reason: "embedded / edge AI / LLM inference / multi-agent intelligent services"
+      blocker: intake_specific_2027_capacity
+      sources:
+        - https://tengfeichang.com/
+        - https://atomic.hkust-gz.edu.cn/people/
+    - id: hkustgz-kaishun-wu
+      supervisor: Kaishun Wu
+      fit: A+
+      reason: "mobile / ubiquitous / pervasive computing"
+      blocker: current_recruitment_signal
+      sources:
+        - https://www.hkust-gz.edu.cn/people/wu-kaishun/
+
+  backup:
+    - id: hkustgz-lingjie-duan
+      supervisor: Lingjie Duan
+      fit: mixed
+      recruitment: "2026/2027"
+      downgrade_reason: "AI theory + algorithmic game theory burden"
+      protocol:
+        required:
+          - cv_with_overall_gpa
+          - transcript
+          - major_ranking
+          - possible_publications
+      sources:
+        - https://personal.hkust-gz.edu.cn/lingjieduan/phd-openings/
+
+singapore:
+  active:
+    - id: sutd-ruochen-zhao
+      school: SUTD
+      supervisor: Ruochen Zhao
+      intake: "Fall 2027"
+      funding: fully_funded
+      fit: A
+      email: esther_zhao@sutd.edu.sg
+      protocol:
+        subject_pattern: "Position-Start Time-Name-Affiliation"
+        required:
+          - cv_or_resume
+        optional:
+          - transcript
+          - future_plan
+          - brief_research_proposal
+      sources:
+        - https://ruochenzhao.github.io/openings/
+    - id: sutd-thanh-le-cong
+      school: SUTD
+      supervisor: Thanh Le-Cong
+      state: EXISTING_THREAD
+      fit: A
+      route: "DS-Hns/Boss"
+      sources:
+        - https://thanhlc.net/
+
+  high_priority_watch:
+    - id: ntu-rui-tan
+      school: NTU
+      supervisor: Rui Tan
+      intake: "Fall 2027"
+      funding: fully_funded
+      fit: A+
+      email: tanrui@ntu.edu.sg
+      route: "Utopia/PCF -> edge AI systems"
+      protocol:
+        required:
+          - cv
+      blocker:
+        - honours_distinction_equivalency
+        - qe_friction
+      sources:
+        - https://personal.ntu.edu.sg/tanrui/phd.html
+        - https://www.ntu.edu.sg/education/graduate-programme/ccds-phd-computing-datascience
+
+  backup:
+    - id: nus-chengpeng-wang
+      school: NUS
+      supervisor: Chengpeng Wang
+      fit: A+
+      email: wang-chengpeng@nus.edu.sg
+      protocol:
+        required:
+          - cv
+          - short_description_of_research_problems
+      blocker:
+        - scholarship_equivalency
+        - mandatory_qe_no_exemption
+        - overseas_scholarship_interview
+      sources:
+        - https://chengpeng-wang.github.io/lab.html
+        - https://www.comp.nus.edu.sg/programmes/pg/phdcs/
+    - id: nus-abhik-roychoudhury
+      school: NUS
+      supervisor: Abhik Roychoudhury
+      fit: A+
+      blocker:
+        - current_phd_capacity_signal
+        - mandatory_qe_no_exemption
+      sources:
+        - https://www.comp.nus.edu.sg/cs/people/abhik/
+        - https://nus-tss.github.io/
+
+  rejected:
+    - school: SMU
+      reason: GRE_GMAT_HARD_GATE
