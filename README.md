@@ -24,13 +24,15 @@
 
 ## 现在优先做
 
+> **套磁协议规则更新：** 旧的 `OUTREACH_READY` 不自动继承。导师个人主页 / lab / openings 页及专属邮件要求未重新核验前，一律按 `PROTOCOL_RECHECK` 处理。
+
 | 优先级 | 目标 | 状态 | 下一步 |
 |---|---|---|---|
 | **P0** | **澳门大学 — Li Li** | **已提交 / warm lead** | 继续私人/暖线沟通；当前不要并行开启 UM/CIS 新冷邮件。 |
 | **P0** | **SUTD PhD — Jan 2027** | **APPLY_NOW** | 先推进正式申请。**截止：2026-10-30。** 开新 SUTD 联系前先核对 Thanh Le-Cong 旧线程；Ruochen Zhao 是更贴 Utopia/agent 的新候选。 |
 | **P0** | **CUHK CSE — James Cheng** | **APPLY / Utopia-Boss 高匹配** | 先核对 Yu Li 已有线程，再刷新 James Cheng 的 Aug-2027 招生页并生成新申请包。 |
 | **P0** | **CUHK-Shenzhen — Jinke Ren** | **ACTIVE** | 确认 2027 项目与导师资格兼容后，生成 Utopia-first 申请包。 |
-| **P1** | **NYU — Qiaoyu Tan / Dartmouth — Shawn Shan / Penn State — Yuchen Yang** | **OUTREACH_READY** | 重新打开当前招生页确认仍有效，按新的 Utopia-aware 叙事刷新 CV/材料后进入发送队列。 |
+| **P1** | **NYU — Qiaoyu Tan / Dartmouth — Shawn Shan / Penn State — Yuchen Yang** | **PROTOCOL_RECHECK** | 旧申请包可复用，但新规则下必须重新检查个人主页/lab/openings 页、邮件必填项与附件要求；通过后才能恢复 OUTREACH_READY。 |
 | **P1** | **UBC / SFU** | **APPLY** | 正式申请继续保留；UBC = 高竞争，SFU/Keval Vora = 强系统路线。 |
 | **P1** | **Concordia** | **ACTIVE / 保底线** | 先清理 Zhijie 旧线程状态，再只保持一个新的同系导师线程。Concordia 是最低可接受基线，不再是整个申请池中心。 |
 
