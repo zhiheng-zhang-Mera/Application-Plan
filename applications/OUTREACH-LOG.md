@@ -41,3 +41,10 @@
 
 2026-09-22、2026-09-23 的 daily contact pool 是历史快照，不自动顺延。  
 当前优先级以根 [README](../README.md) 与 [筛选规则](../rules/SCREENING.md) 为准。
+
+## Gmail 集成说明 — 2026-10-06
+
+- 默认申请邮箱已连接：`zhiheng0mera@gmail.com`。
+- 新的导师邮件可以直接在 ChatGPT 内创建 draft、审核后发送，并把 Gmail thread/message ID 写回 `data/outreach.yaml`。
+- 旧 2026-09-18 套磁历史仍然有效；当前默认 Gmail 中尚未完成 thread 映射时，标记为 `PENDING`，不能据此推断没有发送或没有回复。
+- 邮箱标签采用 `PhD-Application/*` 命名空间。
