@@ -1,17 +1,17 @@
-# Rejected / Closed Programs — refreshed 2026-09-30
+# 已拒绝 / 硬关闭项目 — 2026-09-30 刷新
 
-> Hard-gate failures only. Keep the reason so future automation does not resurrect them without a real policy change.
+> 这里只放 hard-gate failure。保留 reason code，防止以后自动化在没有真实政策变化时又把它们捞回来。
 
-| School | Reason code | Current reason | Reopen condition |
+| 学校 | Reason code | 当前原因 | 重开条件 |
 |---|---|---|---|
-| **University at Buffalo** | `ENGLISH_RETEST_REQUIRED` | admissions already confirmed the existing English-medium background does not waive the required new English test | official policy change / written personal waiver |
-| **Singapore Management University — CS / IS PhD** | `GRE_REQUIRED` | current route requires GRE/GMAT unless a qualifying waiver applies; UBC/Melbourne do not receive the automatic local-university waiver | written personal waiver or policy becomes optional |
-| **University of Waterloo — CS PhD** | `ACADEMIC_FLOOR` | official PhD requirement: Master's in CS with **78% average**; current Melbourne forecast is materially below this literal floor | final result / official equivalency documents show the published threshold is met, or policy changes |
-| **Queen's University — Computing PhD** | `ACADEMIC_FLOOR` | official PhD requirement: Master's degree + minimum **A standing / first class** | official equivalency confirms eligibility or policy changes |
-| **Dalhousie University — CS PhD** | `ACADEMIC_FLOOR` | official PhD requirement: minimum **A- GPA** | official equivalency confirms eligibility or policy changes |
-| **UNIST** | `ENGLISH_RETEST_REQUIRED` | current international graduate admissions say an **English Test Report is mandatory for all international applicants** | UNIST adds a degree-based waiver that covers the applicant / valid existing score becomes acceptable |
+| **University at Buffalo** | `ENGLISH_RETEST_REQUIRED` | admissions 已确认：现有英语授课背景不能豁免新的英语考试成绩 | 官方政策变化或获得书面个人 waiver |
+| **Singapore Management University — CS / IS PhD** | `GRE_REQUIRED` | 当前路线要求 GRE/GMAT，除非满足特定 waiver；UBC/Melbourne 不属于自动本地大学 waiver | 书面个人 waiver 或政策改为 optional |
+| **University of Waterloo — CS PhD** | `ACADEMIC_FLOOR` | 官方要求 Master's in CS 且 **78% average**；当前 Melbourne 预测明显低于 literal floor | 最终成绩 / 官方 equivalency 证明达标，或政策变化 |
+| **Queen's University — Computing PhD** | `ACADEMIC_FLOOR` | 官方要求 Master's + 最低 **A standing / first class** | 官方 equivalency 确认合格或政策变化 |
+| **Dalhousie University — CS PhD** | `ACADEMIC_FLOOR` | 官方要求最低 **A- GPA** | 官方 equivalency 确认合格或政策变化 |
+| **UNIST** | `ENGLISH_RETEST_REQUIRED` | 当前 international graduate admission 写明 **所有国际申请人必须提交 English Test Report** | 新增覆盖该申请人的学历 waiver，或现有有效成绩可接受 |
 
-## Verification links
+## 核验链接
 
 - Waterloo: https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-doctor-philosophy-phd
 - Queen's: https://www.cs.queensu.ca/apply/graduate.php
