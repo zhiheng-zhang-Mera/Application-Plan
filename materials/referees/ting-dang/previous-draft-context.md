@@ -1,4 +1,4 @@
-# Ting Dang — Previous Draft Context
+# Ting Dang — 上一版 Draft 背景
 
 > 状态：**DRAFT PROVIDED TO REFEREE — NOT KNOWN TO BE FINAL / SUBMITTED VERSION**
 
