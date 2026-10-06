@@ -19,7 +19,11 @@
 
 - deadline：**2026-10-30**
 - English-medium institution 可满足 TOEFL/IELTS waiver
-- 正式申请不能为了等待导师回复而停下
+- **标准 SUTD PhD 不要求申请前获得导师明确同意**
+- 官方 FAQ 只要求填写 research topics，并且可以（may）列出匹配 faculty；导师 pre-approval 不是 submission gate
+- 需要至少两位导师接受的是 **SUTD-NUS Joint PhD**，不能和普通 SUTD PhD 混淆
+- 因此正式申请立即推进，不等待 Thanh Le-Cong 或其他 PI 回复
+- 真正的时间敏感项是：3 位 academic referees 需要在提交后 **1 周内**完成 online recommendations；另有 3,000-word Statement of Objectives、CV/成绩材料与 application fee
 
 ### Ruochen Zhao — Fall 2027
 
