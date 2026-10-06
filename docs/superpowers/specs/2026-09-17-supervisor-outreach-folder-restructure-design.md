@@ -1,3 +1,14 @@
+<!-- 中文默认视图 -->
+
+# 历史说明 — 2026-09-17-supervisor-outreach-folder-restructure-design.md
+
+> 历史套磁目录设计规格，仅用于追溯；当前套磁执行以 rules/EXECUTION.md 为准。
+>
+> 本页属于历史证据/设计快照。为了避免改写历史原文，旧英文内容原样保留在下方折叠区。正常日常操作无需展开。
+
+<details>
+<summary><strong>展开历史英文原始快照</strong></summary>
+
 # Supervisor Outreach Folder Restructure — Design
 
 ## Purpose
@@ -307,3 +318,6 @@ The migration is complete only when:
 ## Maintenance rule going forward
 
 All future outreach editing happens inside the relevant supervisor folder. A new email version replaces `EMAIL.md`; a new follow-up replaces or appends to `FOLLOWUP.md`; contact events update the supervisor `README.md` and the root ledger. Regional or school-level documents may summarize status but must not regain full duplicate email bodies.
+
+
+</details>
