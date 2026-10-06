@@ -1,30 +1,31 @@
-# 观察列表 — 2026-09-30 刷新
+# 观察列表 — 2026-10-06 刷新
 
-> 这里只保留**研究方法匹配较强，且只剩 1–2 个可核验 gate** 的候选。已经确认的 academic / test hard failure 应进入 REJECTED，而不是 WATCH。
+> WATCH = 研究匹配足够强，但还剩 1–2 个明确 gate。  
+> 香港 / 港校大陆分校 / 新加坡以 [2026-10-06 refresh](POOL-REFRESH-2026-10-06-HK-SG.md) 为准。
 
 | 学校 / 候选 | 为什么保留 | 当前阻塞 / 晋级条件 |
 |---|---|---|
-| **KAIST — Junehwa Song** | **高优先级重新打开**：mobile / IoT / wearable / ubiquitous + systems/distributed 是直接 Utopia 路线；加拿大/澳洲学历有英语 waiver；scholarship 强 | Fall-2027 日期仍 TBA；套磁前确认当前 PhD capacity |
-| **HKU — Ka Ho Chow / Heming Cui / Zuming Jiang** | trustworthy-AI / ML systems / distributed systems 很强 | 先把 UBC honours/equivalency 路径做成可验证结论 |
-| **HKUST CSE** | 学校级 AI systems / security / SE fit 很强 | 旧 Junxian He / Jiasi Shen / Shuai Wang capacity 已陈旧；找 fresh 2027 PI |
-| **HKUST (Guangzhou) — Information Hub / IoT** | Utopia/PCF 很适合 Edge AI、distributed、sensing/embedded、ubiquitous | 找当前 direct-contact 且理论负担较低的 systems/edge PI；核验 admission/funding |
-| **University of Alberta — Zhou Yang** | trustworthy CodeLLM / AI4SE 非常直 | Fall-2026 signal 已旧；确认 Fall-2027 capacity/funding |
-| **University of Alberta — Majeed Kazemitabaar** | human-AI / end-user programming 适合 Utopia + Boss | generic seeking-students 有，但需确认 2027 capacity/funding |
-| **University of Manitoba — Shaowei Wang** | LLM/code generation/search/bug fixing/AIOps 很直接 | supervisor capacity + funding |
-| **University of Victoria** | agentic/AI4SE/tooling 仍有可能 | 暂无 PI 在 funding/capacity 确定性上击败加拿大更强选项 |
-| **NTU CCDS** | agent/security 研究强 | honours-equivalency 未清；form-only / do-not-email opening 不进 direct-outreach |
-| **POSTECH** | 韩国备选；可能存在英语学历 waiver | 当前 cycle waiver + funding + supervisor capacity 都要刷新 |
-| **Columbia — Zishen Wan** | AI-for-computing / agentic systems 很强 | Fall-2027 GRE policy 仍需当前官方证据 |
-| **Virginia Tech — Jiaming Cui** | 当前 large-scale multi-agent recruitment | score-equivalency / English route 未完全清 |
-| **Imperial — Jialun Cao** | agentic / AI-for-SE implementation fit 强 | final Melbourne degree/classification gate 未决 |
-| **NTNU agentic / multi-agent vacancies** | implementation-oriented agent work | grade equivalency + English gate 待当前 cycle 核验 |
+| **HKU — Chenshu Wu** | **A+ Utopia/PCF**：AIoT、mobile/embedded、ubiquitous localization、small edge AI systems；多个 funded PhD openings | 把 UBC BSc + Melbourne research Master's 的 HKU academic-equivalency route 做成可提交说明 |
+| **HKU — Heming Cui** | **A+ systems**：distributed AI / cloud / reliability / security；且其套磁协议正好要求突出 consistency/reliability/security | 同上；之后按其严格 CV+本科课程成绩单协议执行 |
+| **HKU — Zuming Jiang** | systems/security/database/testing + 多个 fully-funded PhD openings | HKU academic route |
+| **HKU — Ka Ho Chow** | trustworthy AI systems / systems-for-ML | HKU academic route |
+| **HKUST(GZ) — Zhidan Liu** | **A+ Utopia**：mobile sensing / ubiquitous / AIoT / GUI Agent；长期招 PhD | 缺 intake-specific Fall-2027 capacity 文字，先确认 |
+| **HKUST(GZ) — Tengfei Chang** | embedded / edge AI / LLM inference / multi-agent intelligent services，工程性强 | 缺 intake-specific 2027 PhD opening |
+| **HKUST(GZ) — Kaishun Wu** | mobile/ubiquitous/pervasive + wearable command research 极贴 | 缺当前个人招生信号 |
+| **NTU — Rui Tan** | **A+ PCF**：Fall-2027 fully-funded edge-AI systems，且明确“systems rather than AI” | Honours (Distinction) equivalency；QE/Confirmation friction |
+| **KAIST — Junehwa Song** | mobile / IoT / wearable / ubiquitous / distributed 很直 | Fall-2027 日期 + current capacity |
+| **HKUST CSE secondary old names** | 学校本身仍强 | 不再靠旧 shortlist；优先 Mo Li / Shing-Chi / Song Guo，旧名只有 fresh capacity 才恢复 |
+| **Alberta — Zhou Yang / Majeed Kazemitabaar** | AI4SE / human-AI 仍强 | 2027 capacity/funding |
+| **Manitoba — Shaowei Wang** | code generation/search/bug fixing/AIOps | capacity + funding |
+| **POSTECH** | 韩国备选 | current English waiver + funding + capacity |
+| **Columbia — Zishen Wan** | AI-for-computing / agentic systems | Fall-2027 GRE policy |
+| **Virginia Tech — Jiaming Cui** | large-scale multi-agent | score equivalency / English |
+| **Imperial — Jialun Cao** | agentic / AI-for-SE | final Melbourne degree/classification |
+| **NTNU agentic vacancies** | implementation-oriented | grade equivalency + English |
 
-## 本轮从 WATCH 移出
+## 本轮变化
 
-- Waterloo → REJECTED（Master's 78% hard floor）
-- Queen's → REJECTED（A / first-class Master's standing）
-- Dalhousie → REJECTED（A- PhD minimum）
-- UNIST → REJECTED（international applicant mandatory English Test Report）
-- NUS → BACKUP（已知流程 / funding-equivalency 摩擦，不只是一个 unknown gate）
-- MBZUAI → BACKUP（mandatory screening exam）
-- TU Delft WALTZ → PRUNED/CLOSED（deadline 已过）
+- **HKUST CSE 从 generic WATCH 升为 APPLY**：Mo Li / Shing-Chi Cheung / Song Guo 都有 current recruitment signal。
+- **HKU 不再简单视为“honours hard block”**：Graduate School 明确非 honours qualification 可按 individual merits 考虑，但仍需要把你的组合学历路径文档化。
+- **NTU Rui Tan 新增为高优先级 WATCH**。
+- **HKUST(GZ) 找到 Zhidan Liu / Tengfei Chang，方向上优于 Lingjie Duan。**
