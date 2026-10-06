@@ -1,120 +1,125 @@
-# Research Profile
+# 研究画像
 
-> **Current default application profile — 2026-10-06.** This file is the reusable narrative source; target selection rules live in `rules/SCREENING.md`.
+> **当前默认申请画像 — 2026-10-06。** 本文件是内部叙事素材源；目标筛选规则见 `rules/SCREENING.md`。  
+> **注意：本文件中文化不影响对外申请材料；实际 CV / SOP / RP / 邮件继续生成英语版本。**
 
-## Core identity
+## 核心身份
 
-CS-trained research engineer working toward a **persistent personal-computing fabric for ubiquitous agentic applications**.
+计算机科学背景的 research engineer，当前主线是构建：
 
-The strongest current PhD framing is:
+> **面向泛在智能体应用的持久个人计算底座（persistent personal-computing fabric）。**
+
+最强博士方向：
 
 **Ubiquitous / Personal Computing + AI Systems + Distributed / Edge Systems**
 
-The research story should be about **how heterogeneous devices, agent execution, user control, provenance and recovery compose into one reliable computing environment**, not a feature list.
+核心问题不是“堆了多少功能”，而是：
 
-## Primary platform — Utopia
+**异构设备、agent execution、用户控制、provenance 与 recovery 如何组成一个长期可靠的个人计算环境。**
 
-Use Utopia as the default lead for broad new applications.
+## 主平台 — Utopia
 
-Current research-safe evidence:
+广义新申请默认先用 Utopia。
 
-- Web + Android product surfaces integrated through an authenticated gateway;
-- Rooms / canonical Actions / City tasks exposed through one action substrate;
-- deterministic Ask/Do with ambiguity handling, confirmation and manual fallback;
-- truthful health/degradation and idempotency;
-- an independent verification cycle that rejected an earlier candidate for a real integration defect, followed by repair and independent acceptance.
+当前研究安全证据：
 
-### Next research-facing expansion
+- Web + Android 产品面通过 authenticated gateway 集成；
+- Rooms / canonical Actions / City tasks 进入统一 action substrate；
+- deterministic Ask/Do 支持 ambiguity handling、confirmation 和 manual fallback；
+- truthful health/degradation 与 idempotency；
+- 曾有一个候选版本被独立验收因真实 Android integration defect 而 REJECT，修复后重新独立验收通过。
+
+### 下一阶段研究扩张
 
 **PCF — Personal Compute Fabric / Heterogeneous Edge Runtime**
 
-Planned focus:
+计划研究：
 
-- heterogeneous resource telemetry;
-- explainable placement and offloading;
-- queueing and execution policy;
-- failure recovery;
-- cross-device scheduling;
-- experiment/evaluation integration.
+- heterogeneous resource telemetry；
+- explainable placement / offloading；
+- queueing 与 execution policy；
+- failure recovery；
+- cross-device scheduling；
+- experiment / evaluation integration。
 
-This is a **next-step research direction**, not completed evidence.
+**这是下一阶段研究方向，不是已完成功能。**
 
-### Vertical applications
+### 垂直应用
 
-Wearable glasses, personal-health terminals, entertainment rooms and similar products are examples of what can run on the fabric. They should not replace the core systems research identity unless a specific supervisor is explicitly domain-focused.
+可穿戴眼镜、个人医疗终端、娱乐室等属于平台之上的 vertical applications。除非特定导师就是该领域，否则不让它们替代核心 systems identity。
 
-## Supporting platform — DS-Hns
+## 支撑平台 — DS-Hns
 
-Use Hns first for:
+以下方向优先 Hns：
 
-- AI4SE / coding agents;
-- long-horizon repository execution;
-- crash/restart recovery;
-- durable task continuation;
-- autonomous maintenance / AIOps;
-- lifecycle and terminal-state evidence.
+- AI4SE / coding agents；
+- long-horizon repository execution；
+- crash/restart recovery；
+- durable task continuation；
+- autonomous maintenance / AIOps；
+- lifecycle / terminal-state evidence。
 
-Research question:
+研究问题：
 
-> How should software agents persist, recover and continue repository-level work without confusing process survival with task completion?
+> 软件智能体如何跨故障持久化并继续 repository-level 工作，同时避免把“进程还活着”误认为“任务真正完成”？
 
-## Supporting platform — Codex Boss
+## 支撑平台 — Codex Boss
 
-Use Boss first for:
+以下方向优先 Boss：
 
-- reliable / verifiable agent systems;
-- evidence-based completion;
-- governance / adjudication;
-- multi-agent orchestration;
-- auditability and longitudinal system evolution.
+- reliable / verifiable agents；
+- evidence-based completion；
+- governance / adjudication；
+- multi-agent orchestration；
+- auditability / longitudinal evolution。
 
-Research question:
+研究问题：
 
-> How can long-running autonomous systems make completion claims that remain inspectable and falsifiable as the underlying system evolves?
+> 长时自治系统如何在自身持续演化时，仍能对任务完成给出可检查、可证伪、可信的证据？
 
-## Combined systems story
+## 组合叙事
 
 **Utopia + Hns + Boss = device substrate + durable execution + governance/evidence**
 
-This is the strongest bridge toward:
+这是目前最强的桥接路线：
 
-- ubiquitous / personal computing;
-- heterogeneous edge runtime;
-- distributed AI systems;
-- wearable / embodied-enabling infrastructure;
-- reliable human-agent systems.
+- ubiquitous / personal computing；
+- heterogeneous edge runtime；
+- distributed AI systems；
+- wearable / embodied-enabling infrastructure；
+- reliable human-agent systems。
 
-## Secondary portfolio
+## 次级项目
 
 ### Privacy Lens
 
-Use for privacy, bounded interpretation, reproducibility, auditability and trustworthy software.
+用于 privacy、bounded interpretation、reproducibility、auditability、trustworthy software。
 
 ### Quant-Ultra
 
-Use only for financial ML, temporal validation, non-stationarity or decision-system infrastructure.
+仅用于 financial ML、temporal validation、non-stationarity 或 decision-system infrastructure。
 
 ### Health / AI4Science
 
-Use as a vertical/application route only when implementation, systems work and empirical evaluation are central. Do not pivot into theory-heavy biomedical/scientific derivation just because health is available as a product domain.
+只作为 vertical/application route；前提是 systems implementation 与 empirical evaluation 是核心。不要仅因为 health 可以成为产品方向，就转去 theory-heavy biomedical/scientific derivation。
 
-## Current non-claims
+## 当前禁止声称
 
-Do not claim, unless later evidence changes:
+除非以后有新证据，不得声称：
 
-- completed PCF;
-- dedicated wearable/robotics hardware experiments;
-- completed assistant/persona layer;
-- completed general LLM router;
-- completed Boss/Hns connector integration;
-- accepted peer-reviewed Boss/Hns publication.
+- PCF 已完成；
+- 已做 dedicated wearable / robotics hardware experiment；
+- assistant/persona layer 已完成；
+- general LLM router 已完成；
+- Boss/Hns connector integration 已完成；
+- Boss/Hns 已有 accepted peer-reviewed publication。
 
-## Writing rule
+## 对外写作结构
 
-Default structure:
+英语材料统一采用：
 
 **problem → evidence already built → observed failure/limitation → proposed PhD question**
 
-Avoid:
+避免：
 
-**project list → feature dump → universal-AI claim**.
+**project list → feature dump → universal-AI claim**。
