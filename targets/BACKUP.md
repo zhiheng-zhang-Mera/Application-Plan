@@ -1,16 +1,17 @@
-# 备用目标 — 2026-09-30 刷新
+# 备用目标 — 2026-10-06 刷新
 
-> BACKUP 表示研究本身可以做，但**已知流程摩擦、理论负担或路线偏移**让它比当前 ACTIVE 目标更低 ROI。
+> BACKUP = 技术上可行，但已知流程摩擦 / 理论负担 / 路线成本明显更高。
 
-| 学校 / 路线 | 为什么只是备用 | 研究匹配 | 重新提升条件 |
+| 学校 / 路线 | 为什么只是备用 | 技术匹配 | 提升条件 |
 |---|---|---|---|
-| **NUS Computing PhD** | scholarship degree-equivalency 未完全清；海外 scholarship interview + mandatory QE 增加摩擦 | **很强**：AI4SE / agentic software；Chengpeng Wang / Abhik Roychoudhury 技术上仍很匹配 | 确认 funding-equivalency，并明确接受 interview/QE 摩擦 |
-| **MBZUAI CS PhD** | 当前申请含 **mandatory screening exam**；之后还可能有 technical evaluation | agentic AI / systems-adjacent AI 可用 | 只有接受 exam 摩擦且 GPA/funding gate 干净才提升 |
-| **PolyU — Hongxia Yang** | 旧 recruitment route 含 coding test + presentation | generative / agent / decentralized-computing 匹配强 | 仅在需要 PolyU 第二条高摩擦路线时启用 |
-| **HKUST(GZ) — Lingjie Duan / A2E** | 当前 opening 真实，含 multi-agent / IoT / distributed ML，但明确要求强理论并涉及 algorithmic game theory | 关键词强，但 method fit 混合 | 只有明确找到 systems/empirical 子项目才提升 |
+| **NUS Computing — Chengpeng Wang** | mandatory QE **无 exemption**；Research Scholarship 需要 2nd Class Upper equivalent；overseas scholarship 有 interview | **A+**：agentic SE / program analysis / agent security；当前明确招 PhD | 先接受 QE/面试摩擦并核 scholarship equivalency |
+| **NUS — Abhik Roychoudhury** | 同样受 NUS QE/资助摩擦影响；本轮没有 Chengpeng 那么明确的 current PhD contact instruction | **A+**：AutoCodeRover / trustworthy coding agents | NUS 路线主动启用后再确认 current capacity |
+| **HKUST(GZ) — Lingjie Duan / A2E** | 2026/2027 opening 真实，但明确要求 solid theory background，研究包含 AI theory + algorithmic game theory | 关键词匹配强，method fit mixed | 找到明确 systems/empirical 子项目才提升 |
+| **MBZUAI CS PhD** | mandatory screening exam | agentic AI 可用 | 接受 exam friction 且 GPA/funding gate 干净 |
+| **PolyU — Hongxia Yang** | coding test + presentation 摩擦 | technical fit 强 | 需要第二条 PolyU 路线时启用 |
 
-## 不属于 BACKUP 的情况
+## 不属于 BACKUP
 
-- academic/test hard failure → REJECTED
-- 只剩一个 capacity/equivalency 未决 → WATCH
-- deadline 已过 → PRUNED/CLOSED
+- hard academic/test failure → REJECTED
+- 只差一个 capacity/equivalency → WATCH
+- deadline passed → PRUNED/CLOSED
