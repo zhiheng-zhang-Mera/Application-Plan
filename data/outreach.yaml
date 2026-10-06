@@ -54,11 +54,15 @@ threads:
 
   - supervisor_id: concordia-zhijie-wang
     contact_email: zhijie.wang@concordia.ca
-    historical_state: FOLLOWUP_SENT_WAITING
+    historical_state: DECLINED_DO_NOT_CONTACT
     historical_last_outbound: 2026-09-18
+    closed_at: 2026-10-06
+    close_reason: USER_CONFIRMED_DECLINED
     gmail_thread_id: null
     gmail_last_message_id: null
-    mailbox_mapping_status: PENDING
+    mailbox_mapping_status: NOT_FOUND_IN_DEFAULT_GMAIL
+    mailbox_note: "The known follow-up was sent from the University of Melbourne student email, not the connected zhiheng0mera Gmail."
+    repository_bucket: TRASH
     evidence_source: applications/OUTREACH-LOG.md
 
 state_rules:
