@@ -24,7 +24,7 @@
 
 ## 现在优先做
 
-> **套磁规则更新：** 旧的 `OUTREACH_READY` 不自动继承。导师个人主页 / lab / openings 页、专属邮件要求，以及“专人专用”个性化内容都必须重新核验；未完成前统一按 `PROTOCOL_RECHECK / PERSONALIZATION_RECHECK` 处理。
+> **套磁规则更新：** 旧的 `OUTREACH_READY` 不自动继承。导师个人主页 / lab / openings 页、专属邮件要求，以及“专人专用”个性化内容都必须重新核验；未完成前统一按 `PROTOCOL_RECHECK / PERSONALIZATION_RECHECK` 处理。**新导师 CV 的 Utopia 部分不得直接复用旧版本，必须在发送前按当前 Utopia + Digital-City 状态实时刷新并重新编译。**
 
 | 优先级 | 目标 | 状态 | 下一步 |
 |---|---|---|---|
@@ -136,7 +136,7 @@ NUS 与 MBZUAI 仍是 **BACKUP**，不是 REJECT：研究方向可以，但 QE /
 
 - **“刷新申请池”** → 刷新 hard gate、2027 招生、funding 与优先级；查导师时同时检查 faculty profile、个人主页/lab/openings 页和专属套磁要求。
 - **“今天该做什么”** → 只返回 P0/P1 和 deadline。
-- **“给 X 学校生成申请包”** → 先读取目标导师个人/lab 招生页与邮件协议，再为每位导师生成专人专用的英文内容；只允许复用结构和事实源，不允许复制实质正文。
+- **“给 X 学校生成申请包”** → 先读取目标导师个人/lab 招生页与邮件协议；再实时读取 Utopia + Digital-City 当前状态、刷新该导师 CV 的 Utopia 部分、重新编译 PDF；最后生成专人专用英语内容并跑 QA。
 - **“检查套磁状态”** → 先核对真实邮件历史，再决定是否解锁下一位 PI。
 - **“检查材料缺口”** → 只显示会阻塞当前申请的缺项。
 - **“检查申请状态”** → submitted / waiting / interview / offer / closed。
