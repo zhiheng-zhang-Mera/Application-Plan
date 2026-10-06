@@ -325,3 +325,112 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 
 任何一项失败，不能进入 `OUTREACH_READY / PACKAGE_READY`。
 
+## 15. 套磁邮件必须“专人专用”
+
+**允许复用邮件结构，不允许复用实质正文。**
+
+模板只能规定结构，例如：
+
+1. 称呼；
+2. 导师专属 opening / hook；
+3. 与该导师研究直接相关的申请人证据；
+4. 一个具体 research bridge / question；
+5. 按导师要求设计的 ask / next step；
+6. 简短结束语与签名。
+
+模板**不能**提供“把导师名字替换掉就能发”的完整正文。
+
+### 15.1 每封邮件必须具备的个性化内容
+
+每位导师至少需要单独生成：
+
+- **Supervisor-specific hook**：基于其个人主页、lab/openings 页面、近期论文、正在招的具体项目或明确 research agenda；
+- **Why this supervisor / lab**：解释为什么是这个导师，而不是同校其他方向相近的人；
+- **Project selection**：只选择与该导师最相关的 1–2 个项目，不要求所有邮件都按同样顺序介绍 Utopia / Hns / Boss；
+- **Concrete connection**：明确指出申请人已有工作与导师某个具体问题、系统、论文或项目之间的技术连接；
+- **Research question / idea**：至少给出一个适合该导师语境的具体问题、下一步实验或系统方向；
+- **Customized ask**：根据该导师自己的 contact protocol 决定是询问 PhD supervision、某个 advertised project、是否愿意讨论某个方向，还是只提交 CV/form。
+
+其中至少 **opening、research bridge、ask** 三部分必须针对该导师重新写，不能从另一位导师邮件复制。
+
+### 15.2 可以复用的内容
+
+以下内容可以复用事实，但不等于必须逐字复制：
+
+- 姓名、学位、预计毕业时间；
+- 官方成绩事实；
+- 项目名称；
+- GitHub / artifact URL；
+- publication / preprint 的真实状态；
+- 联系方式；
+- 极短的项目事实描述。
+
+允许复用这些**事实源**，但正文应根据导师语境选择、压缩和重组。
+
+### 15.3 禁止的“伪个性化”
+
+以下情况直接 QA FAIL：
+
+- 只替换 `Professor X`、学校名和 lab 名，其余正文基本相同；
+- 每封邮件都固定写同样的三项目介绍，只改顺序；
+- 用“your impressive work in AI / systems”这类泛句代替具体研究连接；
+- 引用一篇论文标题，但正文没有体现实际理解；
+- 所有导师都收到同一个 research question；
+- 明明导师招的是某个具体 project，却发送完全通用的“我想申请您的 PhD”；
+- 为了显得个性化而虚构自己读过、实现过、发表过或掌握过的内容。
+
+### 15.4 Personalization Manifest
+
+每封准备发送的邮件都应有一个内部中文 manifest，至少记录：
+
+- `supervisor_name`
+- `target_program`
+- `personal_page_or_lab_source`
+- `recent_work_or_project_selected`
+- `supervisor_specific_hook`
+- `why_this_supervisor`
+- `selected_applicant_evidence`
+- `specific_research_bridge`
+- `proposed_question_or_idea`
+- `customized_ask`
+- `protocol_requirements_satisfied`
+- `cross_email_duplication_check`
+
+这个 manifest 不发送给导师，只用于生成和 QA。
+
+### 15.5 跨邮件重复检查
+
+发送前应把本封邮件与当前 batch 中其他导师邮件做 duplicate/similarity 检查。
+
+允许重复：
+
+- 称呼格式；
+- 签名；
+- 联系方式；
+- URL；
+- 简短固定事实。
+
+需要拦截：
+
+- 完整实质段落重复；
+- 长句连续重复；
+- 相同 research bridge；
+- 相同具体 research question；
+- 大段只替换导师名 / 学校名的正文。
+
+如果发现正文主要内容可以通过“搜索替换导师名字”得到另一封邮件，则直接判定 **PERSONALIZATION_QA_FAIL**。
+
+### 15.6 完成定义
+
+一封导师邮件只有同时满足：
+
+`PROTOCOL_VERIFIED + PERSONALIZATION_VERIFIED + CLAIMS_VERIFIED + ATTACHMENTS_VERIFIED`
+
+才允许进入：
+
+`OUTREACH_READY`
+
+所以：
+
+> **结构可以模板化，证据可以复用，但研究连接、讨论内容和申请动机必须专人专用。**
+
