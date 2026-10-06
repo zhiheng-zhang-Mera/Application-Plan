@@ -1,4 +1,4 @@
-# Ting Dang — Known to Referee
+# Ting Dang — 推荐人已知信息
 
 > 只记录 Ting Dang 有直接课程依据、或至少在上一轮 draft 中被明确介绍过的内容。不要把“用户后来做了什么”自动升级成“老师知道什么”。
 
