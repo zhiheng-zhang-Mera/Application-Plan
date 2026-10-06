@@ -1,4 +1,4 @@
-# Ting Dang — New Since Last Contact
+# Ting Dang — 上次联系后的新增信息
 
 > 这里记录 Ting **此前并不知道**、但下一轮推荐时可能值得首次介绍的新项目。不能写成她长期观察或指导过的工作。
 
