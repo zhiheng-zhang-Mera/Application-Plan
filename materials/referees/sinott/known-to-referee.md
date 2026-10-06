@@ -1,4 +1,4 @@
-# Sinott — Known to Referee
+# Sinott — 推荐人已知信息
 
 > 只记录目前能够确认 Sinott 实际知道或至少曾直接参与过的内容。未知项不补全。
 
