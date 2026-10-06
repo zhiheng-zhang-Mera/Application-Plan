@@ -1,41 +1,59 @@
-# University of Macau — Supervisors
+# University of Macau — 导师池
 
-> Refreshed 2026-09-17. Because the application is already submitted, this is a **post-submission supervisor-match pool**, not a mass-outreach list.
+> 这是**已提交申请后的 supervisor-match 池**，不是 mass-outreach list。内部说明中文；实际邮件保持英语。
 
-## First layer — explicit current recruitment signal
+## 第一层
 
-| Priority | Supervisor | Email | Current recruitment evidence | Best narrative |
-|---|---|---|---|---|
-| 1 | **Li Li** | `LLiLi@um.edu.mo` | Current page explicitly says positions are available for **PhD students**; **2026-09-18: replied to outreach and moved discussion to a private contact channel** | **DS-Hns + Codex Boss** — efficient/reliable LLM systems, edge/mobile/cloud execution, distributed learning |
-| 2 | **Xiaobo Zhou** | `waynexzhou@um.edu.mo` | Dedicated **PhD Student Opportunities** section; explicitly looking for self-motivated PhD students and asks for CV | **DS-Hns + Boss** — Systems ML, cloud, OS, distributed computing, performance/reliability |
-| 3 | **Leong Hou U** | `ryanlhu@um.edu.mo` | Current page says he is **actively seeking** PhD students / RAs / postdocs; page contains 2026 research updates | **Boss + Quant-Ultra** — scalable data/AI, RL, multi-agent RL, empirical benchmark/evaluation |
-| 4 | **Cheng-Zhong Xu** | `czxu@um.edu.mo` | Current research page says he **continuously looks for self-motivated students** and financial support is available for strong commitment | **DS-Hns + Boss** — systems support for AI, cloud computing, big data, data-driven intelligence |
+### 1. Li Li — 当前 warm lead
 
-## Second layer — fit is useful, but capacity not yet strong enough for first-contact automation
+- Email：`LLiLi@um.edu.mo`
+- 当前事实：2026-09-18 回复套磁并转入私人联系方式。
+- 方向：LLM systems、edge/mobile/cloud、distributed learning。
+- 当前最佳叙事：**Utopia + Hns/Boss**。
+- 动作：继续 warm line；其他 UM/CIS cold outreach 冻结。
+- Source: https://www.fst.um.edu.mo/personal/llili/
 
-| Supervisor | Email | Why keep | Current state |
+### 2. Xiaobo Zhou — fallback
+
+- Email：`waynexzhou@um.edu.mo`
+- 公开页有 PhD Student Opportunities。
+- 方向：Systems ML、cloud、OS、distributed computing、performance/reliability。
+- 最佳叙事：Utopia / Hns + Boss。
+- Source: https://www.fst.um.edu.mo/personal/waynexzhou/
+
+### 3. Leong Hou U — fallback
+
+- Email：`ryanlhu@um.edu.mo`
+- 方向：scalable data/AI、graph learning、RL、multi-agent RL。
+- 最佳叙事：Boss + Utopia；Quant 只在需要时辅助。
+- Source: https://www.fst.um.edu.mo/personal/ryanlhu/
+
+### 4. Cheng-Zhong Xu — senior systems fallback
+
+- Email：`czxu@um.edu.mo`
+- 方向：systems support for AI、cloud、big data。
+- 最佳叙事：Utopia + Hns/Boss。
+- Source: https://www.fst.um.edu.mo/personal/czxu/research/
+
+## 第二层
+
+| 导师 | Email | 保留原因 | 当前状态 |
 |---|---|---|---|
-| Steven Morad | `smorad@um.edu.mo` | RL, sequence modeling, robotics; useful if Boss shifts toward planning/agent learning | capacity unknown |
-| Derek Fai Wong | `derekfw@um.edu.mo` | NLP, representation learning, deep learning | capacity unknown |
-| Christian Montag | `cmontag@um.edu.mo` | digital phenotyping, mobile sensing, digital biomarkers; potential computational-health route | capacity unknown |
-| Jerome Yen | `jeromeyen@um.edu.mo` | FinTech, algorithmic trading, financial engineering; possible Quant-Ultra route | capacity unknown |
+| Steven Morad | `smorad@um.edu.mo` | RL / planning / robotics | capacity unknown |
+| Derek Fai Wong | `derekfw@um.edu.mo` | NLP / representation learning | capacity unknown |
+| Christian Montag | `cmontag@um.edu.mo` | digital phenotyping / mobile sensing | capacity unknown |
+| Jerome Yen | `jeromeyen@um.edu.mo` | FinTech / financial engineering | capacity unknown |
 
-## Excluded from current outreach
+## 排除
 
-- **Lin Yan** — already contacted multiple times without reply. Do not spend another outreach slot unless a new explicit recruitment signal appears.
+- **Lin Yan**：此前多次联系无回复；无新的明确 recruitment signal 时不再占用 outreach slot。
 
-## Same-school rule
+## 同校规则
 
-UM/CIS contacts are sequential, not simultaneous. **Current state: Li Li is an active warm lead; freeze the remaining queue until this line clearly resolves.** Default fallback order:
+当前：**Li Li warm line 占用 UM/CIS 锁。**
+
+默认 fallback：
 
 **Li Li → Xiaobo Zhou → Leong Hou U → Cheng-Zhong Xu**
 
-Use a 3–5 working-day cooldown between new cold contacts unless the previous professor explicitly declines / has no capacity. If one professor becomes interested or enters supervision discussion, freeze the remaining UM/CIS cold-outreach queue.
-
-## Sources
-
-- Li Li: https://www.fst.um.edu.mo/personal/llili/
-- Xiaobo Zhou: https://www.fst.um.edu.mo/personal/waynexzhou/
-- Leong Hou U: https://www.fst.um.edu.mo/personal/ryanlhu/
-- Cheng-Zhong Xu: https://www.fst.um.edu.mo/personal/czxu/research/
-- FST current staff directory: https://www.fst.um.edu.mo/people/academic-staff/
+不能并行 mass-email。
