@@ -255,3 +255,73 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 - 用户可以直接审核最终 bundle。
 
 “已提交”必须有真实 submission evidence，不能因为 draft 做完就标 submitted。
+
+## 14. 导师专属套磁协议
+
+任何自动生成的 supervisor outreach 都必须先读取该导师的**个人维护主页 / lab / openings 页面**（如存在），不能只套用通用邮件母版。
+
+### 14.1 生成顺序
+
+固定顺序：
+
+`program gate → supervisor capacity → personal/lab page → contact protocol extraction → applicant evidence mapping → English email generation → protocol QA → HUMAN_REVIEW`
+
+如果 `contact protocol extraction` 没完成，不生成“send-ready”邮件。
+
+### 14.2 Protocol Manifest
+
+每个准备联系的导师应在 package 中形成一个简短内部 manifest，至少包含：
+
+- 联系入口与来源 URL；
+- 页面最后核验日期；
+- 是否找到个人主页 / lab / openings page；
+- subject 要求；
+- 邮件正文必填内容；
+- 必须附件；
+- 禁止附件；
+- 成绩要求及口径；
+- publication / preprint 要求；
+- 指定论文 / topic / question；
+- form / screening task；
+- 当前申请人对每一项的满足状态：`READY | MISSING | NOT_APPLICABLE | UNKNOWN`。
+
+这个 manifest **是内部中文控制文件**；最终发送邮件仍为英语。
+
+### 14.3 自动材料映射
+
+遇到导师要求时：
+
+- “include GPA / grades” → 从 `Bachelor Score.csv`、`Master Score.csv` 与 official transcript 取真实数据；
+- “include transcript” → 只使用真实官方 transcript，不拿 derived CSV 冒充；
+- “include publications” → 从经过验证的 publication/preprint registry 生成，并保留准确 publication status；
+- “discuss one of my papers” → 先读取论文，再生成针对性 discussion；
+- “describe a concrete research idea” → 结合该导师近期工作与当前 Utopia/Hns/Boss evidence 生成一个可执行 research question；
+- “send only CV” → 不擅自塞 transcript / proposal；
+- “use form, do not email” → 邮件生成器停止，改走 form-ready English text；
+- “subject must be XXX” → 严格按指定 subject pattern。
+
+### 14.4 缺项时怎么处理
+
+- 缺成绩口径 → BLOCKED，先计算/核验；
+- 没有导师要求的 peer-reviewed publication → 如只是“请列出”，如实写无或只列准确标注的 preprint；如是硬门槛则转 screening gate；
+- 没读指定论文 → BLOCKED，不允许生成假装读过的段落；
+- 缺 required attachment → `PACKAGE_READY=false`；
+- contact instruction 冲突 → BLOCKED，先解决证据冲突。
+
+### 14.5 Protocol QA
+
+在原有 Package QA Gate 之外，新增：
+
+- personal/lab/openings page 已检查或明确 not_found；
+- current contact instruction 已记录；
+- subject pattern 正确；
+- required email fields 全部出现；
+- required attachments 全部真实存在；
+- forbidden attachments 未加入；
+- grade / WAM / GPA 数值与口径正确；
+- publication status 无夸大；
+- 指定论文 / topic discussion 有具体内容且与原文一致；
+- 若要求 form-only，未生成误导性的 send-ready email。
+
+任何一项失败，不能进入 `OUTREACH_READY / PACKAGE_READY`。
+
