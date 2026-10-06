@@ -1,56 +1,50 @@
-# University of Macau — Status
+# University of Macau — 当前状态
 
-**State:** SUBMITTED / WARM SUPERVISOR LEAD  
-**Submitted:** 2026-08-20  
-**Application No.:** `YPC711655`  
-**Payment:** completed  
-**Supervisor-pool refresh:** 2026-09-17
+**状态：SUBMITTED / WARM SUPERVISOR LEAD**  
+**提交日期：2026-08-20**  
+**Application No.：`YPC711655`**  
+**Payment：completed**
 
-## Live lead update — 2026-09-18
+## 当前 lead
 
-- **Li Li replied to the first supervisor-match outreach and moved the conversation to a private contact channel.**
-- Treat this as a **warm lead / active supervision discussion signal**, not as an admission or funding commitment.
-- The private contact detail itself is intentionally **not stored in this repository**.
-- **Freeze all other UM/CIS cold outreach** while this line is active. Re-open Xiaobo Zhou only if the Li Li line clearly ends or he explicitly redirects the applicant elsewhere.
+**Li Li** 已回复首次 supervisor-match 套磁，并把沟通转到私人联系方式。
 
-## Current strategy
+这代表：
 
-申请已经提交，不重新做学校层面的“要不要申请”判断。当前动作只服务于：
+- 是明确的 positive engagement / supervision-discussion signal；
+- **不是 admission offer**；
+- **不是 funding confirmation**；
+- 私人联系方式本身不存仓库；
+- 该线活跃时，冻结其他 UM/CIS cold outreach。
 
-1. 找到仍明确招 PhD、且可带 CIS / Computer Science 路线的导师；
-2. 用最新 Boss / DS-Hns / Quant-Ultra 进展补强导师匹配；
-3. 避免继续追已经多次无回复的旧联系人。
+## 当前策略
 
-## First supervisor layer
+学校申请已经完成，不再反复判断“要不要投 UM”。
 
-1. **Li Li** — `LLiLi@um.edu.mo` — 当前明确有 PhD openings；LLM systems / edge-mobile-cloud / distributed learning，最贴 DS-Hns + Boss。
-2. **Xiaobo Zhou** — `waynexzhou@um.edu.mo` — 当前明确招 PhD；Systems ML / OS / cloud / distributed computing，适合 DS-Hns reliability/runtime 路线。
-3. **Leong Hou U** — `ryanlhu@um.edu.mo` — 当前明确招 PhD；data engineering / graph learning / RL / multi-agent RL，适合 Boss + Quant-Ultra 实验路线。
-4. **Cheng-Zhong Xu** — `czxu@um.edu.mo` — 当前研究页写持续寻找 self-motivated students，且可提供 financial support；systems support for AI / cloud / big data。
+现在只做三件事：
 
-完整证据与结构化状态见：
-- `data/macau-supervisor-refresh-2026-09-17.yaml`
-- `SUPERVISORS.md`
+1. 继续维护 Li Li warm line；
+2. 用最新 **Utopia + Hns/Boss** 进展强化 edge/mobile/cloud / distributed-agent systems 匹配；
+3. 如果 Li Li 明确结束 / 无 capacity / 转介，再按 fallback 顺序启用下一导师。
 
-## Outreach guardrail
+## Funding 参考
 
-- **不要同一天连续发 4 位 UM/CIS 导师。** 按同校同系 cooldown 执行，一次只保持一个新的 cold outreach 在前台。
-- 如果某位导师明确表示有兴趣、要求材料或进入 supervision discussion，暂停同系其他 cold outreach。
-- 如果 3–5 个工作日无回复，或明确无名额，再切下一位。
-- **Lin Yan 不再追。** 只有出现新的明确 recruitment signal 才重新考虑。
+2026-09-18 核验时：
 
-## Application-side notes
+- **UM PhD Scholarship (UMPS)：MOP 20,000/month**，最长 48 个月；
+- **Teaching/Research Assistant Type A：MOP 12,500/month 起**，按 progress rating 可升至约 **MOP 14,000/month**；
+- Type B 主要偏 tuition-offset，不应等价视为正常生活 stipend；
+- 2026/27 normative PhD tuition 总额约 **MOP 150,000**，active UMPS/TRA 期间通常按规则从支持中处理。
 
-UM PhD general route accepts a recognised Master's degree; English test applies when the previous degree's medium of instruction was not English. Funding is competitive and subject to quota/selection; do not treat application submission, supervisor interest, or private-channel contact as funding confirmation.
+工作判断：
+- MOP 20,000/month：强 accept-level funding；
+- MOP 12,500–14,000/month：可行，但需与其他 offer 比较；
+- tuition-only / Type B：默认不足，除非另有实质 living stipend。
 
-### Funding decision reference (verified 2026-09-18)
+## 推荐信
 
-- **UM PhD Scholarship (UMPS): MOP 20,000/month**, up to 48 months.
-- **UM PhD Teaching/Research Assistant Type A: starts at MOP 12,500/month**, with increases up to **MOP 14,000/month** under the progress-rating rules.
-- **Type B** is primarily tuition-offset support rather than a normal living stipend.
-- During an active UMPS/TRA support period, tuition is normally offset monthly from the stipend; the 2026/27 full PhD tuition is **MOP 150,000** over the normative period.
-- Working decision rule for this application: **MOP 20,000/month = strong accept-level funding; MOP 12,500–14,000/month = financially viable but compare against other offers; tuition-only/Type B = normally insufficient unless paired with another meaningful living stipend.**
+最后完整提交状态仍需要看 portal。当前只保留：
 
-## Recommendation-letter status
+> 3 位已邀请；历史上至少 2 位曾确认提交。
 
-推荐信最后完整提交状态需要重新看 portal；目前只保留“3 位已邀请、至少 2 位曾确认提交”的 last-known 记录，不自动假设全部完成。
+不能自动假设 3/3 全部完成。
