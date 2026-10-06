@@ -1,11 +1,11 @@
-# Status
+# 当前状态
 
-Current operational status is intentionally shown only in the root [README.md](README.md).
+当前操作状态只在根目录 [README.md](README.md) 维护，避免重复看板产生漂移。
 
-This file is retained as a stable legacy entry point so old links do not break.
+本文件仅作为旧链接兼容入口保留。
 
-- Human dashboard: [README.md](README.md)
-- Screening/priorities: [rules/SCREENING.md](rules/SCREENING.md)
-- Outreach/application execution: [rules/EXECUTION.md](rules/EXECUTION.md)
-- Structured application state: `data/applications.yaml`
-- Contact history: `applications/OUTREACH-LOG.md`
+- 人工懒人看板：[README.md](README.md)
+- 筛选 / 优先级：[rules/SCREENING.md](rules/SCREENING.md)
+- 套磁 / 材料 / QA / 提交：[rules/EXECUTION.md](rules/EXECUTION.md)
+- 结构化申请状态：`data/applications.yaml`
+- 套磁历史：`applications/OUTREACH-LOG.md`
