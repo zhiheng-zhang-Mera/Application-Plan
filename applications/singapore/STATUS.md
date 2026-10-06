@@ -1,23 +1,111 @@
-# 新加坡 — 当前状态
+# 新加坡 — 当前状态（2026-10-06 刷新）
 
-**状态：SUTD APPLY_NOW / NUS BACKUP / NTU WATCH / SMU REJECT**
+**状态：SUTD Jan-2027 APPLY_NOW / SUTD Fall-2027 新路线 / NTU HIGH-PRIORITY WATCH / NUS BACKUP / SMU REJECT**
+
+完整导师池：[targets/POOL-REFRESH-2026-10-06-HK-SG.md](../../targets/POOL-REFRESH-2026-10-06-HK-SG.md)
 
 ## 立即动作
 
-1. **SUTD Jan 2027 正式申请：官方 deadline = 2026-10-30。** 不要为了等导师回复而拖正式申请。
-2. SUTD：先核对已有 Thanh Le-Cong 线程；如需要新联系，Ruochen (Esther) Zhao 是当前更贴 Utopia / reliable-agent 的路线。
-3. NUS：research fit 很强，但 scholarship-equivalency + interview/QE 摩擦较高，因此保留 BACKUP。
-4. NTU：先清 UBC honours-equivalency。明确 form-only / “do not email” opening 不进入 direct-outreach。
-5. SMU CS/IS：`GRE_REQUIRED`，除非出现书面特殊 waiver，否则关闭。
+1. **SUTD Jan 2027 正式申请继续 P0：官方当前 deadline = 2026-10-30。**
+2. **Thanh Le-Cong** 是已有历史线程；新联系前先核 Gmail/历史。
+3. **Ruochen (Esther) Zhao 是明确的 Fall 2027 fully-funded PhD opening**，不能和 Jan-2027 申请混写。
+4. **NTU Rui Tan** 新增为高优先级 WATCH：Fall-2027 fully-funded **edge AI systems**，而且个人页明确强调 research focus is **systems rather than AI**。
+5. **NUS Chengpeng Wang** 技术匹配升为 NUS 第一顺位，但 NUS mandatory QE / scholarship-equivalency / interview friction 仍使其保持 BACKUP。
+6. SMU 继续 REJECT。
 
-## 叙事
+## SUTD
 
-- SUTD broad agent/systems：Utopia + Boss/Hns。
-- reliable software / AI4SE：Hns + Boss。
-- 对外 CV、SOP、Research Statement、邮件保持**英语**。
+### Jan 2027 formal application
 
-## 相关文件
+- deadline：**2026-10-30**
+- English-medium institution 可满足 TOEFL/IELTS waiver
+- 正式申请不能为了等待导师回复而停下
 
-- 新加坡历史筛选快照：`targets/SINGAPORE-2026-09-17.md`
-- 结构化证据：`data/singapore-expansion-2026-09-17.yaml`
-- 英文套磁草稿：`applications/singapore/OUTREACH-DRAFTS-2026-09-17.md`
+### Ruochen Zhao — Fall 2027
+
+方向：
+- reliable/trustworthy LLM agents
+- multi-agent evaluation
+- deep-research agents
+- self-evolving agents
+- human-agent interaction
+
+个人套磁协议：
+
+- Email：`esther_zhao@sutd.edu.sg`
+- Subject：`Position-Start Time-Name-Affiliation`
+- CV / Resume：required
+- transcript / future plans / brief RP：optional
+
+因此不能使用通用 subject，也不能把 Fall 2027 opening 写成 Jan 2027。
+
+### Thanh Le-Cong
+
+当前个人页仍明确 actively recruiting fully-funded PhD students in trustworthy AI for software engineering。  
+Hns/Boss fit 很强；但已有 2026-09-18 线程，先核历史，不重新首封。
+
+## NTU
+
+### Rui Tan — **HIGH-PRIORITY WATCH / PCF A+**
+
+明确：
+- one fully funded PhD
+- 4 years
+- Fall 2027
+- edge AI systems
+- embodied AI + neuromorphic sensing
+
+其个人页特别强调：**systems rather than AI**。
+
+这与 Utopia/PCF 的下一步非常接近：
+
+- heterogeneous-device runtime
+- edge execution
+- resource-aware scheduling
+- sensing/compute coordination
+- embodied-enabling infrastructure
+
+协议：
+- Email：`tanrui@ntu.edu.sg`
+- send CV
+- rolling interview
+- 联系前应先阅读 group work
+
+当前阻塞：
+- NTU bachelor minimum **Honours (Distinction) or equivalent**
+- QE / Confirmation Exercise 培养摩擦
+
+因此先解决 UBC/Melbourne equivalency，再决定是否投入。
+
+## NUS
+
+### Chengpeng Wang — **BACKUP #1 / TECHNICAL A+**
+
+当前 RISE Lab 明确招 PhD students。
+
+方向：
+- program analysis
+- agentic software engineering
+- agent security
+- real software systems
+
+套磁协议：
+- Email：`wang-chengpeng@nus.edu.sg`
+- CV
+- **short description of the research problems you would like to explore**
+
+非常适合 Hns/Boss；Utopia 可作为可靠 agent action substrate 支撑。
+
+仍是 BACKUP 的原因：
+- Research Scholarship degree-equivalency
+- overseas scholarship interview
+- **mandatory QE, no exemption**
+
+### Abhik Roychoudhury
+
+AutoCodeRover / agentic testing / trustworthy coding-agent 技术 fit 顶级；但本轮没有找到像 Chengpeng 一样明确的当前 PhD contact instruction。NUS 路线真正启用后再单独确认 capacity。
+
+## 对外材料
+
+CV、邮件、SOP/RP 保持英语。  
+任何新导师都必须重新刷新 Utopia CV、读取个人招生协议，并通过 personalization QA。
