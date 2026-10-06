@@ -434,3 +434,80 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 
 > **结构可以模板化，证据可以复用，但研究连接、讨论内容和申请动机必须专人专用。**
 
+## 16. 新导师 CV 的 Utopia 实时刷新门禁
+
+任何**首次联系的新导师**，都不得直接复用旧版 tailored CV 中的 Utopia 段落。
+
+在生成该导师最终英语 CV 前，必须在**同一次套磁准备 run**里重新读取 Utopia 的当前证据，并重写 Utopia 相关内容。
+
+### 16.1 当前证据源
+
+默认按以下顺序刷新：
+
+1. **`zhiheng-zhang-Mera/Utopia` 的当前 `main`**：确认已经合并、实际存在的能力与最新可验证状态；
+2. **`zhiheng-zhang-Mera/Digital-City` 的当前 mission-book / reports / 当前规划**：确认最新研究方向、验收结论、已完成/未完成边界；
+3. Application-Plan 中的 `materials/research-profile.md` / `project-positioning.md`：只作为叙事路由参考，**不能替代对 Utopia 当前仓库状态的刷新**。
+
+默认只把**已合并 / 已验收 / 有明确证据**的内容写成 completed work。未完成工程书、planned series、尚未验收模块只能写成 future direction / planned extension。
+
+### 16.2 每次刷新必须记录
+
+在内部 package / manifest 中记录：
+
+- `utopia_refresh_required: true`
+- `utopia_refresh_at`
+- `utopia_main_sha`
+- `digital_city_main_sha`
+- `utopia_completed_evidence_used`
+- `utopia_current_limitations`
+- `utopia_planned_direction_used`
+- `utopia_cv_tailoring_reason`
+- `utopia_refresh_status: VERIFIED | BLOCKED`
+
+没有记录当前 SHA / evidence boundary，就不能把 CV 标成 ready。
+
+### 16.3 CV 不是“项目更新日志”
+
+实时刷新不等于把 Utopia 最近所有功能都塞进 CV。
+
+生成时应：
+
+1. 先确认 Utopia 当前真实状态；
+2. 再根据导师方向挑选最相关的 **2–4 条**证据；
+3. 用导师专属研究语言重新组织；
+4. 保留一个清晰的 limitation / next research direction；
+5. 删除与该导师无关的旧 Utopia bullet，而不是无限累加。
+
+例如：
+
+- ubiquitous / wearable PI → 强调 multi-device substrate、cross-device action、user confirmation、heterogeneous runtime direction；
+- distributed / edge PI → 强调 gateway、device coordination、degraded-state handling、未来 placement/offloading；
+- human-agent PI → 强调 ambiguity handling、confirmation、user override、inspectable action state；
+- AI4SE PI → Utopia 可以缩短，把 Hns/Boss 放前面，只保留与 systems integration / validation 相关的 Utopia evidence。
+
+### 16.4 旧 CV 的处理
+
+旧 CV 可以作为：
+
+- 排版模板；
+- 个人基础信息源；
+- 已验证教育/技能事实源。
+
+但对**新导师**：
+
+> 旧 CV 中的 Utopia 项目段落默认视为 `STALE_FOR_NEW_OUTREACH`。
+
+必须先 refresh，再生成新的 `.tex` / PDF。
+
+### 16.5 发送门禁
+
+新导师套磁只有在：
+
+`UTOPIA_REFRESH_VERIFIED + CV_REBUILT + CV_PDF_VERIFIED + PROTOCOL_VERIFIED + PERSONALIZATION_VERIFIED`
+
+全部通过后，CV 才能作为附件进入：
+
+`OUTREACH_READY`
+
+如果 Utopia 当前状态无法可靠读取或验收边界不清楚，宁可保留更保守的旧安全 claim，也不能根据 commit 名称或规划文件猜测“已经完成”。
+
