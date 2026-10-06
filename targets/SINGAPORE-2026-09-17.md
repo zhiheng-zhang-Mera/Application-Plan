@@ -1,3 +1,14 @@
+<!-- 中文默认视图 -->
+
+# 历史说明 — SINGAPORE-2026-09-17.md
+
+> 新加坡地区 2026-09-17 历史筛选快照。注意：文件当时记录的 SUTD Jan-2027 deadline=2026-09-30 已被后续官方核验纠正为 2026-10-30；当前必须使用 2026-10-30。
+>
+> 本页属于历史证据/设计快照。为了避免改写历史原文，旧英文内容原样保留在下方折叠区。正常日常操作无需展开。
+
+<details>
+<summary><strong>展开历史英文原始快照</strong></summary>
+
 # Singapore Expansion — 2026-09-17
 
 > Screening order: **hard gate → research-method fit → current recruitment/capacity → programme friction → outreach**.
@@ -90,3 +101,6 @@ SUTD is not zero-friction: application requires three academic referees and a 3,
 ## Send-day guardrail
 
 Refresh the SUTD opportunity page immediately before sending. If a project/recruitment statement disappears or the supervisor says they are full, do not keep mailing on stale evidence; re-rank the remaining verified pool.
+
+
+</details>
