@@ -24,41 +24,48 @@
 
 ## 现在优先做
 
-> **套磁规则更新：** 旧的 `OUTREACH_READY` 不自动继承。导师个人主页 / lab / openings 页、专属邮件要求，以及“专人专用”个性化内容都必须重新核验；未完成前统一按 `PROTOCOL_RECHECK / PERSONALIZATION_RECHECK` 处理。**新导师 CV 的 Utopia 部分不得直接复用旧版本，必须在发送前按当前 Utopia + Digital-City 状态实时刷新并重新编译。**
+> **新导师默认先过四道门：** 个人主页/招生协议 → Utopia 实时 CV refresh → 专人专用邮件 → QA。旧 `OUTREACH_READY` 不自动继承。
 
 | 优先级 | 目标 | 状态 | 下一步 |
 |---|---|---|---|
-| **P0** | **澳门大学 — Li Li** | **已提交 / warm lead** | 继续私人/暖线沟通；当前不要并行开启 UM/CIS 新冷邮件。 |
-| **P0** | **SUTD PhD — Jan 2027** | **APPLY_NOW** | 先推进正式申请。**截止：2026-10-30。** 开新 SUTD 联系前先核对 Thanh Le-Cong 旧线程；Ruochen Zhao 是更贴 Utopia/agent 的新候选。 |
-| **P0** | **CUHK CSE — James Cheng** | **APPLY / Utopia-Boss 高匹配** | 先核对 Yu Li 已有线程，再刷新 James Cheng 的 Aug-2027 招生页并生成新申请包。 |
-| **P0** | **CUHK-Shenzhen — Jinke Ren** | **ACTIVE** | 确认 2027 项目与导师资格兼容后，生成 Utopia-first 申请包。 |
-| **P1** | **NYU — Qiaoyu Tan / Dartmouth — Shawn Shan / Penn State — Yuchen Yang** | **PROTOCOL_RECHECK / PERSONALIZATION_RECHECK** | 旧申请包只作为素材来源；必须重查个人主页/lab/openings 页，并为每位导师重新写专属 hook、research bridge、question/idea 与 ask，通过后才能恢复 OUTREACH_READY。 |
-| **P1** | **UBC / SFU** | **APPLY** | 正式申请继续保留；UBC = 高竞争，SFU/Keval Vora = 强系统路线。 |
-| **P1** | **Concordia** | **ACTIVE / 保底线** | 先清理 Zhijie 旧线程状态，再只保持一个新的同系导师线程。Concordia 是最低可接受基线，不再是整个申请池中心。 |
+| **P0** | **澳门大学 — Li Li** | **已提交 / WARM** | 继续私人线；不并行开启 UM/CIS cold outreach |
+| **P0** | **SUTD — Jan 2027** | **APPLY_NOW** | 正式申请优先，**2026-10-30 截止**；不要等导师回复 |
+| **P0** | **CUHK — James Cheng** | **APPLY** | 先核 Yu Li 旧线程；解锁后按其专属 subject + CV/transcript 协议生成新包 |
+| **P1** | **HKUST — Mo Li** | **FRESH ACTIVE PI** | 新增强 Utopia/PCF 路线；开始 protocol + Utopia-CV refresh |
+| **P1** | **CUHK-Shenzhen — Jinke Ren** | **ACTIVE / PACKAGE GAP** | Fall-2027 明确招生；先准备其要求的 representative-publication 材料 |
+| **P1** | **SUTD — Ruochen Zhao** | **FALL-2027 ACTIVE** | 与 Jan intake 分开；按个人页 subject 格式生成专属包 |
+| **P1** | **NYU / Dartmouth / Penn State** | **PROTOCOL_RECHECK** | 旧包只作素材；重新过个人页协议、CV refresh 与个性化 QA |
+| **P1** | **UBC / SFU / Concordia** | **ACTIVE** | 按既有路线推进；Concordia 先核 Zhijie 旧线程 |
 
-### 新开冷邮件前必须先清理的一件事
+### 香港 / 港校大陆分校 / 新加坡本轮重点变化
 
-2026-09-18 那批联系的 follow-up / 解锁日期已经过去。  
-开同校新线程前，先根据真实记录核对：
+- **HKUST 清水湾不再只是 WATCH**：新确认 **Mo Li**（mobile/AIoT）、**Shing-Chi Cheung**（AI4SE）、Song Guo（Physical AI）都有当前可执行路线。
+- **HKU 出现 Utopia A+ 导师线**：**Chenshu Wu / Heming Cui**；研究匹配已不是问题，下一步是把 academic-equivalency 路径做清楚。
+- **HKUST(GZ)**：新发现 **Zhidan Liu / Tengfei Chang**，都比旧 Lingjie Duan 更贴 ubiquitous/edge systems；当前缺 intake-specific 2027 capacity。
+- **NTU**：新增 **Rui Tan — Fall-2027 fully-funded edge-AI systems**，方向非常贴 PCF；先清 Honours-equivalency 与 QE friction。
+- **NUS**：Chengpeng Wang 技术匹配升到 A+，但 mandatory QE / scholarship-equivalency 使其继续 BACKUP。
+- **CityU / PolyU**：各自已有旧线程锁；解锁后新增 **Zhenjiang Li**、**Yu Liu** 两条更贴 AIoT/Edge 的路线。
 
-- [applications/OUTREACH-LOG.md](applications/OUTREACH-LOG.md)
-- 各 application 下的 `CONTACTS.md` / `TIMELINE.md`
-- 必要时检查邮箱实际回复
+完整刷新：[香港/大陆分校/新加坡 2026-10-06](targets/POOL-REFRESH-2026-10-06-HK-SG.md)
 
-**不能因为旧表没有更新，就自动推断“对方没回复”。**
+### 开新 cold outreach 前
+
+2026-09-18 那批邮件的旧 follow-up 日期已经过去。  
+先从已连接 Gmail + [OUTREACH-LOG](applications/OUTREACH-LOG.md) 核对真实线程，**不能因为仓库旧表没更新就推断“无回复”。**
 
 ---
 
 ## 下一批高价值核验
 
-| 目标 | 为什么值得留 | 当前阻塞 |
+| 目标 | 当前价值 | 阻塞 |
 |---|---|---|
-| **KAIST — Junehwa Song** | Utopia → mobile / IoT / wearable / ubiquitous / distributed 非常直 | Fall-2027 时间 + 当前 PhD capacity |
-| **HKUST(GZ) — Information Hub / IoT** | PCF / edge / ubiquitous 很强 | 找低理论负担的 systems/edge PI + 当前招生/资金核验 |
-| **KAUST — Marco Canini 路线** | distributed / ML systems + funding 很强 | 旧 capacity 冲突需要重新核实 |
-| **HKU** | trustworthy / systems 导师池强 | honours / academic-equivalency |
-| **HKUST CSE** | 学校级 systems / SE / security 匹配高 | 旧 PI capacity 已过期，需要 2027 新证据 |
-| **Alberta / Manitoba** | AI4SE 备用路线不错 | 2027 capacity + funding |
+| **HKU — Chenshu Wu / Heming Cui** | **A+ Utopia/PCF / systems** | academic-equivalency route |
+| **HKUST(GZ) — Zhidan Liu** | **A+ ubiquitous/mobile/AIoT** | Fall-2027 intake-specific capacity |
+| **HKUST(GZ) — Tengfei Chang** | embedded / edge AI / LLM inference / multi-agent systems | 2027 opening |
+| **NTU — Rui Tan** | **A+ PCF；fully-funded Fall 2027 edge AI systems** | Honours-equivalency + QE friction |
+| **KAIST — Junehwa Song** | mobile / IoT / wearable / ubiquitous | Fall-2027 dates + capacity |
+| **KAUST — Marco Canini** | distributed / ML systems + funding | capacity-conflict reconciliation |
+| **Alberta / Manitoba** | AI4SE 备用池 | 2027 capacity + funding |
 
 ---
 
@@ -143,7 +150,8 @@ NUS 与 MBZUAI 仍是 **BACKUP**，不是 REJECT：研究方向可以，但 QE /
 | 值得继续查的 gate | [targets/WATCHLIST.md](targets/WATCHLIST.md) |
 | 低 ROI 但可用路线 | [targets/BACKUP.md](targets/BACKUP.md) |
 | 硬淘汰 | [targets/REJECTED.md](targets/REJECTED.md) |
-| 2026-09-30 全局筛选快照 | [targets/POOL-REFRESH-2026-09-30.md](targets/POOL-REFRESH-2026-09-30.md) |
+| **最新港校/大陆分校/新加坡刷新** | [targets/POOL-REFRESH-2026-10-06-HK-SG.md](targets/POOL-REFRESH-2026-10-06-HK-SG.md) |
+| 2026-09-30 全局历史快照 | [targets/POOL-REFRESH-2026-09-30.md](targets/POOL-REFRESH-2026-09-30.md) |
 | 套磁历史 | [applications/OUTREACH-LOG.md](applications/OUTREACH-LOG.md) |
 | 机器状态 | `data/programs.yaml` / `data/applications.yaml` / `data/supervisors.yaml` |
 
