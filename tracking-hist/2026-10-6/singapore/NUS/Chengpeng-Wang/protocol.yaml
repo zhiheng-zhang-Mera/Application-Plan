@@ -1,0 +1,20 @@
+snapshot_date: 2026-10-06
+status: BACKUP_NUS_FRICTION
+not_sent: true
+supervisor: "Chengpeng Wang"
+school: "NUS Computing"
+email: "wang-chengpeng@nus.edu.sg"
+personal_or_lab_page: "https://chengpeng-wang.github.io/lab.html"
+subject: "Prospective PhD student — agentic software engineering and reliable coding agents"
+required_attachments:
+  - CV
+  - short description of research problems
+optional_attachments:
+  []
+blockers:
+  - NUS mandatory QE has no exemption.
+  - Research Scholarship degree equivalency and overseas scholarship interview remain friction.
+utopia_main: b06504f1f96984c960b2661b8ee3a7130796d379
+digital_city_main: b6e7ca7648a5c9c030f4cee25b4819d18dcf6acc
+cv_state: GENERATED_FROM_CURRENT_SNAPSHOT
+send_state: DO_NOT_SEND

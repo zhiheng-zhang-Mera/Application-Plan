@@ -1,0 +1,19 @@
+snapshot_date: 2026-10-06
+status: BACKUP_CAPACITY_RECHECK
+not_sent: true
+supervisor: "Abhik Roychoudhury"
+school: "NUS Computing"
+email: "abhik@comp.nus.edu.sg"
+personal_or_lab_page: "https://www.comp.nus.edu.sg/cs/people/abhik/"
+subject: "Prospective PhD student — autonomous software engineering and trustworthy coding agents"
+required_attachments:
+  - CV
+optional_attachments:
+  []
+blockers:
+  - Current PhD capacity/contact instruction must be reconfirmed.
+  - NUS mandatory QE has no exemption.
+utopia_main: b06504f1f96984c960b2661b8ee3a7130796d379
+digital_city_main: b6e7ca7648a5c9c030f4cee25b4819d18dcf6acc
+cv_state: GENERATED_FROM_CURRENT_SNAPSHOT
+send_state: DO_NOT_SEND
