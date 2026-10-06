@@ -1,0 +1,42 @@
+session,program_year,term,subject,course_number,course_value,course_title,percent_grade,letter_grade,credits_received,standing,withdraw_date,class_size,class_average
+Winter Session 2020 - 2021,1,1,COSC,111,3,Computer Programming I,73,B,3,,,389,71
+Winter Session 2020 - 2021,1,1,COSC,122,3,Computer Fluency,93,A+,3,,,199,82
+Winter Session 2020 - 2021,1,1,ENGL,150,3,Introduction to Literary Genre,,,,W,2020/11/11,,
+Winter Session 2020 - 2021,1,1,MATH,100,3,Differential Calculus with Applications to Physical Sciences and Engineering,94,A+,3,,,357,69
+Winter Session 2020 - 2021,1,1,PHYS,111,3,Introductory Physics for the Physical Sciences I,91,A+,3,,,274,80
+Winter Session 2020 - 2021,1,2,COSC,121,3,Computer Programming II,64,C+,3,,,264,74
+Winter Session 2020 - 2021,1,2,COSC,123,3,Computer Creativity,93,A+,3,,,124,86
+Winter Session 2020 - 2021,1,2,ENGL,112,3,Studies in Composition,66,C+,3,,,27,75
+Winter Session 2020 - 2021,1,2,MATH,101,3,Integral Calculus with Applications to Physical Sciences and Engineering,65,C+,3,,,341,75
+Winter Session 2020 - 2021,1,2,MGMT,100,3,Introduction to Business,66,C+,3,,,136,74
+Summer Session 2021,1,1,MATH,221,3,Matrix Algebra,82,A-,3,,,38,68
+Winter Session 2021 - 2022,2,1,COSC,221,3,Introduction to Discrete Structures,77,B+,3,,,100,73
+Winter Session 2021 - 2022,2,1,COSC,222,3,Data Structures,73,B,3,,,194,78
+Winter Session 2021 - 2022,2,1,GEOG,108,3,"Earth Systems: Weather, Climate, and Life",80,A-,3,,,167,76
+Winter Session 2021 - 2022,2,1,MATH,200,3,Calculus III,77,B+,3,,,48,67
+Winter Session 2021 - 2022,2,2,COSC,211,3,Machine Architecture,70,B-,3,,,129,67
+Winter Session 2021 - 2022,2,2,ENGL,203,3,Topics in Composition,68,B-,3,,,20,85
+Winter Session 2021 - 2022,2,2,MATH,225,3,Introduction to Differential Equations,63,C,3,,,48,64
+Winter Session 2021 - 2022,2,2,STAT,230,3,Introductory Statistics,72,B,3,,,131,74
+Summer Session 2022,2,1,COSC,322,3,Introduction to Artificial Intelligence,79,B+,3,,,18,77
+Summer Session 2022,2,1,JPST,100,3,Beginning Japanese Language I,92,A+,3,,,26,77
+Summer Session 2022,2,2,STAT,124,3,Business Statistics,87,A,3,,,17,66
+Winter Session 2022 - 2023,3,1,COSC,301,3,Introduction to Data Analytics,86,A,3,,,144,77
+Winter Session 2022 - 2023,3,1,COSC,304,3,Introduction to Databases,45,F,0,,,208,74
+Winter Session 2022 - 2023,3,1,COSC,310,3,Software Engineering,86,A,3,,,109,86
+Winter Session 2022 - 2023,3,1,MATH,302,3,Introduction to Probability,66,C+,3,,,11,60
+Winter Session 2022 - 2023,3,2,COSC,303,3,Numerical Analysis,85,A,3,,,33,81
+Winter Session 2022 - 2023,3,2,COSC,320,3,Analysis of Algorithms,82,A-,3,,,145,80
+Winter Session 2022 - 2023,3,2,COSC,328,3,Introduction to Networks,62,C,3,,,79,75
+Winter Session 2022 - 2023,3,2,GEOG,128,3,"Human Geography: Space, Place, and Community",74,B,3,,,216,78
+Winter Session 2022 - 2023,3,2,JPST,101,3,Beginning Japanese Language II,82,A-,3,,,21,74
+Summer Session 2023,3,1,INDG,100,3,Introduction to Decolonization: Indigenous Studies,68,B-,3,,,80,72
+Winter Session 2023 - 2024,4,1,COSC,304,3,Introduction to Databases,90,A+,3,,,231,79
+Winter Session 2023 - 2024,4,1,COSC,341,3,Human Computer Interaction,73,B,3,,,144,83
+Winter Session 2023 - 2024,4,1,COSC,344,3,Image Processing and Applications,88,A,3,,,77,82
+Winter Session 2023 - 2024,4,1,DATA,101,3,Making Predictions with Data,79,B+,3,,,107,71
+Winter Session 2023 - 2024,4,2,COSC,414,3,Computer Graphics,76,B+,3,,,93,73
+Winter Session 2023 - 2024,4,2,HEAL,100,3,Introduction and Principles of Health and Wellbeing,79,B+,3,,,294,84
+Winter Session 2023 - 2024,4,2,MDST,120,3,Introduction to Computational Art and Design II,84,A-,3,,,26,86
+Winter Session 2023 - 2024,4,2,PHIL,331,3,Computer Ethics,84,A-,3,,,79,92
+Summer Session 2024,4,1-2,COSC,499,6,Capstone Software Engineering Project,93,A+,6,,,59,86
