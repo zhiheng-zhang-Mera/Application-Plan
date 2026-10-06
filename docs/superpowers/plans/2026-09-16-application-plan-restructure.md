@@ -1,3 +1,14 @@
+<!-- 中文默认视图 -->
+
+# 历史说明 — 2026-09-16-application-plan-restructure.md
+
+> 历史重构计划，仅用于追溯当时设计过程；当前执行规则已经合并到 rules/。
+>
+> 本页属于历史证据/设计快照。为了避免改写历史原文，旧英文内容原样保留在下方折叠区。正常日常操作无需展开。
+
+<details>
+<summary><strong>展开历史英文原始快照</strong></summary>
+
 # Application-Plan Restructure Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
@@ -147,3 +158,6 @@
 - [ ] Search for stale August dates presented as current requirements and convert them to archive-only or `unknown`.
 - [ ] Confirm `Documents/` binary source materials are unchanged.
 - [ ] Compare branch against `main` and review all changed filenames before completion.
+
+
+</details>
