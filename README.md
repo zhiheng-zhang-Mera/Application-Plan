@@ -1,142 +1,142 @@
-# PhD Application Control Center — 2027
+# PhD 申请控制中心 — 2027
 
-> **Lazy dashboard — updated 2026-10-06.** If you only read one file, read this one.  
-> Detailed history, old contact batches and dated screening snapshots stay elsewhere; this page only shows **what matters now**.
+> **懒人看板｜更新于 2026-10-06。** 正常情况下只看这一页即可。  
+> 历史联络、旧筛选批次和详细证据继续保留在对应目录，这里只展示：**现在做什么、什么最重要、什么在等、什么不用管。**
 
-## Current application story
+## 当前申请主线
 
-**Primary direction:** **Utopia → Personal Compute Fabric / ubiquitous agentic computing**
+**主方向：Utopia → Personal Compute Fabric（PCF）/ 泛在智能体计算**
 
-Default PhD framing:
+默认博士叙事：
 
-**Ubiquitous / Personal Computing + AI Systems + Distributed / Edge Systems**
+**泛在 / 个人计算系统 + AI Systems + 分布式 / Edge Systems**
 
-- **Utopia** = primary platform evidence and future research substrate.
-- **PCF — Personal Compute Fabric / Heterogeneous Edge Runtime** = next research-facing expansion; **planned, not claimed complete**.
-- **DS-Hns** = long-horizon execution / recovery / AI4SE evidence.
-- **Codex Boss** = governance / verification / multi-agent evidence.
-- Wearable glasses, health terminals, entertainment rooms, etc. = **verticals**, not the default PhD identity.
-- Privacy Lens / Quant-Ultra = supporting routes when the target genuinely matches them.
+- **Utopia**：主平台证据与未来研究底座。
+- **PCF — Personal Compute Fabric / Heterogeneous Edge Runtime**：下一阶段研究扩张方向；**属于计划方向，不作为已完成功能声称**。
+- **DS-Hns**：长时执行、恢复、AI4SE 的强支撑证据。
+- **Codex Boss**：治理、验证、多智能体协作的强支撑证据。
+- 眼镜、个人医疗终端、娱乐室等：作为 **vertical applications（垂直应用）**，默认不取代系统研究主线。
+- Privacy Lens / Quant-Ultra：只在目标导师确实匹配时作为辅助路线。
 
-Rules: [Screening & Priority](rules/SCREENING.md) · [Application Execution](rules/EXECUTION.md)
+规则入口：[筛选与优先级规则](rules/SCREENING.md) · [申请执行规则](rules/EXECUTION.md)
 
 ---
 
-## NOW — spend time here
+## 现在优先做
 
-| Priority | Target | State | Next action |
+| 优先级 | 目标 | 状态 | 下一步 |
 |---|---|---|---|
-| **P0** | **University of Macau — Li Li** | **SUBMITTED / WARM** | Continue the private/warm line. Do **not** open parallel UM/CIS cold outreach while it remains active. |
-| **P0** | **SUTD PhD — Jan 2027** | **APPLY_NOW** | Formal application first. **Deadline: 2026-10-30.** Reconcile the existing Thanh Le-Cong thread before another same-school contact; Ruochen Zhao is the strongest fresh Utopia/agent route. |
-| **P0** | **CUHK CSE — James Cheng** | **APPLY / strong Utopia-Boss fit** | Reconcile the existing Yu Li thread, then refresh James Cheng's Aug-2027 recruitment page and build a new package. |
-| **P0** | **CUHK-Shenzhen — Jinke Ren** | **ACTIVE** | Verify exact 2027 program/supervisor compatibility, then generate a Utopia-first package. |
-| **P1** | **NYU — Qiaoyu Tan / Dartmouth — Shawn Shan / Penn State — Yuchen Yang** | **OUTREACH_READY** | Re-open the current recruitment pages, refresh claims/CV to the new Utopia-aware profile, then enter the send queue. |
-| **P1** | **UBC / SFU** | **APPLY** | Keep formal applications alive. UBC = high competition; SFU/Keval Vora = strong scalable-systems route. |
-| **P1** | **Concordia** | **ACTIVE / FLOOR** | Reconcile the old Zhijie lifecycle first; then keep only one clean supervisor thread active. Concordia is the minimum acceptable floor, not the center of the pool. |
+| **P0** | **澳门大学 — Li Li** | **已提交 / warm lead** | 继续私人/暖线沟通；当前不要并行开启 UM/CIS 新冷邮件。 |
+| **P0** | **SUTD PhD — Jan 2027** | **APPLY_NOW** | 先推进正式申请。**截止：2026-10-30。** 开新 SUTD 联系前先核对 Thanh Le-Cong 旧线程；Ruochen Zhao 是更贴 Utopia/agent 的新候选。 |
+| **P0** | **CUHK CSE — James Cheng** | **APPLY / Utopia-Boss 高匹配** | 先核对 Yu Li 已有线程，再刷新 James Cheng 的 Aug-2027 招生页并生成新申请包。 |
+| **P0** | **CUHK-Shenzhen — Jinke Ren** | **ACTIVE** | 确认 2027 项目与导师资格兼容后，生成 Utopia-first 申请包。 |
+| **P1** | **NYU — Qiaoyu Tan / Dartmouth — Shawn Shan / Penn State — Yuchen Yang** | **OUTREACH_READY** | 重新打开当前招生页确认仍有效，按新的 Utopia-aware 叙事刷新 CV/材料后进入发送队列。 |
+| **P1** | **UBC / SFU** | **APPLY** | 正式申请继续保留；UBC = 高竞争，SFU/Keval Vora = 强系统路线。 |
+| **P1** | **Concordia** | **ACTIVE / 保底线** | 先清理 Zhijie 旧线程状态，再只保持一个新的同系导师线程。Concordia 是最低可接受基线，不再是整个申请池中心。 |
 
-### One cleanup item before new cold outreach
+### 新开冷邮件前必须先清理的一件事
 
-The 2026-09-18 contact batch has follow-up/lock dates that are already past.  
-Before opening another same-school thread, reconcile the actual contact history in:
+2026-09-18 那批联系的 follow-up / 解锁日期已经过去。  
+开同校新线程前，先根据真实记录核对：
 
 - [applications/OUTREACH-LOG.md](applications/OUTREACH-LOG.md)
-- application-specific `CONTACTS.md` / `TIMELINE.md`
-- mailbox evidence when needed
+- 各 application 下的 `CONTACTS.md` / `TIMELINE.md`
+- 必要时检查邮箱实际回复
 
-Do not infer “no reply” merely because an old table was not updated.
+**不能因为旧表没有更新，就自动推断“对方没回复”。**
 
 ---
 
-## VERIFY NEXT — high value, not ready to send
+## 下一批高价值核验
 
-| Target | Why it matters | Blocking check |
+| 目标 | 为什么值得留 | 当前阻塞 |
 |---|---|---|
-| **KAIST — Junehwa Song** | Excellent Utopia → mobile / IoT / wearable / ubiquitous / distributed route | Fall-2027 dates + current PhD capacity |
-| **HKUST(GZ) — Information Hub / IoT** | Very strong PCF / edge / ubiquitous direction | Find a systems/edge PI with lower theory burden + verify current admission/funding |
-| **KAUST — Marco Canini route** | Strong distributed / ML-systems fit and funding | Reconcile conflicting capacity evidence before outreach |
-| **HKU** | Strong trustworthy / systems candidates | Clear honours / academic-equivalency gate |
-| **HKUST CSE** | Strong school-level systems / SE / security fit | Fresh 2027 PI capacity; old shortlist is stale |
-| **Alberta / Manitoba** | Strong AI4SE alternatives | Refresh 2027 capacity + funding |
+| **KAIST — Junehwa Song** | Utopia → mobile / IoT / wearable / ubiquitous / distributed 非常直 | Fall-2027 时间 + 当前 PhD capacity |
+| **HKUST(GZ) — Information Hub / IoT** | PCF / edge / ubiquitous 很强 | 找低理论负担的 systems/edge PI + 当前招生/资金核验 |
+| **KAUST — Marco Canini 路线** | distributed / ML systems + funding 很强 | 旧 capacity 冲突需要重新核实 |
+| **HKU** | trustworthy / systems 导师池强 | honours / academic-equivalency |
+| **HKUST CSE** | 学校级 systems / SE / security 匹配高 | 旧 PI capacity 已过期，需要 2027 新证据 |
+| **Alberta / Manitoba** | AI4SE 备用路线不错 | 2027 capacity + funding |
 
 ---
 
-## DO NOT SPEND TIME NOW
+## 目前不要花时间
 
-| Target | Reason |
+| 目标 | 原因 |
 |---|---|
-| Waterloo | confirmed academic hard floor |
-| Queen's | confirmed academic hard floor |
-| Dalhousie | confirmed academic hard floor |
-| UNIST | mandatory English test conflicts with no-retest rule |
+| Waterloo | 已确认 academic hard floor |
+| Queen's | 已确认 academic hard floor |
+| Dalhousie | 已确认 academic hard floor |
+| UNIST | mandatory English test 与“不重考英语”冲突 |
 | SMU | GRE/GMAT hard gate |
-| TU Delft WALTZ | vacancy deadline passed |
-| pure-theory / proof-first / game-theory-first routes | research-method mismatch |
+| TU Delft WALTZ | vacancy 截止已过 |
+| 纯理论 / proof-first / game-theory-first 路线 | 研究方法错配 |
 
-NUS and MBZUAI remain **BACKUP**, not rejects: research can fit, but known QE/screening/equivalency friction makes them lower ROI.
+NUS 与 MBZUAI 仍是 **BACKUP**，不是 REJECT：研究方向可以，但 QE / screening / equivalency 摩擦更高。
 
 ---
 
-## Critical deadlines
+## 关键截止日期
 
-| Item | Date | Status |
+| 项目 | 日期 | 状态 |
 |---|---:|---|
-| **SUTD Jan-2027 PhD** | **2026-10-30** | **ACTIVE — do not wait for supervisor replies before progressing the formal application** |
+| **SUTD Jan-2027 PhD** | **2026-10-30** | **ACTIVE — 不要为了等导师回复而拖正式申请** |
 
-Other deadlines must be refreshed from the current official program page before a package is promoted to submission-ready.
+其他 deadline 在申请包进入“可提交”状态前必须重新打开官方页面刷新。
 
 ---
 
-## Materials — quick health check
+## 材料健康状态
 
-### Ready / structured
+### 已有 / 已结构化
 
-- [x] UBC official transcript — `Documents/Transcript-ZhihengZhang.pdf`
-- [x] Bachelor structured scores — `Documents/Bachelor Score.csv`
-- [x] Melbourne progress/WAM source image — `Documents/Master-WAM.png`
-- [x] Master structured scores — `Documents/Master Score.csv`
-- [x] Tailored-CV build workflow — `.github/workflows/build-cv-pdfs.yml`
-- [x] Referee knowledge-boundary packs — `materials/referees/`
-- [x] Current research profile — `materials/research-profile.md`
-- [x] Project-positioning router — `materials/project-positioning.md`
+- [x] UBC 官方成绩单 — `Documents/Transcript-ZhihengZhang.pdf`
+- [x] 本科结构化成绩 — `Documents/Bachelor Score.csv`
+- [x] Melbourne 当前 WAM/进度源图 — `Documents/Master-WAM.png`
+- [x] 硕士结构化成绩 — `Documents/Master Score.csv`
+- [x] 定制 CV 自动编译 — `.github/workflows/build-cv-pdfs.yml`
+- [x] 推荐人知识边界包 — `materials/referees/`
+- [x] 当前研究画像 — `materials/research-profile.md`
+- [x] 项目定位路由 — `materials/project-positioning.md`
 
-### Still worth completing
+### 仍值得补齐
 
 - [ ] UBC degree certificate / completion evidence
-- [ ] latest official Melbourne transcript when available
-- [ ] final Melbourne transcript / completion evidence when available
-- [ ] English-medium instruction evidence where a school asks for it
-- [ ] reusable current SOP / research-statement mother versions
-- [ ] application-package QA / validator returned to the live pipeline
+- [ ] 最新官方 Melbourne transcript
+- [ ] 最终 Melbourne transcript / completion evidence
+- [ ] 目标学校要求时使用的 English-medium instruction 证明
+- [ ] 当前版可复用 SOP / Research Statement 母版
+- [ ] 把 application-package QA / validator 恢复到 live pipeline
 
-Full material index: [materials/MATERIALS.md](materials/MATERIALS.md)
+完整材料索引：[materials/MATERIALS.md](materials/MATERIALS.md)
 
 ---
 
-## Where details live
+## 快速入口
 
-| Need | Open |
+| 想知道什么 | 打开 |
 |---|---|
-| **Who should be targeted and why?** | [rules/SCREENING.md](rules/SCREENING.md) |
-| **How do outreach, packages, QA and submission work?** | [rules/EXECUTION.md](rules/EXECUTION.md) |
-| Current active schools | [targets/ACTIVE.md](targets/ACTIVE.md) |
-| High-value unresolved gates | [targets/WATCHLIST.md](targets/WATCHLIST.md) |
-| Lower-ROI viable routes | [targets/BACKUP.md](targets/BACKUP.md) |
-| Hard removals | [targets/REJECTED.md](targets/REJECTED.md) |
-| Current broad pool snapshot | [targets/POOL-REFRESH-2026-09-30.md](targets/POOL-REFRESH-2026-09-30.md) |
-| Contact history | [applications/OUTREACH-LOG.md](applications/OUTREACH-LOG.md) |
-| Machine-readable program state | `data/programs.yaml` / `data/applications.yaml` / `data/supervisors.yaml` |
+| **投谁、为什么投？** | [rules/SCREENING.md](rules/SCREENING.md) |
+| **怎么联系、怎么生成材料、怎么验收/提交？** | [rules/EXECUTION.md](rules/EXECUTION.md) |
+| 当前 active 学校 | [targets/ACTIVE.md](targets/ACTIVE.md) |
+| 值得继续查的 gate | [targets/WATCHLIST.md](targets/WATCHLIST.md) |
+| 低 ROI 但可用路线 | [targets/BACKUP.md](targets/BACKUP.md) |
+| 硬淘汰 | [targets/REJECTED.md](targets/REJECTED.md) |
+| 2026-09-30 全局筛选快照 | [targets/POOL-REFRESH-2026-09-30.md](targets/POOL-REFRESH-2026-09-30.md) |
+| 套磁历史 | [applications/OUTREACH-LOG.md](applications/OUTREACH-LOG.md) |
+| 机器状态 | `data/programs.yaml` / `data/applications.yaml` / `data/supervisors.yaml` |
 
 ---
 
-## Lazy operating mode
+## 懒人操作方式
 
-For normal use, the intended commands are effectively:
+日常直接提这些指令即可：
 
-- **“刷新申请池”** → re-check gates, 2027 recruitment, funding and current priorities.
-- **“今天该做什么”** → return only P0/P1 actions and deadlines.
-- **“给 X 学校生成申请包”** → generate target-specific materials, then QA.
-- **“检查套磁状态”** → reconcile actual contact history before unlocking another PI.
-- **“检查材料缺口”** → only show blockers that can affect a live application.
-- **“检查申请状态”** → submitted / waiting / interview / offer / closed.
+- **“刷新申请池”** → 刷新 hard gate、2027 招生、funding 与优先级。
+- **“今天该做什么”** → 只返回 P0/P1 和 deadline。
+- **“给 X 学校生成申请包”** → 生成目标学校英文申请材料并跑 QA。
+- **“检查套磁状态”** → 先核对真实邮件历史，再决定是否解锁下一位 PI。
+- **“检查材料缺口”** → 只显示会阻塞当前申请的缺项。
+- **“检查申请状态”** → submitted / waiting / interview / offer / closed。
 
-Everything else should stay behind the dashboard unless it is needed for a decision.
+除非某个决策需要证据，否则不必翻历史文件。
