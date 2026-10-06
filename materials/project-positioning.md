@@ -1,88 +1,78 @@
 # Project Positioning Router
 
-> Refreshed **2026-09-30** for the current Boss + DS-Hns + Utopia state.
+> Updated **2026-10-06** for the Utopia/PCF-first application strategy.
 
 | Supervisor / program theme | Lead project | Supporting project | Safe research angle | Avoid |
 |---|---|---|---|---|
-| AI4SE / coding agents / autonomous maintenance | **DS-Hns** | Boss | long-horizon execution, crash/restart recovery, task continuation, repository-level qualification | presenting Hns as just a UI/automation wrapper |
-| Agent reliability / trustworthy agents / evaluation | **Codex Boss** | Hns | evidence-based completion, governance, longitudinal system evolution, falsification/acceptance | claiming strict full-city completion or peer-reviewed publication |
-| Multi-agent / agent infrastructure | **Boss** | Hns, Utopia | orchestration + execution + evidence + action provenance | generic "multi-agent platform" feature dump |
-| Edge AI / distributed AI systems | **Utopia** | Hns, Boss | multi-device action substrate, truthful degradation, authenticated gateway, durable task/action provenance | claiming LLM routing or remote fabric modules not yet accepted |
-| Wearable / ubiquitous computing | **Utopia** | Boss | device-aware personal terminal / cross-device interaction / edge execution as research substrate | pretending dedicated wearable hardware experiments already exist |
-| Embodied AI systems | **Utopia** | Boss, Hns | embodied-enabling infrastructure, action routing, human confirmation, device coordination | claiming robotics/control/RL expertise not demonstrated |
-| Human-agent interaction / end-user programming | **Utopia** | Boss | explicit confirmation, ambiguity handling, user override, inspectable action state | overstating completed persona/assistant layer |
-| Trustworthy AI / privacy / governance | **Boss or Privacy Lens** | Utopia, Hns | provenance, bounded claims, reproducibility, auditability | treating privacy work as generic compliance |
-| Financial ML / decision systems | **Quant-Ultra** | Boss | temporal validation, data systems, non-stationarity | leading with trading-profit claims |
-| AI for Science / autonomous research | **Boss** | Hns / domain-specific evidence | reliable scientific workflows / agent evaluation when implementation is central | domain-theory-heavy routes with no existing foundation |
+| **Ubiquitous / personal computing** | **Utopia** | Hns, Boss | one persistent computing environment projected across heterogeneous devices with user control, provenance and recoverability | describing Utopia as a finished universal assistant |
+| **Personal Compute Fabric / heterogeneous edge runtime** | **Utopia → planned PCF** | Hns | telemetry, explainable placement/offloading, queueing, recovery and cross-device execution policy | claiming PCF is already built |
+| **Distributed / edge AI systems** | **Utopia** | Hns, Boss | multi-device action substrate, authenticated gateway, truthful degradation, durable execution and future heterogeneous scheduling | claiming remote/LLM-routing modules not yet accepted |
+| **Wearable / ubiquitous computing** | **Utopia** | Boss | device-aware personal terminal and edge execution as a systems substrate | pretending dedicated wearable experiments already exist |
+| **Embodied-enabling systems** | **Utopia** | Boss, Hns | action routing, human confirmation, device coordination, runtime reliability | claiming robotics/control/RL expertise not demonstrated |
+| **Human-agent interaction / end-user control** | **Utopia** | Boss | explicit confirmation, ambiguity handling, user override and inspectable action state | overstating persona/relationship layer |
+| **AI systems / agent infrastructure** | **Utopia or Boss** | Hns | device substrate + orchestration + durable execution + evidence | generic “multi-agent platform” feature dump |
+| **AI4SE / coding agents / autonomous maintenance** | **DS-Hns** | Boss, Utopia | long-horizon execution, crash/restart recovery, task continuation and repository qualification | presenting Hns as merely automation/UI |
+| **Agent reliability / verification / governance** | **Codex Boss** | Hns, Utopia | evidence-based completion, adjudication, longitudinal evolution and bounded claims | claiming strict full-city completion or peer-reviewed publication |
+| **Trustworthy AI / privacy / governance** | **Boss or Privacy Lens** | Utopia, Hns | provenance, bounded claims, reproducibility and auditability | treating privacy work as generic compliance |
+| **Financial ML / decision systems** | **Quant-Ultra** | Boss | temporal validation, non-stationarity and auditable decision infrastructure | leading with trading-profit claims |
+| **AI4Science / computational health** | **Utopia or Boss** | Hns / domain evidence | reliable scientific/health workflows when systems implementation is central | domain-theory-heavy routes with no existing foundation |
 
-## Reusable evidence — current boundary
-
-### Codex Boss
-
-Current research-safe claims:
-
-- CC-103 provides a frozen paper/evidence checkpoint with immutable snapshot identity;
-- hosted checks and an explicit acceptance record are preserved;
-- a minimum-human-acceptance profile is READY;
-- strict full-city status is still NOT_READY, with open/unverified items explicitly recorded;
-- paper evidence is exported in machine-readable form and historical branch evidence was preserved.
-
-Research question:
-
-> How can long-running autonomous software systems make task-completion claims that remain inspectable, falsifiable and trustworthy as the underlying system evolves?
-
-### DS-Hns
-
-Current research-safe claims:
-
-- long-horizon task execution with crash/resume recovery;
-- durable continuation across restart/failure conditions;
-- final qualification / recovery evidence preserved on main;
-- extension / task-lifecycle infrastructure can be studied empirically on repository-level work.
-
-Research question:
-
-> How should software agents persist, recover and continue repository-level work without confusing process survival with task completion?
+## Current evidence boundaries
 
 ### Utopia
 
-Current research-safe claims:
+Safe:
 
-- Web + Android product surfaces integrated through an authenticated gateway;
-- Rooms / canonical Actions / City tasks exposed through one action substrate;
-- deterministic Ask/Do handles ambiguity, confirmation and manual fallback;
-- truthful health/degradation and idempotency are implemented;
-- independent verification rejected the first candidate, the defects were repaired, and the repaired candidate was independently accepted.
+- Web + Android surfaces through an authenticated gateway;
+- Rooms / Actions / City-task integration;
+- deterministic Ask/Do;
+- confirmation / fallback;
+- truthful degradation and idempotency;
+- independent reject → repair → accept verification history.
 
-Current non-claims:
+Not yet safe as completed claims:
 
-- no accepted assistant/persona layer at this checkpoint;
-- no accepted LLM router at this checkpoint;
-- no accepted Boss/Hns connector integration at this checkpoint;
-- no dedicated wearable/robotics hardware experiment yet.
+- PCF / heterogeneous edge runtime;
+- dedicated wearable hardware;
+- complete assistant/persona;
+- general LLM router;
+- Boss/Hns connectors.
 
-Research question:
+### DS-Hns
 
-> How can one logical personal-computing environment safely project actions across heterogeneous devices while preserving user confirmation, provenance, failure truth and recoverability?
+Safe:
 
-## Combined narratives
+- long-horizon task execution;
+- crash/resume recovery;
+- durable continuation;
+- qualification and recovery evidence;
+- repository-level engineering-agent experimentation.
 
-### Boss + Hns
+### Codex Boss
 
-**Execution ↔ verification**:
-Hns executes long-running work; Boss evaluates and governs evidence of completion.
+Safe:
 
-### Boss + Hns + Utopia
+- frozen/traceable evidence checkpoints;
+- governance / acceptance / completion-evidence research;
+- preserved limitations and unresolved states;
+- multi-agent/evidence orchestration where directly supported.
 
-**Agent ↔ action ↔ device**:
-Hns provides durable execution, Boss provides governance/evidence, and Utopia provides a real multi-device action substrate. This is the strongest current bridge toward **edge / ubiquitous / wearable / embodied agent systems**.
+Do not call its manuscript/artifact peer-reviewed unless that changes.
+
+## Combined narrative
+
+**Utopia = where actions live**  
+**Hns = how long-running work survives and executes**  
+**Boss = how claims and decisions are governed and verified**
+
+For broad systems applications, start with **Utopia**, then use Hns/Boss to prove the platform is not just a UI concept.
 
 ## Rule of thumb
 
-Always write:
+Write:
 
-**problem → evidence already built → observed failure/limitation → proposed PhD question**
+**problem → existing evidence → failure/limitation → next systems question**
 
 Never write:
 
-**I built a universal AI system / the system is complete / the paper is published**.
+**I built a universal AI system / everything is complete / the paper is published**.
