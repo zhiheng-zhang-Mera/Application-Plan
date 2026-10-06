@@ -10,8 +10,8 @@ Concordia 当前仍值得保留，因为 CS/SE PhD 的 supervisor match 对 admi
 
 ## 当前动作
 
-1. **先核对 Zhijie Wang 旧线程**：已有 contact + interview/discussion，2026-09-18 又发过 follow-up。不得凭旧表自动判定“无回复”。
-2. 如果该线确实 inactive，再只开启**一个**新的 Concordia supervisor cold contact。
+1. **Zhijie Wang 路线已关闭**：2026-10-06 用户确认 `DECLINED / DO_NOT_CONTACT`，进入仓库垃圾箱，不再占用 Concordia 同系联系锁。
+2. Concordia 现在可以直接从新候选中只开启**一个** cold contact。
 3. 新候选优先：Peter Chen → Shin Hwei Tan / Jinqiu Yang → Peter Rigby。
 4. 任何 supervisor reply 都不等于 formal admission / funding offer，除非有明确书面证据。
 
