@@ -2,11 +2,13 @@
 
 > 当前操作前先核对实际邮件历史。旧的 “waiting” 日期已经过期，不能自动等同于 no reply。
 
-## 已有关系
+## 已关闭 / 垃圾箱
 
-| 联系人 | Email | 已知状态 | 当前 recruitment signal | 下一步 |
-|---|---|---|---|---|
-| Zhijie Wang | `zhijie.wang@concordia.ca` | 已有联系 + 短 interview/discussion；2026-09-18 发过 follow-up | 官方 profile：**Seeking students** | 先核对真实回复/线程；不要把旧关系重写成新的 cold email |
+| 联系人 | Email | 最终状态 | 处理 |
+|---|---|---|---|
+| Zhijie Wang | `zhijie.wang@concordia.ca` | **DECLINED / DO_NOT_CONTACT** | 2026-10-06 用户确认关闭，移出所有 active/waiting 队列；除非用户明确重开，否则不再联系 |
+
+> 已连接的 `zhiheng0mera@gmail.com` 中未找到 Zhijie 对应邮件。历史记录显示 2026-09-18 follow-up 使用 University of Melbourne 学生邮箱发送，因此 Gmail 实体无法从当前连接直接移入 Trash；仓库状态已进入垃圾箱。
 
 ## 新候选
 
