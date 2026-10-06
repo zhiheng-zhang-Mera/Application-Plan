@@ -1,199 +1,210 @@
-# Screening & Priority Rules
+# 筛选与优先级规则
 
-> **Current application focus — 2026-10-06.** This is the single rulebook for deciding **which programs/supervisors deserve time and how they are prioritized**. Dated pool files are evidence snapshots, not permanent strategy.
+> **当前申请侧重点 — 2026-10-06。** 本文件是决定“**投谁、为什么投、先做谁**”的唯一主规则书。按日期生成的 pool 文件只是证据快照，不是永久策略。
 
-## 1. Current PhD identity
+## 1. 当前博士研究身份
 
-The default application story has shifted from a narrow **Boss + DS-Hns = AI4SE** framing to:
+默认申请叙事已经从较窄的 **Boss + DS-Hns = AI4SE** 转向：
 
-> **Utopia as a persistent personal-computing fabric for ubiquitous agentic applications.**
+> **Utopia：面向泛在智能体应用的持久个人计算底座。**
 
-The strongest PhD axes are now:
+当前最强博士主轴：
 
-1. **Ubiquitous / personal computing systems**
-2. **AI systems / agent infrastructure**
-3. **Distributed / edge / heterogeneous-device systems**
+1. **泛在 / 个人计算系统**
+2. **AI Systems / Agent Infrastructure**
+3. **分布式 / Edge / 异构设备系统**
 
-The planned **PCF — Personal Compute Fabric / Heterogeneous Edge Runtime** is the next research-facing expansion direction: heterogeneous resource telemetry, explainable placement, offloading, queueing, recovery, policy and experiment integration.
+计划中的 **PCF — Personal Compute Fabric / Heterogeneous Edge Runtime** 是下一阶段研究型扩张方向：异构资源 telemetry、可解释 placement/offloading、排队、恢复、调度策略与实验集成。
 
-**PCF is a planned/next research direction, not a completed capability.**
+**PCF 是下一步研究方向，不得写成已完成功能。**
 
-Wearable glasses, personal-health terminals, entertainment rooms and other device experiences are **vertical applications of the platform**, not the default PhD identity.
+可穿戴眼镜、个人医疗终端、娱乐室等属于平台上的**垂直应用**，默认不作为博士身份本体。
 
-## 2. Portfolio routing
+## 2. 项目路由
 
-### Primary lead — Utopia
+### 默认主项目 — Utopia
 
-Use Utopia first for:
+以下方向优先用 Utopia：
 
-- ubiquitous / pervasive / personal computing;
-- multi-device and heterogeneous-device systems;
-- edge AI / distributed AI infrastructure;
-- device-aware agent execution;
-- human-agent action routing, confirmation and override;
-- provenance, truthful degradation and recoverability;
-- wearable / embodied-enabling systems where software infrastructure is central.
+- ubiquitous / pervasive / personal computing；
+- multi-device / heterogeneous-device systems；
+- edge AI / distributed AI infrastructure；
+- device-aware agent execution；
+- human-agent action routing、confirmation、override；
+- provenance、truthful degradation、recoverability；
+- wearable / embodied-enabling systems，前提是软件系统与设备协调是核心。
 
-Safe current evidence:
+当前安全证据：
 
-- Web + Android product surfaces through an authenticated gateway;
-- Rooms / canonical Actions / City-task integration;
-- deterministic Ask/Do, ambiguity handling and manual fallback;
-- truthful health/degradation and idempotency;
-- independent rejection of an earlier candidate, repair, then independent acceptance.
+- Web + Android 产品面通过 authenticated gateway 集成；
+- Rooms / canonical Actions / City-task integration；
+- deterministic Ask/Do、歧义处理、确认与 manual fallback；
+- truthful health/degradation 与 idempotency；
+- 独立验收曾真实 REJECT 一个候选版本，修复后再次独立验收通过。
 
-Do **not** claim completed PCF, dedicated wearable hardware experiments, arbitrary shell execution, a finished assistant/persona layer, a finished LLM router, or completed Boss/Hns connector integration unless later evidence explicitly changes that boundary.
+当前不得声称：
 
-### Supporting lead — DS-Hns
+- PCF 已完成；
+- 已有专门 wearable hardware experiment；
+- assistant/persona layer 已全部完成；
+- general LLM router 已完成；
+- Boss/Hns connector integration 已完成；
+- arbitrary shell 已完整开放。
 
-Use Hns first when the supervisor is primarily:
+### 支撑主项目 — DS-Hns
 
-- AI4SE / coding agents;
-- autonomous software maintenance;
-- long-horizon repository work;
-- crash/restart recovery;
-- AIOps / self-healing / software reliability.
+以下方向可改为 Hns 先行：
 
-### Supporting lead — Codex Boss
+- AI4SE / coding agents；
+- autonomous software maintenance；
+- long-horizon repository work；
+- crash/restart recovery；
+- AIOps / self-healing / software reliability。
 
-Use Boss first when the supervisor is primarily:
+### 支撑主项目 — Codex Boss
 
-- reliable / verifiable agents;
-- agent governance and adjudication;
-- evidence-based completion;
-- multi-agent orchestration;
-- trustworthy AI / auditability.
+以下方向可改为 Boss 先行：
 
-### Secondary routes
+- reliable / verifiable agents；
+- agent governance / adjudication；
+- evidence-based completion；
+- multi-agent orchestration；
+- trustworthy AI / auditability。
 
-- **Privacy Lens** — privacy, auditability, bounded interpretation and trustworthy software.
-- **Quant-Ultra** — financial ML, temporal validation, non-stationarity and decision-system infrastructure.
-- **Health / AI4Science** — only when the actual research method is systems/empirical and the domain is an application layer rather than a theory-heavy prerequisite.
+### 次级路线
 
-## 3. Research-family priority
+- **Privacy Lens**：privacy、auditability、bounded interpretation、trustworthy software。
+- **Quant-Ultra**：financial ML、temporal validation、non-stationarity、decision-system infrastructure。
+- **Health / AI4Science**：只在 systems / empirical 方法为主、领域知识只是应用层时启用。
 
-### Tier A — default priority
+## 3. 研究方向优先级
 
-- ubiquitous / pervasive / personal computing;
-- multi-device / edge / heterogeneous runtime systems;
-- AI systems / agent infrastructure;
-- distributed systems for agent execution;
-- human-agent systems with implementation and empirical evaluation;
-- wearable / embodied-enabling computing where software/device coordination is central.
+### Tier A — 默认最高
 
-### Tier B — equally valid when the PI is stronger
+- ubiquitous / pervasive / personal computing；
+- multi-device / edge / heterogeneous runtime systems；
+- AI systems / agent infrastructure；
+- distributed systems for agent execution；
+- human-agent systems，且实现与实证评估为核心；
+- wearable / embodied-enabling computing，且软件 / 设备协调为核心。
 
-- AI4SE / coding agents / autonomous maintenance;
-- trustworthy / reliable agent systems;
-- software reliability / testing / recovery;
-- ML systems / systems-for-AI;
-- security/privacy engineering around autonomous systems.
+### Tier B — PI 更强时完全可作为主路线
 
-### Tier C — selective
+- AI4SE / coding agents / autonomous maintenance；
+- trustworthy / reliable agent systems；
+- software reliability / testing / recovery；
+- ML systems / systems-for-AI；
+- autonomous-system security / privacy engineering。
 
-- applied AI4Science / computational health with a systems-led methodology;
-- applied ML where system building and evaluation remain central;
-- Quant / financial ML only when the supervisor genuinely matches that route.
+### Tier C — 选择性使用
 
-### Downgrade or exclude
+- applied AI4Science / computational health，且 systems-led；
+- applied ML，且系统实现 / evaluation 仍是核心贡献；
+- Quant / financial ML，仅当导师真正匹配该方向。
 
-Do not promote a route just because it contains words such as “agent”, “embodied”, “edge”, “robotics” or “AI”.
+### 降权 / 排除
 
-Exclude or strongly downgrade when the work is primarily:
+不要因为简介里出现 agent、embodied、edge、robotics、AI 就自动提升。
 
-- theorem / proof / complexity;
-- algorithmic game theory;
-- derivation-first optimization or statistical theory;
-- pure PL/formal-methods theory without an empirical systems track;
-- control/robotics theory where control derivation is the main contribution;
-- domain science requiring substantial theoretical-domain derivation before the computing research can begin.
+以下情况默认排除或显著降权：
 
-## 4. Hard gates
+- theorem / proof / complexity 为主；
+- algorithmic game theory；
+- derivation-first optimization / statistical theory；
+- 没有实证系统子路线的纯 PL / formal methods；
+- control / robotics 方向主要贡献是控制理论推导；
+- 需要先承担大量领域理论推导、软件仅为辅助工具的 domain science。
 
-Reject by default when any confirmed condition applies:
+## 4. Hard Gate
 
-- **GRE required** with no usable waiver;
-- **new IELTS / TOEFL / DET required** when prior English-medium degrees cannot satisfy the rule;
-- an explicit academic eligibility floor is clearly above the directly comparable applicant result and there is no supervisor/program discretion;
-- meaningful PhD funding / tuition coverage is unavailable;
-- the route is pure theory / method-mismatched;
-- New Zealand remains out of scope.
+出现以下**已确认**情况，默认 REJECT：
 
-Academic eligibility must be checked using the target program's own basis:
+- **GRE 必须提交**且没有适用 waiver；
+- **必须新考 IELTS / TOEFL / DET**，英语授课学历无法豁免；
+- 对方明确 academic eligibility floor 高于可直接比较的申请人成绩，且没有可用的项目/导师裁量；
+- 没有足够 PhD funding / tuition coverage；
+- 研究方法明确 pure-theory / method mismatch；
+- New Zealand 继续排除。
 
-- undergraduate cumulative;
-- last 60 credits;
-- final two years;
-- upper-level;
-- Master's;
-- honours classification;
-- another explicitly stated basis.
+Academic gate 必须按目标项目自己的口径判断：
 
-Never invent a linear GPA/WAM/percentage conversion. If a reliable comparison cannot be made, use **UNKNOWN**, not PASS.
+- undergraduate cumulative；
+- last 60 credits；
+- final two years；
+- upper-level；
+- Master's；
+- honours classification；
+- 或官方明确的其他口径。
 
-## 5. Friction policy
+**禁止自行做线性 GPA/WAM/百分制换算。** 无法可靠比较就写 **UNKNOWN**，不能硬判 PASS。
 
-Low-friction research-first routes are preferred.
+## 5. 摩擦偏好
 
-Order of preference:
+优先研究先行、低摩擦路径。
 
-**direct application / simple PI discussion > normal interview > recorded video > panel > technical screening / entrance exam / heavy written assessment**
+默认偏好顺序：
 
-Pre-admission exams are a strong negative. Post-admission qualifying/comprehensive exam burden is also a negative and should be recorded explicitly.
+**直接申请 / 简单 PI 沟通 > 普通 interview > recorded video > panel > technical screening / entrance exam / 重型 written assessment**
 
-Friction does not automatically reject a uniquely strong program unless it violates a hard constraint, but an equally strong lower-friction option should win.
+入学前额外考试是明显负项。入学后的 qualifying / comprehensive exam 负担也要单独记录。
 
-## 6. Publication policy
+摩擦不是绝对 hard gate，但当两个项目研究价值相近时，低摩擦项目优先。
 
-Formal publication is useful evidence, but it is **not a prerequisite that should delay good applications**.
+## 6. 论文策略
 
-- Hns/Boss paper candidates and preprints may strengthen the file.
-- Do not describe a preprint, frozen manuscript or repository artifact as peer-reviewed.
-- Strong repository evidence, reproducible artifacts, independent verification and concrete system failures/fixes are valid research evidence.
-- Do not postpone a live application deadline merely to wait for a paper decision unless the application itself requires it.
+正式 publication 有加分，但**不应该为了等论文而拖延好申请**。
 
-## 7. Screening order
+- Hns / Boss 可作为候选论文与 preprint。
+- preprint、冻结稿、repository artifact 不得写成 peer-reviewed publication。
+- 可复现实验、公开 artifact、独立验收、真实失败→修复链都可以作为研究能力证据。
+- 除非项目明确要求 publication，不要为了等论文决定错过 live deadline。
 
-Use this order:
+## 7. 筛选顺序
+
+统一按：
 
 **Hard Gate → Research Direction Fit → 2027 Recruitment/Capacity → Evidence Reuse → Funding → Friction → Contact Signal → Program/School/Location → Execution ROI**
 
-The earlier a candidate fails, the less time should be spent polishing it.
+越早失败，越不要继续浪费材料定制时间。
 
-## 8. Action states
+## 8. 状态枚举
 
-- **APPLY_NOW** — hard gates clear; deadline/current route requires immediate work.
-- **APPLY** — worth applying; only minor non-blocking work remains.
-- **ACTIVE** — active supervisor/program work is justified.
-- **WATCH** — one or two concrete, verifiable gates remain.
-- **BACKUP** — viable but known friction / route burden makes it lower ROI.
-- **HOLD** — temporarily frozen by an existing application/contact relationship.
-- **PRUNED** — not worth current effort despite no strict eligibility failure.
-- **REJECT** — confirmed hard-gate or severe method mismatch.
+- **APPLY_NOW** — hard gate 已清，且当前 deadline / 路线要求立即推进。
+- **APPLY** — 值得申请，只剩少量非阻塞工作。
+- **ACTIVE** — 当前值得投入 supervisor / program 工作。
+- **WATCH** — 只剩 1–2 个明确可核验 gate。
+- **BACKUP** — 可申请，但已知流程/方向摩擦导致 ROI 更低。
+- **HOLD** — 因已有申请/联系人关系暂时冻结。
+- **PRUNED** — 非硬性不合格，但当前不值得投入。
+- **REJECT** — hard gate 或严重 method mismatch。
 
-## 9. Freshness
+## 9. 新鲜度
 
-Fast-changing facts must carry a current verification date:
+以下高变化事实必须记录最新核验时间：
 
-- deadline;
-- GRE/English policy;
-- academic floor;
-- funding;
-- application fee;
-- interview/exam requirements;
-- supervisor recruitment/capacity;
-- direct-contact instructions.
+- deadline；
+- GRE / English；
+- academic floor；
+- funding；
+- application fee；
+- interview / exam；
+- supervisor recruitment / capacity；
+- direct-contact instruction。
 
-A stale opening does not remain active because the research fit is good.
+旧 opening 不会因为 research fit 好就自动继续有效。
 
-## 10. Current routing shorthand
+## 10. 当前默认写法
 
-When generating a new application paragraph, use:
+生成新的 broad systems 申请段落时，默认项目顺序：
 
-**problem → current evidence → observed limitation/failure → proposed PhD question**
+**Utopia → Hns/Boss 作为支撑证据**
 
-Default project order for a broad new systems application:
+只有当导师明显更偏 AI4SE、verification/governance、privacy 或其他既有方向时才切换 lead project。
 
-**Utopia → Hns/Boss as supporting evidence**
+统一写作逻辑：
 
-Switch the lead only when the supervisor's research clearly favors AI4SE, verification/governance, privacy or another established route.
+**问题 → 已有证据 → 已观察到的失败/限制 → 拟在 PhD 中继续研究的问题**
+
+不要写成：
+
+**项目列表 → 功能堆叠 → 夸大的 universal-AI 声称**。
