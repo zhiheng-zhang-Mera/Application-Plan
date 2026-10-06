@@ -6,7 +6,7 @@
 
 | 学校 / 项目 | 状态 | 当前最强导师路线 | 为什么保留 | 下一步 |
 |---|---|---|---|---|
-| **SUTD PhD — Jan 2027** | **APPLY_NOW** | 已有 Thanh Le-Cong 线程 | 当前官网 deadline **2026-10-30**；English-medium waiver 可用 | 正式申请继续；先核 Thanh 旧线程 |
+| **SUTD PhD — Jan 2027** | **APPLY_NOW / NO SUPERVISOR PRE-APPROVAL** | 导师联系为加权/匹配，不是提交前置 | 当前官网 deadline **2026-10-30**；English-medium waiver 可用；标准 PhD 不要求导师先同意 | 立即推进正式申请；不等待 Thanh 或其他导师回复 |
 | **SUTD — Fall 2027** | **ACTIVE** | **Ruochen Zhao** | fully funded；可靠 LLM agents / multi-agent evaluation；个人页有精确套磁协议 | 按 Fall-2027 独立路线生成新包；不要和 Jan intake 混写 |
 | **CUHK CSE PhD** | **APPLY** | **James Cheng** | Aug-2027 明确招生；agent benchmark / long-horizon / RL infra / embodied AI | 先核 Yu Li 旧线程，再按 subject=`phd application` 生成新包 |
 | **HKUST CSE PhD** | **APPLY / FRESH PI** | **Mo Li**；Shing-Chi Cheung；Song Guo | 本轮找到当前明确 recruiting 的 mobile/AIoT、AI4SE、Physical-AI 三条线；英语 waiver 干净 | Mo Li 优先；每位单独做 protocol + Utopia CV refresh |
@@ -16,7 +16,7 @@
 | **NYU Courant / NYU Shanghai** | **PROTOCOL_RECHECK** | Qiaoyu Tan | Fall-2027 funded Agent / Trustworthy AI | 重新过个人页协议与个性化 QA |
 | **Dartmouth CS PhD** | **PROTOCOL_RECHECK** | Shawn Shan | Fall-2027 funded trustworthy AI/security | 同上 |
 | **Penn State IST PhD** | **PROTOCOL_RECHECK** | Yuchen Yang | current recruiting；trustworthy AI / ML-systems security | 同上 |
-| **Concordia CS/SE PhD** | **ACTIVE / FLOOR** | Peter Chen / Shin Hwei Tan / Jinqiu Yang / Peter Rigby | AI4SE 备线，最低可接受学校基线 | 先核 Zhijie 旧线程 |
+| **Concordia CS/SE PhD** | **ACTIVE / FLOOR** | Peter Chen / Shin Hwei Tan / Jinqiu Yang / Peter Rigby | Zhijie 已 DECLINED/DO_NOT_CONTACT 并释放同系锁 | 可直接选择一个新候选进入 protocol refresh |
 | **UBC CS PhD** | **APPLY / HIGH-COMPETITION** | Caroline Lemieux | testing / SE / systems fit | 正式申请；PI capacity 再刷新 |
 | **SFU CS PhD** | **APPLY** | Keval Vora | scalable systems 路线 | 刷新 Fall-2027 timing 后联系 |
 | **KAUST PhD** | **APPLY / RECONCILE PI** | Marco Canini | program hard gate/funding 好 | 先解决 capacity 冲突 |
