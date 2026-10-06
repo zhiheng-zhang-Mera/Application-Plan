@@ -1,0 +1,54 @@
+name: Build tracking-hist CV PDFs
+
+on:
+  push:
+    paths:
+      - ".github/workflows/build-tracking-cvs.yml"
+      - "tracking-hist/**/*.tex"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-tracking-cvs-main
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends             latexmk texlive-latex-base texlive-latex-recommended             texlive-latex-extra texlive-fonts-recommended lmodern
+
+      - name: Compile tracking CVs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -d '' files < <(find tracking-hist -type f -name 'CV.tex' -print0)
+          echo "Found ${#files[@]} CV sources."
+          for src in "${files[@]}"; do
+            dir="$(dirname "$src")"
+            (
+              cd "$dir"
+              latexmk -pdf -interaction=nonstopmode -halt-on-error CV.tex
+              rm -f CV.aux CV.fdb_latexmk CV.fls CV.log CV.out
+            )
+          done
+
+      - name: Commit generated PDFs
+        run: |
+          if git diff --quiet -- 'tracking-hist/**/*.pdf'; then
+            echo "Tracking CV PDFs already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 'tracking-hist/**/*.pdf'
+          git commit -m "Build tracking-hist CV PDFs [skip ci]" || exit 0
+          git pull --rebase origin main
+          git push
