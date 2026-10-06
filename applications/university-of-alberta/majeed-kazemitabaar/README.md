@@ -1,23 +1,29 @@
 # Majeed Kazemitabaar — University of Alberta
 
-- **Status:** NOT_CONTACTED
-- **Email:** `majeedkazemi@ualberta.ca`
-- **Priority:** Alberta #3
-- **Primary route:** Codex Boss
-- **Fit:** Human–AI interaction; end-user programming; generative-AI programming workflows
+- **状态：** NOT_CONTACTED
+- **Email：** `majeedkazemi@ualberta.ca`
+- **路线：** Utopia + Codex Boss
+- **匹配：** Human–AI interaction；end-user programming；generative-AI programming workflow
 
-## Why retained
+## 为什么保留
 
-Boss naturally supports a human–AI interaction narrative: the user defines goals, agents discuss/execute, the user inspects outcomes and redirects the workflow. This is a better fit than presenting the work as pure ML research.
+Utopia + Boss 可以形成很自然的 human–AI systems 叙事：用户定义目标，agent 执行/讨论，用户能够 inspect、confirm、redirect，并保留控制权与 action provenance。
 
-## Safe outreach emphasis
+这比把项目包装成纯 ML research 更合适。
 
-Focus on human oversight, iterative interaction, end-user programming and AI-assisted software creation. Use DS-Hns only as supporting execution infrastructure.
+## 安全套磁重点
 
-## Recruitment note
+强调：
 
-Previously identified as explicitly seeking students across MSc/PhD/undergraduate levels; refresh this signal before sending.
+- human oversight；
+- iterative interaction；
+- end-user programming；
+- AI-assisted software creation；
+- ambiguity / confirmation / user override；
+- inspectable action state。
 
-## Next action
+Hns 只作为 durable execution 支撑。
 
-Re-confirm current PhD capacity/funding and then draft first-contact email.
+## 下一步
+
+重新确认当前 PhD capacity/funding，然后生成**英语**首封邮件。
