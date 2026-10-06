@@ -1,0 +1,18 @@
+snapshot_date: 2026-10-06
+status: WATCH_CAPACITY_RECHECK
+not_sent: true
+supervisor: "Zhidan Liu"
+school: "HKUST(GZ)"
+email: "zhidanliu@hkust-gz.edu.cn"
+personal_or_lab_page: "https://liuzhidan.github.io/group/"
+subject: "Prospective Fall 2027 PhD student — ubiquitous computing and multi-device agent systems"
+required_attachments:
+  - CV
+optional_attachments:
+  []
+blockers:
+  - Need intake-specific Fall-2027 PhD capacity confirmation before send.
+utopia_main: b06504f1f96984c960b2661b8ee3a7130796d379
+digital_city_main: b6e7ca7648a5c9c030f4cee25b4819d18dcf6acc
+cv_state: GENERATED_FROM_CURRENT_SNAPSHOT
+send_state: DO_NOT_SEND

@@ -1,0 +1,22 @@
+snapshot_date: 2026-10-06
+status: BLOCKED_REPRESENTATIVE_PUBLICATION_MATERIAL
+not_sent: true
+supervisor: "Jinke Ren"
+school: "CUHK-Shenzhen"
+email: "jinkeren@cuhk.edu.cn"
+personal_or_lab_page: "https://myweb.cuhk.edu.cn/jinkeren"
+subject: "Prospective Fall 2027 PhD applicant — reliable agent infrastructure and multi-device AI systems"
+required_attachments:
+  - CV
+  - transcripts
+  - representative publications
+  - research interests
+  - academic credentials
+optional_attachments:
+  []
+blockers:
+  - A suitable representative publication/preprint/manuscript PDF has not been selected and verified.
+utopia_main: b06504f1f96984c960b2661b8ee3a7130796d379
+digital_city_main: b6e7ca7648a5c9c030f4cee25b4819d18dcf6acc
+cv_state: GENERATED_FROM_CURRENT_SNAPSHOT
+send_state: DO_NOT_SEND

@@ -1,0 +1,19 @@
+snapshot_date: 2026-10-06
+status: WATCH_CAPACITY_RECHECK
+not_sent: true
+supervisor: "Tengfei Chang"
+school: "HKUST(GZ)"
+email: ""
+personal_or_lab_page: "https://tengfeichang.com/"
+subject: "Prospective PhD student — heterogeneous edge runtime for agent workloads"
+required_attachments:
+  - public direct email recheck before send
+optional_attachments:
+  []
+blockers:
+  - Need an intake-specific 2027 PhD opening.
+  - Public direct email must be reverified before send.
+utopia_main: b06504f1f96984c960b2661b8ee3a7130796d379
+digital_city_main: b6e7ca7648a5c9c030f4cee25b4819d18dcf6acc
+cv_state: GENERATED_FROM_CURRENT_SNAPSHOT
+send_state: DO_NOT_SEND
