@@ -1,3 +1,14 @@
+<!-- 中文默认视图 -->
+
+# 历史说明 — FIRST-CONTACT-2026-09-17.md
+
+> 历史首轮套磁候选快照。当前不再按本文件顺位执行；以根 README、rules/SCREENING.md 与真实联络日志为准。
+>
+> 本页属于历史证据/设计快照。为了避免改写历史原文，旧英文内容原样保留在下方折叠区。正常日常操作无需展开。
+
+<details>
+<summary><strong>展开历史英文原始快照</strong></summary>
+
 # First Contact Batch — 2026-09-17
 
 > Scope: supervisor outreach, not direct vacancy applications. Ranking is execution priority under the current constraints, not an academic-prestige ranking.
@@ -54,3 +65,6 @@ Direct-position applications such as TU Delft WALTZ remain urgent, but they are 
 ## Batch rule
 
 Before actual send, refresh each recruitment page once. If a status changes to not accepting / no vacancy, remove that person and promote the next verified candidate rather than sending anyway.
+
+
+</details>
