@@ -29,13 +29,13 @@
 | 优先级 | 目标 | 状态 | 下一步 |
 |---|---|---|---|
 | **P0** | **澳门大学 — Li Li** | **已提交 / WARM** | 继续私人线；不并行开启 UM/CIS cold outreach |
-| **P0** | **SUTD — Jan 2027** | **APPLY_NOW** | 正式申请优先，**2026-10-30 截止**；不要等导师回复 |
+| **P0** | **SUTD — Jan 2027** | **APPLY_NOW / NO SUPERVISOR PRE-APPROVAL** | 正式申请优先，**2026-10-30 截止**；标准 SUTD PhD 不要求申请前导师明确同意，导师联系不阻塞提交 |
 | **P0** | **CUHK — James Cheng** | **APPLY** | 先核 Yu Li 旧线程；解锁后按其专属 subject + CV/transcript 协议生成新包 |
 | **P1** | **HKUST — Mo Li** | **FRESH ACTIVE PI** | 新增强 Utopia/PCF 路线；开始 protocol + Utopia-CV refresh |
 | **P1** | **CUHK-Shenzhen — Jinke Ren** | **ACTIVE / PACKAGE GAP** | Fall-2027 明确招生；先准备其要求的 representative-publication 材料 |
 | **P1** | **SUTD — Ruochen Zhao** | **FALL-2027 ACTIVE** | 与 Jan intake 分开；按个人页 subject 格式生成专属包 |
 | **P1** | **NYU / Dartmouth / Penn State** | **PROTOCOL_RECHECK** | 旧包只作素材；重新过个人页协议、CV refresh 与个性化 QA |
-| **P1** | **UBC / SFU / Concordia** | **ACTIVE** | 按既有路线推进；Concordia 先核 Zhijie 旧线程 |
+| **P1** | **UBC / SFU / Concordia** | **ACTIVE** | Concordia 的 Zhijie 已关闭并释放联系锁；可转 Peter Chen / Shin Hwei Tan / Jinqiu Yang / Peter Rigby |
 
 ### 香港 / 港校大陆分校 / 新加坡本轮重点变化
 
@@ -89,7 +89,9 @@ NUS 与 MBZUAI 仍是 **BACKUP**，不是 REJECT：研究方向可以，但 QE /
 
 | 项目 | 日期 | 状态 |
 |---|---:|---|
-| **SUTD Jan-2027 PhD** | **2026-10-30** | **ACTIVE — 不要为了等导师回复而拖正式申请** |
+| **SUTD Jan-2027 PhD** | **2026-10-30** | **ACTIVE — 标准 PhD 申请不要求 supervisor pre-approval；直接提交，不等导师回复** |
+
+> **SUTD supervisor pre-approval：NO。** 当前官方标准 PhD application 只要求填写 research topics，并且“may identify”匹配 faculty；没有要求申请前获得导师 acceptance。需要导师正式 acceptance 的是 **SUTD-NUS Joint PhD**，不是这里的普通 SUTD PhD。
 
 其他 deadline 在申请包进入“可提交”状态前必须重新打开官方页面刷新。
 
