@@ -1,44 +1,40 @@
-# University of Alberta — PhD Supervisor Candidate Pool
+# University of Alberta — PhD 导师候选池
 
-> Status: **WATCH / NOT_CONTACTED**
+> 状态：**WATCH / NOT_CONTACTED**
 >
-> Scope intentionally limited to candidates that pass the direct-contact and non-theory gates. Theory-heavy names are not retained in this outreach pool.
+> 这里只保留通过 direct-contact 与非纯理论 gate 的候选。
 
-| Priority | Supervisor | Email | Primary fit | Current status |
+| 顺位 | 导师 | Email | 主要匹配 | 当前状态 |
 |---:|---|---|---|---|
-| 1 | **Zhou Yang** | `zy25@ualberta.ca` | trustworthy CodeLLMs; AI for Software Engineering; robustness/security/privacy | **NOT_CONTACTED** |
-| 2 | **Majeed Kazemitabaar** | `majeedkazemi@ualberta.ca` | Human–AI interaction; end-user programming; generative-AI programming workflows | **NOT_CONTACTED** |
+| 1 | **Zhou Yang** | `zy25@ualberta.ca` | trustworthy CodeLLMs；AI4SE；robustness/security/privacy | **NOT_CONTACTED** |
+| 2 | **Majeed Kazemitabaar** | `majeedkazemi@ualberta.ca` | Human–AI interaction；end-user programming；generative-AI programming workflows | **NOT_CONTACTED** |
 
-## Positioning
+## 定位
 
 ### Zhou Yang
-Primary evidence: **DS-Hns + Codex Boss**.
 
-Safe narrative:
-- autonomous software maintenance / coding pipelines;
-- generated-code reliability;
-- failure isolation and recovery;
-- trustworthy CodeLLM / AI4SE systems.
+主证据：**DS-Hns + Codex Boss**
 
-See: [candidate note](zhou-yang/README.md).
+安全叙事：
+- autonomous software maintenance / coding pipelines；
+- generated-code reliability；
+- failure isolation / recovery；
+- trustworthy CodeLLM / AI4SE systems。
 
 ### Majeed Kazemitabaar
-Primary evidence: **Codex Boss**, with DS-Hns as infrastructure support.
 
-Safe narrative:
-- human-in-the-loop AI orchestration;
-- users set goals, AI agents execute/discuss, users inspect and redirect;
-- end-user programming and AI-assisted software creation;
-- preserving meaningful human oversight rather than presenting Boss as a fully autonomous researcher.
+主证据：**Utopia + Boss**，Hns 作为执行基础设施。
 
-See: [candidate note](majeed-kazemitabaar/README.md).
+安全叙事：
+- human-in-the-loop agent systems；
+- 用户设定目标，AI 执行/讨论，用户能够 inspect / redirect；
+- end-user programming / AI-assisted creation；
+- 保留真实 human oversight，而不是把系统写成“完全自治研究员”。
 
-## Gate before outreach
+## 套磁前 gate
 
-Before generating/sending emails:
-1. Re-confirm current PhD capacity / recruitment signal.
-2. Re-check Alberta Computing Science admission-equivalency against final Melbourne results.
-3. Verify funding route for the specific supervisor.
-4. Respect the repository's same-school cooldown rule: do not cold-email both simultaneously.
-
-Current planning assumption from the applicant: overall Melbourne master's WAM about **70+**, research/thesis component about **75±3**.
+1. 重新确认 Fall-2027 PhD capacity / recruitment signal。
+2. 按最终 Melbourne 成绩重新核 Alberta academic equivalency。
+3. 确认具体 supervisor funding。
+4. 同校不同时 cold-email 两人。
+5. 实际邮件保持**英语**。
