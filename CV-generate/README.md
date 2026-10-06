@@ -41,3 +41,43 @@ Student email：`zhihezhang@student.unimelb.edu.au`
 教育时间：
 - University of Melbourne — Master's degree in Computer Science, expected 2026
 - University of British Columbia — BSc in Computer Science, completed Summer 2024
+
+## 新导师 CV：Utopia 实时刷新
+
+**硬规则：给任何新导师发送套磁前，必须重新生成 tailored CV；旧 PDF 不能直接复用。**
+
+刷新流程：
+
+1. 读取 `Utopia/main` 当前 HEAD 与已合并能力；
+2. 读取 `Digital-City/main` 当前 mission-book / reports，确认最新验收边界与 planned direction；
+3. 记录两边当前 SHA；
+4. 只把已完成/已验收内容写成 completed work；
+5. PCF、wearable、尚未施工/验收的系列继续明确写成 planned research direction；
+6. 根据目标导师只选最相关的 2–4 条 Utopia evidence；
+7. 重写 Utopia bullets / Research Profile / Current Research Direction；
+8. 重新编译 PDF 并检查；
+9. 完成后才能标 `CV_PDF_READY`。
+
+### 旧 CV 状态
+
+对**新导师**，仓库中已经存在的 supervisor-specific CV 只能作为格式与事实参考。
+
+其中 Utopia 部分一律按：
+
+`STALE_FOR_NEW_OUTREACH`
+
+处理，除非它在当前这次套磁 run 中已经完成实时刷新并记录当前 Utopia / Digital-City SHA。
+
+### 实时刷新 ≠ 功能堆砌
+
+CV 应反映 Utopia 的**最新真实研究价值**，而不是最新 commit 列表。
+
+优先写：
+
+- 与该导师最相关的系统问题；
+- 当前已经有证据的实现；
+- 一条真实 limitation / failure / verification signal；
+- 下一步可自然转成 PhD research question 的方向。
+
+不要为了“最新”把所有新功能都塞进 CV。
+
