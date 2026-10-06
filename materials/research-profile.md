@@ -1,106 +1,120 @@
 # Research Profile
 
-> Refreshed **2026-09-30**. This profile is the default input for supervisor screening and tailored application material.
+> **Current default application profile — 2026-10-06.** This file is the reusable narrative source; target selection rules live in `rules/SCREENING.md`.
 
 ## Core identity
 
-CS-trained research engineer working on **reliable agentic systems, autonomous software engineering, long-horizon AI execution, distributed / edge / multi-device AI infrastructure, and empirical verification of AI-mediated actions**.
+CS-trained research engineer working toward a **persistent personal-computing fabric for ubiquitous agentic applications**.
 
-The application story should emphasize **system building + longitudinal evidence + adversarial/independent verification**, not a list of software features.
+The strongest current PhD framing is:
 
-## Primary portfolio
+**Ubiquitous / Personal Computing + AI Systems + Distributed / Edge Systems**
 
-### Codex Boss — governance / verification / longitudinal evidence
+The research story should be about **how heterogeneous devices, agent execution, user control, provenance and recovery compose into one reliable computing environment**, not a feature list.
 
-Lead with Boss for:
+## Primary platform — Utopia
 
-- reliable / verifiable autonomous systems;
-- evidence-based acceptance and governance;
-- multi-agent orchestration and task completion claims;
-- trustworthy AI / auditability;
-- empirical study of long-running software-system evolution.
+Use Utopia as the default lead for broad new applications.
 
-Current evidence boundary:
+Current research-safe evidence:
 
-- CC-103 paper snapshot is frozen and traceable;
-- machine-readable paper evidence export exists;
-- hosted acceptance checks are preserved;
-- the minimum-human-acceptance checkpoint is READY while strict full-city status remains explicitly NOT_READY;
-- limitations / open items are part of the artifact and must not be hidden;
-- **do not describe the artifact as an accepted peer-reviewed publication.**
+- Web + Android product surfaces integrated through an authenticated gateway;
+- Rooms / canonical Actions / City tasks exposed through one action substrate;
+- deterministic Ask/Do with ambiguity handling, confirmation and manual fallback;
+- truthful health/degradation and idempotency;
+- an independent verification cycle that rejected an earlier candidate for a real integration defect, followed by repair and independent acceptance.
 
-### DS-Hns — long-horizon execution / recovery / autonomous software engineering
+### Next research-facing expansion
 
-Lead with Hns for:
+**PCF — Personal Compute Fabric / Heterogeneous Edge Runtime**
 
-- long-horizon coding agents;
-- crash/restart recovery and durable task continuation;
-- unattended repository-level execution;
-- lifecycle / terminal-state evidence;
-- failure isolation and recovery;
-- AI4SE / AIOps / autonomous maintenance.
+Planned focus:
 
-Current evidence boundary:
+- heterogeneous resource telemetry;
+- explainable placement and offloading;
+- queueing and execution policy;
+- failure recovery;
+- cross-device scheduling;
+- experiment/evaluation integration.
 
-- crash-resume recovery has been integrated into main;
-- RC2/final qualification and evidence preservation are recorded;
-- historical branches were consolidated without discarding the research evidence trail.
+This is a **next-step research direction**, not completed evidence.
 
-### Utopia — multi-device / edge / embodied-enabling systems
+### Vertical applications
 
-Lead with Utopia for:
+Wearable glasses, personal-health terminals, entertainment rooms and similar products are examples of what can run on the fabric. They should not replace the core systems research identity unless a specific supervisor is explicitly domain-focused.
 
-- multi-device personal-computing systems;
-- edge / ubiquitous / wearable-enabling infrastructure;
-- human-agent action routing and confirmation;
-- cross-device action/task provenance;
-- truthful degraded-state handling;
-- Web + Android product surfaces and authenticated gateway integration;
-- future embodied / wearable assistants where software systems and device coordination are central.
+## Supporting platform — DS-Hns
 
-Current evidence boundary:
+Use Hns first for:
 
-- pre-assistant product closeout is independently accepted;
-- the first candidate was independently REJECTED for a real Android integration defect, repaired, then re-verified;
-- shipped substrate currently includes Rooms / Actions / deterministic Ask-Do / City-task integration;
-- **assistant/persona layer, LLM router, Boss/Hns connectors and arbitrary shell were explicitly out of scope at this checkpoint** and must not be claimed as already complete.
+- AI4SE / coding agents;
+- long-horizon repository execution;
+- crash/restart recovery;
+- durable task continuation;
+- autonomous maintenance / AIOps;
+- lifecycle and terminal-state evidence.
 
-## Supporting portfolio
+Research question:
+
+> How should software agents persist, recover and continue repository-level work without confusing process survival with task completion?
+
+## Supporting platform — Codex Boss
+
+Use Boss first for:
+
+- reliable / verifiable agent systems;
+- evidence-based completion;
+- governance / adjudication;
+- multi-agent orchestration;
+- auditability and longitudinal system evolution.
+
+Research question:
+
+> How can long-running autonomous systems make completion claims that remain inspectable and falsifiable as the underlying system evolves?
+
+## Combined systems story
+
+**Utopia + Hns + Boss = device substrate + durable execution + governance/evidence**
+
+This is the strongest bridge toward:
+
+- ubiquitous / personal computing;
+- heterogeneous edge runtime;
+- distributed AI systems;
+- wearable / embodied-enabling infrastructure;
+- reliable human-agent systems.
+
+## Secondary portfolio
 
 ### Privacy Lens
 
-Use for privacy, auditability, bounded interpretation, reproducibility and governance.
+Use for privacy, bounded interpretation, reproducibility, auditability and trustworthy software.
 
 ### Quant-Ultra
 
-Use only when the supervisor/problem genuinely needs financial ML, temporal validation, non-stationary data or decision-system infrastructure. Do not force Quant into agent/systems applications.
+Use only for financial ML, temporal validation, non-stationarity or decision-system infrastructure.
 
-## Research families to prioritize
+### Health / AI4Science
 
-1. reliable / trustworthy agentic software systems;
-2. AI4SE, coding agents, autonomous software maintenance;
-3. agent evaluation, completion evidence and long-horizon reliability;
-4. distributed / edge AI systems and multi-device execution;
-5. ubiquitous / wearable / embodied-enabling computing;
-6. human-agent interaction where implementation and empirical evaluation are central.
+Use as a vertical/application route only when implementation, systems work and empirical evaluation are central. Do not pivot into theory-heavy biomedical/scientific derivation just because health is available as a product domain.
 
-## Negative routing
+## Current non-claims
 
-Do not promote a supervisor merely because the profile says "agents", "embodied AI" or "edge AI".
+Do not claim, unless later evidence changes:
 
-Exclude / downgrade when the proposed route is primarily:
+- completed PCF;
+- dedicated wearable/robotics hardware experiments;
+- completed assistant/persona layer;
+- completed general LLM router;
+- completed Boss/Hns connector integration;
+- accepted peer-reviewed Boss/Hns publication.
 
-- theorem / proof / complexity;
-- algorithmic game theory or derivation-first optimization;
-- pure formal-methods / PL theory without a concrete empirical systems track;
-- domain science where advanced theoretical domain derivation is the main work and software is auxiliary.
+## Writing rule
 
-## Default rule
+Default structure:
 
-Use:
+**problem → evidence already built → observed failure/limitation → proposed PhD question**
 
-**problem → research question → project evidence → limitation → next research step**
+Avoid:
 
-Do not use:
-
-**project list → feature dump → exaggerated autonomy claim**.
+**project list → feature dump → universal-AI claim**.
