@@ -1,31 +1,34 @@
-# University of Macau — Contacts
+# University of Macau — 联系人
 
-## Current rule
+## 当前规则
 
-Application already submitted. Contact only for targeted supervisor matching; no mass outreach. Same-school / same-department cooldown applies.
+申请已经提交。现在只做 targeted supervisor matching，不做 mass outreach。  
+Li Li 已经形成 warm/private-channel lead，因此其他 UM/CIS cold outreach 当前冻结。
 
-## First layer
+## 第一层
 
-| Order | Supervisor | Email | Contact state |
+| 顺位 | 导师 | Email | 当前联系状态 |
 |---|---|---|---|
-| 1 | Li Li | `LLiLi@um.edu.mo` | not contacted; explicit current PhD opening |
-| 2 | Xiaobo Zhou | `waynexzhou@um.edu.mo` | not contacted; explicit current PhD opportunity |
-| 3 | Leong Hou U | `ryanlhu@um.edu.mo` | not contacted; actively seeking PhD students |
-| 4 | Cheng-Zhong Xu | `czxu@um.edu.mo` | not contacted; continuously looking for students |
+| 1 | Li Li | `LLiLi@um.edu.mo` | **REPLIED / PRIVATE CONTACT / WARM LEAD** |
+| 2 | Xiaobo Zhou | `waynexzhou@um.edu.mo` | HOLD；Li Li 线结束后才考虑 |
+| 3 | Leong Hou U | `ryanlhu@um.edu.mo` | HOLD |
+| 4 | Cheng-Zhong Xu | `czxu@um.edu.mo` | HOLD |
 
-## Hold / research-only
+## 研究备用
 
-- Steven Morad — `smorad@um.edu.mo` — capacity not verified.
-- Derek Fai Wong — `derekfw@um.edu.mo` — capacity not verified.
-- Christian Montag — `cmontag@um.edu.mo` — computational-health fit, capacity not verified.
-- Jerome Yen — `jeromeyen@um.edu.mo` — Quant-Ultra/FinTech fit, capacity not verified.
+- Steven Morad — `smorad@um.edu.mo` — capacity 未核。
+- Derek Fai Wong — `derekfw@um.edu.mo` — capacity 未核。
+- Christian Montag — `cmontag@um.edu.mo` — computational-health 备用。
+- Jerome Yen — `jeromeyen@um.edu.mo` — Quant/FinTech 备用。
 
-## Known history
+## 已知历史
 
-- **Lin Yan:** previously contacted multiple times without reply. Keep paused; do not follow up again without fresh recruitment evidence.
+- **Lin Yan**：此前多次邮件无回复；没有新的明确 recruitment signal 时不再追。
 
-## Send sequencing
+## 默认 fallback 顺序
 
-Default UM/CIS sequence: `Li Li -> Xiaobo Zhou -> Leong Hou U -> Cheng-Zhong Xu`.
+`Li Li → Xiaobo Zhou → Leong Hou U → Cheng-Zhong Xu`
 
-Wait 3–5 working days between new UM/CIS cold contacts unless the current professor explicitly declines / has no capacity. If one professor becomes interested or requests further discussion/materials, freeze the rest of the UM/CIS cold-outreach queue.
+但只有 Li Li warm line 明确结束/无名额/转介后，才允许开启下一位。
+
+实际对外邮件保持**英语**。
