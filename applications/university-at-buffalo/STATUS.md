@@ -1,10 +1,12 @@
-# University at Buffalo — Closed
+# University at Buffalo — 已关闭
 
-**State:** CLOSED_BY_USER  
-**Reason:** `ENGLISH_RETEST_REQUIRED`
+**状态：CLOSED_BY_USER**  
+**原因：`ENGLISH_RETEST_REQUIRED`**
 
-Admissions confirmed that the existing English-medium study history does not remove the need to submit a new accepted English-test result under the current case.
+Admissions 已确认：现有英语授课学习经历在当前个案下不能替代新的受认可英语考试成绩。
 
-## Reopen only if
+## 仅在以下情况重开
 
-The official policy changes and explicitly accepts the existing English-medium background without a new test. Otherwise, do not spend more time here.
+官方政策发生变化，并明确接受现有英语授课背景而不需要新考试；或获得书面个人 waiver。
+
+否则不要继续投入时间。
