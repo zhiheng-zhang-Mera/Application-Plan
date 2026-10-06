@@ -1,30 +1,30 @@
-# Hong Kong — Status
+# 香港地区 — 当前状态
 
-**State:** ACTIVE MULTI-SCHOOL / GATED OUTREACH
+**状态：多校 ACTIVE / 分门禁推进**
 
-## Current programme states
-
-| Programme | State | Immediate action |
+| 项目 | 状态 | 当前动作 |
 |---|---|---|
-| PolyU Computing PhD | **APPLY** | Yu Pei first-wave outreach; formal application can proceed on its own timeline |
-| CityUHK CS PhD | **APPLY** | Heqing Huang / Nan Guan first wave; refresh Zhisong Zhang's exact 2027 capacity before send |
-| CUHK CSE Regular Admission | **APPLY / MEDIUM FRICTION** | Yu Li first-wave outreach; old written-exam BACKUP reason removed because it applied to Early Admission, not current Regular Admission |
-| HKUST CSE PhD | **APPLY** | Keep programme active; refresh individual PI capacity before any cold outreach from old supervisor records |
-| HKU CS/CDS PhD | **WATCH — ACADEMIC EQUIVALENCY** | Strong drafts ready for Zuming Jiang / Ka Ho Chow / Heming Cui; do not send until bachelor's honours/equivalency gate is documented |
+| **CUHK CSE PhD** | **APPLY** | James Cheng 是当前最强新候选之一；先核对已有 Yu Li 线程，再刷新 2027 招生信号 |
+| **PolyU Computing PhD** | **APPLY** | Yu Pei 仍是强 AI4SE/testing/repair 路线；已有 2026-09-18 联络，先核对历史 |
+| **CityUHK CS PhD** | **APPLY** | Heqing Huang 仍保留；已有 2026-09-18 联络，先核对历史 |
+| **HKUST CSE PhD** | **WATCH / APPLY SCHOOL-LEVEL** | 学校级路线强，但旧 PI capacity 已过期；找 fresh 2027 PI |
+| **HKU CS/CDS PhD** | **WATCH — ACADEMIC EQUIVALENCY** | 导师匹配强，但 honours/equivalency gate 未清，不绕过 |
 
-## First-wave outreach
+## 当前叙事
 
-1. Yu Pei — PolyU — `csypei@comp.polyu.edu.hk`
-2. Heqing Huang — CityUHK — `heqhuang@cityu.edu.hk`
-3. Yu Li — CUHK — `liyu@cse.cuhk.edu.hk`
-4. Nan Guan — CityUHK — `nanguan@cityu.edu.hk`
-5. Zhisong Zhang — CityUHK — `zhisong.zhang@cityu.edu.hk` — refresh exact 2027 intake first
+香港 broad systems / agent 路线默认：
 
-Full drafts: `OUTREACH-DRAFTS-2026-09-17.md`.
+**Utopia → Hns/Boss**
 
-## Guardrails
+其中：
+- CUHK James Cheng：Utopia + Boss 优先；
+- PolyU Yu Pei：DS-Hns + Boss 优先；
+- CityU：按具体 systems/security PI 调整；
+- HKU/HKUST：等 gate / capacity 清楚后再定制。
 
-- No outreach from stale faculty lists without fresh capacity evidence.
-- HKU remains blocked until academic-equivalency is cleared even when the PI explicitly has funded openings.
-- Hongxia Yang remains a technical-fit BACKUP because the current recruitment process explicitly includes a coding test and presentation.
-- Do not describe CUHK Regular Admission as requiring the Early-Admission written exam.
+## 发送边界
+
+- 同校同系旧线程没核对清楚，不发新 cold email。
+- 旧 faculty list 没有 fresh capacity，不直接套磁。
+- 对外邮件与申请材料保持**英语**。
+- CUHK Regular Admission 不得误写成 Early Admission 的 written exam。
