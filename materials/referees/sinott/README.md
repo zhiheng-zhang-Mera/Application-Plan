@@ -1,4 +1,4 @@
-# Sinott — Referee Pack
+# Sinott — 推荐人材料包
 
 ## 已确认的协作历史
 
