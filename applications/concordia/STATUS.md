@@ -1,34 +1,28 @@
-# Concordia — Status
+# Concordia — 当前状态
 
-**State:** ACTIVE / SUPERVISOR-MATCH PRIORITY
+**状态：ACTIVE / SUPERVISOR-MATCH PRIORITY**
 
-**Last verified:** 2026-09-17
+Concordia 当前仍值得保留，因为 CS/SE PhD 的 supervisor match 对 admission offer 很关键。
 
-## Why this moved to the front
+但它现在的定位是：
 
-Concordia's current CS/SE PhD admissions instructions state that an admission offer will not be issued until a supervisor match has been made. The current strategy therefore treats a verified-active supervisor match as an execution-critical step rather than a low-ROI optional cold email.
+> **最低可接受 floor + 强 AI4SE 备线，而不是整个申请池中心。**
 
-This does **not** mean a supervisor reply is itself a formal admission offer; academic/admission requirements still apply.
+## 当前动作
 
-## Current two-track action
+1. **先核对 Zhijie Wang 旧线程**：已有 contact + interview/discussion，2026-09-18 又发过 follow-up。不得凭旧表自动判定“无回复”。
+2. 如果该线确实 inactive，再只开启**一个**新的 Concordia supervisor cold contact。
+3. 新候选优先：Peter Chen → Shin Hwei Tan / Jinqiu Yang → Peter Rigby。
+4. 任何 supervisor reply 都不等于 formal admission / funding offer，除非有明确书面证据。
 
-1. **Existing lead — Zhijie Wang:** continue the already-established interview/discussion thread and clarify concrete supervision intent, funding / scholarship / RA / TA structure, and the remaining formal application/offer mechanics.
-2. **New outreach batch:** do not wait passively on one lead. Contact the five currently recruiting high-fit Concordia supervisors listed in `targets/FIRST-CONTACT-2026-09-17.md`, one tailored message each.
+## 叙事
 
-## First new-contact batch
+Concordia 仍主要走：
 
-1. Tse-Hsun (Peter) Chen
-2. Peter Rigby
-3. Jinqiu Yang
-4. Shin Hwei Tan
-5. Yann-Gaël Guéhéneuc
+**DS-Hns / Boss → AI4SE / coding-agent reliability / testing / maintenance**
 
-All five entered this batch only after a current recruitment/capacity signal was found on 2026-09-17. Exact evidence and emails are stored in the first-contact file and `SUPERVISORS.md`.
+Utopia 可作为系统演进和多设备/agent substrate 的辅助证据，但不必强行压过导师自身的 SE 主题。
 
-## Guardrails
+## 对外材料
 
-- Keep Zhijie Wang as an existing live lead; do not rewrite that relationship as a new cold email.
-- Do not claim a formal offer without explicit written evidence.
-- Re-check `Seeking students / Accepting inquiries / looking for PhD students / funding available` immediately before sending.
-- Prefer supervisors compatible with the existing Computer Science PhD route; if exact program compatibility is unclear, ask rather than assume.
-- Do not mass-email the whole department. Send the ranked batch individually with research-specific text.
+CV、研究陈述、套磁邮件继续保持**英语**。
