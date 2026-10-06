@@ -11,6 +11,8 @@
 ## 状态与证据
 
 - `data/` — program / supervisor / application 的机器可读状态
+  - `data/integrations.yaml` — 外部连接配置；当前默认 Gmail 为 `zhiheng0mera@gmail.com`，不存凭据
+  - `data/outreach.yaml` — Gmail thread/message 与导师/application 的映射
 - `targets/` — 筛选视图与按日期冻结的候选快照
 - `applications/` — 真实申请、联络记录与学校级工作流
 - `materials/` — 可复用研究 / 申请素材
