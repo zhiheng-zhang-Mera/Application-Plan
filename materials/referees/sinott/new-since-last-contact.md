@@ -1,4 +1,4 @@
-# Sinott — New Since Last Contact
+# Sinott — 上次联系后的新增信息
 
 > 只放 Sinott **此前不知道**、但可能对下一轮 PhD 推荐有帮助的新信息。控制在一页内；每次请求前删到只剩最相关内容。
 
