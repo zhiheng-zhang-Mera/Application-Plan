@@ -1,3 +1,14 @@
+<!-- 中文默认视图 -->
+
+# 历史说明 — CONTACT-POOL-2026-09-22.md
+
+> 2026-09-22 的历史 contact pool。不得自动顺延为当前发送队列；发送前必须重新核验 recruitment、同校锁和当前申请主线。
+>
+> 本页属于历史证据/设计快照。为了避免改写历史原文，旧英文内容原样保留在下方折叠区。正常日常操作无需展开。
+
+<details>
+<summary><strong>展开历史英文原始快照</strong></summary>
+
 # Contact Pool — 2026-09-22
 
 > **Full refresh.** This pool does not inherit ordering from the 2026-09-17 / 2026-09-18 pool.
@@ -74,3 +85,6 @@ They are **not rejected**. They remain behind their live school relationship and
 - KAUST entry requirements: https://admissions.kaust.edu.sa/how-to-apply/entry-requirements
 - Xiaoxue Gao personal recruitment page: https://xiaoxue1117.github.io/
 - CUHK-Shenzhen SAI MPhil-PhD requirements: https://sai.cuhk.edu.cn/en/node/35
+
+
+</details>
