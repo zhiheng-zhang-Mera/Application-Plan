@@ -624,3 +624,89 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 - archive / label 等非破坏性整理可以按用户指令直接执行；
 - 删除邮件、Trash 等破坏性动作不属于默认 application pipeline。
 
+## 18. Outreach 批次去同校规则
+
+导师套磁按 **batch / round** 组织。批次层规则比 §6 的同系联系锁更严格。
+
+### 18.1 每轮一校一人
+
+> **同一 outreach round 中，同一 university 最多放 1 位导师。**
+
+无论是否属于不同 department / school，只要归属于同一大学实体，就不能在同一轮里同时发送。
+
+示例：
+
+- HKUST：Mo Li / Shing-Chi Cheung / Song Guo 同一轮只能选一个；
+- HKU：Chenshu Wu / Heming Cui / Zuming Jiang / Ka Ho Chow 同一轮只能选一个；
+- CityU：Heqing Huang / Zhenjiang Li / Nan Guan / Weifa Liang 同一轮只能选一个；
+- SUTD：Ruochen Zhao / Thanh Le-Cong 同一轮只能选一个。
+
+### 18.2 批次唯一键
+
+机器层统一使用：
+
+`institution_batch_key`
+
+每个 batch 中该键必须唯一。
+
+若发现重复 university：
+
+`BATCH_SAME_SCHOOL_DUPLICATE = QA_FAIL`
+
+不得靠“不同系”“不同 campus 页面”或“不同导师研究方向”绕过。
+
+港校大陆分校如果是**独立招生实体 / 独立申请系统**，可以使用独立 institution key，例如：
+
+- `cuhk-hk`
+- `cuhk-shenzhen`
+- `hkust-hk`
+- `hkust-guangzhou`
+
+但必须按真实招生实体记录，不能为了多发邮件人为拆 key。
+
+### 18.3 什么算一轮中的投递
+
+计入 supervisor outreach batch：
+
+- 新 cold email；
+- final follow-up；
+- 对已有导师线程的主动 research follow-up；
+- form-based supervisor inquiry。
+
+不计入 supervisor outreach batch：
+
+- 正式 PhD portal submission；
+- application fee；
+- referee invitation；
+- 已收到导师回复后的被动 reply；
+- warm/private channel 中对方明确要求的材料回传。
+
+因此 **SUTD Jan-2027 formal application 可以独立提交**，即使当日没有安排新的 SUTD supervisor cold outreach。
+
+### 18.4 选批次顺序
+
+生成“今天最合适的一轮”时，按：
+
+`OUTREACH_READY > 只差 send-time refresh > 可当天补完 protocol/package > WATCH/BLOCKED`
+
+并在满足研究优先级的前提下：
+
+1. 每校最多 1 人；
+2. 优先 current explicit recruitment / funding；
+3. 优先已经解除历史 thread lock 的学校；
+4. 有 academic hard/unclear gate 的导师不进入当前发送轮；
+5. 缺 required attachment / publication / rank 的导师不进入当前发送轮；
+6. 同校的第二导师自动进入下一轮候选，不与第一导师竞争同一轮。
+
+### 18.5 批次状态
+
+每轮至少区分：
+
+- `SELECTED_FOR_ROUND`
+- `NEEDS_SEND_TIME_REFRESH`
+- `READY_FOR_HUMAN_REVIEW`
+- `SENT`
+- `DEFERRED_SAME_SCHOOL`
+- `DEFERRED_BLOCKED`
+
+只有全部 selected 项通过各自 send-time QA 后，才称该 round 为 ready；不要求同一时刻发送，可以按目标学校当地工作时段分开发送。
