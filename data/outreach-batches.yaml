@@ -1,0 +1,50 @@
+schema_version: 1
+updated_at: 2026-10-07
+current_round:
+  id: outreach-2026-10-07-A
+  state: PREPARE_AND_HUMAN_REVIEW
+  auto_send: false
+  institution_uniqueness_required: true
+  rule: "One supervisor per university per outreach round."
+  selected:
+    - institution_batch_key: hkust-hk
+      university: HKUST
+      supervisor: Mo Li
+      state: NEEDS_SEND_TIME_REFRESH
+      priority: 1
+      rationale: "Strong Utopia/PCF mobile/AIoT systems fit; Rev.2 package already exists; no known same-school thread lock."
+      package_path: tracking-hist/2026-10-6/hong-kong/HKUST/Mo-Li
+    - institution_batch_key: concordia
+      university: Concordia University
+      supervisor: Tse-Hsun (Peter) Chen
+      state: NEEDS_PACKAGE_REFRESH
+      priority: 2
+      rationale: "Zhijie route closed; official profile still accepts inquiries; strong Coding Agents/Trustworthy AI/AIOps fit."
+    - institution_batch_key: dartmouth
+      university: Dartmouth College
+      supervisor: Shawn Shan
+      state: NEEDS_PACKAGE_REFRESH
+      priority: 3
+      rationale: "Explicit 1-2 fully funded Fall-2027 PhD recruitment; email CV beforehand; strong trustworthy-AI/security fit."
+    - institution_batch_key: penn-state
+      university: Pennsylvania State University
+      supervisor: Yuchen Yang
+      state: NEEDS_PACKAGE_REFRESH
+      priority: 4
+      rationale: "Current PhD recruitment; system-building background preferred; CV required and representative work optional."
+  deferred:
+    - {institution_batch_key: cuhk-hk, supervisor: James Cheng, reason: EXISTING_THREAD_LOCK_YU_LI}
+    - {institution_batch_key: sutd, supervisor: Ruochen Zhao, reason: EXISTING_THREAD_LOCK_THANH_LE_CONG}
+    - {institution_batch_key: cityu-hk, supervisor: Zhenjiang Li, reason: EXISTING_THREAD_LOCK_HEQING_HUANG}
+    - {institution_batch_key: polyu, supervisor: Yu Liu, reason: EXISTING_THREAD_LOCK_YU_PEI}
+    - {institution_batch_key: hku, supervisor: Chenshu Wu, reason: ACADEMIC_EQUIVALENCY_GATE}
+    - {institution_batch_key: cuhk-shenzhen, supervisor: Jinke Ren, reason: REPRESENTATIVE_PUBLICATION_MATERIAL_GAP}
+    - {institution_batch_key: hkust-guangzhou, supervisor: Zhidan Liu, reason: INTAKE_SPECIFIC_CAPACITY_NOT_CONFIRMED}
+    - {institution_batch_key: ntu, supervisor: Rui Tan, reason: ACADEMIC_EQUIVALENCY_AND_QE_FRICTION}
+    - {institution_batch_key: nus, supervisor: Chengpeng Wang, reason: BACKUP_QE_AND_SCHOLARSHIP_FRICTION}
+  separate_non_outreach_actions:
+    - program: SUTD Jan 2027 PhD
+      action: FORMAL_APPLICATION
+      deadline: 2026-10-30
+      supervisor_preapproval_required: false
+      note: "Formal portal submission is independent of supervisor outreach rounds."
