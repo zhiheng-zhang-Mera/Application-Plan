@@ -9,7 +9,7 @@
 
 | 学校 | 导师 | 状态 | 主要文件 |
 |---|---|---|---|
-| CUHK | James Cheng | HOLD_THREAD_RECONCILE | EMAIL-DRAFT, CV, transcript requirement |
+| CUHK | James Cheng | SELECTED_ROUND_2026-10-07-B | EMAIL-DRAFT, CV, transcript requirement |
 | HKUST | Mo Li | DRAFT_READY_RECHECK | EMAIL-DRAFT, CV |
 | HKUST | Shing-Chi Cheung | BLOCKED_MISSING_PHOTO | EMAIL-DRAFT, CV, recent-photo gap |
 | HKUST | Song Guo | DRAFT_READY_RECHECK | EMAIL-DRAFT, CV |
@@ -17,12 +17,12 @@
 | HKU | Heming Cui | BLOCKED_ACADEMIC_EQUIVALENCY | EMAIL-DRAFT, CV, bachelor transcript requirement |
 | HKU | Zuming Jiang | BLOCKED_ACADEMIC_EQUIVALENCY | EMAIL-DRAFT, CV, Research-Interest |
 | HKU | Ka Ho Chow | BLOCKED_ACADEMIC_EQUIVALENCY | EMAIL-DRAFT, CV |
-| CityUHK | Heqing Huang | HOLD_EXISTING_THREAD | FOLLOWUP-DRAFT, refreshed CV |
-| CityUHK | Zhenjiang Li | HOLD_CITYU_THREAD_LOCK | EMAIL-DRAFT, CV |
+| CityUHK | Heqing Huang | CLOSED_TIMEOUT | FOLLOWUP-DRAFT, refreshed CV |
+| CityUHK | Zhenjiang Li | SELECTED_ROUND_2026-10-07-B | EMAIL-DRAFT, CV |
 | CityUHK | Nan Guan | HOLD_CITYU_THREAD_LOCK | EMAIL-DRAFT, CV |
 | CityUHK | Weifa Liang | HOLD_CITYU_THREAD_LOCK | EMAIL-DRAFT, CV, Research-Statement |
-| PolyU | Yu Pei | HOLD_EXISTING_THREAD | FOLLOWUP-DRAFT, refreshed CV |
-| PolyU | Yu Liu | HOLD_POLYU_THREAD_LOCK | EMAIL-DRAFT, CV, transcript requirement |
+| PolyU | Yu Pei | CLOSED_TIMEOUT | FOLLOWUP-DRAFT, refreshed CV |
+| PolyU | Yu Liu | SELECTED_ROUND_2026-10-07-B | EMAIL-DRAFT, CV, transcript requirement |
 
 ## 港校大陆分校
 
@@ -38,8 +38,8 @@
 
 | 学校 | 导师 | 状态 | 主要文件 |
 |---|---|---|---|
-| SUTD | Ruochen Zhao | DRAFT_FALL_2027 | EMAIL-DRAFT, CV |
-| SUTD | Thanh Le-Cong | HOLD_EXISTING_THREAD | FOLLOWUP-DRAFT, refreshed CV |
+| SUTD | Ruochen Zhao | SELECTED_ROUND_2026-10-07-B | EMAIL-DRAFT, CV |
+| SUTD | Thanh Le-Cong | CLOSED_TIMEOUT | FOLLOWUP-DRAFT, refreshed CV |
 | NTU | Rui Tan | WATCH_ACADEMIC_EQUIVALENCY | EMAIL-DRAFT, CV |
 | NUS | Chengpeng Wang | BACKUP_NUS_FRICTION | EMAIL-DRAFT, CV, Research-Problems |
 | NUS | Abhik Roychoudhury | BACKUP_CAPACITY_RECHECK | capacity-inquiry draft, CV |
@@ -66,6 +66,15 @@
 - APPLICANT-SNAPSHOT
 - PUBLICATION-STATUS
 - DOCUMENTS-MANIFEST
+
+## 2026-10-07 旧线程 timeout-clear
+
+- Yu Li / CUHK → `CLOSED_TIMEOUT`
+- Heqing Huang / CityU → `CLOSED_TIMEOUT`
+- Yu Pei / PolyU → `CLOSED_TIMEOUT`
+- Thanh Le-Cong / SUTD → `CLOSED_TIMEOUT`
+
+James Cheng、Zhenjiang Li、Yu Liu、Ruochen Zhao 的同校锁因此释放。历史邮件仍保留。
 
 ## Rev.2 证据刷新
 
