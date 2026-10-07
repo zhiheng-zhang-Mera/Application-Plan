@@ -1,14 +1,20 @@
-record_type,year,study_period,subject,course_title,raw_mark,normalized_mark_percent,credit_points,status,project_group,project_score_earned,project_score_possible,included_in_current_wam,notes
-course,2025,Semester 1,COMP90049,Introduction to Machine Learning,59,59,12.5,completed,,,,yes,
-course,2025,Semester 1,COMP90050,Advanced database system,50,50,12.5,completed,,,,yes,
-course,2025,Semester 1,COMP90077,Advanced algorithms and data structure,52,52,12.5,completed,,,,yes,
-course,2025,Semester 1,INFO90004,Evaluating User Experience,78,78,12.5,completed,,,,yes,
-course,2025,Semester 2,COMP90044,Research Methods,69,69,12.5,completed,,,,yes,
-course,2025,Semester 2,COMP90089,Machine Learning Applications for Health,76,76,12.5,completed,,,,yes,
-course,2025,Semester 2,INFO90007,Social Computing,56,56,12.5,completed,,,,yes,
-course,2025,Semester 2,GEOM90007,Information Visualization,70,70,12.5,completed,,,,yes,
-course,2026,Semester 1,COMP90078,Computer Science Research Project (Part 1+2 - Research Proposal),30/40 combined with COMP90079,75,25,completed,Research Project first 40/100,30,40,yes,Combined project score; 30/40 = 75% normalized across COMP90078 + COMP90079.
-course,2026,Semester 1,COMP90079,Computer Science Research Project (Part 1+2 - Oral Presentation),shared combined score,75,25,completed,Research Project first 40/100,,,yes,Shares the combined 30/40 result with COMP90078; not an independent 30-point mark.
-course,2026,Semester 2,COMP90080,Computer Science Research Project (Part 3),TBD,,25,pending,Research Project remaining 60/100,,60,no,Combined with COMP90081 for the remaining 60/100 of the project.
-course,2026,Semester 2,COMP90081,Computer Science Research Project (Part 4),TBD,,25,pending,Research Project remaining 60/100,,,no,Shares the pending remaining project component with COMP90080.
-summary,,Snapshot,CURRENT_WAM,Completed assessed credit points only,,67.5,150,derived,,,,,Weighted from eight completed 2025 subjects (100 CP) plus COMP90078/90079 normalized to 75% across 50 CP; pending 2026 Semester 2 project parts excluded.
+record_type,year,study_period,subject,course_title,raw_mark,normalized_mark_percent,credit_points,status,project_group,project_score_earned,project_score_possible,included_in_current_wam,notes,official_grade_band,scale_min_percent,scale_max_percent,scale_grade,scale_description,scale_source_url,scale_verified_date,scale_notes
+course,2025,Semester 1,COMP90049,Introduction to Machine Learning,59,59,12.5,completed,,,,yes,,P,,,,,,,
+course,2025,Semester 1,COMP90050,Advanced database system,50,50,12.5,completed,,,,yes,,P,,,,,,,
+course,2025,Semester 1,COMP90077,Advanced algorithms and data structure,52,52,12.5,completed,,,,yes,,P,,,,,,,
+course,2025,Semester 1,INFO90004,Evaluating User Experience,78,78,12.5,completed,,,,yes,,H2A,,,,,,,
+course,2025,Semester 2,COMP90044,Research Methods,69,69,12.5,completed,,,,yes,,H3,,,,,,,
+course,2025,Semester 2,COMP90089,Machine Learning Applications for Health,76,76,12.5,completed,,,,yes,,H2A,,,,,,,
+course,2025,Semester 2,INFO90007,Social Computing,56,56,12.5,completed,,,,yes,,P,,,,,,,
+course,2025,Semester 2,GEOM90007,Information Visualization,70,70,12.5,completed,,,,yes,,H2B,,,,,,,
+course,2026,Semester 1,COMP90078,Computer Science Research Project (Part 1+2 - Research Proposal),30/40 combined with COMP90079,75,25,completed,Research Project first 40/100,30,40,yes,Combined project score; 30/40 = 75% normalized across COMP90078 + COMP90079.,H2A,,,,,,,
+course,2026,Semester 1,COMP90079,Computer Science Research Project (Part 1+2 - Oral Presentation),shared combined score,75,25,completed,Research Project first 40/100,,,yes,Shares the combined 30/40 result with COMP90078; not an independent 30-point mark.,H2A,,,,,,,
+course,2026,Semester 2,COMP90080,Computer Science Research Project (Part 3),TBD,,25,pending,Research Project remaining 60/100,,60,no,Combined with COMP90081 for the remaining 60/100 of the project.,,,,,,,,
+course,2026,Semester 2,COMP90081,Computer Science Research Project (Part 4),TBD,,25,pending,Research Project remaining 60/100,,,no,Shares the pending remaining project component with COMP90080.,,,,,,,,
+summary,,Snapshot,CURRENT_WAM,Completed assessed credit points only,,67.5,150,derived,,,,,Weighted from eight completed 2025 subjects (100 CP) plus COMP90078/90079 normalized to 75% across 50 CP; pending 2026 Semester 2 project parts excluded.,,,,,,,,
+grading_scale,,,,,,,,,,,,,,,80,100,H1,First Class Honours,https://students.unimelb.edu.au/course-admin/results,2026-10-07,Current University of Melbourne subject grade codes (2025–present). NH=49 is a special fail code when a hurdle requirement is not met; pass/fail and interim codes are outside the numeric scaling bands.
+grading_scale,,,,,,,,,,,,,,,75,79,H2A,Second Class Honours Division A,https://students.unimelb.edu.au/course-admin/results,2026-10-07,Current University of Melbourne subject grade codes (2025–present). NH=49 is a special fail code when a hurdle requirement is not met; pass/fail and interim codes are outside the numeric scaling bands.
+grading_scale,,,,,,,,,,,,,,,70,74,H2B,Second Class Honours Division B,https://students.unimelb.edu.au/course-admin/results,2026-10-07,Current University of Melbourne subject grade codes (2025–present). NH=49 is a special fail code when a hurdle requirement is not met; pass/fail and interim codes are outside the numeric scaling bands.
+grading_scale,,,,,,,,,,,,,,,65,69,H3,Third Class Honours,https://students.unimelb.edu.au/course-admin/results,2026-10-07,Current University of Melbourne subject grade codes (2025–present). NH=49 is a special fail code when a hurdle requirement is not met; pass/fail and interim codes are outside the numeric scaling bands.
+grading_scale,,,,,,,,,,,,,,,50,64,P,Pass,https://students.unimelb.edu.au/course-admin/results,2026-10-07,Current University of Melbourne subject grade codes (2025–present). NH=49 is a special fail code when a hurdle requirement is not met; pass/fail and interim codes are outside the numeric scaling bands.
+grading_scale,,,,,,,,,,,,,,,0,49,N,Fail,https://students.unimelb.edu.au/course-admin/results,2026-10-07,Current University of Melbourne subject grade codes (2025–present). NH=49 is a special fail code when a hurdle requirement is not met; pass/fail and interim codes are outside the numeric scaling bands.
