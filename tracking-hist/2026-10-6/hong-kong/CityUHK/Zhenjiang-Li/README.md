@@ -1,19 +1,19 @@
 # Zhenjiang Li — CityUHK CS
 
-**状态：HOLD_CITYU_THREAD_LOCK / NOT SENT**
+**状态：SELECTED_ROUND_2026-10-07-B / NOT SENT**
 
 ## 当前路线
 
-CityU 解锁后的第一新候选。AIoT/mobile sensing/embodied systems 很贴 Utopia；当前只做材料包，不发送。
+Heqing 旧线程已 CLOSED_TIMEOUT；当前 CityU 第一候选。个人页明确持续招 PhD/RA，方向覆盖 resource-efficient AIoT、mobile & smart sensing、on-device AI。
 
 ## 套磁协议
 
-- Email: `未确认`
+- Email: `zhenjiang.li@cityu.edu.hk`
 - 页面: https://www.cs.cityu.edu.hk/~zhenjili/
 - Subject: `Prospective PhD student — resource-efficient AIoT and multi-device systems`
-- Required: public email recheck before send
+- Required: 未发现额外固定附件格式；建议附 tailored CV
 - Optional: —
-- Blockers: Heqing Huang thread must be reconciled and school lock released.；Public direct email must be reverified at send time.
+- Blockers: 无（发送前仍需 send-time CV refresh + final QA）
 
 ## 本包文件
 
