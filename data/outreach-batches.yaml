@@ -15,62 +15,70 @@ previous_rounds:
 
 current_round:
   id: outreach-2026-10-07-B
-  state: PREPARE_AND_HUMAN_REVIEW
+  state: GMAIL_DRAFTS_CREATED_AWAITING_REVIEW
   auto_send: false
   institution_uniqueness_required: true
   rule: "One supervisor per university per outreach round."
   selected:
     - institution_batch_key: concordia
+      gmail_draft_id: "r3209306691343500843"
       university: Concordia University
       supervisor: Tse-Hsun (Peter) Chen
-      state: NEEDS_PACKAGE_REFRESH
+      state: GMAIL_DRAFT_CREATED
       priority: 1
       rationale: "Current personal page recruits PhD/MSc students in long-horizon LLM agents and asks for CV, transcripts, and a short research-interest note; exceptionally strong Hns/Boss fit."
     - institution_batch_key: cuhk-hk
+      gmail_draft_id: "r-2772843160601490178"
       university: CUHK
       supervisor: James Cheng
-      state: NEEDS_SEND_TIME_REFRESH
+      state: GMAIL_DRAFT_CREATED
       priority: 2
       rationale: "Explicit August-2027 recruitment; exact email protocol; strong long-horizon agent/evaluation/infrastructure fit; Yu Li timeout lock released."
       package_path: tracking-hist/2026-10-6/hong-kong/CUHK/James-Cheng
     - institution_batch_key: hkust-hk
+      gmail_draft_id: "r5464461223277946028"
       university: HKUST
       supervisor: Mo Li
-      state: NEEDS_SEND_TIME_REFRESH
+      state: GMAIL_DRAFT_CREATED
       priority: 3
       rationale: "Personal page is constantly recruiting PhD/RA; wireless/mobile/AIoT systems are a direct Utopia/PCF match."
       package_path: tracking-hist/2026-10-6/hong-kong/HKUST/Mo-Li
     - institution_batch_key: sutd
+      gmail_draft_id: "r3575921792560868019"
       university: SUTD
       supervisor: Ruochen Zhao
-      state: NEEDS_SEND_TIME_REFRESH
+      state: GMAIL_DRAFT_CREATED
       priority: 4
       rationale: "Explicit fully funded Fall-2027 PhD opening with exact email subject protocol; Thanh timeout lock released."
       package_path: tracking-hist/2026-10-6/singapore/SUTD/Ruochen-Zhao
     - institution_batch_key: cityu-hk
+      gmail_draft_id: "r-7462823167926192480"
       university: City University of Hong Kong
       supervisor: Zhenjiang Li
-      state: NEEDS_SEND_TIME_REFRESH
+      state: GMAIL_DRAFT_CREATED
       priority: 5
       rationale: "Personal page continuously recruits PhD/RA; resource-efficient AIoT, sensing, on-device AI; Heqing timeout lock released."
       package_path: tracking-hist/2026-10-6/hong-kong/CityUHK/Zhenjiang-Li
     - institution_batch_key: polyu
+      gmail_draft_id: "r-3862017206343532850"
       university: Hong Kong Polytechnic University
       supervisor: Yu Liu
-      state: NEEDS_SEND_TIME_REFRESH
+      state: GMAIL_DRAFT_CREATED
       priority: 6
       rationale: "Personal page explicitly seeks PhD students; Edge AI/Edge Computing; asks interested applicants to email CV; Yu Pei timeout lock released."
       package_path: tracking-hist/2026-10-6/hong-kong/PolyU/Yu-Liu
     - institution_batch_key: dartmouth
+      gmail_draft_id: "r-2191592184476148652"
       university: Dartmouth College
       supervisor: Shawn Shan
-      state: NEEDS_PACKAGE_REFRESH
+      state: GMAIL_DRAFT_CREATED
       priority: 7
       rationale: "Explicitly recruiting 1-2 fully funded Fall-2027 PhD students; asks applicants to email CV beforehand; strong security/trustworthy-AI route."
     - institution_batch_key: penn-state
+      gmail_draft_id: "r8477617223962377240"
       university: Pennsylvania State University
       supervisor: Yuchen Yang
-      state: NEEDS_PACKAGE_REFRESH
+      state: GMAIL_DRAFT_CREATED
       priority: 8
       rationale: "Current PhD recruitment; CV required; system-building preferred; GitHub and representative publications/preprints/writing samples optional."
 
