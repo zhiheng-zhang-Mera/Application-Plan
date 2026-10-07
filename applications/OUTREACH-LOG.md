@@ -1,6 +1,6 @@
 # 套磁历史日志
 
-> 这是**已发生对外联络事件**的人工事实记录。旧表里的“等待/失效日期”不能代替真实邮箱状态；需要继续推进时，应先核对实际线程。
+> 这是**已发生对外联络事件**的人工事实记录。自 2026-10-07 起，超过默认生命周期且没有已知实质回复证据的旧线程会自动标 `CLOSED_TIMEOUT` 并释放联系锁；历史发送事实仍然保留。
 
 ## 2026-09-18
 
@@ -55,3 +55,17 @@
 | 日期 | 学校 | 导师 | 事件 | 状态 | 备注 |
 |---|---|---|---|---|---|
 | 2026-10-06 | Concordia University | Zhijie Wang | 用户确认拒收并关闭该路线 | **DECLINED / DO_NOT_CONTACT / TRASH** | 释放 Concordia 同系联系锁；除非用户明确重开，否则不再联系。已连接的 `zhiheng0mera@gmail.com` 中未找到对应线程；历史 follow-up 来自 Melbourne 学生邮箱，因此无法从当前 Gmail 连接执行实体 Trash。 |
+
+
+## 2026-10-07 — 旧线程默认超时清除
+
+用户更新策略：旧 cold-outreach 线程超过默认生命周期、且没有已知实质回复 / interview / requested-material / warm-channel 证据时，**默认关闭并释放学校锁**，不再要求先做 final follow-up。
+
+| 学校 | 导师 | 最后 outbound | 新状态 | 结果 |
+|---|---|---:|---|---|
+| PolyU | Yu Pei | 2026-09-18 | **CLOSED_TIMEOUT** | 释放 PolyU 锁；Yu Liu 可进入新一轮 |
+| CityUHK | Heqing Huang | 2026-09-18 | **CLOSED_TIMEOUT** | 释放 CityUHK 锁；Zhenjiang Li / Nan Guan 可进入新一轮 |
+| CUHK | Yu Li | 2026-09-18 | **CLOSED_TIMEOUT** | 释放 CUHK 锁；James Cheng 可进入新一轮 |
+| SUTD | Thanh Le-Cong | 2026-09-18 | **CLOSED_TIMEOUT** | 释放 SUTD supervisor-outreach 锁；Ruochen Zhao 可进入新一轮 |
+
+“清除”只清当前 `WAITING` / lock 状态，**不删除历史邮件**。UM / Li Li 因已有实质回复 + warm/private channel，不进入自动 timeout-close。
