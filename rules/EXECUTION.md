@@ -298,7 +298,7 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 
 - “include GPA / grades” → 从 `Bachelor Score.csv`、`Master Score.csv` 与 official transcript 取真实数据；
 - “include transcript” → 只使用真实官方 transcript，不拿 derived CSV 冒充；
-- “include publications” → 从经过验证的 publication/preprint registry 生成，并保留准确 publication status；
+- “include publications” → **如果当前没有真实可提供的论文产出，不在邮件正文主动提论文，也不承诺“之后可以提供”**；该要求只在内部 manifest 中标为 `MISSING/BLOCKED`。只有真实存在、且目标协议允许的 publication/preprint/manuscript 才能作为附件处理；
 - “discuss one of my papers” → 先读取论文，再生成针对性 discussion；
 - “describe a concrete research idea” → 结合该导师近期工作与当前 Utopia/Hns/Boss evidence 生成一个可执行 research question；
 - “send only CV” → 不擅自塞 transcript / proposal；
@@ -308,7 +308,7 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 ### 14.4 缺项时怎么处理
 
 - 缺成绩口径 → BLOCKED，先计算/核验；
-- 没有导师要求的 peer-reviewed publication → 如只是“请列出”，如实写无或只列准确标注的 preprint；如是硬门槛则转 screening gate；
+- 没有导师要求的 peer-reviewed publication → **邮件正文不主动解释“我没有论文”，也不写未来提供承诺**；内部标 `MISSING`。如果 publication 是 hard requirement，则转 screening gate；如果只是 optional / if available，则直接省略；
 - 没读指定论文 → BLOCKED，不允许生成假装读过的段落；
 - 缺 required attachment → `PACKAGE_READY=false`；
 - contact instruction 冲突 → BLOCKED，先解决证据冲突。
@@ -715,3 +715,22 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 - `DEFERRED_BLOCKED`
 
 只有全部 selected 项通过各自 send-time QA 后，才称该 round 为 ready；不要求同一时刻发送，可以按目标学校当地工作时段分开发送。
+
+
+### 14.6 无论文产出时的邮件规则
+
+当前没有真实可对外提供的论文产出时：
+
+- 邮件正文**不主动提** publication / paper / preprint；
+- 不写 “I can provide papers/publications/research materials”；
+- 不写 “I will send representative publications later”；
+- 不为了显得材料丰富，把 repository artifact / project report / engineering evidence 称为论文；
+- 若导师要求 publication 且为 **optional / if available**，直接省略；
+- 若导师要求 publication 且为 **required**，只在内部 package 标记 `PUBLICATION_MATERIAL_GAP`，邮件草稿本身不做未来承诺；
+- 真正有可提供论文后，再由新的 send-time refresh 决定是否加入。
+
+邮件末尾默认只保留当前真实已经准备好的材料，例如：
+- tailored CV；
+- transcript；
+- required research statement / proposal；
+- 当前协议明确要求且真实存在的附件。
