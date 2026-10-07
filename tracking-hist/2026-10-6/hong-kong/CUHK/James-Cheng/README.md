@@ -1,6 +1,6 @@
 # James Cheng — CUHK CSE
 
-**状态：HOLD_THREAD_RECONCILE / NOT SENT**
+**状态：SELECTED_ROUND_2026-10-07-B / NOT SENT**
 
 ## 当前路线
 
@@ -13,7 +13,7 @@ Utopia + Boss 为主，Hns 支撑 long-horizon execution。导师当前招 Aug-2
 - Subject: `phd application`
 - Required: detailed CV；transcript
 - Optional: —
-- Blockers: Existing Yu Li CUHK thread must be reconciled before new same-department outreach.
+- Blockers: 无（Yu Li 旧线程已 CLOSED_TIMEOUT；发送前只需 send-time refresh + final QA）
 
 ## 本包文件
 
