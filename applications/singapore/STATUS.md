@@ -1,4 +1,4 @@
-# 新加坡 — 当前状态（2026-10-06 刷新）
+# 新加坡 — 当前状态（2026-10-07 刷新）
 
 **状态：SUTD Jan-2027 APPLY_NOW / SUTD Fall-2027 新路线 / NTU HIGH-PRIORITY WATCH / NUS BACKUP / SMU REJECT**
 
@@ -7,7 +7,7 @@
 ## 立即动作
 
 1. **SUTD Jan 2027 正式申请继续 P0：官方当前 deadline = 2026-10-30。**
-2. **Thanh Le-Cong** 是已有历史线程；新联系前先核 Gmail/历史。
+2. **Thanh Le-Cong** 的 2026-09-18 旧线程已按默认超时规则 `CLOSED_TIMEOUT`；不再阻塞新的 SUTD supervisor outreach。
 3. **Ruochen (Esther) Zhao 是明确的 Fall 2027 fully-funded PhD opening**，不能和 Jan-2027 申请混写。
 4. **NTU Rui Tan** 新增为高优先级 WATCH：Fall-2027 fully-funded **edge AI systems**，而且个人页明确强调 research focus is **systems rather than AI**。
 5. **NUS Chengpeng Wang** 技术匹配升为 NUS 第一顺位，但 NUS mandatory QE / scholarship-equivalency / interview friction 仍使其保持 BACKUP。
@@ -46,7 +46,7 @@
 ### Thanh Le-Cong
 
 当前个人页仍明确 actively recruiting fully-funded PhD students in trustworthy AI for software engineering。  
-Hns/Boss fit 很强；但已有 2026-09-18 线程，先核历史，不重新首封。
+Hns/Boss fit 很强；但 2026-09-18 旧线程已 `CLOSED_TIMEOUT`，历史保留、不再占锁。
 
 ## NTU
 
