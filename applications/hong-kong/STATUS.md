@@ -1,17 +1,17 @@
-# 香港地区 — 当前状态（2026-10-06 刷新）
+# 香港地区 — 当前状态（2026-10-07 刷新）
 
-**状态：CUHK / HKUST ACTIVE；CityU / PolyU 受旧线程锁；HKU HIGH-PRIORITY WATCH**
+**状态：CUHK / HKUST / CityU / PolyU ACTIVE；旧线程锁已按默认超时规则释放；HKU HIGH-PRIORITY WATCH**
 
 完整导师池：[targets/POOL-REFRESH-2026-10-06-HK-SG.md](../../targets/POOL-REFRESH-2026-10-06-HK-SG.md)
 
 | 项目 | 状态 | 当前第一路线 | 当前动作 |
 |---|---|---|---|
-| **CUHK CSE PhD** | **APPLY** | **James Cheng** | 先核对 Yu Li 旧线程；解锁后按 James 个人页协议生成专属包 |
+| **CUHK CSE PhD** | **APPLY / UNLOCKED** | **James Cheng** | Yu Li 已 `CLOSED_TIMEOUT`；James 进入今日发送池，按 `phd application` + detailed CV + transcript 协议执行 |
 | **HKUST CSE PhD** | **APPLY / FRESH PI** | **Mo Li** | 新增真正贴 Utopia/PCF 的 mobile/AIoT systems 路线；可进入 protocol refresh |
 | **HKUST CSE — AI4SE** | **ACTIVE SECONDARY** | Shing-Chi Cheung | Hns/Boss 路线；其协议要求 resume + recent photograph |
 | **HKUST CSE — Physical AI** | **ACTIVE SECONDARY** | Song Guo | Utopia embodied-enabling 路线；注意 robotics/Physical-AI domain burden |
-| **CityUHK CS PhD** | **APPLY / CONTACT LOCK** | 现有 Heqing Huang；解锁后 **Zhenjiang Li** → Nan Guan | 先检查 Gmail/历史线程，不能重复 cold outreach |
-| **PolyU Computing PhD** | **APPLY / CONTACT LOCK** | 现有 Yu Pei；解锁后 **Yu Liu** | Yu Liu 新增 Edge AI / Edge Computing / distributed systems 路线 |
+| **CityUHK CS PhD** | **APPLY / UNLOCKED** | **Zhenjiang Li** → Nan Guan | Heqing 已 `CLOSED_TIMEOUT`；Zhenjiang 个人页持续招 PhD/RA，公开直邮已重新确认 |
+| **PolyU Computing PhD** | **APPLY / UNLOCKED** | **Yu Liu** | Yu Pei 已 `CLOSED_TIMEOUT`；Yu Liu 个人页明确招 PhD，并要求邮件发送 CV |
 | **HKU CS/CDS PhD** | **HIGH-PRIORITY WATCH** | **Chenshu Wu / Heming Cui** | 研究 fit 已足够强；当前重点变成学历/equivalency 路线整理，而不是继续找导师 |
 
 ## 当前导师排序
@@ -21,7 +21,7 @@
 1. **James Cheng — CUHK**  
    Utopia + Boss；agent evaluation、long-horizon agents、RL infrastructure、embodied AI。  
    个人页要求 subject 使用 `phd application`，附 detailed CV + transcript。  
-   当前阻塞：已有 Yu Li 同系线程需要先核对。
+   旧 Yu Li 线程已按 2026-10-07 默认超时规则关闭；当前无同校线程锁。
 
 2. **Mo Li — HKUST**  
    **当前香港最强 Utopia/PCF systems 候选之一**。  
@@ -60,5 +60,5 @@ HKU 当前不是“研究匹配不足”，而是需要把 **UBC BSc + Melbourne
 - 所有新导师必须重查个人主页/lab/openings。
 - 每封邮件专人专用。
 - 新导师 CV 的 Utopia 部分必须实时刷新并重编译。
-- 同校旧线程没有核清前，不开启第二个 cold contact。
+- 超时旧线程默认关闭并释放学校锁；同一**新 outreach round** 仍严格一校一人。
 - 对外材料继续保持英语。
