@@ -21,7 +21,7 @@ This gives me a concrete agent-systems research question: how should an originat
 
 For academic context, my UBC transcript uses percentage grading; my derived average across numeric course attempts is about 78.0%, which falls in UBC's official B+ band (76–79). My current assessed Melbourne WAM is 67.5/100, while the first assessed 50 credit points of my Master's research project are at 75%, the H2A subject-grade band.
 
-I have prepared the CV and transcript materials requested on your page. I will only send representative publications once a real manuscript/preprint/publication PDF has been selected and accurately labeled.
+I have prepared the CV and transcript materials requested on your page.
 
 Best regards,
 Zhiheng Zhang
@@ -42,7 +42,7 @@ Zhiheng Zhang
 
 关于学术信息，我的 UBC 成绩单使用百分制；按数字成绩行计算的派生平均约 78.0%，对应 UBC 官方 B+ 区间（76–79）。我当前墨尔本大学已评 WAM 为 67.5/100；硕士 Research Project 已评的前 50 学分为 75%，对应当前 subject grade scale 的 H2A。
 
-我已经准备了您主页要求的 CV 和成绩材料。Representative publications 只有在实际选定真实 manuscript/preprint/publication PDF 并准确标注其状态后才会发送。
+我已经准备了您主页要求的 CV 和成绩材料。
 
 此致
 Zhiheng Zhang
