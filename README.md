@@ -12,7 +12,7 @@
 **泛在 / 个人计算系统 + AI Systems + 分布式 / Edge Systems**
 
 - **Utopia**：主平台证据与未来研究底座。
-- **PCF — Personal Compute Fabric / Heterogeneous Edge Runtime**：下一阶段研究扩张方向；**属于计划方向，不作为已完成功能声称**。
+- **PCF — Personal Compute Fabric / Heterogeneous Edge Runtime**：已经出现并通过异机验证的**完整开发候选**，但仍不是 programme completion / main merge / full physical acceptance；对外必须保留这个边界。
 - **DS-Hns**：长时执行、恢复、AI4SE 的强支撑证据。
 - **Codex Boss**：治理、验证、多智能体协作的强支撑证据。
 - 眼镜、个人医疗终端、娱乐室等：作为 **vertical applications（垂直应用）**，默认不取代系统研究主线。
@@ -50,7 +50,6 @@
 机器批次状态：[data/outreach-batches.yaml](data/outreach-batches.yaml)
 
 ---
----
 
 ## 现在优先做
 
@@ -60,11 +59,11 @@
 |---|---|---|---|
 | **P0** | **澳门大学 — Li Li** | **已提交 / WARM** | 继续私人线；不并行开启 UM/CIS cold outreach |
 | **P0** | **SUTD — Jan 2027** | **APPLY_NOW / NO SUPERVISOR PRE-APPROVAL** | 正式申请优先，**2026-10-30 截止**；标准 SUTD PhD 不要求申请前导师明确同意，导师联系不阻塞提交 |
-| **P0** | **CUHK — James Cheng** | **APPLY** | 先核 Yu Li 旧线程；解锁后按其专属 subject + CV/transcript 协议生成新包 |
+| **P0** | **CUHK — James Cheng** | **APPLY / UNLOCKED** | Yu Li 已 `CLOSED_TIMEOUT`；进入 Round B，按专属 subject + detailed CV + transcript 执行 |
 | **P1** | **HKUST — Mo Li** | **FRESH ACTIVE PI** | 新增强 Utopia/PCF 路线；开始 protocol + Utopia-CV refresh |
 | **P1** | **CUHK-Shenzhen — Jinke Ren** | **ACTIVE / PACKAGE GAP** | Fall-2027 明确招生；先准备其要求的 representative-publication 材料 |
-| **P1** | **SUTD — Ruochen Zhao** | **FALL-2027 ACTIVE** | 与 Jan intake 分开；按个人页 subject 格式生成专属包 |
-| **P1** | **NYU / Dartmouth / Penn State** | **PROTOCOL_RECHECK** | 旧包只作素材；重新过个人页协议、CV refresh 与个性化 QA |
+| **P1** | **SUTD — Ruochen Zhao** | **FALL-2027 ACTIVE / UNLOCKED** | Thanh 旧线程已 `CLOSED_TIMEOUT`；进入 Round B；与 Jan intake 分开，按个人页 subject 格式执行 |
+| **P1** | **Dartmouth / Penn State** | **ROUND-B PACKAGE_REFRESH** | Shawn Shan / Yuchen Yang 已进入今日池；需要当前 Utopia/PCF 版 package refresh 后再送审 |
 | **P1** | **UBC / SFU / Concordia** | **ACTIVE** | Concordia 的 Zhijie 已关闭并释放联系锁；可转 Peter Chen / Shin Hwei Tan / Jinqiu Yang / Peter Rigby |
 
 ### 香港 / 港校大陆分校 / 新加坡本轮重点变化
@@ -74,9 +73,9 @@
 - **HKUST(GZ)**：新发现 **Zhidan Liu / Tengfei Chang**，都比旧 Lingjie Duan 更贴 ubiquitous/edge systems；当前缺 intake-specific 2027 capacity。
 - **NTU**：新增 **Rui Tan — Fall-2027 fully-funded edge-AI systems**，方向非常贴 PCF；先清 Honours-equivalency 与 QE friction。
 - **NUS**：Chengpeng Wang 技术匹配升到 A+，但 mandatory QE / scholarship-equivalency 使其继续 BACKUP。
-- **CityU / PolyU**：各自已有旧线程锁；解锁后新增 **Zhenjiang Li**、**Yu Liu** 两条更贴 AIoT/Edge 的路线。
+- **CityU / PolyU**：Heqing Huang / Yu Pei 旧线程已 timeout-clear；**Zhenjiang Li / Yu Liu** 已进入今天 Round B。
 
-完整刷新：[香港/大陆分校/新加坡 2026-10-06](targets/POOL-REFRESH-2026-10-06-HK-SG.md)
+完整区域刷新：[香港/大陆分校/新加坡 2026-10-06](targets/POOL-REFRESH-2026-10-06-HK-SG.md) · 今日发送轮：[Round 2026-10-07-B](targets/OUTREACH-ROUND-2026-10-07-B.md)
 
 ### 开新 cold outreach 前
 
