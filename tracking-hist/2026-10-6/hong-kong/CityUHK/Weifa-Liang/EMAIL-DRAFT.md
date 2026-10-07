@@ -19,7 +19,7 @@ More importantly, the Personal Compute Fabric has progressed from design to a ve
 
 This gives me a concrete PhD question: how should an edge runtime place agent workloads across heterogeneous personal devices while balancing latency, resource pressure, locality, recovery, and fairness—and how can those policies be evaluated through controlled studies rather than demonstrations?
 
-I have prepared a CV, transcript package, and the requested one-page research statement. I would not attach representative publications unless an eligible publication/manuscript actually exists at send time.
+I have prepared a CV, transcript package, and the requested one-page research statement.
 
 Best regards,
 Zhiheng Zhang
@@ -38,7 +38,7 @@ Utopia/Digital City 已经能通过共享 action/control substrate 协调真实 
 
 这让我形成了一个具体的博士问题：edge runtime 应如何在异构个人设备之间放置 agent workload，同时平衡 latency、resource pressure、locality、recovery 与 fairness；并且这些 policy 如何通过受控研究而不是 demo 被真正评估？
 
-我已经准备了 CV、成绩材料和您要求的一页 Research Statement。只有在实际存在合适 publication/manuscript 时，我才会附 representative publications。
+我已经准备了 CV、成绩材料和您要求的一页 Research Statement。
 
 此致
 Zhiheng Zhang
