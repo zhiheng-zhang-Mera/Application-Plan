@@ -4,7 +4,7 @@
 > Evidence basis: `_shared/UTOPIA-SNAPSHOT.md` Rev.2 + updated Bachelor/Master CSV grading scales.  
 > PCF wording is intentionally bounded: **verified development candidate ≠ completed/merged/physically accepted fabric**.
 
-**To:** [REVERIFY PUBLIC EMAIL BEFORE SEND]  
+**To:** zhenjiang.li@cityu.edu.hk  
 **Subject:** Prospective PhD student — resource-efficient AIoT and multi-device systems
 
 ## English Version
