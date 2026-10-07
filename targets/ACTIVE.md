@@ -1,4 +1,4 @@
-# 当前活跃目标 — 2026-10-06 刷新
+# 当前活跃目标 — 2026-10-07 刷新
 
 > 香港 / 港校大陆分校 / 新加坡最新快照：[POOL-REFRESH-2026-10-06-HK-SG](POOL-REFRESH-2026-10-06-HK-SG.md)。  
 > 其他地区继续沿用现有有效状态。  
@@ -7,11 +7,11 @@
 | 学校 / 项目 | 状态 | 当前最强导师路线 | 为什么保留 | 下一步 |
 |---|---|---|---|---|
 | **SUTD PhD — Jan 2027** | **APPLY_NOW / NO SUPERVISOR PRE-APPROVAL** | 导师联系为加权/匹配，不是提交前置 | 当前官网 deadline **2026-10-30**；English-medium waiver 可用；标准 PhD 不要求导师先同意 | 立即推进正式申请；不等待 Thanh 或其他导师回复 |
-| **SUTD — Fall 2027** | **ACTIVE** | **Ruochen Zhao** | fully funded；可靠 LLM agents / multi-agent evaluation；个人页有精确套磁协议 | 按 Fall-2027 独立路线生成新包；不要和 Jan intake 混写 |
-| **CUHK CSE PhD** | **APPLY** | **James Cheng** | Aug-2027 明确招生；agent benchmark / long-horizon / RL infra / embodied AI | 先核 Yu Li 旧线程，再按 subject=`phd application` 生成新包 |
+| **SUTD — Fall 2027** | **ACTIVE / UNLOCKED** | **Ruochen Zhao** | fully funded；可靠 LLM agents / multi-agent evaluation；Thanh 旧线程已 timeout-clear | 进入今日 round；按个人页 subject 格式 + CV 执行 |
+| **CUHK CSE PhD** | **APPLY / UNLOCKED** | **James Cheng** | Aug-2027 明确招生；Yu Li 旧线程已 timeout-clear | 进入今日 round；subject=`phd application`，附 detailed CV + transcript |
 | **HKUST CSE PhD** | **APPLY / FRESH PI** | **Mo Li**；Shing-Chi Cheung；Song Guo | 本轮找到当前明确 recruiting 的 mobile/AIoT、AI4SE、Physical-AI 三条线；英语 waiver 干净 | Mo Li 优先；每位单独做 protocol + Utopia CV refresh |
-| **CityUHK CS PhD** | **APPLY / LOCKED BY OLD THREAD** | Heqing Huang；解锁后 Zhenjiang Li / Nan Guan | 新发现 AIoT / edge-device 强路线，但已有 Heqing 历史线程 | 先查 Gmail/历史；解锁后 Zhenjiang Li 优先 |
-| **PolyU Computing PhD** | **APPLY / LOCKED BY OLD THREAD** | Yu Pei；解锁后 **Yu Liu** | Yu Liu 新增 Edge AI / Edge Computing 路线；2027-05-31 截止 | 先核 Yu Pei 历史；解锁后再开 Yu Liu |
+| **CityUHK CS PhD** | **APPLY / UNLOCKED** | **Zhenjiang Li**；Nan Guan 次级 | Heqing 旧线程已 timeout-clear；Zhenjiang 当前个人页持续招 PhD/RA | Zhenjiang 进入今日 round；公开邮箱已重新确认 |
+| **PolyU Computing PhD** | **APPLY / UNLOCKED** | **Yu Liu** | Yu Pei 旧线程已 timeout-clear；Yu Liu 当前个人页明确招 PhD，Edge AI / Edge Computing | Yu Liu 进入今日 round；按个人页要求附 CV |
 | **CUHK-Shenzhen CS PhD** | **ACTIVE / PACKAGE GAP** | **Jinke Ren** | 明确招 Fall-2027 AI-agent PhD；rolling admission | 先准备其要求的 representative publication/preprint/artifact，再生成包 |
 | **NYU Courant / NYU Shanghai** | **PROTOCOL_RECHECK** | Qiaoyu Tan | Fall-2027 funded Agent / Trustworthy AI | 重新过个人页协议与个性化 QA |
 | **Dartmouth CS PhD** | **PROTOCOL_RECHECK** | Shawn Shan | Fall-2027 funded trustworthy AI/security | 同上 |
@@ -27,7 +27,7 @@
 
 ## 当前执行规则
 
-1. 同系旧线程没核对清楚前，不发新 cold email。
+1. 超过默认生命周期且没有实质回复证据的旧线程自动 `CLOSED_TIMEOUT` 并释放锁；同一新 round 仍一校一人。
 2. 新导师必须重新读取 personal/lab/openings 页面。
 3. 新导师 CV 的 Utopia 段必须按当前 Utopia + Digital-City 实时刷新。
 4. 邮件只复用结构，不复用实质正文。
