@@ -4,7 +4,7 @@
 > Evidence basis: `_shared/UTOPIA-SNAPSHOT.md` Rev.2 + updated Bachelor/Master CSV grading scales.  
 > PCF wording is intentionally bounded: **verified development candidate ≠ completed/merged/physically accepted fabric**.
 
-**To:** [REVERIFY PUBLIC EMAIL BEFORE SEND]  
+**To:** liuyu@polyu.edu.hk  
 **Subject:** Prospective PhD student — edge AI and heterogeneous personal-computing systems
 
 ## English Version
