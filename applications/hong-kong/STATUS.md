@@ -41,19 +41,19 @@
 
 HKU 当前不是“研究匹配不足”，而是需要把 **UBC BSc + Melbourne research Master's** 的 academic-equivalency 路径整理清楚。
 
-## 有旧线程的学校
+## 旧线程清理后的学校
 
 ### CityU
 
-- **Heqing Huang**：已有 2026-09-18 线程；先查 Gmail/历史。
-- 解锁后第一新候选：**Zhenjiang Li** — resource-efficient AIoT / mobile sensing / embodied robotics。
+- **Heqing Huang**：2026-09-18 旧线程已 `CLOSED_TIMEOUT`，不再占锁。
+- 当前第一新候选：**Zhenjiang Li** — resource-efficient AIoT / mobile & smart sensing / on-device AI；个人页持续招 PhD/RA。
 - 第二候选：**Nan Guan** — LLM-aided System Design / edge-device intelligence。
-- Weifa Liang 可作为 edge-computing 次级路线，但材料要求更多、算法理论负担更高。
+- Weifa Liang 继续作为 edge-computing 次级路线。
 
 ### PolyU
 
-- **Yu Pei**：已有 2026-09-18 线程；Hns/Boss AI4SE 路线继续有效。
-- 解锁后的新 systems 候选：**Yu Liu** — Edge AI / Edge Computing / distributed systems；按更严格协议准备 CV + academic transcripts。
+- **Yu Pei**：2026-09-18 旧线程已 `CLOSED_TIMEOUT`，不再占锁。
+- 当前新 systems 候选：**Yu Liu** — Edge AI / Edge Computing / distributed systems；个人页明确招 PhD，并要求 email CV。
 
 ## 发送边界
 
