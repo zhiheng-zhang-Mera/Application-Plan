@@ -1,5 +1,5 @@
-snapshot_date: 2026-10-06
-status: HOLD_THREAD_RECONCILE
+snapshot_date: 2026-10-07
+status: SELECTED_ROUND_2026-10-07-B
 not_sent: true
 supervisor: "James Cheng"
 school: "CUHK CSE"
@@ -13,9 +13,9 @@ required_attachments:
 optional_attachments:
   []
 blockers:
-  - Existing Yu Li CUHK thread must be reconciled before new same-department outreach.
+  []
 utopia_snapshot:
   utopia_main: b06504f1f96984c960b2661b8ee3a7130796d379
   digital_city_main: b6e7ca7648a5c9c030f4cee25b4819d18dcf6acc
-cv_state: GENERATED_FROM_CURRENT_SNAPSHOT
-send_state: DO_NOT_SEND
+cv_state: NEEDS_SEND_TIME_REFRESH
+send_state: NEEDS_HUMAN_REVIEW
