@@ -1,6 +1,7 @@
 # 2026-10-6 Package Index
 
-> **Frozen snapshot / NOT SENT**
+> **Frozen snapshot / NOT SENT**  
+> **Rev.2 — 2026-10-07：** 所有导师邮件按 Utopia current main、REX/PCF 新分支证据与带 grading scale 的成绩 CSV 二次改写；每封邮件在英文版本后追加中文内部对照译文。
 
 共 **24 个导师包 + 1 个 SUTD Jan-2027 program-level 正式申请包**。
 
@@ -65,6 +66,18 @@
 - APPLICANT-SNAPSHOT
 - PUBLICATION-STATUS
 - DOCUMENTS-MANIFEST
+
+## Rev.2 证据刷新
+
+- Utopia main: `cc799234e7daa3d8ccfde5673b9d07ccb2376742`
+- Digital-City main: `78d9efe4774d257678ad09c7c3cfb95d6d352306`
+- REX-801～806：COMPLETE
+- REX-807：development complete / opposite-host review pending
+- PCF-700：accepted audit scope
+- PCF-701：Windows CPU 假零修复候选已异机复检 ACCEPTED，但未宣称 main merge
+- PCF full-flow `998440c...`：**verified development candidate only**，不是 programme completion / physical acceptance / main merge
+- Bachelor / Master CSV：已内嵌官方 grading scale；只在导师要求成绩时使用
+- 邮件文件：英文为发送候选；中文仅内部校对，禁止发送
 
 ## PDF
 
