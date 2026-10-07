@@ -1,19 +1,19 @@
 # Yu Liu — PolyU Computing
 
-**状态：HOLD_POLYU_THREAD_LOCK / NOT SENT**
+**状态：SELECTED_ROUND_2026-10-07-B / NOT SENT**
 
 ## 当前路线
 
-PolyU 解锁后的 PCF 强候选。Edge AI / Edge Computing / distributed systems 直接匹配。
+Yu Pei 旧线程已 CLOSED_TIMEOUT；当前 PolyU PCF 强候选。个人页明确招 PhD，方向为 Distributed/Edge Computing、Edge AI。
 
 ## 套磁协议
 
-- Email: `未确认`
+- Email: `liuyu@polyu.edu.hk`
 - 页面: https://www4.comp.polyu.edu.hk/~liuyu/
 - Subject: `Prospective PhD student — edge AI and heterogeneous personal-computing systems`
-- Required: CV；academic transcripts
+- Required: CV
 - Optional: —
-- Blockers: Yu Pei thread must be reconciled and school lock released.；Public direct email must be reverified at send time.
+- Blockers: 无（发送前仍需 send-time CV refresh + final QA）
 
 ## 本包文件
 
