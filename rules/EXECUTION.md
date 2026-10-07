@@ -111,9 +111,14 @@ Contact history：
 普通首封：
 
 - T0 = sent；
-- **5 个工作日**无实质回复 → 允许一次 final follow-up，同时 department 可解锁；
-- 再 **5 个工作日**无实质回复 → `NO_REPLY_FINAL / CLOSED`；
+- **5 个工作日**无实质回复 → 默认 `CLOSED_TIMEOUT`，立即释放 university / department contact lock；
+- final follow-up 不再是默认动作，只有用户明确选择保留该导师时才允许发送一次；
+- 被关闭的旧线程继续保留历史记录，但不再阻塞新导师；
 - 不发第三封。
+
+默认清除只清**当前执行锁与等待状态**，不删除历史邮件、发送事实或证据。
+
+以下情况不得自动 timeout-close：已有实质回复、interview / supervision discussion、requested materials、active private/warm channel，或 OOO 给出返岗日期且重新计算窗口尚未到期。
 
 自动回执、普通 OOO 不算实质回复；若 OOO 给出返岗日期，则从返岗后重新计时。
 
