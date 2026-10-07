@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-10-06
+updated_at: 2026-10-07
 mailbox: zhiheng0mera@gmail.com
 
 # Gmail thread/message mapping is canonical here after direct operations.
@@ -9,8 +9,11 @@ mailbox: zhiheng0mera@gmail.com
 threads:
   - supervisor_id: polyu-yu-pei
     contact_email: csypei@comp.polyu.edu.hk
-    historical_state: SENT_WAITING
+    historical_state: CLOSED_TIMEOUT
     historical_last_outbound: 2026-09-18
+    closed_at: 2026-10-07
+    close_reason: DEFAULT_TIMEOUT_CLEAR
+    lock_state: RELEASED
     gmail_thread_id: null
     gmail_last_message_id: null
     mailbox_mapping_status: PENDING
@@ -18,8 +21,11 @@ threads:
 
   - supervisor_id: cityuhk-heqing-huang
     contact_email: heqhuang@cityu.edu.hk
-    historical_state: SENT_WAITING
+    historical_state: CLOSED_TIMEOUT
     historical_last_outbound: 2026-09-18
+    closed_at: 2026-10-07
+    close_reason: DEFAULT_TIMEOUT_CLEAR
+    lock_state: RELEASED
     gmail_thread_id: null
     gmail_last_message_id: null
     mailbox_mapping_status: PENDING
@@ -27,8 +33,11 @@ threads:
 
   - supervisor_id: cuhk-yu-li
     contact_email: liyu@cse.cuhk.edu.hk
-    historical_state: SENT_WAITING
+    historical_state: CLOSED_TIMEOUT
     historical_last_outbound: 2026-09-18
+    closed_at: 2026-10-07
+    close_reason: DEFAULT_TIMEOUT_CLEAR
+    lock_state: RELEASED
     gmail_thread_id: null
     gmail_last_message_id: null
     mailbox_mapping_status: PENDING
@@ -36,8 +45,11 @@ threads:
 
   - supervisor_id: sutd-thanh-le-cong
     contact_email: congthanh_le@sutd.edu.sg
-    historical_state: SENT_WAITING
+    historical_state: CLOSED_TIMEOUT
     historical_last_outbound: 2026-09-18
+    closed_at: 2026-10-07
+    close_reason: DEFAULT_TIMEOUT_CLEAR
+    lock_state: RELEASED
     gmail_thread_id: null
     gmail_last_message_id: null
     mailbox_mapping_status: PENDING
@@ -81,3 +93,8 @@ state_rules:
   REFEREE:
     add_labels:
       - "PhD-Application/Referee"
+
+  CLOSED_TIMEOUT:
+    remove_labels:
+      - "PhD-Application/Waiting"
+    lock_state: RELEASED
