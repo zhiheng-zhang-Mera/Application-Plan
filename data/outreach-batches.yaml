@@ -1,47 +1,88 @@
-schema_version: 1
+schema_version: 2
 updated_at: 2026-10-07
+timeout_policy:
+  default_after_business_days: 5
+  action: CLOSED_TIMEOUT
+  releases_institution_lock: true
+  keeps_history: true
+  final_followup_default: false
+
+previous_rounds:
+  - id: outreach-2026-10-07-A
+    state: SUPERSEDED_BEFORE_SEND
+    reason: "Old-thread timeout policy changed; CUHK/SUTD/CityU/PolyU locks were released and the pool was re-ranked."
+    sent_count: 0
+
 current_round:
-  id: outreach-2026-10-07-A
+  id: outreach-2026-10-07-B
   state: PREPARE_AND_HUMAN_REVIEW
   auto_send: false
   institution_uniqueness_required: true
   rule: "One supervisor per university per outreach round."
   selected:
-    - institution_batch_key: hkust-hk
-      university: HKUST
-      supervisor: Mo Li
-      state: NEEDS_SEND_TIME_REFRESH
-      priority: 1
-      rationale: "Strong Utopia/PCF mobile/AIoT systems fit; Rev.2 package already exists; no known same-school thread lock."
-      package_path: tracking-hist/2026-10-6/hong-kong/HKUST/Mo-Li
     - institution_batch_key: concordia
       university: Concordia University
       supervisor: Tse-Hsun (Peter) Chen
       state: NEEDS_PACKAGE_REFRESH
+      priority: 1
+      rationale: "Current personal page recruits PhD/MSc students in long-horizon LLM agents and asks for CV, transcripts, and a short research-interest note; exceptionally strong Hns/Boss fit."
+    - institution_batch_key: cuhk-hk
+      university: CUHK
+      supervisor: James Cheng
+      state: NEEDS_SEND_TIME_REFRESH
       priority: 2
-      rationale: "Zhijie route closed; official profile still accepts inquiries; strong Coding Agents/Trustworthy AI/AIOps fit."
+      rationale: "Explicit August-2027 recruitment; exact email protocol; strong long-horizon agent/evaluation/infrastructure fit; Yu Li timeout lock released."
+      package_path: tracking-hist/2026-10-6/hong-kong/CUHK/James-Cheng
+    - institution_batch_key: hkust-hk
+      university: HKUST
+      supervisor: Mo Li
+      state: NEEDS_SEND_TIME_REFRESH
+      priority: 3
+      rationale: "Personal page is constantly recruiting PhD/RA; wireless/mobile/AIoT systems are a direct Utopia/PCF match."
+      package_path: tracking-hist/2026-10-6/hong-kong/HKUST/Mo-Li
+    - institution_batch_key: sutd
+      university: SUTD
+      supervisor: Ruochen Zhao
+      state: NEEDS_SEND_TIME_REFRESH
+      priority: 4
+      rationale: "Explicit fully funded Fall-2027 PhD opening with exact email subject protocol; Thanh timeout lock released."
+      package_path: tracking-hist/2026-10-6/singapore/SUTD/Ruochen-Zhao
+    - institution_batch_key: cityu-hk
+      university: City University of Hong Kong
+      supervisor: Zhenjiang Li
+      state: NEEDS_SEND_TIME_REFRESH
+      priority: 5
+      rationale: "Personal page continuously recruits PhD/RA; resource-efficient AIoT, sensing, on-device AI; Heqing timeout lock released."
+      package_path: tracking-hist/2026-10-6/hong-kong/CityUHK/Zhenjiang-Li
+    - institution_batch_key: polyu
+      university: Hong Kong Polytechnic University
+      supervisor: Yu Liu
+      state: NEEDS_SEND_TIME_REFRESH
+      priority: 6
+      rationale: "Personal page explicitly seeks PhD students; Edge AI/Edge Computing; asks interested applicants to email CV; Yu Pei timeout lock released."
+      package_path: tracking-hist/2026-10-6/hong-kong/PolyU/Yu-Liu
     - institution_batch_key: dartmouth
       university: Dartmouth College
       supervisor: Shawn Shan
       state: NEEDS_PACKAGE_REFRESH
-      priority: 3
-      rationale: "Explicit 1-2 fully funded Fall-2027 PhD recruitment; email CV beforehand; strong trustworthy-AI/security fit."
+      priority: 7
+      rationale: "Explicitly recruiting 1-2 fully funded Fall-2027 PhD students; asks applicants to email CV beforehand; strong security/trustworthy-AI route."
     - institution_batch_key: penn-state
       university: Pennsylvania State University
       supervisor: Yuchen Yang
       state: NEEDS_PACKAGE_REFRESH
-      priority: 4
-      rationale: "Current PhD recruitment; system-building background preferred; CV required and representative work optional."
+      priority: 8
+      rationale: "Current PhD recruitment; CV required; system-building preferred; GitHub and representative publications/preprints/writing samples optional."
+
   deferred:
-    - {institution_batch_key: cuhk-hk, supervisor: James Cheng, reason: EXISTING_THREAD_LOCK_YU_LI}
-    - {institution_batch_key: sutd, supervisor: Ruochen Zhao, reason: EXISTING_THREAD_LOCK_THANH_LE_CONG}
-    - {institution_batch_key: cityu-hk, supervisor: Zhenjiang Li, reason: EXISTING_THREAD_LOCK_HEQING_HUANG}
-    - {institution_batch_key: polyu, supervisor: Yu Liu, reason: EXISTING_THREAD_LOCK_YU_PEI}
     - {institution_batch_key: hku, supervisor: Chenshu Wu, reason: ACADEMIC_EQUIVALENCY_GATE}
     - {institution_batch_key: cuhk-shenzhen, supervisor: Jinke Ren, reason: REPRESENTATIVE_PUBLICATION_MATERIAL_GAP}
     - {institution_batch_key: hkust-guangzhou, supervisor: Zhidan Liu, reason: INTAKE_SPECIFIC_CAPACITY_NOT_CONFIRMED}
     - {institution_batch_key: ntu, supervisor: Rui Tan, reason: ACADEMIC_EQUIVALENCY_AND_QE_FRICTION}
     - {institution_batch_key: nus, supervisor: Chengpeng Wang, reason: BACKUP_QE_AND_SCHOLARSHIP_FRICTION}
+    - {institution_batch_key: sfu, supervisor: Keval Vora, reason: LOWER_THAN_CURRENT_ROUND_CUTOFF}
+    - {institution_batch_key: ubc, supervisor: Caroline Lemieux, reason: CAPACITY_REFRESH_REQUIRED}
+
   separate_non_outreach_actions:
     - program: SUTD Jan 2027 PhD
       action: FORMAL_APPLICATION
