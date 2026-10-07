@@ -1,6 +1,6 @@
 # Ruochen (Esther) Zhao — SUTD ISTD
 
-**状态：DRAFT_FALL_2027 / NOT SENT**
+**状态：SELECTED_ROUND_2026-10-07-B / NOT SENT**
 
 ## 当前路线
 
