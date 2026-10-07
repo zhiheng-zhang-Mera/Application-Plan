@@ -1,6 +1,6 @@
 # PhD 申请控制中心 — 2027
 
-> **懒人看板｜更新于 2026-10-06。** 正常情况下只看这一页即可。  
+> **懒人看板｜更新于 2026-10-07。** 正常情况下只看这一页即可。  
 > 历史联络、旧筛选批次和详细证据继续保留在对应目录，这里只展示：**现在做什么、什么最重要、什么在等、什么不用管。**
 
 ## 当前申请主线
@@ -19,6 +19,37 @@
 - Privacy Lens / Quant-Ultra：只在目标导师确实匹配时作为辅助路线。
 
 规则入口：[筛选与优先级规则](rules/SCREENING.md) · [申请执行规则](rules/EXECUTION.md)
+
+---
+
+## 今日最合适的一轮套磁 — Round 2026-10-07-A
+
+> **批次规则：一轮一校一人。** 同一 university 在同一 outreach round 中最多出现 1 位导师；同校第二候选自动进入下一轮。  
+> 本轮只是**今日优先准备 / 审核 / 投递队列**，不会自动发送。真正发送前仍需完成 send-time Utopia/CV refresh、protocol、personalization 与 attachment QA。
+
+| 顺位 | 学校 | 导师 | 当前状态 | 为什么进这一轮 | 发送前最后一步 |
+|---:|---|---|---|---|---|
+| **1** | **HKUST** | **Mo Li** | **SELECTED / NEAR-READY** | 当前最强 Utopia/PCF mobile/AIoT systems 路线之一；已有 Rev.2 专属邮件和材料包；没有同校旧线程锁 | 重新打开个人页确认 recruitment/contact；按当前 Utopia/PCF 再刷新 CV PDF；final QA |
+| **2** | **Concordia** | **Tse-Hsun (Peter) Chen** | **SELECTED / PACKAGE_REFRESH** | Zhijie 已关闭并释放同校锁；官方仍标 **Accepting inquiries**；Coding Agents / Trustworthy AI / AIOps 与 Hns/Boss 高匹配 | 读取个人主页/实验室页；生成当前专属包和 send-time CV；final QA |
+| **3** | **Dartmouth** | **Shawn Shan** | **SELECTED / PACKAGE_REFRESH** | 当前明确招 **1–2 fully funded Fall-2027 PhD students**；要求申请前 email CV；security / trustworthy AI 路线清晰 | 刷新个人页 protocol；重写 Utopia/PCF 安全边界版 CV/邮件；final QA |
+| **4** | **Penn State IST** | **Yuchen Yang** | **SELECTED / PACKAGE_REFRESH** | 当前明确招 PhD；偏好 system-building；要求 CV，GitHub / publication/preprint/writing sample 为 if available | 按 recruitment 页生成专属 package；突出 secure/efficient AI systems + Utopia/PCF system-building；final QA |
+
+### 为什么今天不把这些人塞进同一轮
+
+| 学校 / 导师 | 本轮不入选原因 |
+|---|---|
+| **CUHK — James Cheng** | Yu Li 旧线程尚未核清；同校 thread lock 未释放 |
+| **SUTD — Ruochen Zhao** | Thanh Le-Cong 旧线程尚未核清；**SUTD Jan-2027 formal application 单独推进，不需要等导师** |
+| **CityU — Zhenjiang Li / Nan Guan** | Heqing Huang 旧线程尚未核清 |
+| **PolyU — Yu Liu** | Yu Pei 旧线程尚未核清 |
+| **HKU — Chenshu Wu / Heming Cui** | academic-equivalency gate 未清；不在今天发送轮 |
+| **CUHK-Shenzhen — Jinke Ren** | representative publication / preprint material gap |
+| **HKUST(GZ) — Zhidan Liu / Tengfei Chang** | 仍缺 intake-specific 2027 capacity confirmation |
+| **NTU — Rui Tan** | Honours-equivalency + QE friction 未清 |
+| **NUS — Chengpeng Wang / Abhik Roychoudhury** | 技术匹配高，但 mandatory QE / capacity / scholarship friction 使其继续 BACKUP |
+| **同校第二候选** | 根据新规则自动进入后续 round，不与本轮第一候选并发 |
+
+机器批次状态：[data/outreach-batches.yaml](data/outreach-batches.yaml)
 
 ---
 
