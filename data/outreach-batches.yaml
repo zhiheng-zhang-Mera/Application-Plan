@@ -19,20 +19,24 @@ previous_rounds:
 
 current_round:
   id: materials-2026-10-09
-  state: GITHUB_PACKAGES_PREPARED_NOT_SENT
+  state: GMAIL_NEW_PDF_ATTACHED_DRAFTS_NOT_SENT
   auto_send: false
-  gmail_drafts_updated: false
+  gmail_drafts_updated: true
+  original_six_gmail_drafts_preserved: true
+  new_pdf_drafts_verified_count: 6
+  binary_attachments: CV_PDF_ONLY
+  gmail_sending_authorized: false
   institution_uniqueness_required: true
   selection_basis: materials/research-profile.md
   exam_policy: materials/EXAM-READINESS-POLICY.md
   subject_to_new_exam_prep_policy: true
   selected:
-    - {institution_batch_key: cityu-hk, university: "CityUHK", supervisor: "Zhenjiang Li", priority: 1, state: MATERIALS_UPDATED_EXAM_CONDITIONAL, gmail_draft_id: "r-7462823167926192480", package_path: "tracking-hist/2026-10-9/hong-kong/CityUHK/Zhenjiang-Li"}
-    - {institution_batch_key: hkust-hk, university: "HKUST", supervisor: "Mo Li", priority: 2, state: MATERIALS_UPDATED_QE_CONDITIONAL, gmail_draft_id: "r5464461223277946028", package_path: "tracking-hist/2026-10-9/hong-kong/HKUST/Mo-Li"}
-    - {institution_batch_key: concordia, university: "Concordia", supervisor: "Peter Chen", priority: 3, state: MATERIALS_UPDATED_EXAM_CONDITIONAL, gmail_draft_id: "r3209306691343500843", package_path: "tracking-hist/2026-10-9/canada/Concordia/Peter-Chen"}
-    - {institution_batch_key: sutd, university: "SUTD", supervisor: "Ruochen Zhao", priority: 4, state: MATERIALS_UPDATED_FIT_CONDITIONAL, gmail_draft_id: "r3575921792560868019", package_path: "tracking-hist/2026-10-9/singapore/SUTD/Ruochen-Zhao"}
-    - {institution_batch_key: polyu, university: "PolyU", supervisor: "Yu Liu", priority: 5, state: MATERIALS_UPDATED_LOW_PRIORITY, gmail_draft_id: "r-3862017206343532850", package_path: "tracking-hist/2026-10-9/hong-kong/PolyU/Yu-Liu"}
-    - {institution_batch_key: cuhk-hk, university: "CUHK", supervisor: "James Cheng", priority: 6, state: MATERIALS_UPDATED_EXAM_HIGH_PREP_CONDITIONAL, gmail_draft_id: "r-2772843160601490178", package_path: "tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng"}
+    - {institution_batch_key: cityu-hk, university: "CityUHK", supervisor: "Zhenjiang Li", priority: 1, state: MATERIALS_UPDATED_EXAM_CONDITIONAL, gmail_draft_id: "r4120359965814109245", previous_gmail_draft_id: "r-7462823167926192480", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/hong-kong/CityUHK/Zhenjiang-Li"}
+    - {institution_batch_key: hkust-hk, university: "HKUST", supervisor: "Mo Li", priority: 2, state: MATERIALS_UPDATED_QE_CONDITIONAL, gmail_draft_id: "r7388595330107860038", previous_gmail_draft_id: "r5464461223277946028", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/hong-kong/HKUST/Mo-Li"}
+    - {institution_batch_key: concordia, university: "Concordia", supervisor: "Peter Chen", priority: 3, state: MATERIALS_UPDATED_EXAM_CONDITIONAL, gmail_draft_id: "r-7985680144702726924", previous_gmail_draft_id: "r3209306691343500843", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/canada/Concordia/Peter-Chen"}
+    - {institution_batch_key: sutd, university: "SUTD", supervisor: "Ruochen Zhao", priority: 4, state: MATERIALS_UPDATED_FIT_CONDITIONAL, gmail_draft_id: "r8889142359321161047", previous_gmail_draft_id: "r3575921792560868019", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/singapore/SUTD/Ruochen-Zhao"}
+    - {institution_batch_key: polyu, university: "PolyU", supervisor: "Yu Liu", priority: 5, state: MATERIALS_UPDATED_LOW_PRIORITY, gmail_draft_id: "r-8914591753154488135", previous_gmail_draft_id: "r-3862017206343532850", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/hong-kong/PolyU/Yu-Liu"}
+    - {institution_batch_key: cuhk-hk, university: "CUHK", supervisor: "James Cheng", priority: 6, state: MATERIALS_UPDATED_EXAM_HIGH_PREP_CONDITIONAL, gmail_draft_id: "r6876212347917210285", previous_gmail_draft_id: "r-2772843160601490178", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng"}
   deferred:
     - {institution_batch_key: dartmouth, supervisor: "Shawn Shan", state: HOLD_BY_USER, gmail_draft_id: "r-2191592184476148652", reason: "User deferred security route"}
     - {institution_batch_key: penn-state, supervisor: "Yuchen Yang", state: HOLD_BY_USER, gmail_draft_id: "r8477617223962377240", reason: "User deferred security route"}

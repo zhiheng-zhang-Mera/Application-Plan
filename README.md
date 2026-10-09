@@ -42,10 +42,10 @@
 ## 当期执行状态
 
 - [2026-10-9 六导师包 + SUTD 项目正式申请包](tracking-hist/2026-10-9/PACKAGE-INDEX.md)：新 CV TeX、英文邮件候选、Research Interest、协议和附件缺项。
-- **CV PDF_PENDING**：本次只在 GitHub 更新文字与 LaTeX 源文件，使用 [skip ci] 避免触发 CV 工作流；旧 PDF 不能代表新版本，也没有自动加入 Gmail。
-- **Gmail：禁止修改或发送**，当前有草稿并不代表已附新版 CV 或已发送；对外动作必须另行明确授权。
+- **六导师 CV PDF_READY / GMAIL_ATTACHMENT_VERIFIED**：六份 CV.pdf 已基于各自当前 GitHub CV.tex 编译，逐一推送回对应目录、存入 Drive 并在六封新版 Gmail 草稿中验证为二进制 PDF 附件；不使用旧版 PDF，未触发 CI。
+- **Gmail：根据用户授权已建立六封新版带 CV PDF 的待发草稿，均未发送**；六封旧无附件草稿仍保留，避免擅自删除。发送、额外成绩单和访问权限仍需用户明确授权。
 - **SUTD Jan-2027 正式申请**：官方截止 **2026-10-30**，与 Fall-2027 Ruochen Zhao 导师包是两条不同路线；[新 SOP/材料](tracking-hist/2026-10-9/singapore/SUTD/_program-Jan-2027/README.md)，无需假设已获导师 pre-approval。
-- 缺项：最新官方 Melbourne transcript、UBC degree completion document（如项目要求）、特定项目所需英语授课证明、某些导师必需的官方成绩单与新 CV PDF、考试公告日与题纲、正式申请的三名推荐人状态。
+- 缺项：最新官方 Melbourne transcript、UBC degree completion document（如项目要求）、特定项目所需英语授课证明、某些导师必需的官方成绩单、考试公告日与题纲、正式申请的三名推荐人状态。
 - 严禁把结构化 Bachelor/Master CSV 当作官方成绩单；现有 MSc WAM 快照尚非最终成绩。
 
 ## 最新实现证据（不可用未来规划冒充）
