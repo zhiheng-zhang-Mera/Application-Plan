@@ -8,7 +8,7 @@
 - **领域权重 C45% / A30% / B25%**：可穿戴与智能终端（其中穿戴 70%、智能空间 30%）、异构计算、AI Agent；**主要原创贡献是长期自主任务可靠完成**。
 - 消费级评价：真实功能价值 > 稳定/无缝协同 > 低延迟。软件系统+真实设备/使用评价为主，不走纯算法、机器人控制或电路研发。
 - 个人计算主中心 + 第二服务器备机 + 轻终端降级均是研究目标/未来设计；不可把规划当作已实现的产品。普通 PC 扩容必须获得授权。
-- **Celestial** 为未来可灵活适配导师课题、多领域知识档案室的个人研究主平台构想；现有可验证代码与实验来源仍首先是 **Utopia/PCF/REX、DS-Hns、Codex Boss**。
+- **项目演进已修正：DS-Hns 与 Codex Boss 是已完成并冻结的前代；Utopia 是将两者成果融合、同样已完成并冻结的后继；Celestial 是规划中的 Utopia 重构/迭代版本，尚未完成。** [项目谱系与验收边界](materials/PROJECT-LINEAGE.md)。
 - [最终研究画像](materials/research-profile.md) · [20 轮研究决策](materials/PROFILE-DECISIONS-20Q.md) · [英文 Research Statement 母版](materials/RESEARCH-STATEMENT-MASTER.md) · [项目/导师路由](materials/project-positioning.md)。
 
 ## 修订后的考试准入（重要）
@@ -50,9 +50,10 @@
 
 ## 最新实现证据（不可用未来规划冒充）
 
-- **Utopia main**：[`944f47dd6c7e`](https://github.com/zhiheng-zhang-Mera/utopia/commit/944f47dd6c7e18b3388b6d769dbbb6dddbe74f00) / CI success（有限范围）。
+- **已完成并冻结的融合项目 Utopia main**：[`944f47dd6c7e`](https://github.com/zhiheng-zhang-Mera/utopia/commit/944f47dd6c7e18b3388b6d769dbbb6dddbe74f00) / CI success（有限范围）。
 - **Digital-City live main**：[`3110572de149`](https://github.com/zhiheng-zhang-Mera/Digital-City/commit/3110572de149ab2b724cfd6355c23a00ec6860b4)，[有界 PCF 整包验收](https://github.com/zhiheng-zhang-Mera/Digital-City/blob/main/mission-book/reports/4IN1-ACCEPTANCE/README.md) / [REX 研究复现](https://github.com/zhiheng-zhang-Mera/Digital-City/blob/main/mission-book/finished/completed-2026-10-08/research-strengthening/README.md)。
-- **Celestial**：[初始项目](https://github.com/zhiheng-zhang-Mera/Celestial-Throne)，不代表已完成硬件/运行环境。
+- **已完成并冻结的前代**：[DS-Hns](https://github.com/zhiheng-zhang-Mera/DS-Hns)、[Codex Boss](https://github.com/zhiheng-zhang-Mera/Codex-Boss)。
+- **Celestial**：[Utopia 规划中的下一代重构/迭代](https://github.com/zhiheng-zhang-Mera/Celestial-Throne)，当前仍未完成运行软件或硬件/实验环境。
 - **研究产出**：Hns/Boss 论文候选尚不作为 peer-reviewed publications。
 
 ## 历史与业务入口

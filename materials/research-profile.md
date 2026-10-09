@@ -31,18 +31,22 @@
 - **记忆知识**：AI 自动提炼观察，按领域/权限归档，在适用授权下保存并定期提醒用户审查；保留来源、纠错、失效与依赖安全删除能力。
 - **个性化 A60/B30/D10**：显式偏好为默认主权威；周期性观察提出改进建议；小比例后台自我演化与建议同期汇报。自主实验、独立验证允许；**正式上线须用户明确批准**。允许卸载知识、策略、功能、界面，但必须先审查连锁影响，避免破坏其他模块并明示高风险依赖。
 
-## 个人项目与现有可验证事实（截至 2026-10-09）
+## 用户确认的项目谱系、冻结状态及有界证据（截至 2026-10-09）
+
+**DS-Hns + Codex Boss（独立前代，均已完成并冻结） → Utopia（将前代成果融合的已完成、已冻结项目） → Celestial（规划中的 Utopia 重构/迭代版，尚未完成）。** [完整生命周期、功能验收边界及对外措辞](PROJECT-LINEAGE.md)。
+
+项目生命周期的已完成/冻结状态与每项功能的物理验收/真实使用覆盖范围不同。冻结只说明该版项目收工，不构成所有设想能力都已落地的证明。
 
 | 证据对象 | 已有事实 / 可在申请材料中表述 | 不得推导的结论 |
 |---|---|---|
-| [Utopia main](https://github.com/zhiheng-zhang-Mera/utopia/commit/944f47dd6c7e18b3388b6d769dbbb6dddbe74f00) | 两 Windows worker + Android 控制端的有界三端运行/目标设备路由；Android/Web 控制；相关 PCF/REX 代码已集成，main 对应 [CI success](https://github.com/zhiheng-zhang-Mera/utopia/actions/runs/37747311973) | 不能说完整消费级 wearable assistant、双服务器主备或所有多平台场景已实体验收 |
+| [Utopia main](https://github.com/zhiheng-zhang-Mera/utopia/commit/944f47dd6c7e18b3388b6d769dbbb6dddbe74f00) | **已完成并冻结的融合后继项目**，继承整合 DS-Hns 和 Codex Boss 的前代成果；两 Windows worker + Android 控制端的有界三端运行/目标设备路由；Android/Web 控制；相关 PCF/REX 代码已集成，main 对应 [CI success](https://github.com/zhiheng-zhang-Mera/utopia/actions/runs/37747311973) | 不能说完整消费级 wearable assistant、双服务器主备或所有多平台场景已实体验收 |
 | [Digital-City 4-in-1 报告](https://github.com/zhiheng-zhang-Mera/Digital-City/blob/main/mission-book/reports/4IN1-ACCEPTANCE/README.md) | PCF 700–728 整包验收，真实跨 Windows 主机执行/可核对返回 digest；部分分项验证有 Owner 豁免 | 不得写为 Linux / 手机 worker、所有物理矩阵、真实 LLM 闭环全部通过 |
 | [REX-890](https://github.com/zhiheng-zhang-Mera/Digital-City/blob/main/mission-book/finished/completed-2026-10-08/research-strengthening/README.md) | 以有界范围完成独立复现、实验收据/trace/join 验证与限定的研究评估工作；REX 后续整合由产品 main 记录 | 不等于所有自然语言 Agent 结论、Android 实验或长期用户研究完成 |
-| [DS-Hns](https://github.com/zhiheng-zhang-Mera/DS-Hns) | 持久任务生命周期、隔离、重启恢复和代码任务执行研究工程 | 不是已经被独立广泛验证的通用自治能力 |
-| [Codex Boss](https://github.com/zhiheng-zhang-Mera/Codex-Boss) | 多 Agent 编排、证据治理、完成判断与可审查的故障留存 | 不能说全部治理机制或自进化能力已获正式用户验证 |
-| [Celestial-Throne](https://github.com/zhiheng-zhang-Mera/Celestial-Throne) | **未来主平台/研究承载愿景**，计划建多领域、跨学科知识档案室和导师课题独立区域；可与导师项目融合 | 当前初始仓库/文档初始化，不可叙述为已交付、通过验收的运行产品 |
+| [DS-Hns](https://github.com/zhiheng-zhang-Mera/DS-Hns) | **过去完成且已冻结的前代项目**；持久任务生命周期、隔离、重启恢复和代码任务执行研究工程 | 不是已经被独立广泛验证的通用自治能力 |
+| [Codex Boss](https://github.com/zhiheng-zhang-Mera/Codex-Boss) | **过去完成且已冻结的前代项目**；多 Agent 编排、证据治理、完成判断与可审查的故障留存 | 不能说全部治理机制或自进化能力已获正式用户验证 |
+| [Celestial-Throne](https://github.com/zhiheng-zhang-Mera/Celestial-Throne) | **规划中的 Utopia 重构/下一代迭代版本**，作为未来主平台/研究承载愿景，计划建多领域、跨学科知识档案室和导师课题独立区域；可与导师项目融合 | 当前初始仓库/文档初始化，不可叙述为已交付、通过验收的运行产品 |
 
-Utopia 是**现有软件工程证据**；Celestial 是**未来可灵活演进的研究载体**。项目能力随未来提交变化必须实时复验，不能只引用这份申请画像自动升级能力声明。论文候选、preprint 和公开软件证据都不等于 peer-reviewed publication。
+Utopia 是**已完成并冻结的融合型工程成果**；DS-Hns、Codex Boss 是其已完成/冻结的前代；Celestial 是**尚未实现的下一版 Utopia 重构迭代计划**。项目能力随未来提交变化必须实时复验，不能只引用这份申请画像自动升级能力声明。论文候选、preprint 和公开软件证据都不等于 peer-reviewed publication。
 
 ## 已确认申请偏好及当前六位导师
 

@@ -1,5 +1,7 @@
 # 2026-10-09 PhD 申请材料包索引
 
+> **项目谱系修正：** [DS-Hns + Codex Boss（已完成/冻结）→ Utopia（融合版，已完成/冻结）→ Celestial（计划重构迭代）](../../materials/PROJECT-LINEAGE.md)。本目录是更新后的研究叙事，不会覆盖 10 月 6 日历史快照。
+
 **Fall 2027 PhD / NOT SENT / GitHub-only / Human Review Required.**
 
 本轮 6 位导师邮件均已在英文第一段明确 **PhD Fall 2027**，并标注本科 **UBC（Canada）**、硕士 **University of Melbourne（Australia）**。CUHK 固定主题 `phd application`、SUTD 导师固定主题 `PhD-Fall 2027-Zhiheng Zhang-University of Melbourne` 均保留；其余导师主题明确包含 Fall 2027 PhD。

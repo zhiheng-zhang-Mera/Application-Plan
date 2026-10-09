@@ -25,8 +25,8 @@
 
 ## 证据安全
 
-- Utopia main 944f47dd6c7e18b3388b6d769dbbb6dddbe74f00：已并入的 PCF/REX 有界实施和 CI；不能称已全面实现穿戴终端、双服务器主备及长期消费者使用评估。
-- DS-Hns、Codex Boss：长任务执行/治理支撑的实际项目；论文候选不得冒充被接收发表的同行评审论文。
-- Celestial：未来多领域科研基础设施愿景，当前不是完成品。
+- **Utopia 是融合前代 DS-Hns 与 Codex Boss 后已完成并冻结的后继项目**，main 944f47dd6c7e18b3388b6d769dbbb6dddbe74f00 的 PCF/REX 有界实施和 CI 为具体能力证据；不能称已全面实现穿戴终端、双服务器主备及长期消费者使用评估。
+- **DS-Hns、Codex Boss：过去已完成并冻结的两个独立前代项目**，长任务执行/治理成果后来融入 Utopia；其论文候选不得冒充被接收发表的同行评审论文。
+- **Celestial：尚在规划的 Utopia 重构与迭代版本**，非与 Utopia 并列的独立已完成平台；详见 [PROJECT-LINEAGE](PROJECT-LINEAGE.md)。
 - 成绩按目标 official scaling 填；严禁推导 4.0 GPA、虚构排名或成绩。
 - 推荐人过去实际见到的 GDPR/课程工作与之后独立开发的 Hns/Boss/Utopia 不可混写为共同指导。

@@ -153,8 +153,8 @@ warm/private channel 使用 application-specific 规则，不硬套普通 timer�
 
 当前重要边界：
 
-- **Utopia / PCF**：以当前 Utopia main 与 City 验收报告为准，PCF 部分能力已合入并存在跨 Windows 主机执行证据；Linux/手机 worker、双服务器高可用、可穿戴/消费级全面实测不得宣称完成。
-- **Utopia**：不得声称 wearable hardware、assistant/persona、general LLM router、Boss/Hns connectors 已全部完成，除非以后有新证据。
+- **Utopia / PCF**：**Utopia 已完成并冻结**，是前代 DS-Hns + Codex Boss 融合后的项目；按冻结 Utopia main 与 City 验收报告判定具体功能。PCF 部分能力已合入并存在跨 Windows 主机执行证据；Linux/手机 worker、双服务器高可用、可穿戴/消费级全面实测不得宣称完成。
+- **Utopia**：融合历史与项目生命周期收工是真实的用户确认；但不得因此声称 wearable hardware、assistant/persona、general LLM router、每个 Boss/Hns runtime connector 的接线与跨设备验收全都完成，除非冻结代码或验收报告能逐项支持。**Celestial 是下一版 Utopia 重构/迭代计划，不是已完成的新产品。**
 - **Boss / Hns 论文**：未正式接收前不得写成 peer-reviewed publication。
 - 独立项目不能倒写成推荐人曾指导的项目。
 
@@ -217,7 +217,7 @@ QA 失败后回到 `BLOCKED` 或 `DRAFT`，不能自动豁免。
 - 用户提供的 draft；
 - 推荐人实际提交的 final letter（除非明确确认，否则未知）。
 
-Boss / Hns / Utopia 等独立项目不能倒推成旧推荐关系里的 supervised work。
+DS-Hns 与 Codex Boss 是已完成并冻结的前代项目，融合形成已完成并冻结的 Utopia；这些后期独立成果不能倒推成旧推荐关系里的 supervised work。
 
 ## 11. 人工 checkpoint
 
@@ -514,7 +514,7 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 
 `OUTREACH_READY`
 
-如果 Utopia 当前状态无法可靠读取或验收边界不清楚，宁可保留更保守的旧安全 claim，也不能根据 commit 名称或规划文件猜测“已经完成”。
+如 Utopia 的**具体能力边界**无法可靠读取或验收不清楚，宁可保留更保守的 claim，也不能根据 commit 名称猜测某项功能全面物理通过；**不得借此把用户确认已完成并冻结的项目重新写成正在开发。**
 
 ## 17. Gmail 内嵌执行层
 
@@ -754,3 +754,13 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 - 未指定特殊 subject 的导师在主题中也注明 **Fall 2027 PhD**；指定主题的 **CUHK James Cheng 固定 `phd application`**、**SUTD Ruochen Zhao 固定 `PhD-Fall 2027-Zhiheng Zhang-University of Melbourne`**，不修改专属协议。
 - **例外**：SUTD **January 2027** program-level 正式申请不是 Fall-2027 cold inquiry；澳门大学 **Li Li 已提交申请/warm private lead** 也不得被新入学时间覆盖；Dartmouth Shawn Shan 和 Penn State Yuchen Yang 继续 HOLD。
 - 修改 GitHub 的候选邮件不代表 Gmail 草稿同步、附件真实存在或邮件已发送。当前仍无修改/发送 Gmail 的授权。
+
+## 21. 项目谱系与冻结状态（2026-10-09；覆盖此前阶段混淆）
+
+**权威：[PROJECT-LINEAGE](../materials/PROJECT-LINEAGE.md)。** 用户已明确纠正：
+
+1. **DS-Hns、Codex Boss**：过去已经完成并冻结的两个独立前代项目；对外统一 past tense / completed and frozen。
+2. **Utopia**：融合前代成果，**同样已经完成并冻结**的项目；对外称 completed, frozen integrated successor。不得把 Utopia 与 Hns/Boss 写成三项正在并行建设的当前平台。
+3. **Celestial**：**规划中的 Utopia 重构与迭代版本**（planned redesign/refactoring and next iteration of Utopia）；没有完成新版产品，不是与 Utopia 无关的第四个独立平台。
+4. 区分整体生命周期完成/冻结、特定子模块 wired、真实实机验收与已发表论文四种不同状态；融合不等于所有原项目 runtime connector 全覆盖。
+5. CV、Research Statement、导师英文邮件、SUTD Jan 项目说明、UM warm lead 当前材料遵守此规则；历史 `tracking-hist/2026-10-6` 保持冻结供追踪，不回写。邮件/Gmail 未授权发送或修改，所有外部材料仍需人工审核及真实附件。

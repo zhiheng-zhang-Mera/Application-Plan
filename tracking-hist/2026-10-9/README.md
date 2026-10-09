@@ -1,6 +1,8 @@
 # 2026-10-09 PhD 材料更新
 
-> 基于申请人已完成的 20 轮研究兴趣确认。此目录为**新的当期候选材料**，旧目录 2026-10-6 不覆盖。全部 NOT_SENT。
+> 基于申请人已完成的 20 轮研究兴趣确认及项目完成状态纠正。此目录为**新的当期候选材料**，旧目录 2026-10-6 不覆盖。全部 NOT_SENT。
+>
+> 项目谱系：DS-Hns 和 Codex Boss 已完成/冻结 → Utopia 融合后已完成/冻结 → Celestial 计划对 Utopia 重构迭代。详见 [PROJECT-LINEAGE](../../materials/PROJECT-LINEAGE.md)。
 
 - [总索引](PACKAGE-INDEX.md)
 - [澳门大学 Li Li warm line 研究更新包](macau/UM/Li-Li/README.md)（仅参考，不属于六导师 cold round）

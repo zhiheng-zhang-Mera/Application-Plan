@@ -14,12 +14,14 @@
 
 ## 2. 项目路由
 
-- **Utopia + PCF/REX**：现有 Android/Web 控制与两个真实 Windows worker 的有界运行、跨主机任务与可复现实验方法。已进入 main 的代码不能再写成纯设计；不等于 Linux/手机 worker、可穿戴/双服务器容灾或全部物理测试完成。
-- **DS-Hns**：长时软件任务运行、重启恢复、状态延续、失败分析与终态证据；可靠 agent / coding-agent 导师优先。
-- **Codex Boss**：授权/编排/仲裁/证据接纳，面向目标忠实、可证伪的完成报告；绝不夸大功能验收。
+- **Utopia + PCF/REX**：Utopia 是融合前代 DS-Hns 与 Codex Boss 成果的**已完成并冻结**后继平台；拥有 Android/Web 控制、两个真实 Windows worker 的有界运行、跨主机任务与可复现实验方法。已进入 main 的代码不能写成纯设计；项目冻结不等于 Linux/手机 worker、可穿戴/双服务器容灾或全部物理测试完成。
+- **DS-Hns**：**过去完成并冻结的独立前代**，形成长时任务运行、重启恢复、状态延续、失败分析与终态证据；可靠 agent / coding-agent 导师可优先使用其历史成果。
+- **Codex Boss**：**过去完成并冻结的独立前代**，其编排/仲裁/证据接纳成果与 DS-Hns 一起进入 Utopia 融合阶段；绝不夸大具体功能验收。
 - **Privacy Lens**：可信证据/边界与可复现性；导师确实研究 provenance/privacy 时才突出。
-- **Celestial**：未来可适配实验室项目的多领域研究基础设施构想，当前不能作为已完成运行演示证据。
+- **Celestial**：**规划中的 Utopia 重构及下一代迭代**，意在扩展跨领域研究档案与个人 AI；当前不能作为已完成运行演示证据。
 - **论文**：未正式发表/录用不叫 peer-reviewed publication，preprint、manuscript、artifact 必须单独标身份。
+
+项目身份权威：[PROJECT-LINEAGE](../materials/PROJECT-LINEAGE.md)，旧历史材料中的“仍在开发”描述不得直接复用。
 
 ## 3. 研究匹配优先级
 
