@@ -1,99 +1,49 @@
 schema_version: 2
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 timeout_policy:
   default_after_business_days: 5
   action: CLOSED_TIMEOUT
   releases_institution_lock: true
   keeps_history: true
   final_followup_default: false
-
 previous_rounds:
   - id: outreach-2026-10-07-A
     state: SUPERSEDED_BEFORE_SEND
-    reason: "Old-thread timeout policy changed; CUHK/SUTD/CityU/PolyU locks were released and the pool was re-ranked."
     sent_count: 0
+    evidence_path: targets/OUTREACH-ROUND-2026-10-07-B.md
+  - id: outreach-2026-10-07-B
+    state: SUPERSEDED_BY_RESEARCH_CALIBRATION
+    sent_count: 0
+    note: "Original 8 Gmail drafts remain in mailbox and old 2026-10-6 packages remain historical. This state refers only to this batch, not prior 2026-09-18 outreach."
+    evidence_path: targets/OUTREACH-ROUND-2026-10-07-B.md
 
 current_round:
-  id: outreach-2026-10-07-B
-  state: GMAIL_DRAFTS_CREATED_AWAITING_REVIEW
+  id: materials-2026-10-09
+  state: GITHUB_PACKAGES_PREPARED_NOT_SENT
   auto_send: false
+  gmail_drafts_updated: false
   institution_uniqueness_required: true
-  rule: "One supervisor per university per outreach round."
+  selection_basis: materials/research-profile.md
+  exam_policy: materials/EXAM-READINESS-POLICY.md
+  subject_to_new_exam_prep_policy: true
   selected:
-    - institution_batch_key: concordia
-      gmail_draft_id: "r3209306691343500843"
-      university: Concordia University
-      supervisor: Tse-Hsun (Peter) Chen
-      state: GMAIL_DRAFT_CREATED
-      priority: 1
-      rationale: "Current personal page recruits PhD/MSc students in long-horizon LLM agents and asks for CV, transcripts, and a short research-interest note; exceptionally strong Hns/Boss fit."
-    - institution_batch_key: cuhk-hk
-      gmail_draft_id: "r-2772843160601490178"
-      university: CUHK
-      supervisor: James Cheng
-      state: GMAIL_DRAFT_CREATED
-      priority: 2
-      rationale: "Explicit August-2027 recruitment; exact email protocol; strong long-horizon agent/evaluation/infrastructure fit; Yu Li timeout lock released."
-      package_path: tracking-hist/2026-10-6/hong-kong/CUHK/James-Cheng
-    - institution_batch_key: hkust-hk
-      gmail_draft_id: "r5464461223277946028"
-      university: HKUST
-      supervisor: Mo Li
-      state: GMAIL_DRAFT_CREATED
-      priority: 3
-      rationale: "Personal page is constantly recruiting PhD/RA; wireless/mobile/AIoT systems are a direct Utopia/PCF match."
-      package_path: tracking-hist/2026-10-6/hong-kong/HKUST/Mo-Li
-    - institution_batch_key: sutd
-      gmail_draft_id: "r3575921792560868019"
-      university: SUTD
-      supervisor: Ruochen Zhao
-      state: GMAIL_DRAFT_CREATED
-      priority: 4
-      rationale: "Explicit fully funded Fall-2027 PhD opening with exact email subject protocol; Thanh timeout lock released."
-      package_path: tracking-hist/2026-10-6/singapore/SUTD/Ruochen-Zhao
-    - institution_batch_key: cityu-hk
-      gmail_draft_id: "r-7462823167926192480"
-      university: City University of Hong Kong
-      supervisor: Zhenjiang Li
-      state: GMAIL_DRAFT_CREATED
-      priority: 5
-      rationale: "Personal page continuously recruits PhD/RA; resource-efficient AIoT, sensing, on-device AI; Heqing timeout lock released."
-      package_path: tracking-hist/2026-10-6/hong-kong/CityUHK/Zhenjiang-Li
-    - institution_batch_key: polyu
-      gmail_draft_id: "r-3862017206343532850"
-      university: Hong Kong Polytechnic University
-      supervisor: Yu Liu
-      state: GMAIL_DRAFT_CREATED
-      priority: 6
-      rationale: "Personal page explicitly seeks PhD students; Edge AI/Edge Computing; asks interested applicants to email CV; Yu Pei timeout lock released."
-      package_path: tracking-hist/2026-10-6/hong-kong/PolyU/Yu-Liu
-    - institution_batch_key: dartmouth
-      gmail_draft_id: "r-2191592184476148652"
-      university: Dartmouth College
-      supervisor: Shawn Shan
-      state: GMAIL_DRAFT_CREATED
-      priority: 7
-      rationale: "Explicitly recruiting 1-2 fully funded Fall-2027 PhD students; asks applicants to email CV beforehand; strong security/trustworthy-AI route."
-    - institution_batch_key: penn-state
-      gmail_draft_id: "r8477617223962377240"
-      university: Pennsylvania State University
-      supervisor: Yuchen Yang
-      state: GMAIL_DRAFT_CREATED
-      priority: 8
-      rationale: "Current PhD recruitment; CV required; system-building preferred; GitHub and representative publications/preprints/writing samples optional."
-
+    - {institution_batch_key: cityu-hk, university: "CityUHK", supervisor: "Zhenjiang Li", priority: 1, state: MATERIALS_UPDATED_EXAM_CONDITIONAL, gmail_draft_id: "r-7462823167926192480", package_path: "tracking-hist/2026-10-9/hong-kong/CityUHK/Zhenjiang-Li"}
+    - {institution_batch_key: hkust-hk, university: "HKUST", supervisor: "Mo Li", priority: 2, state: MATERIALS_UPDATED_QE_CONDITIONAL, gmail_draft_id: "r5464461223277946028", package_path: "tracking-hist/2026-10-9/hong-kong/HKUST/Mo-Li"}
+    - {institution_batch_key: concordia, university: "Concordia", supervisor: "Peter Chen", priority: 3, state: MATERIALS_UPDATED_EXAM_CONDITIONAL, gmail_draft_id: "r3209306691343500843", package_path: "tracking-hist/2026-10-9/canada/Concordia/Peter-Chen"}
+    - {institution_batch_key: sutd, university: "SUTD", supervisor: "Ruochen Zhao", priority: 4, state: MATERIALS_UPDATED_FIT_CONDITIONAL, gmail_draft_id: "r3575921792560868019", package_path: "tracking-hist/2026-10-9/singapore/SUTD/Ruochen-Zhao"}
+    - {institution_batch_key: polyu, university: "PolyU", supervisor: "Yu Liu", priority: 5, state: MATERIALS_UPDATED_LOW_PRIORITY, gmail_draft_id: "r-3862017206343532850", package_path: "tracking-hist/2026-10-9/hong-kong/PolyU/Yu-Liu"}
+    - {institution_batch_key: cuhk-hk, university: "CUHK", supervisor: "James Cheng", priority: 6, state: MATERIALS_UPDATED_EXAM_HIGH_PREP_CONDITIONAL, gmail_draft_id: "r-2772843160601490178", package_path: "tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng"}
   deferred:
-    - {institution_batch_key: hku, supervisor: Chenshu Wu, reason: ACADEMIC_EQUIVALENCY_GATE}
-    - {institution_batch_key: cuhk-shenzhen, supervisor: Jinke Ren, reason: REPRESENTATIVE_PUBLICATION_MATERIAL_GAP}
-    - {institution_batch_key: hkust-guangzhou, supervisor: Zhidan Liu, reason: INTAKE_SPECIFIC_CAPACITY_NOT_CONFIRMED}
-    - {institution_batch_key: ntu, supervisor: Rui Tan, reason: ACADEMIC_EQUIVALENCY_AND_QE_FRICTION}
-    - {institution_batch_key: nus, supervisor: Chengpeng Wang, reason: BACKUP_QE_AND_SCHOLARSHIP_FRICTION}
-    - {institution_batch_key: sfu, supervisor: Keval Vora, reason: LOWER_THAN_CURRENT_ROUND_CUTOFF}
-    - {institution_batch_key: ubc, supervisor: Caroline Lemieux, reason: CAPACITY_REFRESH_REQUIRED}
-
+    - {institution_batch_key: dartmouth, supervisor: "Shawn Shan", state: HOLD_BY_USER, gmail_draft_id: "r-2191592184476148652", reason: "User deferred security route"}
+    - {institution_batch_key: penn-state, supervisor: "Yuchen Yang", state: HOLD_BY_USER, gmail_draft_id: "r8477617223962377240", reason: "User deferred security route"}
+    - {institution_batch_key: cuhk-shenzhen, supervisor: "Jinke Ren", reason: REPRESENTATIVE_PUBLICATION_MATERIAL_GAP}
+    - {institution_batch_key: hkust-guangzhou, supervisor: "Zhidan Liu", reason: INTAKE_SPECIFIC_CAPACITY_NOT_CONFIRMED}
+    - {institution_batch_key: ntu, supervisor: "Rui Tan", reason: ACADEMIC_EQUIVALENCY_AND_EXAM_PREPARATION_NOT_ASSESSED}
+    - {institution_batch_key: nus, supervisor: "Chengpeng Wang", reason: BACKUP_PREPARATION_AND_SCHOLARSHIP_FRICTION_TO_REASSESS}
   separate_non_outreach_actions:
     - program: SUTD Jan 2027 PhD
-      action: FORMAL_APPLICATION
+      action: FORMAL_APPLICATION_PREPARATION_ONLY
       deadline: 2026-10-30
       supervisor_preapproval_required: false
-      note: "Formal portal submission is independent of supervisor outreach rounds."
+      state: NOT_SUBMITTED
+      package_path: tracking-hist/2026-10-9/singapore/SUTD/_program-Jan-2027

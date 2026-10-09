@@ -1,66 +1,31 @@
-# 通用申请材料
+# 通用 PhD 申请材料状态（2026-10-09）
 
-> 这里只维护可复用母版和材料状态；学校特例放到各自 application / target 页面。  
-> **内部说明中文；真正提交给学校/导师的 CV、SOP、RP、邮件等默认保持英语。**
+> **英文对外、中文内部；未获授权不得修改/发送 Gmail 邮件。** 当期事实入口：[研究画像](research-profile.md) · [20Q 决策](PROFILE-DECISIONS-20Q.md) · [项目路由](project-positioning.md) · [考试准备策略](EXAM-READINESS-POLICY.md)。
 
-## 每位导师 / 每所学校的材料包约定
+## 当前可复用母版
 
-一个完整 package 可以包含：
+- [x] [英文 Research Statement 母版](RESEARCH-STATEMENT-MASTER.md)；单独研究主张、尚未提交，不代替 PI-specific Statement。
+- [x] [2026-10-09 六导师英文套磁候选 / Research Interest / CV.tex](../tracking-hist/2026-10-9/PACKAGE-INDEX.md)；各有独立协议、证据和考试门禁。
+- [x] [SUTD Jan-2027 新 Statement of Objectives](../tracking-hist/2026-10-9/singapore/SUTD/_program-Jan-2027/Statement-of-Objectives.md)；含未来研究阶段与已有事实边界，不表示正式申请已提交。
+- [ ] 新版六导师 / SUTD Jan CV.pdf：**TeX 源已生成，PDF 仍待本地或明确授权的构建与版面核验**；不要用 2026-10-6 的 PDF 冒充新版，也不要自动触发 GitHub Actions。
+- [ ] 各导师的 post-revision 附件组合需要完成 PDF、成绩单、协议的最终发送前 QA。
 
-- 个性化 subject + 完整英语邮件正文，或 portal/form 可直接粘贴的英语文本；
-- 目标需要时的 candidate-specific Research CV PDF；
-- 需要时的 transcript / academic supporting document；
-- project links 与目标特化 research-interest text；
-- 尚不存在的 artifact 必须显式写 pending，例如 `CV_SOURCE_GENERATED / CV_PDF_PENDING`。
+## 学术与身份材料
 
-Daily pool 刷新若要进入 READY，必须有对应的当天 package。不能链接虚构 PDF。
+- [x] UBC official transcript：Documents/Transcript-ZhihengZhang.pdf（有本科 grading scale）
+- [x] Bachelor Score.csv：分析数据/非官方成绩单
+- [x] Melbourne Master Score.csv：含当前 WAM **67.5 派生快照**及 grade scale；2026 S2 研究部分仍 pending，不能叫最终成绩单。
+- [ ] UBC degree completion/certificate（项目具体要求时）
+- [ ] Melbourne 最新 official transcript / 毕业文件
+- [ ] 学校要求时的英语授课证明与正式 waiver 审批
+- [ ] Passport/identity 仅在安全且正式申请系统确有需要时提交
+- [ ] 每校 GRE waiver、不强制 GRE 和考试通知/内容核验
+- [ ] 正式项目申请需要的推荐人联系、同意与 portal 状态核对（SUTD 要 3 名）
 
-## 学术材料
+## 证据安全
 
-- [x] UBC official transcript
-- [x] Bachelor structured scores — `Documents/Bachelor Score.csv`
-- [ ] UBC degree certificate / completion evidence
-- [x] Melbourne current WAM/progress source image
-- [x] Master structured scores — `Documents/Master Score.csv`
-- [ ] University of Melbourne latest official transcript
-- [ ] Melbourne final transcript / completion evidence
-- [ ] grading scale / legend（目标需要时）
-- [ ] English-medium instruction evidence（目标需要时）
-- [ ] passport / identity document（只在正式 portal 需要时使用）
-
-## Research / Writing
-
-- [x] Research CV pipeline
-- [ ] 通用 Academic CV 母版
-- [ ] 当前版 General SOP / Research Statement 母版
-- [ ] Short SOP / short-answer 母版
-- [ ] Writing sample / thesis extract
-- [ ] Utopia / PCF research summary
-- [ ] DS-Hns project summary
-- [ ] Codex Boss project summary
-- [ ] Privacy Lens supporting summary
-- [ ] Quant-Ultra supporting summary
-
-## 推荐信
-
-- [x] 推荐人控制中心 — [referees/README.md](referees/README.md)
-- [x] Sinott pack — [referees/sinott](referees/sinott/README.md)
-- [x] Ting Dang pack — [referees/ting-dang](referees/ting-dang/README.md)
-- [ ] 每所学校的 deadline/status tracking
-- [ ] Portal invitation / submitted 状态矩阵
-
-### 推荐人硬规则
-
-必须区分：
-
-- 推荐人实际知道的内容；
-- 上次联系后新增、首次介绍的内容；
-- 用户提供给推荐人的 draft；
-- 推荐人最终实际提交的信（除非确认，否则未知）。
-
-Boss / DS-Hns / Utopia 等独立新项目不能倒推成旧推荐关系里的 supervised work。
-
-## 复用规则
-
-不要为每个学校复制一整套事实材料。  
-学校差异只记录在对应 workflow；公共事实从统一母版/数据源生成。
+- Utopia main 944f47dd6c7e18b3388b6d769dbbb6dddbe74f00：已并入的 PCF/REX 有界实施和 CI；不能称已全面实现穿戴终端、双服务器主备及长期消费者使用评估。
+- DS-Hns、Codex Boss：长任务执行/治理支撑的实际项目；论文候选不得冒充被接收发表的同行评审论文。
+- Celestial：未来多领域科研基础设施愿景，当前不是完成品。
+- 成绩按目标 official scaling 填；严禁推导 4.0 GPA、虚构排名或成绩。
+- 推荐人过去实际见到的 GDPR/课程工作与之后独立开发的 Hns/Boss/Utopia 不可混写为共同指导。

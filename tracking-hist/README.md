@@ -1,15 +1,10 @@
-# tracking-hist
+# 申请材料历史与当期版本
 
-这里保存**按日期冻结的申请素材快照**。
+| 日期 | 性质 | 入口 |
+|---|---|---|
+| **2026-10-9** | **当前 PhD 研究画像校准；六位导师新包及 SUTD Jan 项目 SOP，全部未发送** | [2026-10-9/PACKAGE-INDEX.md](2026-10-9/PACKAGE-INDEX.md) |
+| 2026-10-6（Rev.2 至 10-7） | 旧方向与旧项目状态下的完整历史候选包，保留原样 | [2026-10-6/PACKAGE-INDEX.md](2026-10-6/PACKAGE-INDEX.md) |
 
-规则：
+对外文件英语、内部 QA 中文。**GitHub 文件更新不自动同步 Gmail；旧 PDF 禁止当作新版**；所有包默认 NOT_SENT，必须按当前 rules/EXECUTION 完成附件与授权验收。
 
-- 日期目录一旦完成，不再用后续项目状态覆盖；下一轮建立新的日期目录。
-- 内部说明、协议、状态、缺项尽量中文。
-- 对外邮件、CV、SOP/RP/Statement 等保持英语。
-- 每个导师包只生成当前实际需要的文件；不为了“齐全”制造无用 SOP/RP。
-- 所有包默认 **NOT SENT**。实际发送必须经过当前规则中的 protocol / personalization / claim / attachment QA，并由用户明确要求发送。
-- 当前 live 状态仍以根 README、rules/、data/ 为准；tracking-hist 用于追溯“当时准备了什么”。
-
-当前快照：
-- [2026-10-6](./2026-10-6/README.md)
+当前研究画像：[materials/research-profile.md](../materials/research-profile.md)；考试准备政策：[materials/EXAM-READINESS-POLICY.md](../materials/EXAM-READINESS-POLICY.md)。

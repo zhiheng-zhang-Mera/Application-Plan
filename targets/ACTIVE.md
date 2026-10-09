@@ -1,34 +1,22 @@
-# 当前活跃目标 — 2026-10-07 刷新
+# 当前博士申请目标 — 2026-10-09
 
-> 香港 / 港校大陆分校 / 新加坡最新快照：[POOL-REFRESH-2026-10-06-HK-SG](POOL-REFRESH-2026-10-06-HK-SG.md)。  
-> 其他地区继续沿用现有有效状态。  
-> **旧的 `OUTREACH_READY` 不自动继承**；个人主页/lab/openings、导师协议、Utopia 实时 CV 刷新、专人专用邮件都必须重新过 QA。
+> 由已确认研究兴趣校准覆盖旧 10 月 7 日优先级。本页为当前执行视图，旧 pool snapshot 和 Gmail 实际历史记录不删除。没有发送或提交授权。
 
-| 学校 / 项目 | 状态 | 当前最强导师路线 | 为什么保留 | 下一步 |
-|---|---|---|---|---|
-| **SUTD PhD — Jan 2027** | **APPLY_NOW / NO SUPERVISOR PRE-APPROVAL** | 导师联系为加权/匹配，不是提交前置 | 当前官网 deadline **2026-10-30**；English-medium waiver 可用；标准 PhD 不要求导师先同意 | 立即推进正式申请；不等待 Thanh 或其他导师回复 |
-| **SUTD — Fall 2027** | **ACTIVE / UNLOCKED** | **Ruochen Zhao** | fully funded；可靠 LLM agents / multi-agent evaluation；Thanh 旧线程已 timeout-clear | 进入今日 round；按个人页 subject 格式 + CV 执行 |
-| **CUHK CSE PhD** | **APPLY / UNLOCKED** | **James Cheng** | Aug-2027 明确招生；Yu Li 旧线程已 timeout-clear | 进入今日 round；subject=`phd application`，附 detailed CV + transcript |
-| **HKUST CSE PhD** | **APPLY / FRESH PI** | **Mo Li**；Shing-Chi Cheung；Song Guo | 本轮找到当前明确 recruiting 的 mobile/AIoT、AI4SE、Physical-AI 三条线；英语 waiver 干净 | Mo Li 优先；每位单独做 protocol + Utopia CV refresh |
-| **CityUHK CS PhD** | **APPLY / UNLOCKED** | **Zhenjiang Li**；Nan Guan 次级 | Heqing 旧线程已 timeout-clear；Zhenjiang 当前个人页持续招 PhD/RA | Zhenjiang 进入今日 round；公开邮箱已重新确认 |
-| **PolyU Computing PhD** | **APPLY / UNLOCKED** | **Yu Liu** | Yu Pei 旧线程已 timeout-clear；Yu Liu 当前个人页明确招 PhD，Edge AI / Edge Computing | Yu Liu 进入今日 round；按个人页要求附 CV |
-| **CUHK-Shenzhen CS PhD** | **ACTIVE / PACKAGE GAP** | **Jinke Ren** | 明确招 Fall-2027 AI-agent PhD；rolling admission | 先准备其要求的 representative publication/preprint/artifact，再生成包 |
-| **NYU Courant / NYU Shanghai** | **PROTOCOL_RECHECK** | Qiaoyu Tan | Fall-2027 funded Agent / Trustworthy AI | 重新过个人页协议与个性化 QA |
-| **Dartmouth CS PhD** | **PROTOCOL_RECHECK** | Shawn Shan | Fall-2027 funded trustworthy AI/security | 同上 |
-| **Penn State IST PhD** | **PROTOCOL_RECHECK** | Yuchen Yang | current recruiting；trustworthy AI / ML-systems security | 同上 |
-| **Concordia CS/SE PhD** | **ACTIVE / FLOOR** | Peter Chen / Shin Hwei Tan / Jinqiu Yang / Peter Rigby | Zhijie 已 DECLINED/DO_NOT_CONTACT 并释放同系锁 | 可直接选择一个新候选进入 protocol refresh |
-| **UBC CS PhD** | **APPLY / HIGH-COMPETITION** | Caroline Lemieux | testing / SE / systems fit | 正式申请；PI capacity 再刷新 |
-| **SFU CS PhD** | **APPLY** | Keval Vora | scalable systems 路线 | 刷新 Fall-2027 timing 后联系 |
-| **KAUST PhD** | **APPLY / RECONCILE PI** | Marco Canini | program hard gate/funding 好 | 先解决 capacity 冲突 |
+## 六位候选（研究匹配顺序）
 
-## 已提交 / warm relationship
+| 导师 | 研究桥接 | 实际门禁 | 当期文件 |
+|---|---|---|---|
+| CityUHK Zhenjiang Li | 穿戴感知、资源高效 edge agents 与长期任务执行 | CS QE 书面细则、通知准备量待核实 | [包](../tracking-hist/2026-10-9/hong-kong/CityUHK/Zhenjiang-Li/README.md) |
+| HKUST Mo Li | 移动 AIoT/设备场景下长期 AI 任务连续性与真实结果 | PQE 综述+口试、基础课程相当性 | [包](../tracking-hist/2026-10-9/hong-kong/HKUST/Mo-Li/README.md) |
+| Concordia Peter Chen | Coding agents 的目标不漂移、状态保持、执行证据 | ENCS8501 论文综述与口试；限时报告能否合理安排 | [包](../tracking-hist/2026-10-9/canada/Concordia/Peter-Chen/README.md) |
+| SUTD Ruochen Zhao | 目标忠实、可信报告、长任务完成评价 | Systems/empirical 而非 NLP/RL-only 路线需导师确认 | [包](../tracking-hist/2026-10-9/singapore/SUTD/Ruochen-Zhao/README.md) |
+| PolyU Yu Liu | 边缘任务调度与容错，不做理论/量子为主 | 具体 CS 研究课题、培养考核形式未知 | [包](../tracking-hist/2026-10-9/hong-kong/PolyU/Yu-Liu/README.md) |
+| CUHK James Cheng | Agent benchmarking、真实长期任务 outcome evaluation | 广范围基础 CS/数学入学笔试的备考量与项目纯算法/机器人偏移 | [包](../tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng/README.md) |
 
-- **University of Macau / Li Li**：`SUBMITTED + WARM LEAD`；继续私人线，不开 UM/CIS 并行 cold outreach。
+## 个人指令优先级
 
-## 当前执行规则
-
-1. 超过默认生命周期且没有实质回复证据的旧线程自动 `CLOSED_TIMEOUT` 并释放锁；同一新 round 仍一校一人。
-2. 新导师必须重新读取 personal/lab/openings 页面。
-3. 新导师 CV 的 Utopia 段必须按当前 Utopia + Digital-City 实时刷新。
-4. 邮件只复用结构，不复用实质正文。
-5. 当前区域完整证据以 2026-10-06 refresh 文件为准。
+- **HOLD**：Dartmouth Shawn Shan、Penn State Yuchen Yang，不发邮件也不更新 Gmail 旧草稿。
+- **SUTD Jan-2027 program-level**：官方 2026-10-30 截止；项目申请独立于 Fall 2027 Zhao 导师问询；已准备新版 SOP 但 **NOT SUBMITTED**。
+- UM Li Li 的 warm/private 线不被本轮六导师 cold round 覆盖或取消。
+- 英语/GRE 豁免仍需官方证据；专业考试 **允许但须可准备**。见 [政策](../materials/EXAM-READINESS-POLICY.md)。
+- 本轮 GitHub CV.tex 尚未自动编译或附加 PDF；不能把项目包标为 SEND_READY。
