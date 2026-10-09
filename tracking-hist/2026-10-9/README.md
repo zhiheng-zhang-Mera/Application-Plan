@@ -11,4 +11,4 @@
 - [研究画像](../../materials/research-profile.md)
 - [考试策略](../../materials/EXAM-READINESS-POLICY.md)
 
-CV.tex 是可以编译的英文源码；CV.pdf 在 CI [skip ci] 下未自动生成。生成 PDF 后需要另外验证页面、文字准确、实际附件与导师协议。
+六位导师的当前 CV.tex 已用本地 pdflatex 编译为 A4 单页 CV.pdf，已经检查 PDF 文本/页面边界、提交至 GitHub 同目录，使用私有 Drive 中转，并附入六封新的 Gmail 草稿，Gmail 回读附件成功；六封旧无附件草稿仍保留。**全部 NOT SENT，无 GitHub Actions 构建消耗。** 详见 [Gmail 附件记录](GMAIL-PDF-ATTACHMENT-STATUS.md)。
