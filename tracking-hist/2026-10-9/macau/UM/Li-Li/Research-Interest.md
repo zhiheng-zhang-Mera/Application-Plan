@@ -1,0 +1,13 @@
+# Research Interest — University of Macau, Li Li (internal English candidate)
+
+My intended PhD research focuses on **reliable, goal-grounded long-horizon AI agents in personal and ubiquitous computing environments**. I am particularly interested in software-systems mechanisms that allow a user to authorize a final objective, let the agent execute a multi-step plan with minimal unnecessary intervention, and still inspect, correct, pause or terminate that execution.
+
+I would like to investigate whether goal contracts, dependency-aware replanning, durable execution state and real-world outcome verification can make agent systems more reliable than ordinary tool-call or fixed-plan approaches. Wearable terminals such as smart glasses, watches and rings could provide lightweight sensing and interaction, while demanding workloads remain on a configured local compute server. A second server could provide planned backup; other PCs should become temporary resources only following explicit user permission. These are research targets, not already validated product features.
+
+My existing work provides a bounded experimental starting point. Utopia/Digital City integrates Android and Web control surfaces with two physical Windows execution nodes and recent PCF/REX research-evaluation components. DS-Hns studies long-running software-work execution and crash/restart recovery; Codex Boss explores orchestration and evidence-based task acceptance. The existing evidence is strongest for software integration, recovery/verification engineering and reproducibility, rather than a completed wearable, full physical failover deployment or longitudinal consumer-user study.
+
+One possible systems-led research project is to compare three agent-execution policies on realistic mobile or wearable-initiated tasks: a fixed-plan baseline, a locally recovering baseline, and a goal-preserving replanning approach that checks previous results and dependencies before revising the plan. Evaluation would measure real task completion, incorrect success reports, recovery quality, unnecessary user involvement, and time-to-result, including physical connectivity disruptions. Simulation would not substitute for real-device performance claims.
+
+I would be interested in aligning this work with Professor Li's concrete edge/embodied or wearable projects, and am prepared to use or extend the group's software and evaluation platforms instead of requiring the preservation of my own framework. I prefer empirical systems research and practical intelligent terminals, not pure model-algorithm development, robot-control theory or electronic circuit design.
+
+**Status:** research-direction note only; NOT SENT; no supervisor approval, funding or published-paper claim.

@@ -35,6 +35,10 @@
 
 **HOLD / 不进入发送池：Dartmouth Shawn Shan、Penn State Yuchen Yang。** 两人的旧 Gmail 草稿与历史材料保留，不修改、不发送。
 
+## 已提交的澳门大学申请（独立 warm lead）
+
+- **UM / Li Li：** 既有申请仍按原历史记录为 SUBMITTED，导师已回应并进入私人渠道；[新版研究兴趣与 CV 源](tracking-hist/2026-10-9/macau/UM/Li-Li/README.md)仅供后续导师请求时参考。**不创建新邮件，不改变申请或 funding 状态**。
+
 ## 当期执行状态
 
 - [2026-10-9 六导师包 + SUTD 项目正式申请包](tracking-hist/2026-10-9/PACKAGE-INDEX.md)：新 CV TeX、英文邮件候选、Research Interest、协议和附件缺项。

@@ -13,6 +13,10 @@
 | PolyU Yu Liu | 边缘任务调度与容错，不做理论/量子为主 | 具体 CS 研究课题、培养考核形式未知 | [包](../tracking-hist/2026-10-9/hong-kong/PolyU/Yu-Liu/README.md) |
 | CUHK James Cheng | Agent benchmarking、真实长期任务 outcome evaluation | 广范围基础 CS/数学入学笔试的备考量与项目纯算法/机器人偏移 | [包](../tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng/README.md) |
 
+## 独立于六人批次的已提交申请
+
+- UM / Li Li：warm 私人联系已建立，原始 UM 正式申请状态保持 SUBMITTED；[更新研究材料](../tracking-hist/2026-10-9/macau/UM/Li-Li/README.md)仅用于已有渠道对方提出需要时参考，不能代替已确认 offer。
+
 ## 个人指令优先级
 
 - **HOLD**：Dartmouth Shawn Shan、Penn State Yuchen Yang，不发邮件也不更新 Gmail 旧草稿。

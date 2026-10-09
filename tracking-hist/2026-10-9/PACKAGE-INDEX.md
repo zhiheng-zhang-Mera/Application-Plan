@@ -11,6 +11,10 @@
 | [Yu Liu](hong-kong/PolyU/Yu-Liu/README.md) | PolyU | 同上 | bounded edge executor & recoverability | 项目与 QE 具体细则 |
 | [James Cheng](hong-kong/CUHK/James-Cheng/README.md) | CUHK | 同上 | agent benchmarking / real-world outcomes | 广范围入学笔试、算法/机器人偏移 |
 
+## 既有 Warm lead（不属于新冷套磁六人池）
+
+- [University of Macau / Li Li 当前研究更新包](macau/UM/Li-Li/README.md)：**已有申请 SUBMITTED、导师已回复并转私人渠道**；只更新研究画像、CV 源和配套说明，不自动写邮件或重新提交。
+
 ## SUTD program-level（不是 Zhao Fall-2027）
 
 - [Jan-2027 正式申请包](singapore/SUTD/_program-Jan-2027/README.md)（Statement of Objectives、program CV.tex、application checklist、附件清单）

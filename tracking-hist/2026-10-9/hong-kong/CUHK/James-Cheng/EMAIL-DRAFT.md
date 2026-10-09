@@ -29,6 +29,6 @@ Zhiheng Zhang
 ## Internal QA
 
 - PI-specific source: https://www.cse.cuhk.edu.hk/~jcheng/
-- Applicant source: [research profile](../../../../materials/research-profile.md)（此相对链接仅逻辑指引，请以项目根目录路径为准）。
+- Applicant source: [research profile](../../../../../materials/research-profile.md)。
 - No publication, invented hardware or completed consumer product claimed.
 - No student email sent; ensure actual attachments before future human approval.

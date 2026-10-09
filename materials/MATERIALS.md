@@ -6,6 +6,7 @@
 
 - [x] [英文 Research Statement 母版](RESEARCH-STATEMENT-MASTER.md)；单独研究主张、尚未提交，不代替 PI-specific Statement。
 - [x] [2026-10-09 六导师英文套磁候选 / Research Interest / CV.tex](../tracking-hist/2026-10-9/PACKAGE-INDEX.md)；各有独立协议、证据和考试门禁。
+- [x] [UM Li Li 已有 warm lead 研究材料](../tracking-hist/2026-10-9/macau/UM/Li-Li/README.md)，非新冷套磁，不改变已提交 UM 正式申请。
 - [x] [SUTD Jan-2027 新 Statement of Objectives](../tracking-hist/2026-10-9/singapore/SUTD/_program-Jan-2027/Statement-of-Objectives.md)；含未来研究阶段与已有事实边界，不表示正式申请已提交。
 - [ ] 新版六导师 / SUTD Jan CV.pdf：**TeX 源已生成，PDF 仍待本地或明确授权的构建与版面核验**；不要用 2026-10-6 的 PDF 冒充新版，也不要自动触发 GitHub Actions。
 - [ ] 各导师的 post-revision 附件组合需要完成 PDF、成绩单、协议的最终发送前 QA。
