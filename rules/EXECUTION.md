@@ -744,3 +744,13 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 - **专业考试允许**，但要在得到正式考试日后有足够可预测备考时间、范围主要为已学基础或本领域研究，不得要求复习过宽或自学大量新知识；考试风险 UNKNOWN 不自动拒绝。英语/GRE 不要求/豁免仍为独立 Hard Gate。
 - 导师包中的邮件正文、CV、Research Interest、Statement of Objectives 必须分别个性化；只准备 GitHub 文件不会自动更新 Gmail 旧草稿。旧邮件附件不是当前新版本文件；没有实际可用 PDF 时必须明确 PDF_PENDING，不能声称已附上。
 - **用户目前指令：不要修改/发送任何 Gmail 邮件**；Shawn Shan 与 Yuchen Yang = HOLD。所有资料写入均是 NOT_SENT / HUMAN_REVIEW。旧历史批次不覆盖新计划，也不删除历史发送记录。
+
+## 20. Fall 2027 导师套磁开场与学历国家说明（2026-10-09）
+
+适用于 **2026-10-9 当前六位 prospective PhD supervisor cold inquiry**，及其后续从该批次派生的新版本：
+
+- 英文首段明确 **Fall 2027 PhD admission / starting in Fall 2027**；不得只写笼统的 `2027`，也不得冒称已正式 submitted。
+- 同一段明确 **Bachelor of Science in Computer Science — University of British Columbia (UBC), Canada**；**Master of Computer Science（在读）— University of Melbourne, Australia**。
+- 未指定特殊 subject 的导师在主题中也注明 **Fall 2027 PhD**；指定主题的 **CUHK James Cheng 固定 `phd application`**、**SUTD Ruochen Zhao 固定 `PhD-Fall 2027-Zhiheng Zhang-University of Melbourne`**，不修改专属协议。
+- **例外**：SUTD **January 2027** program-level 正式申请不是 Fall-2027 cold inquiry；澳门大学 **Li Li 已提交申请/warm private lead** 也不得被新入学时间覆盖；Dartmouth Shawn Shan 和 Penn State Yuchen Yang 继续 HOLD。
+- 修改 GitHub 的候选邮件不代表 Gmail 草稿同步、附件真实存在或邮件已发送。当前仍无修改/发送 Gmail 的授权。

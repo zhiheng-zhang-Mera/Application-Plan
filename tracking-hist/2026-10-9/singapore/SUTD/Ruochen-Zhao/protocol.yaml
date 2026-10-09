@@ -5,6 +5,9 @@ institution: "SUTD ISTD"
 contact_email: "esther_zhao@sutd.edu.sg"
 contact_page: "https://ruochenzhao.github.io/openings/"
 email_subject: "PhD-Fall 2027-Zhiheng Zhang-University of Melbourne"
+target_intake: "Fall 2027"
+undergraduate_institution_country: Canada
+masters_institution_country: Australia
 research_fit: "B+"
 direction_drift_risk: "MEDIUM_HIGH"
 decision: "CONDITIONAL_AGENT_SYSTEMS_FIT"

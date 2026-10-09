@@ -4,7 +4,10 @@ supervisor: "Tse-Hsun (Peter) Chen"
 institution: "Concordia University"
 contact_email: "peterc@encs.concordia.ca"
 contact_page: "https://petertsehsun.github.io/"
-email_subject: "Prospective PhD student — goal-preserving long-horizon coding agents"
+email_subject: "Fall 2027 PhD inquiry — goal-preserving long-horizon coding agents"
+target_intake: "Fall 2027"
+undergraduate_institution_country: Canada
+masters_institution_country: Australia
 research_fit: "A core RQ"
 direction_drift_risk: "MEDIUM_HIGH"
 decision: "CORE_RQ_MATCH_EXAM_CONDITIONAL"

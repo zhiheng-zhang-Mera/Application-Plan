@@ -4,7 +4,10 @@ supervisor: "Zhenjiang Li"
 institution: "City University of Hong Kong"
 contact_email: "zhenjiang.li@cityu.edu.hk"
 contact_page: "https://www.cs.cityu.edu.hk/~zhenjili/"
-email_subject: "Prospective 2027 PhD inquiry — wearable AI and reliable personal-agent systems"
+email_subject: "Fall 2027 PhD inquiry — wearable AI and reliable personal-agent systems"
+target_intake: "Fall 2027"
+undergraduate_institution_country: Canada
+masters_institution_country: Australia
 research_fit: "A+"
 direction_drift_risk: "MEDIUM"
 decision: "PRIORITY_RESEARCH_FIT_EXAM_CONDITIONAL"

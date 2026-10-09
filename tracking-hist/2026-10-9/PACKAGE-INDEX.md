@@ -1,6 +1,10 @@
 # 2026-10-09 PhD 申请材料包索引
 
-**NOT SENT / GitHub-only / Human Review Required.** 研究匹配度是研究相近程度，不是录取概率。更新了研究画像与 GRE/英语、专业考试门禁；历史邮件草稿未改动。
+**Fall 2027 PhD / NOT SENT / GitHub-only / Human Review Required.**
+
+本轮 6 位导师邮件均已在英文第一段明确 **PhD Fall 2027**，并标注本科 **UBC（Canada）**、硕士 **University of Melbourne（Australia）**。CUHK 固定主题 `phd application`、SUTD 导师固定主题 `PhD-Fall 2027-Zhiheng Zhang-University of Melbourne` 均保留；其余导师主题明确包含 Fall 2027 PhD。
+
+ 研究匹配度是研究相近程度，不是录取概率。更新了研究画像与 GRE/英语、专业考试门禁；历史邮件草稿未改动。
 
 | 导师 | 学校 | 本期内容 | 研究切入 | 审核风险 |
 |---|---|---|---|---|

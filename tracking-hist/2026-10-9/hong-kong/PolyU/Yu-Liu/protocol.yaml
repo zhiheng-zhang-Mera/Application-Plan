@@ -4,7 +4,10 @@ supervisor: "Yu Liu"
 institution: "PolyU Computing"
 contact_email: "liuyu@polyu.edu.hk"
 contact_page: "https://www4.comp.polyu.edu.hk/~liuyu/"
-email_subject: "Prospective PhD student — reliable edge execution for personal AI"
+email_subject: "Fall 2027 PhD inquiry — reliable edge execution for personal AI"
+target_intake: "Fall 2027"
+undergraduate_institution_country: Canada
+masters_institution_country: Australia
 research_fit: "B"
 direction_drift_risk: "HIGH"
 decision: "LOWER_PRIORITY_CONDITIONAL_EDGE_TRACK"

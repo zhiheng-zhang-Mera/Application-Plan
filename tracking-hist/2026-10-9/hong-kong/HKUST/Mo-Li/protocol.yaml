@@ -4,7 +4,10 @@ supervisor: "Mo Li"
 institution: "HKUST CSE"
 contact_email: "lim@cse.ust.hk"
 contact_page: "https://cse.hkust.edu.hk/~lim/"
-email_subject: "Prospective PhD student — mobile AIoT and reliable long-horizon personal AI"
+email_subject: "Fall 2027 PhD inquiry — mobile AIoT and reliable long-horizon personal AI"
+target_intake: "Fall 2027"
+undergraduate_institution_country: Canada
+masters_institution_country: Australia
 research_fit: "A"
 direction_drift_risk: "MEDIUM"
 decision: "PRIORITY_RESEARCH_FIT_QE_MANAGEABLE_CONDITIONAL"

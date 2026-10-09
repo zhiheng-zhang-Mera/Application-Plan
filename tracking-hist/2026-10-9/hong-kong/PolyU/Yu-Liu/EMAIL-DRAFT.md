@@ -1,7 +1,7 @@
 # Tailored PhD Inquiry — 2026-10-09 (NOT SENT)
 
 **To:** liuyu@polyu.edu.hk  
-**Subject:** Prospective PhD student — reliable edge execution for personal AI
+**Subject:** Fall 2027 PhD inquiry — reliable edge execution for personal AI
 
 > 研究画像校准后的 GitHub 提案，不会自动同步至 Gmail。只发送英文正文；任何 PDF/正式成绩单未实际附加前，不得认为可投递。
 
@@ -9,7 +9,7 @@
 
 Dear Professor Liu,
 
-I am completing the Master of Computer Science research project at the University of Melbourne after earning a BSc in Computer Science at the University of British Columbia.
+I am writing to express my interest in joining your group as a PhD student starting in Fall 2027. I am currently completing a Master of Computer Science at the University of Melbourne in Australia, after earning a BSc in Computer Science from the University of British Columbia (UBC) in Canada.
 
 I am interested in your Delta Group's distributed and edge computing work, particularly the problem of making resource-aware execution reliable for user-facing AI services.
 
@@ -26,9 +26,16 @@ Zhiheng Zhang
 
 研究连接：Delta Group 分布式/边缘计算。表达固定个人服务器为日常中心、额外 PC 需审批、终端只做轻计算；避免误写为去中心化无授权节点池，不承诺量子优化或以纯理论方法为主。PolyU 当前资格考试细节须核验。
 
+## 本轮校对新增说明
+
+- 已在英语邮件**第一句话**明确：申请 Fall 2027 入学的 PhD，属于 prospective inquiry，不代表已经正式递交学校申请。
+- 已在第二句话明确：University of Melbourne（澳大利亚，硕士在读）、University of British Columbia / UBC（加拿大，本科）。
+- 2027 Fall 与 SUTD Jan-2027 正式项目级申请、UM 已提交申请分别管理。
+
 ## Internal QA
 
 - PI-specific source: https://www4.comp.polyu.edu.hk/~liuyu/
 - Applicant source: [research profile](../../../../../materials/research-profile.md)。
+- Fall 2027 PhD intention is stated in the first sentence; degree institutions and countries are explicit.
 - No publication, invented hardware or completed consumer product claimed.
 - No student email sent; ensure actual attachments before future human approval.

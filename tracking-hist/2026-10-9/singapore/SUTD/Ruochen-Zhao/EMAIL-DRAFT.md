@@ -9,9 +9,9 @@
 
 Dear Professor Zhao,
 
-I am completing the Master of Computer Science research project at the University of Melbourne after earning a BSc in Computer Science at the University of British Columbia.
+I am writing to express my interest in joining your group as a PhD student starting in Fall 2027. I am currently completing a Master of Computer Science at the University of Melbourne in Australia, after earning a BSc in Computer Science from the University of British Columbia (UBC) in Canada.
 
-I am writing about your fully funded Fall 2027 PhD opening. I am particularly interested in your work on trustworthy agents that reason faithfully, report honestly and improve reliably. In my own projects, I have become concerned about what happens when an agent continues working for hours and can no longer reliably distinguish task progress from real completion.
+I am particularly interested in your work on trustworthy agents that reason faithfully, report honestly and improve reliably. In my own projects, I have become concerned about what happens when an agent continues working for hours and can no longer reliably distinguish task progress from real completion.
 
 Codex Boss studies evidence-aware acceptance and multi-agent review, while DS-Hns explores persistent execution and recovery for long-running software tasks. Utopia provides an additional bounded multi-device testbed with fault injection and reproducible evaluation evidence. These artifacts motivate a research problem, rather than proving it solved.
 
@@ -26,9 +26,16 @@ Zhiheng Zhang
 
 研究连接：可信 LLM Agent、faithfulness、honest reporting、agent evaluation。强调实证系统和真实任务完成，不宣称愿以新 RL 算法、语言模型训练为主论文贡献。严格保留导师给定的主题格式与仅 CV 必需条件；是否适合系统导向应当先确认。
 
+## 本轮校对新增说明
+
+- 已在英语邮件**第一句话**明确：申请 Fall 2027 入学的 PhD，属于 prospective inquiry，不代表已经正式递交学校申请。
+- 已在第二句话明确：University of Melbourne（澳大利亚，硕士在读）、University of British Columbia / UBC（加拿大，本科）。
+- 2027 Fall 与 SUTD Jan-2027 正式项目级申请、UM 已提交申请分别管理。
+
 ## Internal QA
 
 - PI-specific source: https://ruochenzhao.github.io/openings/
 - Applicant source: [research profile](../../../../../materials/research-profile.md)。
+- Fall 2027 PhD intention is stated in the first sentence; degree institutions and countries are explicit.
 - No publication, invented hardware or completed consumer product claimed.
 - No student email sent; ensure actual attachments before future human approval.
