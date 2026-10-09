@@ -16,7 +16,7 @@ gre: VERIFY_OFFICIAL
 exam_preparation: CONDITIONAL_OR_UNKNOWN
 outreach_state: GMAIL_ATTACHED_NEW_DRAFT_NOT_SENT
 gmail_sync: COMPLETED_IN_NEW_DRAFT
-current_gmail_draft_id: "r6876212347917210285"
+current_gmail_draft_id: "r-4824334217818394514"
 previous_gmail_draft_id: "r-2772843160601490178"
 gmail_attachment_verified: true
 drive_cv_pdf_id: "1eY6vUXy1-mKDoNNh4uJKX2qCuIsUq2Ui"
@@ -25,3 +25,6 @@ cv_pdf: COMPILED_A4_ONE_PAGE_VERIFIED
 evidence_utopia_main_sha: 944f47dd6c7e18b3388b6d769dbbb6dddbe74f00
 evidence_city_main_sha: 3110572de149ab2b724cfd6355c23a00ec6860b4
 human_review_required: true
+
+scheduled_send: CONDITIONAL_NO_SEND_IF_MISSING_DOCUMENTS
+transcript_verification: OFFICIAL_TRANSCRIPT_MISSING

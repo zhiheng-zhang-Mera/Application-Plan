@@ -32,3 +32,5 @@ Concordia 官方说明学校 **Oct 12 Thanksgiving 关闭**，Oct 13–16 为 Re
 ## 重要限制
 
 **Automations 是否在预定时间有可用 Gmail connector、是否能在未来执行真正的 send_draft，须以任务执行结果为准。** 不要把本安排误写为 Gmail 原生排队投递已成功。若想用 Gmail 原生 Schedule Send，需要在 Gmail 界面中单独设置；这里未声称使用该功能。
+
+**当前附件处理实况**：Peter Chen 新草稿 `r5912071168757690521`（已附 CV + UBC 官方成绩单，Melbourne 当前官方成绩单未知）；James Cheng 新草稿 `r-4824334217818394514`（严格主题 `phd application`，仅附 CV，**官方成绩单尚缺**）。这两封的自动任务已严格配置“不满足则不发送”；旧草稿不会自动替代。
