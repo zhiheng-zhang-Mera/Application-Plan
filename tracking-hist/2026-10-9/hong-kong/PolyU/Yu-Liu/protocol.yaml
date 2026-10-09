@@ -1,0 +1,20 @@
+schema_version: 2
+snapshot_date: 2026-10-09
+supervisor: "Yu Liu"
+institution: "PolyU Computing"
+contact_email: "liuyu@polyu.edu.hk"
+contact_page: "https://www4.comp.polyu.edu.hk/~liuyu/"
+email_subject: "Prospective PhD student — reliable edge execution for personal AI"
+research_fit: "B"
+direction_drift_risk: "HIGH"
+decision: "LOWER_PRIORITY_CONDITIONAL_EDGE_TRACK"
+english_waiver: VERIFY_OFFICIAL
+gre: VERIFY_OFFICIAL
+exam_preparation: CONDITIONAL_OR_UNKNOWN
+outreach_state: GITHUB_MATERIALS_ONLY_NOT_SENT
+gmail_sync: NOT_REQUESTED
+cv_source: CV.tex
+cv_pdf: PENDING
+evidence_utopia_main_sha: 944f47dd6c7e18b3388b6d769dbbb6dddbe74f00
+evidence_city_main_sha: 3110572de149ab2b724cfd6355c23a00ec6860b4
+human_review_required: true

@@ -1,0 +1,20 @@
+schema_version: 2
+snapshot_date: 2026-10-09
+supervisor: "Tse-Hsun (Peter) Chen"
+institution: "Concordia University"
+contact_email: "peterc@encs.concordia.ca"
+contact_page: "https://petertsehsun.github.io/"
+email_subject: "Prospective PhD student — goal-preserving long-horizon coding agents"
+research_fit: "A core RQ"
+direction_drift_risk: "MEDIUM_HIGH"
+decision: "CORE_RQ_MATCH_EXAM_CONDITIONAL"
+english_waiver: VERIFY_OFFICIAL
+gre: VERIFY_OFFICIAL
+exam_preparation: CONDITIONAL_OR_UNKNOWN
+outreach_state: GITHUB_MATERIALS_ONLY_NOT_SENT
+gmail_sync: NOT_REQUESTED
+cv_source: CV.tex
+cv_pdf: PENDING
+evidence_utopia_main_sha: 944f47dd6c7e18b3388b6d769dbbb6dddbe74f00
+evidence_city_main_sha: 3110572de149ab2b724cfd6355c23a00ec6860b4
+human_review_required: true
