@@ -26,6 +26,8 @@
 - [Jan-2027 正式申请包](singapore/SUTD/_program-Jan-2027/README.md)（Statement of Objectives、program CV.tex、application checklist、附件清单）
 - 标准 SUTD PhD Jan 2027 官方截止 2026-10-30；**尚未正式提交**。
 
+- [本轮六位导师定时发送计划（ChatGPT Automations）](OUTREACH-SCHEDULE.md) —— 前四位正常计划、CUHK/Concordia 要求成绩单的两个条件门禁；未来触发检查，**目前未发送**。
+
 ## 共享证据与安全约束
 
 - [Utopia/City/REX/Celestial 真实状态](_shared/CLAIM-BOUNDARY.md)
