@@ -13,7 +13,7 @@ I am writing to express my interest in joining your group as a PhD student start
 
 Your SPEAR Lab's focus on coding and long-horizon LLM agents is closely connected to the research question that has emerged from my systems work: how can an agent revise a plan after a failure while remaining faithful to the original task and the evidence already produced?
 
-My DS-Hns work provides a testbed for persistent repository tasks, lifecycle state and crash/resume recovery. Codex Boss explores evidence-based task acceptance and the preservation of unresolved failure cases. I have also used Utopia's research-evaluation work to study replay, fault injection and reproducibility. These are engineering artifacts and bounded tests, not claims that general-purpose agent reliability has already been solved.
+I previously completed and froze DS-Hns, a runtime for persistent repository tasks and crash/resume recovery, and Codex Boss, which addressed evidence-governed multi-agent acceptance. I then integrated their work into Utopia, another completed and frozen project, whose evaluation system includes bounded replay, fault-injection and reproducibility evidence. These are completed software artifacts with defined test boundaries, not proof that general-purpose agent reliability has already been solved.
 
 I would like to study goal-preserving replanning for repository-scale coding agents: before changing implementation direction, an agent would check dependencies and previously verified results, then substantiate completion through executed tests and real task outcomes rather than a plausible narrative. I am particularly interested in empirical benchmarks where a seemingly successful agent has silently broken earlier work.
 
@@ -37,5 +37,6 @@ Zhiheng Zhang
 - PI-specific source: https://petertsehsun.github.io/
 - Applicant source: [research profile](../../../../../materials/research-profile.md)。
 - Fall 2027 PhD intention is stated in the first sentence; degree institutions and countries are explicit.
+- Project history corrected: DS-Hns and Codex Boss completed/frozen predecessors; Utopia completed/frozen integrated successor; Celestial planned refactoring/next iteration.
 - No publication, invented hardware or completed consumer product claimed.
 - No student email sent; ensure actual attachments before future human approval.

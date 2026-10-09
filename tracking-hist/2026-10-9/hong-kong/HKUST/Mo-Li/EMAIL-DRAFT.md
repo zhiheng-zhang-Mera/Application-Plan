@@ -13,7 +13,7 @@ I am writing to express my interest in joining your group as a PhD student start
 
 I am interested in the WANDS group's work on wireless and mobile computing, pervasive sensing and AIoT systems, especially the challenges that appear when a mobile interface must coordinate useful work through an unreliable network.
 
-In Utopia/Digital City, I have developed a bounded multi-device execution and control environment with two physical Windows workers and an Android control surface. Its recent Personal Compute Fabric integration includes resource and execution contracts, and a research-evaluation path with fault injection and reproducible evidence. The demonstrated scope is limited; I have not yet validated a dedicated wearable product or full dual-server failover.
+My completed and frozen Utopia/Digital City project integrates execution and orchestration work from two earlier projects I completed and froze, DS-Hns and Codex Boss. Its validated scope includes two physical Windows workers, an Android control surface, PCF execution/resource contracts and reproducible fault-injection evidence. Although Utopia is complete within its frozen scope, it does not yet validate a dedicated wearable product or physical dual-server failover.
 
 The PhD problem I would like to explore is not simply faster offloading. A wearable-initiated AI task may run for a long time on a personal server, while the user moves and connectivity changes. How can the agent maintain the original goal, make bounded recovery decisions, and report genuine completion without repeatedly requiring the user to intervene? I would evaluate this with realistic mobile task workflows, controlled disruptions and end-to-end outcome measurements.
 
@@ -37,5 +37,6 @@ Zhiheng Zhang
 - PI-specific source: https://cse.hkust.edu.hk/~lim/
 - Applicant source: [research profile](../../../../../materials/research-profile.md)。
 - Fall 2027 PhD intention is stated in the first sentence; degree institutions and countries are explicit.
+- Project history corrected: DS-Hns and Codex Boss completed/frozen predecessors; Utopia completed/frozen integrated successor; Celestial planned refactoring/next iteration.
 - No publication, invented hardware or completed consumer product claimed.
 - No student email sent; ensure actual attachments before future human approval.

@@ -13,7 +13,7 @@ I am writing to express my interest in joining your group as a PhD student start
 
 I am interested in the agent-evaluation part of your current research agenda, particularly benchmarking and rubric-based assessment of long-horizon agents. My main concern is how a tool-using agent can appear successful while failing to deliver the original user's intended outcome.
 
-In Codex Boss and DS-Hns, I have worked on evidence-based acceptance and persistent execution for long-running software tasks. Utopia/Digital City adds a bounded cross-device software testbed and a reproducible evaluation pipeline with fault injection, trace records and replay. I am careful to distinguish these engineering results from a completed general-purpose personal AI system.
+I first completed and froze Codex Boss and DS-Hns as separate projects, addressing evidence-based acceptance and persistent execution for long-running software tasks. I subsequently fused their work into Utopia/Digital City, also completed and frozen, with bounded cross-device execution and reproducible fault-injection/trace evidence. I distinguish completion of that software platform from validation of a general-purpose consumer AI assistant.
 
 For a PhD, I would like to investigate evaluation and execution mechanisms for goal-faithful agents: clear goal and acceptance contracts, evidence checks when plans change, and realistic tasks in which the outcome can be verified independently. I would compare false-completion decisions, recovery correctness and the amount of required human intervention against existing tool-use approaches. I am especially interested in empirical agent systems and evaluation, rather than making robotics control or foundational model training the main contribution.
 
@@ -37,5 +37,6 @@ Zhiheng Zhang
 - PI-specific source: https://www.cse.cuhk.edu.hk/~jcheng/
 - Applicant source: [research profile](../../../../../materials/research-profile.md)。
 - Fall 2027 PhD intention is stated in the first sentence; degree institutions and countries are explicit.
+- Project history corrected: DS-Hns and Codex Boss completed/frozen predecessors; Utopia completed/frozen integrated successor; Celestial planned refactoring/next iteration.
 - No publication, invented hardware or completed consumer product claimed.
 - No student email sent; ensure actual attachments before future human approval.

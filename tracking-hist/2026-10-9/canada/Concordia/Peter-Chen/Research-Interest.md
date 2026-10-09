@@ -18,7 +18,7 @@ The primary measurements would be real task success, false-completion claims, un
 
 ## Reusable platform, not a fixed doctoral prerequisite
 
-Utopia, DS-Hns and Codex Boss are sources of existing engineering experience and bounded evidence. Celestial is a future extensible research-workspace concept; I am happy to adapt the research implementation to the supervisor's systems and ongoing project. My intended main contribution is software-systems reliability and empirical agent evaluation, not pure algorithms, robotics control or electronic hardware design.
+DS-Hns and Codex Boss are separate projects that I previously completed and froze. I subsequently integrated their work into Utopia, another completed and frozen multi-device platform with bounded validation evidence. Celestial is my planned redesign and next iteration of Utopia, not an unrelated or already completed platform. I would gladly adapt that future iteration—or its research mechanisms—to my supervisor's existing systems. My intended main contribution is software-systems reliability and empirical agent evaluation, not pure algorithms, robotics control or electronic hardware design.
 
 ## Evidence boundaries
 

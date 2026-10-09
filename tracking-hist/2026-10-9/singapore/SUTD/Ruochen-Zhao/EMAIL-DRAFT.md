@@ -13,7 +13,7 @@ I am writing to express my interest in joining your group as a PhD student start
 
 I am particularly interested in your work on trustworthy agents that reason faithfully, report honestly and improve reliably. In my own projects, I have become concerned about what happens when an agent continues working for hours and can no longer reliably distinguish task progress from real completion.
 
-Codex Boss studies evidence-aware acceptance and multi-agent review, while DS-Hns explores persistent execution and recovery for long-running software tasks. Utopia provides an additional bounded multi-device testbed with fault injection and reproducible evaluation evidence. These artifacts motivate a research problem, rather than proving it solved.
+I previously completed and froze Codex Boss (evidence-aware multi-agent acceptance) and DS-Hns (persistent execution and failure recovery). Their work was subsequently integrated into Utopia, a separately completed and frozen multi-device platform with bounded fault-injection and reproducibility evidence. That progression motivates questions about faithful long-horizon agents, without claiming that the research problem has already been solved.
 
 I would like to investigate goal-faithful long-horizon tool-use agents that can adapt plans within an authorized scope without losing earlier constraints, and that disclose incomplete evidence rather than reporting success prematurely. A practical evaluation could compare real task outcomes and false-completion rates under interruptions and changed plans. I am especially interested in the systems and evaluation side of this problem and would be glad to refine it around your group's active projects.
 
@@ -37,5 +37,6 @@ Zhiheng Zhang
 - PI-specific source: https://ruochenzhao.github.io/openings/
 - Applicant source: [research profile](../../../../../materials/research-profile.md)。
 - Fall 2027 PhD intention is stated in the first sentence; degree institutions and countries are explicit.
+- Project history corrected: DS-Hns and Codex Boss completed/frozen predecessors; Utopia completed/frozen integrated successor; Celestial planned refactoring/next iteration.
 - No publication, invented hardware or completed consumer product claimed.
 - No student email sent; ensure actual attachments before future human approval.

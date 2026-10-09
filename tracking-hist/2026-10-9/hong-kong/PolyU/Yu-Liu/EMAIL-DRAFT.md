@@ -13,7 +13,7 @@ I am writing to express my interest in joining your group as a PhD student start
 
 I am interested in your Delta Group's distributed and edge computing work, particularly the problem of making resource-aware execution reliable for user-facing AI services.
 
-My Utopia/Digital City project provides bounded multi-device execution, with an Android/Web control surface and two physical Windows workers. Recent Personal Compute Fabric work includes explicit resource-observation and execution contracts; accompanying research work records failure injection, replay and traceable completion evidence. I do not yet claim a fully validated wearable or multi-platform edge deployment.
+I completed and froze Utopia/Digital City as an integrated successor to my earlier completed and frozen DS-Hns and Codex Boss projects. Utopia provides bounded multi-device execution with Android/Web control and two physical Windows workers; its integrated PCF/REX work includes resource-observation contracts, fault injection, replay and traceable results. The project is finished within its frozen scope, but I do not claim a fully validated wearable or multi-platform edge deployment.
 
 For a PhD, I would like to investigate a software-systems question at the intersection of edge computing and agent reliability. A lightweight wearable interface can authorize a multi-step task, while a personal server performs most computation. Rather than treating every nearby device as an automatically available worker, I am interested in consent-aware resource expansion, recovery after device interruption and verification of the actual end-to-end result. This can be measured with controlled failures, task success and user-intervention cost.
 
@@ -37,5 +37,6 @@ Zhiheng Zhang
 - PI-specific source: https://www4.comp.polyu.edu.hk/~liuyu/
 - Applicant source: [research profile](../../../../../materials/research-profile.md)。
 - Fall 2027 PhD intention is stated in the first sentence; degree institutions and countries are explicit.
+- Project history corrected: DS-Hns and Codex Boss completed/frozen predecessors; Utopia completed/frozen integrated successor; Celestial planned refactoring/next iteration.
 - No publication, invented hardware or completed consumer product claimed.
 - No student email sent; ensure actual attachments before future human approval.

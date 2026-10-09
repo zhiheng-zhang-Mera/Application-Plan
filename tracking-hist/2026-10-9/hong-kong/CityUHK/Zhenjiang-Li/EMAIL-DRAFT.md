@@ -13,7 +13,7 @@ I am writing to express my interest in joining your group as a PhD student start
 
 Your DamsonSys group's work across human-centric wearable sensing and resource-efficient on-device AI and agents is particularly relevant to the question I would like to study: how can a lightweight personal terminal initiate useful, reliable AI tasks without needing to host their full computation?
 
-I have built Utopia/Digital City as a research-oriented multi-device software platform. Its verified scope includes Web/Android control surfaces and two real Windows execution nodes; recent PCF integration and REX work provide bounded cross-host task evidence, fault studies and reproducible traces. These results do not yet constitute a complete wearable assistant or a consumer deployment.
+I completed and froze Utopia/Digital City as an integrated successor to two earlier projects that I had also completed and frozen: DS-Hns for long-running execution and Codex Boss for agent orchestration and evidence governance. Utopia's verified scope includes Web/Android control surfaces, two physical Windows execution nodes, and bounded PCF/REX cross-host execution and reproducibility evidence. This completed engineering project is not a claim that a wearable product or consumer deployment has been validated.
 
 For a PhD, I would like to investigate goal-authorized, long-horizon agents that use wearable context to coordinate work with a personal compute hub, replan safely after device and tool failures, and verify outcomes on real devices. A useful comparison would measure actual task completion and unnecessary user interventions, alongside edge resource and latency costs. I would be happy to adapt this approach to your group's existing sensing and AIoT systems.
 
@@ -37,5 +37,6 @@ Zhiheng Zhang
 - PI-specific source: https://www.cs.cityu.edu.hk/~zhenjili/
 - Applicant source: [research profile](../../../../../materials/research-profile.md)。
 - Fall 2027 PhD intention is stated in the first sentence; degree institutions and countries are explicit.
+- Project history corrected: DS-Hns and Codex Boss completed/frozen predecessors; Utopia completed/frozen integrated successor; Celestial planned refactoring/next iteration.
 - No publication, invented hardware or completed consumer product claimed.
 - No student email sent; ensure actual attachments before future human approval.
