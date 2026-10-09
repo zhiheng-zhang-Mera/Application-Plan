@@ -1,6 +1,6 @@
 # 申请执行规则
 
-> **当前申请工作流 — 2026-10-06。** 本文件是套磁、材料生成、QA、申请状态与人工审批的唯一主规则书。
+> **当前申请工作流 — 2026-10-09。** 本文件是套磁、材料生成、QA、申请状态与人工审批的唯一主规则书。
 
 ## 1. 总原则
 
@@ -153,7 +153,7 @@ warm/private channel 使用 application-specific 规则，不硬套普通 timer�
 
 当前重要边界：
 
-- **Utopia / PCF**：PCF 是计划中的下一阶段扩张，不是已完成证据。
+- **Utopia / PCF**：以当前 Utopia main 与 City 验收报告为准，PCF 部分能力已合入并存在跨 Windows 主机执行证据；Linux/手机 worker、双服务器高可用、可穿戴/消费级全面实测不得宣称完成。
 - **Utopia**：不得声称 wearable hardware、assistant/persona、general LLM router、Boss/Hns connectors 已全部完成，除非以后有新证据。
 - **Boss / Hns 论文**：未正式接收前不得写成 peer-reviewed publication。
 - 独立项目不能倒写成推荐人曾指导的项目。
@@ -449,7 +449,7 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 
 默认按以下顺序刷新：
 
-1. **`zhiheng-zhang-Mera/Utopia` 的当前 `main`**：确认已经合并、实际存在的能力与最新可验证状态；
+1. **`zhiheng-zhang-Mera/utopia` 的当前 `main`**：确认已经合并、实际存在的能力与最新可验证状态；
 2. **`zhiheng-zhang-Mera/Digital-City` 的当前 mission-book / reports / 当前规划**：确认最新研究方向、验收结论、已完成/未完成边界；
 3. Application-Plan 中的 `materials/research-profile.md` / `project-positioning.md`：只作为叙事路由参考，**不能替代对 Utopia 当前仓库状态的刷新**。
 
@@ -734,3 +734,13 @@ research、package generation、QA、状态刷新、材料准备可以自动执�
 - transcript；
 - required research statement / proposal；
 - 当前协议明确要求且真实存在的附件。
+
+## 19. 2026-10-09 用户确认的研究画像与考试修订（覆盖冲突旧规则）
+
+权威：[research-profile](../materials/research-profile.md)、[20Q 决策](../materials/PROFILE-DECISIONS-20Q.md)、[考试门禁](../materials/EXAM-READINESS-POLICY.md)。
+
+- CV/研究陈述/英文邮件应始终围绕 **long-horizon authorized personal AI, goal preservation, bounded replanning, real-device outcome validation**。导师课题优先、可以改平台；禁止不经用户同意把最终研究兴趣转向纯算法、机器人或硬件电路。
+- 旧材料出现“PCF 只是 design-only / REX-890 仍未完成”等时间过期断言时**必须更新**，同时保留物理验收限制；严禁把尚未部署的 wearable、双服务器、Celestial 想象成完成作品。
+- **专业考试允许**，但要在得到正式考试日后有足够可预测备考时间、范围主要为已学基础或本领域研究，不得要求复习过宽或自学大量新知识；考试风险 UNKNOWN 不自动拒绝。英语/GRE 不要求/豁免仍为独立 Hard Gate。
+- 导师包中的邮件正文、CV、Research Interest、Statement of Objectives 必须分别个性化；只准备 GitHub 文件不会自动更新 Gmail 旧草稿。旧邮件附件不是当前新版本文件；没有实际可用 PDF 时必须明确 PDF_PENDING，不能声称已附上。
+- **用户目前指令：不要修改/发送任何 Gmail 邮件**；Shawn Shan 与 Yuchen Yang = HOLD。所有资料写入均是 NOT_SENT / HUMAN_REVIEW。旧历史批次不覆盖新计划，也不删除历史发送记录。

@@ -1,213 +1,90 @@
 # 筛选与优先级规则
 
-> **当前申请侧重点 — 2026-10-06。** 本文件是决定“**投谁、为什么投、先做谁**”的唯一主规则书。按日期生成的 pool 文件只是证据快照，不是永久策略。
+> **2026-10-09 生效。** 当前研究目标以 [research-profile](../materials/research-profile.md) 与 [20Q 已确认决策](../materials/PROFILE-DECISIONS-20Q.md) 为准；旧 pool 文件仅为历史快照。本文件定义目标筛选与考试可准备性门禁。
 
-## 1. 当前博士研究身份
+## 1. 博士研究身份
 
-默认申请叙事已经从较窄的 **Boss + DS-Hns = AI4SE** 转向：
+**Reliable Long-Horizon Personal AI Agents for Wearable and Ubiquitous Computing**：研究用户目标授权、长期任务执行、全局一致性下的有界重规划和真实场景结果验收。
 
-> **Utopia：面向泛在智能体应用的持久个人计算底座。**
-
-当前最强博士主轴：
-
-1. **泛在 / 个人计算系统**
-2. **AI Systems / Agent Infrastructure**
-3. **分布式 / Edge / 异构设备系统**
-
-计划中的 **PCF — Personal Compute Fabric / Heterogeneous Edge Runtime** 是下一阶段研究型扩张方向：异构资源 telemetry、可解释 placement/offloading、排队、恢复、调度策略与实验集成。
-
-**PCF 是下一步研究方向，不得写成已完成功能。**
-
-可穿戴眼镜、个人医疗终端、娱乐室等属于平台上的**垂直应用**，默认不作为博士身份本体。
+- 领域覆盖偏好：可穿戴/智能终端 45%（其中 wearable 70%、smart space 30%）；异构/Edge 系统 30%；Agent 25%。
+- 贡献主问题：可靠长期任务完成；穿戴和泛在计算是首要真实应用场景，双服务器/PCF 是执行底座。
+- 方法：以软件系统机制与可复现实测为主，附真实设备和必要用户研究；非纯算法、非机器人控制/本体、非芯片/电路研发。
+- 申请人与导师研究课题**灵活适配**，不强迫导师沿用 Celestial 架构。Celestial 为未来研究主平台愿景，多学科档案室设计，不得写作已验证部署产品。
+- 消费级指标优先级：真实功能价值 > 稳定/无缝协同 > 低延迟。
 
 ## 2. 项目路由
 
-### 默认主项目 — Utopia
+- **Utopia + PCF/REX**：现有 Android/Web 控制与两个真实 Windows worker 的有界运行、跨主机任务与可复现实验方法。已进入 main 的代码不能再写成纯设计；不等于 Linux/手机 worker、可穿戴/双服务器容灾或全部物理测试完成。
+- **DS-Hns**：长时软件任务运行、重启恢复、状态延续、失败分析与终态证据；可靠 agent / coding-agent 导师优先。
+- **Codex Boss**：授权/编排/仲裁/证据接纳，面向目标忠实、可证伪的完成报告；绝不夸大功能验收。
+- **Privacy Lens**：可信证据/边界与可复现性；导师确实研究 provenance/privacy 时才突出。
+- **Celestial**：未来可适配实验室项目的多领域研究基础设施构想，当前不能作为已完成运行演示证据。
+- **论文**：未正式发表/录用不叫 peer-reviewed publication，preprint、manuscript、artifact 必须单独标身份。
 
-以下方向优先用 Utopia：
+## 3. 研究匹配优先级
 
-- ubiquitous / pervasive / personal computing；
-- multi-device / heterogeneous-device systems；
-- edge AI / distributed AI infrastructure；
-- device-aware agent execution；
-- human-agent action routing、confirmation、override；
-- provenance、truthful degradation、recoverability；
-- wearable / embodied-enabling systems，前提是软件系统与设备协调是核心。
+**Tier A — 核心：** reliable long-horizon agents with execution evidence; ubiquitous/wearable personal AI systems; software-first mobile/edge AI systems; goal-preserving replanning and failure recovery; real-world outcome evaluation.
 
-当前安全证据：
+**Tier B — 有条件高价值：** AI4SE coding agents、agent evaluation、human-agent interaction、distributed/edge runtimes；需能明确桥接回长期真实用户任务或核心可靠性机制。
 
-- Web + Android 产品面通过 authenticated gateway 集成；
-- Rooms / canonical Actions / City-task integration；
-- deterministic Ask/Do、歧义处理、确认与 manual fallback；
-- truthful health/degradation 与 idempotency；
-- 独立验收曾真实 REJECT 一个候选版本，修复后再次独立验收通过。
+**Tier C — 低优先：** 纯网络通信、硬件主导低功耗/传感器设计、量子优化、模型训练与 RL 算法。仅有明确 software-systems track 时继续。
 
-当前不得声称：
-
-- PCF 已完成；
-- 已有专门 wearable hardware experiment；
-- assistant/persona layer 已全部完成；
-- general LLM router 已完成；
-- Boss/Hns connector integration 已完成；
-- arbitrary shell 已完整开放。
-
-### 支撑主项目 — DS-Hns
-
-以下方向可改为 Hns 先行：
-
-- AI4SE / coding agents；
-- autonomous software maintenance；
-- long-horizon repository work；
-- crash/restart recovery；
-- AIOps / self-healing / software reliability。
-
-### 支撑主项目 — Codex Boss
-
-以下方向可改为 Boss 先行：
-
-- reliable / verifiable agents；
-- agent governance / adjudication；
-- evidence-based completion；
-- multi-agent orchestration；
-- trustworthy AI / auditability。
-
-### 次级路线
-
-- **Privacy Lens**：privacy、auditability、bounded interpretation、trustworthy software。
-- **Quant-Ultra**：financial ML、temporal validation、non-stationarity、decision-system infrastructure。
-- **Health / AI4Science**：只在 systems / empirical 方法为主、领域知识只是应用层时启用。
-
-## 3. 研究方向优先级
-
-### Tier A — 默认最高
-
-- ubiquitous / pervasive / personal computing；
-- multi-device / edge / heterogeneous runtime systems；
-- AI systems / agent infrastructure；
-- distributed systems for agent execution；
-- human-agent systems，且实现与实证评估为核心；
-- wearable / embodied-enabling computing，且软件 / 设备协调为核心。
-
-### Tier B — PI 更强时完全可作为主路线
-
-- AI4SE / coding agents / autonomous maintenance；
-- trustworthy / reliable agent systems；
-- software reliability / testing / recovery；
-- ML systems / systems-for-AI；
-- autonomous-system security / privacy engineering。
-
-### Tier C — 选择性使用
-
-- applied AI4Science / computational health，且 systems-led；
-- applied ML，且系统实现 / evaluation 仍是核心贡献；
-- Quant / financial ML，仅当导师真正匹配该方向。
-
-### 降权 / 排除
-
-不要因为简介里出现 agent、embodied、edge、robotics、AI 就自动提升。
-
-以下情况默认排除或显著降权：
-
-- theorem / proof / complexity 为主；
-- algorithmic game theory；
-- derivation-first optimization / statistical theory；
-- 没有实证系统子路线的纯 PL / formal methods；
-- control / robotics 方向主要贡献是控制理论推导；
-- 需要先承担大量领域理论推导、软件仅为辅助工具的 domain science。
+**排除主方向：** 纯算法理论/数学推导、机器人本体与控制、芯片/电路研发、没有系统可验证贡献的学科应用研究。
 
 ## 4. Hard Gate
 
-出现以下**已确认**情况，默认 REJECT：
+仍不主动参加新的 IELTS/TOEFL/DET 或 GRE：若该项目**必须新考**且无适用豁免/替代条件，默认 REJECT；英语本科授课和 GRE 不要求/可免要以官方政策核实。其它考试依 **第 5 节** 单独评价，绝对不得因“有 QE / 有笔试”自动 REJECT。
 
-- **GRE 必须提交**且没有适用 waiver；
-- **必须新考 IELTS / TOEFL / DET**，英语授课学历无法豁免；
-- 对方明确 academic eligibility floor 高于可直接比较的申请人成绩，且没有可用的项目/导师裁量；
-- 没有足够 PhD funding / tuition coverage；
-- 研究方法明确 pure-theory / method mismatch；
-- New Zealand 继续排除。
+其它硬门槛：已确认且不可豁免的学术成绩资格、不可接受的经费缺口、明确纯算法/机器人/硬件课题错配；新西兰仍按现有区域排除偏好处理。
 
-Academic gate 必须按目标项目自己的口径判断：
+成绩比较严格使用官方口径，不能擅自把 UBC 等级制或 Melbourne WAM 线性转换 4.0 GPA；现有学位、课程 GPA/weighted WAM、课程相当性要分开判断。
 
-- undergraduate cumulative；
-- last 60 credits；
-- final two years；
-- upper-level；
-- Master's；
-- honours classification；
-- 或官方明确的其他口径。
+## 5. 专业考试：通知时间与准备负担，而不是考试存在与否
 
-**禁止自行做线性 GPA/WAM/百分制换算。** 无法可靠比较就写 **UNKNOWN**，不能硬判 PASS。
+**核心新约束：** 允许入学前考试/面试和入学后 comprehensive/QE，但在知晓具体考试安排后应有**充分准备时间**；考试范围需可预期，准备应主要使用已掌握的 CS 基础或即将研究的本领域文献，不能要求大范围跨学科复习或自学大量新知识。
 
-## 5. 摩擦偏好
+每校记录：
+1. 公布**具体考试时间/日期的正式通知**及实际考试日期；若两者未公布，提前期为 UNKNOWN，不可将申请窗口冒充备考期。
+2. 形式：一小时笔试、研究综述/口头评估、资格考试、在线技术任务等；样题/题纲/考核范围及备考任务。
+3. 既有本科/硕士课程与所考内容重合程度；陌生学科数量、临时复习负担、需交付的材料量。
+4. 能否改期/延期/重考，考试与课题、奖学金、签证节点是否冲突。
+5. 结论：**ACCEPTABLE | CONDITIONAL | LOW_ROI | UNKNOWN**，每项附官方 URL 与核验日。
 
-优先研究先行、低摩擦路径。
+**禁止发明统一 2 周、1 个月等硬阈值**；以考试范围和正式通知的真实窗口综合判断。
 
-默认偏好顺序：
+- **研究综述/QE**：若主要阅读少量本领域论文，提前期充分，可接受，即使形式包含报告/口试。
+- **跨多门广泛 CS 知识的入学考**：在范围大、通知短、需大量陌生知识时降 ROI；若有明确题纲/样题、基础已掌握、准备窗口足够，则允许继续。
+- **信息不全**：只标 CONDITIONAL/UNKNOWN，先核实，不能靠印象一票否决或保证考试容易。
 
-**直接申请 / 简单 PI 沟通 > 普通 interview > recorded video > panel > technical screening / entrance exam / 重型 written assessment**
+执行详情与六校当前矩阵：[EXAM-READINESS-POLICY](../materials/EXAM-READINESS-POLICY.md)。
 
-入学前额外考试是明显负项。入学后的 qualifying / comprehensive exam 负担也要单独记录。
+## 6. 论文与实证证据
 
-摩擦不是绝对 hard gate，但当两个项目研究价值相近时，低摩擦项目优先。
-
-## 6. 论文策略
-
-正式 publication 有加分，但**不应该为了等论文而拖延好申请**。
-
-- Hns / Boss 可作为候选论文与 preprint。
-- preprint、冻结稿、repository artifact 不得写成 peer-reviewed publication。
-- 可复现实验、公开 artifact、独立验收、真实失败→修复链都可以作为研究能力证据。
-- 除非项目明确要求 publication，不要为了等论文决定错过 live deadline。
+- 正式 peer-reviewed publications 有加分，但不应让现有可投机会完全等待论文。
+- Utopia / REX 的日志、独立复现与真实故障修复可以证明研究工程与实验方法，不能自动证明新型机制的学术新颖性或普适性能。
+- 未来 wearable/消费者实测与真实用户研究尚未完成，必须明确作为 research plan。
 
 ## 7. 筛选顺序
 
-统一按：
+**英语/GRE/学术/经费等 Hard Gate → 研究问题与方法适配 → 导师实际招生 → 可迁移现有证据 → 考试可准备性 → 联系协议 → 地点/排名/执行 ROI**。
 
-**Hard Gate → Research Direction Fit → 2027 Recruitment/Capacity → Evidence Reuse → Funding → Friction → Contact Signal → Program/School/Location → Execution ROI**
+对考试单列 QUALIFICATION_PREP，不将“有考试”与“不能准备”混为一谈。
 
-越早失败，越不要继续浪费材料定制时间。
+## 8. 状态
 
-## 8. 状态枚举
+- **APPLY_NOW / APPLY / ACTIVE**：进入准备；不表示已正式递交。
+- **WATCH / CONDITIONAL**：等待官方资料/考试准备核验。
+- **BACKUP / LOW_ROI**：可申请但存在可量化不利条件。
+- **HOLD**：用户或实际联系/邮箱状态决定的冻结；Shawn Shan、Yuchen Yang 明确 HOLD。
+- **PRUNED / REJECT**：当前不投入或被真实硬门禁挡住，分别记录原因。
 
-- **APPLY_NOW** — hard gate 已清，且当前 deadline / 路线要求立即推进。
-- **APPLY** — 值得申请，只剩少量非阻塞工作。
-- **ACTIVE** — 当前值得投入 supervisor / program 工作。
-- **WATCH** — 只剩 1–2 个明确可核验 gate。
-- **BACKUP** — 可申请，但已知流程/方向摩擦导致 ROI 更低。
-- **HOLD** — 因已有申请/联系人关系暂时冻结。
-- **PRUNED** — 非硬性不合格，但当前不值得投入。
-- **REJECT** — hard gate 或严重 method mismatch。
+## 9. 动态事实核验
 
-## 9. 新鲜度
+任何 send-time 准备必须核实：2027 入口、导师 capacity、GRE/English、成绩相当性、考试通知/范围与负担、奖学金、官方申请/通信协议。官方项目规定优先于历史截图；旧 outreach batch 不自动变成可发送授权。
 
-以下高变化事实必须记录最新核验时间：
+## 10. 默认申请叙事
 
-- deadline；
-- GRE / English；
-- academic floor；
-- funding；
-- application fee；
-- interview / exam；
-- supervisor recruitment / capacity；
-- direct-contact instruction。
-
-旧 opening 不会因为 research fit 好就自动继续有效。
-
-## 10. 当前默认写法
-
-生成新的 broad systems 申请段落时，默认项目顺序：
-
-**Utopia → Hns/Boss 作为支撑证据**
-
-只有当导师明显更偏 AI4SE、verification/governance、privacy 或其他既有方向时才切换 lead project。
-
-统一写作逻辑：
-
-**问题 → 已有证据 → 已观察到的失败/限制 → 拟在 PhD 中继续研究的问题**
-
-不要写成：
-
-**项目列表 → 功能堆叠 → 夸大的 universal-AI 声称**。
+**问题 → 有界实现/证据 → 真实限制/反例 → 具体 RQ/实验 → 为什么这位导师**。System/wearable PI 用 Utopia-PCF 主证据；可靠 agent/AI4SE PI 用 Hns-Boss-REX 主证据。保留核心研究目标，但根据 PI 的现有项目灵活更改实验平台与具体题目。邮件不主动介绍 GRE/QE 偏好，也不承诺纯算法或机器人研究。
 
 ## 11. 导师检索：个人主页与套磁协议是强制检查项
 

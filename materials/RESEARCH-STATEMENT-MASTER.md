@@ -1,0 +1,27 @@
+# Research Statement — PhD 2027 (English master, not submitted)
+
+**Working title: Reliable Long-Horizon Personal AI Agents in Wearable and Ubiquitous Computing**
+
+My research goal is to develop software systems that allow personal AI agents to carry out user-authorized, long-running tasks reliably across the devices people already use. I am interested in wearable and ubiquitous computing not primarily as a hardware-design problem, but as an environment in which AI systems must sustain goals, coordinate execution, recover from disruptions, and demonstrate that a user's intended outcome has actually been achieved.
+
+A useful personal AI assistant should clarify the intended outcome and authorization boundaries before starting a task, then operate with minimal unnecessary interruptions. It should be possible to inspect progress, correct direction, pause, or terminate an action at any point. When an implementation strategy fails, the agent should be able to revise its plan without invalidating completed work or silently expanding its authority. I want to study the mechanisms that make this form of bounded autonomy trustworthy, rather than treating agent-generated explanations or passing unit tests as sufficient proof of success.
+
+My current engineering work provides a practical foundation for these questions. Utopia/Digital City has been used to build and review a bounded multi-device runtime with Web and Android control surfaces and two physical Windows execution nodes. Its development record includes cross-host task execution, provenance-aware receipts, failure injection, replay and independently reviewed reproducibility work. These results establish useful software infrastructure and experimental methods, but not a complete wearable assistant or a validated consumer product. In parallel, DS-Hns explores durable agent execution and recovery for repository-scale software tasks, while Codex Boss investigates multi-agent orchestration and evidence-based acceptance. These systems have taught me to distinguish an action that was attempted, a test that passed, and a result that genuinely satisfied the original goal.
+
+I would organize a doctoral project around three related research questions.
+
+**RQ1: How should a long-horizon agent preserve an authorized goal?** I would investigate goal contracts that capture desired outcomes, action boundaries, acceptance criteria, and conditions for user escalation. The aim would be to detect premature commitment, state drift, and apparent completion that lacks outcome evidence.
+
+**RQ2: How can the agent replan while preserving global consistency?** I would study how an agent can inspect dependencies and completed work before changing a plan, recover from failed tools or interrupted devices, and pursue alternative approaches after a user declines additional permissions or expenditure. A centralized personal compute hub and a standby server provide a concrete systems environment; connected wearables and phones may retain limited local functionality when the hub is unreachable.
+
+**RQ3: How should successful completion be evaluated in the real world?** I would build reproducible task suites and real-device workflows, using controlled baselines, fault injection and ablations together with end-to-end outcome measurements. The most important metrics are task success, false-completion rate, unnecessary human intervention, recovery correctness and time-to-result. For experiences that cannot be captured faithfully in simulation, I would use appropriately reviewed physical tests and user evaluations rather than claiming that automated proxies prove usability.
+
+For personal terminals, I envision lightweight wearable interfaces for sensing and interaction, with demanding work ordinarily handled by a configured local server. Additional personal computers should be used only when authorized for a specific expansion. A second server could provide supervised failover; mobile and wearable clients could degrade to limited offline assistance during outages. My preference is to work with existing hardware and develop new software mechanisms, using small prototype components only when necessary to evaluate the system.
+
+I am also interested in how long-term personal knowledge can support agent reliability without allowing silent changes in user preferences. An extensible platform such as the planned Celestial environment could host project-specific archives and research instruments, but its architecture is not a prerequisite for my PhD. I would be happy to adapt or integrate my software with a supervisor's existing research platform, concentrating on the scientific question rather than preserving a particular implementation.
+
+The intended contribution is not a catalogue of application features or a claim that autonomous agents never fail. It is a set of testable mechanisms for goal fidelity, bounded replanning and outcome-based verification, supported by reproducible systems evidence and real user tasks. I want to understand where autonomy genuinely reduces human workload, what failures remain, and which forms of control and intervention are necessary for dependable everyday use.
+
+---
+
+**Adaptation rules (internal):** Choose a PI-specific opening and one focused RQ; compress to the page/word limit; cite actual implementation evidence; never imply publication, built wearables, deployed dual-server failover or prior human-subject study without new evidence. This document is a reusable English master, not a supervisor-specific submission.
