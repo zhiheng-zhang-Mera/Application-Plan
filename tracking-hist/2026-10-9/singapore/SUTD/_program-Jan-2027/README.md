@@ -2,6 +2,8 @@
 
 > 2026-10-09 更新；**正式申请尚未提交；不是 Ruochen Zhao Fall-2027 导师包**。
 
+**项目谱系：** DS-Hns、Codex Boss（已完成/冻结的前代）→ Utopia（融合版，已完成/冻结）→ Celestial（下一版 Utopia 重构迭代规划）。见 [项目谱系](../../../../../materials/PROJECT-LINEAGE.md)。
+
 - [Statement of Objectives](Statement-of-Objectives.md) — 英文，约 1,150 词，低于当前官方 3,000 词上限；正式提交前需核对 portal 最新上限。
 - [CV.tex](CV.tex) — 当期软件系统/agent 通用 CV 源；**PDF_PENDING**。
 - [Application Checklist](Application-Checklist.md)

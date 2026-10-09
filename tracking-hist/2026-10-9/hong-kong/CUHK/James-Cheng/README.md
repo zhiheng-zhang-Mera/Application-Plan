@@ -2,6 +2,8 @@
 
 > **2026-10-09 当期定制材料 / 尚未发送。** 研究契合：B-；方向偏移风险：HIGH；决策：LOWER_PRIORITY_CONDITIONAL_EVALUATION_TRACK。
 
+**项目身份：** DS-Hns 与 Codex Boss 是分别完成并冻结的前代；Utopia 是融合两者成果且已完成并冻结的项目；Celestial 是规划中的 Utopia 下一代重构迭代。详情见 [项目谱系](../../../../../materials/PROJECT-LINEAGE.md)。
+
 - [英文邮件与中文校对](EMAIL-DRAFT.md)
 - [CV TeX 源码](CV.tex) — PDF_PENDING
 - [Research Interest](Research-Interest.md)
