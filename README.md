@@ -10,6 +10,13 @@
 - **[六封实发与回信对账](tracking-hist/2026-10-10/README.md)**：10 月 9 日六封已发送；HKUST Mo Li 邀请团队 Zoom，10 月 10 日已同意、待排时间；Concordia Peter Chen 正面回应、申请状态问题已答复、待后续回复。CUHK James Cheng 实发主题/附件存在个人协议缺项，不自动重发。
 - **10/09“六封待发草稿、未来定时投递”仅是准备阶段快照，已被 10/09 实际 SENT 事实取代，禁止自动重复寄送。** 不触动 HOLD 或 UM 已提交申请。
 
+## 2026-10-10 亚洲 + 英国合并筛选与逐导师草稿已生成（当日最新）
+
+- **[合并后 18 位导师全池、4 位今日材料准备名单](screening/2026-10-10/MERGED-OUTREACH-2026-10-10.md)** · [机器数据](screening/2026-10-10/MERGED-OUTREACH-2026-10-10.yaml) · [四位导师专属材料包/Gmail Draft QA](tracking-hist/2026-10-10/merged-outreach/README.md)。
+- **本轮 3 亚洲（NUS Chengpeng Wang、HKU Chenshu Wu、NYU Shanghai Qiaoyu Tan）+ 1 英国（Edinburgh Mahesh Marina）**；四所不同学校，各自 Gmail `DRAFT` 已创建、CV 等 PDF 二进制已读回核实，**没有发出任何邮件**。
+- **不得发送**：HKU 与 NYU 缺强制官方 transcript 附件；NUS scholarship-equivalency、Edinburgh IGS 的 PI 支持和正式项目材料仍需确认。原 18 位导师与全部历史已发、WARM、HOLD 一律保留。
+- PDF/可编译 LaTeX 已生成于本轮离线 ZIP，公开 GitHub 只存文本材料与 PDF 文件 hash/状态；避免把敏感官方成绩单直接上传公开 repo、避免触发 `tracking-hist/**/*.tex` CI。
+
 ## 2026-10-10 英国导师专项重新筛选（其他导师全部保留）
 
 - **[英国独立筛选中心](screening/united-kingdom/README.md)** · [英国 11 位具名导师及真实条件](screening/united-kingdom/2026-10-10/UK-SUPERVISOR-POOL.md) · [英国机器清单](screening/united-kingdom/2026-10-10/UK-SUPERVISOR-POOL.yaml) · [英语/2:1/国际资金门禁](screening/united-kingdom/2026-10-10/PROGRAM-GATES.md)。

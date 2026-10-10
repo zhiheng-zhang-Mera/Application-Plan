@@ -1,0 +1,35 @@
+schema_version: 1
+date: 2026-10-10
+institution: "NYU Shanghai / NYU Courant"
+supervisor: "Qiaoyu Tan"
+institution_key: NYU
+selected_rank: 4
+region: ASIA_CROSSBORDER
+contact_method: email
+contact_address: qiaoyu.tan@nyu.edu
+required_subject: "Fall 2027 PhD inquiry — trustworthy long-horizon agent evaluation"
+homepage_last_verified: 2026-10-10
+verified_public_sources:
+  - https://qiaoyu-tan.github.io/index.html
+  - https://sh.nyu.edu/page/computer-science-phd-program
+research_fit: "Trustworthy and empirical long-horizon tool-using agent evaluation; actual outcomes and false completion"
+recruitment_capacity: FALL_2027_FUNDED_PHD_OPENINGS_PI_PAGE
+required_initial_attachments:
+  - CV_PDF
+  - TRANSCRIPTS
+draft_attachment_files:
+  - {name: "CV.pdf", mime_type: application/pdf, size_bytes: 146267}
+manual_send_gates:
+  - "PI publicly advertises multiple fully funded Fall 2027 PhD positions and asks applicants to email CV and transcripts."
+  - "Current draft has CV PDF only. Latest degree-conferral UBC and current Melbourne official transcripts must be attached before any send."
+  - "Research scope needs systems/evaluation alignment instead of assuming PI does not require algorithm development."
+  - "NYU Shanghai has New York coursework and Shanghai research residence; user location preference to confirm."
+actual_draft_id: "r-4471292914156412321"
+actual_message_id: "1a1253974e97bd6a"
+actual_thread_id: "1a1253974e97bd6a"
+gmail_verified: true
+gmail_label_at_verification: DRAFT
+email_sent: false
+official_app_submitted: false
+outreach_ready: false
+send_authorized: false

@@ -1,0 +1,102 @@
+schema_version: 1
+updated_at: 2026-10-10
+cycle: 2027-Fall-or-Sep
+region_priority: [asia, uk, us]
+merged_named_candidates_count: 18
+asia_named: 6
+uk_named: 11
+us_named: 1
+selected_now_count: 4
+selected_asia_count: 3
+selected_uk_count: 1
+institution_uniqueness_required: true
+outreach_permission: CREATE_DRAFT_ONLY
+sent_count_in_this_round: 0
+underlying_pools:
+  - screening/2026-10-10/POOL.yaml
+  - screening/united-kingdom/2026-10-10/UK-SUPERVISOR-POOL.yaml
+current_cold_drafts:
+  - rank: 1
+    supervisor: "Chengpeng Wang"
+    institution: "NUS School of Computing"
+    region: ASIA_PRIMARY
+    status: DRAFT_REVIEW_SCHOLARSHIP_EQUIVALENCY
+    gmail_draft_id: "r-8286695313949821919"
+    gmail_message_id: "1a1253926e84d8a8"
+    gmail_thread_id: "1a1253926e84d8a8"
+    to: wang-chengpeng@nus.edu.sg
+    subject: "Fall 2027 PhD inquiry — state-aware analysis for long-horizon coding agents"
+    actual_pdf_attachment_count: 2
+    package_path: tracking-hist/2026-10-10/merged-outreach/singapore/NUS/Chengpeng-Wang
+    outreach_ready: false
+    send_authorized: false
+  - rank: 2
+    supervisor: "Chenshu Wu"
+    institution: "The University of Hong Kong"
+    region: ASIA_PRIMARY
+    status: DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED
+    gmail_draft_id: "r3438704569563220130"
+    gmail_message_id: "1a1253943f7587d4"
+    gmail_thread_id: "1a1253943f7587d4"
+    to: chenshu@cs.hku.hk
+    subject: "[Prospective Student] Zhiheng Zhang - University of Melbourne"
+    actual_pdf_attachment_count: 2
+    package_path: tracking-hist/2026-10-10/merged-outreach/hong-kong/HKU/Chenshu-Wu
+    outreach_ready: false
+    send_authorized: false
+  - rank: 3
+    supervisor: "Mahesh Marina"
+    institution: "University of Edinburgh"
+    region: UK_SECONDARY
+    status: DRAFT_REVIEW_IGS_FULL_APPLICATION_PENDING
+    gmail_draft_id: "r7115584263933457950"
+    gmail_message_id: "1a125395d20f9c1c"
+    gmail_thread_id: "1a125395d20f9c1c"
+    to: mahesh@ed.ac.uk
+    subject: "Prospective September 2027 PhD — dependable edge AI execution (ICSA)"
+    actual_pdf_attachment_count: 2
+    package_path: tracking-hist/2026-10-10/merged-outreach/united-kingdom/Edinburgh/Mahesh-Marina
+    outreach_ready: false
+    send_authorized: false
+  - rank: 4
+    supervisor: "Qiaoyu Tan"
+    institution: "NYU Shanghai / NYU Courant"
+    region: ASIA_CROSSBORDER
+    status: DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED
+    gmail_draft_id: "r-4471292914156412321"
+    gmail_message_id: "1a1253974e97bd6a"
+    gmail_thread_id: "1a1253974e97bd6a"
+    to: qiaoyu.tan@nyu.edu
+    subject: "Fall 2027 PhD inquiry — trustworthy long-horizon agent evaluation"
+    actual_pdf_attachment_count: 1
+    package_path: tracking-hist/2026-10-10/merged-outreach/crossborder/NYU-Shanghai/Qiaoyu-Tan
+    outreach_ready: false
+    send_authorized: false
+kept_unselected_candidates:
+  - {id: hkust-gz-zhidan-liu, region: asia, status: WATCH_CAPACITY, existing_history_preserved: true}
+  - {id: ntu-rui-tan, region: asia, status: WATCH_METHOD_ACADEMICS, existing_history_preserved: true}
+  - {id: cuhksz-jinke-ren, region: asia, status: WATCH_PROTOCOL_GAP, existing_history_preserved: true}
+  - {id: columbia-zishen-wan, region: us, status: WATCH_METHOD, existing_history_preserved: true}
+  - {id: edinburgh-antonio-barbalace, region: uk, status: DEFER_SAME_INSTITUTION, existing_history_preserved: true}
+  - {id: edinburgh-paul-patras, region: uk, status: DEFER_SAME_INSTITUTION, existing_history_preserved: true}
+  - {id: edinburgh-adriana-sejfia, region: uk, status: DEFER_SAME_INSTITUTION, existing_history_preserved: true}
+  - {id: ucl-earl-barr, region: uk, status: WATCH_UELA_CATALOGUE, existing_history_preserved: true}
+  - {id: ucl-mark-harman, region: uk, status: WATCH_UELA_CATALOGUE, existing_history_preserved: true}
+  - {id: lancaster-nigel-davies, region: uk, status: WATCH_FUNDING, existing_history_preserved: true}
+  - {id: lancaster-adrian-friday, region: uk, status: WATCH_FUNDING, existing_history_preserved: true}
+  - {id: southampton-boojoong-kang, region: uk, status: WATCH_OVERSEAS_FEES, existing_history_preserved: true}
+  - {id: imperial-jialun-cao, region: uk, status: LOW_ROI_ACADEMIC_FLOOR_PRESERVED, existing_history_preserved: true}
+  - {id: cambridge-cecilia-mascolo, region: uk, status: LOW_ROI_ACADEMIC_FLOOR_PRESERVED, existing_history_preserved: true}
+existing_warm_and_sent:
+  - {institution: HKUST, supervisor: Mo_Li, state: REPLIED_GROUP_ZOOM_INVITED}
+  - {institution: Concordia, supervisor: Peter_Chen, state: REPLIED_POSITIVE_FIT}
+  - {institution: CityUHK, supervisor: Zhenjiang_Li, state: SENT_WAITING}
+  - {institution: PolyU, supervisor: Yu_Liu, state: SENT_WAITING}
+  - {institution: CUHK, supervisor: James_Cheng, state: SENT_PROTOCOL_QA_RISK}
+  - {institution: SUTD, supervisor: Ruochen_Zhao, state: SENT_WAITING}
+  - {institution: UM, supervisor: Li_Li, state: SUBMITTED_WARM}
+hold_no_touch: [dartmouth-shawn-shan, penn-state-yuchen-yang]
+funding_programme_watches:
+  - edinburgh-2027-icsa-igs
+  - ucl-2027-uela
+  - lancaster-2027-cs

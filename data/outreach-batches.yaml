@@ -74,3 +74,28 @@ screening_round:
   new_gmail_drafts_created: 0
   new_emails_sent: 0
   formal_applications_submitted: 0
+
+# 2026-10-10 merged Asia+UK screening after material second-pass; independent of previously SENT six-person round.
+merged_materials_round:
+  id: materials-2026-10-10-asia-uk
+  state: GMAIL_PDF_ATTACHED_DRAFTS_NOT_SENT
+  selection_basis: screening/2026-10-10/MERGED-OUTREACH-2026-10-10.md
+  package_index: tracking-hist/2026-10-10/merged-outreach/README.md
+  distinct_institutions: true
+  asia_selected: 3
+  uk_selected: 1
+  selected_count: 4
+  gmail_drafts_created: 4
+  pdf_attachment_counts: [2,2,2,1]
+  actual_emails_sent: 0
+  auto_send: false
+  authorized_action: DRAFT_ONLY
+  selected:
+    - {rank: 1, institution: "NUS School of Computing", supervisor: "Chengpeng Wang", status: DRAFT_REVIEW_SCHOLARSHIP_EQUIVALENCY, draft_id: "r-8286695313949821919", package: "tracking-hist/2026-10-10/merged-outreach/singapore/NUS/Chengpeng-Wang"}
+    - {rank: 2, institution: "The University of Hong Kong", supervisor: "Chenshu Wu", status: DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED, draft_id: "r3438704569563220130", package: "tracking-hist/2026-10-10/merged-outreach/hong-kong/HKU/Chenshu-Wu"}
+    - {rank: 3, institution: "University of Edinburgh", supervisor: "Mahesh Marina", status: DRAFT_REVIEW_IGS_FULL_APPLICATION_PENDING, draft_id: "r7115584263933457950", package: "tracking-hist/2026-10-10/merged-outreach/united-kingdom/Edinburgh/Mahesh-Marina"}
+    - {rank: 4, institution: "NYU Shanghai / NYU Courant", supervisor: "Qiaoyu Tan", status: DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED, draft_id: "r-4471292914156412321", package: "tracking-hist/2026-10-10/merged-outreach/crossborder/NYU-Shanghai/Qiaoyu-Tan"}
+  gate_no_repeated_sends: true
+  gate_hku_transcripts_missing: true
+  gate_nyu_transcripts_missing: true
+  previous_sent_round_preserved: true

@@ -1,0 +1,39 @@
+schema_version: 1
+date: 2026-10-10
+institution: "The University of Hong Kong"
+supervisor: "Chenshu Wu"
+institution_key: HKU
+selected_rank: 2
+region: ASIA_PRIMARY
+contact_method: email
+contact_address: chenshu@cs.hku.hk
+required_subject: "[Prospective Student] Zhiheng Zhang - University of Melbourne"
+homepage_last_verified: 2026-10-10
+verified_public_sources:
+  - https://aiot.hku.hk/openings/
+  - https://cswu.me/
+  - https://gradsch.hku.hk/
+research_fit: "Software-first AIoT context-aware placement, goal continuity, and recoverable wearable-to-hub execution"
+recruitment_capacity: MULTIPLE_FUNDED_PHD_OPENINGS_STALE_2025_DEADLINE
+required_initial_attachments:
+  - CV_WITH_GRADE_AND_RANK_STATUS
+  - TRANSCRIPTS
+  - BRIEF_RESEARCH_INTEREST
+  - RESEARCH_PROPOSAL_RECOMMENDED
+draft_attachment_files:
+  - {name: "Research-Note.pdf", mime_type: application/pdf, size_bytes: 107528}
+  - {name: "CV.pdf", mime_type: application/pdf, size_bytes: 150715}
+manual_send_gates:
+  - "PI mandated exact email subject, supplied exactly in Gmail draft."
+  - "PI requires CV with GPA and ranking; CV explicitly marks original-scale averages as derived and official class rank not reported."
+  - "PI requires transcripts; current draft has neither an updated UBC degree-conferral transcript nor current Melbourne official record. BLOCKED until added."
+  - "Research proposal strongly recommended; a one-page PDF is attached."
+actual_draft_id: "r3438704569563220130"
+actual_message_id: "1a1253943f7587d4"
+actual_thread_id: "1a1253943f7587d4"
+gmail_verified: true
+gmail_label_at_verification: DRAFT
+email_sent: false
+official_app_submitted: false
+outreach_ready: false
+send_authorized: false

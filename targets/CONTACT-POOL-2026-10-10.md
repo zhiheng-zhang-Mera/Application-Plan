@@ -1,5 +1,8 @@
 # 2026-10-10 二次审核后的快捷候选池
 
+> **最新整合覆盖当日较早的“二次审核”排序说明**：[亚洲+英国合并后的18位池/四封今日 Gmail 草稿](../screening/2026-10-10/MERGED-OUTREACH-2026-10-10.md)，[材料包](../tracking-hist/2026-10-10/merged-outreach/README.md)。旧候选未删除、原英国 Imperial/Cambridge 两位保留、旧六封 SENT 不重复。新四封为 DRAFT 未发送，HKU/NYU 尚缺强制成绩单。
+
+
 **先有积极回复：** HKUST Mo Li（WANDS Zoom 讨论，待约时段）；Concordia Peter Chen（积极答复、已回应入学身份问题）。
 
 **新 PI 先核：** HKU Chenshu Wu → **NUS Chengpeng Wang（从 BACKUP 提升到 WATCH）** → HKUST(GZ) Zhidan Liu。随后视上海实际驻地和研究方法决定 NYU Qiaoyu Tan；NTU Rui Tan 具体 2027 招生课题更偏 neuromorphic/embodied，暂降 A3；Columbia Zishen Wan 仍需排除硬件主导。

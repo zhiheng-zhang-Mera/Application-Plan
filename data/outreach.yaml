@@ -151,3 +151,46 @@ state_rules:
     remove_labels:
       - "PhD-Application/Waiting"
     lock_state: RELEASED
+
+# New 2026-10-10 Gmail drafts only. Do not rewrite `threads:` SENT/WARM historical records.
+drafts_2026_10_10_asia_uk:
+  - supervisor: "Chengpeng Wang"
+    university: "NUS School of Computing"
+    draft_id: "r-8286695313949821919"
+    gmail_thread_id: "1a1253926e84d8a8"
+    gmail_message_id: "1a1253926e84d8a8"
+    draft_state: DRAFT_NOT_SENT
+    send_ready: false
+    send_authorized: false
+    pdf_attachment_count: 2
+    package_path: tracking-hist/2026-10-10/merged-outreach/singapore/NUS/Chengpeng-Wang
+  - supervisor: "Chenshu Wu"
+    university: "The University of Hong Kong"
+    draft_id: "r3438704569563220130"
+    gmail_thread_id: "1a1253943f7587d4"
+    gmail_message_id: "1a1253943f7587d4"
+    draft_state: DRAFT_NOT_SENT
+    send_ready: false
+    send_authorized: false
+    pdf_attachment_count: 2
+    package_path: tracking-hist/2026-10-10/merged-outreach/hong-kong/HKU/Chenshu-Wu
+  - supervisor: "Mahesh Marina"
+    university: "University of Edinburgh"
+    draft_id: "r7115584263933457950"
+    gmail_thread_id: "1a125395d20f9c1c"
+    gmail_message_id: "1a125395d20f9c1c"
+    draft_state: DRAFT_NOT_SENT
+    send_ready: false
+    send_authorized: false
+    pdf_attachment_count: 2
+    package_path: tracking-hist/2026-10-10/merged-outreach/united-kingdom/Edinburgh/Mahesh-Marina
+  - supervisor: "Qiaoyu Tan"
+    university: "NYU Shanghai / NYU Courant"
+    draft_id: "r-4471292914156412321"
+    gmail_thread_id: "1a1253974e97bd6a"
+    gmail_message_id: "1a1253974e97bd6a"
+    draft_state: DRAFT_NOT_SENT
+    send_ready: false
+    send_authorized: false
+    pdf_attachment_count: 1
+    package_path: tracking-hist/2026-10-10/merged-outreach/crossborder/NYU-Shanghai/Qiaoyu-Tan

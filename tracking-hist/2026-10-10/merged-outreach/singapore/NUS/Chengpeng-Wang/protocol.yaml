@@ -1,0 +1,36 @@
+schema_version: 1
+date: 2026-10-10
+institution: "NUS School of Computing"
+supervisor: "Chengpeng Wang"
+institution_key: NUS
+selected_rank: 1
+region: ASIA_PRIMARY
+contact_method: email
+contact_address: wang-chengpeng@nus.edu.sg
+required_subject: "Fall 2027 PhD inquiry — state-aware analysis for long-horizon coding agents"
+homepage_last_verified: 2026-10-10
+verified_public_sources:
+  - https://chengpeng-wang.github.io/lab.html
+  - https://chengpeng-wang.github.io/
+  - https://www.comp.nus.edu.sg/programmes/pg/phdcs/admissions/
+research_fit: "Agentic program analysis; executable evidence and state-aware repository-agent recovery"
+recruitment_capacity: CURRENT_PHD_RECRUITMENT_LAB_PAGE
+required_initial_attachments:
+  - CV_PDF
+  - SHORT_RESEARCH_PROBLEMS
+draft_attachment_files:
+  - {name: "Research-Note.pdf", mime_type: application/pdf, size_bytes: 106731}
+  - {name: "CV.pdf", mime_type: application/pdf, size_bytes: 146744}
+manual_send_gates:
+  - "PI requires CV and short description of research problems: both attached and in email."
+  - "NUS Research Scholarship academic equivalence (Second Upper) unconfirmed using self-computed UBC average."
+  - "QE preparation and 2027 funding need separate verification."
+actual_draft_id: "r-8286695313949821919"
+actual_message_id: "1a1253926e84d8a8"
+actual_thread_id: "1a1253926e84d8a8"
+gmail_verified: true
+gmail_label_at_verification: DRAFT
+email_sent: false
+official_app_submitted: false
+outreach_ready: false
+send_authorized: false
