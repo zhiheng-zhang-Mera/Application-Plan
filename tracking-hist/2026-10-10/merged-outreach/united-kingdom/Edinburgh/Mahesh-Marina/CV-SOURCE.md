@@ -11,7 +11,7 @@ Software-centric mobile/edge AI infrastructure for goal-preserving long-horizon 
 ## Education
 
 - **University of Melbourne, Australia (2025–2026 expected):** Master of Computer Science. Master's final mark pending; research project underway.
-- **University of British Columbia, Okanagan campus, Canada (2024):** Bachelor of Science in Computer Science (degree completion date per applicant history; obtain newer award-confirmation document for admissions).
+- **University of British Columbia, Okanagan campus, Canada (2024):** Bachelor of Science in Computer Science (**degree awarded in 2024; final official UBC transcript available; applicant-confirmed**).
 - **Original-scale academic context for this PI:** UBC 78.05% is a *self-calculated* credit-weighted mean of all numeric graded attempts including a repeated-course attempt; current Melbourne assessed WAM snapshot 67.5/100 is also *derived*, not final. Official class rank was not reported. Do not convert to 4.0 GPA or UK First.
 
 ## Completed research engineering projects (not peer-reviewed publications)

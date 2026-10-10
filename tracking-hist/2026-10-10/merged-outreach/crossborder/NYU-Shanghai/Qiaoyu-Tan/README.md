@@ -1,5 +1,7 @@
 # NYU Shanghai / NYU Courant — Qiaoyu Tan | 2026-10-10 package
 
+> **2026-10-10 更正：** UBC Okanagan BSc 确已于 2024 年获得，现有本科成绩单为最终官方版（申请人直接确认）。旧“必须更新成绩单／学位未确认”的解释撤回；Gmail 草稿保持未发送，正文和 CV PDF 已正确写 BSc。[最新事实源](../../../../../../materials/UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md)。
+
 **Status:** `DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED` | **Gmail: DRAFT, NOT SENT** | **Selected rank: 4** | Region: ASIA_CROSSBORDER
 
 **Research bridge:** Trustworthy and empirical long-horizon tool-using agent evaluation; actual outcomes and false completion.
@@ -13,7 +15,7 @@
 
 **Need to clear before ever sending:**
 - PI publicly advertises multiple fully funded Fall 2027 PhD positions and asks applicants to email CV and transcripts.
-- Current draft has CV PDF only. Latest degree-conferral UBC and current Melbourne official transcripts must be attached before any send.
+- Current draft has CV PDF only. Existing final official UBC transcript is not attached, and current Melbourne official record is unverified. BSc awarded 2024; attachment gate remains.
 - Research scope needs systems/evaluation alignment instead of assuming PI does not require algorithm development.
 - NYU Shanghai has New York coursework and Shanghai research residence; user location preference to confirm.
 

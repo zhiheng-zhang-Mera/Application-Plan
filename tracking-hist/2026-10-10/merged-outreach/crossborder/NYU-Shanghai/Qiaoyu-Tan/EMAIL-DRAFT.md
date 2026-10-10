@@ -1,5 +1,7 @@
 # Email Draft — Qiaoyu Tan, NYU Shanghai / NYU Courant — 2026-10-10
 
+> **资料校正：** BSc 2024 已授，现有 UBC 成绩单为最终官方版。下方已存 Gmail 英文草稿保持原样，**不会重复建稿、不会发送**。[事实源](../../../../../../materials/UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md)。
+
 > **GMAIL DRAFT, NEVER SENT.** 状态 `DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED`。下列英文正文系实际 Gmail 草稿再次读回，非尚未同步的 GitHub 单机草稿。中文为本地审查要点，不会添加进 Gmail。
 >
 > [Gmail Draft](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a1253974e97bd6a) · [实际附件](ATTACHMENTS.md) · [发送协议](protocol.yaml)
@@ -34,8 +36,8 @@ Zhiheng Zhang
 ## 人工审查保留项
 
 - PI publicly advertises multiple fully funded Fall 2027 PhD positions and asks applicants to email CV and transcripts.
-- Current draft has CV PDF only. Latest degree-conferral UBC and current Melbourne official transcripts must be attached before any send.
+- Current draft has CV PDF only. Final official UBC transcript is available but not attached; Melbourne current official record remains unverified. The attachment gap persists before any send, but BSc degree is already awarded.
 - Research scope needs systems/evaluation alignment instead of assuming PI does not require algorithm development.
 - NYU Shanghai has New York coursework and Shanghai research residence; user location preference to confirm.
 
-**明确禁止**：自动寄送、把缺成绩单邮件标 send-ready、重复联系现有 HKUST Mo Li / Concordia Peter Chen warm 线程、将 2024 年 UBC 未显示学位授予的 PDF 当最终学位证明。
+**明确禁止**：自动寄送、把缺成绩单邮件标 send-ready、重复联系现有 HKUST Mo Li / Concordia Peter Chen warm 线程、以旧 UBC PDF 注记否认已获得本科学位，或误称现有官方最终成绩单不存在。

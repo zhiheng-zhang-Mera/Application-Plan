@@ -21,7 +21,7 @@ draft_attachment_files:
   - {name: "CV.pdf", mime_type: application/pdf, size_bytes: 146267}
 manual_send_gates:
   - "PI publicly advertises multiple fully funded Fall 2027 PhD positions and asks applicants to email CV and transcripts."
-  - "Current draft has CV PDF only. Latest degree-conferral UBC and current Melbourne official transcripts must be attached before any send."
+  - "Current draft has CV PDF only. Final official UBC transcript is already available but not attached; current Melbourne official transcript not verified. Need to attach per protocol before any send."
   - "Research scope needs systems/evaluation alignment instead of assuming PI does not require algorithm development."
   - "NYU Shanghai has New York coursework and Shanghai research residence; user location preference to confirm."
 actual_draft_id: "r-4471292914156412321"
@@ -33,3 +33,12 @@ email_sent: false
 official_app_submitted: false
 outreach_ready: false
 send_authorized: false
+
+# Undergraduate facts confirmed by applicant (2026-10-10)
+ubc_bsc_awarded: true
+ubc_bsc_award_year: 2024
+ubc_final_official_transcript_available: true
+newer_ubc_transcript_required: false
+separate_degree_certificate: ONLY_IF_PROGRAM_REQUIRES
+ubc_transcript_attached_to_existing_gmail_draft: false
+gmail_draft_unchanged: true

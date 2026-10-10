@@ -1,5 +1,7 @@
 # Email Draft — Mahesh Marina, University of Edinburgh — 2026-10-10
 
+> **资料校正：** BSc 2024 已授，现有 UBC 成绩单为最终官方版。下方已存 Gmail 英文草稿保持原样，**不会重复建稿、不会发送**。[事实源](../../../../../../materials/UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md)。
+
 > **GMAIL DRAFT, NEVER SENT.** 状态 `DRAFT_REVIEW_IGS_FULL_APPLICATION_PENDING`。下列英文正文系实际 Gmail 草稿再次读回，非尚未同步的 GitHub 单机草稿。中文为本地审查要点，不会添加进 Gmail。
 >
 > [Gmail Draft](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a125395d20f9c1c) · [实际附件](ATTACHMENTS.md) · [发送协议](protocol.yaml)
@@ -36,6 +38,6 @@ Zhiheng Zhang
 - Edinburgh guidance asks email to include studies, relevant grade averages, systems fit, and funding request; draft complies using derived labels.
 - Official PI email verified at university/personal pages; PI marked accepting PhD students.
 - September 2027 ICSA / overseas IGS complete application and supervisor support unconfirmed; Round 1 deadline Nov 30 2026.
-- UBC post-conferral document and latest Melbourne official record needed for formal application.
+- Final official UBC transcript already exists and BSc awarded in 2024. For formal application, check only an individually required separate degree certificate and the latest Melbourne official record.
 
-**明确禁止**：自动寄送、把缺成绩单邮件标 send-ready、重复联系现有 HKUST Mo Li / Concordia Peter Chen warm 线程、将 2024 年 UBC 未显示学位授予的 PDF 当最终学位证明。
+**明确禁止**：自动寄送、把缺成绩单邮件标 send-ready、重复联系现有 HKUST Mo Li / Concordia Peter Chen warm 线程、以旧 UBC PDF 注记否认已获得本科学位，或误称现有官方最终成绩单不存在。

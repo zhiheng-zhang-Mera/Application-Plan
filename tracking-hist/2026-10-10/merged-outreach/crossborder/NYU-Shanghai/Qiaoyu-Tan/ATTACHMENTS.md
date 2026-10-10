@@ -1,5 +1,7 @@
 # 附件实测与发件阻塞 — NYU Shanghai / NYU Courant / Qiaoyu Tan
 
+> **2026-10-10 更正：** BSc 2024 已获得、本科成绩单为官方最终版（申请人确认）。原有附件清单仅说明**当前 Gmail 附件事实**，不等于申请人缺少本科官方成绩单；本轮未修改 Gmail 草稿及附件。
+
 > Gmail 2026-10-10 readback verified this draft is `DRAFT`; NOT SENT. 审查附件不代表可以按下发送。二进制附件已真实生成、Gmail 保存并再次读取：1 个 PDF；ZIP 中提供全部 LaTeX/可打印 PDF 离线副本。
 
 ## Actual Gmail attachments
@@ -8,12 +10,12 @@
 
 ## Missing / not included
 
-- Current official UBC and Melbourne transcripts
+- Final official UBC undergraduate transcript — **available but not attached to draft**; Melbourne current official transcript — unverified / not attached.
 - Research-Note.pdf (prepared in offline bundle, intentionally not attached)
 
 ## Applicant materials that are **not** ready
 
-- UBC 2024-08-28 official PDF exists historically, but `Credentials: None to date` cannot independently establish degree awarded; a later official conferral record is needed.
+- **UBC BSc 2024 年已获授，现有官方最终本科成绩单（用户确认）可复用**。旧 PDF 上 `Credentials: None to date` 不构成学位不存在的证据；只有目标学校明确单列 degree certificate 时才核查独立附件。
 - Current official University of Melbourne transcript and degree award are not verified; its WAM **67.5** is a derived 150/200 CP snapshot, not official final.
 - UBC course-credit weighted **78.05%** is derived (including initial F and later retake); no self-invented class rank.
 - No accepted/reviewed paper should be invented. The private student's passport/ID and raw transcripts must not be committed into this public repo.

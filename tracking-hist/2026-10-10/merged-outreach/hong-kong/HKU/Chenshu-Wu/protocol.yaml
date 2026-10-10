@@ -46,4 +46,3 @@ newer_ubc_transcript_required: false
 separate_degree_certificate: ONLY_IF_PROGRAM_REQUIRES
 ubc_transcript_attached_to_existing_gmail_draft: false
 gmail_draft_unchanged: true
-send_authorized: false
