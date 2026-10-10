@@ -20,8 +20,8 @@ candidates:
     new_email_authorized: false
     research_fit: "wearable AIoT, ubiquitous/mobile AI systems"
     recruitment_evidence: "multiple funded PhD positions"
-    protocol: "CV with original GPA/rank, transcripts, research background/interests; proposal recommended"
-    gates: "academic equivalency, transcripts/class rank, funding confirmation"
+    protocol: "CV with original GPA/rank, transcripts, research background/interests; proposal recommended; subject [Prospective Student] Your Name - Your Affiliation"
+    gates: "academic equivalency, transcripts/class rank, funding confirmation; HKU 2027 main deadline 2026-12-01; PI page dates stale"
     source_url: https://aiot.cs.hku.hk/openings/
     source_checked: 2026-10-10
   - id: ntu-rui-tan
@@ -90,7 +90,7 @@ candidates:
     new_email_authorized: false
     research_fit: "AI for computing, agent evaluation and end-to-end systems"
     recruitment_evidence: "multiple funded PhD for Fall 2027, December 2026 applications"
-    protocol: "apply via Columbia CS, mention supervisor; email optional"
+    protocol: "apply via Columbia CS, mention supervisor; optional PI email subject [Prospective PhD] Your Name, CV and 1-2 specific projects or papers"
     gates: "hardware/architecture emphasis, official 2027 gates and funding confirm"
     source_url: https://wan-research-group.github.io/join.html
     source_checked: 2026-10-10
@@ -103,10 +103,11 @@ candidates:
     outreach_protocol_status: incomplete
     new_email_authorized: false
     research_fit: "trustworthy LLM agents, outcome evaluation"
-    recruitment_evidence: "NYU Shanghai CS PhD Fall 2027 application deadline 2026-12-12; PI-specific capacity recheck"
-    protocol: "GSAS portal NYU Shanghai preference, PI outreach policy recheck"
-    gates: "English GSAS-specific waiver, research location, PI seat and algorithm drift"
-    source_url: https://sh.nyu.edu/page/computer-science-phd-program
+    recruitment_evidence: "PI publicly recruiting multiple funded Fall 2027 PhD; NYU Shanghai CS deadline 2026-12-12"
+    protocol: "GSAS portal NYU Shanghai preference; PI says email CV and transcripts"
+    gates: "English GSAS-specific waiver, research location and algorithm drift"
+    source_url: https://qiaoyu-tan.github.io/index.html
+    program_url: https://sh.nyu.edu/page/computer-science-phd-program
     source_checked: 2026-10-10
   - id: imperial-jialun-cao
     region: uk
