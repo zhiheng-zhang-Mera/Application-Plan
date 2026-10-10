@@ -10,7 +10,7 @@
 | UBC 全部有分数课程 | 40 条有百分成绩记录，含一次 COSC304 45/F 及之后 90/A+ 重修；按成绩×课程 credit，分母 123 attempted credits | **78.05%**（非官方、含不及格前次及重修；已取得通过学分约 120，不得把 123 attempted 当 123 earned）。旧成绩单如学校采取 last-attempt 或 programme GPA 规则，该数字需另算、不得当作 official cumulative GPA。 |
 | UBC 三、四学年 | 同样按课程 credit 加权，60 attempted | **78.75%**。 |
 | UBC 第四学年 | 同样，30 attempted | **83.90%**，可作为 *fourth-year coursework average (derived)*，不是官方 final-year honours 或 class rank。 |
-| UBC COSC 专业课 | 20? **以原表真实记录的 19 个已评分 COSC 课项**，60 attempted，含重修前不及格 | **79.05%**，不能把课程平均当 programme honours。 |
+| UBC COSC 专业课 | **原表真实记录的 19 个已评分 COSC 课项**，60 attempted，含重修前不及格 | **79.05%**，不能把课程平均当 programme honours。 |
 | 墨大研究型 CS MSc | `Documents/Master Score.csv` 8 门 2025 课×12.5 CP + 2026 已评估研究段 COMP90078/79 各25 CP = 150 completed assessed CP | 计算 `(100×授课成绩加权均分 + 50×75)/150` = **67.50 WAM（derived snapshot）**；非最终正式成绩单。 |
 | 硕士 Thesis / Research Project | 同一 CSV：已评估 first 40/100 获 30/40，规范化为 75%；COMP90080/81 后续各25 CP 标 pending | 30/40 不等于整份论文 75，也不等于最终硕士分数；尚缺当前官方 Melbourne transcript。 |
 | 硕士加权理论上限（仅此模型） | 150 CP 已评估得分 WAM 67.5，剩余50 CP最高100，总200 CP | `(150*67.5+50*100)/200=75.625`。这个是**CSV 的理论上限，不等于 official outcome**，更不能自动外推任何 UK Distinction/First 等价。 |
