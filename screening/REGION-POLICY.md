@@ -32,6 +32,10 @@
 - [2026-10-10 已发送与积极回复的状态表](../tracking-hist/2026-10-10/README.md)
 - [考试和学历要求](../materials/EXAM-READINESS-POLICY.md)
 
+## 2026-10-10 英国专项刷新：独立视图、不修改其他国家
+
+**[英国独立导师池](united-kingdom/2026-10-10/UK-SUPERVISOR-POOL.md)**（原 Imperial、Cambridge 两位继续保留，此外增加九位英国导师）和 [官方门禁](united-kingdom/2026-10-10/PROGRAM-GATES.md)。本次**不重排亚洲、美国、加拿大的任何导师或外联历史**；原全球名单继续是其他区域事实源。新增英国仅 WATCH，资金资格和招生/个人协议未完成前不能进入 SEND_READY。
+
 ## 2026-10-10 实际材料复检后更新
 
 以 [二次材料审核](2026-10-10/MATERIALS-SECOND-PASS.md) 和 [原9位 PI 复核池](2026-10-10/POOL.md) 为最新事实层：

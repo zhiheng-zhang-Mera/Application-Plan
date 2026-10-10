@@ -11,6 +11,9 @@ old_named_pi_candidate_count: 9
 program_level_watch_count: 2
 active_sent_2026_10_09_count: 6
 source_audit: screening/2026-10-10/MATERIALS-SECOND-PASS.md
+uk_region_latest_priority_source: screening/united-kingdom/2026-10-10/UK-SUPERVISOR-POOL.yaml
+uk_region_refresh_does_not_modify_existing_named_pi_candidates: true
+
 applicant_evidence:
   ubc:
     campus: UBC_Okanagan

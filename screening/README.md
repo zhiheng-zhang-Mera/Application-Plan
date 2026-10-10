@@ -5,7 +5,8 @@
 - [地区权重、选校与状态政策](REGION-POLICY.md)
 - **[实际材料 + 官方要求二次核验报告](2026-10-10/MATERIALS-SECOND-PASS.md)**
 - [2026-10-10 重新排序的原 9 位 PI 决策池](2026-10-10/POOL.md)
-- [Edinburgh / Lancaster 英国可准备性与全额资助核验](2026-10-10/UK-2-1-OPTIONS.md)
+- **[英国 2027 独立新版：11 位具名导师（保留原两位）+ 3 个项目/资助通道](united-kingdom/README.md)**
+- [原 10-10 Edinburgh / Lancaster 英国 2:1 初筛快照](2026-10-10/UK-2-1-OPTIONS.md)
 - [机器可读候选数据](2026-10-10/POOL.yaml)
 - [2026-10-10 六封首信 Gmail 对账与实际回复](../tracking-hist/2026-10-10/README.md)
 

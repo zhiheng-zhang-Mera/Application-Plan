@@ -1,0 +1,269 @@
+schema_version: 1
+updated_at: 2026-10-10
+region: united_kingdom
+operation_scope: UK_ONLY_REFRESH
+preserves_non_uk_candidates: true
+preserves_original_uk_candidates: true
+global_priority: ASIA_FIRST
+source_of_truth: screening/united-kingdom/2026-10-10/UK-SUPERVISOR-POOL.md
+non_uk_global_pool_unchanged: screening/2026-10-10/POOL.yaml
+new_mail_authorized: false
+formal_application_authorized: false
+existing_uk_pi_count: 2
+new_uk_pi_count: 9
+uk_named_pi_total: 11
+funding_route_count: 3
+applicant_snapshot:
+  ubc_attempted_weighted_percent_derived: 78.05
+  ubc_2024_transcript_degree_conferred: NOT_SHOWN
+  melbourne_msc_wam_snapshot_derived: 67.5
+  melbourne_final_master_mark: UNKNOWN
+  peer_reviewed_publications_confirmed: 0
+routing_policy:
+  one_current_cold_pi_per_institution: true
+  send_approval_required: true
+  required_funding: FULL_OVERSEAS_TUITION_AND_STIPEND
+  new_gre_or_english_test_required: false
+  qualification_exam_allowed_when_preparation_realistic: true
+  professor_accepting_students_not_equal_funded_seat: true
+named_supervisor_candidates:
+  - id: edinburgh-mahesh-marina
+    supervisor: "Mahesh Marina"
+    institution: "University of Edinburgh"
+    institution_key: edinburgh
+    uk_priority: UK-A1
+    status: WATCH_PI_FUNDING
+    topic_track: MOBILE_EDGE_AIOT_SYSTEMS
+    2027_intake_signal: YES_OFFICIAL_ACCEPTING_PHD
+    official_or_personal_source: https://www.research.ed.ac.uk/en/persons/mahesh-marina/
+    research_bridge: "Utopia PCF mobile edge software execution and failure recovery"
+    blockers: "Need specific 2027 IGS backing and software-first project; PI personal recruitment details not separately verified"
+    preserved_from_prior_pool: false
+    individual_fully_funded_seat_verified: false
+    eligibility_cleared: false
+    contact_protocol_verified: false
+    outreach_ready: false
+    send_authorized: false
+    checked_at: 2026-10-10
+  - id: edinburgh-antonio-barbalace
+    supervisor: "Antonio Barbalace"
+    institution: "University of Edinburgh"
+    institution_key: edinburgh
+    uk_priority: UK-A1
+    status: WATCH_PI_FUNDING_METHOD
+    topic_track: HETEROGENEOUS_RUNTIME_SCHEDULING
+    2027_intake_signal: YES_OFFICIAL_ACCEPTING_PHD
+    official_or_personal_source: https://www.research.ed.ac.uk/en/persons/antonio-barbalace/
+    research_bridge: "PCF REX cross-host heterogeneous runtime recovery"
+    blockers: "OS and compilers potential deeper background; need PI agreement on non-hardware-led software method"
+    preserved_from_prior_pool: false
+    individual_fully_funded_seat_verified: false
+    eligibility_cleared: false
+    contact_protocol_verified: false
+    outreach_ready: false
+    send_authorized: false
+    checked_at: 2026-10-10
+  - id: edinburgh-paul-patras
+    supervisor: "Paul Patras"
+    institution: "University of Edinburgh"
+    institution_key: edinburgh
+    uk_priority: UK-A1
+    status: WATCH_METHOD
+    topic_track: MOBILE_IOT_NETWORK_ANALYTICS
+    2027_intake_signal: YES_OFFICIAL_ACCEPTING_PHD
+    official_or_personal_source: https://www.research.ed.ac.uk/en/persons/paul-patras/
+    research_bridge: "Personal AI task continuity under mobile network disruptions"
+    blockers: "PhD named mobile network AI IoT security, possible modeling intensity; capacity/funding per IGS unknown"
+    preserved_from_prior_pool: false
+    individual_fully_funded_seat_verified: false
+    eligibility_cleared: false
+    contact_protocol_verified: false
+    outreach_ready: false
+    send_authorized: false
+    checked_at: 2026-10-10
+  - id: edinburgh-adriana-sejfia
+    supervisor: "Adriana Sejfia"
+    institution: "University of Edinburgh"
+    institution_key: edinburgh
+    uk_priority: UK-A2
+    status: WATCH_PI_FUNDING_TOPIC
+    topic_track: SOFTWARE_ENGINEERING_PROGRAM_ANALYSIS_SECURITY
+    2027_intake_signal: YES_PERSONAL_INVITES_EMAIL
+    official_or_personal_source: https://asejfia.github.io/
+    research_bridge: "DS-Hns Boss REX agent coding fixes and evidence reliability"
+    blockers: "Personal invitation to email does not confirm 2027 funded seat; cybersecurity method drift"
+    preserved_from_prior_pool: false
+    individual_fully_funded_seat_verified: false
+    eligibility_cleared: false
+    contact_protocol_verified: false
+    outreach_ready: false
+    send_authorized: false
+    checked_at: 2026-10-10
+  - id: ucl-earl-barr
+    supervisor: "Earl Barr"
+    institution: "University College London"
+    institution_key: ucl
+    uk_priority: UK-A2
+    status: WATCH_UELA_CATALOGUE
+    topic_track: AI4SE_EMPIRICAL_TESTING
+    2027_intake_signal: UNKNOWN_2027
+    official_or_personal_source: https://www.ucl.ac.uk/engineering/computer-science/research/research-groups-and-centres/software-systems-engineering-group/people
+    research_bridge: "Agent verification false-completion benchmarking with DS-Hns/Boss"
+    blockers: "No PI-specific 2027 funded project or openings documented yet; wait UELA 2027 catalogue"
+    preserved_from_prior_pool: false
+    individual_fully_funded_seat_verified: false
+    eligibility_cleared: false
+    contact_protocol_verified: false
+    outreach_ready: false
+    send_authorized: false
+    checked_at: 2026-10-10
+  - id: lancaster-nigel-davies
+    supervisor: "Nigel Davies"
+    institution: "Lancaster University"
+    institution_key: lancaster
+    uk_priority: UK-A2
+    status: WATCH_CAPACITY_FUNDING
+    topic_track: PERVASIVE_PRIVACY_CONSENT_MEMORY
+    2027_intake_signal: UNKNOWN_2027
+    official_or_personal_source: https://www.lancaster.ac.uk/scc/about-us/people/nigel-davies
+    research_bridge: "Personal knowledge and delegated consent in long-horizon pervasive AI"
+    blockers: "2027 seat and full overseas funding unknown; avoid claiming wearable/medical use already implemented"
+    preserved_from_prior_pool: false
+    individual_fully_funded_seat_verified: false
+    eligibility_cleared: false
+    contact_protocol_verified: false
+    outreach_ready: false
+    send_authorized: false
+    checked_at: 2026-10-10
+  - id: lancaster-adrian-friday
+    supervisor: "Adrian Friday"
+    institution: "Lancaster University"
+    institution_key: lancaster
+    uk_priority: UK-A2
+    status: WATCH_FUNDING_TOPIC
+    topic_track: UBIQUITOUS_SYSTEMS_REAL_WORLD_USER_EXPERIENCE
+    2027_intake_signal: YES_PERSONAL_OPEN_TO_CONTACT
+    official_or_personal_source: https://www.lancaster.ac.uk/scc/about-us/people/adrian-friday
+    research_bridge: "Consumer-facing real world personal AI workflows and ubiquity evaluation"
+    blockers: "Research main use sustainability/energy; no 2027 full international award known"
+    preserved_from_prior_pool: false
+    individual_fully_funded_seat_verified: false
+    eligibility_cleared: false
+    contact_protocol_verified: false
+    outreach_ready: false
+    send_authorized: false
+    checked_at: 2026-10-10
+  - id: ucl-mark-harman
+    supervisor: "Mark Harman"
+    institution: "University College London"
+    institution_key: ucl
+    uk_priority: UK-A3
+    status: WATCH_UELA_CATALOGUE
+    topic_track: AI4SE_TESTING_AUTOMATED_REPAIR
+    2027_intake_signal: UNKNOWN_2027
+    official_or_personal_source: https://www.ucl.ac.uk/engineering/computer-science/research/research-groups-and-centres/software-systems-engineering-group/people
+    research_bridge: "Long coding-agent replay, evaluation of correctness and testing"
+    blockers: "No 2027 funded seat/capacity or personal recruitment email guidance verified"
+    preserved_from_prior_pool: false
+    individual_fully_funded_seat_verified: false
+    eligibility_cleared: false
+    contact_protocol_verified: false
+    outreach_ready: false
+    send_authorized: false
+    checked_at: 2026-10-10
+  - id: southampton-boojoong-kang
+    supervisor: "BooJoong Kang"
+    institution: "University of Southampton"
+    institution_key: southampton
+    uk_priority: UK-A3
+    status: WATCH_PROJECT_AND_OVERSEAS_FEES
+    topic_track: TRUSTWORTHY_AI_CYBERSECURITY
+    2027_intake_signal: PROJECT_2027_COMPETITION_FUNDED
+    official_or_personal_source: https://www.southampton.ac.uk/study/postgraduate-research/projects/ai-for-cybersecurity-trustworthy-ai-systems
+    research_bridge: "Evidence-grounded autonomous agent reporting under security threats"
+    blockers: "2027 project competition funding not confirmed fully covering overseas fee difference and stipend, cybersecurity drift"
+    preserved_from_prior_pool: false
+    individual_fully_funded_seat_verified: false
+    eligibility_cleared: false
+    contact_protocol_verified: false
+    outreach_ready: false
+    send_authorized: false
+    checked_at: 2026-10-10
+  - id: imperial-jialun-cao
+    supervisor: "Jialun Cao"
+    institution: "Imperial College London"
+    institution_key: imperial
+    uk_priority: UK-LEGACY
+    status: LOW_ROI_ACADEMIC_FLOOR
+    topic_track: AI_FOR_SOFTWARE_ENGINEERING
+    2027_intake_signal: LEGACY_CONDITIONAL
+    official_or_personal_source: https://www.imperial.ac.uk/computing/prospective-students/phd/scholarships/
+    research_bridge: "Hns Boss coding agent reliability"
+    blockers: "First or Distinction typical academic floor vs 67.5 derived Melbourne MSc; exception route unconfirmed"
+    preserved_from_prior_pool: true
+    individual_fully_funded_seat_verified: false
+    eligibility_cleared: false
+    contact_protocol_verified: false
+    outreach_ready: false
+    send_authorized: false
+    checked_at: 2026-10-10
+  - id: cambridge-cecilia-mascolo
+    supervisor: "Cecilia Mascolo"
+    institution: "University of Cambridge"
+    institution_key: cambridge
+    uk_priority: UK-LEGACY
+    status: LOW_ROI_ACADEMIC_FLOOR
+    topic_track: MOBILE_WEARABLE_SYSTEMS
+    2027_intake_signal: LEGACY_CONDITIONAL
+    official_or_personal_source: https://www.cst.cam.ac.uk/people/cm542
+    research_bridge: "Mobile wearable system application and human-centered evaluation"
+    blockers: "First class equivalent 82 percent Canadian in source vs 78.05 attempted derived, capacity and funding unknown"
+    preserved_from_prior_pool: true
+    individual_fully_funded_seat_verified: false
+    eligibility_cleared: false
+    contact_protocol_verified: false
+    outreach_ready: false
+    send_authorized: false
+    checked_at: 2026-10-10
+program_and_funding_routes:
+  - id: edinburgh-igS-2027
+    institution_key: edinburgh
+    program: Informatics_ICSA_Institute_led_PhD_2027
+    gate: UK_2_1_OR_EQUIVALENT
+    canada_bachelor_reference_percent: 77
+    derived_ubc_percent: 78.05
+    admission_equivalency_confirmed: false
+    international_full_funding_exists: true
+    estimated_informatics_awards_per_year: 6_to_8_competitive
+    first_international_funding_deadline: "2026-11-30T23:59:00+00:00"
+    coverage: "3_years_overseas_tuition_and_3_5_years_UKRI_stipend"
+    source: https://informatics.ed.ac.uk/study-with-us/our-degrees/postgraduate-research-programmes-and-centres-doctoral-training/postgraduate-research-funding-opportunities-0
+  - id: ucl-uela-2027
+    institution_key: ucl
+    program: EPSRC_UELA_2027_28
+    gate: UK_2_1_OR_EQUIVALENT
+    canadian_4_year_bachelor_reference_percent_preceding_policy: 77
+    derived_ubc_percent: 78.05
+    admission_equivalency_confirmed: false
+    international_full_funding_exists: true
+    estimated_total_awards: 50
+    estimated_max_overseas_awards: 15
+    catalogue_expected_open_date: "2026-10-26"
+    funding_deadline: "2027-01-08T12:00:00+00:00"
+    project_matching_pi_verified: false
+    source: https://www.ucl.ac.uk/epsrc-doctoral-training/prospective-students/ucl-epsrc-doctoral-landscape-award-uela-studentships
+  - id: lancaster-cs-2027
+    institution_key: lancaster
+    program: Computer_Science_MPhil_PhD_2027
+    gate: UK_2_1_OR_EQUIVALENT
+    university_2027_funding_published: false
+    international_full_funding_verified: false
+    candidate_english_waiver_route: RECENT_COMPLETED_AUSTRALIAN_MASTERS_CONDITIONAL
+    source: https://www.lancaster.ac.uk/study/postgraduate/postgraduate-courses/computer-science-mphilphd/2027/
+preservation:
+  non_uk_targets: NO_CHANGE
+  old_uk:
+    - imperial-jialun-cao
+    - cambridge-cecilia-mascolo
+  existing_gmail_threads: NO_CHANGE
+  previous_tracking_snapshots: NO_CHANGE
