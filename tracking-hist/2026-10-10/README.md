@@ -33,3 +33,8 @@ Gmail threads（申请邮箱私有链接；以下只存非敏感状态，不在�
 ## 申请材料二次确认（2026-10-10）
 
 重新读取实际发出的 Concordia UBC PDF：打印日期 **2024-08-28**，当时 `Credentials: None to date`，因此原附件不能独立证明 BSc degree conferred；不影响邮件已发的真实历史，但后续正式申请必须补更新官方证明。墨大成绩目前来自 150 CP 的派生 WAM 67.5，仍待官方成绩单；详细核验在 [实际材料报告](../../screening/2026-10-10/MATERIALS-SECOND-PASS.md)。未擅自补发成绩单、修改 Gmail 或提交正式项目。
+
+
+## 2026-10-10 申请人对本科事实的更正（覆盖上文旧注记的错误解释）
+
+**UBC Okanagan BSc in Computer Science 已在 2024 年实际取得，现有本科成绩单为官方最终版**（申请人明确确认）。上文因 2024-08-28 PDF 出现 `Credentials: None to date` 而推断必须补更新版成绩单的结论是误判，不再有效。Gmail 中的历史发送事实和已有附件不变；若某个招生项目另要求 degree certificate，才按该校要求另行提交。详见 [更正的事实来源](../../materials/UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md)。

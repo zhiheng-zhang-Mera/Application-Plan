@@ -9,6 +9,6 @@
 
 **英国专项重筛（只更新英国，不动其它导师）：** 新 [英国 11 位具名导师独立池](../screening/united-kingdom/2026-10-10/UK-SUPERVISOR-POOL.md) 与 [资格、英语、资金门禁](../screening/united-kingdom/2026-10-10/PROGRAM-GATES.md)。Edinburgh ICSA 4 位 + IGS 2026-11-30 国际全额资金竞争；UCL UELA 2027 约 50 个含国际生（最多15人），目录预计10-26、截止2027-01-08；Lancaster PI 接受联系但国际资金待核。**旧 Imperial/Cambridge 两位完整保留为 LOW_ROI，不删除**。
 
-UBC 自算全部 attempted 加权 **78.05%**、Melbourne 完成150 CP的 WAM **67.5 派生值**；需要 UBC 授予学位证明与墨大官方当前成绩单；不在 public repository 额外存敏感信息。
+UBC 自算全部 attempted 加权 **78.05%**、Melbourne 完成150 CP的 WAM **67.5 派生值**；UBC BSc 2024 已获得且本科官方最终成绩单现存；仅按校方特殊要求另验学位证，墨大当前官方成绩单仍需核实；不在 public repository 额外存敏感信息。
 
 详情：[逐项证据](../screening/2026-10-10/MATERIALS-SECOND-PASS.md) · [九位 PI](../screening/2026-10-10/POOL.md) · [英国项目](../screening/2026-10-10/UK-2-1-OPTIONS.md)。**所有新增尚未允许发邮件或提交。**

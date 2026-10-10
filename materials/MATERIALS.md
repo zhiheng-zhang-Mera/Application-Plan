@@ -14,11 +14,14 @@
 
 ## 学术与身份材料
 
-- [x] UBC 成绩记录 PDF（有本科 grading scale）；**已寄给 Concordia 的 2024-08-28 PDF 中 Credentials 仍为 None to date，不能单独证明 degree awarded。**
-- [ ] 2024 年毕业后版 UBC 官方学位授予证明（最新版完整官方成绩单或毕业证/毕业确认信，依学校要求）
+[本科成绩单与 BSc 获授状态的最新纠正](UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md) 是本章节解释优先级高于旧审核快照的事实记录。
+
+
+- [x] **UBC Okanagan 官方最终本科成绩单**（申请人已确认；含 grading scale；同一份原件可用于成绩附件）。**BSc Computer Science 已于 2024 年获得（申请人已确认）。** 一处旧 PDF 的 `Credentials: None to date` 文本不能据此否定授位事实。
+- [x] **不再要求取得“新版 UBC 成绩单”作为通用前置条件**；现有官方最终版可直接作为本科成绩文件准备上传。
 - [x] Bachelor Score.csv：分析数据/非官方成绩单
 - [x] Melbourne Master Score.csv：150/200 CP assessed 的当前 WAM **67.5 派生快照**及 grade scale，余 50 CP pending；在同一加权模型中最高理论 WAM = **75.625**（并非最终 official WAM 或英国学位等级）。
-- [ ] UBC degree completion/certificate（项目具体要求时）
+- [ ] **仅当目标校正式申请清单单独要求** degree certificate / conferral confirmation，才核实这一独立文件的提交方式；不是判定 BSc 是否已取得。
 - [ ] Melbourne 最新 official transcript / 毕业文件
 - [ ] 学校要求时的英语授课证明与正式 waiver 审批
 - [ ] Passport/identity 仅在安全且正式申请系统确有需要时提交

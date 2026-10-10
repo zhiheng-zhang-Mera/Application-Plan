@@ -12,6 +12,11 @@ selected_uk_count: 1
 institution_uniqueness_required: true
 outreach_permission: CREATE_DRAFT_ONLY
 sent_count_in_this_round: 0
+applicant_ubc_bsc_awarded: CONFIRMED_BY_APPLICANT_2024
+applicant_ubc_final_official_transcript: CONFIRMED_AVAILABLE
+newer_ubc_transcript_required: false
+current_draft_ubc_transcript_attached: false
+extra_degree_certificate_only_if_program_demands: true
 underlying_pools:
   - screening/2026-10-10/POOL.yaml
   - screening/united-kingdom/2026-10-10/UK-SUPERVISOR-POOL.yaml

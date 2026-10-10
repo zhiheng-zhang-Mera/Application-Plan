@@ -15,7 +15,10 @@ uk_named_pi_total: 11
 funding_route_count: 3
 applicant_snapshot:
   ubc_attempted_weighted_percent_derived: 78.05
-  ubc_2024_transcript_degree_conferred: NOT_SHOWN
+  ubc_2024_transcript_degree_conferred: CONFIRMED_AWARDED_2024_BY_APPLICANT
+  ubc_final_official_transcript: CONFIRMED_AVAILABLE_BY_APPLICANT
+  ubc_historical_pdf_annotation: CREDENTIALS_NONE_TO_DATE_NOT_A_NEGATION_OF_AWARDED_DEGREE
+  extra_degree_certificate_needed: ONLY_IF_PROGRAM_REQUIRES
   melbourne_msc_wam_snapshot_derived: 67.5
   melbourne_final_master_mark: UNKNOWN
   peer_reviewed_publications_confirmed: 0

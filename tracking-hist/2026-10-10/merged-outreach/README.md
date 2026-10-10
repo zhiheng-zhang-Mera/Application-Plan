@@ -35,7 +35,7 @@
 ## 发送前需要满足的门禁
 
 1. `NO_SEND`：此轮未授权发送，仅创建 Gmail 草稿。四位新对象不得写回 SENT；不能启用自动发送任务。
-2. `REAL_DOCUMENTS`：UBC 已寄的 2024-08-28 PDF 缺最终 degree-conferral，Melbourne 正式当前 transcript 未核，派生 CSV 不能冒充 official PDFs；HKU 和 NYU 缺必要附件。
+2. `REAL_DOCUMENTS`：**UBC BSc 2024 已获授、本科成绩单为官方最终版（申请人确认）**；HKU 与 NYU 的草稿仍没有附上这份现成的本科官方 PDF（与文件不存在是两回事）；Melbourne 正式当前 transcript 未核，派生 CSV 不能冒充 official PDFs。
 3. `NO_FABRICATION`：UBC 78.05% 属包含重修前 F 的本人按123 attempted credits 加权；Melbourne 67.5/150CP 是 pending 的派生 WAM。无官方 rank、无已确认 peer-reviewed publications，不声称穿戴实机/双服务器切换已验收。
 4. `CORE_TRUTH`：DS-Hns / Boss 为已完成冻结前代，Utopia 为已完成冻结的融合后继，Celestial 是未来改造；Utopia head **944f47dd6c7e18b3388b6d769dbbb6dddbe74f00**，Digital-City 当前 main **9efbeeb739a5035774ba34516d5d5b1dce4be8cf**（这仅为指向，具体实验凭已审阅 REX/PCF 报告）。
 5. `LIVE_PROTOCOL`：任何未来想发送前须再次检查官网 PI/current opening/2027/邮箱/附件要求、官方学校资金和招生、是否有同校新的正面答复；本次的 Gmail Draft 不自动转 send-ready。

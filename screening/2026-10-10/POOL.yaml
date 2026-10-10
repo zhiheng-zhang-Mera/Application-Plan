@@ -11,6 +11,7 @@ old_named_pi_candidate_count: 9
 program_level_watch_count: 2
 active_sent_2026_10_09_count: 6
 source_audit: screening/2026-10-10/MATERIALS-SECOND-PASS.md
+undergraduate_status_correction: materials/UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md
 uk_region_latest_priority_source: screening/united-kingdom/2026-10-10/UK-SUPERVISOR-POOL.yaml
 uk_region_refresh_does_not_modify_existing_named_pi_candidates: true
 
@@ -18,10 +19,14 @@ applicant_evidence:
   ubc:
     campus: UBC_Okanagan
     degree: BSc_Computer_Science
-    degree_completion_claim: COMPLETED_2024_USER_HISTORY
+    degree_awarded: CONFIRMED_BY_APPLICANT_2024
+    degree_completion_claim: AWARDED_2024_USER_CONFIRMED
+    final_official_transcript: CONFIRMED_BY_APPLICANT
     sent_pdf_print_date: 2024-08-28
-    sent_pdf_degree_awarded: NOT_SHOWN_CREDENTIALS_NONE_TO_DATE
-    newer_degree_conferral_proof: REQUIRED
+    sent_pdf_degree_awarded: AWARDED_2024_USER_CONFIRMED
+    sent_pdf_annotation: CREDENTIALS_NONE_TO_DATE_EXISTS_NOT_CONTRADICTING_USER_CONFIRMED_AWARD
+    newer_ubc_transcript_required: false
+    extra_degree_certificate: ONLY_IF_PROGRAM_EXPLICITLY_REQUIRES
     weighted_all_attempted_percent: 78.05
     credits_attempted: 123
     credits_earned_approximately: 120
@@ -51,7 +56,7 @@ named_pi_candidates:
     screening_priority: A1
     material_adjusted_status: WATCH_DOCUMENTS_CAPACITY
     research_fit: "wearable mobile AIoT software personal-agent systems"
-    unresolved_hard_or_soft_gates: "UBC degree conferral proof, official masters transcript, class rank unavailable, 2027 supervisor intake"
+    unresolved_hard_or_soft_gates: "Official UBC transcript exists but not attached to this draft; current Melbourne official record and class rank status, 2027 supervisor intake"
     pi_source: https://aiot.cs.hku.hk/openings/
     personal_profile_join_2027_verified: true
     send_authorized: false

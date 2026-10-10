@@ -29,7 +29,7 @@
 - **[逐项核验：官方材料、成绩计算、CV/项目验收、2027 admissions 与 PI 协议](screening/2026-10-10/MATERIALS-SECOND-PASS.md)**；[刷新后的九位 PI 决策池](screening/2026-10-10/POOL.md) · [最新结构化 YAML](screening/2026-10-10/POOL.yaml)。
 - **优先顺序已按真实门禁修正**：HKUST Mo Li、Concordia Peter Chen 的 warm 回复仍优先；新导师先 HKU Chenshu Wu、NUS Chengpeng Wang；NTU Rui Tan 因具体 neuromorphic/embodied 课题从 A1 下调；Imperial/Cambridge 学术 First/Distinction 压力高，降低投入。
 - **原英国初筛快照（最新英国排序以专项池为准）**：[Edinburgh Informatics / Lancaster 2027 英国 2:1 路线](screening/2026-10-10/UK-2-1-OPTIONS.md)：Edinburgh 对加拿大本科 2:1 参考 **77%**，UBC 含重修失败记录的尝试课程加权自算 **78.05%**（**尚非官方等价认定**），2027 国际生 IGS 奖学金首轮 2026-11-30 截止；Lancaster 仍缺已确认国际全额资助/英语豁免。
-- **真实学术材料缺项**：UBC 已发 PDF 为 2024-08-28 版且 `Credentials: None to date`（不足以独立证明授予学位）；需要当前毕业证明与 Melbourne 官方成绩记录；墨大当前 **67.5** 是 150 CP 派生快照，非最后 WAM。不能虚构 class rank 或正式论文。
+- **本科材料已确认：2024 年获 UBC Okanagan BSc，本科成绩单为官方最终版（申请人确认）**；原 PDF 的 `Credentials: None to date` 备注不否认学位事实，不要求重开 UBC 成绩单。仍需确认 Melbourne 当前正式成绩记录及每校若单独要求的 degree certificate；墨大 **67.5** 仍是 150 CP 派生快照，非最终 WAM。不能虚构 class rank 或论文。[更正说明](materials/UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md)
 - **地域准确分类**：NYU Shanghai 是纽约早期课程+上海后续研究，不计入“美国常驻科研”池；美国/英国开放不取代亚洲主申请池。九位原 PI + 两个英国 program-level WATCH，均无新邮件授权。
 
 ## 当前研究与申请原则
@@ -75,7 +75,7 @@
 - **六导师 CV PDF/附件**：历史材料包在 Gmail 草稿附 PDF 并通过准备阶段验收；2026-10-10 另已在六封实际 Sent 首信中确认均有 CV PDF，Concordia 首信还附 UBC 官方成绩单；CUHK 实际只附 CV，缺导师要求的 transcript。
 - **Gmail 事实核验（2026-10-10）：六封已于 2026-10-09 发出，四封尚未见实质回复，两封已获导师回复且用户已于 10 月 10 日回信。** 历史草稿/附件记录保留为发送前快照，不能把它当作当前待发状态；新导师发信与正式申请仍需单独授权。见 [核验表](tracking-hist/2026-10-10/README.md)。
 - **SUTD Jan-2027 正式申请**：官方截止 **2026-10-30**，与 Fall-2027 Ruochen Zhao 导师包是两条不同路线；[新 SOP/材料](tracking-hist/2026-10-9/singapore/SUTD/_program-Jan-2027/README.md)，无需假设已获导师 pre-approval。
-- 缺项：最新官方 Melbourne transcript、UBC degree completion document（如项目要求）、特定项目所需英语授课证明、某些导师必需的官方成绩单、考试公告日与题纲、正式申请的三名推荐人状态。
+- 缺项：最新官方 Melbourne transcript、**仅在学校明确要求时**的单独 UBC degree certificate、英语授课证明或豁免、部分导师草稿尚未附上已经存在的 UBC 最终官方成绩单、考试公告与题纲、正式申请推荐人状态。
 - 严禁把结构化 Bachelor/Master CSV 当作官方成绩单；现有 MSc WAM 快照尚非最终成绩。
 
 ## 最新实现证据（不可用未来规划冒充）

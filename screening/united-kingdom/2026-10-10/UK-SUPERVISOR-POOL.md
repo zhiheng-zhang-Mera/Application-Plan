@@ -32,7 +32,7 @@
 
 ## 材料边界与本轮无动作
 
-- UBC Okanagan BSc，已用 transcript PDF 是 2024-08-28 版，记录 Credentials: None to date，**不能证明 degree awarded**；准备大学颁发的新证明；第四学年自算83.90%不能写成 official class rank/honours。
+- **UBC Okanagan BSc CS 已于2024年获得，本科成绩单是官方最终版（申请人确认）**；某 PDF 记录 `Credentials: None to date` 不能用于推翻学位事实。仅在目标院校明确要求独立 degree certificate 时另查；第四学年自算83.90%不能写成官方排名或 honours。
 - Melbourne Master CS 完成 150/200 CP 的 derived WAM 67.5，不是学校官方最终 WAM。不能自称 UK First/Merit/Distinction 等价，也不要以 75.625 理论上限替代正式结论。
 - DS-Hns、Codex Boss 为已完成冻结前代；Utopia 为已完成冻结融合项目；Celestial 仅下一版计划。软件实机验证必须限于有证据范围；没有已确认 peer-reviewed publication。
 - **不会向同校四名 Edinburgh PI 同时发信。** 只在研究匹配、学术豁免/国际资助、官方招生和个人套磁协议确定后，按学校粒度规划。

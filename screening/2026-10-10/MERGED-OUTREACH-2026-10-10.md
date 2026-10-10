@@ -16,7 +16,7 @@
 ## 候补逻辑
 
 - **1A 优先暖线维护**：HKUST Mo Li Zoom 约时、Concordia Peter Chen 资助/下一步；不会重复首次 cold email。
-- **1B 本日新增**：NUS Chengpeng Wang（CV+research problems 完整，大学 admission/scholarship 未完全核）、HKU Chenshu Wu（缺官方 transcripts）；英国 ICSA Mahesh Marina（海外 IGS 竞赛需提前联系 PI）；NYU Shanghai Qiaoyu Tan（缺 official transcripts）。
+- **1B 本日新增**：NUS Chengpeng Wang（CV+research problems 完整，大学 admission/scholarship 未完全核）、HKU Chenshu Wu（本科**官方最终成绩单已有、但草稿尚未附**；墨大当前官方记录待核）；英国 ICSA Mahesh Marina（海外 IGS 竞赛需提前联系 PI）；NYU Shanghai Qiaoyu Tan（本科最终官方成绩单已有、但草稿尚未附；墨大当前官方记录待核）。
 - **2 英国下一轮**：UCL UELA catalogue 预计 2026-10-26 公布之后再检查 PI 与项目是否真实重合；Lancaster 无全额海外资助证据先不占今日实际草稿。
 - **3 其它备选**：NTU 具体 neuromorphic embodied project 偏纯算法硬件、Imperial/Cambridge 高学术门槛；除非相关政策或研究切入变化，不消耗当前首批邮件资源。
 

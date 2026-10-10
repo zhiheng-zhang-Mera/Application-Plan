@@ -21,7 +21,7 @@
 
 | 顺序 | 地理位置 / 导师 | PI 研究与真实项目桥接 | 资格/协议判定 | 修订状态 |
 |---|---|---|---|---|
-| **A1** | 香港 · **HKU Chenshu Wu** | 可穿戴/mobile sensing、AIoT，Utopia 与 PCF 作为 software agent 容错底座 | [个人 openings](https://aiot.cs.hku.hk/openings/) 要真实 GPA/rank、transcripts、research interests，指定 `[Prospective Student] Your Name - Your Affiliation` 主题。UBC **没有官方 rank**，有授予学位证明缺口，2027 具体招收应再问 | **WATCH_DOCUMENTS_CAPACITY** |
+| **A1** | 香港 · **HKU Chenshu Wu** | 可穿戴/mobile sensing、AIoT，Utopia 与 PCF 作为 software agent 容错底座 | [个人 openings](https://aiot.cs.hku.hk/openings/) 要真实 GPA/rank、transcripts、research interests，指定 `[Prospective Student] Your Name - Your Affiliation` 主题。UBC **没有官方 rank**，但已拥有最终官方本科成绩单且本科学位已于2024年获得；**HKU 草稿尚未附成绩单**，2027 具体招收仍应再问 | **WATCH_DOCUMENTS_CAPACITY** |
 | **A1** | 新加坡 · **NUS Chengpeng Wang** | [RISE Lab](https://chengpeng-wang.github.io/lab.html) 的 AI4SE/agent program analysis，可用 DS-Hns/Codex Boss+REX 的既有证据 | [NUS Computing PhD](https://www.comp.nus.edu.sg/programmes/pg/phdcs/admissions/) **GRE 不要求**，英语授课本科可以符合英语豁免；research scholarship 通常要求本科 Second Upper 或等价，UBC 78.05 自算不能自动证明等价。要 CV+short research problems，QE 另审备考 | **WATCH_SCHOLARSHIP_EQUIVALENCY**（由 BACKUP 上调） |
 | **A2** | 广州 · **HKUST(GZ) Zhidan Liu** | [MobiX](https://liuzhidan.github.io/group/) 的 mobile computing、sensing、GUI agents；端侧个人 Agent 主线强 | PI 有持续招 PhD 信号，但 Fall-2027 具体名额、资助和院校成绩英语门禁仍不够明确；同系另一 HKUST 校区 Mo Li 已邀请讨论 | **WATCH_CAPACITY** |
 | **A2（跨境）** | 纽约授学位、上海长期研究 · **NYU Qiaoyu Tan** | [PI](https://qiaoyu-tan.github.io/index.html) 有 Fall-2027 funded 招生，Trustworthy LLM/Graph ML 与 Hns/Boss 有一定交集 | [NYU Shanghai PhD](https://sh.nyu.edu/page/computer-science-phd-program) 前期纽约、后期上海；须确认用户接受驻沪与课题不是纯模型训练，PI 要 CV+成绩单；2027 Fall 项目正式截止为 **2026-12-12** | **WATCH_LOCATION_METHOD**，按实际地理不作纯美国驻校 |
@@ -42,7 +42,7 @@
 
 ## 发信/递交硬门槛
 
-- UBC 已发过的旧官方 PDF 打印于 **2024-08-28**，`UBC Credentials: None to date`：要新取得学位授予证据；不能从已完成 2024 的用户历史推断旧文件会显示 degree。
+- **UBC 本科学位已于2024年获得，现有成绩单是官方最终版（用户明确确认）。** 旧 PDF 的 `Credentials: None to date` 注记不能推翻这一事实，取消取得新版本科 transcript 的通用门禁；若某校额外要求 degree certificate，单独办理。
 - UBC 78.05 attempted-weighted、末年83.90、Melbourne 67.5 snapshot 均为派生值，不能伪称官方 cumulative GPA、class rank、最终 Master WAM 或英美换算 GPA。英国适用 honours 等价应向校方单独确认。
 - 无已证实的 peer-reviewed publications；Utopia 冻结平台、DS-Hns、Codex Boss 既有工程与可复现性须如实表述；Celestial 是未来重构计划。
 - GRE/IELTS waiver 按**具体 program/intake 和当前官方政策**核实；NTU 的新旧 GRE 页面文字不一致，先核而不误判。

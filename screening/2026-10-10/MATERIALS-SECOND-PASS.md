@@ -2,11 +2,15 @@
 
 > 与首轮“研究方向匹配”不同，本轮采用**实际课程成绩 CSV → 已发出的 UBC 官方成绩单 PDF → 已生成 CV / 研究声明 → Utopia/City 验收证据 → 校方与 PI 官网**逐层交叉核查。当前是 2026-10-10 的可审计筛选，不是录取预测或正式成绩等价认定。新增候选均未获发信授权，也没有生成新 Gmail 草稿。**仓库公开，严禁在本报告记录学号、护照、签证/移民个人信息、私人联系方式。**
 
+## 最新事实更正（2026-10-10，当事人已确认）
+
+**之前把旧 `Credentials: None to date` 注记等同于“最终成绩单不存在／学位尚未获得／必须重新开成绩单”属于错误解释，已纠正。** UBC Okanagan BSc CS 已于 **2024 年获得**；现有本科成绩单是**官方最终版**。这两项均由申请人明确确认。PDF 中出现过的该注记仅作为原文事实记录，不否定学位已取得。是否另交一张独立毕业证，只由目标学校要求决定；本轮不再设置通用新版本科成绩单门禁。详见 [权威状态](../../materials/UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md)。
+
 ## 一、申请人可据以决策的证据
 
 | 事实对象 | 实际来源/抽取法 | 核验结果及适用边界 |
 |---|---|---|
-| UBC 本科 | `Documents/Bachelor Score.csv` / 实际已发送给 Peter Chen 的 PDF | UBC Okanagan（须保留 campus 准确性）；四年 BSc CS，完成年份依既有学位历史 2024，但已发送 PDF 为 **2024-08-28** 版本，`UBC Credentials: None to date`，**不能作为学位已授予证明**。 |
+| UBC 本科 | `Documents/Bachelor Score.csv` / 实际已发送给 Peter Chen 的 PDF | UBC Okanagan（须保留 campus 准确性）；四年 BSc CS，完成年份依既有学位历史 2024，本科学位**已于 2024 年获得，现有成绩单为官方最终版（申请人直接确认）**；历史 PDF 曾显示 `UBC Credentials: None to date`，该备注不推翻授位事实。 |
 | UBC 全部有分数课程 | 40 条有百分成绩记录，含一次 COSC304 45/F 及之后 90/A+ 重修；按成绩×课程 credit，分母 123 attempted credits | **78.05%**（非官方、含不及格前次及重修；已取得通过学分约 120，不得把 123 attempted 当 123 earned）。旧成绩单如学校采取 last-attempt 或 programme GPA 规则，该数字需另算、不得当作 official cumulative GPA。 |
 | UBC 三、四学年 | 同样按课程 credit 加权，60 attempted | **78.75%**。 |
 | UBC 第四学年 | 同样，30 attempted | **83.90%**，可作为 *fourth-year coursework average (derived)*，不是官方 final-year honours 或 class rank。 |
@@ -17,7 +21,7 @@
 | 当前研究 CV 和声明 | `tracking-hist/2026-10-9/*/CV.tex` 与 `materials/RESEARCH-STATEMENT-MASTER.md` | 可核已有跨主机软件和系统研究工程，学术科研输出无 confirmed peer-reviewed publication、无已验证生产级 wearable。无可核官方 class rank，不能用课程 class size 和 class average 冒充 rank。 |
 | 项目真实证据 | [Utopia README](https://github.com/zhiheng-zhang-Mera/utopia/blob/main/README.md)、[2026-10-07 4-in-1](https://github.com/zhiheng-zhang-Mera/Digital-City/blob/main/mission-book/reports/4IN1-ACCEPTANCE/README.md)、[2026-10-08 REX-890](https://github.com/zhiheng-zhang-Mera/Digital-City/blob/main/mission-book/finished/completed-2026-10-08/research-strengthening/README.md) | 真实双 Windows worker + Android control，有限真实跨主机结果/sha 回执，测试、故障注入与独立有限复现可据实写；REX 有未测量/跳过/Android 缺席/自然语言任务 NOT_TESTED 边界，不得将所有功能泛化成产品完整验证。Utopia 已冻结，Celestial 只是下一版计划。 |
 
-**严重文档缺口：** 已发到 Concordia 的 UBC transcript PDF 中 `Credentials: None to date`。它可证明 2024 年 8 月以前成绩，但不能证明毕业后的学位已授。正式申请若需 degree awarded，必须使用最新完整 official transcript / degree certificate / graduation letter；此结论不意味着申请人事实上没有学位。
+**经申请人更正：** UBC BSc 2024 年已获得，现有本科成绩单就是官方最终版。此前以 `Credentials: None to date` 认定本科材料不完整属于误判。正式申请可以使用该最终版成绩单；仅在院校**单独明示**需要 degree certificate/award confirmation 时核对该额外文件。不得将未附到某封 Gmail 草稿与“文件不存在”混同。
 
 **对外四个严禁：** ①不把 78.05 或67.5写为学校认可的 UK honours / 4.0 GPA；②不把 class size 当 rank；③不把未接收论文/私有 manuscript 说成 publication；④不把 Celestial 未来重构与 wearable / 双服务器实机部署说成已完成。
 
@@ -25,7 +29,7 @@
 
 | 导师 / 学校 | 学校/导师官网规则及实际材料冲突 | 新裁决与下一步 |
 |---|---|---|
-| **Chenshu Wu / HKU** | Lab [Openings](https://aiot.cs.hku.hk/openings/) 要 CV 中成绩/排名、transcript、拟研究方向和推荐 proposal，邮件题目 `[Prospective Student] Your Name - Your Affiliation`；页面部分期限仍为 **2025** 旧年份。你无官方 rank，硕士正式 transcript 与新本科 degree proof 不完整；2027 正式主轮日期按 [HKU Graduate School](https://gradsch.hku.hk/) 核对。 | **A1 / WATCH_DOCUMENTS_CAPACITY**：研究匹配最强之一，申请人可按真实成绩/“rank not reported”答复；先校正本科/硕士材料与 PI 的 2027 座位，不能发送自称 rank 的不实 CV。 |
+| **Chenshu Wu / HKU** | Lab [Openings](https://aiot.cs.hku.hk/openings/) 要 CV 中成绩/排名、transcript、拟研究方向和推荐 proposal，邮件题目 `[Prospective Student] Your Name - Your Affiliation`；页面部分期限仍为 **2025** 旧年份。你无官方 rank，硕士当前 official transcript 尚待核实；**本科最终官方 transcript 已存在但尚未附到本轮 HKU 草稿**；2027 正式主轮日期按 [HKU Graduate School](https://gradsch.hku.hk/) 核对。 | **A1 / WATCH_DOCUMENTS_CAPACITY**：研究匹配最强之一，申请人可按真实成绩/“rank not reported”答复；把**已存在**的本科最终官方成绩单加入草稿，核实硕士当前官方记录与 PI 的 2027 座位，不能发送自称 rank 的不实 CV。 |
 | **Chengpeng Wang / NUS** | [NUS PhD 官方](https://www.comp.nus.edu.sg/programmes/pg/phdcs/admissions/) GRE **非强制**；英语为主授课的大学毕业生无需单靠“international”强制提交英语考试；Research Scholarship 最低 2nd Upper 等价，[奖学金](https://www.comp.nus.edu.sg/programmes/pg/phdcs/scholarships/) 有津贴+学费资助、仍竞争激烈。[RISE](https://chengpeng-wang.github.io/lab.html) PI 要 CV+短 research problems。QE 存在但用户允许准备负担可控的专业考试。 | **A1 / WATCH_SCHOLARSHIP_EQUIVALENCY**：由过往 BACKUP 上调。以 DS-Hns/Boss 和 Utopia 真实 agent 评估做研究对接；需 NUS 判断 UBC 学历/78.05 派生结果可否满足 2nd Upper；考试备考另评估，不因 QE 自动淘汰。 |
 | **Zhidan Liu / HKUST(GZ)** | [MobiX group](https://liuzhidan.github.io/group/) 持续招 PhD，mobile/AIoT/GUI agent 与软件系统方法匹配；Fall 2027 特定名额/资金与官方 programme eligibility 未证实。 | **A2 / WATCH_CAPACITY**：有潜力；HKUST 清水湾 Mo Li 正在安排 WANDS 组讨论，暂缓同校系统的另一次盲投，但两校区并非完全相同招生实体。 |
 | **Qiaoyu Tan / NYU Courant–Shanghai** | [PI](https://qiaoyu-tan.github.io/index.html) 明确招 Fall 2027 funded PhD，邮件要 CV+transcript；[项目](https://sh.nyu.edu/page/computer-science-phd-program) 前期纽约课程、其后上海长期科研，实际**非美国常驻**；PI 研究较偏 Graph ML / LLM、要避免变成纯模型算法。 | **A2 / WATCH_LOCATION_METHOD**：按 **亚洲实际驻地＋美国学位**分类；用户愿意上海研究及 agent-systems 子课题才提升，2027 申请截止另按官网核验。 |
@@ -50,7 +54,7 @@
 
 ## 四、申请文件缺项与校验优先级
 
-1. **UBC 学位授予证据**：要显示 Bachelor of Science 已正式授予的完整官方新成绩单、毕业证或学校确认信；旧 2024-08-28 PDF 的 `None to date` 不满足独立毕业证明。
+1. **UBC 本科学位和官方最终成绩单已确认**：BSc CS 2024 年已获得，现有本科成绩单为官方最终版；无需额外索要新版 transcript。目标校若另要求学位证／award confirmation letter，按其明示清单单独处理；两封待发草稿若还没附本科成绩单，应使用现有官方文件添加附件。
 2. **Melbourne 当前官方成绩单**：需覆盖已考核的课程/研究项目，但 `Master Score.csv` 与 Research Proposal 75 都不是 official final Master WAM。
 3. **Class rank**：UBC 记录的是课程 `class_size`、`class_average`，不是申请人本人排名；不能推导，若学校未公布须如实报 `not reported / N/A`。
 4. **正式国际英语豁免依据**：按每一院系项目检查 UBC 学士用英语授课的官方有效性；UK 部分项目未能核实适用豁免则继续 WATCH，绝不预设新 IELTS/TOEFL。
@@ -60,6 +64,6 @@
 
 ## 五、当前顺序结论
 
-实际执行：**Mo Li / Peter Chen 两条 WARM 先维护** → 亚洲新 PI：**HKU Chenshu Wu、NUS Chengpeng Wang**（优先解决毕业证明/硕士官方材料和奖学金等价）→ HKUST(GZ) Zhidan Liu/跨境 NYU Qiaoyu Tan（条件）→ Columbia 符合软件方向再提升 → 英国 **Edinburgh Institute-led + Lancaster programme WATCH**，而非将 Imperial/Cambridge 当成有把握的英语授课豁免与学术资格路线。
+实际执行：**Mo Li / Peter Chen 两条 WARM 先维护** → 亚洲新 PI：**HKU Chenshu Wu、NUS Chengpeng Wang**（优先复用已有本科官方最终成绩单、核实硕士官方材料与奖学金等价）→ HKUST(GZ) Zhidan Liu/跨境 NYU Qiaoyu Tan（条件）→ Columbia 符合软件方向再提升 → 英国 **Edinburgh Institute-led + Lancaster programme WATCH**，而非将 Imperial/Cambridge 当成有把握的英语授课豁免与学术资格路线。
 
 [刷新后的 PI Pool](POOL.md) · [机器版](POOL.yaml) · [审计入口](../README.md) · [实际 Gmail 追踪](../../tracking-hist/2026-10-10/README.md)。本次只写 GitHub 文档，不运行 CV/CI，不触动 Gmail，也不提交大学申请。
