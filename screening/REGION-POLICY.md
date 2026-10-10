@@ -31,3 +31,12 @@
 - [2026-10-10 新候选池及官方核验](2026-10-10/POOL.md)
 - [2026-10-10 已发送与积极回复的状态表](../tracking-hist/2026-10-10/README.md)
 - [考试和学历要求](../materials/EXAM-READINESS-POLICY.md)
+
+## 2026-10-10 实际材料复检后更新
+
+以 [二次材料审核](2026-10-10/MATERIALS-SECOND-PASS.md) 和 [原9位 PI 复核池](2026-10-10/POOL.md) 为最新事实层：
+
+- 先按 UBC Okanagan 成绩与墨大已考核 150/200 CP 核学术等价，不得以 CV、项目自称“完成”直接豁免成绩 hard gate。
+- 英国评估以“哪所学校要 UK 2:1 / First / master's Distinction”分别判定；Edinburgh [加拿大 2:1参考77%](https://study.ed.ac.uk/programmes/regions/canada)，Imperial/Cambridge 正常 First/Distinction 高风险。新增 [UK 2:1 观察](2026-10-10/UK-2-1-OPTIONS.md)。
+- NYU Shanghai 虽发 NYU 学位，但实质多数时间在上海，不应计成美国常驻 PI。亚洲优先按实际落地城市判断。
+- 新硕士 WAM 不是官方，旧 UBC PDF 缺 degree conferral，不推导 class rank；实际邮件追踪仍以 Gmail Sent 为准，不因更改 screening 自动重发。

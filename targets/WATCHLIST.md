@@ -1,4 +1,7 @@
-# 观察列表 — 2026-10-06 刷新
+# 观察列表 — 2026-10-06 历史基础，2026-10-10 实物核验修订
+
+> **2026-10-10 纠偏：** NUS **Chengpeng Wang** 从 BACKUP 提升 `WATCH_SCHOLARSHIP_EQUIVALENCY`（GRE 非必需，QE 不自动淘汰）；NTU Rui Tan 的具体 neuromorphic/embodied 研究内容与 Honours Distinction 门槛使其下调；英国 Edinburgh 2:1 项目和 Lancaster 2:1 项目首次进入 program WATCH。见 [逐项成绩/官网报告](../screening/2026-10-10/MATERIALS-SECOND-PASS.md)。以下旧表只是 10-06 的历史池，不能覆盖 10-10 修订版。
+
 
 > **2026-10-10：美英区域正式开放，以上为历史存量 WATCH；新增 9 人请查 [今日分区候选池](../screening/2026-10-10/POOL.md)。已发六位导师的动态状态以 [邮件对账](../tracking-hist/2026-10-10/README.md) 为准。**
 

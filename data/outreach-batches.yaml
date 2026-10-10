@@ -66,6 +66,11 @@ screening_round:
   preserved_region: Canada
   source: screening/2026-10-10/POOL.yaml
   new_candidates_count: 9
+  review_round_two: MATERIALS_SECOND_PASS_COMPLETED
+  review_record: screening/2026-10-10/MATERIALS-SECOND-PASS.md
+  priority_changed_nus: BACKUP_TO_WATCH
+  priority_changed_ntu: A1_TO_A3_RESEARCH_METHOD_ACADEMICS
+  uk_program_level_watch_count: 2
   new_gmail_drafts_created: 0
   new_emails_sent: 0
   formal_applications_submitted: 0

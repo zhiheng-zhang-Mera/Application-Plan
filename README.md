@@ -10,6 +10,14 @@
 - **[六封实发与回信对账](tracking-hist/2026-10-10/README.md)**：10 月 9 日六封已发送；HKUST Mo Li 邀请团队 Zoom，10 月 10 日已同意、待排时间；Concordia Peter Chen 正面回应、申请状态问题已答复、待后续回复。CUHK James Cheng 实发主题/附件存在个人协议缺项，不自动重发。
 - **10/09“六封待发草稿、未来定时投递”仅是准备阶段快照，已被 10/09 实际 SENT 事实取代，禁止自动重复寄送。** 不触动 HOLD 或 UM 已提交申请。
 
+## 2026-10-10 实际材料二次核验（覆盖当日初筛排序）
+
+- **[逐项核验：官方材料、成绩计算、CV/项目验收、2027 admissions 与 PI 协议](screening/2026-10-10/MATERIALS-SECOND-PASS.md)**；[刷新后的九位 PI 决策池](screening/2026-10-10/POOL.md) · [最新结构化 YAML](screening/2026-10-10/POOL.yaml)。
+- **优先顺序已按真实门禁修正**：HKUST Mo Li、Concordia Peter Chen 的 warm 回复仍优先；新导师先 HKU Chenshu Wu、NUS Chengpeng Wang；NTU Rui Tan 因具体 neuromorphic/embodied 课题从 A1 下调；Imperial/Cambridge 学术 First/Distinction 压力高，降低投入。
+- **英国实用替代池**：[Edinburgh Informatics / Lancaster 2027 英国 2:1 路线](screening/2026-10-10/UK-2-1-OPTIONS.md)：Edinburgh 对加拿大本科 2:1 参考 **77%**，UBC 含重修失败记录的尝试课程加权自算 **78.05%**（**尚非官方等价认定**），2027 国际生 IGS 奖学金首轮 2026-11-30 截止；Lancaster 仍缺已确认国际全额资助/英语豁免。
+- **真实学术材料缺项**：UBC 已发 PDF 为 2024-08-28 版且 `Credentials: None to date`（不足以独立证明授予学位）；需要当前毕业证明与 Melbourne 官方成绩记录；墨大当前 **67.5** 是 150 CP 派生快照，非最后 WAM。不能虚构 class rank 或正式论文。
+- **地域准确分类**：NYU Shanghai 是纽约早期课程+上海后续研究，不计入“美国常驻科研”池；美国/英国开放不取代亚洲主申请池。九位原 PI + 两个英国 program-level WATCH，均无新邮件授权。
+
 ## 当前研究与申请原则
 
 

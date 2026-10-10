@@ -1,45 +1,49 @@
-# 2026-10-10 PhD 新增候选池 — 亚洲优先，美英扩展
+# 2026-10-10 PhD 候选池 — **依据实际材料的二次核验版**
 
-> **仅筛选 / 人工核验清单，不是发送池。** 2027 Fall/October 研究型 PhD；依据 2026-10-10 公开页面与 Application-Plan 画像。新名单与 10 月 9 日已经发出的六封首信互斥；美国、英国获得正式筛选地位，但亚洲依然先处理。匹配度是研究契合度，不是录取概率。
+> **筛选/跟踪，不是可发送名单。** 原始首轮名单留在 Git 历史；现以 [实际成绩、CV、项目证据与校方/导师协议的逐项审计](MATERIALS-SECOND-PASS.md) 为本日期优先判定。亚洲主池不变，纽约/上海交叉路线按实际主要就读地单列。以下研究匹配不是录取概率，**没有任何新导师获发信授权**。
 
-## 优先行动（先已有关系，再新增验证）
+## 已建立实质关系，优先维护而非新增 cold outreach
 
-1. **WARM：HKUST Mo Li / WANDS** 已邀 Zoom group interview，2026-10-10 已回信同意；等时间槽，准备 Utopia/PCF/REX 的真实设备和故障恢复证据。
-2. **WARM：Concordia Peter Chen / SPEAR** 已正面回复并问申请身份，2026-10-10 已回复；等下一步，不创建重复 cold 邮件。
-3. **WAITING：CityUHK Zhenjiang Li、PolyU Yu Liu、CUHK James Cheng、SUTD Ruochen Zhao** 10 月 9 日实际已发，不应由旧日定时计划再次发送。CUHK 实发缺 transcript 且主题不符合 PI 发布的 `phd application` 协议，设 QA 风险人工审查，不自动补发。
-4. **APPLIED：UM Li Li** 正式项目已提交、私人沟通活跃，不触发同院第二次 cold 投递。**HOLD**：Shawn Shan / Yuchen Yang 不恢复。
+| 导师 | 真实外联状态 | 下一步 |
+|---|---|---|
+| **HKUST / Mo Li** | 2026-10-09 首信 SENT；教授邀 WANDS 小组 Zoom；10-10 已回信同意 | 等候组员安排时间，准备真实有界 PCF/REX/Android 演示；未获 offer |
+| **Concordia / Peter Chen** | 2026-10-09 首信 SENT；教授明确研究 fit、询问入学身份；10-10 已回复 | 等进一步回复、核实国际生 funding；不重复首信 |
+| CityUHK Zhenjiang Li / PolyU Yu Liu / SUTD Ruochen Zhao | 10-09 SENT_WAITING | 不重复发；按各自真实线程追踪 |
+| CUHK James Cheng | 10-09 SENT，实际缺其要求的 transcript，subject 非 PI 指定 `phd application` | 人工审查协议风险，不自动重新发 |
+| UM Li Li | 项目 SUBMITTED，已有 warm/private channel | 不重新 cold outreach |
+| Dartmouth Shawn Shan / Penn State Yuchen Yang | HOLD | 不解锁或改变 Gmail |
 
-## 今日新增研究池（按操作优先级分层，学校内部不同时冷套磁）
+[六封已发送邮件的完整事实表](../../tracking-hist/2026-10-10/README.md)。
 
-| 层 | 学校 / PI | 研究桥接 | 招生与联系证据 | 阻碍、当前状态 |
+## 2026-10-10 原 9 名 PI：据实际材料调整后的优先级
+
+| 顺序 | 地理位置 / 导师 | PI 研究与真实项目桥接 | 资格/协议判定 | 修订状态 |
 |---|---|---|---|---|
-| A1 亚洲 | **HKU / Chenshu Wu** | wearable/mobile AIoT 与真实端侧 Agent，Utopia 最贴近之一 | Lab [Openings](https://aiot.cs.hku.hk/openings/) 现有多个有资助 PhD 位；要求 **CV（含 GPA、排名）、transcripts、研究兴趣，推荐 proposal**；邮件主题必须为 `[Prospective Student] Your Name - Your Affiliation` | **WATCH_GATE**：HKU 学历等价、真实班级排名/官方 transcript、资助条款待核；PI 页面招生截止仍为 2025 旧文字，**2027 官方主轮截止 2026-12-01** |
-| A1 亚洲 | **NTU / Rui Tan** | edge-AI systems，PCF 系统实验方法 | 本人 [2027 Fall funded PhD](https://personal.ntu.edu.sg/tanrui/phd.html) 明确 1 位；项目为 continuous-time foundation model / neuromorphic sensing | **WATCH_GATE**：Honours/Distinction 等价、QE；确认是否允许 software-systems 主导而非 neuromorphic / embodied 算法 |
-| A2 亚洲 | **HKUST(GZ) / Zhidan Liu** | mobile sensing、ubiquitous/AIoT 与 GUI agent | [MobiX 招 PhD](https://liuzhidan.github.io/group/) 持续开放 | **WATCH_CAPACITY**：2027 Fall 特定名额、program 英语/GRE/经费仍未核实；HKUST 本部 Mo Li 已进入面试沟通，暂不并发冷套 |
-| A2 亚洲 | **NUS / Chengpeng Wang** | agentic software engineering、repository agent / static+LLM evaluation，DS-Hns/Boss 更贴 | [RISE Lab Join](https://chengpeng-wang.github.io/lab.html) 招 PhD；需 CV + 一段拟研究问题 | **BACKUP**：NUS QE 与 scholarship equivalency 复杂；如愿接受更高程序负担再升级 |
-| A3 亚洲 | **CUHK-Shenzhen / Jinke Ren** | agentic AI 与移动通信交集 | [个人招生页](https://myweb.cuhk.edu.cn/jinkeren) 明确 **2027 Fall**；要求 CV、transcripts、representative publications | **WATCH_PROTOCOL_GAP**：目前没有已录用论文，不能虚构 publications；需确认代表性 artifact 是否可替代，且排除纯算法漂移 |
-| U1 美国 | **Columbia / Zishen Wan** | agentic computing 与可靠评估/系统；需要避开芯片/硬件生成主课题 | [Wan Lab Join](https://wan-research-group.github.io/join.html) 明确 Fall 2027 多个 fully-funded PhD，Dec 2026 截止；要求通过 Columbia CS PhD 申请并点名 PI；如另发 PI 邮件，标题用 `[Prospective PhD] Your Name`，附 CV 并写 1–2 个具体相关项目/论文 | **WATCH_METHOD**：研究组硬件架构占比高，竞争强；[Columbia 最新 GRE 为 optional](https://bulletin.columbia.edu/columbia-engineering/graduate-studies/graduate-admissions/)（2026-07 起），English/2027 项目仍须送审复核 |
-| U1 美国学位 + 上海研究 | **NYU Courant / NYU Shanghai — Qiaoyu Tan** | trustworthy AI/LLM agents；可衔接 Hns/Boss 的实证评估 | [Qiaoyu Tan 个人招生页](https://qiaoyu-tan.github.io/index.html) **明确招 Fall-2027 多名 fully-funded PhD**，邮件需 CV + transcript；[NYU Shanghai CS PhD](https://sh.nyu.edu/page/computer-science-phd-program) **2026-12-12** 截止；[NYU Courant CS](https://cs.nyu.edu/home/phd/admission) GRE 非必需，合格全职 PhD 有学费、学年津贴与保险 | **WATCH_ROUTE**：该路径非单纯美国驻校（可能纽约/上海跨校）；导师公开招收已经确认；须核 GSAS 英语豁免、实际项目归属及 agent 系统而非纯模型训练方向 |
-| K1 英国 | **Imperial / Jialun Cao** | AI4SE coding agents、可信自治/benchmark（Hns/Boss 路线） | [帝国理工奖学金页](https://www.imperial.ac.uk/computing/prospective-students/phd/scholarships/) 明确两项 AI for SE PhD studentships、国际生可申、列有 Cao PI | **WATCH_ACADEMIC_FLOOR**：广告期望 **First Class / Distinction 硕士或等价**，Melbourne WAM 不能直接换算；国际资助需核实实际 offer/时点；[加拿大或澳大利亚同等级学历英语豁免](https://www.imperial.ac.uk/study/apply/english-language/english-language-exemption/) |
-| K2 英国 | **Cambridge / Cecilia Mascolo** | mobile & wearable systems，对个人 AI 终端形态很好 | [Cambridge faculty](https://www.cst.cam.ac.uk/people/cm542) + [Mobile Systems Group](https://mobile-systems.cl.cam.ac.uk/people.html) 方向明确；[Computer Science PhD](https://www.postgraduate.study.cam.ac.uk/courses/directory/cscspdpcs/apply) 要求先与潜在导师讨论并取得许可 | **WATCH_CAPACITY_FUNDING**：未找到其特定 2027 名额、国际资助；**Cambridge 资金截止 2026-12-08**，早于部分课程最终申请日 |
+| **A1** | 香港 · **HKU Chenshu Wu** | 可穿戴/mobile sensing、AIoT，Utopia 与 PCF 作为 software agent 容错底座 | [个人 openings](https://aiot.cs.hku.hk/openings/) 要真实 GPA/rank、transcripts、research interests，指定 `[Prospective Student] Your Name - Your Affiliation` 主题。UBC **没有官方 rank**，有授予学位证明缺口，2027 具体招收应再问 | **WATCH_DOCUMENTS_CAPACITY** |
+| **A1** | 新加坡 · **NUS Chengpeng Wang** | [RISE Lab](https://chengpeng-wang.github.io/lab.html) 的 AI4SE/agent program analysis，可用 DS-Hns/Codex Boss+REX 的既有证据 | [NUS Computing PhD](https://www.comp.nus.edu.sg/programmes/pg/phdcs/admissions/) **GRE 不要求**，英语授课本科可以符合英语豁免；research scholarship 通常要求本科 Second Upper 或等价，UBC 78.05 自算不能自动证明等价。要 CV+short research problems，QE 另审备考 | **WATCH_SCHOLARSHIP_EQUIVALENCY**（由 BACKUP 上调） |
+| **A2** | 广州 · **HKUST(GZ) Zhidan Liu** | [MobiX](https://liuzhidan.github.io/group/) 的 mobile computing、sensing、GUI agents；端侧个人 Agent 主线强 | PI 有持续招 PhD 信号，但 Fall-2027 具体名额、资助和院校成绩英语门禁仍不够明确；同系另一 HKUST 校区 Mo Li 已邀请讨论 | **WATCH_CAPACITY** |
+| **A2（跨境）** | 纽约授学位、上海长期研究 · **NYU Qiaoyu Tan** | [PI](https://qiaoyu-tan.github.io/index.html) 有 Fall-2027 funded 招生，Trustworthy LLM/Graph ML 与 Hns/Boss 有一定交集 | [NYU Shanghai PhD](https://sh.nyu.edu/page/computer-science-phd-program) 前期纽约、后期上海；须确认用户接受驻沪与课题不是纯模型训练，PI 要 CV+成绩单；2027-12-12 **纠错**：正式截止为 **2026-12-12** | **WATCH_LOCATION_METHOD**，按实际地理不作纯美国驻校 |
+| **A3** | 新加坡 · **NTU Rui Tan** | [招生课题](https://personal.ntu.edu.sg/tanrui/phd.html) 虽声称系统重点，具体是 Embodied AI / neuromorphic continuous-time model | 与不做纯算法/控制主线存在漂移。 [NTU CCDS](https://www.ntu.edu.sg/computing/admissions/graduate-programmes/detail/ccds-phd-computing-datascience) 本科 >= Honours Distinction equivalent；新页 GRE 优势但旧镜像有 required，需核当前真正适用专业 | **WATCH_METHOD_ACADEMICS**（原 A1 下调） |
+| **A3** | 深圳 · **CUHK-Shenzhen Jinke Ren** | Agentic AI / network 交叉 | [PI 2027 招生](https://myweb.cuhk.edu.cn/jinkeren) 提代表性论文，申请人目前无可验证 peer-reviewed publication；是否接受 artifact/manuscript 未核实 | **WATCH_PROTOCOL_GAP** |
+| **US-2** | 美国纽约 · **Columbia Zishen Wan** | [PI](https://wan-research-group.github.io/join.html) 有 Fall-2027 全奖名额；agentic computing 可对接工程实证但硬件/芯片比重偏高 | [Columbia Engineering](https://bulletin.columbia.edu/columbia-engineering/graduate-studies/graduate-admissions/) GRE optional，加拿大英语本科豁免路径有利；真实 software systems 子题/竞争性须确定 | **WATCH_METHOD** |
+| **UK-LOW** | 英国 · **Imperial Jialun Cao** | AI4SE 对 Hns/Boss fit 较好，存在国际 funded route | [Imperial CS PhD](https://www.imperial.ac.uk/computing/prospective-students/phd/phd-application-guidelines/) 正常 First/Distinction academic line，当前硕士 67.5 快照+理论上限75.625 明显存在不足；个案/例外尚无书面认可 | **LOW_ROI_ACADEMIC_FLOOR**（非正式拒绝） |
+| **UK-LOW** | 英国 · **Cambridge Cecilia Mascolo** | wearable/mobile fit 很好 | [Cambridge CS PhD](https://www.postgraduate.study.cam.ac.uk/courses/directory/cscspdpcs/requirements) 正常 First；[Canada First](https://www.postgraduate.study.cam.ac.uk/apply/before/international-qualifications) 参考82%，UBC 全部 attempted 自算78.05%，无已确认 2027 PI 位/国际 funding | **LOW_ROI_ACADEMIC_FLOOR**（非正式拒绝） |
 
-**当前 9 个新增候选：亚洲 5、美国 2（其中 NYU 属美授学位/沪研究）、英国 2。** 研究匹配优先研究问题与软件系统方法；不把学校 QS 名次或国家本身当作录取机会估计。
+## 2027 英国新发现：比既有 UK-LOW 两位更有申请价值的**项目级**候选
 
-## 近期决策与时限
+| 项目 | 与已有材料的关系 | 需要解决 |
+|---|---|---|
+| **Edinburgh — Informatics Institute-led PhD** | [加拿大 bachelor 等价](https://study.ed.ac.uk/programmes/regions/canada) 对 UK 2:1 给 **77%**；UBC 78.05 自算表面略高。 [2027 CS systems programme](https://study.ed.ac.uk/programmes/postgraduate-research/492-informatics-icsa-computer-architecture-compilation-and-system) 正常 2:1。[IGS 奖学金](https://informatics.ed.ac.uk/study-with-us/our-degrees/postgraduate-research-programmes-and-centres-doctoral-training/postgraduate-research-funding-opportunities-0) 对国际生开放、有海外学费+津贴竞争席位，**Round1 2026-11-30 23:59 截止** | **HIGH UK PROGRAM WATCH**：先锁系统/agent 具体 PI、确认 2027 项目、正式 GPA/毕业证/成绩单、英语豁免与全额 funding；不表示奖学金已有保障 |
+| **Lancaster — Computer Science PhD** | [2027 官方课程](https://www.lancaster.ac.uk/study/postgraduate/postgraduate-courses/computer-science-mphilphd/2027/) 需 2:1 equivalent，可考虑 non-standard；[Adrian Friday](https://www.lancaster.ac.uk/sci-tech/about-us/people/adrian-friday) 的 ubicomp/personal systems 能部分对接 | **CONDITIONAL UK PROGRAM WATCH**：需先找到 2027 **国际生全额**资助席位、明确 UBC 授课英语豁免、确认 PI 课题不是主要能源可持续研究 |
 
-- **香港优先**：先查 HKU Chenshu Wu 的本/硕资格、正式成绩单和 ranking 真实口径，留意 HKU **2026-12-01** 主轮截止、导师指定主题与 PI 个人页旧年份不能混用；缺项时只做条件确认，不发送不完整申请信。
-- **新加坡第二**：与 NTU Rui Tan 确认 edge-systems 子题范围和 academic equivalency；NUS Chengpeng Wang 仅在接受 QE /奖学金门槛后提升。
-- **跨地区**：Columbia 是否有非纯硬件的 agent/system 子课题；NYU 上海路线是否合适实际驻校地点。英国 Imperial 必须先验证等价成绩要求；Cambridge 先验证 PI capacity + 国际资助。
-- **关键正式期限**：NYU Shanghai/NYU GSAS 该路径 2026-12-12；Cambridge 国际生大学/Trust funding 2026-12-08。其他 PI 与 program 日期以对应正式申请渠道为准，尚未知项目不得填虚构日期。
-- **近端既有事项**：SUTD Jan-2027 program-level 已有材料，历史记录载明截止 2026-10-30，NOT SUBMITTED；该路线与 Fall-2027 PI contact 分开处理。
+**原 9 位 PI 仍为 9 位，不额外编造英国已确认导师名额；两条英国路线目前为 program-level 观察项。** 地理归类为亚洲含跨境 NYU 上海 6 / 美国本土 1 / 英国既有 PI 2；英国另新增 programme-watch 2。各状态定义及完整证据在 [二次核验报告](MATERIALS-SECOND-PASS.md)。
 
-## 筛选判定
+## 发信/递交硬门槛
 
-`WATCH_GATE` = 学术 /英语 / GRE / 经费 等仍需核实；`WATCH_CAPACITY` = 2027 招生席位或 PI 接受申请不明；`WATCH_METHOD` = 主课题可能偏向算法/硬件；`WATCH_PROTOCOL_GAP` = 导师个性化协议有未满足材料；`BACKUP` = 值得保留但整体成本较高。所有新增对象 **outreach_protocol_status: incomplete/unknown**，暂不在本轮生成或发送新的 Gmail 草稿。
+- UBC 已发过的旧官方 PDF 打印于 **2024-08-28**，`UBC Credentials: None to date`：要新取得学位授予证据；不能从已完成 2024 的用户历史推断旧文件会显示 degree。
+- UBC 78.05 attempted-weighted、末年83.90、Melbourne 67.5 snapshot 均为派生值，不能伪称官方 cumulative GPA、class rank、最终 Master WAM 或英美换算 GPA。英国适用 honours 等价应向校方单独确认。
+- 无已证实的 peer-reviewed publications；Utopia 冻结平台、DS-Hns、Codex Boss 既有工程与可复现性须如实表述；Celestial 是未来重构计划。
+- GRE/IELTS waiver 按**具体 program/intake 和当前官方政策**核实；NTU 的新旧 GRE 页面文字不一致，先核而不误判。
+- PI home/lab/openings/contact、国际 funding、2027 明确招收、附件和 subject 缺项时最多 WATCH，不自动生成或发送 Gmail、也不提交正式申请。
 
-## 数据与证据
-
-- [机器可读候选清单](POOL.yaml)
-- [地区政策](../REGION-POLICY.md)
-- [既有六封实际外联对账](../../tracking-hist/2026-10-10/README.md)
-- [现行 screening 门禁](../../rules/SCREENING.md)
+[机器可读 YAML](POOL.yaml) · [地区策略](../REGION-POLICY.md) · [追踪历史](../../tracking-hist/2026-10-10/README.md) · [英国方案对比](UK-2-1-OPTIONS.md)。

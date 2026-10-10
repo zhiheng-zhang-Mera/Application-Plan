@@ -26,3 +26,7 @@ Gmail threads（申请邮箱私有链接；以下只存非敏感状态，不在�
 - 不把不完整本硕官方成绩单、派生成绩 CSV、未发表论文或规划中的 Celestial 当作已提交事实。
 - **UM / Li Li** 保持 SUBMITTED + 私人联系；**HOLD Shawn Shan、Yuchen Yang** 保持；**SUTD Jan-2027** NOT SUBMITTED。
 - 新增 9 位筛选候选见 [今日跨区域池](../../screening/2026-10-10/POOL.md)。尚未批准新一轮发信。
+
+## 申请材料二次确认（2026-10-10）
+
+重新读取实际发出的 Concordia UBC PDF：打印日期 **2024-08-28**，当时 `Credentials: None to date`，因此原附件不能独立证明 BSc degree conferred；不影响邮件已发的真实历史，但后续正式申请必须补更新官方证明。墨大成绩目前来自 150 CP 的派生 WAM 67.5，仍待官方成绩单；详细核验在 [实际材料报告](../../screening/2026-10-10/MATERIALS-SECOND-PASS.md)。未擅自补发成绩单、修改 Gmail 或提交正式项目。
