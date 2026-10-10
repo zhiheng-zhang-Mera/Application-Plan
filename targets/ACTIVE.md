@@ -1,8 +1,19 @@
-# 当前博士申请目标 — 2026-10-09
+# 当前博士申请目标 — 2026-10-10（邮件实发状态对账）
 
 > 由已确认研究兴趣校准覆盖旧 10 月 7 日优先级。本页为当前执行视图，旧 pool snapshot 和 Gmail 实际历史记录不删除。没有发送或提交授权。
 
-## 六位候选（研究匹配顺序）
+## 已实际发送、重要进展（2026-10-10 Gmail 核实）
+
+| 优先处置 | 导师 | 状态 | 操作 |
+|---|---|---|---|
+| 1 | HKUST Mo Li | **REPLIED / WANDS ZOOM DISCUSSION INVITE**；已于 10 月 10 日回信同意 | 等讨论时段，准备研究经验与实证材料 |
+| 2 | Concordia Peter Chen | **REPLIED / POSITIVE RESEARCH FIT**；10 月 10 日回复申请身份询问 | 等后续、核实国际资助 |
+| 3 | CityUHK Zhenjiang Li / PolyU Yu Liu / SUTD Ruochen Zhao | **SENT_WAITING** | 不重复发送 |
+| 4 | CUHK James Cheng | **SENT_PROTOCOL_QA_RISK** | 发件主题与官方要求不符、缺成绩单；人工决定是否需要修复，不自动补信 |
+
+**六封首信均在 2026-10-09 Gmail Sent 确认。** 以下旧排序只代表研究方向匹配，不再代表“尚未寄送”。[实发追踪](../tracking-hist/2026-10-10/README.md) · [本日新增亚洲/美国/英国筛选池](../screening/2026-10-10/POOL.md)。
+
+## 六位候选（研究匹配顺序；现为旧研究顺序，全部已寄送）
 
 | 导师 | 研究桥接 | 实际门禁 | 当期文件 |
 |---|---|---|---|
@@ -23,4 +34,4 @@
 - **SUTD Jan-2027 program-level**：官方 2026-10-30 截止；项目申请独立于 Fall 2027 Zhao 导师问询；已准备新版 SOP 但 **NOT SUBMITTED**。
 - UM Li Li 的 warm/private 线不被本轮六导师 cold round 覆盖或取消。
 - 英语/GRE 豁免仍需官方证据；专业考试 **允许但须可准备**。见 [政策](../materials/EXAM-READINESS-POLICY.md)。
-- 本轮 GitHub CV.tex 尚未自动编译或附加 PDF；不能把项目包标为 SEND_READY。
+- 历史 10 月 9 日六封 CV PDF 已在实发邮件中核实；当前 **SENT** 为准，不再把它们列为待发或执行旧定时发送。CUHK 个人材料协议仍有缺项。

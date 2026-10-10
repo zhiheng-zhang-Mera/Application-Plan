@@ -69,3 +69,17 @@
 | SUTD | Thanh Le-Cong | 2026-09-18 | **CLOSED_TIMEOUT** | 释放 SUTD supervisor-outreach 锁；Ruochen Zhao 可进入新一轮 |
 
 “清除”只清当前 `WAITING` / lock 状态，**不删除历史邮件**。UM / Li Li 因已有实质回复 + warm/private channel，不进入自动 timeout-close。
+
+
+## 2026-10-10 — 对账：六封 10 月 9 日首信实际发送与回复（优先级高于旧“草稿未发”快照）
+
+| 首封日期 | 学校 / 导师 | Gmail 事件 | 2026-10-10 状态 | 跟进约束 |
+|---|---|---|---|---|
+| 2026-10-09 | HKUST / Mo Li | 首信已发送；导师转 WANDS 团队邀请 Zoom | **REPLIED / INTERVIEW_COORDINATION**，10-10 已同意讨论并请求候选时段 | 等会议排期，**尚未确定具体时间**；禁止重复首信 |
+| 2026-10-09 | Concordia / Peter Chen | 首信已发送；导师称研究背景契合并询问申请状态 | **REPLIED / POSITIVE_FIT**，10-10 已回复 | 等导师后续；尚无录取/经费承诺 |
+| 2026-10-09 | CityUHK / Zhenjiang Li | 首信及 CV.pdf 已发送 | **SENT_WAITING** | 不重复发 |
+| 2026-10-09 | PolyU / Yu Liu | 首信及 CV.pdf 已发送 | **SENT_WAITING** | 不重复发 |
+| 2026-10-09 | CUHK / James Cheng | 首信已发送仅 CV.pdf，标题不符合 PI 指定 `phd application` | **SENT_PROTOCOL_QA_RISK** | transcript 缺项，人工决定补救，不自动二次寄出 |
+| 2026-10-09 | SUTD / Ruochen Zhao | 首信及 CV.pdf 已发送 | **SENT_WAITING** | 与 Jan 2027 项目级正式申请独立 |
+
+本次是写回真实邮件状态，而不是新发送；先前 [2026-10-9/OUTREACH-SCHEDULE](../tracking-hist/2026-10-9/OUTREACH-SCHEDULE.md) 的未来安排已由实际发送记录取代。完整映射：[2026-10-10 追踪表](../tracking-hist/2026-10-10/README.md)。美英放开后新候选见 [Pool](../screening/2026-10-10/POOL.md)。

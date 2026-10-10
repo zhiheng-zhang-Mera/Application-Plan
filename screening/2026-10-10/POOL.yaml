@@ -1,0 +1,138 @@
+schema_version: 1
+updated_at: 2026-10-10
+verified_at: 2026-10-10
+cycle: fall-2027
+operational_state: SCREENING_ONLY_NO_NEW_SEND_AUTHORIZATION
+region_priority: [asia, us, uk]
+preserved_region: canada
+policy: screening/REGION-POLICY.md
+tracking: tracking-hist/2026-10-10/README.md
+new_candidate_count: 9
+active_sent_2026_10_09_count: 6
+candidates:
+  - id: hku-chenshu-wu
+    region: asia
+    institution: "HKU"
+    supervisor: "Chenshu Wu"
+    pool_priority: A1
+    status: WATCH_GATE
+    outreach_protocol_status: incomplete
+    new_email_authorized: false
+    research_fit: "wearable AIoT, ubiquitous/mobile AI systems"
+    recruitment_evidence: "multiple funded PhD positions"
+    protocol: "CV with original GPA/rank, transcripts, research background/interests; proposal recommended"
+    gates: "academic equivalency, transcripts/class rank, funding confirmation"
+    source_url: https://aiot.cs.hku.hk/openings/
+    source_checked: 2026-10-10
+  - id: ntu-rui-tan
+    region: asia
+    institution: "NTU"
+    supervisor: "Rui Tan"
+    pool_priority: A1
+    status: WATCH_GATE
+    outreach_protocol_status: incomplete
+    new_email_authorized: false
+    research_fit: "edge AI systems, runtime resource evaluation"
+    recruitment_evidence: "one Fall 2027 fully funded PhD"
+    protocol: "contact from PI position page, CV requested"
+    gates: "honours/distinction equivalency; neuromorphic/embodied project drift; QE"
+    source_url: https://personal.ntu.edu.sg/tanrui/phd.html
+    source_checked: 2026-10-10
+  - id: hkust-gz-zhidan-liu
+    region: asia
+    institution: "HKUST Guangzhou"
+    supervisor: "Zhidan Liu"
+    pool_priority: A2
+    status: WATCH_CAPACITY
+    outreach_protocol_status: incomplete
+    new_email_authorized: false
+    research_fit: "mobile sensing, AIoT, GUI agent"
+    recruitment_evidence: "continuous PhD recruitment; 2027-specific spot not verified"
+    protocol: "PI group page, individual 2027 application steps not fully checked"
+    gates: "specific intake and official program gates; HKUST Mo Li warm relation"
+    source_url: https://liuzhidan.github.io/group/
+    source_checked: 2026-10-10
+  - id: nus-chengpeng-wang
+    region: asia
+    institution: "NUS"
+    supervisor: "Chengpeng Wang"
+    pool_priority: A2
+    status: BACKUP
+    outreach_protocol_status: incomplete
+    new_email_authorized: false
+    research_fit: "repository agents, AI4SE, agent auditing"
+    recruitment_evidence: "PhD recruitment at RISE"
+    protocol: "CV plus short research problem description"
+    gates: "QE and scholarship equivalency"
+    source_url: https://chengpeng-wang.github.io/lab.html
+    source_checked: 2026-10-10
+  - id: cuhksz-jinke-ren
+    region: asia
+    institution: "CUHK Shenzhen"
+    supervisor: "Jinke Ren"
+    pool_priority: A3
+    status: WATCH_PROTOCOL_GAP
+    outreach_protocol_status: incomplete
+    new_email_authorized: false
+    research_fit: "agentic AI, network/mobile intersection"
+    recruitment_evidence: "Fall 2027 PhD"
+    protocol: "CV, transcripts, representative publications"
+    gates: "no peer-reviewed publication, need acceptability of artifacts; algorithm direction"
+    source_url: https://myweb.cuhk.edu.cn/jinkeren
+    source_checked: 2026-10-10
+  - id: columbia-zishen-wan
+    region: us
+    institution: "Columbia"
+    supervisor: "Zishen Wan"
+    pool_priority: U1
+    status: WATCH_METHOD
+    outreach_protocol_status: incomplete
+    new_email_authorized: false
+    research_fit: "AI for computing, agent evaluation and end-to-end systems"
+    recruitment_evidence: "multiple funded PhD for Fall 2027, December 2026 applications"
+    protocol: "apply via Columbia CS, mention supervisor; email optional"
+    gates: "hardware/architecture emphasis, official 2027 gates and funding confirm"
+    source_url: https://wan-research-group.github.io/join.html
+    source_checked: 2026-10-10
+  - id: nyu-qiaoyu-tan
+    region: us_crossborder
+    institution: "NYU Courant / NYU Shanghai"
+    supervisor: "Qiaoyu Tan"
+    pool_priority: U1
+    status: WATCH_ROUTE
+    outreach_protocol_status: incomplete
+    new_email_authorized: false
+    research_fit: "trustworthy LLM agents, outcome evaluation"
+    recruitment_evidence: "NYU Shanghai CS PhD Fall 2027 application deadline 2026-12-12; PI-specific capacity recheck"
+    protocol: "GSAS portal NYU Shanghai preference, PI outreach policy recheck"
+    gates: "English GSAS-specific waiver, research location, PI seat and algorithm drift"
+    source_url: https://sh.nyu.edu/page/computer-science-phd-program
+    source_checked: 2026-10-10
+  - id: imperial-jialun-cao
+    region: uk
+    institution: "Imperial"
+    supervisor: "Jialun Cao"
+    pool_priority: K1
+    status: WATCH_ACADEMIC_FLOOR
+    outreach_protocol_status: incomplete
+    new_email_authorized: false
+    research_fit: "AI for software engineering, dependable coding agents"
+    recruitment_evidence: "2 funded PhD AI for SE studentships, open to international applicants; intake recheck"
+    protocol: "apply Computing Research with AI for SE proposed topic + PI named"
+    gates: "First Class/Distinction master equivalency; funded seat availability"
+    source_url: https://www.imperial.ac.uk/computing/prospective-students/phd/scholarships/
+    source_checked: 2026-10-10
+  - id: cambridge-cecilia-mascolo
+    region: uk
+    institution: "Cambridge"
+    supervisor: "Cecilia Mascolo"
+    pool_priority: K2
+    status: WATCH_CAPACITY_FUNDING
+    outreach_protocol_status: incomplete
+    new_email_authorized: false
+    research_fit: "mobile and wearable systems"
+    recruitment_evidence: "PI 2027 seat not confirmed; funding deadline 2026-12-08"
+    protocol: "PI advance discussion and supervisor permission prior to application"
+    gates: "supervisor capacity, international funding, full application/English gate"
+    source_url: https://www.postgraduate.study.cam.ac.uk/courses/directory/cscspdpcs/apply
+    source_checked: 2026-10-10

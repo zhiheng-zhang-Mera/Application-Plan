@@ -1,6 +1,6 @@
 # 筛选与优先级规则
 
-> **2026-10-09 生效。** 当前研究目标以 [research-profile](../materials/research-profile.md) 与 [20Q 已确认决策](../materials/PROFILE-DECISIONS-20Q.md) 为准；旧 pool 文件仅为历史快照。本文件定义目标筛选与考试可准备性门禁。
+> **2026-10-09 研究画像规则；2026-10-10 地区政策增补生效。** 当前研究目标以 [research-profile](../materials/research-profile.md) 与 [20Q 已确认决策](../materials/PROFILE-DECISIONS-20Q.md) 为准；旧 pool 文件仅为历史快照。本文件定义目标筛选与考试可准备性门禁。
 
 ## 1. 博士研究身份
 
@@ -65,6 +65,16 @@
 - 正式 peer-reviewed publications 有加分，但不应让现有可投机会完全等待论文。
 - Utopia / REX 的日志、独立复现与真实故障修复可以证明研究工程与实验方法，不能自动证明新型机制的学术新颖性或普适性能。
 - 未来 wearable/消费者实测与真实用户研究尚未完成，必须明确作为 research plan。
+
+## 6A. 地区政策（2026-10-10）
+
+**正式开放美国和英国，不再按旧区域排除；但亚洲仍是申请主池**，优先香港/澳门/港校内地校区/新加坡等现有管线，保留加拿大已经有效的申请与导师关系。对应 [地区策略和打分门禁](../screening/REGION-POLICY.md)。
+
+- 新增候选区域优先排序：亚洲 PRIMARY → 美国与英国 SECONDARY；不设置僵硬学校数量配额，强导师 + 实际国际生资助 + 低摩擦可改变具体优先级。
+- 美国：Fall-2027 CS PhD 的 GRE/英语豁免、项目与个人 PI 容量、faculty contact 规则、资助覆盖，分别核实；不能把 2026/其他学院政策直接当 2027 实锤。
+- 英国：优先有国际生 **全额** funding 的博士位，先核验 First Class/Distinction 等价、申请时间、奖学金截止与 supervisor consent；MSc WAM 不自动线性换 UK 分类。
+- 任何候选有已发邮件、积极回复或同校暖线，都必须先对账，**不重复发送、不因新筛选自动复活历史 scheduled email**。
+- 当天 [2026-10-10 Pool](../screening/2026-10-10/POOL.md) 全部为筛选中，不能表示发信授权。
 
 ## 7. 筛选顺序
 

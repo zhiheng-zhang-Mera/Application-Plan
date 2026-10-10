@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-10-07
+updated_at: 2026-10-10
 mailbox: zhiheng0mera@gmail.com
 
 # Gmail thread/message mapping is canonical here after direct operations.
@@ -7,6 +7,59 @@ mailbox: zhiheng0mera@gmail.com
 # no matching Gmail thread has yet been mapped in the default mailbox.
 
 threads:
+  # 2026-10-10 Gmail verification; already SENT on 2026-10-09; do not schedule duplicate cold outreach.
+  - supervisor_id: hkust-mo-li
+    historical_state: REPLIED_GROUP_ZOOM_INVITED_APPLICANT_ACCEPTED
+    sent_at: 2026-10-09
+    reply_at: 2026-10-09
+    applicant_followup_at: 2026-10-10
+    gmail_thread_id: "1a11eff613e07421"
+    gmail_initial_sent_message_id: "1a11f5ab22731273"
+    gmail_latest_sent_message_id: "1a1249ab64541c76"
+    evidence_source: tracking-hist/2026-10-10/README.md
+    next_action: WAIT_FOR_GROUP_TIME_SLOTS
+    lock_state: WARM_ACTIVE
+  - supervisor_id: concordia-peter-chen
+    historical_state: REPLIED_POSITIVE_FIT_APPLICANT_CLARIFICATION_SENT
+    sent_at: 2026-10-09
+    reply_at: 2026-10-09
+    applicant_followup_at: 2026-10-10
+    gmail_thread_id: "1a11f12a1c4cb8b7"
+    gmail_initial_sent_message_id: "1a120a449916b51f"
+    gmail_latest_sent_message_id: "1a12497a0f1d74bb"
+    evidence_source: tracking-hist/2026-10-10/README.md
+    next_action: WAIT_FOR_PI_AND_VERIFY_FUNDING
+    lock_state: WARM_ACTIVE
+  - supervisor_id: cityuhk-zhenjiang-li
+    historical_state: SENT_WAITING
+    sent_at: 2026-10-09
+    gmail_thread_id: "1a11efeba785bfaf"
+    gmail_initial_sent_message_id: "1a11f5ab3881f48d"
+    attachment_status: CV_PDF_CONFIRMED
+    lock_state: WAITING
+  - supervisor_id: polyu-yu-liu
+    historical_state: SENT_WAITING
+    sent_at: 2026-10-09
+    gmail_thread_id: "1a11f00125799f97"
+    gmail_initial_sent_message_id: "1a11f5ab3643644f"
+    attachment_status: CV_PDF_CONFIRMED
+    lock_state: WAITING
+  - supervisor_id: cuhk-james-cheng
+    historical_state: SENT_PROTOCOL_QA_RISK
+    sent_at: 2026-10-09
+    gmail_thread_id: "1a11f13e3d945d40"
+    gmail_initial_sent_message_id: "1a11f5ab353e1744"
+    attachment_status: CV_ONLY_TRANSCRIPT_MISSING
+    subject_status: NONCOMPLIANT_WITH_PI_PUBLISHED_SUBJECT
+    next_action: OWNER_REVIEW_NO_AUTOMATED_RESEND
+    lock_state: WAITING
+  - supervisor_id: sutd-ruochen-zhao
+    historical_state: SENT_WAITING
+    sent_at: 2026-10-09
+    gmail_thread_id: "1a11effc8f5467cb"
+    gmail_initial_sent_message_id: "1a11f5ab2ac44537"
+    attachment_status: CV_PDF_CONFIRMED
+    lock_state: WAITING
   - supervisor_id: polyu-yu-pei
     contact_email: csypei@comp.polyu.edu.hk
     historical_state: CLOSED_TIMEOUT

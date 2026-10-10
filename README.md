@@ -1,9 +1,17 @@
 # 2027 PhD 申请控制中心
 
-> **当前申请画像：2026-10-09；GitHub 材料准备完成，未授权发送 Gmail、未授权正式提交。** 入口页面只显示当前决策，历史套磁与旧版评估仍完整保留。
+> **当前研究画像：2026-10-09；申请与套磁实际状态已于 2026-10-10 对账。** 10 月 9 日六位导师首封邮件实际已发送，Mo Li 与 Peter Chen 已回复；无正式录取或资助承诺，本轮未提交新的大学申请。历史套磁与材料版本保留。
 > 统一研究身份：**Reliable Long-Horizon Personal AI Agents for Wearable and Ubiquitous Computing**。跨设备个人 AI、目标授权的长期自治、全局一致性下的有界重规划、真实设备任务完成验收。
 
+## 今日增量筛选：亚洲优先，美国与英国正式开放（2026-10-10）
+
+- **[地区筛选中心](screening/README.md)** · [2026-10-10 新候选 9 人清单](screening/2026-10-10/POOL.md) · [机器数据](screening/2026-10-10/POOL.yaml)。
+- 主池：香港、澳门、港校内地校区、新加坡；美国/英国开放真实候选并继续保留加拿大有效线。新增名单只是 WATCH/CONDITIONAL/BACKUP，**尚无新对象被批准发信**。
+- **[六封实发与回信对账](tracking-hist/2026-10-10/README.md)**：10 月 9 日六封已发送；HKUST Mo Li 邀请团队 Zoom，10 月 10 日已同意、待排时间；Concordia Peter Chen 正面回应、申请状态问题已答复、待后续回复。CUHK James Cheng 实发主题/附件存在个人协议缺项，不自动重发。
+- **10/09“六封待发草稿、未来定时投递”仅是准备阶段快照，已被 10/09 实际 SENT 事实取代，禁止自动重复寄送。** 不触动 HOLD 或 UM 已提交申请。
+
 ## 当前研究与申请原则
+
 
 - **领域权重 C45% / A30% / B25%**：可穿戴与智能终端（其中穿戴 70%、智能空间 30%）、异构计算、AI Agent；**主要原创贡献是长期自主任务可靠完成**。
 - 消费级评价：真实功能价值 > 稳定/无缝协同 > 低延迟。软件系统+真实设备/使用评价为主，不走纯算法、机器人控制或电路研发。
@@ -39,11 +47,11 @@
 
 - **UM / Li Li：** 既有申请仍按原历史记录为 SUBMITTED，导师已回应并进入私人渠道；[新版研究兴趣与 CV 源](tracking-hist/2026-10-9/macau/UM/Li-Li/README.md)仅供后续导师请求时参考。**不创建新邮件，不改变申请或 funding 状态**。
 
-## 当期执行状态
+## 当期执行状态（2026-10-10 Gmail 实际对账后）
 
 - [2026-10-9 六导师包 + SUTD 项目正式申请包](tracking-hist/2026-10-9/PACKAGE-INDEX.md)：新 CV TeX、英文邮件候选、Research Interest、协议和附件缺项。
-- **六导师 CV PDF_READY / GMAIL_ATTACHMENT_VERIFIED**：六份 CV.pdf 已基于各自当前 GitHub CV.tex 编译，逐一推送回对应目录、存入 Drive 并在六封新版 Gmail 草稿中验证为二进制 PDF 附件；不使用旧版 PDF，未触发 CI。
-- **Gmail：根据用户授权已建立六封新版带 CV PDF 的待发草稿，均未发送**；六封旧无附件草稿仍保留，避免擅自删除。发送、额外成绩单和访问权限仍需用户明确授权。
+- **六导师 CV PDF/附件**：历史材料包在 Gmail 草稿附 PDF 并通过准备阶段验收；2026-10-10 另已在六封实际 Sent 首信中确认均有 CV PDF，Concordia 首信还附 UBC 官方成绩单；CUHK 实际只附 CV，缺导师要求的 transcript。
+- **Gmail 事实核验（2026-10-10）：六封已于 2026-10-09 发出，四封尚未见实质回复，两封已获导师回复且用户已于 10 月 10 日回信。** 历史草稿/附件记录保留为发送前快照，不能把它当作当前待发状态；新导师发信与正式申请仍需单独授权。见 [核验表](tracking-hist/2026-10-10/README.md)。
 - **SUTD Jan-2027 正式申请**：官方截止 **2026-10-30**，与 Fall-2027 Ruochen Zhao 导师包是两条不同路线；[新 SOP/材料](tracking-hist/2026-10-9/singapore/SUTD/_program-Jan-2027/README.md)，无需假设已获导师 pre-approval。
 - 缺项：最新官方 Melbourne transcript、UBC degree completion document（如项目要求）、特定项目所需英语授课证明、某些导师必需的官方成绩单、考试公告日与题纲、正式申请的三名推荐人状态。
 - 严禁把结构化 Bachelor/Master CSV 当作官方成绩单；现有 MSc WAM 快照尚非最终成绩。
@@ -58,5 +66,5 @@
 
 ## 历史与业务入口
 
-- [历史材料索引](tracking-hist/README.md) · [2026-10-07 原 Round B（仅历史）](targets/OUTREACH-ROUND-2026-10-07-B.md) · [当前导师评估说明](targets/PHD-REVIEW-2026-10-09.md)
+- [历史材料索引](tracking-hist/README.md) · [今日筛选快捷表](targets/CONTACT-POOL-2026-10-10.md) · [2026-10-07 原 Round B（仅历史）](targets/OUTREACH-ROUND-2026-10-07-B.md) · [上一轮导师研究评估](targets/PHD-REVIEW-2026-10-09.md)
 - [材料缺口与规则](materials/MATERIALS.md) · [原申请历史](applications/OUTREACH-LOG.md) · [待观察导师](targets/WATCHLIST.md) · [区域历史刷新](targets/POOL-REFRESH-2026-10-06-HK-SG.md)
