@@ -34,3 +34,13 @@ email_sent: false
 official_app_submitted: false
 outreach_ready: false
 send_authorized: false
+
+# Applicant-confirmed UBC undergraduate degree and transcript correction (2026-10-10)
+ubc_bsc_awarded: true
+ubc_bsc_award_year: 2024
+ubc_final_official_transcript_available: true
+newer_ubc_transcript_required: false
+separate_degree_certificate: ONLY_IF_PROGRAM_REQUIRES
+ubc_transcript_attached_to_existing_gmail_draft: false
+gmail_draft_unchanged: true
+send_authorized: false

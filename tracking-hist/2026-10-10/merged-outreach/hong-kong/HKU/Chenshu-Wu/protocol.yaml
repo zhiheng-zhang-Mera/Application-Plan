@@ -26,7 +26,7 @@ draft_attachment_files:
 manual_send_gates:
   - "PI mandated exact email subject, supplied exactly in Gmail draft."
   - "PI requires CV with GPA and ranking; CV explicitly marks original-scale averages as derived and official class rank not reported."
-  - "PI requires transcripts; current draft has neither an updated UBC degree-conferral transcript nor current Melbourne official record. BLOCKED until added."
+  - "PI requires transcripts: final official UBC transcript exists but is not attached; Melbourne current official record remains unverified and unattached. Do not send."
   - "Research proposal strongly recommended; a one-page PDF is attached."
 actual_draft_id: "r3438704569563220130"
 actual_message_id: "1a1253943f7587d4"
@@ -36,4 +36,14 @@ gmail_label_at_verification: DRAFT
 email_sent: false
 official_app_submitted: false
 outreach_ready: false
+send_authorized: false
+
+# Applicant-confirmed UBC undergraduate degree and transcript correction (2026-10-10)
+ubc_bsc_awarded: true
+ubc_bsc_award_year: 2024
+ubc_final_official_transcript_available: true
+newer_ubc_transcript_required: false
+separate_degree_certificate: ONLY_IF_PROGRAM_REQUIRES
+ubc_transcript_attached_to_existing_gmail_draft: false
+gmail_draft_unchanged: true
 send_authorized: false

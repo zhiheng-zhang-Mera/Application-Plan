@@ -1,5 +1,7 @@
 # NUS School of Computing — Chengpeng Wang | 2026-10-10 package
 
+> **2026-10-10 事实更正：** UBC Okanagan BSc 已于2024年获得、现有本科成绩单为官方最终版（申请人直接确认）。此前“必须取得更新版本科成绩单”的阻塞项已撤销；实际 Gmail 草稿仍未发送，现有正文与 CV PDF 已正确写 BSc。[事实来源](../../../../../../materials/UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md)。
+
 **Status:** `DRAFT_REVIEW_SCHOLARSHIP_EQUIVALENCY` | **Gmail: DRAFT, NOT SENT** | **Selected rank: 1** | Region: ASIA_PRIMARY
 
 **Research bridge:** Agentic program analysis; executable evidence and state-aware repository-agent recovery.

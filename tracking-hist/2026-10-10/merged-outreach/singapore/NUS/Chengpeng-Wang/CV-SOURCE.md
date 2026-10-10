@@ -11,7 +11,7 @@ Reliable repository-scale coding agents: program-analysis signals, persistent ex
 ## Education
 
 - **University of Melbourne, Australia (2025–2026 expected):** Master of Computer Science. Master's final mark pending; research project underway.
-- **University of British Columbia, Okanagan campus, Canada (2024):** Bachelor of Science in Computer Science (degree completion date per applicant history; obtain newer award-confirmation document for admissions).
+- **University of British Columbia, Okanagan campus, Canada (2024):** Bachelor of Science in Computer Science (**degree awarded in 2024; final official UBC transcript available; applicant-confirmed**).
 - Actual official transcript and grade conversion must be verified by the target university. Class rank is not officially reported.
 
 ## Completed research engineering projects (not peer-reviewed publications)

@@ -1,5 +1,7 @@
 # Email Draft — Chenshu Wu, The University of Hong Kong — 2026-10-10
 
+> **资料校正：** BSc 在2024年已获授，UBC 本科成绩单就是最终官方版本。下方英文 Gmail 草稿原文保持不变，避免在没有必要时产生新的草稿；附件状态按实际 readback 记录。[资料解释](../../../../../../materials/UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md)。
+
 > **GMAIL DRAFT, NEVER SENT.** 状态 `DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED`。下列英文正文系实际 Gmail 草稿再次读回，非尚未同步的 GitHub 单机草稿。中文为本地审查要点，不会添加进 Gmail。
 >
 > [Gmail Draft](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a1253943f7587d4) · [实际附件](ATTACHMENTS.md) · [发送协议](protocol.yaml)
@@ -29,13 +31,13 @@ Zhiheng Zhang
 
 ## 中文校对摘要（不发送）
 
-严格采用教授规定的 [Prospective Student] 主题，正文如实报告本科 78.05% 派生学分加权值、硕士 67.5 当前快照与无官方 rank。AIoT 论文方向突出 sensing context 对执行放置的影响，但说明并未完成专门穿戴实机。**导师强制要求的官方 transcripts 未附，不能发送。**
+严格采用教授规定的 [Prospective Student] 主题，正文如实报告本科 78.05% 派生学分加权值、硕士 67.5 当前快照与无官方 rank。AIoT 论文方向突出 sensing context 对执行放置的影响，但说明并未完成专门穿戴实机。**官方本科最终成绩单已存在，但还未附入本草稿；墨大当前官方成绩记录待核，暂不能发送。**
 
 ## 人工审查保留项
 
 - PI mandated exact email subject, supplied exactly in Gmail draft.
 - PI requires CV with GPA and ranking; CV explicitly marks original-scale averages as derived and official class rank not reported.
-- PI requires transcripts; current draft has neither an updated UBC degree-conferral transcript nor current Melbourne official record. BLOCKED until added.
+- PI requires transcript attachments. Final official UBC transcript exists but is not attached; current Melbourne official record also remains unverified/unattached. Attachment gate remains, not a BSc degree gate.
 - Research proposal strongly recommended; a one-page PDF is attached.
 
-**明确禁止**：自动寄送、把缺成绩单邮件标 send-ready、重复联系现有 HKUST Mo Li / Concordia Peter Chen warm 线程、将 2024 年 UBC 未显示学位授予的 PDF 当最终学位证明。
+**明确禁止**：自动寄送、把缺成绩单邮件标 send-ready、重复联系现有 HKUST Mo Li / Concordia Peter Chen warm 线程、以 PDF 旧注记否认2024年已获授的 BSc，或误称现有官方最终成绩单不存在。

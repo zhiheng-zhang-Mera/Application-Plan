@@ -1,5 +1,7 @@
 # 附件实测与发件阻塞 — The University of Hong Kong / Chenshu Wu
 
+> **2026-10-10 更正：** BSc 2024 已获授、官方最终版本科成绩单已存在（申请人确认）。本 manifest 的 *missing attachment* 仅描述当时 Gmail 是否附带了文件；不等于申请人没有最终成绩单。未修改 Gmail 草稿、未发送。
+
 > Gmail 2026-10-10 readback verified this draft is `DRAFT`; NOT SENT. 审查附件不代表可以按下发送。二进制附件已真实生成、Gmail 保存并再次读取：2 个 PDF；ZIP 中提供全部 LaTeX/可打印 PDF 离线副本。
 
 ## Actual Gmail attachments
@@ -9,12 +11,12 @@
 
 ## Missing / not included
 
-- Official undergraduate transcript with post-conferral degree proof
+- **Existing official final UBC transcript** — available but not attached to current Gmail draft; not a request to obtain a new transcript.
 - Official current University of Melbourne transcript
 
 ## Applicant materials that are **not** ready
 
-- UBC 2024-08-28 official PDF exists historically, but `Credentials: None to date` cannot independently establish degree awarded; a later official conferral record is needed.
+- **BSc 已于2024年获得，本科成绩单为官方最终版（用户确认）**。旧 PDF 的 `Credentials: None to date` 注记不是否认授位的证据。只有具体大学正式要求额外 degree certificate 时才核查该独立附件。
 - Current official University of Melbourne transcript and degree award are not verified; its WAM **67.5** is a derived 150/200 CP snapshot, not official final.
 - UBC course-credit weighted **78.05%** is derived (including initial F and later retake); no self-invented class rank.
 - No accepted/reviewed paper should be invented. The private student's passport/ID and raw transcripts must not be committed into this public repo.
