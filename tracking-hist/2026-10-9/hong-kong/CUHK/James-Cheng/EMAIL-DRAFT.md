@@ -1,5 +1,7 @@
 # Tailored PhD Inquiry — 2026-10-09 (NOT SENT)
 
+> **历史邮件草稿档案**：10/09 已实际发送首信，[10/13 James Cheng 回复](https://mail.google.com/mail/u/0/#all/1a13439fb5be5840)表示课题组无名额、包括 self-financed positions。当前 `REPLIED_NO_CAPACITY`，不再重发、补发或认定可投递；保留原文字作为 10/09 准备记录。[Gmail 状态对账](https://github.com/zhiheng-zhang-Mera/Application-Plan/blob/main/tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。
+
 **To:** jcheng@cse.cuhk.edu.hk  
 **Subject:** phd application
 
