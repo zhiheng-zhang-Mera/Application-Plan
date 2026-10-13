@@ -1,5 +1,8 @@
 schema_version: 2
-updated_at: 2026-10-10
+updated_at: 2026-10-14
+screening_snapshot_date: 2026-10-10
+outreach_evidence: tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md
+no_new_outreach_authorized: true
 evidence_review: ACTUAL_MATERIALS_AND_2027_OFFICIAL_REQUIREMENTS
 cycle: fall-2027
 decision_is_admissions_approval: false
@@ -9,7 +12,10 @@ preserved_region: canada
 asia_priority: true
 old_named_pi_candidate_count: 9
 program_level_watch_count: 2
-active_sent_2026_10_09_count: 6
+active_sent_2026_10_09_count: 6 # historic total: James now REPLIED_NO_CAPACITY
+sent_2026_10_12_count: 4
+excluded_current_contact_candidates:
+  - {id: cuhk-james-cheng, institution: CUHK, reason: NO_PI_VACANCIES_INCLUDING_SELF_FINANCED, replied_at: 2026-10-13, evidence: tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md}
 source_audit: screening/2026-10-10/MATERIALS-SECOND-PASS.md
 undergraduate_status_correction: materials/UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md
 uk_region_latest_priority_source: screening/united-kingdom/2026-10-10/UK-SUPERVISOR-POOL.yaml
@@ -54,9 +60,16 @@ named_pi_candidates:
     institution: "HKU"
     supervisor: "Chenshu Wu"
     screening_priority: A1
+    outreach_state: SENT_WAITING
+    actual_sent_at: 2026-10-12
+    actual_sent_to: "chenshu@cs.hku.hk"
+    gmail_sent_message_id: "1a12d9fa7bff7ec9"
+    gmail_thread_id: "1a1253943f7587d4"
+    reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+    formal_application_submitted: false
     material_adjusted_status: WATCH_DOCUMENTS_CAPACITY
     research_fit: "wearable mobile AIoT software personal-agent systems"
-    unresolved_hard_or_soft_gates: "Official UBC transcript exists but not attached to this draft; current Melbourne official record and class rank status, 2027 supervisor intake"
+    unresolved_hard_or_soft_gates: "10-10 draft lacked transcripts; actual 10-12 sent message has UBCTranscript and Unimelb WAM PDFs; current Melbourne official-record confirmation, class rank and 2027 intake still unverified; actual subject differs from old required template"
     pi_source: https://aiot.cs.hku.hk/openings/
     personal_profile_join_2027_verified: true
     send_authorized: false
@@ -67,6 +80,13 @@ named_pi_candidates:
     institution: "NUS"
     supervisor: "Chengpeng Wang"
     screening_priority: A1
+    outreach_state: SENT_WAITING
+    actual_sent_at: 2026-10-12
+    actual_sent_to: "wang-chengpeng@nus.edu.sg"
+    gmail_sent_message_id: "1a12d9fa7a7325a8"
+    gmail_thread_id: "1a1253926e84d8a8"
+    reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+    formal_application_submitted: false
     material_adjusted_status: WATCH_SCHOLARSHIP_EQUIVALENCY
     research_fit: "agentic software engineering and credible repository agent outcomes"
     unresolved_hard_or_soft_gates: "2nd Upper equivalency for UBC bachelor and NUS scholarship; QE preparation and PI specific full funding"
@@ -93,9 +113,16 @@ named_pi_candidates:
     institution: "NYU Courant / Shanghai"
     supervisor: "Qiaoyu Tan"
     screening_priority: A2
+    outreach_state: SENT_WAITING
+    actual_sent_at: 2026-10-12
+    actual_sent_to: "qiaoyu.tan@nyu.edu"
+    gmail_sent_message_id: "1a12d9fa78e64e15"
+    gmail_thread_id: "1a1253974e97bd6a"
+    reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+    formal_application_submitted: false
     material_adjusted_status: WATCH_LOCATION_METHOD
     research_fit: "trustworthy LLM agents + empirical software evaluation"
-    unresolved_hard_or_soft_gates: "accept Shanghai research residence, verify no pure graph-ML focus, UBC completion evidence, English exemption"
+    unresolved_hard_or_soft_gates: "accept Shanghai residence, verify non-graph-ML research focus and English exemption; sent UBC and Unimelb PDFs do not prove formal admission eligibility"
     pi_source: https://qiaoyu-tan.github.io/index.html
     personal_profile_join_2027_verified: true
     send_authorized: false

@@ -1,5 +1,7 @@
 schema_version: 1
-updated_at: 2026-10-10
+updated_at: 2026-10-14
+latest_reconciliation: tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md
+new_outreach_authorized: false
 mailbox: zhiheng0mera@gmail.com
 
 # Gmail thread/message mapping is canonical here after direct operations.
@@ -46,13 +48,20 @@ threads:
     lock_state: WAITING
   - supervisor_id: cuhk-james-cheng
     historical_state: SENT_PROTOCOL_QA_RISK
+    current_state: REPLIED_NO_CAPACITY
     sent_at: 2026-10-09
+    reply_at: 2026-10-13
+    gmail_reply_message_id: "1a13439fb5be5840"
+    gmail_reply_url: "https://mail.google.com/mail/u/0/#all/1a13439fb5be5840"
+    no_vacancy_including_self_financed: true
+    capacity_scope: JAMES_CHENG_LAB_ONLY
+    active_candidate_eligible: false
     gmail_thread_id: "1a11f13e3d945d40"
     gmail_initial_sent_message_id: "1a11f5ab353e1744"
     attachment_status: CV_ONLY_TRANSCRIPT_MISSING
     subject_status: NONCOMPLIANT_WITH_PI_PUBLISHED_SUBJECT
-    next_action: OWNER_REVIEW_NO_AUTOMATED_RESEND
-    lock_state: WAITING
+    next_action: NO_RECONTACT_UNLESS_NEW_CAPACITY_EVIDENCE_AND_USER_AUTHORIZATION
+    lock_state: RELEASED
   - supervisor_id: sutd-ruochen-zhao
     historical_state: SENT_WAITING
     sent_at: 2026-10-09
@@ -60,6 +69,74 @@ threads:
     gmail_initial_sent_message_id: "1a11f5ab2ac44537"
     attachment_status: CV_PDF_CONFIRMED
     lock_state: WAITING
+  - supervisor_id: nus-chengpeng-wang
+    current_state: SENT_WAITING
+    sent_at: 2026-10-12
+    sent_time_melbourne: "12:00 AEDT"
+    contact_email: "wang-chengpeng@nus.edu.sg"
+    sent_subject: "Fall 2027 PhD inquiry — state-aware analysis for long-horizon coding agents"
+    gmail_thread_id: "1a1253926e84d8a8"
+    gmail_initial_sent_message_id: "1a12d9fa7a7325a8"
+    gmail_sent_url: "https://mail.google.com/mail/u/0/#all/1a12d9fa7a7325a8"
+    historical_draft_message_id: "1a1253926e84d8a8"
+    attachment_files: ["Research-Note.pdf", "CV.pdf"]
+    reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+    official_application_submitted: false
+    new_send_authorized: false
+    next_action: WAIT_NO_DUPLICATE_SEND
+    lock_state: WAITING
+    evidence_source: tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md
+  - supervisor_id: hku-chenshu-wu
+    current_state: SENT_WAITING
+    sent_at: 2026-10-12
+    sent_time_melbourne: "12:00 AEDT"
+    contact_email: "chenshu@cs.hku.hk"
+    sent_subject: "[Prospective 2027 Fall PhD] Zhiheng Zhang - University of Melbourne"
+    gmail_thread_id: "1a1253943f7587d4"
+    gmail_initial_sent_message_id: "1a12d9fa7bff7ec9"
+    gmail_sent_url: "https://mail.google.com/mail/u/0/#all/1a12d9fa7bff7ec9"
+    historical_draft_message_id: "1a1253943f7587d4"
+    attachment_files: ["Unimelb WAM.pdf", "UBCTranscript_Zhang_Zhiheng_final.pdf", "Research-Note.pdf", "CV.pdf"]
+    reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+    official_application_submitted: false
+    new_send_authorized: false
+    next_action: WAIT_NO_DUPLICATE_SEND
+    lock_state: WAITING
+    evidence_source: tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md
+  - supervisor_id: edinburgh-mahesh-marina
+    current_state: SENT_WAITING
+    sent_at: 2026-10-12
+    sent_time_melbourne: "19:00 AEDT"
+    contact_email: "mahesh@ed.ac.uk"
+    sent_subject: "Prospective September 2027 PhD — dependable edge AI execution (ICSA)"
+    gmail_thread_id: "1a125395d20f9c1c"
+    gmail_initial_sent_message_id: "1a12f202de545136"
+    gmail_sent_url: "https://mail.google.com/mail/u/0/#all/1a12f202de545136"
+    historical_draft_message_id: "1a125395d20f9c1c"
+    attachment_files: ["Research-Note.pdf", "CV.pdf"]
+    reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+    official_application_submitted: false
+    new_send_authorized: false
+    next_action: WAIT_NO_DUPLICATE_SEND
+    lock_state: WAITING
+    evidence_source: tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md
+  - supervisor_id: nyu-qiaoyu-tan
+    current_state: SENT_WAITING
+    sent_at: 2026-10-12
+    sent_time_melbourne: "12:00 AEDT"
+    contact_email: "qiaoyu.tan@nyu.edu"
+    sent_subject: "Fall 2027 PhD inquiry — trustworthy long-horizon agent evaluation"
+    gmail_thread_id: "1a1253974e97bd6a"
+    gmail_initial_sent_message_id: "1a12d9fa78e64e15"
+    gmail_sent_url: "https://mail.google.com/mail/u/0/#all/1a12d9fa78e64e15"
+    historical_draft_message_id: "1a1253974e97bd6a"
+    attachment_files: ["UBCTranscript_Zhang_Zhiheng_final.pdf", "Unimelb WAM.pdf", "CV.pdf"]
+    reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+    official_application_submitted: false
+    new_send_authorized: false
+    next_action: WAIT_NO_DUPLICATE_SEND
+    lock_state: WAITING
+    evidence_source: tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md
   - supervisor_id: polyu-yu-pei
     contact_email: csypei@comp.polyu.edu.hk
     historical_state: CLOSED_TIMEOUT
@@ -152,14 +229,19 @@ state_rules:
       - "PhD-Application/Waiting"
     lock_state: RELEASED
 
-# New 2026-10-10 Gmail drafts only. Do not rewrite `threads:` SENT/WARM historical records.
+# Historical 10-10 draft records preserved; the actual 10-12 SENT events are in threads: above.
 drafts_2026_10_10_asia_uk:
   - supervisor: "Chengpeng Wang"
     university: "NUS School of Computing"
     draft_id: "r-8286695313949821919"
     gmail_thread_id: "1a1253926e84d8a8"
     gmail_message_id: "1a1253926e84d8a8"
-    draft_state: DRAFT_NOT_SENT
+    draft_state: HISTORICAL_DRAFT_SUPERSEDED_BY_SENT
+    sent_at: 2026-10-12
+    gmail_sent_message_id: "1a12d9fa7a7325a8"
+    sent_to: "wang-chengpeng@nus.edu.sg"
+    sent_attachment_count: 2
+    current_state: SENT_WAITING
     send_ready: false
     send_authorized: false
     pdf_attachment_count: 2
@@ -169,7 +251,12 @@ drafts_2026_10_10_asia_uk:
     draft_id: "r3438704569563220130"
     gmail_thread_id: "1a1253943f7587d4"
     gmail_message_id: "1a1253943f7587d4"
-    draft_state: DRAFT_NOT_SENT
+    draft_state: HISTORICAL_DRAFT_SUPERSEDED_BY_SENT
+    sent_at: 2026-10-12
+    gmail_sent_message_id: "1a12d9fa7bff7ec9"
+    sent_to: "chenshu@cs.hku.hk"
+    sent_attachment_count: 4
+    current_state: SENT_WAITING
     send_ready: false
     send_authorized: false
     pdf_attachment_count: 2
@@ -179,7 +266,12 @@ drafts_2026_10_10_asia_uk:
     draft_id: "r7115584263933457950"
     gmail_thread_id: "1a125395d20f9c1c"
     gmail_message_id: "1a125395d20f9c1c"
-    draft_state: DRAFT_NOT_SENT
+    draft_state: HISTORICAL_DRAFT_SUPERSEDED_BY_SENT
+    sent_at: 2026-10-12
+    gmail_sent_message_id: "1a12f202de545136"
+    sent_to: "mahesh@ed.ac.uk"
+    sent_attachment_count: 2
+    current_state: SENT_WAITING
     send_ready: false
     send_authorized: false
     pdf_attachment_count: 2
@@ -189,7 +281,12 @@ drafts_2026_10_10_asia_uk:
     draft_id: "r-4471292914156412321"
     gmail_thread_id: "1a1253974e97bd6a"
     gmail_message_id: "1a1253974e97bd6a"
-    draft_state: DRAFT_NOT_SENT
+    draft_state: HISTORICAL_DRAFT_SUPERSEDED_BY_SENT
+    sent_at: 2026-10-12
+    gmail_sent_message_id: "1a12d9fa78e64e15"
+    sent_to: "qiaoyu.tan@nyu.edu"
+    sent_attachment_count: 3
+    current_state: SENT_WAITING
     send_ready: false
     send_authorized: false
     pdf_attachment_count: 1

@@ -1,5 +1,7 @@
 schema_version: 2
-updated_at: 2026-10-10
+updated_at: 2026-10-14
+latest_email_audit: tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md
+new_email_authorized: false
 timeout_policy:
   default_after_business_days: 5
   action: CLOSED_TIMEOUT
@@ -29,7 +31,8 @@ current_round:
   gmail_sent_now: true
   gmail_sent_confirmed_count: 6
   gmail_positive_replies_confirmed_count: 2
-  reconciliation_note: "Sent status verified in Gmail on 2026-10-10; historic schedule superseded, no duplicate send" 
+  reconciliation_note: "10-09 six sent; 10-13 James replied no capacity including self-financed; other states unchanged"
+  current_no_capacity_replies_confirmed_count: 1
   scheduled_automation_tasks_enabled_count: null # historic 6-task plan not currently confirmed as active; no active tasks visible at reconciliation
   schedule_record: tracking-hist/2026-10-9/OUTREACH-SCHEDULE.md
   institution_uniqueness_required: true
@@ -42,14 +45,14 @@ current_round:
     - {institution_batch_key: concordia, university: "Concordia", supervisor: "Peter Chen", priority: 3, state: REPLIED_POSITIVE_FIT, gmail_draft_id: "r5912071168757690521", superseded_cv_only_draft_id: "r-7985680144702726924", transcript_status: UBC_OFFICIAL_ATTACHED_MELBOURNE_OFFICIAL_UNKNOWN, scheduled_send_condition: TRANSCRIPTS_COMPLETE, previous_gmail_draft_id: "r3209306691343500843", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/canada/Concordia/Peter-Chen"}
     - {institution_batch_key: sutd, university: "SUTD", supervisor: "Ruochen Zhao", priority: 4, state: SENT_WAITING, gmail_draft_id: "r8889142359321161047", previous_gmail_draft_id: "r3575921792560868019", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/singapore/SUTD/Ruochen-Zhao"}
     - {institution_batch_key: polyu, university: "PolyU", supervisor: "Yu Liu", priority: 5, state: SENT_WAITING, gmail_draft_id: "r-8914591753154488135", previous_gmail_draft_id: "r-3862017206343532850", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/hong-kong/PolyU/Yu-Liu"}
-    - {institution_batch_key: cuhk-hk, university: "CUHK", supervisor: "James Cheng", priority: 6, state: SENT_PROTOCOL_QA_RISK, gmail_draft_id: "r-4824334217818394514", superseded_cv_only_draft_id: "r6876212347917210285", transcript_status: MISSING, scheduled_send_condition: OFFICIAL_TRANSCRIPT_ATTACHED, previous_gmail_draft_id: "r-2772843160601490178", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng"}
+    - {institution_batch_key: cuhk-hk, university: "CUHK", supervisor: "James Cheng", priority: 6, state: REPLIED_NO_CAPACITY, capacity_includes_self_financed: false, reply_at: 2026-10-13, exclude_current_pool: true, gmail_draft_id: "r-4824334217818394514", superseded_cv_only_draft_id: "r6876212347917210285", transcript_status: MISSING, scheduled_send_condition: OFFICIAL_TRANSCRIPT_ATTACHED, previous_gmail_draft_id: "r-2772843160601490178", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng"}
   deferred:
     - {institution_batch_key: dartmouth, supervisor: "Shawn Shan", state: HOLD_BY_USER, gmail_draft_id: "r-2191592184476148652", reason: "User deferred security route"}
     - {institution_batch_key: penn-state, supervisor: "Yuchen Yang", state: HOLD_BY_USER, gmail_draft_id: "r8477617223962377240", reason: "User deferred security route"}
     - {institution_batch_key: cuhk-shenzhen, supervisor: "Jinke Ren", reason: REPRESENTATIVE_PUBLICATION_MATERIAL_GAP}
     - {institution_batch_key: hkust-guangzhou, supervisor: "Zhidan Liu", reason: INTAKE_SPECIFIC_CAPACITY_NOT_CONFIRMED}
     - {institution_batch_key: ntu, supervisor: "Rui Tan", reason: ACADEMIC_EQUIVALENCY_AND_EXAM_PREPARATION_NOT_ASSESSED}
-    - {institution_batch_key: nus, supervisor: "Chengpeng Wang", reason: BACKUP_PREPARATION_AND_SCHOLARSHIP_FRICTION_TO_REASSESS}
+    - {institution_batch_key: nus, supervisor: "Chengpeng Wang", reason: BACKUP_PREPARATION_AND_SCHOLARSHIP_FRICTION_TO_REASSESS, historical_as_of: 2026-10-09, later_sent_at: 2026-10-12}
   separate_non_outreach_actions:
     - program: SUTD Jan 2027 PhD
       action: FORMAL_APPLICATION_PREPARATION_ONLY
@@ -72,13 +75,15 @@ screening_round:
   priority_changed_ntu: A1_TO_A3_RESEARCH_METHOD_ACADEMICS
   uk_program_level_watch_count: 2
   new_gmail_drafts_created: 0
-  new_emails_sent: 0
+  new_emails_sent: 0 # as-of 10-10 historic screening snapshot; four emails later sent 10-12
   formal_applications_submitted: 0
 
 # 2026-10-10 merged Asia+UK screening after material second-pass; independent of previously SENT six-person round.
 merged_materials_round:
   id: materials-2026-10-10-asia-uk
-  state: GMAIL_PDF_ATTACHED_DRAFTS_NOT_SENT
+  state: FOUR_SENT_2026_10_12_WAITING
+  historical_preparation_state: GMAIL_PDF_ATTACHED_DRAFTS_NOT_SENT
+  reconciled_at: 2026-10-14
   selection_basis: screening/2026-10-10/MERGED-OUTREACH-2026-10-10.md
   package_index: tracking-hist/2026-10-10/merged-outreach/README.md
   distinct_institutions: true
@@ -86,16 +91,22 @@ merged_materials_round:
   uk_selected: 1
   selected_count: 4
   gmail_drafts_created: 4
-  pdf_attachment_counts: [2,2,2,1]
-  actual_emails_sent: 0
+  draft_pdf_attachment_counts_2026_10_10: [2,2,2,1]
+  actual_sent_pdf_attachment_counts: [2,4,2,3]
+  actual_emails_sent: 4
+  no_reply_in_checked_threads: 4
   auto_send: false
-  authorized_action: DRAFT_ONLY
+  historical_authorized_action: DRAFT_ONLY
+  current_authorized_action: TRACK_ONLY_NO_NEW_SEND
   selected:
-    - {rank: 1, institution: "NUS School of Computing", supervisor: "Chengpeng Wang", status: DRAFT_REVIEW_SCHOLARSHIP_EQUIVALENCY, draft_id: "r-8286695313949821919", package: "tracking-hist/2026-10-10/merged-outreach/singapore/NUS/Chengpeng-Wang"}
-    - {rank: 2, institution: "The University of Hong Kong", supervisor: "Chenshu Wu", status: DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED, draft_id: "r3438704569563220130", package: "tracking-hist/2026-10-10/merged-outreach/hong-kong/HKU/Chenshu-Wu"}
-    - {rank: 3, institution: "University of Edinburgh", supervisor: "Mahesh Marina", status: DRAFT_REVIEW_IGS_FULL_APPLICATION_PENDING, draft_id: "r7115584263933457950", package: "tracking-hist/2026-10-10/merged-outreach/united-kingdom/Edinburgh/Mahesh-Marina"}
-    - {rank: 4, institution: "NYU Shanghai / NYU Courant", supervisor: "Qiaoyu Tan", status: DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED, draft_id: "r-4471292914156412321", package: "tracking-hist/2026-10-10/merged-outreach/crossborder/NYU-Shanghai/Qiaoyu-Tan"}
+    - {rank: 1, institution: "NUS School of Computing", supervisor: "Chengpeng Wang", status: SENT_WAITING, draft_id: "r-8286695313949821919", package: "tracking-hist/2026-10-10/merged-outreach/singapore/NUS/Chengpeng-Wang", sent_at: 2026-10-12, sent_to: "wang-chengpeng@nus.edu.sg", gmail_sent_message_id: "1a12d9fa7a7325a8", gmail_thread_id: "1a1253926e84d8a8", sent_pdf_count: 2, reply_status: NO_REPLY_IN_CHECKED_THREAD}
+    - {rank: 2, institution: "The University of Hong Kong", supervisor: "Chenshu Wu", status: SENT_WAITING, draft_id: "r3438704569563220130", package: "tracking-hist/2026-10-10/merged-outreach/hong-kong/HKU/Chenshu-Wu", sent_at: 2026-10-12, sent_to: "chenshu@cs.hku.hk", gmail_sent_message_id: "1a12d9fa7bff7ec9", gmail_thread_id: "1a1253943f7587d4", sent_pdf_count: 4, reply_status: NO_REPLY_IN_CHECKED_THREAD}
+    - {rank: 3, institution: "University of Edinburgh", supervisor: "Mahesh Marina", status: SENT_WAITING, draft_id: "r7115584263933457950", package: "tracking-hist/2026-10-10/merged-outreach/united-kingdom/Edinburgh/Mahesh-Marina", sent_at: 2026-10-12, sent_to: "mahesh@ed.ac.uk", gmail_sent_message_id: "1a12f202de545136", gmail_thread_id: "1a125395d20f9c1c", sent_pdf_count: 2, reply_status: NO_REPLY_IN_CHECKED_THREAD}
+    - {rank: 4, institution: "NYU Shanghai / NYU Courant", supervisor: "Qiaoyu Tan", status: SENT_WAITING, draft_id: "r-4471292914156412321", package: "tracking-hist/2026-10-10/merged-outreach/crossborder/NYU-Shanghai/Qiaoyu-Tan", sent_at: 2026-10-12, sent_to: "qiaoyu.tan@nyu.edu", gmail_sent_message_id: "1a12d9fa78e64e15", gmail_thread_id: "1a1253974e97bd6a", sent_pdf_count: 3, reply_status: NO_REPLY_IN_CHECKED_THREAD}
   gate_no_repeated_sends: true
-  gate_hku_transcripts_missing: true
-  gate_nyu_transcripts_missing: true
+  historical_draft_gate_hku_transcripts_missing: true
+  hku_sent_has_ubc_and_unimelb_pdfs: true
+  hku_subject_differs_from_2026_10_10_required_pattern: true
+  historical_draft_gate_nyu_transcripts_missing: true
+  nyu_sent_has_ubc_and_unimelb_pdfs: true
   previous_sent_round_preserved: true

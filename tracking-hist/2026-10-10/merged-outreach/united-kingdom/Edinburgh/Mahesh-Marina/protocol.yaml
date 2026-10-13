@@ -29,11 +29,27 @@ manual_send_gates:
   - "September 2027 ICSA / overseas IGS complete application and supervisor support unconfirmed; Round 1 deadline Nov 30 2026."
   - "Final official UBC transcript exists and BSc awarded 2024; additional degree certificate only if specifically requested, Melbourne official record still under verification."
 actual_draft_id: "r7115584263933457950"
-actual_message_id: "1a125395d20f9c1c"
+historical_draft_message_id: "1a125395d20f9c1c"
+actual_message_id: "1a12f202de545136"
 actual_thread_id: "1a125395d20f9c1c"
 gmail_verified: true
-gmail_label_at_verification: DRAFT
-email_sent: false
+gmail_label_at_2026_10_10_verification: DRAFT
+gmail_label_at_2026_10_14_verification: SENT
+email_sent: true
+outreach_state: SENT_WAITING
+sent_at: "2026-10-12"
+sent_time_melbourne: "19:00 AEDT (UTC+11)"
+sent_to: "mahesh@ed.ac.uk"
+sent_subject: "Prospective September 2027 PhD — dependable edge AI execution (ICSA)"
+gmail_sent_message_id: "1a12f202de545136"
+gmail_sent_url: "https://mail.google.com/mail/u/0/#all/1a12f202de545136"
+sent_attachment_files:
+  - "Research-Note.pdf"
+  - "CV.pdf"
+sent_attachment_count: 2
+reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+new_send_authorized: false
+audit_source: "tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md"
 official_app_submitted: false
 outreach_ready: false
 send_authorized: false
@@ -45,4 +61,4 @@ ubc_final_official_transcript_available: true
 newer_ubc_transcript_required: false
 separate_degree_certificate: ONLY_IF_PROGRAM_REQUIRES
 ubc_transcript_attached_to_existing_gmail_draft: false
-gmail_draft_unchanged: true
+historical_draft_unchanged_as_of_2026_10_10: true

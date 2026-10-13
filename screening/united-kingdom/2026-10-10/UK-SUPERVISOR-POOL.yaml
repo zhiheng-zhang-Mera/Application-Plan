@@ -1,5 +1,7 @@
 schema_version: 1
-updated_at: 2026-10-10
+updated_at: 2026-10-14
+original_uk_screening_date: 2026-10-10
+outreach_evidence: tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md
 region: united_kingdom
 operation_scope: UK_ONLY_REFRESH
 preserves_non_uk_candidates: true
@@ -35,7 +37,14 @@ named_supervisor_candidates:
     institution: "University of Edinburgh"
     institution_key: edinburgh
     uk_priority: UK-A1
-    status: WATCH_PI_FUNDING
+    status: WATCH_PI_FUNDING # funding research screening unchanged; email was actually sent
+    outreach_state: SENT_WAITING
+    actual_sent_at: 2026-10-12
+    actual_sent_to: "mahesh@ed.ac.uk"
+    gmail_sent_message_id: "1a12f202de545136"
+    gmail_thread_id: "1a125395d20f9c1c"
+    reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+    formal_application_submitted: false
     topic_track: MOBILE_EDGE_AIOT_SYSTEMS
     2027_intake_signal: YES_OFFICIAL_ACCEPTING_PHD
     official_or_personal_source: https://www.research.ed.ac.uk/en/persons/mahesh-marina/

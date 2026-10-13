@@ -29,11 +29,30 @@ manual_send_gates:
   - "PI requires transcripts: final official UBC transcript exists but is not attached; Melbourne current official record remains unverified and unattached. Do not send."
   - "Research proposal strongly recommended; a one-page PDF is attached."
 actual_draft_id: "r3438704569563220130"
-actual_message_id: "1a1253943f7587d4"
+historical_draft_message_id: "1a1253943f7587d4"
+actual_message_id: "1a12d9fa7bff7ec9"
 actual_thread_id: "1a1253943f7587d4"
 gmail_verified: true
-gmail_label_at_verification: DRAFT
-email_sent: false
+gmail_label_at_2026_10_10_verification: DRAFT
+gmail_label_at_2026_10_14_verification: SENT
+email_sent: true
+outreach_state: SENT_WAITING
+sent_at: "2026-10-12"
+sent_time_melbourne: "12:00 AEDT (UTC+11)"
+sent_to: "chenshu@cs.hku.hk"
+sent_subject: "[Prospective 2027 Fall PhD] Zhiheng Zhang - University of Melbourne"
+gmail_sent_message_id: "1a12d9fa7bff7ec9"
+gmail_sent_url: "https://mail.google.com/mail/u/0/#all/1a12d9fa7bff7ec9"
+sent_attachment_files:
+  - "Unimelb WAM.pdf"
+  - "UBCTranscript_Zhang_Zhiheng_final.pdf"
+  - "Research-Note.pdf"
+  - "CV.pdf"
+sent_attachment_count: 4
+reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+new_send_authorized: false
+sent_subject_protocol_delta: DIFFERS_FROM_OLD_REQUIRED_TEMPLATE
+audit_source: "tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md"
 official_app_submitted: false
 outreach_ready: false
 send_authorized: false
@@ -45,4 +64,4 @@ ubc_final_official_transcript_available: true
 newer_ubc_transcript_required: false
 separate_degree_certificate: ONLY_IF_PROGRAM_REQUIRES
 ubc_transcript_attached_to_existing_gmail_draft: false
-gmail_draft_unchanged: true
+historical_draft_unchanged_as_of_2026_10_10: true

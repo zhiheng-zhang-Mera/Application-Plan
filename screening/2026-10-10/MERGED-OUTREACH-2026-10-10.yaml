@@ -1,5 +1,8 @@
 schema_version: 1
-updated_at: 2026-10-10
+updated_at: 2026-10-14
+original_screening_date: 2026-10-10
+outreach_evidence: tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md
+new_email_authorized: false
 cycle: 2027-Fall-or-Sep
 region_priority: [asia, uk, us]
 merged_named_candidates_count: 18
@@ -10,71 +13,106 @@ selected_now_count: 4
 selected_asia_count: 3
 selected_uk_count: 1
 institution_uniqueness_required: true
-outreach_permission: CREATE_DRAFT_ONLY
-sent_count_in_this_round: 0
+outreach_permission: NO_NEW_SEND_AUTHORIZED # 10-10 preparation permission was CREATE_DRAFT_ONLY
+sent_count_in_this_round: 4
 applicant_ubc_bsc_awarded: CONFIRMED_BY_APPLICANT_2024
 applicant_ubc_final_official_transcript: CONFIRMED_AVAILABLE
 newer_ubc_transcript_required: false
-current_draft_ubc_transcript_attached: false
+historical_2026_10_10_draft_ubc_transcript_attached: false
+actual_sent_hku_and_nyu_ubc_pdf_attached: true
 extra_degree_certificate_only_if_program_demands: true
 underlying_pools:
   - screening/2026-10-10/POOL.yaml
   - screening/united-kingdom/2026-10-10/UK-SUPERVISOR-POOL.yaml
+# Retained historic draft key for compatibility: records now include actual 10-12 send.
 current_cold_drafts:
   - rank: 1
     supervisor: "Chengpeng Wang"
     institution: "NUS School of Computing"
     region: ASIA_PRIMARY
-    status: DRAFT_REVIEW_SCHOLARSHIP_EQUIVALENCY
+    status: SENT_WAITING
     gmail_draft_id: "r-8286695313949821919"
-    gmail_message_id: "1a1253926e84d8a8"
+    historical_draft_message_id: "1a1253926e84d8a8"
+    gmail_message_id: "1a12d9fa7a7325a8"
+    gmail_sent_message_id: "1a12d9fa7a7325a8"
     gmail_thread_id: "1a1253926e84d8a8"
     to: wang-chengpeng@nus.edu.sg
     subject: "Fall 2027 PhD inquiry — state-aware analysis for long-horizon coding agents"
     actual_pdf_attachment_count: 2
     package_path: tracking-hist/2026-10-10/merged-outreach/singapore/NUS/Chengpeng-Wang
+    sent_at: 2026-10-12
+    sent_time_melbourne: "12:00 AEDT"
+    actual_sent_subject: "Fall 2027 PhD inquiry — state-aware analysis for long-horizon coding agents"
+    actual_sent_attachments: ["Research-Note.pdf", "CV.pdf"]
+    reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+    formal_application_submitted: false
     outreach_ready: false
     send_authorized: false
   - rank: 2
     supervisor: "Chenshu Wu"
     institution: "The University of Hong Kong"
     region: ASIA_PRIMARY
-    status: DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED
+    status: SENT_WAITING
     gmail_draft_id: "r3438704569563220130"
-    gmail_message_id: "1a1253943f7587d4"
+    historical_draft_message_id: "1a1253943f7587d4"
+    gmail_message_id: "1a12d9fa7bff7ec9"
+    gmail_sent_message_id: "1a12d9fa7bff7ec9"
     gmail_thread_id: "1a1253943f7587d4"
     to: chenshu@cs.hku.hk
     subject: "[Prospective Student] Zhiheng Zhang - University of Melbourne"
-    actual_pdf_attachment_count: 2
+    actual_pdf_attachment_count: 4
     package_path: tracking-hist/2026-10-10/merged-outreach/hong-kong/HKU/Chenshu-Wu
+    sent_at: 2026-10-12
+    sent_time_melbourne: "12:00 AEDT"
+    actual_sent_subject: "[Prospective 2027 Fall PhD] Zhiheng Zhang - University of Melbourne"
+    actual_sent_attachments: ["Unimelb WAM.pdf", "UBCTranscript_Zhang_Zhiheng_final.pdf", "Research-Note.pdf", "CV.pdf"]
+    reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+    formal_application_submitted: false
+    sent_subject_protocol_risk: DIFFERS_FROM_OLD_PI_SUBJECT_TEMPLATE
     outreach_ready: false
     send_authorized: false
   - rank: 3
     supervisor: "Mahesh Marina"
     institution: "University of Edinburgh"
     region: UK_SECONDARY
-    status: DRAFT_REVIEW_IGS_FULL_APPLICATION_PENDING
+    status: SENT_WAITING
     gmail_draft_id: "r7115584263933457950"
-    gmail_message_id: "1a125395d20f9c1c"
+    historical_draft_message_id: "1a125395d20f9c1c"
+    gmail_message_id: "1a12f202de545136"
+    gmail_sent_message_id: "1a12f202de545136"
     gmail_thread_id: "1a125395d20f9c1c"
     to: mahesh@ed.ac.uk
     subject: "Prospective September 2027 PhD — dependable edge AI execution (ICSA)"
     actual_pdf_attachment_count: 2
     package_path: tracking-hist/2026-10-10/merged-outreach/united-kingdom/Edinburgh/Mahesh-Marina
+    sent_at: 2026-10-12
+    sent_time_melbourne: "19:00 AEDT"
+    actual_sent_subject: "Prospective September 2027 PhD — dependable edge AI execution (ICSA)"
+    actual_sent_attachments: ["Research-Note.pdf", "CV.pdf"]
+    reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+    formal_application_submitted: false
     outreach_ready: false
     send_authorized: false
   - rank: 4
     supervisor: "Qiaoyu Tan"
     institution: "NYU Shanghai / NYU Courant"
     region: ASIA_CROSSBORDER
-    status: DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED
+    status: SENT_WAITING
     gmail_draft_id: "r-4471292914156412321"
-    gmail_message_id: "1a1253974e97bd6a"
+    historical_draft_message_id: "1a1253974e97bd6a"
+    gmail_message_id: "1a12d9fa78e64e15"
+    gmail_sent_message_id: "1a12d9fa78e64e15"
     gmail_thread_id: "1a1253974e97bd6a"
     to: qiaoyu.tan@nyu.edu
     subject: "Fall 2027 PhD inquiry — trustworthy long-horizon agent evaluation"
-    actual_pdf_attachment_count: 1
+    actual_pdf_attachment_count: 3
     package_path: tracking-hist/2026-10-10/merged-outreach/crossborder/NYU-Shanghai/Qiaoyu-Tan
+    sent_at: 2026-10-12
+    sent_time_melbourne: "12:00 AEDT"
+    actual_sent_subject: "Fall 2027 PhD inquiry — trustworthy long-horizon agent evaluation"
+    actual_sent_attachments: ["UBCTranscript_Zhang_Zhiheng_final.pdf", "Unimelb WAM.pdf", "CV.pdf"]
+    reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+    formal_application_submitted: false
     outreach_ready: false
     send_authorized: false
 kept_unselected_candidates:
@@ -97,7 +135,7 @@ existing_warm_and_sent:
   - {institution: Concordia, supervisor: Peter_Chen, state: REPLIED_POSITIVE_FIT}
   - {institution: CityUHK, supervisor: Zhenjiang_Li, state: SENT_WAITING}
   - {institution: PolyU, supervisor: Yu_Liu, state: SENT_WAITING}
-  - {institution: CUHK, supervisor: James_Cheng, state: SENT_PROTOCOL_QA_RISK}
+  - {institution: CUHK, supervisor: James_Cheng, state: REPLIED_NO_CAPACITY, including_self_financed: true, current_eligible: false, evidence: tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md}
   - {institution: SUTD, supervisor: Ruochen_Zhao, state: SENT_WAITING}
   - {institution: UM, supervisor: Li_Li, state: SUBMITTED_WARM}
 hold_no_touch: [dartmouth-shawn-shan, penn-state-yuchen-yang]

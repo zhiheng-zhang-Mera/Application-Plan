@@ -26,11 +26,27 @@ manual_send_gates:
   - "NUS Research Scholarship academic equivalence (Second Upper) unconfirmed using self-computed UBC average."
   - "QE preparation and 2027 funding need separate verification."
 actual_draft_id: "r-8286695313949821919"
-actual_message_id: "1a1253926e84d8a8"
+historical_draft_message_id: "1a1253926e84d8a8"
+actual_message_id: "1a12d9fa7a7325a8"
 actual_thread_id: "1a1253926e84d8a8"
 gmail_verified: true
-gmail_label_at_verification: DRAFT
-email_sent: false
+gmail_label_at_2026_10_10_verification: DRAFT
+gmail_label_at_2026_10_14_verification: SENT
+email_sent: true
+outreach_state: SENT_WAITING
+sent_at: "2026-10-12"
+sent_time_melbourne: "12:00 AEDT (UTC+11)"
+sent_to: "wang-chengpeng@nus.edu.sg"
+sent_subject: "Fall 2027 PhD inquiry — state-aware analysis for long-horizon coding agents"
+gmail_sent_message_id: "1a12d9fa7a7325a8"
+gmail_sent_url: "https://mail.google.com/mail/u/0/#all/1a12d9fa7a7325a8"
+sent_attachment_files:
+  - "Research-Note.pdf"
+  - "CV.pdf"
+sent_attachment_count: 2
+reply_status: NO_REPLY_IN_CHECKED_THREAD_AS_OF_2026_10_14
+new_send_authorized: false
+audit_source: "tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md"
 official_app_submitted: false
 outreach_ready: false
 send_authorized: false
@@ -42,4 +58,4 @@ ubc_final_official_transcript_available: true
 newer_ubc_transcript_required: false
 separate_degree_certificate: ONLY_IF_PROGRAM_REQUIRES
 ubc_transcript_attached_to_existing_gmail_draft: false
-gmail_draft_unchanged: true
+historical_draft_unchanged_as_of_2026_10_10: true

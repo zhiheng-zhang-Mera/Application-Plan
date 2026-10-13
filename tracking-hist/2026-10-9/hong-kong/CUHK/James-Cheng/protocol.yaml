@@ -10,11 +10,24 @@ undergraduate_institution_country: Canada
 masters_institution_country: Australia
 research_fit: "B-"
 direction_drift_risk: "HIGH"
-decision: "LOWER_PRIORITY_CONDITIONAL_EVALUATION_TRACK"
+historical_research_decision: "LOWER_PRIORITY_CONDITIONAL_EVALUATION_TRACK"
+decision: "EXCLUDE_CURRENT_OUTREACH_NO_PI_CAPACITY"
 english_waiver: VERIFY_OFFICIAL
 gre: VERIFY_OFFICIAL
 exam_preparation: CONDITIONAL_OR_UNKNOWN
-outreach_state: GMAIL_ATTACHED_NEW_DRAFT_NOT_SENT
+outreach_state: REPLIED_NO_CAPACITY
+historical_first_sent_at: 2026-10-09
+gmail_thread_id: "1a11f13e3d945d40"
+gmail_sent_message_id: "1a11f5ab353e1744"
+reply_at: 2026-10-13
+gmail_reply_message_id: "1a13439fb5be5840"
+gmail_reply_url: "https://mail.google.com/mail/u/0/#all/1a13439fb5be5840"
+recruitment_capacity: NO_VACANCIES_INCLUDING_SELF_FINANCED
+capacity_scope: JAMES_CHENG_LAB_ONLY
+current_candidate_eligible: false
+new_send_authorized: false
+followup_action: DO_NOT_RECONTACT_UNLESS_NEW_CAPACITY_EVIDENCE_AND_USER_AUTHORIZATION
+evidence_source: "tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md"
 gmail_sync: COMPLETED_IN_NEW_DRAFT
 current_gmail_draft_id: "r-4824334217818394514"
 previous_gmail_draft_id: "r-2772843160601490178"
@@ -26,5 +39,6 @@ evidence_utopia_main_sha: 944f47dd6c7e18b3388b6d769dbbb6dddbe74f00
 evidence_city_main_sha: 3110572de149ab2b724cfd6355c23a00ec6860b4
 human_review_required: true
 
-scheduled_send: CONDITIONAL_NO_SEND_IF_MISSING_DOCUMENTS
+historical_scheduled_send: CONDITIONAL_NO_SEND_IF_MISSING_DOCUMENTS
+scheduled_send: NONE_CLOSED_NO_CAPACITY
 transcript_verification: OFFICIAL_TRANSCRIPT_MISSING
