@@ -83,3 +83,22 @@
 | 2026-10-09 | SUTD / Ruochen Zhao | 首信及 CV.pdf 已发送 | **SENT_WAITING** | 与 Jan 2027 项目级正式申请独立 |
 
 本次是写回真实邮件状态，而不是新发送；先前 [2026-10-9/OUTREACH-SCHEDULE](../tracking-hist/2026-10-9/OUTREACH-SCHEDULE.md) 的未来安排已由实际发送记录取代。完整映射：[2026-10-10 追踪表](../tracking-hist/2026-10-10/README.md)。美英放开后新候选见 [Pool](../screening/2026-10-10/POOL.md)。
+
+## 2026-10-12 — Gmail 四封实发记录（10/14 核验）
+
+| 日期 | 学校 | 导师 | 真实收件人 | Gmail 证据 | 状态 |
+|---|---|---|---|---|---|
+| 2026-10-12 | NUS | Chengpeng Wang | `wang-chengpeng@nus.edu.sg` | [`1a12d9fa7a7325a8`](https://mail.google.com/mail/u/0/#all/1a12d9fa7a7325a8)，2 PDF | **SENT_WAITING** |
+| 2026-10-12 | HKU | Chenshu Wu | `chenshu@cs.hku.hk` | [`1a12d9fa7bff7ec9`](https://mail.google.com/mail/u/0/#all/1a12d9fa7bff7ec9)，4 PDF | **SENT_WAITING** |
+| 2026-10-12 | NYU Shanghai | Qiaoyu Tan | `qiaoyu.tan@nyu.edu` | [`1a12d9fa78e64e15`](https://mail.google.com/mail/u/0/#all/1a12d9fa78e64e15)，3 PDF | **SENT_WAITING** |
+| 2026-10-12 | Edinburgh | Mahesh Marina | `mahesh@ed.ac.uk` | [`1a12f202de545136`](https://mail.google.com/mail/u/0/#all/1a12f202de545136)，2 PDF | **SENT_WAITING** |
+
+HKU、NYU 的实际邮件已附 UBC 本科和 `Unimelb WAM.pdf`，与 10/10 草稿时不同；这不意味着学校正式认可资格或成绩单。HKU 实发主题与历史 PI 要求的模板不完全一致。四条已核验线程暂无答复，**不自动补发**。
+
+## 2026-10-13 — CUHK James Cheng 无名额回复
+
+| 日期 | 学校 | 导师 | 事件 | 当前状态 | Gmail 证据 |
+|---|---|---|---|---|---|
+| 2026-10-13 | CUHK | James Cheng | 回复 10/09 首信：**课题组已用尽名额，包括自费 PhD** | **REPLIED_NO_CAPACITY / 当前排除** | [`1a13439fb5be5840`](https://mail.google.com/mail/u/0/#all/1a13439fb5be5840)；thread `1a11f13e3d945d40` |
+
+仅针对 James Cheng 的课题组，不代表 CUHK 整校停止招收，更不是申请人研究能力被否定。原信与研究匹配等历史全部保留。[10/14 完整对账](../tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。

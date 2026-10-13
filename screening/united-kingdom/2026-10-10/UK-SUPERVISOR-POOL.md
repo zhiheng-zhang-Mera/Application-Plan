@@ -1,5 +1,7 @@
 # 2027 英国导师重筛（2026-10-10）— 保留原导师，不动亚洲/美加
 
+> **2026-10-14 对账**：Mahesh Marina 2026-10-12 已发件（[Gmail 证据](https://mail.google.com/mail/u/0/#all/1a12f202de545136)），研究资金状态仍 `WATCH_PI_FUNDING`，非回复或资助承诺；其他导师原样保留。
+
 > **候选数量：英国具名导师 11 位（新发现/新增 9 位 + 原有 2 位保留），独立的 3 条 program/funding route。** 当前全部为研究/资助条件核验，NOT_OUTREACH_READY；不能把校方“接受博士生”当作 2027 funding confirmed，更不能把英国导师名单当成今日新邮件发送池。
 >
 > 申请人权威材料：[UBC+Melbourne 成绩与项目证据二次核验](../../2026-10-10/MATERIALS-SECOND-PASS.md)；研究画像以长期自治个人 AI 的真实跨设备结果验证、软件系统和 Ubiquitous/Wearable 为主，非纯算法、机器人控制和芯片设计。
@@ -8,7 +10,7 @@
 
 | 英国优先顺序 | PI / 学校 | 最可复用的冻结项目与切入点 | 官网最新可确认信号 | 阻碍 / 当期决定 |
 |---|---|---|---|---|
-| **UK-A1** | **Mahesh Marina / Edinburgh ICSA** | **Utopia+PCF**：软件定义移动网络/edge AI runtime、跨设备任务恢复与全局状态 | [官方 PI 主页](https://www.research.ed.ac.uk/en/persons/mahesh-marina/) 标记 **Accepting PhD Students**；NetSys 无线和 edge 系统研究很直接 | **WATCH_PI_FUNDING**：确定是否愿意指导个人 AI/边缘 runtime *software-first* 课题、能否参与 2027 IGS；不把 6G 理论研究自动算作同题 |
+| **UK-A1** | **Mahesh Marina / Edinburgh ICSA** | **Utopia+PCF**：软件定义移动网络/edge AI runtime、跨设备任务恢复与全局状态 | [官方 PI 主页](https://www.research.ed.ac.uk/en/persons/mahesh-marina/) 标记 **Accepting PhD Students**；NetSys 无线和 edge 系统研究很直接 | **WATCH_PI_FUNDING** + **SENT_WAITING (10/12)**：确定是否愿意指导个人 AI/边缘 runtime *software-first* 课题、能否参与 2027 IGS；不把 6G 理论研究自动算作同题 |
 | **UK-A1** | **Antonio Barbalace / Edinburgh ICSA** | **PCF/REX**：跨异构计算环境可靠运行、OS/runtimes/scheduling/检查点与故障恢复 | [官方 PI 主页](https://www.research.ed.ac.uk/en/persons/antonio-barbalace/) 明确 **Accepting PhD Students**；2026 有 distributed LLM inference/OS 中间件/状态迁移研究 | **WATCH_PI_FUNDING_METHOD**：OS/虚拟化和硬件偏重比例要确认；方向不是“让他直接做 Utopia 外挂” |
 | **UK-A1** | **Paul Patras / Edinburgh ICSA** | **Utopia 移动端+PCF**：弱网下长期任务进度、AIoT 性能/隐私/故障重规划 | [官方 PI 主页](https://www.research.ed.ac.uk/en/persons/paul-patras/) **Accepting PhD Students**，并挂 Mobile Networks/IoT Security/Privacy PhD 方向 | **WATCH_METHOD**：移动网络数学/算法 vs 能否做实测系统；名额/奖学金项目对应未证实 |
 | **UK-A2** | **Adriana Sejfia / Edinburgh ICSA** | **DS-Hns/Boss/REX**：长期代码 Agent 的工具使用、真实 bug 修复、证据与可信评估 | [个人网页](https://asejfia.github.io/) 2026 更新、公开表示 **always seeking PhD students, email**；偏程序分析与安全软件工程 | **WATCH_PI_FUNDING_TOPIC**：若要求 security/vulnerability 为中心则偏移；先读近期工作，需确保研究问题确实在 PI 领域内 |

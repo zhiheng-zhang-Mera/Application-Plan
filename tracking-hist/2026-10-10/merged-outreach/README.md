@@ -1,10 +1,12 @@
 # 2026-10-10 亚洲 + 英国合并后的导师联络池
 
+> **2026-10-14 后续事实**：以下仅记录 10/10 草稿准备时快照；四位导师均在 10/12 已真实发送，当前 `SENT_WAITING`。[逐封邮件 ID / 附件](../../2026-10-14/GMAIL-RECONCILIATION.md)。旧 `NOT_SENT`、缺附件、send gate 描述不代表当前 Gmail 状态，禁止补发。
+
 > **用户要求：合并今日两个地区候选池、筛选今日联络对象、生成逐导师特化邮件+附件，绝不发送。** 执行时间 2026-10-10。所有 Gmail 新邮件均是 `DRAFT`，四名不同学校，亚洲优先（包括纽约授学位但后续上海研究的 NYU Shanghai 路线）。所有其它导师保留，无人被删除。
 
 ## 今日四位当期材料准备对象
 
-| 顺序 | 学校及地区 | 导师 | 特化研究路径 | Gmail 实际状态 | 素材包 |
+| 顺序 | 学校及地区 | 导师 | 特化研究路径 | 10/10 Gmail 草稿状态（历史） | 素材包 |
 |---:|---|---|---|---|---|
 | 1 | Singapore / NUS School of Computing | Chengpeng Wang | Agentic program analysis; executable evidence and state-aware repository-agent recovery | **DRAFT_REVIEW_SCHOLARSHIP_EQUIVALENCY** | [材料](singapore/NUS/Chengpeng-Wang/README.md) |
 | 2 | Hong Kong / The University of Hong Kong | Chenshu Wu | Software-first AIoT context-aware placement, goal continuity, and recoverable wearable-to-hub execution | **DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED** | [材料](hong-kong/HKU/Chenshu-Wu/README.md) |

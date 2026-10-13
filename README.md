@@ -1,20 +1,20 @@
 # 2027 PhD 申请控制中心
 
-> **当前研究画像：2026-10-09；申请与套磁实际状态已于 2026-10-10 对账。** 10 月 9 日六位导师首封邮件实际已发送，Mo Li 与 Peter Chen 已回复；无正式录取或资助承诺，本轮未提交新的大学申请。历史套磁与材料版本保留。
+> **当前研究画像：2026-10-09；Gmail 收发状态更新至 2026-10-14。** 10/09 六封首信已发；10/12 四封新信已实际发送；10/13 CUHK James Cheng 回复其课题组无名额（含自费），目前不再联系。无新增正式申请/offer/资助确认，历史材料保留。[最新五项 Gmail 对账](tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。
 > 统一研究身份：**Reliable Long-Horizon Personal AI Agents for Wearable and Ubiquitous Computing**。跨设备个人 AI、目标授权的长期自治、全局一致性下的有界重规划、真实设备任务完成验收。
 
 ## 今日增量筛选：亚洲优先，美国与英国正式开放（2026-10-10）
 
 - **[地区筛选中心](screening/README.md)** · [2026-10-10 新候选 9 人清单](screening/2026-10-10/POOL.md) · [机器数据](screening/2026-10-10/POOL.yaml)。
-- 主池：香港、澳门、港校内地校区、新加坡；美国/英国开放真实候选并继续保留加拿大有效线。新增名单只是 WATCH/CONDITIONAL/BACKUP，**尚无新对象被批准发信**。
-- **[六封实发与回信对账](tracking-hist/2026-10-10/README.md)**：10 月 9 日六封已发送；HKUST Mo Li 邀请团队 Zoom，10 月 10 日已同意、待排时间；Concordia Peter Chen 正面回应、申请状态问题已答复、待后续回复。CUHK James Cheng 实发主题/附件存在个人协议缺项，不自动重发。
+- 主池：香港、澳门、港校内地校区、新加坡；美国/英国开放真实候选并继续保留加拿大有效线。原 10/10 名单仅为 WATCH/CONDITIONAL/BACKUP；其中四封在 10/12 实际发出，本轮无新增发信授权。
+- **[六封实发与回信对账](tracking-hist/2026-10-10/README.md)**：10 月 9 日六封已发送；HKUST Mo Li 邀请团队 Zoom，10 月 10 日已同意、待排时间；Concordia Peter Chen 正面回应、申请状态问题已答复、待后续回复。CUHK James Cheng 10/13 回复课题组无招生名额（包括自费），本轮停止联系；旧主题/附件 QA 保留。
 - **10/09“六封待发草稿、未来定时投递”仅是准备阶段快照，已被 10/09 实际 SENT 事实取代，禁止自动重复寄送。** 不触动 HOLD 或 UM 已提交申请。
 
-## 2026-10-10 亚洲 + 英国合并筛选与逐导师草稿已生成（当日最新）
+## 2026-10-10 材料准备与 10/12 四封实际发送
 
 - **[合并后 18 位导师全池、4 位今日材料准备名单](screening/2026-10-10/MERGED-OUTREACH-2026-10-10.md)** · [机器数据](screening/2026-10-10/MERGED-OUTREACH-2026-10-10.yaml) · [四位导师专属材料包/Gmail Draft QA](tracking-hist/2026-10-10/merged-outreach/README.md)。
-- **本轮 3 亚洲（NUS Chengpeng Wang、HKU Chenshu Wu、NYU Shanghai Qiaoyu Tan）+ 1 英国（Edinburgh Mahesh Marina）**；四所不同学校，各自 Gmail `DRAFT` 已创建、CV 等 PDF 二进制已读回核实，**没有发出任何邮件**。
-- **不得发送**：HKU 与 NYU 缺强制官方 transcript 附件；NUS scholarship-equivalency、Edinburgh IGS 的 PI 支持和正式项目材料仍需确认。原 18 位导师与全部历史已发、WARM、HOLD 一律保留。
+- **本轮 3 亚洲（NUS Chengpeng Wang、HKU Chenshu Wu、NYU Shanghai Qiaoyu Tan）+ 1 英国（Edinburgh Mahesh Marina）**；四所不同学校；10/10 原为 Gmail `DRAFT`，**10/12 四封均已实际发送**，本次核验状态 `SENT_WAITING`。[真实收件人、附件与消息 ID](tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。
+- **历史草稿 QA 不等于当前 Gmail 状态**：10/10 HKU/NYU 草稿曾缺成绩单，10/12 实发两封均附 UBC 和 `Unimelb WAM.pdf`；HKU 实发标题与旧规定模板不同，保留风险，不补发。NUS 奖学金资格与 Edinburgh IGS/PI 支持仍须核实。原 18 位导师与全部历史已发、WARM、HOLD 一律保留。
 - PDF/可编译 LaTeX 已生成于本轮离线 ZIP，公开 GitHub 只存文本材料与 PDF 文件 hash/状态；避免把敏感官方成绩单直接上传公开 repo、避免触发 `tracking-hist/**/*.tex` CI。
 
 ## 2026-10-10 英国导师专项重新筛选（其他导师全部保留）
@@ -52,7 +52,7 @@
 - CUHK CSE：招生环节 1 小时涵盖多门 CS/数学基础的笔试，必须结合具体轮通知提前期与题纲判断备考工作量。
 - CityUHK CS：书面 QE 的当期细目与提前通知仍有缺项；不是因考试存在就 REJECT。
 
-## 当前六位导师（仅研究匹配优先级，不是录取成功率）
+## 当前跟进的原研究排序导师（六位中五位，非录取成功率）
 
 | 研究排序 | 导师 / 学校 | 研究适配 | 当前约束状态 | GitHub 新申请包 |
 |---:|---|---|---|---|
@@ -61,7 +61,8 @@
 | 3 | Peter Chen / Concordia | 长期 Agent 可靠性核心 RQ | 综合考试一个月报告窗口，条件评估 | [打开](tracking-hist/2026-10-9/canada/Concordia/Peter-Chen/README.md) |
 | 4 | Ruochen Zhao / SUTD | 可信 Agent 与真实完成评价 | 需确认可以 systems/evaluation 主导而非纯 NLP/RL | [打开](tracking-hist/2026-10-9/singapore/SUTD/Ruochen-Zhao/README.md) |
 | 5 | Yu Liu / PolyU | Edge/分布式系统；需具体 systems 项目 | 漂移风险高、资格考试具体细目未知 | [打开](tracking-hist/2026-10-9/hong-kong/PolyU/Yu-Liu/README.md) |
-| 6 | James Cheng / CUHK | Agent benchmark 方向有交集 | 机器人/RL 漂移风险及广范围招生笔试 | [打开](tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng/README.md) |
+
+**历史排名第六 James Cheng / CUHK**：10/13 已回复该课题组暂无博士空缺（**包括自费名额**），`REPLIED_NO_CAPACITY / EXCLUDED_CURRENT_OUTREACH`。[其原材料与研究匹配历史](tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng/README.md)继续保留；该信息不涉及 CUHK 其他课题组或个人研究能力判断。
 
 **HOLD / 不进入发送池：Dartmouth Shawn Shan、Penn State Yuchen Yang。** 两人的旧 Gmail 草稿与历史材料保留，不修改、不发送。
 
@@ -69,11 +70,11 @@
 
 - **UM / Li Li：** 既有申请仍按原历史记录为 SUBMITTED，导师已回应并进入私人渠道；[新版研究兴趣与 CV 源](tracking-hist/2026-10-9/macau/UM/Li-Li/README.md)仅供后续导师请求时参考。**不创建新邮件，不改变申请或 funding 状态**。
 
-## 当期执行状态（2026-10-10 Gmail 实际对账后）
+## 当期执行状态（2026-10-14 Gmail 实际对账后）
 
 - [2026-10-9 六导师包 + SUTD 项目正式申请包](tracking-hist/2026-10-9/PACKAGE-INDEX.md)：新 CV TeX、英文邮件候选、Research Interest、协议和附件缺项。
 - **六导师 CV PDF/附件**：历史材料包在 Gmail 草稿附 PDF 并通过准备阶段验收；2026-10-10 另已在六封实际 Sent 首信中确认均有 CV PDF，Concordia 首信还附 UBC 官方成绩单；CUHK 实际只附 CV，缺导师要求的 transcript。
-- **Gmail 事实核验（2026-10-10）：六封已于 2026-10-09 发出，四封尚未见实质回复，两封已获导师回复且用户已于 10 月 10 日回信。** 历史草稿/附件记录保留为发送前快照，不能把它当作当前待发状态；新导师发信与正式申请仍需单独授权。见 [核验表](tracking-hist/2026-10-10/README.md)。
+- **Gmail 事实核验（截至 10/14）：10/09 六封实发、10/12 四封实发；10/13 James 回应无招生名额。10/12 四封在已检查线程中尚无回复，其余导师依原有证据保留。** 历史草稿/附件记录保留为发送前快照，不能把它当作当前待发状态；新导师发信与正式申请仍需单独授权。见 [10/14 最新对账](tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)与[10/10 历史核验](tracking-hist/2026-10-10/README.md)。
 - **SUTD Jan-2027 正式申请**：官方截止 **2026-10-30**，与 Fall-2027 Ruochen Zhao 导师包是两条不同路线；[新 SOP/材料](tracking-hist/2026-10-9/singapore/SUTD/_program-Jan-2027/README.md)，无需假设已获导师 pre-approval。
 - 缺项：最新官方 Melbourne transcript、**仅在学校明确要求时**的单独 UBC degree certificate、英语授课证明或豁免、部分导师草稿尚未附上已经存在的 UBC 最终官方成绩单、考试公告与题纲、正式申请推荐人状态。
 - 严禁把结构化 Bachelor/Master CSV 当作官方成绩单；现有 MSc WAM 快照尚非最终成绩。

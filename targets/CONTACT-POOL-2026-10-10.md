@@ -1,5 +1,7 @@
 # 2026-10-10 二次审核后的快捷候选池
 
+> **2026-10-14 更新**：此页 10/10 四封草稿已在 10/12 实发，均 `SENT_WAITING`；James Cheng 10/13 回复其课题组无名额（包括自费），当前退出可投递池。保留全部历史，[最新核验](../tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。
+
 > **最新整合覆盖当日较早的“二次审核”排序说明**：[亚洲+英国合并后的18位池/四封今日 Gmail 草稿](../screening/2026-10-10/MERGED-OUTREACH-2026-10-10.md)，[材料包](../tracking-hist/2026-10-10/merged-outreach/README.md)。旧候选未删除、原英国 Imperial/Cambridge 两位保留、旧六封 SENT 不重复。新四封为 DRAFT 未发送，HKU/NYU 尚缺强制成绩单。
 
 

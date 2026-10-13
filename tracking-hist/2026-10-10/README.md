@@ -1,5 +1,7 @@
 # 2026-10-10 PhD 对外追踪核验（Gmail Sent / Replies）
 
+> **2026-10-14 后续事实**：本页是 10/10 旧对账。10/12 另有 NUS/HKU/NYU/Edinburgh 四封实发、均未见回复；James Cheng 于 10/13 明确告知课题组无招生名额（包括自费）。[最新逐邮件对账](../2026-10-14/GMAIL-RECONCILIATION.md)。
+
 > **[最新亚洲英国四位新导师：全部 Gmail DRAFT，均未发送](merged-outreach/README.md)**。NUS、HKU、Edinburgh、NYU Shanghai 各一封，所有 PDF 真实附加并二次确认，HKU/NYU 缺强制官方成绩单。本页面的旧六位首信 SENT 历史**完全不变**，也不能把新 `DRAFT` 误记为已发送。
 
 
@@ -13,7 +15,7 @@
 | Concordia | **Peter Chen** | SENT + CV PDF + UBC 官方 transcript | **REPLIED / POSITIVE_FIT / IMMIGRATION_CLARIFICATION_SENT_10_10** | 等对方进一步答复；Melbourne 当前官方成绩单待核实、国际生 funding 待确认 |
 | CityUHK | Zhenjiang Li | SENT + CV PDF | **SENT_WAITING** | 按线程生命周期等待，不再计划重新发送 |
 | PolyU | Yu Liu | SENT + CV PDF | **SENT_WAITING** | 同上 |
-| CUHK | James Cheng | SENT + CV PDF | **SENT_PROTOCOL_QA_RISK** | 已发 subject 为 `PhD-Fall 2027-Zhiheng Zhang-University of Melbourne` 而导师公布要求 `phd application`，且缺必需 transcript；人工审查，不自动补发 |
+| CUHK | James Cheng | SENT + CV PDF | **10/10 SENT_PROTOCOL_QA_RISK → 10/13 REPLIED_NO_CAPACITY** | 已发 subject 为 `PhD-Fall 2027-Zhiheng Zhang-University of Melbourne` 而导师公布要求 `phd application`，且缺必需 transcript；人工审查，不自动补发 |
 | SUTD | Ruochen Zhao | SENT + CV PDF | **SENT_WAITING** | 与独立 Jan-2027 正式申请区分，不重复寄送 |
 
 Gmail threads（申请邮箱私有链接；以下只存非敏感状态，不在公开仓库存储国籍/具体个人身份描述）：

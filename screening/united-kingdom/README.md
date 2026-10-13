@@ -1,6 +1,8 @@
 # 英国 2027 PhD 筛选中心 — 只调整英国，不覆盖其他导师
 
-> 2026-10-10 已并入 [亚洲+英国今日合并池](../2026-10-10/MERGED-OUTREACH-2026-10-10.md)。英国最新今日实际草稿仅选 Edinburgh **Mahesh Marina**；其它 10 位英国导师全部保留，UCL 2027 UELA catalogue 预计 2026-10-26 后复核。旧 UK 独立筛选文件不删除。
+> **2026-10-14 对账**：Mahesh Marina 于 10/12 发件，`SENT_WAITING`（[Gmail 证据](https://mail.google.com/mail/u/0/#all/1a12f202de545136)）；I​​GS 资助及 PI 支持未获确认。其他英国候选不变。
+
+> 2026-10-10 已并入 [亚洲+英国今日合并池](../2026-10-10/MERGED-OUTREACH-2026-10-10.md)。英国 10/10 历史草稿仅选 Edinburgh **Mahesh Marina**，其邮件 10/12 已实发；其它 10 位英国导师全部保留，UCL 2027 UELA catalogue 预计 2026-10-26 后复核。旧 UK 独立筛选文件不删除。
 
 
 > **2026-10-10 修订。亚洲仍是主申请区域；美国及加拿大原有有效路线完整保留。** 英国按 UBC + Melbourne 实际成绩、研究方法、国际生全额资助、英语/GRE 与具体 2027 招生协议独立重筛。这里的“导师 accepting PhD students / 招募意向”不等于 2027 funded seat。未发任何新邮件或正式申请。
