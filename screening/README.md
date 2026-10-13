@@ -2,7 +2,7 @@
 
 > **2026-10-14 最新外联**：[四封 10/12 实发 + CUHK James Cheng 10/13 无名额（含自费）](../tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。旧 10/10 DRAFT 是历史准备快照，不能据此重复发信。
 
-> **[最新 2026-10-10 亚洲/英国整合的18位候选与4封实存 Gmail 草稿](2026-10-10/MERGED-OUTREACH-2026-10-10.md)** · [机器版](2026-10-10/MERGED-OUTREACH-2026-10-10.yaml) · [材料包](../tracking-hist/2026-10-10/merged-outreach/README.md)。旧版亚洲/英国分区保留历史快照，其 DRAFT/NOT_SENT 不覆盖 10/12 实发事实。
+> **[2026-10-10 历史整合池：18 位研究候选、四封当时准备的草稿（10/12 已实发）](2026-10-10/MERGED-OUTREACH-2026-10-10.md)** · [机器版](2026-10-10/MERGED-OUTREACH-2026-10-10.yaml) · [材料包](../tracking-hist/2026-10-10/merged-outreach/README.md)。旧版亚洲/英国分区保留历史快照，其 DRAFT/NOT_SENT 不覆盖 10/12 实发事实。
 
 
 **地区策略：亚洲主池 / 美国英国开放拓展 / 加拿大有效线保留。** 本区用于发现、官方核验、筛选和决策，**不是邮件发送队列**。新候选必须通过 [现有全局硬门禁](../rules/SCREENING.md) 和导师个人页/联系协议后，才有资格另行进入 outreach 准备程序。

@@ -2,7 +2,7 @@
 
 > **2026-10-14 更新**：此页 10/10 四封草稿已在 10/12 实发，均 `SENT_WAITING`；James Cheng 10/13 回复其课题组无名额（包括自费），当前退出可投递池。保留全部历史，[最新核验](../tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。
 
-> **最新整合覆盖当日较早的“二次审核”排序说明**：[亚洲+英国合并后的18位池/四封今日 Gmail 草稿](../screening/2026-10-10/MERGED-OUTREACH-2026-10-10.md)，[材料包](../tracking-hist/2026-10-10/merged-outreach/README.md)。旧候选未删除、原英国 Imperial/Cambridge 两位保留、旧六封 SENT 不重复。新四封为 DRAFT 未发送，HKU/NYU 尚缺强制成绩单。
+> **10/10 历史材料快照（10/14 已对账）**：[当时的18位研究候选与四封草稿准备记录](../screening/2026-10-10/MERGED-OUTREACH-2026-10-10.md)，[材料包](../tracking-hist/2026-10-10/merged-outreach/README.md)。当时四封为 `DRAFT_NOT_SENT`，HKU/NYU 的**旧草稿**缺成绩单；实际于 **10/12 均已发送**，且 HKU/NYU 实发信包含 UBC 与 Unimelb PDF。旧候选、Imperial/Cambridge 两位及 10/09 六封已发历史保持原状，禁止重复投递。
 
 
 **先有积极回复：** HKUST Mo Li（WANDS Zoom 讨论，待约时段）；Concordia Peter Chen（积极答复、已回应入学身份问题）。
@@ -13,4 +13,4 @@
 
 UBC 自算全部 attempted 加权 **78.05%**、Melbourne 完成150 CP的 WAM **67.5 派生值**；UBC BSc 2024 已获得且本科官方最终成绩单现存；仅按校方特殊要求另验学位证，墨大当前官方成绩单仍需核实；不在 public repository 额外存敏感信息。
 
-详情：[逐项证据](../screening/2026-10-10/MATERIALS-SECOND-PASS.md) · [九位 PI](../screening/2026-10-10/POOL.md) · [英国项目](../screening/2026-10-10/UK-2-1-OPTIONS.md)。**所有新增尚未允许发邮件或提交。**
+详情：[10/10 当时的逐项材料审查](../screening/2026-10-10/MATERIALS-SECOND-PASS.md) · [九位 PI 研究筛选快照](../screening/2026-10-10/POOL.md) · [英国项目](../screening/2026-10-10/UK-2-1-OPTIONS.md)。**10/10 时尚未授权新发送；10/12 的四封实发属已发生事实，当前不授权补发或追加发送，也不代表正式大学申请已提交。**
