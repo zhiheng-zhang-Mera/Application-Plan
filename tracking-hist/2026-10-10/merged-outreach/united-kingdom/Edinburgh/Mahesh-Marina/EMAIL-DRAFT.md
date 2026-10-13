@@ -1,5 +1,7 @@
 # Email Draft — Mahesh Marina, University of Edinburgh — 2026-10-10
 
+> **历史草稿（2026-10-10），并非当前待发送信件。** Mahesh Marina 的咨询邮件 2026-10-12 已 [实际发送](https://mail.google.com/mail/u/0/#all/1a12f202de545136)（message `1a12f202de545136`）；截至 10/14 检查线程未见回复，状态为 `SENT_WAITING`，**禁止重复发送**。本页草稿正文/模板原样保留，不据此推断与实发完全相同。[完整 Gmail 对账](https://github.com/zhiheng-zhang-Mera/Application-Plan/blob/main/tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。
+
 > **资料校正：** BSc 2024 已授，现有 UBC 成绩单为最终官方版。下方已存 Gmail 英文草稿保持原样，**不会重复建稿、不会发送**。[事实源](../../../../../../materials/UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md)。
 
 > **GMAIL DRAFT, NEVER SENT.** 状态 `DRAFT_REVIEW_IGS_FULL_APPLICATION_PENDING`。下列英文正文系实际 Gmail 草稿再次读回，非尚未同步的 GitHub 单机草稿。中文为本地审查要点，不会添加进 Gmail。

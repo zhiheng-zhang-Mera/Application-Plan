@@ -1,5 +1,7 @@
 # Email Draft — Chengpeng Wang, NUS School of Computing — 2026-10-10
 
+> **历史草稿（2026-10-10），并非当前待发送信件。** Chengpeng Wang 的咨询邮件 2026-10-12 已 [实际发送](https://mail.google.com/mail/u/0/#all/1a12d9fa7a7325a8)（message `1a12d9fa7a7325a8`）；截至 10/14 检查线程未见回复，状态为 `SENT_WAITING`，**禁止重复发送**。本页草稿正文/模板原样保留，不据此推断与实发完全相同。[完整 Gmail 对账](https://github.com/zhiheng-zhang-Mera/Application-Plan/blob/main/tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。
+
 > **资料校正：** BSc 在2024年已获授，UBC 本科成绩单就是最终官方版本。下方英文 Gmail 草稿原文保持不变，避免在没有必要时产生新的草稿；附件状态按实际 readback 记录。[资料解释](../../../../../../materials/UBC-DEGREE-TRANSCRIPT-CONFIRMATION.md)。
 
 > **GMAIL DRAFT, NEVER SENT.** 状态 `DRAFT_REVIEW_SCHOLARSHIP_EQUIVALENCY`。下列英文正文系实际 Gmail 草稿再次读回，非尚未同步的 GitHub 单机草稿。中文为本地审查要点，不会添加进 Gmail。

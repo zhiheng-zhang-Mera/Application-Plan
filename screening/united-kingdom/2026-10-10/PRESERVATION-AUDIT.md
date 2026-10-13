@@ -1,5 +1,7 @@
 # 英国重筛的保留性审计 — 2026-10-10
 
+> **2026-10-14 补记**：Mahesh Marina 的博士咨询于 10/12 实发（[Gmail SENT](https://mail.google.com/mail/u/0/#all/1a12f202de545136)），暂无已确认回复；本文件原“英国尚未发信”属于 10/10 时间快照。其他英国导师原有筛选状态、资助不确定性保持不变。[完整对账](https://github.com/zhiheng-zhang-Mera/Application-Plan/blob/main/tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。
+
 > 本次用户要求：**只调整英国；保留其他导师**。执行范围必须可审计。不能擅自关闭美/亚/加拿大导师，不能清除旧英国 PI/已有材料，也不应修改/发送 Gmail。
 
 ## 原名单保留承诺

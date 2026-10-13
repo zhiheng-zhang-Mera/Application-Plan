@@ -25,6 +25,9 @@ current_round:
   auto_send: false
   gmail_drafts_updated: true
   original_six_gmail_drafts_preserved: true
+  original_round_selected_count: 6
+  current_active_from_original_round: 5 # James Cheng excluded following 2026-10-13 no-capacity reply
+  current_excluded_from_original_round: 1
   new_pdf_drafts_verified_count: 6
   binary_attachments: CV_PDF_ONLY
   gmail_sending_authorized: true
@@ -45,7 +48,7 @@ current_round:
     - {institution_batch_key: concordia, university: "Concordia", supervisor: "Peter Chen", priority: 3, state: REPLIED_POSITIVE_FIT, gmail_draft_id: "r5912071168757690521", superseded_cv_only_draft_id: "r-7985680144702726924", transcript_status: UBC_OFFICIAL_ATTACHED_MELBOURNE_OFFICIAL_UNKNOWN, scheduled_send_condition: TRANSCRIPTS_COMPLETE, previous_gmail_draft_id: "r3209306691343500843", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/canada/Concordia/Peter-Chen"}
     - {institution_batch_key: sutd, university: "SUTD", supervisor: "Ruochen Zhao", priority: 4, state: SENT_WAITING, gmail_draft_id: "r8889142359321161047", previous_gmail_draft_id: "r3575921792560868019", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/singapore/SUTD/Ruochen-Zhao"}
     - {institution_batch_key: polyu, university: "PolyU", supervisor: "Yu Liu", priority: 5, state: SENT_WAITING, gmail_draft_id: "r-8914591753154488135", previous_gmail_draft_id: "r-3862017206343532850", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/hong-kong/PolyU/Yu-Liu"}
-    - {institution_batch_key: cuhk-hk, university: "CUHK", supervisor: "James Cheng", priority: 6, state: REPLIED_NO_CAPACITY, capacity_includes_self_financed: false, reply_at: 2026-10-13, exclude_current_pool: true, gmail_draft_id: "r-4824334217818394514", superseded_cv_only_draft_id: "r6876212347917210285", transcript_status: MISSING, scheduled_send_condition: OFFICIAL_TRANSCRIPT_ATTACHED, previous_gmail_draft_id: "r-2772843160601490178", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng"}
+    - {institution_batch_key: cuhk-hk, university: "CUHK", supervisor: "James Cheng", priority: 6, state: REPLIED_NO_CAPACITY, no_vacancy_including_self_financed: true, reply_at: 2026-10-13, exclude_current_pool: true, gmail_draft_id: "r-4824334217818394514", superseded_cv_only_draft_id: "r6876212347917210285", transcript_status: MISSING, scheduled_send_condition: OFFICIAL_TRANSCRIPT_ATTACHED, previous_gmail_draft_id: "r-2772843160601490178", cv_pdf_attachment_verified: true, package_path: "tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng"}
   deferred:
     - {institution_batch_key: dartmouth, supervisor: "Shawn Shan", state: HOLD_BY_USER, gmail_draft_id: "r-2191592184476148652", reason: "User deferred security route"}
     - {institution_batch_key: penn-state, supervisor: "Yuchen Yang", state: HOLD_BY_USER, gmail_draft_id: "r8477617223962377240", reason: "User deferred security route"}

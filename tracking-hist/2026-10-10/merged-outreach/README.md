@@ -13,7 +13,7 @@
 | 3 | United Kingdom / University of Edinburgh | Mahesh Marina | Software-centric mobile edge AI infrastructure and goal-preserving recovery under network outages | **DRAFT_REVIEW_IGS_FULL_APPLICATION_PENDING** | [材料](united-kingdom/Edinburgh/Mahesh-Marina/README.md) |
 | 4 | China/United States (cross-border) / NYU Shanghai / NYU Courant | Qiaoyu Tan | Trustworthy and empirical long-horizon tool-using agent evaluation; actual outcomes and false completion | **DRAFT_BLOCKED_TRANSCRIPTS_NOT_ATTACHED** | [材料](crossborder/NYU-Shanghai/Qiaoyu-Tan/README.md) |
 
-**邮件草稿实际存活**：四封均由 Gmail 直接创建并再次读取确认 `DRAFT`，实际附件均为 PDF。没有发送、新增正式大学申请或修改历史已发送邮件。ZIP 离线副本提供全部 **4 份 CV.pdf、4 份 Research-Note.pdf** 与对应 LaTeX 源文件；NYU 的 Research-Note PDF 是候选素材，未附在其 Gmail 草稿，因为该 PI 只明确要求 CV 和 transcripts。
+**10/10 草稿准备实况（历史）**：四封当时在 Gmail 已创建并读取确认 `DRAFT`，附件为 PDF；**10/12 均已发送**（实发附件请见 10/14 对账）。未据本次审计推断新正式大学申请或录取。ZIP 离线副本提供全部 **4 份 CV.pdf、4 份 Research-Note.pdf** 与对应 LaTeX 源文件；NYU 的 Research-Note PDF 是候选素材，未附在其 Gmail 草稿，因为该 PI 只明确要求 CV 和 transcripts。
 
 ## 当日全池合并：18 位候选一人不丢
 
@@ -21,7 +21,7 @@
 - **美国常驻（1）**：Columbia Zishen Wan。
 - **英国（11，旧两位保留）**：Edinburgh Mahesh Marina / Antonio Barbalace / Paul Patras / Adriana Sejfia；UCL Earl Barr / Mark Harman；Lancaster Nigel Davies / Adrian Friday；Southampton BooJoong Kang；Imperial Jialun Cao；Cambridge Cecilia Mascolo。
 - **英国 3 条项目资金路线（不计入 18 人）**：Edinburgh ICSA + IGS（overseas round 2026-11-30）；UCL 2027 UELA（目录预计 2026-10-26，截止 2027-01-08）；Lancaster 2027 CS programme（international funded seat 未证实）。
-- **历史已外联六名不重发**：HKUST Mo Li（WANDS 讨论邀请已同意）、Concordia Peter Chen（积极回复，已说明申请情况）、CityUHK Zhenjiang Li、PolyU Yu Liu、CUHK James Cheng、SUTD Ruochen Zhao。UM Li Li 申请已提交并有私人联络；Dartmouth Shawn Shan 和 Penn State Yuchen Yang 均 HOLD。
+- **10/09 历史已外联六名不重发**：HKUST Mo Li（WANDS 讨论邀请已同意）、Concordia Peter Chen（积极回复，已说明申请情况）、CityUHK Zhenjiang Li、PolyU Yu Liu、CUHK James Cheng（**10/13 回复实验室无名额含自费，现排除**）、SUTD Ruochen Zhao。UM Li Li 申请已提交并有私人联络；Dartmouth Shawn Shan 和 Penn State Yuchen Yang 均 HOLD。
 
 完整输入而非口头推断：[亚洲及旧全球池](../../../screening/2026-10-10/POOL.yaml) · [英国 11 PI](../../../screening/united-kingdom/2026-10-10/UK-SUPERVISOR-POOL.yaml) · [材料实物审计](../../../screening/2026-10-10/MATERIALS-SECOND-PASS.md)。
 
@@ -30,14 +30,14 @@
 - 选中：**NUS 1、HKU 1、Edinburgh 1、NYU Shanghai 1**，无同校冲突，亚洲 3/4。
 - 英国 Edinburgh 其他 3 位 **同校锁 `DEFER_SAME_INSTITUTION`**；UCL Earl Barr/Mark Harman 待 UELA 正式 catalogue，不能假设具体 funded PI；Lancaster 因海外全额奖学金未知，列 `FUNDING_WATCH`。美国 Columbia 学校路线仍 `METHOD_WATCH`；HKUST(GZ) 暂让 Mo Li 已有积极接触优先，不在本轮重复冷套。
 - NUS：仅须 CV + short research problems（均已附），但竞争性奖学金和学术等价未批准。
-- HKU：邮件标题须严格 `[Prospective Student] Your Name - Your Affiliation`；CV 诚实写自算成绩及未报告 rank；**两个官方 transcript 没有出现在实际 Gmail 附件中，禁止发送**。
+- HKU：邮件标题须严格 `[Prospective Student] Your Name - Your Affiliation`；CV 诚实写自算成绩及未报告 rank；**10/10 草稿里无两个 transcript；10/12 实发已附 UBC / Unimelb PDF，不补发**。
 - Edinburgh：指导教师必须先讨论、ICSA 海外奖学金需要完整申请；实际 CV 与 research concept 已附，但导师名额与奖学金非既定事实。
-- NYU Shanghai：PI 明确要求 CV **和 transcripts**；草稿目前只附 CV，**禁止发送**。NYU Shanghai 的跨境驻地不能伪称长期驻纽约。
+- NYU Shanghai：PI 明确要求 CV **和 transcripts**；10/10 草稿仅附 CV；10/12 实发另附 UBC/Unimelb PDF，**不重发**。NYU Shanghai 的跨境驻地不能伪称长期驻纽约。
 
 ## 发送前需要满足的门禁
 
 1. `NO_SEND`：此轮未授权发送，仅创建 Gmail 草稿。四位新对象不得写回 SENT；不能启用自动发送任务。
-2. `REAL_DOCUMENTS`：**UBC BSc 2024 已获授、本科成绩单为官方最终版（申请人确认）**；HKU 与 NYU 的草稿仍没有附上这份现成的本科官方 PDF（与文件不存在是两回事）；Melbourne 正式当前 transcript 未核，派生 CSV 不能冒充 official PDFs。
+2. `REAL_DOCUMENTS`：**UBC BSc 2024 已获授、本科成绩单为官方最终版（申请人确认）**；HKU 与 NYU 的 10/10 历史草稿未附本科官方 PDF；10/12 实际发送时已附（与文件不存在是两回事）；Melbourne 正式当前 transcript 未核，派生 CSV 不能冒充 official PDFs。
 3. `NO_FABRICATION`：UBC 78.05% 属包含重修前 F 的本人按123 attempted credits 加权；Melbourne 67.5/150CP 是 pending 的派生 WAM。无官方 rank、无已确认 peer-reviewed publications，不声称穿戴实机/双服务器切换已验收。
 4. `CORE_TRUTH`：DS-Hns / Boss 为已完成冻结前代，Utopia 为已完成冻结的融合后继，Celestial 是未来改造；Utopia head **944f47dd6c7e18b3388b6d769dbbb6dddbe74f00**，Digital-City 当前 main **9efbeeb739a5035774ba34516d5d5b1dce4be8cf**（这仅为指向，具体实验凭已审阅 REX/PCF 报告）。
 5. `LIVE_PROTOCOL`：任何未来想发送前须再次检查官网 PI/current opening/2027/邮箱/附件要求、官方学校资金和招生、是否有同校新的正面答复；本次的 Gmail Draft 不自动转 send-ready。

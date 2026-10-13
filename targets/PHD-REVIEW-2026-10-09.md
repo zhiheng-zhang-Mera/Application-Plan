@@ -1,5 +1,7 @@
 # 六导师研究匹配与考试准备风险评估 — 2026-10-09
 
+> **这是 2026-10-09 的历史研究匹配排名，非当前招生可投递名单。** 当时排名第六 CUHK James Cheng 于 10/13 [回复](https://mail.google.com/mail/u/0/#all/1a13439fb5be5840)称课题组无博士名额（**包括自费**），目前 `REPLIED_NO_CAPACITY / EXCLUDED`；该研究适配判断保留供历史评估，非 CUHK 全校状态也非申请人能力否定。[权威对账](https://github.com/zhiheng-zhang-Mera/Application-Plan/blob/main/tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。
+
 > 来源：用户 20 轮偏好已确认；[当前画像](../materials/research-profile.md)。这是研究匹配度与制度摩擦的独立判断，不是成功率预测，不能替代真实导师招生答复。
 
 | 研究排序 | 目标 | 核心优势 | 偏移风险 | 考试与准备成本 | 暂定动作 |
