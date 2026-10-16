@@ -1,4 +1,6 @@
-# 观察列表 — 2026-10-06 历史基础，2026-10-10 实物核验修订
+# 观察列表 — 2026-10-06 历史基础，2026-10-16 新增 Westlake 与 Surrey 暂挂
+
+> **2026-10-16 新增：** 英国 **University of Surrey / Gregory Chockler `HOLD_USER_DEFERRED`**（用户明确暂挂，禁止邮件/草稿/自动恢复）。国内 **西湖大学智能信息技术 2027 `WATCH_ONLY`**，见 [官方资格、导师专项](../screening/china-mainland/2026-10-16/WESTLAKE-PHD-2027.md)；仅正式 `申请—考核` 路线，不属于免面试保底，暂无首信/草稿。
 
 > **2026-10-10 纠偏：** NUS **Chengpeng Wang** 从 BACKUP 提升 `WATCH_SCHOLARSHIP_EQUIVALENCY`（GRE 非必需，QE 不自动淘汰）；NTU Rui Tan 的具体 neuromorphic/embodied 研究内容与 Honours Distinction 门槛使其下调；英国 Edinburgh 2:1 项目和 Lancaster 2:1 项目首次进入 program WATCH。见 [逐项成绩/官网报告](../screening/2026-10-10/MATERIALS-SECOND-PASS.md)。以下旧表只是 10-06 的历史池，不能覆盖 10-10 修订版。
 
@@ -34,3 +36,12 @@
 - **HKU 不再简单视为“honours hard block”**：Graduate School 明确非 honours qualification 可按 individual merits 考虑，但仍需要把你的组合学历路径文档化。
 - **NTU Rui Tan 新增为高优先级 WATCH**。
 - **HKUST(GZ) 找到 Zhidan Liu / Tengfei Chang，方向上优于 Lingjie Duan。**
+
+## 2026-10-16 覆盖状态（禁止旧表自动复活）
+
+| 候选 | 当前精确状态 | 行动约束 |
+|---|---|---|
+| Surrey — Gregory Chockler | `HOLD_USER_DEFERRED` | 用户明确暂挂，不发/不创建草稿；直至用户要求恢复 |
+| Westlake University — 智能信息技术（0809Z1） | `WATCH_PROGRAM_ELIGIBLE_PI_PROTOCOL_UNKNOWN` | 等工学院 2027 新批次、英文授课与留服认证、综合考核和导师定导资格核验；仅查阅，不发邮件 |
+| Westlake — 吴泰霖 | `RECRUITING_FALL_2027 / METHOD_DRIFT_HIGH` | 公开招 2027 PhD 但主要做 AI for Science / ML；不自动晋级 |
+| Westlake — 金耀初 | `2027_PHD_CAPACITY_UNKNOWN` | 可信 AI Agent/LLM 方向有交集，已核的招生公告仅为 RA；不可冒充 PhD 招聘 |
