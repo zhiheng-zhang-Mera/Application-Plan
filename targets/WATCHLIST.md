@@ -1,5 +1,7 @@
 # 观察列表 — 2026-10-06 历史基础，2026-10-16 新增 Westlake 与 Surrey 暂挂
 
+> **2026-10-16 追加两所可穿戴方向国内候选：** [南科大专项](../screening/china-mainland/2026-10-16/SUSTECH-WEARABLE-PHD-2027.md) `PRIORITY_WATCH_2027_PROGRAM_OPEN`（设计学院081200 快响长期报名，CSE 张进具体 2027 博士招生未核）；[上科大专项](../screening/china-mainland/2026-10-16/SHANGHAITECH-WEARABLE-PHD-2027.md) `WATCH_2027_DOCTORAL_PROGRAM_PENDING`（李权 wearable HCI / 肖远个人明确招 2027 PhD，学院2027申请-考核制普通批次待公布）。两校均需综合考核，禁止同时向同校多导师发冷邮件。无 Gmail 草稿、未提交网申。
+
 > **2026-10-16 新增：** 英国 **University of Surrey / Gregory Chockler `HOLD_USER_DEFERRED`**（用户明确暂挂，禁止邮件/草稿/自动恢复）。国内 **西湖大学智能信息技术 2027 `WATCH_ONLY`**，见 [官方资格、导师专项](../screening/china-mainland/2026-10-16/WESTLAKE-PHD-2027.md)；仅正式 `申请—考核` 路线，不属于免面试保底，暂无首信/草稿。
 
 > **2026-10-10 纠偏：** NUS **Chengpeng Wang** 从 BACKUP 提升 `WATCH_SCHOLARSHIP_EQUIVALENCY`（GRE 非必需，QE 不自动淘汰）；NTU Rui Tan 的具体 neuromorphic/embodied 研究内容与 Honours Distinction 门槛使其下调；英国 Edinburgh 2:1 项目和 Lancaster 2:1 项目首次进入 program WATCH。见 [逐项成绩/官网报告](../screening/2026-10-10/MATERIALS-SECOND-PASS.md)。以下旧表只是 10-06 的历史池，不能覆盖 10-10 修订版。
@@ -45,3 +47,10 @@
 | Westlake University — 智能信息技术（0809Z1） | `WATCH_PROGRAM_ELIGIBLE_PI_PROTOCOL_UNKNOWN` | 等工学院 2027 新批次、英文授课与留服认证、综合考核和导师定导资格核验；仅查阅，不发邮件 |
 | Westlake — 吴泰霖 | `RECRUITING_FALL_2027 / METHOD_DRIFT_HIGH` | 公开招 2027 PhD 但主要做 AI for Science / ML；不自动晋级 |
 | Westlake — 金耀初 | `2027_PHD_CAPACITY_UNKNOWN` | 可信 AI Agent/LLM 方向有交集，已核的招生公告仅为 RA；不可冒充 PhD 招聘 |
+
+## 2026-10-16 国内两校跨学科可穿戴观察矩阵（补充）
+
+| 大学 | 研究主联系人候选（未最终授权 contact） | 同校候补 | 程序门槛 / 状态 |
+|---|---|---|---|
+| 南方科技大学 | 张进（CSE，穿戴/移动/edge；但 2027 博士入学通道待确认）**或** 李雪亮（设计学院081200，已公布快响） | 孙效华（AgentOS）、郑天越（无线感知） | `PRIORITY_WATCH`；快响2026-09-23起长期报名，需综合考核；不能把 2027推免视为硕士起点项目 |
+| 上海科技大学 | 李权（HCI、MR+wearable、human-AI；2027 PhD 容量未知） | 肖远（2027 PhD 明确，security/TEE方向漂移）、梁俊睿（硬件占比高） | `WATCH_CONDITIONAL`；已知2026考试为线上测评+线下面试；2027普通普博正式招生批次尚未发现 |
