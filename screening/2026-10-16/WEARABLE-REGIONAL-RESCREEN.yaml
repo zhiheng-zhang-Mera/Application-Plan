@@ -1,0 +1,57 @@
+schema_version: 1
+cycle: "2027"
+verified_date: "2026-10-16"
+scope: existing_regions_and_universities_only
+research_priority:
+  primary: wearable_ubiquitous_personal_ai_software_systems
+  core_rq: reliable_goal_preserving_long_horizon_agent_execution_and_outcome_evidence
+  include: [wearable_hci, mobile_edge_software, ubiquitous_computing, agent_runtime, real_device_evaluation]
+  deprioritize: [wearable_materials, biosensor_fabrication, embedded_circuit_design, pure_signal_ml, robotics_control, pure_ml_theory]
+school_contact_policy:
+  max_active_faculty_per_university: 1
+  protect_sent_warm_and_interview_first: true
+  new_send_authorized: false
+  change_existing_gmail_drafts: false
+  official_application_submit_authorized: false
+user_keep:
+  - university: Southern University of Science and Technology
+    school_status: PRIORITY_WATCH
+    preferred_pi: Zhang Jin
+    alternate_pis: [Li Xueliang, Sun Xiaohua]
+    known_2027_open_route: Design School 081200 PhD quick response
+    no_parallel_pis: true
+    advisor_capacity: UNKNOWN
+  - university: ShanghaiTech University
+    school_status: WATCH_CONDITIONAL
+    preferred_pi: Quan Li
+    other_shanghaitech_pis: DEFERRED_NOT_IN_WEARABLE_SHORTLIST
+    known_2027_phd_capacity: UNKNOWN
+    no_parallel_pis: true
+hold_unchanged:
+  - University of Surrey / Gregory Chockler
+  - Dartmouth College / Shawn Shan
+  - Penn State / Yuchen Yang
+records:
+  - {tier: A0, university: HKUST, pi: Mo Li, fit: VERY_HIGH, outreach: INTERVIEW_COMPLETED_WARM}
+  - {tier: A1, university: CityUHK, pi: Zhenjiang Li, fit: VERY_HIGH, outreach: SENT_WAITING}
+  - {tier: A1, university: HKU, pi: Chenshu Wu, fit: VERY_HIGH, outreach: SENT_WAITING}
+  - {tier: A1, university: POSTECH, pi: Inseok Hwang, fit: VERY_HIGH, outreach: RECRUITING_GENERAL_2027_PHD_UNKNOWN}
+  - {tier: A1, university: SUSTech, pi: Zhang Jin, fit: VERY_HIGH, outreach: WATCH_2027_PHD_CAPACITY_UNKNOWN}
+  - {tier: A1, university: SUSTech, pi: Li Xueliang, fit: HIGH, outreach: 2027_PROGRAM_OPEN_SAME_SCHOOL_ALTERNATE}
+  - {tier: A1, university: SUSTech, pi: Sun Xiaohua, fit: HIGH, outreach: 2027_PROGRAM_OPEN_SAME_SCHOOL_ALTERNATE}
+  - {tier: A1, university: ShanghaiTech, pi: Quan Li, fit: HIGH, outreach: WATCH_2027_PHD_CAPACITY_UNKNOWN}
+  - {tier: A1, university: HKBU, pi: Henry Hong-Ning Dai, fit: HIGH, outreach: DRAFT_NOT_SENT}
+  - {tier: A2, university: KAIST, pi: Junehwa Song, fit: VERY_HIGH, outreach: WATCH_2027_CAPACITY_ENGLISH_WAIVER_POSSIBLE}
+  - {tier: A2, university: UM, pi: Li Li, fit: HIGH_SUBSTRATE, outreach: SUBMITTED_WARM}
+  - {tier: A2, university: NUS, pi: Chengpeng Wang, fit: MEDIUM_WEARABLE_HIGH_AGENT, outreach: SENT_WAITING}
+  - {tier: A2, university: NUS, pi: Shengdong Zhao, fit: HIGH_WEARABLE, outreach: DEFERRED_SAME_UNIVERSITY}
+  - {tier: A2, university: SUTD, pi: Ruochen Zhao, fit: MEDIUM_HIGH_AGENT, outreach: SENT_WAITING}
+  - {tier: A2, university: Lancaster, pi: Adrian Friday, fit: MEDIUM, outreach: DRAFT_NOT_SENT}
+  - {tier: A2, university: Edinburgh, pi: Mahesh Marina, fit: MEDIUM_HIGH_SUBSTRATE, outreach: SENT_WAITING}
+  - {tier: A3, university: Cambridge, pi: Cecilia Mascolo, fit: VERY_HIGH, outreach: LOW_ROI_ACADEMIC_FUNDING_GATE}
+  - {tier: A3, university: Alberta, pi: Majeed Kazemitabaar, fit: MEDIUM_HIGH_HCI, outreach: WATCH_FORM_ONLY}
+  - {tier: A3, university: UCL, pi: UCLIC programme, fit: HIGH_HCI, outreach: WATCH_PROGRAM_PI_UNKNOWN}
+  - {tier: A3, university: Concordia, pi: Paula Lago, fit: HIGH_PERVASIVE, outreach: DEFERRED_SAME_UNIVERSITY_PETER_CHEN_WARM}
+  - {tier: A3, university: Lingnan, pi: Yiqin Deng, fit: MEDIUM_EDGE, outreach: DRAFT_NOT_SENT}
+  - {tier: B, university: Surrey, pi: Gregory Chockler, fit: LOW_MEDIUM_WEARABLE, outreach: HOLD_USER_DEFERRED}
+source_markdown: screening/2026-10-16/WEARABLE-REGIONAL-RESCREEN.md
