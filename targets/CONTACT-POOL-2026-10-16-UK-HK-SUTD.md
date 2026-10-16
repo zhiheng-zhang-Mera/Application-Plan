@@ -1,4 +1,6 @@
-# 2026-10-16 今日联络池 — 第二轮重构（学校级去重）
+# 2026-10-16 今日联络池 — 第二轮重构（已被 V3 覆盖的历史快照）
+
+> **SUPERSEDED 2026-10-16:** 今天最终 5 人 wearable 套磁池以 [V3](CONTACT-POOL-2026-10-16-WEARABLE-V3.md) 为准：HKBU Henry、POSTECH Hwang、KAIST Oakley、SUSTech 李雪亮、ShanghaiTech 李权，五校五份未发送 Gmail 草稿。此旧版的 Lingnan/Lancaster 草稿已移 Trash；以下原始事实保留作为历史追踪，**不得根据此页向旧 PI 发邮件**。
 
 > **2026-10-16 第三轮研究筛选覆盖顺序（不改变已建 Gmail 草稿）：** [可穿戴×软件系统在已有全部地区/学校的重新排序](../screening/2026-10-16/WEARABLE-REGIONAL-RESCREEN.md) · [YAML](../screening/2026-10-16/WEARABLE-REGIONAL-RESCREEN.yaml)。SUSTech **整校保留**、ShanghaiTech **仅李权**保留；新增重点 POSTECH Inseok Hwang、KAIST Junehwa Song 资格预核；Cambridge 高契合但 `LOW_ROI`。**以下 A 表仍仅列此前真实已有 3 封未发草稿和 SUTD 直申，不代表新排序的 PI 都已入待发池。** Surrey HOLD 不动。
 
