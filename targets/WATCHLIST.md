@@ -1,4 +1,6 @@
-# 观察列表 — 历史与当前候选索引（最新 2026-10-16 wearable rescreen）
+# 观察列表 — 历史与当前候选索引（最新 2026-10-16 Wearable V3 五人套磁）
+
+> **2026-10-16 Wearable 套磁池 V3 最终筛选五所大学：** [打开 5 人活动池](CONTACT-POOL-2026-10-16-WEARABLE-V3.md) · [PDF/Gmail 实物 QA](../tracking-hist/2026-10-16/WEARABLE-FIVE-DRAFT-QA.md)。HKBU Henry 保留；POSTECH Inseok Hwang、KAIST Ian Oakley、南科大李雪亮、上科大李权已进入有附件的 Gmail DRAFT（未发）。**南科大张进/孙效华、KAIST Junehwa Song、HKBU Amelie Zhou 转 DEFERRED_SAME_UNIVERSITY**；Lingnan/ Lancaster 原未发草稿已转 TRASH_SUPERSEDED，而非淘汰全部学校；Surrey 持续 HOLD。
 
 > **2026-10-16 用户确认/第三轮重筛：** [跨已有地区、学校的 wearable × software-agent PhD 全矩阵](../screening/2026-10-16/WEARABLE-REGIONAL-RESCREEN.md) · [YAML](../screening/2026-10-16/WEARABLE-REGIONAL-RESCREEN.yaml)。南方科技大学**整校保留**（张进/李雪亮/孙效华，校级互斥）、上海科技大学**仅李权**维持 wearable 研究观察。POSTECH **Inseok Hwang** `PRIORITY_2027_INTAKE_PRECHECK`；KAIST **Junehwa Song** `WATCH_2027_CAPACITY_ENGLISH_WAIVER_POSSIBLE`；剑桥 **Cecilia Mascolo** `VERY_HIGH_FIT_LOW_ROI_ACADEMIC`（不混淆研究契合度和录取资格）。Surrey `HOLD_USER_DEFERRED` 不动；本次不新增 Gmail 草稿。
 
