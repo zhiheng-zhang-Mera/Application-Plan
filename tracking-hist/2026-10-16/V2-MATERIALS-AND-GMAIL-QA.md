@@ -14,13 +14,13 @@
 
 | 大学 | 联系人 | 新 Gmail message ID | 状态 | Gmail 附件 |
 |---|---|---|---|---|
-| HKBU | Henry Hong-Ning Dai | [1a14316685a9c678](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a14316685a9c678) | DRAFT_NOT_SENT | **4件**：HKBU_Henry_Dai_CV.pdf, HKBU_Henry_Dai_Research_Note.pdf, UBCTranscript_Zhang_Zhiheng_final.pdf, Unimelb WAM.pdf |
-| Lingnan University | Yiqin Deng | [1a143169fd03bcd0](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a143169fd03bcd0) | DRAFT_NOT_SENT | **4件**：Lingnan_Yiqin_Deng_CV.pdf, Lingnan_Yiqin_Deng_Research_Note.pdf, UBCTranscript_Zhang_Zhiheng_final.pdf, Unimelb WAM.pdf |
+| HKBU | Henry Hong-Ning Dai | [1a1431c44c36f547](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a1431c44c36f547) | DRAFT_NOT_SENT | **4件**：HKBU_Henry_Dai_CV.pdf, HKBU_Henry_Dai_Research_Note.pdf, UBCTranscript_Zhang_Zhiheng_final.pdf, Unimelb WAM.pdf |
+| Lingnan University | Yiqin Deng | [1a1431c6660af6be](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a1431c6660af6be) | DRAFT_NOT_SENT | **4件**：Lingnan_Yiqin_Deng_CV.pdf, Lingnan_Yiqin_Deng_Research_Note.pdf, UBCTranscript_Zhang_Zhiheng_final.pdf, Unimelb WAM.pdf |
 | Lancaster University | Adrian Friday | [1a14316bf60f34e4](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a14316bf60f34e4) | DRAFT_NOT_SENT | **2件**：Lancaster_Adrian_Friday_CV.pdf, Lancaster_Adrian_Friday_Research_Note.pdf |
 
 Draft IDs (not message IDs):
-- Henry: `r-187483094100386160`
-- Yiqin: `r-6445441674687627541`
+- Henry: `r4006917016328847035`
+- Yiqin: `r7272833963742749606`
 - Adrian: `r-6260439245680269276`
 
 ### 旧草稿替换记录（Gmail 真正执行）
@@ -33,6 +33,10 @@ Draft IDs (not message IDs):
 | Adrian Friday | `1a1430b32c0d125a` | `DRAFT + TRASH`，被新 v2 替代 |
 
 邮箱 `list_drafts` 实际复验：今天只剩 **Henry / Yiqin / Adrian** 这三封新导师草稿，且互不属于同一大学。Trash 为可恢复状态；未执行永久删除。
+
+### 同日再次核正成绩记录措辞
+
+在第一次 V2 草稿验证后，发现不能从 `Unimelb WAM.pdf` 的文件名推断其为 official final transcript。因此重新建立 Henry 和 Yiqin 的最终草稿，邮件明确写出“available Melbourne WAM record; final master's transcript pending”。两封中间 V2 草稿 `1a14316685a9c678` 与 `1a143169fd03bcd0` 已移入 Gmail Trash。最终草稿 message ID 如 §2。
 
 ## 3. 材料编译结果（8 个 PDF，含源文件；均非模拟文件）
 
@@ -64,14 +68,14 @@ Draft IDs (not message IDs):
 
 | 导师 | 本人公开要求及现状 | Remaining Gate |
 |---|---|---|
-| Henry Dai | 个人主页要求 read recent research、CV、undergraduate/postgraduate transcript、publications(if any)。v2 已看 ASE'25 VRExplorer、附 CV+两份成绩；无论文不虚构。 | **2027 实际 capacity、资金/自费可行性、本人审查** |
-| Yiqin Deng | 个人页面明确 Spring/Fall 2027 PhD、CV、transcripts、brief research interests；v2 已满足这些**联系材料**。 | Research Assistant Professor 能否担任主导师、Data Science PhD项目与本人的 software-focused systems methods 是否兼容 |
+| Henry Dai | 个人主页要求 read recent research、CV、undergraduate/postgraduate transcript、publications(if any)。v2 已看 ASE'25 VRExplorer、附 CV+UBC transcript+现有 Melbourne WAM 记录；后者不是已核实的硕士最终正式成绩单，若导师必须 official postgraduate transcript 则仍有发送前材料缺口。 | **2027 实际 capacity、资金/自费可行性、本人审查** |
+| Yiqin Deng | 个人页面明确 Spring/Fall 2027 PhD、CV、transcripts、brief research interests；v2 已附 CV、UBC transcript、现有 Melbourne WAM record 和研究兴趣说明；最终硕士正式成绩单尚未完成，不得称已满足 official transcript 门槛。 | Research Assistant Professor 能否担任主导师、Data Science PhD项目与本人的 software-focused systems methods 是否兼容 |
 | Adrian Friday | 本人官网欢迎研究实务类 ubicomp PhD inquiry；v2 附 CV + initial one-page concept。 | 国际生 funding/自费总成本、2027 具体 capacity/招生面试与语言要求 |
 | SUTD direct Jan | CV/SOP PDF 已编译；申请截止 2026-10-30、无需导师提前同意。 | 3封推荐、portal 中成绩/学历/英语要求、最后申请费/正式提交：**全部未执行** |
 
 ## 6. 数据保护和动作权限
 
-- UBC/Melbourne 正式成绩记录只从已发 Gmail 的原附件恢复到临时工作空间并按教授个人要求**附在未发送的 Gmail 草稿中**；从未写入本 public GitHub repo，也未打包进 ZIP。
+- UBC 正式成绩单与现有 Melbourne WAM 记录只从已发 Gmail 的原附件恢复到临时工作空间并按教授个人要求**附在未发送的 Gmail 草稿中**；从未写入本 public GitHub repo，也未打包进 ZIP。
 - 为防止混淆，旧 v1 草稿已移动到 Gmail Trash；这是可恢复操作，不涉及 SENT 实际历史邮件。
 - 用户尚未要求发送任何邮件或提交大学正式申请：`NO_SEND`、`NO_APPLICATION_PAYMENT`、`NO_SUBMISSION`。
 - 如用户要正式发送，须先重新对账同校锁及目标大学最新 eligibility/funding/admissions；与材料已编译是两回事。
