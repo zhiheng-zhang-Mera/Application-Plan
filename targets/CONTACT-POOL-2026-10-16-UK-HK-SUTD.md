@@ -1,49 +1,68 @@
-# 2026-10-16 今日套磁池 — SUTD + 英国 + 香港院校（修订）
+# 2026-10-16 今日联络池 — 第二轮重构（学校级去重）
 
-> 用户新约束（2026-10-16）：SUTD 纳入今日套磁池；其余优先英国和香港其他院校；马来西亚 USM / UTP 退出**今日主动联系**，但保留历史候选与 2026-10-16 首版预核。研究与录取可行性优先，不按排名排序。**NO_SEND**：未授权发送邮件；已经发过首信的不得重复投递。
+> **本版覆盖 10/16 上一版候选排序。新建/替换 3 封 Gmail 草稿，但全部 `DRAFT_NOT_SENT`。** [第二版附件/草稿 QA](../tracking-hist/2026-10-16/V2-MATERIALS-AND-GMAIL-QA.md)。马来西亚 USM/UTP 仍保留在早期预核池，但不进入本日联络队列。
 
-## 今日主池（两所 HKBU 导师是同一所学校的备选，不代表必须两人同时套磁）
+## 同校互斥原则
 
-| 排序 | 学校/导师 | 切入点与公开招生证据 | 2027 招生 / 套磁状态 | 动作 |
-|---|---|---|---|---|
-| 1 | SUTD / Ruochen Zhao | trusted agents、真实执行评价；Jan 2027 PhD 官网截止 2026-10-30，提前联系导师非申请前置；可填第二志愿 | **ALREADY_CONTACTED**（10/09 实发）；是否有新回复需持续对账 | 不重复首信；直接走 SUTD Jan 2027 正式网申；导师下一轮联系只在有实际新进展时 |
-| 2 | HKBU / Henry Hong-Ning Dai | IoT、mobile sensing、XR 系统 reliability；本人官方主页明确公开招 PhD/RA/postdoc | RECRUITING_GENERAL / 2027 vacancy UNKNOWN | 个人页 / 招生协议继续核对后准备专属首信 |
-| 3 | HKBU / Amelie Chi Zhou | distributed / cloud systems；官方主页招 PhD，联系需 CV；个人主页 2024 开放名额已过期，不可视为 2027 证据 | RECRUITING_GENERAL / 2027 vacancy UNKNOWN | 同校 alternative，避免同一时间泛投两位 |
-| 4 | Edinburgh / Antonio Barbalace | OS、runtime、heterogeneous computing；官方研究档案明确 Accepting PhD Students | ACCEPTING_PHD_PROFILE / international funding & 2027 seat UNKNOWN | 值得新联系，先检查个人主页 Join Us 和奖学金资格 |
-| 5 | Lancaster / Adrian Friday | ubiquitous computing empirical systems；较偏 sustainability/real-life field experiments | RESEARCH_FIT / 2027 capacity UNKNOWN | 先确定软件系统主导课题，避免转向 environmental intervention |
+- **按整个 university / institutional brand 互斥**，不以院系、研究组、校园或城市分拆：同校同时最多一个活跃导师 cold/warm/sent 待处理链路；新建第二导师仅可 WATCH/DEFER，绝不同时进入待发队列。
+- 已发邮件/获得回复/有面试的导师优先于新草稿；不将「只建草稿」误写成实际联系。
+- 历史线程可以按执行规则关闭，只有复核 Gmail 后确认现有沟通已结束，才能释放同校锁；warm、申请沟通和面试不能自动超时释放。
+- 同校替代导师可保存研究记录和历史草稿审计，但不能保有并列**活跃** Gmail 草稿。本轮已将旧 Amelie、Antonio 以及 Henry/Adrian 的 v1 草稿移到 Gmail Trash（非永久删除）。
 
-## 候补
+## A. 今天实际可继续准备的不同学校
 
-- Edinburgh / Paul Patras：官方公开 Accepting PhD Students，研究 mobile AI、IoT networks/security，但可能需要较多 networking/ML 方法。
-- Lancaster / Nigel Davies：pervasive systems / ubicomp，资深导师、head-of-department，2027 capacity 与联系协议待核。
+| 顺位 | 大学 | 唯一活跃联系人 / 项目 | 2027 招生信号 | Gmail / 附件状态 | 主要风险 |
+|---:|---|---|---|---|---|
+| 0 | SUTD | Ruochen Zhao；**Jan 2027 标准 PhD 直接网申** | 2026-10-30 截止；提前导师同意非前置 | 10/09 首信已发，无新首信；v2 Jan SOP PDF + CV PDF 本地已编译，申请未提交 | 可能面试、3位推荐人、语言豁免个人认定待核 |
+| 1 | HKBU | Henry Hong-Ning Dai | 本人主页明确 PhD 招生意向，未承诺 2027 座位 | [新 Gmail 草稿](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a14316685a9c678) 4附件：CV、Research Note、UBC transcript、Melbourne record | 与 XR/IoT 系统可靠性贴近；确认 2027 capacity/funding/录取门禁 |
+| 2 | Lingnan University | Yiqin Deng | 本人明确招聘 **Spring & Fall 2027 PhD** | [新 Gmail 草稿](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a143169fd03bcd0) 4附件（同上种类） | 重点是无线网络/LLM适配；用户软件系统方法是否适配、Research Assistant Professor 能否主导导师待确认；Data Science PhD 有课程要求 |
+| 3 | Lancaster University | Adrian Friday | 官网公开欢迎潜在 PhD 联系，具体 2027 座位未知 | [新 Gmail 草稿](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a14316bf60f34e4) 2附件：CV + Research Note | 研究偏真实环境/可持续性；国际费用/导师容量/资助不明 |
 
-## 已核实入学路径
+**这不是录取成功率的百分比排名**。已发邮件/有实质回复的 warm leads 另为 A0 优先级；新 Gmail 草稿不代表已经发送，更不是正式申请。
 
-- SUTD 常规 PhD（不是 SUTD-NUS 联合 PhD）：2027 January 申请 **2026-10-30** 截止；官方 FAQ 明确不需等待 prospective advisor 回信即可提交，第二导师可填。注意联合项目 2026-09-30 截止已经过期，不可混淆。
-- HKBU CS 官方普通 2027 Sep PhD 允许 **self-funded**；regular round **2026-12-01**，clearing round **2027-04-15**。2027 *Early Admission Scheme* 截止 **2026-08-15 已过**，禁止将其当作现在开放的新通道；仍可走 regular admission。
-- 爱丁堡和 Lancaster 的研究/招生公开信号不构成录取保证；全自费费用、2027 admissions、面试、英语豁免、导师 capacity 尚需确认。
+## B. 旧信优先与同校暂停
 
-## 通信门禁
+| University 锁 | 当前唯一优先对象 / 证据 | 不得同期另发 |
+|---|---|---|
+| HKUST（含 GZ 同品牌学校的保守锁定） | Mo Li / WANDS：10/15 面谈、10/16 感谢信已发 | HKUST(GZ) Zhidan Liu 等 |
+| Edinburgh | Mahesh Marina：10/12 SENT_WAITING | Antonio Barbalace、Paul Patras、Adriana Sejfia |
+| HKBU | Henry Dai：V2 DRAFT，待人工审核 | Amelie Chi Zhou（原草稿已移 Trash） |
+| SUTD | Ruochen Zhao：10/09 SENT_WAITING | 其他 SUTD 导师的同期 cold email；允许标准 Jan 2027 直申 |
+| Concordia | Peter Chen：已正面回复、国际身份已说明 | 该校其他导师 |
+| UM | Li Li：旧渠道 warm + 历史申请 | 其他 UM 导师；核对提交批次 |
+| HKU | Chenshu Wu：10/12 已发 | 其他 HKU 导师 |
+| NUS | Chengpeng Wang：10/12 已发 | 其他 NUS 导师 |
+| CityUHK | Zhenjiang Li：10/09 已发 | 其他 CityUHK 导师，除非复核后释放锁 |
+| PolyU | Yu Liu：10/09 已发 | 其他 PolyU 导师，除非复核后释放锁 |
+| NYU (Courant / Shanghai) | Qiaoyu Tan：10/12 已发 | 其他 NYU 导师 |
+| CUHK | James Cheng：10/13 已明确组内无名额（含自费），线程已结束 | 不将整个 CUHK 判无名额；新 PI 可另行筛选，但本轮不主动联系 |
 
-1. 前一轮已发的 CityUHK Zhenjiang Li、HKUST Mo Li、Concordia Peter Chen、SUTD Ruochen Zhao、PolyU Yu Liu、HKU Chenshu Wu、NUS Chengpeng Wang、NYU Shanghai Qiaoyu Tan、Edinburgh Mahesh Marina 等不重新发首信。
-2. CUHK James Cheng 明确无容量（含自费）保持排除本轮；其他 CUHK PI 理论可继续但需独立核实。
-3. Dartmouth Shawn Shan / Penn State Yuchen Yang HOLD 不动。
-4. 对所有新 PI 必须完成官方 faculty profile + personal webpage + lab / recruiting / Join Us + 联系指令 / 所需附件 / 2027 capacity 验证，未满足时状态最多 **WATCH / NOT_OUTREACH_READY**。
-5. 英语/GRE 豁免、成绩资格、国际学生 funding / 可接受自费、是否需要入学前面试仍保留硬门禁或条件项。
-6. 不强迫 PI 使用 Celestial；用已完成冻结的 Utopia / Hns / Boss 真实工程作为 research evidence，Celestial 只作为未来规划。
+## C. 候补 / 低 ROI
 
-## 官方来源（核验 2026-10-16）
+- **HKBU Amelie Zhou**：已公开招 HPC/distributed PhD；仅当 Henry 的线索正式关闭且新研究适配核验后释放。
+- **Edinburgh Antonio Barbalace**：OS/runtime 研究契合，但是 Mahesh Marina 的主动线程仍在等待；禁止并发。旧草稿移至 Trash。
+- **Lancaster Nigel Davies**：同校候补，被 Adrian 的活跃草稿锁定。
+- **Surrey Gregory Chockler**：分布式容错方向契合，但 2027 overseas tuition、入学面试和无明确 2027 PI capacity，使其只列 WATCH；不建草稿。
+- **UCL / Southampton**：原候选保留历史，分别等 2027 项目与学术/资助门槛核验；不为填名额勉强投递。
+- CUHK James Cheng 已明确无组内名额；Dartmouth Shawn Shan / Penn State Yuchen Yang HOLD 不动。
 
-- https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/application/
-- https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/faq/
-- https://www.comp.hkbu.edu.hk/v1/index.php?id=henrydai&page=profile
-- https://www.comp.hkbu.edu.hk/v1/?id=amelieczhou&page=profile
-- https://www.comp.hkbu.edu.hk/~amelieczhou/teach.html （2024 旧 opening，不是 2027 招生）
-- https://gs.hkbu.edu.hk/programmes/doctor-of-philosophy-master-of-philosophy-department-of-computer-science
-- https://www.comp.hkbu.edu.hk/phd-eas/2026/ （EAS 截止 2026-08-15，已过）
-- https://www.research.ed.ac.uk/en/persons/antonio-barbalace/
-- https://www.research.ed.ac.uk/en/persons/paul-patras/
-- https://www.lancaster.ac.uk/scc/about-us/people/adrian-friday
-- https://www.lancaster.ac.uk/scc/research/systems/pervasive-systems/
+## D. 当期可执行状态与证据边界
 
-**状态边界：** 本次仅刷新选校与联系队列，不创建或发送 Gmail 邮件，不更改历史已提交申请、不制造统计成功率百分比。
+- 三封 Gmail 新草稿均核验 `DRAFT` 与真实附件；**没有发信授权**。
+- CV PDF ×4（含 SUTD Jan），Research Note PDF ×3，SUTD Jan Statement of Objectives PDF ×1 均已从源编译并渲染校验。保存于当期本地 ZIP；GitHub 只存文件名、SHA、状态，不公开 UBC/Melbourne 官方成绩单。
+- Utopia 冻结 main SHA `944f47dd6c7e18b3388b6d769dbbb6dddbe74f00`；Digital-City 当前 main SHA `cde01b0f71b4d165484540c1c740abc168e43c90`（2026-10-16 本轮读取）。邮件以有界实物 Windows×2、Android 控制和可复核跨机执行/回放为证据；Celestial / wearable / XR consumer validation 不写成已完成。
+- HKBU Henry 已结合 ASE 2025 **VRExplorer** 真正具体技术点（Entity-Action-Task scene interaction）形成 research bridge；不是只把论文标题填进模板。
+- Lingnan 2027 PhD 招收与主导师资格不是同一回事；2027 预期导师体系仍须确认。
+- 全批保留 **NO_SEND**, **NO_APPLICATION_SUBMISSION**。
+
+## Official references (rechecked 2026-10-16)
+
+- SUTD application and FAQ: https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/application/ ; https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/faq/
+- HKBU Dai homepage / requirements: https://www.comp.hkbu.edu.hk/~henrydai/
+- HKBU VRExplorer paper: https://www.comp.hkbu.edu.hk/~henrydai/pubs/VRExplorer_ASE25.pdf
+- Lingnan Deng recruitment: https://www.ln.edu.hk/sds/dids/division/people/professor-deng-yiqin
+- Lingnan direct admissions: https://www.ln.edu.hk/rpg/admission/application-for-admission
+- Lingnan Data Science requirements: https://www.ln.edu.hk/rpg/admission/requirement/additional-for-mphil-phd-in-data-science-programmes
+- Lancaster Friday profile: https://www.lancaster.ac.uk/sci-tech/about-us/people/adrian-friday
+- Lancaster programme: https://www.lancaster.ac.uk/scc/study/phd/self-funded-phd/
+- Surrey CS PhD: https://www.surrey.ac.uk/postgraduate/computer-science-phd
