@@ -1,4 +1,6 @@
-# 观察列表 — 2026-10-06 历史基础，2026-10-16 新增 Westlake 与 Surrey 暂挂
+# 观察列表 — 历史与当前候选索引（最新 2026-10-16 wearable rescreen）
+
+> **2026-10-16 用户确认/第三轮重筛：** [跨已有地区、学校的 wearable × software-agent PhD 全矩阵](../screening/2026-10-16/WEARABLE-REGIONAL-RESCREEN.md) · [YAML](../screening/2026-10-16/WEARABLE-REGIONAL-RESCREEN.yaml)。南方科技大学**整校保留**（张进/李雪亮/孙效华，校级互斥）、上海科技大学**仅李权**维持 wearable 研究观察。POSTECH **Inseok Hwang** `PRIORITY_2027_INTAKE_PRECHECK`；KAIST **Junehwa Song** `WATCH_2027_CAPACITY_ENGLISH_WAIVER_POSSIBLE`；剑桥 **Cecilia Mascolo** `VERY_HIGH_FIT_LOW_ROI_ACADEMIC`（不混淆研究契合度和录取资格）。Surrey `HOLD_USER_DEFERRED` 不动；本次不新增 Gmail 草稿。
 
 > **2026-10-16 追加两所可穿戴方向国内候选：** [南科大专项](../screening/china-mainland/2026-10-16/SUSTECH-WEARABLE-PHD-2027.md) `PRIORITY_WATCH_2027_PROGRAM_OPEN`（设计学院081200 快响长期报名，CSE 张进具体 2027 博士招生未核）；[上科大专项](../screening/china-mainland/2026-10-16/SHANGHAITECH-WEARABLE-PHD-2027.md) `WATCH_2027_DOCTORAL_PROGRAM_PENDING`（李权 wearable HCI / 肖远个人明确招 2027 PhD，学院2027申请-考核制普通批次待公布）。两校均需综合考核，禁止同时向同校多导师发冷邮件。无 Gmail 草稿、未提交网申。
 
@@ -54,3 +56,16 @@
 |---|---|---|---|
 | 南方科技大学 | 张进（CSE，穿戴/移动/edge；但 2027 博士入学通道待确认）**或** 李雪亮（设计学院081200，已公布快响） | 孙效华（AgentOS）、郑天越（无线感知） | `PRIORITY_WATCH`；快响2026-09-23起长期报名，需综合考核；不能把 2027推免视为硕士起点项目 |
 | 上海科技大学 | 李权（HCI、MR+wearable、human-AI；2027 PhD 容量未知） | 肖远（2027 PhD 明确，security/TEE方向漂移）、梁俊睿（硬件占比高） | `WATCH_CONDITIONAL`；已知2026考试为线上测评+线下面试；2027普通普博正式招生批次尚未发现 |
+
+
+### 2026-10-16 新入库或显著修订的可穿戴观察项目
+
+| 学校 / 教授 | 最新评价 | 禁止误判 |
+|---|---|---|
+| POSTECH — Inseok Hwang | `VERY_HIGH_WEARABLE_FIT / GENERAL_RECRUITING / 2027_PHD_CAPACITY_UNKNOWN` | 实验室欢迎学生邮件，**不等于 2027 PhD 席位已经确认**；需英语与面试资格核验 |
+| KAIST — Junehwa Song | `VERY_HIGH_WEARABLE_FIT / 2027_PHD_SEAT_UNKNOWN` | 2027 Fall EPT 豁免可依据加拿大实地完成的学位申请；不等于学校已批准个人豁免 |
+| Cambridge — Cecilia Mascolo | `VERY_HIGH_WEARABLE_AGENT_FIT / LOW_ROI_ACADEMIC_FUNDING` | 2026 wearable agent reliability 研究契合，不自动推翻 First/资助风险 |
+| UCL — UCLIC PhD project track | `HIGH_WEARABLE_HCI_FIT / PI_UNIDENTIFIED` | Programme 研究适配但没有已证实 2027 具体PI或 funding；不可创建导师信 |
+| Alberta — Majeed Kazemitabaar | `HCI_PLUS_HISTORICAL_MAKERWEAR / CONTACT_FORM_ONLY` | MakerWear为既往研究，当前侧重可控 AI、人机验证；联系走研究表单 |
+| 南方科技大学（整校） | `KEEP_SCHOOL / PRIORITY_WATCH` | 张进、李雪亮、孙效华为同校三条备选路线，不可同期投多人 |
+| 上海科技大学 — 李权 | `KEEP_PI / WATCH_2027_PHD_CAPACITY` | 只保留李权；其主页「2027学术硕士已满」不代表博士名额已满 |
