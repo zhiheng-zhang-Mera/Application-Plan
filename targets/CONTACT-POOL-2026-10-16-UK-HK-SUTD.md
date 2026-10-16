@@ -1,5 +1,7 @@
 # 2026-10-16 今日联络池 — 第二轮重构（学校级去重）
 
+> **2026-10-16 第三轮研究筛选覆盖顺序（不改变已建 Gmail 草稿）：** [可穿戴×软件系统在已有全部地区/学校的重新排序](../screening/2026-10-16/WEARABLE-REGIONAL-RESCREEN.md) · [YAML](../screening/2026-10-16/WEARABLE-REGIONAL-RESCREEN.yaml)。SUSTech **整校保留**、ShanghaiTech **仅李权**保留；新增重点 POSTECH Inseok Hwang、KAIST Junehwa Song 资格预核；Cambridge 高契合但 `LOW_ROI`。**以下 A 表仍仅列此前真实已有 3 封未发草稿和 SUTD 直申，不代表新排序的 PI 都已入待发池。** Surrey HOLD 不动。
+
 > **本版覆盖 10/16 上一版候选排序。新建/替换 3 封 Gmail 草稿，但全部 `DRAFT_NOT_SENT`。** [第二版附件/草稿 QA](../tracking-hist/2026-10-16/V2-MATERIALS-AND-GMAIL-QA.md)。马来西亚 USM/UTP 仍保留在早期预核池，但不进入本日联络队列。
 
 ## 同校互斥原则
