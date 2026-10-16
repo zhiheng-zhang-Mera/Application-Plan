@@ -1,0 +1,26 @@
+schema_version: 1
+batch_id: wearable-five-2026-10-16-v3
+updated_at: "2026-10-16"
+base_pool: screening/2026-10-16/WEARABLE-REGIONAL-RESCREEN.md
+current_report: targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.md
+contact_limit: one_per_university
+new_send_authorized: false
+official_application_submitted: false
+superseded_drafts:
+  - {university: Lingnan University, pi: Yiqin Deng, gmail_message_id: "1a1431c6660af6be", status: DRAFT_TRASH_RECOVERABLE}
+  - {university: Lancaster University, pi: Adrian Friday, gmail_message_id: "1a14316bf60f34e4", status: DRAFT_TRASH_RECOVERABLE}
+active_five:
+  - {university: HKBU, pi: Henry Hong-Ning Dai, email: henrydai@comp.hkbu.edu.hk, gmail_message_id: "1a1431c44c36f547", gmail_draft_id: "r4006917016328847035", status: DRAFT_VERIFIED_RETAINED, attachments: 4, intake_capacity: UNKNOWN}
+  - {university: POSTECH, pi: Inseok Hwang, email: i.hwang@postech.ac.kr, gmail_message_id: "1a144a04f39a8838", gmail_draft_id: "r-8889791772818514675", status: DRAFT_VERIFIED, attachments: 2, current_lab_recruitment: true, intake_capacity: UNKNOWN}
+  - {university: KAIST, pi: Ian Oakley, email: ianoakley@kaist.ac.kr, gmail_message_id: "1a144a091bdd51f8", gmail_draft_id: "r2817542136591518821", status: DRAFT_VERIFIED, attachments: 4, current_lab_recruitment: true, ee_cross_degree_eligibility: UNKNOWN, 2027_english_waiver_request_route: true}
+  - {university: SUSTech, pi: Xueliang Li, email: lixl6@sustech.edu.cn, gmail_message_id: "1a144a0b195b79d6", gmail_draft_id: "r1068073041116440001", status: DRAFT_VERIFIED, attachments: 2, program_2027_081200_quick_response_open: true, individual_seat: UNKNOWN}
+  - {university: ShanghaiTech, pi: Quan Li, email: liquan@shanghaitech.edu.cn, gmail_message_id: "1a144a0d6bd1fe3e", gmail_draft_id: "r-3081954922322332966", status: DRAFT_VERIFIED, attachments: 2, actual_2027_phd_capacity: UNKNOWN}
+same_school_deferred:
+  - {university: SUSTech, pi: Zhang Jin}
+  - {university: SUSTech, pi: Sun Xiaohua}
+  - {university: KAIST, pi: Junehwa Song}
+  - {university: HKBU, pi: Amelie Chi Zhou}
+hold_unchanged:
+  - Surrey Gregory Chockler
+  - Dartmouth Shawn Shan
+  - Penn State Yuchen Yang
