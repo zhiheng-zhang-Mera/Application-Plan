@@ -104,7 +104,7 @@ Contact history：
 
 默认：
 
-> **同一 university + department 同时只保持 1 个新的 cold contact。**
+> **同一 university（全校，跨院系/研究所/校园）同时只保持 1 个活跃导师联系链路；已发/待回复/warm/interview 优先于同校新草稿。**
 
 已有 warm / replied / interview 线程优先于新 cold outreach。
 
@@ -116,13 +116,13 @@ Contact history：
 - 被关闭的旧线程继续保留历史记录，但不再阻塞新导师；
 - 不发第三封。
 
-默认清除只清**当前执行锁与等待状态**，不删除历史邮件、发送事实或证据。
+默认清除只清**当前执行锁与等待状态**，不删除历史邮件、发送事实或证据。**解锁之前必须重新检查实际 Gmail 邮箱和已提交申请，确保同一 university 没有仍在推进的其他联系；5 工作日只是超时复核节点，不授权绕过尚未结束的同校事项。**
 
 以下情况不得自动 timeout-close：已有实质回复、interview / supervision discussion、requested materials、active private/warm channel，或 OOO 给出返岗日期且重新计算窗口尚未到期。
 
 自动回执、普通 OOO 不算实质回复；若 OOO 给出返岗日期，则从返岗后重新计时。
 
-warm/private channel 使用 application-specific 规则，不硬套普通 timer。
+warm/private channel 使用 application-specific 规则，不硬套普通 timer。\n\n### 6.1 校级（institution-level）排他锁 — 2026-10-16\n\n- 邮件去重以**大学实体**为键，而不是以邮箱、部门或校园为键；例如 NYU Shanghai / NYU Courant、HKUST Hong Kong / HKUST(GZ) 保守并入同一大学锁；出现法律实体不确定时先人工确认。\n- 状态顺序：`INTERVIEW / WARM / SUBMITTED_DISCUSSION / SENT_WAITING > DRAFT_ACTIVE > WATCH_DEFERRED`。同一大学不能并存两位不同教授的 `DRAFT_ACTIVE` 或一位 `SENT_WAITING` 加另一位 `DRAFT_ACTIVE`。\n- 对于已发并获得积极回复的导师，只有确认招生沟通终结、导师不再接收或用户明确释放，才允许切换同校其他导师；不得仅按 T0 时间自动解除 warm 锁。\n- **草稿不等于联络**，但必须实施内部去重：选择一个主导师，其余候选只留 `WATCH_DEFERRED` 和档案记录；旧草稿若被第二版替换，应标记 `SUPERSEDED` 并从活跃 Draft 列表移走。\n- 无导师预批准要求的 **正式学校申请** 可以独立准备/提交；但不得以此为借口并发向同校多位导师发冷邮件。\n- 每次材料编译或 Gmail draft action 后，对 `data/outreach.yaml` 及当期主池执行 University Lock QA；申请大学级别去重与真实邮箱历史核查缺一不可。\n
 
 ## 7. 材料生成
 
