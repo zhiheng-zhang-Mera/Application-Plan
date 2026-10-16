@@ -14,8 +14,8 @@
 | 顺位 | 大学 | 唯一活跃联系人 / 项目 | 2027 招生信号 | Gmail / 附件状态 | 主要风险 |
 |---:|---|---|---|---|---|
 | 0 | SUTD | Ruochen Zhao；**Jan 2027 标准 PhD 直接网申** | 2026-10-30 截止；提前导师同意非前置 | 10/09 首信已发，无新首信；v2 Jan SOP PDF + CV PDF 本地已编译，申请未提交 | 可能面试、3位推荐人、语言豁免个人认定待核 |
-| 1 | HKBU | Henry Hong-Ning Dai | 本人主页明确 PhD 招生意向，未承诺 2027 座位 | [新 Gmail 草稿](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a14316685a9c678) 4附件：CV、Research Note、UBC transcript、Melbourne record | 与 XR/IoT 系统可靠性贴近；确认 2027 capacity/funding/录取门禁 |
-| 2 | Lingnan University | Yiqin Deng | 本人明确招聘 **Spring & Fall 2027 PhD** | [新 Gmail 草稿](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a143169fd03bcd0) 4附件（同上种类） | 重点是无线网络/LLM适配；用户软件系统方法是否适配、Research Assistant Professor 能否主导导师待确认；Data Science PhD 有课程要求 |
+| 1 | HKBU | Henry Hong-Ning Dai | 本人主页明确 PhD 招生意向，未承诺 2027 座位 | [新 Gmail 草稿](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a1431c44c36f547) 4附件：CV、Research Note、UBC transcript、Melbourne WAM record（最终硕士成绩单待出） | 与 XR/IoT 系统可靠性贴近；确认 2027 capacity/funding/录取门禁 |
+| 2 | Lingnan University | Yiqin Deng | 本人明确招聘 **Spring & Fall 2027 PhD** | [新 Gmail 草稿](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a1431c6660af6be) 4附件：CV、Research Note、UBC transcript、现有 Melbourne WAM record（非最终硕士成绩单） | 重点是无线网络/LLM适配；用户软件系统方法是否适配、Research Assistant Professor 能否主导导师待确认；Data Science PhD 有课程要求 |
 | 3 | Lancaster University | Adrian Friday | 官网公开欢迎潜在 PhD 联系，具体 2027 座位未知 | [新 Gmail 草稿](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a14316bf60f34e4) 2附件：CV + Research Note | 研究偏真实环境/可持续性；国际费用/导师容量/资助不明 |
 
 **这不是录取成功率的百分比排名**。已发邮件/有实质回复的 warm leads 另为 A0 优先级；新 Gmail 草稿不代表已经发送，更不是正式申请。
@@ -48,7 +48,7 @@
 
 ## D. 当期可执行状态与证据边界
 
-- 三封 Gmail 新草稿均核验 `DRAFT` 与真实附件；**没有发信授权**。
+- 三封 Gmail 新草稿均核验 `DRAFT` 与真实附件；**没有发信授权**。Melbourne 附件是目前可提供的 WAM 记录，不能称为最终硕士官方 transcript；若对方有 official transcript 强制要求，仍需核验或补交。
 - CV PDF ×4（含 SUTD Jan），Research Note PDF ×3，SUTD Jan Statement of Objectives PDF ×1 均已从源编译并渲染校验。保存于当期本地 ZIP；GitHub 只存文件名、SHA、状态，不公开 UBC/Melbourne 官方成绩单。
 - Utopia 冻结 main SHA `944f47dd6c7e18b3388b6d769dbbb6dddbe74f00`；Digital-City 当前 main SHA `cde01b0f71b4d165484540c1c740abc168e43c90`（2026-10-16 本轮读取）。邮件以有界实物 Windows×2、Android 控制和可复核跨机执行/回放为证据；Celestial / wearable / XR consumer validation 不写成已完成。
 - HKBU Henry 已结合 ASE 2025 **VRExplorer** 真正具体技术点（Entity-Action-Task scene interaction）形成 research bridge；不是只把论文标题填进模板。
