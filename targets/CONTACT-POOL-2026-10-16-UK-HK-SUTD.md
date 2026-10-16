@@ -54,6 +54,12 @@
 - 候选导师二选一（暂不确定 active）：**吴泰霖** 2027 秋博士招生明确，但 AI for Science / ML 转向较大；**金耀初** AI Agent/LLM验证相似，但 2027 PhD 容量未知，已发现的是 RA 招聘。确保西湖大学同校至多 1 位 PI active。
 - **Surrey 的暂挂不会自动将西湖大学升为新套磁发送人选。**
 
+## C.2 南方科技大学 + 上海科技大学 — 可穿戴方向专项（均为 WATCH，不进入今天待发池）
+
+- **[南方科技大学 SUSTech 2027 专项](../screening/china-mainland/2026-10-16/SUSTECH-WEARABLE-PHD-2027.md)**：设计学院 2027 `081200 计算机科学与技术` 优秀生源快响长期开放（09-23起）；李雪亮智能可穿戴 HCI、孙效华 AgentOS 在公布的导师名单，**CSE 张进**穿戴/移动/边缘研究最直接匹配，但其2027普通博士通道与名额未知。英语海外学习可能免英语单独考核，不能免综合考核；不创建草稿。
+- **[上海科技大学 ShanghaiTech 2027 专项](../screening/china-mainland/2026-10-16/SHANGHAITECH-WEARABLE-PHD-2027.md)**：李权 MR+HCI+wearable 更匹配，2027 PhD 招生位待核；肖远个人**明确招聘2027 PhD**但偏TEE/微架构系统安全；梁俊睿智能低功耗可穿戴偏嵌入式硬件。2026普通博士申请—考核线上测试+线下面试，不是纯材料审核；2027普通博士正式日程未验证。
+- 两校均按**全校最多一位 active cold contact** 管理；查过连接的 Gmail `sustech.edu.cn`、`shanghaitech.edu.cn` 邮件无匹配，**不表示其他邮箱没有历史联系**。二者均仅纳入 WATCH，已有三封 Gmail DRAFT 不变。
+
 ## D. 当期可执行状态与证据边界
 
 - 三封 Gmail 新草稿均核验 `DRAFT` 与真实附件；**没有发信授权**。Melbourne 附件是目前可提供的 WAM 记录，不能称为最终硕士官方 transcript；若对方有 official transcript 强制要求，仍需核验或补交。
