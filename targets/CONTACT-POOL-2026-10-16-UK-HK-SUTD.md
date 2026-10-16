@@ -42,9 +42,17 @@
 - **HKBU Amelie Zhou**：已公开招 HPC/distributed PhD；仅当 Henry 的线索正式关闭且新研究适配核验后释放。
 - **Edinburgh Antonio Barbalace**：OS/runtime 研究契合，但是 Mahesh Marina 的主动线程仍在等待；禁止并发。旧草稿移至 Trash。
 - **Lancaster Nigel Davies**：同校候补，被 Adrian 的活跃草稿锁定。
-- **Surrey Gregory Chockler**：分布式容错方向契合，但 2027 overseas tuition、入学面试和无明确 2027 PI capacity，使其只列 WATCH；不建草稿。
+- **Surrey Gregory Chockler — `HOLD_USER_DEFERRED`（2026-10-16）**：用户明确要求暂挂；保留原研究匹配、学费/面试/名额风险事实，但**不进入本日联络池、不自动建草稿、不套磁、不自动复活**。恢复前须用户重新授权。
 - **UCL / Southampton**：原候选保留历史，分别等 2027 项目与学术/资助门槛核验；不为填名额勉强投递。
 - CUHK James Cheng 已明确无组内名额；Dartmouth Shawn Shan / Penn State Yuchen Yang HOLD 不动。
+
+## C.1 浙江西湖大学 — 中国大陆新筛选，尚非今日活跃套磁
+
+- **[西湖大学 2027 国内普博资格、导师和考核专项](../screening/china-mainland/2026-10-16/WESTLAKE-PHD-2027.md)**：`WATCH_PROGRAM_ELIGIBLE_PI_PROTOCOL_UNKNOWN`；暂时不建草稿、不发送。
+- 工学院 **智能信息技术（0809Z1）**，2027 第一批9月轮已于 2026-08-31 截止；等待工学院 2027 后续批次**独立**公告，严禁移用理学院物理的时间。申请—考核，**不满足免面试优先**；若增设专业笔试，准备期未知。
+- 中国大陆护照 → **国内普博**，不可走面向 non-Chinese citizens 的国际 PhD 表。UBC BSc 可作为海外英语授课学位预核，但留服认证与墨大最终毕业仍须处理。
+- 候选导师二选一（暂不确定 active）：**吴泰霖** 2027 秋博士招生明确，但 AI for Science / ML 转向较大；**金耀初** AI Agent/LLM验证相似，但 2027 PhD 容量未知，已发现的是 RA 招聘。确保西湖大学同校至多 1 位 PI active。
+- **Surrey 的暂挂不会自动将西湖大学升为新套磁发送人选。**
 
 ## D. 当期可执行状态与证据边界
 
