@@ -1,4 +1,4 @@
-# 2026-10-16 导师材料编译与 Gmail 草稿挂载对账
+# 2026-10-16 导师材料编译与 Gmail 草稿挂载对账（第一版历史快照）\n\n> **2026-10-16 V2 supersedes this entire snapshot:** [第二版附件编译和 Gmail 草稿核验](V2-MATERIALS-AND-GMAIL-QA.md)。下列 4 个 v1 Gmail 草稿均已于当期移到 Trash，尚未发送；此文件保留当时的正文与附件审计，不再作为今日行动队列。新的在用草稿为 HKBU Henry / Lingnan Deng / Lancaster Friday；Edinburgh Antonio 因 Mahesh Marina 已发信而暂停。
 
 > 由 10/09-10/12 已发邮件写法与 Application-Plan 权威项目谱系生成；2026-10-16 本次共生成4份独立的一页 Research Note PDF 和4封 Gmail 草稿，核验均处于 **DRAFT** 且各附相应 PDF。**没有发送。** 当前尚未从既有 CV TeX 编译四份专属 CV PDF，也未为 Gmail 草稿添加 CV / transcripts，故以下草稿均非 SEND_READY。相关 PDF 已在本次会话工作空间输出，GitHub 只存文字和 Gmail 草稿索引，不公开官方成绩单。
 
