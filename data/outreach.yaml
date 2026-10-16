@@ -1,6 +1,6 @@
 schema_version: 1
 updated_at: 2026-10-16
-latest_reconciliation: tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md
+latest_reconciliation: tracking-hist/2026-10-16/WEARABLE-FIVE-DRAFT-QA.md
 new_outreach_authorized: false
 mailbox: zhiheng0mera@gmail.com
 
@@ -298,7 +298,7 @@ school_wide_outreach_policy:
   max_active_supervisor_contacts_per_university: 1
   cross_department_and_campus_lock: true
   lock_scope: university
-  source: targets/CONTACT-POOL-2026-10-16-UK-HK-SUTD.md
+  source: targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.md
   new_send_authorized: false
   release_requires_actual_mailbox_recheck: true
   superseded_drafts_not_active: true
@@ -320,7 +320,7 @@ drafts_2026_10_16_v2:
     send_authorized: false
   - supervisor_id: lingnan-yiqin-deng
     university: Lingnan University
-    status: DRAFT_NOT_SENT
+    status: DRAFT_TRASH_SUPERSEDED_WEARABLE_V3
     contact_email: yiqindeng@ln.edu.hk
     gmail_draft_id: "r7272833963742749606"
     gmail_message_id: "1a1431c6660af6be"
@@ -331,18 +331,18 @@ drafts_2026_10_16_v2:
     master_available_record_only: true
     project_method_fit: CONDITIONAL
     primary_supervisor_eligibility: UNKNOWN
-    university_lock_state: DRAFT_ACTIVE
+    university_lock_state: RELEASED_SUPERSEDED
     send_authorized: false
   - supervisor_id: lancaster-adrian-friday
     university: Lancaster University
-    status: DRAFT_NOT_SENT
+    status: DRAFT_TRASH_SUPERSEDED_WEARABLE_V3
     contact_email: a.friday@lancaster.ac.uk
     gmail_draft_id: "r-6260439245680269276"
     gmail_message_id: "1a14316bf60f34e4"
     gmail_draft_url: "https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a14316bf60f34e4"
     attachments_verified: ["Lancaster_Adrian_Friday_CV.pdf", "Lancaster_Adrian_Friday_Research_Note.pdf"]
     funding_and_2027_seat: UNKNOWN
-    university_lock_state: DRAFT_ACTIVE
+    university_lock_state: RELEASED_SUPERSEDED
     send_authorized: false
 
 superseded_2026_10_16_v1_drafts:
@@ -372,3 +372,72 @@ replaced_intermediate_v2_drafts:
   - old_message_id: "1a143169fd03bcd0"
     new_message_id: "1a1431c6660af6be"
     state: DRAFT_TRASH
+
+# 2026-10-16 V3 (wearable-first) is the only current active daily supervisor draft batch.
+current_active_draft_batch: wearable-five-2026-10-16-v3
+current_active_pool_file: targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.md
+current_active_university_count: 5
+current_active_draft_count: 5
+batch_v3_new_send_authorized: false
+
+drafts_2026_10_16_wearable_v3:
+  - supervisor_id: hkbu-henry-hong-ning-dai
+    university: Hong Kong Baptist University
+    status: DRAFT_VERIFIED_RETAINED
+    gmail_draft_id: "r4006917016328847035"
+    gmail_message_id: "1a1431c44c36f547"
+    attachment_files: ["HKBU_Henry_Dai_CV.pdf", "HKBU_Henry_Dai_Research_Note.pdf", "UBCTranscript_Zhang_Zhiheng_final.pdf", "Unimelb WAM.pdf"]
+    send_authorized: false
+  - supervisor_id: postech-inseok-hwang
+    university: POSTECH
+    email: i.hwang@postech.ac.kr
+    status: DRAFT_VERIFIED
+    gmail_draft_id: "r-8889791772818514675"
+    gmail_message_id: "1a144a04f39a8838"
+    attachment_files: ["POSTECH_Inseok_Hwang_CV.pdf", "POSTECH_Inseok_Hwang_Research_Note.pdf"]
+    individual_2027_capacity: UNKNOWN
+    send_authorized: false
+  - supervisor_id: kaist-ian-oakley
+    university: KAIST
+    email: ianoakley@kaist.ac.kr
+    status: DRAFT_VERIFIED
+    gmail_draft_id: "r2817542136591518821"
+    gmail_message_id: "1a144a091bdd51f8"
+    attachment_files: ["KAIST_Ian_Oakley_CV.pdf", "KAIST_Ian_Oakley_Brief_Cover_Letter.pdf", "UBCTranscript_Zhang_Zhiheng_final.pdf", "Unimelb WAM.pdf"]
+    active_lab_msc_phd_recruitment: true
+    2027_intake_capacity: UNKNOWN
+    cs_to_ee_eligibility: UNKNOWN
+    send_authorized: false
+  - supervisor_id: sustech-li-xueliang
+    university: Southern University of Science and Technology
+    email: lixl6@sustech.edu.cn
+    status: DRAFT_VERIFIED
+    gmail_draft_id: "r1068073041116440001"
+    gmail_message_id: "1a144a0b195b79d6"
+    attachment_files: ["SUSTech_Li_Xueliang_CV.pdf", "SUSTech_Li_Xueliang_Research_Note.pdf"]
+    current_2027_program_081200_open: true
+    pi_remaining_quota: UNKNOWN
+    send_authorized: false
+  - supervisor_id: shanghaitech-quan-li
+    university: ShanghaiTech University
+    email: liquan@shanghaitech.edu.cn
+    status: DRAFT_VERIFIED
+    gmail_draft_id: "r-3081954922322332966"
+    gmail_message_id: "1a144a0d6bd1fe3e"
+    attachment_files: ["ShanghaiTech_Quan_Li_CV.pdf", "ShanghaiTech_Quan_Li_Research_Note.pdf"]
+    2027_doctoral_capacity: UNKNOWN
+    send_authorized: false
+
+v3_superseded_drafts_moved_to_trash:
+  - supervisor_id: lingnan-yiqin-deng
+    gmail_message_id: "1a1431c6660af6be"
+    status: DRAFT_TRASH_RECOVERABLE
+  - supervisor_id: lancaster-adrian-friday
+    gmail_message_id: "1a14316bf60f34e4"
+    status: DRAFT_TRASH_RECOVERABLE
+
+v3_school_level_deferred:
+  - {university: KAIST, supervisor: Junehwa Song}
+  - {university: SUSTech, supervisor: Zhang Jin}
+  - {university: SUSTech, supervisor: Sun Xiaohua}
+  - {university: HKBU, supervisor: Amelie Chi Zhou}
