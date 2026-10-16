@@ -1,6 +1,6 @@
 # 2027 PhD 申请控制中心
 
-> **2026-10-16 今日联络池刷新（录取可行性优先）：** [打开今日候选、暖线及新校项目预核表](targets/CONTACT-POOL-2026-10-16.md)。HKUST WANDS 10/15 已面谈且 10/16 感谢信已发；USM/UTP 研究型 PhD 进入优先预核，2027 导师名额与免面试尚未证实；澳门大学 2027/28 第一轮 10/23 截止，需核对旧提交轮次。无新套磁发送、不触动 HOLD。\n\n> **当前研究画像：2026-10-09；Gmail 收发状态更新至 2026-10-14。** 10/09 六封首信已发；10/12 四封新信已实际发送；10/13 CUHK James Cheng 回复其课题组无名额（含自费），目前不再联系。无新增正式申请/offer/资助确认，历史材料保留。[最新五项 Gmail 对账](tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。
+> **2026-10-16 今日套磁池最终调整：** [SUTD + 英国 + 香港导师主池 / 候补](targets/CONTACT-POOL-2026-10-16-UK-HK-SUTD.md)。SUTD Jan 2027 截止 10/30，常规 PhD 无须提前导师同意；Ruochen Zhao 已发历史首信不可重发。HKBU Henry Dai / Amelie Zhou、Edinburgh Antonio Barbalace、Lancaster Adrian Friday 纳入预核；USM/UTP 保留历史但退出今日主动池。**NO_SEND**。\n\n> **2026-10-16 今日联络池刷新（录取可行性优先）：** [打开今日候选、暖线及新校项目预核表](targets/CONTACT-POOL-2026-10-16.md)。HKUST WANDS 10/15 已面谈且 10/16 感谢信已发；USM/UTP 研究型 PhD 进入优先预核，2027 导师名额与免面试尚未证实；澳门大学 2027/28 第一轮 10/23 截止，需核对旧提交轮次。无新套磁发送、不触动 HOLD。\n\n> **当前研究画像：2026-10-09；Gmail 收发状态更新至 2026-10-14。** 10/09 六封首信已发；10/12 四封新信已实际发送；10/13 CUHK James Cheng 回复其课题组无名额（含自费），目前不再联系。无新增正式申请/offer/资助确认，历史材料保留。[最新五项 Gmail 对账](tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。
 > 统一研究身份：**Reliable Long-Horizon Personal AI Agents for Wearable and Ubiquitous Computing**。跨设备个人 AI、目标授权的长期自治、全局一致性下的有界重规划、真实设备任务完成验收。
 
 ## 今日增量筛选：亚洲优先，美国与英国正式开放（2026-10-10）
