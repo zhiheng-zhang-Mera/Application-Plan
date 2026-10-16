@@ -1,5 +1,7 @@
 # 2027 PhD 申请控制中心
 
+> **2026-10-16 今日最终套磁池 V3（wearable 软件系统，5所大学、5封已验证未发 Gmail 草稿）：** [最终联系人与链接](targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.md) · [V3 YAML](targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.yaml) · [Gmail PDF 附件/旧草稿清理 QA](tracking-hist/2026-10-16/WEARABLE-FIVE-DRAFT-QA.md)。**HKBU Henry Dai 原草稿保留；新增 POSTECH Inseok Hwang、KAIST Ian Oakley、南科大李雪亮、上科大李权**。Lingnan/Lancaster 的旧草稿移可恢复 Trash，历史材料不删。KAIST Junehwa Song、南科大张进/孙效华为同校候补，禁同期另发。Surrey 继续 HOLD。**NO_SEND、NO_FORMAL_APPLICATION。**
+
 > **2026-10-16 穿戴设备 × 软件系统全区域第三轮重筛（最新研究排序）：** [完整导师/地区二轴评估](screening/2026-10-16/WEARABLE-REGIONAL-RESCREEN.md) · [机器版](screening/2026-10-16/WEARABLE-REGIONAL-RESCREEN.yaml)。**用户指定：SUSTech 整校保留，上科大仅李权 Quan Li 保留为 wearable PI。** 韩国 POSTECH Inseok Hwang 提升重点资格预核，KAIST Junehwa Song 的 2027 Fall 英语豁免政策有利；Cambridge Cecilia Mascolo 穿戴Agent研究高契合但维持 `LOW_ROI`。原 HKUST/HKU/CityUHK warm/sent、高优先实际联系状态不变；Surrey 继续 `HOLD`；3封已存在 Gmail 草稿不动。**本轮仅 screening，无新草稿/发送/申请。**
 
 > **2026-10-16 国内可穿戴/泛在计算新增调查：** [南方科技大学 2027 Wearable + Agent PhD](screening/china-mainland/2026-10-16/SUSTECH-WEARABLE-PHD-2027.md) · [上海科技大学 2027 Wearable / HCI / Edge PhD](screening/china-mainland/2026-10-16/SHANGHAITECH-WEARABLE-PHD-2027.md)。南科大设计学院 **081200 计算机科学与技术快响计划已开放**；上海科大 2027 普博申请截止时间仍待正式简章。**均为 WATCH，不创建新导师草稿、不发送、不影响现有 3 封 Gmail 草稿或 Surrey HOLD。**
