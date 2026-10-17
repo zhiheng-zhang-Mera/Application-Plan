@@ -45,6 +45,10 @@ HKUST Mo Li/WANDS（10/15 面试、10/16 感谢信）、Concordia Peter Chen（�
 
 已向 Qiaoyu Tan 2026-10-12 发过首信、截至10/17未见回信，本校大学级锁仍保持 **SENT_WAITING**。对上述人**仅 WATCH_DEFERRED，不建草稿、不同时发信**。NYU Shanghai CS PhD Fall2027 官网截止 **2026-12-12**，GRE不强制、英授UBC已获本科学位可用于英语豁免路径、全日制项目有资助，第一年纽约其后通常上海。无需为“换导师”重发第一封。
 
+### 3.2 增量：WPI 与 University of Pittsburgh（匹兹堡≠CMU）
+
+[WPI/Pitt 2027 导师、正式入学、考试豁免/资助/竞争风险专项](../screening/united-states/2026-10-17/WPI-PITT-WEARABLE-PHD-2027.md)。**Pitt Longfei Shangguan** (PERG) 研究直接覆盖 *sensor-in-the-loop LLM Agent + earable + AI systems*，官网公开招 LLM Systems 研究生，未明确2027个人席位；Pitt CS PhD **GRE optional**、加拿大英授BSc有英语考免试路径、2027 Fall 以 **Jan 5, 2027** 为官方截止，学校对多数录取PhD提供多年资金，但PI实际funded名额未知。**WPI Erin Treacy Solovey** 现明确招 PhD、wearable computing/Human-AI HCI方向贴，须确认WPI CS PhD GRE专属政策、2027 PI资金；英文豁免可凭最近5年在加拿大连续2年高等教育发邮件申请，建议 **Jan14,2027前完成 funded申请**。两校尚无真实导师联系，不按本科录取率估个体PhD成功率，均 `WATCH/PRECHECK`，本次 **NO_DRAFT / NO_SEND**。Pitt Pengfei Zhou、WPI Emmanuel Agu作为同校替补暂不联系。
+
 ## 4. 是否值得把重心转美国？
 
 **YES, as a selectively-funded research expansion; NO, as a low-friction admission safety.**
