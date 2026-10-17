@@ -1,5 +1,9 @@
 # 观察列表 — 历史与当前候选索引（最新 2026-10-17 Wearable + US）
 
+> **2026-10-17 WPI + Pitt 增量筛选：** [两校2027可穿戴/Agent博士研究、招生门槛及录取风险](../screening/united-states/2026-10-17/WPI-PITT-WEARABLE-PHD-2027.md)。**Pitt Longfei Shangguan** 做 sensor-in-the-loop LLM Agents/earables/AI Systems，研究非常贴，官网通用招学生但 **2027 funded slot未知**，状态 `HIGH_PRIORITY_PI_CAPACITY_PRECHECK`；**WPI Erin Treacy Solovey** 个人主页明确招 PhD，wearable physiological computing+Human-AI/HCI 适合，但需要核CS PhD专属GRE、PI资金，状态 `WATCH_PHD_RECRUITING`。两校目前连接Gmail均无已发/草稿/排程，仅屏幕审核，**没有新增邮件**。Pitt Pengfei Zhou、WPI Emmanuel Agu是同校备选，不能与主导师同期冷联系。
+
+
+
 > **2026-10-17 NYU Shanghai 可穿戴个人 AI/Agent 补充核验：** [NYU Shanghai 2027 博士指导资格+研究契合+邮箱锁](../screening/2026-10-17/NYU-SHANGHAI-WEARABLE-AGENT-PHD-REVIEW.md)。Qiaoyu Tan 10/12 首信 **SENT_WAITING / NYU_UNIVERSITY_LOCK**；Hua Shen（human–AI/agent accountability；个人 interest form）、Hongyi Wen（个性化Agent、早期 smartwatch HCI）**同校候补不发**；Lihua Xu software-agent validation 研究很贴，**未列入官方 CS PhD supervising faculty**，须先查联合指导资格。2027 CS 博士 12/12 截止，GRE 非必需、UBC 英授本科有英语免考依据。无新草稿/发信。
 
 
