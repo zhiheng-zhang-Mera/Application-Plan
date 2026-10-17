@@ -1,6 +1,6 @@
 schema_version: 1
-updated_at: 2026-10-16
-latest_reconciliation: tracking-hist/2026-10-16/WEARABLE-FIVE-DRAFT-QA.md
+updated_at: 2026-10-17
+latest_reconciliation: tracking-hist/2026-10-17/GMAIL-SCHEDULED-RECONCILIATION.md
 new_outreach_authorized: false
 mailbox: zhiheng0mera@gmail.com
 
@@ -298,7 +298,7 @@ school_wide_outreach_policy:
   max_active_supervisor_contacts_per_university: 1
   cross_department_and_campus_lock: true
   lock_scope: university
-  source: targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.md
+  source: targets/CONTACT-POOL-2026-10-17-WEARABLE-US.md
   new_send_authorized: false
   release_requires_actual_mailbox_recheck: true
   superseded_drafts_not_active: true
@@ -306,7 +306,7 @@ school_wide_outreach_policy:
 drafts_2026_10_16_v2:
   - supervisor_id: hkbu-henry-hong-ning-dai
     university: Hong Kong Baptist University
-    status: DRAFT_NOT_SENT
+    status: HISTORICAL_DRAFT_SUPERSEDED_BY_SCHEDULED_2026_10_17
     contact_email: henrydai@comp.hkbu.edu.hk
     gmail_draft_id: "r4006917016328847035"
     gmail_message_id: "1a1431c44c36f547"
@@ -316,7 +316,7 @@ drafts_2026_10_16_v2:
     master_final_transcript_verified: false
     master_available_record_only: true
     actual_2027_supervision_capacity: UNKNOWN
-    university_lock_state: DRAFT_ACTIVE
+    university_lock_state: SCHEDULED_ACTIVE
     send_authorized: false
   - supervisor_id: lingnan-yiqin-deng
     university: Lingnan University
@@ -374,16 +374,18 @@ replaced_intermediate_v2_drafts:
     state: DRAFT_TRASH
 
 # 2026-10-16 V3 (wearable-first) is the only current active daily supervisor draft batch.
-current_active_draft_batch: wearable-five-2026-10-16-v3
-current_active_pool_file: targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.md
+current_active_draft_batch: null
+current_scheduled_outreach_batch: wearable-five-2026-10-16-v3
+current_active_pool_file: targets/CONTACT-POOL-2026-10-17-WEARABLE-US.md
 current_active_university_count: 5
-current_active_draft_count: 5
+current_active_draft_count: 0
+current_scheduled_outreach_count: 5
 batch_v3_new_send_authorized: false
 
 drafts_2026_10_16_wearable_v3:
   - supervisor_id: hkbu-henry-hong-ning-dai
     university: Hong Kong Baptist University
-    status: DRAFT_VERIFIED_RETAINED
+    status: HISTORICAL_DRAFT_SUPERSEDED_BY_SCHEDULED_2026_10_17
     gmail_draft_id: "r4006917016328847035"
     gmail_message_id: "1a1431c44c36f547"
     attachment_files: ["HKBU_Henry_Dai_CV.pdf", "HKBU_Henry_Dai_Research_Note.pdf", "UBCTranscript_Zhang_Zhiheng_final.pdf", "Unimelb WAM.pdf"]
@@ -391,7 +393,7 @@ drafts_2026_10_16_wearable_v3:
   - supervisor_id: postech-inseok-hwang
     university: POSTECH
     email: i.hwang@postech.ac.kr
-    status: DRAFT_VERIFIED
+    status: HISTORICAL_DRAFT_SUPERSEDED_BY_SCHEDULED_2026_10_17
     gmail_draft_id: "r-8889791772818514675"
     gmail_message_id: "1a144a04f39a8838"
     attachment_files: ["POSTECH_Inseok_Hwang_CV.pdf", "POSTECH_Inseok_Hwang_Research_Note.pdf"]
@@ -400,7 +402,7 @@ drafts_2026_10_16_wearable_v3:
   - supervisor_id: kaist-ian-oakley
     university: KAIST
     email: ianoakley@kaist.ac.kr
-    status: DRAFT_VERIFIED
+    status: HISTORICAL_DRAFT_SUPERSEDED_BY_SCHEDULED_2026_10_17
     gmail_draft_id: "r2817542136591518821"
     gmail_message_id: "1a144a091bdd51f8"
     attachment_files: ["KAIST_Ian_Oakley_CV.pdf", "KAIST_Ian_Oakley_Brief_Cover_Letter.pdf", "UBCTranscript_Zhang_Zhiheng_final.pdf", "Unimelb WAM.pdf"]
@@ -411,7 +413,7 @@ drafts_2026_10_16_wearable_v3:
   - supervisor_id: sustech-li-xueliang
     university: Southern University of Science and Technology
     email: lixl6@sustech.edu.cn
-    status: DRAFT_VERIFIED
+    status: HISTORICAL_DRAFT_SUPERSEDED_BY_SCHEDULED_2026_10_17
     gmail_draft_id: "r1068073041116440001"
     gmail_message_id: "1a144a0b195b79d6"
     attachment_files: ["SUSTech_Li_Xueliang_CV.pdf", "SUSTech_Li_Xueliang_Research_Note.pdf"]
@@ -421,7 +423,7 @@ drafts_2026_10_16_wearable_v3:
   - supervisor_id: shanghaitech-quan-li
     university: ShanghaiTech University
     email: liquan@shanghaitech.edu.cn
-    status: DRAFT_VERIFIED
+    status: HISTORICAL_DRAFT_SUPERSEDED_BY_SCHEDULED_2026_10_17
     gmail_draft_id: "r-3081954922322332966"
     gmail_message_id: "1a144a0d6bd1fe3e"
     attachment_files: ["ShanghaiTech_Quan_Li_CV.pdf", "ShanghaiTech_Quan_Li_Research_Note.pdf"]
@@ -441,3 +443,62 @@ v3_school_level_deferred:
   - {university: SUSTech, supervisor: Zhang Jin}
   - {university: SUSTech, supervisor: Sun Xiaohua}
   - {university: HKBU, supervisor: Amelie Chi Zhou}
+
+# 2026-10-17: Gmail in:scheduled returned five original V3 messages;
+# these have distinct message IDs and are NOT drafts nor sent as of this check.
+# Historical draft IDs above remain provenance only: NEVER reuse them for new sends.
+scheduled_2026_10_17:
+  source: tracking-hist/2026-10-17/GMAIL-SCHEDULED-RECONCILIATION.md
+  verified_local_date: "2026-10-17"
+  scheduled_count: 5
+  sent_count_for_batch_as_of_check: 0
+  items:
+    - supervisor_id: postech-inseok-hwang
+      university: POSTECH
+      status: SCHEDULED_NOT_SENT
+      scheduled_message_id: "1a151ac2acbe5d7e"
+      scheduled_aedt: "2026-10-19T12:00:00+11:00"
+      attachment_count_verified: 2
+      university_lock_state: SCHEDULED_ACTIVE
+    - supervisor_id: kaist-ian-oakley
+      university: KAIST
+      status: SCHEDULED_NOT_SENT
+      scheduled_message_id: "1a151ac2a152f4ae"
+      scheduled_aedt: "2026-10-19T12:00:00+11:00"
+      attachment_count_verified: 4
+      university_lock_state: SCHEDULED_ACTIVE
+    - supervisor_id: sustech-li-xueliang
+      university: Southern University of Science and Technology
+      status: SCHEDULED_NOT_SENT
+      scheduled_message_id: "1a151ac2b6924861"
+      scheduled_aedt: "2026-10-19T12:00:00+11:00"
+      attachment_count_verified: 2
+      university_lock_state: SCHEDULED_ACTIVE
+    - supervisor_id: shanghaitech-quan-li
+      university: ShanghaiTech University
+      status: SCHEDULED_NOT_SENT
+      scheduled_message_id: "1a151ac2af8ccf6c"
+      scheduled_aedt: "2026-10-19T12:00:00+11:00"
+      attachment_count_verified: 2
+      university_lock_state: SCHEDULED_ACTIVE
+    - supervisor_id: hkbu-henry-hong-ning-dai
+      university: Hong Kong Baptist University
+      status: SCHEDULED_NOT_SENT
+      scheduled_message_id: "1a156d286d5cc43f"
+      scheduled_aedt: "2026-10-20T12:00:00+11:00"
+      attachment_count_verified: 4
+      university_lock_state: SCHEDULED_ACTIVE
+
+us_2027_wearable_screening_only:
+  source: screening/united-states/2026-10-17/US-WEARABLE-PHD-2027.yaml
+  create_drafts_authorized: false
+  send_authorized: false
+  portal_submission_authorized: false
+  priority:
+    - {university: Northeastern University, supervisor: Varun Mishra, state: PRECHECK_2027_FUNDED}
+    - {university: Columbia University, supervisor: Xuhai Orson Xu, state: PRECHECK_2027_OPENING}
+    - {university: Boston University, supervisor: Chang Xiao, state: PORTAL_ONLY_NO_COLD_EMAIL}
+    - {university: University of Connecticut, supervisor: Song Han, state: SYSTEMS_BACKUP}
+  same_university_block:
+    - {university: Columbia, supervisor: Zishen Wan, state: DEFER_WHILE_XU_PRIORITY}
+    - {university: NYU, supervisor: Qiaoyu Tan, state: SENT_WAITING_LOCK}
