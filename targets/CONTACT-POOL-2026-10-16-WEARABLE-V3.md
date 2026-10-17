@@ -1,4 +1,6 @@
-# 2026-10-16 穿戴设备方向：最终 5 人套磁池 V3
+# 2026-10-16 穿戴设备方向：五人套磁池 V3（历史快照）
+
+> **2026-10-17 重要事实纠偏：本页描述的是10/16真实 DRAFT 状态，不再代表目前 Gmail 状态。** 五封已在 Gmail 进入 `SCHEDULED_NOT_SENT`，10/19 或 10/20 按邮件实际排程发送；本页旧 draft URL/message IDs 也不再是当前有效 scheduled IDs。最新版请使用 [2026-10-17 今日池](CONTACT-POOL-2026-10-17-WEARABLE-US.md) 和 [Gmail Scheduled 实物核验](../tracking-hist/2026-10-17/GMAIL-SCHEDULED-RECONCILIATION.md)。严禁从旧页面重新创建/补发邮件。
 
 > **本文件覆盖今日所有旧版可发送候选池；历史文件保留但不再是活动状态。** 五所大学各一位导师，Gmail 已核验 5 封草稿、实际附有 PDF，全部 DRAFT_NOT_SENT。2027 入学资格与导师容量尚待正式审核，不能仅因已建草稿标记 SEND_READY。更新 2026-10-16。
 
