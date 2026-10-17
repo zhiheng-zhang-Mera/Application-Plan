@@ -1,0 +1,93 @@
+schema_version: 1
+updated_at: "2026-10-17"
+country: United States
+cycle: "Fall 2027"
+research: "Reliable personal AI agents for wearable and ubiquitous computing"
+screening_only: true
+send_authorized: false
+submit_authorized: false
+current_scheduled_legacy_batch: "wearable-five-2026-10-16-v3"
+school_contact_lock: one_active_supervisor_per_university
+school_candidates:
+  - university: Northeastern University
+    pi: Varun Mishra
+    lab: UbiWell
+    state: PRIORITY_2027_FUNDED_OPENING
+    intake: "2027 Fall"
+    opening: "Several fully funded doctoral positions; CS or Personal Health Informatics"
+    gre: OPTIONAL_STRONGLY_ENCOURAGED
+    english: CANADIAN_EARNED_BSC_POSSIBLE_EXEMPTION
+    deadline: "2026-12-15"
+    contact: ubiwell@northeastern.edu
+    protocol_subject: "[PROSPECTIVE-PHD] ..."
+    protocol_attachments: ["CV", "transcripts", "brief research interest"]
+    method_drift: BEHAVIORAL_ML_HEALTH
+    draft_created: false
+  - university: Columbia University
+    pi: Xuhai Orson Xu
+    lab: SEA Lab
+    state: PRIORITY_2027_OPENING_HIGH_COMPETITION
+    intake: "2027 Fall"
+    opening: "1-2 PhD positions via CS or Biomedical Informatics"
+    gre: OPTIONAL_AS_OF_JULY_2026
+    english: CANADIAN_BSC_APPARENT_ELIGIBILITY_CONDITIONAL
+    deadline: "2026-12-15"
+    contact: xx2489@columbia.edu
+    same_school_deferred: Zishen Wan
+    method_drift: HEALTH_HCI_APPLIED_ML
+    draft_created: false
+  - university: Boston University
+    pi: Chang Xiao
+    state: 2027_0_TO_1_PORTAL_ONLY
+    opening: "0-1 Fall 2027"
+    gre: NOT_REQUIRED
+    english: CANADIAN_BSC_POSSIBLE_EXEMPTION_GRS_CONFIRM
+    deadline: "2026-12-01"
+    contact_protocol: DO_NOT_EMAIL_GENERAL_INQUIRIES
+    method_drift: XR_AI_HCI
+    draft_created: false
+  - university: University of Connecticut
+    pi: Song Han
+    state: 2027_RESEARCH_SYSTEMS_BACKUP
+    opening: "Multiple Spring and Fall 2027"
+    gre: NOT_REQUIRED
+    english: ENGLISH_MEDIUM_OVERSEAS_DEGREE_OFFICIAL_DOCUMENT_REQUIRED
+    deadline: "2027-01-01"
+    contact: song.han@uconn.edu
+    protocol_subject: "PhD Application"
+    method_drift: INDUSTRIAL_IOT_NOT_WEARABLE
+    draft_created: false
+  - university: Florida State University
+    pi: Yang Liu
+    state: CONDITIONAL_GRE_WAIVER
+    opening: "Spring or Fall 2027"
+    gre: REQUIRED_UNLESS_APPROVED_WAIVER_TWO_CRITERIA
+    english: CANADIAN_FOUR_YEAR_BSC_POSSIBLE_WAIVER
+    contact: yl25r@fsu.edu
+    draft_created: false
+  - university: University of Texas at Dallas
+    pi: Hao Zhou
+    state: CONDITIONAL_3_5_GPA_EQUIVALENCY
+    opening: "2027 Spring/Fall PhD RA/TA"
+    gre: OPTIONAL_2026_CATALOG
+    academic: "MS GPA >=3.5 or last-60 BS GPA >=3.5; individual equivalency UNKNOWN"
+    contact_protocol_status: PERSON_LAB_VS_SOCIAL_SUBJECT_CONFLICT
+    draft_created: false
+  - university: University of Michigan
+    pi: UNSELECTED
+    state: HIGH_COMPETITION_PROGRAM_ONLY_WATCH
+    gre: NOT_CONSIDERED
+    opening: PI_NOT_VERIFIED
+    funding: CONDITIONAL_GUARANTEED_4_TO_5_YEARS_IF_ADMITTED
+  - university: Carnegie Mellon University
+    pi: Yuvraj Agarwal
+    state: HCII_ROUTE_BLOCKED_ENGLISH_EXAM
+    opening: "One Fall 2027"
+    english: "HCII requires a recognized test even for Canadian English-medium degrees"
+    alternate_program_policy: UNKNOWN
+existing_same_school_and_holds:
+  - {university: NYU, pi: Qiaoyu Tan, status: SENT_WAITING_LOCK}
+  - {university: Columbia, pi: Zishen Wan, status: WATCH_DEFERRED_SAME_SCHOOL_XU}
+  - {university: Dartmouth, pi: Shawn Shan, status: HOLD_USER}
+  - {university: Penn State, pi: Yuchen Yang, status: HOLD_USER}
+sources: screening/united-states/2026-10-17/US-WEARABLE-PHD-2027.md
