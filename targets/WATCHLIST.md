@@ -1,5 +1,9 @@
 # 观察列表 — 历史与当前候选索引（最新 2026-10-17 Wearable + US）
 
+> **2026-10-17 NYU Shanghai 可穿戴个人 AI/Agent 补充核验：** [NYU Shanghai 2027 博士指导资格+研究契合+邮箱锁](../screening/2026-10-17/NYU-SHANGHAI-WEARABLE-AGENT-PHD-REVIEW.md)。Qiaoyu Tan 10/12 首信 **SENT_WAITING / NYU_UNIVERSITY_LOCK**；Hua Shen（human–AI/agent accountability；个人 interest form）、Hongyi Wen（个性化Agent、早期 smartwatch HCI）**同校候补不发**；Lihua Xu software-agent validation 研究很贴，**未列入官方 CS PhD supervising faculty**，须先查联合指导资格。2027 CS 博士 12/12 截止，GRE 非必需、UBC 英授本科有英语免考依据。无新草稿/发信。
+
+
+
 > **2026-10-17 美国可穿戴/个人 AI 博士预核池：** [完整美国2027 PhD项目和导师/官方要求](../screening/united-states/2026-10-17/US-WEARABLE-PHD-2027.md)，**Northeastern Varun Mishra / Columbia Xuhai Xu** 为已有明确招生的两位高优先资格核查；**BU Chang Xiao** 只能走正式网申，**UConn Song Han** 是边缘/系统研究候补；FSU Yang Liu 的 GRE 豁免、UT Dallas Hao Zhou 的 3.5 GPA 等价尚未通过。**NYU Qiaoyu Tan 已发并锁校、Columbia Zishen Wan 同校候补、Dartmouth/Penn State/Surrey 原 HOLD 严格保留。** [Gmail五封10/19-20 SCHEDULED](../tracking-hist/2026-10-17/GMAIL-SCHEDULED-RECONCILIATION.md)，不重复邮件。今天只有筛选，没有美国新草稿/发信。
 
 > **2026-10-16 Wearable 套磁池 V3 最终筛选五所大学：** [打开 5 人活动池](CONTACT-POOL-2026-10-16-WEARABLE-V3.md) · [PDF/Gmail 实物 QA](../tracking-hist/2026-10-16/WEARABLE-FIVE-DRAFT-QA.md)。HKBU Henry 保留；POSTECH Inseok Hwang、KAIST Ian Oakley、南科大李雪亮、上科大李权已进入有附件的 Gmail DRAFT（未发）。**南科大张进/孙效华、KAIST Junehwa Song、HKBU Amelie Zhou 转 DEFERRED_SAME_UNIVERSITY**；Lingnan/ Lancaster 原未发草稿已转 TRASH_SUPERSEDED，而非淘汰全部学校；Surrey 持续 HOLD。
