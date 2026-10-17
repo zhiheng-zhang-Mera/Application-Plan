@@ -1,6 +1,8 @@
 # Application-Plan — 地区与每日候选筛选入口
 
-> **当前今日实际套磁池：** [2026-10-16 Wearable 5 人不同大学 V3](../targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.md) · [结构化 YAML](../targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.yaml) · [附件QA](../tracking-hist/2026-10-16/WEARABLE-FIVE-DRAFT-QA.md)。保留 HKBU + POSTECH/KAIST/SUSTech/ShanghaiTech，全部已保存 DRAFT 且未发送。之前 10/16 Lingnan/Lancaster 草稿已移 Gmail Trash，旧 UK+HK+SUTD pool 仅作为历史快照。
+> **2026-10-17 最新状态：** [当日可穿戴 PhD+美国筛选/联系池](../targets/CONTACT-POOL-2026-10-17-WEARABLE-US.md) · [美校专项](united-states/2026-10-17/US-WEARABLE-PHD-2027.md) · [官方入学门槛YAML](united-states/2026-10-17/US-WEARABLE-PHD-2027.yaml) · [Gmail五封 SCHEDULED 而非 DRAFT 的事实核验](../tracking-hist/2026-10-17/GMAIL-SCHEDULED-RECONCILIATION.md)。美国仅 `SCREENING_ONLY`，不建邮件；历史10/16 DRAFT描述不代表当前事实。
+
+> **2026-10-16 旧版历史套磁池（10/17 已全部安排发送）：** [2026-10-16 Wearable 5 人不同大学 V3](../targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.md) · [结构化 YAML](../targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.yaml) · [附件QA](../tracking-hist/2026-10-16/WEARABLE-FIVE-DRAFT-QA.md)。保留 HKBU + POSTECH/KAIST/SUSTech/ShanghaiTech，全部已保存 DRAFT 且未发送。之前 10/16 Lingnan/Lancaster 草稿已移 Gmail Trash，旧 UK+HK+SUTD pool 仅作为历史快照。
 
 > **2026-10-16 当前穿戴设备主线第三轮重筛：** [分地区/大学/PI /研究匹配×真实招生准入表](2026-10-16/WEARABLE-REGIONAL-RESCREEN.md) · [结构化 YAML](2026-10-16/WEARABLE-REGIONAL-RESCREEN.yaml)。明确保留**南科大整校**和**上科大李权**；POSTECH Inseok Hwang、KAIST Junehwa Song 上调核验优先；已有 Sent/Warm/Draft 和整校互斥锁继续有效，未授权发新信。
 
