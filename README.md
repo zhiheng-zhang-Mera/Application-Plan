@@ -1,5 +1,7 @@
 # 2027 PhD 申请控制中心
 
+> **2026-10-17 美国补充：** [WPI Erin Solovey vs Pitt Longfei Shangguan／Pengfei Zhou 的穿戴 Agent 博士筛选与个人申请风险](screening/united-states/2026-10-17/WPI-PITT-WEARABLE-PHD-2027.md)。Pitt Longfei 高匹配 sensor-in-the-loop LLM/earables 但需核2027有资助名额；WPI Erin 明确招PhD、可穿戴 HCI 方向契合但 GRE博士专属与经费待核。仅增 WATCH，不改今日五封已排程邮件，也不新增 Gmail 草稿。
+
 > **2026-10-17 最新联络控制中心（Wearable + 美国 PhD）：** [今日有效池](targets/CONTACT-POOL-2026-10-17-WEARABLE-US.md) · [机器版](targets/CONTACT-POOL-2026-10-17-WEARABLE-US.yaml) · [美国2027导师/学术/英语/GRE/资金核查](screening/united-states/2026-10-17/US-WEARABLE-PHD-2027.md) · [五封 Gmail 已安排发送核验](tracking-hist/2026-10-17/GMAIL-SCHEDULED-RECONCILIATION.md)。**重要更正：原10/16五封 DRAFT 均已由 Gmail 安排为 SCHEDULED_NOT_SENT**，10/19 POSTECH/KAIST/SUSTech/ShanghaiTech、10/20 HKBU，今次没有改动其定时。美国优先 Northeastern Varun Mishra、Columbia Xuhai Xu；BU Chang Xiao 必须走 portal，不宜发 cold email；UConn Song Han 为系统备选。所有美国候选为资格核查，**没有新 Gmail 草稿、发送或申请**。HOLD 和已有暖线维持。
 
 > **2026-10-16 历史快照（已被10/17真实 Gmail SCHEDULED 状态取代）— 当时最终套磁池 V3（wearable 软件系统，5所大学、5封已验证未发 Gmail 草稿）：** [最终联系人与链接](targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.md) · [V3 YAML](targets/CONTACT-POOL-2026-10-16-WEARABLE-V3.yaml) · [Gmail PDF 附件/旧草稿清理 QA](tracking-hist/2026-10-16/WEARABLE-FIVE-DRAFT-QA.md)。**HKBU Henry Dai 原草稿保留；新增 POSTECH Inseok Hwang、KAIST Ian Oakley、南科大李雪亮、上科大李权**。Lingnan/Lancaster 的旧草稿移可恢复 Trash，历史材料不删。KAIST Junehwa Song、南科大张进/孙效华为同校候补，禁同期另发。Surrey 继续 HOLD。**NO_SEND、NO_FORMAL_APPLICATION。**
