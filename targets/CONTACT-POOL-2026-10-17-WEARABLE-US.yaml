@@ -1,0 +1,33 @@
+schema_version: 1
+updated_at: "2026-10-17"
+title: "2027 Wearable PhD daily pool plus USA"
+research: "Reliable Long-Horizon Personal AI Agents for Wearable and Ubiquitous Computing"
+source_us: "screening/united-states/2026-10-17/US-WEARABLE-PHD-2027.yaml"
+source_mailbox: "tracking-hist/2026-10-17/GMAIL-SCHEDULED-RECONCILIATION.md"
+no_new_send: true
+no_new_draft: true
+university_contact_limit: 1
+current_active_draft_count: 0
+current_scheduled_outreach_count: 5
+scheduled_asia:
+  - {school: POSTECH, pi: Inseok Hwang, status: SCHEDULED_NOT_SENT, local_melbourne: "2026-10-19 12:00 AEDT", gmail_message_id: "1a151ac2acbe5d7e"}
+  - {school: KAIST, pi: Ian Oakley, status: SCHEDULED_NOT_SENT, local_melbourne: "2026-10-19 12:00 AEDT", gmail_message_id: "1a151ac2a152f4ae"}
+  - {school: SUSTech, pi: Xueliang Li, status: SCHEDULED_NOT_SENT, local_melbourne: "2026-10-19 12:00 AEDT", gmail_message_id: "1a151ac2b6924861"}
+  - {school: ShanghaiTech, pi: Quan Li, status: SCHEDULED_NOT_SENT, local_melbourne: "2026-10-19 12:00 AEDT", gmail_message_id: "1a151ac2af8ccf6c"}
+  - {school: HKBU, pi: Henry Hong-Ning Dai, status: SCHEDULED_NOT_SENT, local_melbourne: "2026-10-20 12:00 AEDT", gmail_message_id: "1a156d286d5cc43f"}
+us_precheck:
+  - {school: Northeastern, pi: Varun Mishra, status: PRIORITY_2027_FUNDED_OPENING_NO_DRAFT}
+  - {school: Columbia, pi: Xuhai Orson Xu, status: PRIORITY_2027_OPENING_NO_DRAFT}
+  - {school: Boston University, pi: Chang Xiao, status: PORTAL_ONLY_NO_EMAIL}
+  - {school: UConn, pi: Song Han, status: SYSTEMS_BACKUP_NO_DRAFT}
+us_conditional:
+  - {school: Florida State, pi: Yang Liu, status: GRE_WAIVER_CONDITIONAL}
+  - {school: UT Dallas, pi: Hao Zhou, status: GPA_3_5_EQUIVALENCY_CONDITIONAL}
+  - {school: CMU, pi: Yuvraj Agarwal, status: HCII_ENGLISH_TEST_BLOCKED}
+  - {school: Michigan, pi: UNSELECTED, status: FUNDING_NO_GRE_PROGRAM_WATCH}
+university_hold:
+  - "NYU / Qiaoyu Tan already SENT"
+  - "Dartmouth / Shawn Shan USER_HOLD"
+  - "Penn State / Yuchen Yang USER_HOLD"
+  - "Surrey / Gregory Chockler USER_HOLD"
+  - "Columbia / Zishen Wan DEFER_SAME_SCHOOL_IF_XU_ACTIVE"
