@@ -39,6 +39,12 @@ HKUST Mo Li/WANDS（10/15 面试、10/16 感谢信）、Concordia Peter Chen（�
 - **Dartmouth / Shawn Shan**、**Penn State / Yuchen Yang**：继续用户明确 HOLD，不重启、不修改旧草稿；**Surrey Gregory Chockler** 同理 HOLD。
 - Columbia 旧 **Zishen Wan** 无新的实发，若后续以 Xuhai Xu 为当前联系人则进入 `DEFERRED_SAME_UNIVERSITY`；反之不能同时推进两人。
 
+### 3.1 NYU Shanghai 跨境项目：已有 Qiaoyu Tan 真实发信，其他候补不得并行 cold
+
+[单独研究评估与官网 2027 招生要求](../screening/2026-10-17/NYU-SHANGHAI-WEARABLE-AGENT-PHD-REVIEW.md)：NYU Shanghai 官方 CS PhD Supervising Faculty 中，**申华 Hua Shen**（HCI、可信Agent、人类授权与行为对齐）与 **文弘毅 Hongyi Wen**（personalization、human-centered AI，曾研究智能手表手势）更贴近未来 wearable personal AI；两人个人主页一般性招PhD，但均**未证实 Fall 2027 个人剩余名额**。**徐立华 Lihua Xu** agentic系统验证研究匹配，但任 Professor of Practice，未列PhD官方导师表，需核 co-supervisor 资格。
+
+已向 Qiaoyu Tan 2026-10-12 发过首信、截至10/17未见回信，本校大学级锁仍保持 **SENT_WAITING**。对上述人**仅 WATCH_DEFERRED，不建草稿、不同时发信**。NYU Shanghai CS PhD Fall2027 官网截止 **2026-12-12**，GRE不强制、英授UBC已获本科学位可用于英语豁免路径、全日制项目有资助，第一年纽约其后通常上海。无需为“换导师”重发第一封。
+
 ## 4. 是否值得把重心转美国？
 
 **YES, as a selectively-funded research expansion; NO, as a low-friction admission safety.**
