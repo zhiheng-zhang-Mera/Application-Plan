@@ -1,9 +1,9 @@
 # 2027 PhD 申请控制中心
 
-> **2026-10-18 Concordia 新增候选池（不改变原有套磁）：** [5位新导师：Bentaleb / Lago / Guéhéneuc / Jun Yan / Chun Wang；按穿戴与软件可靠性评价、检查博士项目准入](targets/CONCORDIA-2027-2026-10-18.md)。Peter Chen 10/09 积极回复并询问移民身份，10/10 已答，继续 `WARM_WAITING / CONCORDIA_UNIVERSITY_LOCK`；新增导师均为 `WATCH_DEFERRED`，**没有排入10/19美国3封自动发送，也没有新增草稿或同时联系同校多位**。
+> **2026-10-18 最新 Concordia 联系决策：** [Concordia 同校替代导师池（Bentaleb / Lago / Guéhéneuc / Jun Yan / Chun Wang）](targets/CONCORDIA-2027-2026-10-18.md)。Peter Chen 10/09 对研究表示积极匹配、10/10 收到申请人国际学生身份回复，10/18 Gmail 核验无后续回信；**用户决定 `CLOSED_USER_TIMEOUT / USER_MARKED_UNSUCCESSFUL`，停止主动跟进，Concordia 大学校锁释放**。这是主动关闭，不是PI/招生办拒绝。下一位候选 Bentaleb 为 `PRIMARY_PROTOCOL_PRECHECK_NO_DRAFT`；仍执行全校同周期仅一位活跃联系人。没有新Concordia邮件、没有改动已安排10/19的美国与亚洲发送。
 
 
-> **2026-10-18 今日新增美国穿戴/AIoT PhD 候选池与三封待发草稿：** [新增候选池及邮件附件QA](targets/CONTACT-POOL-2026-10-18-US-WEARABLE.md)。新增 **Pitt Longfei Shangguan、UConn Song Han、Northeastern Varun Mishra** 三所大学，每校一位 PI。Gmail 现有三封 **DRAFT_WITH_VERIFIED_PDF / NOT_SENT**，与10/19原四封亚洲 Gmail Scheduled和10/20 HKBU Gmail Scheduled互不干扰。**已建立一次性 ChatGPT 任务于2026-10-19 23:00 Melbourne 左右核验再发美国三封（不是 Gmail 原生 Schedule，须明日运行结果确认）**。Columbia Xuhai Xu、WPI Erin Solovey保留 WATCH、无草稿；当前所有 SENT/WARM/HOLD 不变。10/17及之前是历史快照，若与当日邮件事实冲突以本条及Gmail为准。
+> **2026-10-18 今日新增美国穿戴/AIoT PhD 候选池与三封待发草稿：** [新增候选池及邮件附件QA](targets/CONTACT-POOL-2026-10-18-US-WEARABLE.md)。新增 **Pitt Longfei Shangguan、UConn Song Han、Northeastern Varun Mishra** 三所大学，每校一位 PI。Gmail 现有三封 **DRAFT_WITH_VERIFIED_PDF / NOT_SENT**，与10/19原四封亚洲 Gmail Scheduled和10/20 HKBU Gmail Scheduled互不干扰。**已建立一次性 ChatGPT 任务于2026-10-19 23:00 Melbourne 左右核验再发美国三封（不是 Gmail 原生 Schedule，须明日运行结果确认）**。Columbia Xuhai Xu、WPI Erin Solovey保留 WATCH、无草稿；除此次明确释放的 Concordia Peter Chen 联系外，其余 SENT/WARM/HOLD 不变。10/17及之前是历史快照，若与当日邮件事实冲突以本条及Gmail为准。
 
 > **2026-10-17 美国补充：** [WPI Erin Solovey vs Pitt Longfei Shangguan／Pengfei Zhou 的穿戴 Agent 博士筛选与个人申请风险](screening/united-states/2026-10-17/WPI-PITT-WEARABLE-PHD-2027.md)。Pitt Longfei 高匹配 sensor-in-the-loop LLM/earables 但需核2027有资助名额；WPI Erin 明确招PhD、可穿戴 HCI 方向契合但 GRE博士专属与经费待核。仅增 WATCH，不改今日五封已排程邮件，也不新增 Gmail 草稿。
 
@@ -67,15 +67,16 @@
 - CUHK CSE：招生环节 1 小时涵盖多门 CS/数学基础的笔试，必须结合具体轮通知提前期与题纲判断备考工作量。
 - CityUHK CS：书面 QE 的当期细目与提前通知仍有缺项；不是因考试存在就 REJECT。
 
-## 当前跟进的原研究排序导师（六位中五位，非录取成功率）
+## 原六位导师中的当前有效候选（Peter Chen 已按用户决定关闭；研究排序保留原编号）
 
 | 研究排序 | 导师 / 学校 | 研究适配 | 当前约束状态 | GitHub 新申请包 |
 |---:|---|---|---|---|
 | 1 | Zhenjiang Li / CityUHK | 穿戴感知 + edge agents；方向全面 | 书面 QE 题纲/通知待核实 | [打开](tracking-hist/2026-10-9/hong-kong/CityUHK/Zhenjiang-Li/README.md) |
 | 2 | Mo Li / HKUST | 移动/AIoT/真实跨设备系统 | PQE 综述/口试与课程相当性待核实 | [打开](tracking-hist/2026-10-9/hong-kong/HKUST/Mo-Li/README.md) |
-| 3 | Peter Chen / Concordia | 长期 Agent 可靠性核心 RQ | 综合考试一个月报告窗口，条件评估 | [打开](tracking-hist/2026-10-9/canada/Concordia/Peter-Chen/README.md) |
 | 4 | Ruochen Zhao / SUTD | 可信 Agent 与真实完成评价 | 需确认可以 systems/evaluation 主导而非纯 NLP/RL | [打开](tracking-hist/2026-10-9/singapore/SUTD/Ruochen-Zhao/README.md) |
 | 5 | Yu Liu / PolyU | Edge/分布式系统；需具体 systems 项目 | 漂移风险高、资格考试具体细目未知 | [打开](tracking-hist/2026-10-9/hong-kong/PolyU/Yu-Liu/README.md) |
+
+**原研究排序第3 Peter Chen / Concordia：** 10/09获积极回复，10/10回复国际生身份，10/18 Gmail复查未再获答复；用户决定将该联系按套磁失败关闭（`CLOSED_USER_TIMEOUT`），释放大学级联系人锁，**不等于教授明确拒绝**。下一位首选Bentaleb，其他Concordia候补见[新同校筛选](targets/CONCORDIA-2027-2026-10-18.md)。原[Peter申请包](tracking-hist/2026-10-9/canada/Concordia/Peter-Chen/README.md)仅作历史材料保存。
 
 **历史排名第六 James Cheng / CUHK**：10/13 已回复该课题组暂无博士空缺（**包括自费名额**），`REPLIED_NO_CAPACITY / EXCLUDED_CURRENT_OUTREACH`。[其原材料与研究匹配历史](tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng/README.md)继续保留；该信息不涉及 CUHK 其他课题组或个人研究能力判断。
 
