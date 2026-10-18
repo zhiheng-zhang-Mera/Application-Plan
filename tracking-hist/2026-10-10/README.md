@@ -1,5 +1,7 @@
 # 2026-10-10 PhD 对外追踪核验（Gmail Sent / Replies）
 
+> **更新于2026-10-18（不改写10/10当时的真实回复）：** Peter Chen 10/09 积极回复并询问身份，申请人10/10回信；截至10/18没有进一步邮件，申请人决定按本轮套磁失败主动停止等待，状态为 `CLOSED_USER_TIMEOUT`，已释放Concordia学校联系锁。并非教授明确拒绝。详情见 [套磁日志](../../applications/OUTREACH-LOG.md) 与 [新Concordia候选](../../targets/CONCORDIA-2027-2026-10-18.md)。
+
 > **2026-10-14 后续事实**：本页是 10/10 旧对账。10/12 另有 NUS/HKU/NYU/Edinburgh 四封实发、均未见回复；James Cheng 于 10/13 明确告知课题组无招生名额（包括自费）。[最新逐邮件对账](../2026-10-14/GMAIL-RECONCILIATION.md)。
 
 > **[最新亚洲英国四位新导师：全部 Gmail DRAFT，均未发送](merged-outreach/README.md)**。NUS、HKU、Edinburgh、NYU Shanghai 各一封，所有 PDF 真实附加并二次确认，HKU/NYU 缺强制官方成绩单。本页面的旧六位首信 SENT 历史**完全不变**，也不能把新 `DRAFT` 误记为已发送。
