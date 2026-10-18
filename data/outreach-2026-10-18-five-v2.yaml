@@ -1,0 +1,126 @@
+schema_version: 1
+batch_id: outreach-2026-10-18-five-v2
+updated_at: '2026-10-18'
+source: targets/CONTACT-POOL-2026-10-18-FIVE-V2.md
+state: DRAFT_V2_VERIFIED_FUTURE_TASK_PENDING
+sent: false
+formal_application_submitted: false
+supersedes:
+  - targets/CONTACT-POOL-2026-10-18-US-WEARABLE.md#v1-three-drafts
+  - concordia-abdelhak-bentaleb-primary-protocol-precheck-no-draft
+  - columbia-xuhai-xu-watch-reserve-no-draft
+state_precedence: CURRENT_GMAIL_AND_TASK_RECEIPT_THEN_THIS_BATCH_THEN_OLDER_SNAPSHOTS
+schedule:
+  provider: CHATGPT_AUTOMATION_NOT_GMAIL_NATIVE
+  mode: flexible_schedule
+  timezone: Australia/Melbourne
+  local_target: '2026-10-19T23:00:00+11:00'
+  previous_three_recipient_task_replaced_in_place: true
+  fresh_pre_send_validation_required: true
+  missing_deleted_scheduled_sent_changed_draft_policy: SKIP_NO_RECREATE
+  future_send_success_not_yet_verified: true
+private_execution_identifiers_location: GMAIL_AND_AUTOMATION_ONLY
+email_language: English
+internal_language: Chinese
+same_university_parallel_contact_authorized: false
+pdf_qa:
+  unique_new_attachment_pdfs: 11
+  attachment_instances: 17
+  email_review_pdf_pages: 5
+  generated_pdf_documents_including_review: 12
+  page_counts_verified: true
+  text_bounds_and_encoding_checked: true
+  rendered_pages_visually_reviewed: true
+  official_transcripts_in_downloadable_bundle: false
+  official_transcripts_in_public_repository: false
+evidence_refresh:
+  utopia_main_sha: '944f47dd6c7e18b3388b6d769dbbb6dddbe74f00'
+  digital_city_main_sha: '6d687ccd1825c653c077f7f0fae725ab0ea139c7'
+  privacy_lens_readme_read: true
+  current_evidence_not_just_old_cv: true
+  claim_boundaries: [BOUNDED_WINDOWS_ANDROID_WEB, NO_VALIDATED_WEARABLE_ASSISTANT, NO_CLINICAL_ACCURACY, NO_PEER_REVIEWED_PUBLICATION_CLAIM, AI_ASSISTED_INTEGRATION_DECLARED]
+recipients:
+  - supervisor_id: pitt-longfei-shangguan
+    university: University of Pittsburgh
+    recipient: longfei@pitt.edu
+    subject: 'Prospective Fall 2027 PhD — reliable sensor-in-the-loop personal agents'
+    state: DRAFT_V2_VERIFIED_NOT_SENT
+    university_lock_state: DRAFT_ACTIVE
+    pdf_count: 2
+    required_pdf_names:
+      - Pitt_Longfei_Shangguan_2026-10-18_V2_CV.pdf
+      - Pitt_Longfei_Shangguan_2026-10-18_V2_Research_Statement.pdf
+    actual_2027_individual_capacity: UNKNOWN_INQUIRY
+  - supervisor_id: uconn-song-han
+    university: University of Connecticut
+    recipient: song.han@uconn.edu
+    subject: PhD Application
+    state: DRAFT_V2_VERIFIED_NOT_SENT
+    university_lock_state: DRAFT_ACTIVE
+    pdf_count: 4
+    required_pdf_names:
+      - UConn_Song_Han_2026-10-18_V2_CV.pdf
+      - UConn_Song_Han_2026-10-18_V2_Research_Statement.pdf
+      - UBCTranscript_Zhang_Zhiheng_final.pdf
+      - Unimelb WAM.pdf
+    protocol_basis: CURRENT_SPRING_FALL_2027_PHD_NOTICE_NOT_OLDER_GRA_CACHE
+  - supervisor_id: northeastern-varun-mishra
+    university: Northeastern University
+    recipient: ubiwell@northeastern.edu
+    subject: '[PROSPECTIVE-PHD] Fall 2027 — reliable wearable sensing and intervention delivery'
+    state: DRAFT_V2_VERIFIED_NOT_SENT
+    university_lock_state: DRAFT_ACTIVE
+    pdf_count: 4
+    required_pdf_names:
+      - Northeastern_Varun_Mishra_2026-10-18_V2_CV.pdf
+      - Northeastern_Varun_Mishra_2026-10-18_V2_Research_Statement.pdf
+      - UBCTranscript_Zhang_Zhiheng_final.pdf
+      - Unimelb WAM.pdf
+    target_program: Computer Science PhD
+  - supervisor_id: concordia-abdelhak-bentaleb
+    university: Concordia University
+    recipient: abdelhak.bentaleb@concordia.ca
+    subject: 'Prospective PhD Student – Zhiheng Zhang – Fall 2027'
+    state: DRAFT_V2_VERIFIED_NOT_SENT
+    university_lock_state: DRAFT_ACTIVE
+    pdf_count: 5
+    cv_pages: 2
+    required_pdf_names:
+      - Concordia_Abdelhak_Bentaleb_2026-10-18_V2_CV.pdf
+      - Concordia_Abdelhak_Bentaleb_2026-10-18_V2_Research_Statement.pdf
+      - Concordia_Abdelhak_Bentaleb_2026-10-18_V2_Motivation_Letter.pdf
+      - UBCTranscript_Zhang_Zhiheng_final.pdf
+      - Unimelb WAM.pdf
+    referee_status: PROPOSED_ARRANGEMENTS_PENDING_EXPLICITLY_DISCLOSED
+    no_signed_reference_letter_claim: true
+    academic_grade_types_distinguished: true
+    target_program: Computer Science PhD
+  - supervisor_id: columbia-xuhai-xu
+    university: Columbia University
+    recipient: xx2489@columbia.edu
+    subject: 'Prospective Fall 2027 CS PhD — dependable wearable personal AI interactions'
+    state: DRAFT_V2_VERIFIED_NOT_SENT
+    university_lock_state: DRAFT_ACTIVE
+    pdf_count: 2
+    required_pdf_names:
+      - Columbia_Xuhai_Xu_2026-10-18_V2_CV.pdf
+      - Columbia_Xuhai_Xu_2026-10-18_V2_Research_Statement.pdf
+    target_program: Computer Science PhD
+closed_and_deferred:
+  - {supervisor_id: concordia-peter-chen, state: CLOSED_USER_TIMEOUT, pi_explicit_rejection: false, followup_authorized: false}
+  - {supervisor_id: concordia-paula-lago, state: DEFERRED_SAME_UNIVERSITY}
+  - {supervisor_id: concordia-yann-gael-gueheneuc, state: DEFERRED_SAME_UNIVERSITY}
+  - {supervisor_id: concordia-jun-yan, state: DEFERRED_SAME_UNIVERSITY}
+  - {supervisor_id: concordia-chun-wang, state: DEFERRED_SAME_UNIVERSITY}
+  - {supervisor_id: columbia-zishen-wan, state: DEFERRED_SAME_UNIVERSITY}
+  - {supervisor_id: wpi-erin-solovey, state: WATCH_NO_DRAFT}
+old_us_three_drafts:
+  state: SUPERSEDED_RECOVERABLE_TRASH
+  label: PhD-Application/Superseded-2026-10-18-V1
+  send_authorized: false
+preserved_asian_gmail_native_schedules:
+  - {supervisor: POSTECH_Inseok_Hwang, local_target: '2026-10-19T12:00:00+11:00'}
+  - {supervisor: KAIST_Ian_Oakley, local_target: '2026-10-19T12:00:00+11:00'}
+  - {supervisor: SUSTech_Li_Xueliang, local_target: '2026-10-19T12:00:00+11:00'}
+  - {supervisor: ShanghaiTech_Quan_Li, local_target: '2026-10-19T12:00:00+11:00'}
+  - {supervisor: HKBU_Henry_Dai, local_target: '2026-10-20T12:00:00+11:00'}
