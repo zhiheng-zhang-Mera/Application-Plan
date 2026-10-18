@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-10-17
+updated_at: 2026-10-18
 latest_reconciliation: tracking-hist/2026-10-17/GMAIL-SCHEDULED-RECONCILIATION.md
 new_outreach_authorized: false
 mailbox: zhiheng0mera@gmail.com
@@ -30,8 +30,15 @@ threads:
     gmail_initial_sent_message_id: "1a120a449916b51f"
     gmail_latest_sent_message_id: "1a12497a0f1d74bb"
     evidence_source: tracking-hist/2026-10-10/README.md
-    next_action: WAIT_FOR_PI_AND_VERIFY_FUNDING
-    lock_state: WARM_ACTIVE
+    current_state: CLOSED_USER_TIMEOUT
+    closed_at: 2026-10-18
+    closed_reason: USER_ELECTED_TO_STOP_WAITING_AFTER_NO_FURTHER_REPLY
+    pi_declined_explicitly: false
+    formal_application_rejected: false
+    user_operational_outcome: UNSUCCESSFUL_OUTREACH
+    gmail_verified_no_followup_as_of: 2026-10-18
+    next_action: NO_FOLLOWUP_UNLESS_USER_EXPLICITLY_REOPENS
+    lock_state: RELEASED_BY_USER_DECISION
   - supervisor_id: cityuhk-zhenjiang-li
     historical_state: SENT_WAITING
     sent_at: 2026-10-09
@@ -502,3 +509,22 @@ us_2027_wearable_screening_only:
   same_university_block:
     - {university: Columbia, supervisor: Zishen Wan, state: DEFER_WHILE_XU_PRIORITY}
     - {university: NYU, supervisor: Qiaoyu Tan, state: SENT_WAITING_LOCK}
+
+# New Concordia candidates are available because Peter Chen's reply thread was
+# closed by user decision on 2026-10-18; this is NOT a PI rejection.
+concordia_2027_replacement_pool:
+  source: targets/CONCORDIA-2027-2026-10-18.md
+  decision_at: 2026-10-18
+  university_lock_state: RELEASED_NO_ACTIVE_OUTREACH
+  previous_supervisor: concordia-peter-chen
+  previous_supervisor_status: CLOSED_USER_TIMEOUT
+  university_parallel_cold_outreach_authorized: false
+  create_drafts_authorized: false
+  send_authorized: false
+  next_primary_supervisor_id: concordia-abdelhak-bentaleb
+  next_primary_state: PRIMARY_PROTOCOL_PRECHECK_NO_DRAFT
+  alternatives:
+    - {supervisor_id: concordia-paula-lago, status: WATCH_AVAILABLE}
+    - {supervisor_id: concordia-yann-gael-gueheneuc, status: WATCH_AVAILABLE}
+    - {supervisor_id: concordia-jun-yan, status: WATCH_AVAILABLE}
+    - {supervisor_id: concordia-chun-wang, status: WATCH_AVAILABLE_LOW_PRIORITY}
