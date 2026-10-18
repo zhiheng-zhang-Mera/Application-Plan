@@ -1,6 +1,6 @@
 # 2026-10-18 今日候选池 — Wearable / AIoT × 2027 Fall PhD（美国新增联系）
 
-> **2026-10-18 Concordia 加拿大同校导师扩充（研究预核，不并发发信）：** [Concordia Fall 2027 新增5位导师与招生/协议/学位资格审查](CONCORDIA-2027-2026-10-18.md)。在该校已联系 Peter Chen 的积极回复基础上，新增 Abdelhak Bentaleb、Paula Lago、Yann-Gaël Guéhéneuc、Jun Yan、Chun Wang 为 `WATCH_DEFERRED_UNIVERSITY_LOCK`；不建Gmail草稿、不加入明日发信任务、不过早释放 Peter 既有暖线。
+> **2026-10-18 Concordia 变更（最新）：** [Concordia Fall 2027 新增5位导师与招生/协议/学位资格审查](CONCORDIA-2027-2026-10-18.md)。用户明确决定将10/10回复后未有新进展的Peter Chen联系标记为 `CLOSED_USER_TIMEOUT / USER_MARKED_UNSUCCESSFUL`，并 **释放 Concordia 联系锁**（并非教授明确拒绝）。新首选Abdelhak Bentaleb转为 `PRIMARY_PROTOCOL_PRECHECK_NO_DRAFT`；Paula Lago、Yann-Gaël Guéhéneuc、Jun Yan、Chun Wang改为可用备选。继续实行“全校一次一位活跃导师”；未创建、发送或安排新Concordia邮件，明日既有3封美国任务不变。
 
 
 > **当期状态：** 基于 2026-10-18 连接 Gmail 的 SENT/SCHEDULED/DRAFT 全量对账及官方 PI 招生页。新增三个**不同大学**的 Gmail 草稿，附 PDF 并经读取核验。三个新联系**均尚未发送，也尚未进入 Gmail 原生 Scheduled**；已经创建一项 2026-10-19 23:00 `Australia/Melbourne`（美国东部约周一08:00）的**一次性 ChatGPT 发送任务**，执行时间在该时间附近、执行时须再次核实并避免重复。只有未来发送操作返回成功才能登记为 SENT。旧五封原生 Gmail 排程保持原样，不能混淆。所有已有 warm/sent/HOLD 和整校联系人锁不变。
