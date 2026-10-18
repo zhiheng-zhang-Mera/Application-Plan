@@ -1,5 +1,8 @@
 # 2027 PhD 申请控制中心
 
+> **2026-10-18 Concordia 新增候选池（不改变原有套磁）：** [5位新导师：Bentaleb / Lago / Guéhéneuc / Jun Yan / Chun Wang；按穿戴与软件可靠性评价、检查博士项目准入](targets/CONCORDIA-2027-2026-10-18.md)。Peter Chen 10/09 积极回复并询问移民身份，10/10 已答，继续 `WARM_WAITING / CONCORDIA_UNIVERSITY_LOCK`；新增导师均为 `WATCH_DEFERRED`，**没有排入10/19美国3封自动发送，也没有新增草稿或同时联系同校多位**。
+
+
 > **2026-10-18 今日新增美国穿戴/AIoT PhD 候选池与三封待发草稿：** [新增候选池及邮件附件QA](targets/CONTACT-POOL-2026-10-18-US-WEARABLE.md)。新增 **Pitt Longfei Shangguan、UConn Song Han、Northeastern Varun Mishra** 三所大学，每校一位 PI。Gmail 现有三封 **DRAFT_WITH_VERIFIED_PDF / NOT_SENT**，与10/19原四封亚洲 Gmail Scheduled和10/20 HKBU Gmail Scheduled互不干扰。**已建立一次性 ChatGPT 任务于2026-10-19 23:00 Melbourne 左右核验再发美国三封（不是 Gmail 原生 Schedule，须明日运行结果确认）**。Columbia Xuhai Xu、WPI Erin Solovey保留 WATCH、无草稿；当前所有 SENT/WARM/HOLD 不变。10/17及之前是历史快照，若与当日邮件事实冲突以本条及Gmail为准。
 
 > **2026-10-17 美国补充：** [WPI Erin Solovey vs Pitt Longfei Shangguan／Pengfei Zhou 的穿戴 Agent 博士筛选与个人申请风险](screening/united-states/2026-10-17/WPI-PITT-WEARABLE-PHD-2027.md)。Pitt Longfei 高匹配 sensor-in-the-loop LLM/earables 但需核2027有资助名额；WPI Erin 明确招PhD、可穿戴 HCI 方向契合但 GRE博士专属与经费待核。仅增 WATCH，不改今日五封已排程邮件，也不新增 Gmail 草稿。
