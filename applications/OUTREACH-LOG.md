@@ -102,3 +102,13 @@ HKU、NYU 的实际邮件已附 UBC 本科和 `Unimelb WAM.pdf`，与 10/10 草�
 | 2026-10-13 | CUHK | James Cheng | 回复 10/09 首信：**课题组已用尽名额，包括自费 PhD** | **REPLIED_NO_CAPACITY / 当前排除** | [`1a13439fb5be5840`](https://mail.google.com/mail/u/0/#all/1a13439fb5be5840)；thread `1a11f13e3d945d40` |
 
 仅针对 James Cheng 的课题组，不代表 CUHK 整校停止招收，更不是申请人研究能力被否定。原信与研究匹配等历史全部保留。[10/14 完整对账](../tracking-hist/2026-10-14/GMAIL-RECONCILIATION.md)。
+
+## 2026-10-18 — Concordia Peter Chen 用户决定终止等待
+
+| 日期 | 学校 / 导师 | 经 Gmail 核查的真实往来 | 申请管理状态 | 联系锁与后续 |
+|---|---|---|---|---|
+| 2026-10-18 | Concordia University / Tse-Hsun (Peter) Chen | 10/09首信、10/09教授正面回复并询问加拿大身份、10/10申请人回复国际学生身份；截至10/18当前连接Gmail没有后续人工回复（原线程及搜索双重确认） | **`CLOSED_USER_TIMEOUT / USER_MARKED_UNSUCCESSFUL`**。申请人明确选择按本轮套磁未成功处理、停止等待；**不等于PI明确拒绝，也不等于正式录取被拒** | **`CONCORDIA_UNIVERSITY_LOCK_RELEASED`**；不向Peter再次follow-up，不删除历史邮件，恢复同校其他导师的初次套磁资格，但仍以“同一时间最多1个活跃PI”执行。下一预核第一候选 Bentaleb，其余Lago/Guéhéneuc/Jun Yan/Chun Wang按研究适配候补。 |
+
+- Gmail 记录：[10/09首次回复](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a120b218e27365d) · [10/10申请人回复](https://mail.google.com/mail/u/?authuser=zhiheng0mera%40gmail.com#all/1a12497a0f1d74bb)。
+- 这里的“超时”是**用户主动止损/释放资源决定**，并非系统自动把正面回复线程判定成学术拒绝，也不必达到恰好10个完整日历日。
+- 本次只刷新追踪仓库：未发Peter新邮件，未给新Concordia导师建草稿、安排发送或发送。Pitt、UConn、Northeastern既有明日自动任务不变。
