@@ -1,5 +1,7 @@
 # Concordia University — Tse-Hsun (Peter) Chen
 
+> **2026-10-18 后续状态（覆盖本页2026-10-09材料准备快照）：** 10/09首封已实际发送并获Peter Chen正面回复，10/10申请人已回复国际生身份；截至10/18连接Gmail无后续人工回复。用户决定把本轮套磁按 `CLOSED_USER_TIMEOUT / USER_MARKED_UNSUCCESSFUL` 归档，停止主动follow-up并释放Concordia联系锁。**这是申请人主动停止等待，不是PI明确拒绝；真实历史邮件与积极回复保留。** [查看最新同校候选](../../../../../targets/CONCORDIA-2027-2026-10-18.md)。
+
 > **2026-10-09 当期定制材料 / 尚未发送。** 研究契合：A core RQ；方向偏移风险：MEDIUM_HIGH；决策：CORE_RQ_MATCH_EXAM_CONDITIONAL。
 
 **项目身份：** DS-Hns 与 Codex Boss 是分别完成并冻结的前代；Utopia 是融合两者成果且已完成并冻结的项目；Celestial 是规划中的 Utopia 下一代重构迭代。详情见 [项目谱系](../../../../../materials/PROJECT-LINEAGE.md)。
