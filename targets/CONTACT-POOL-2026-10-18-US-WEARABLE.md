@@ -1,5 +1,8 @@
 # 2026-10-18 今日候选池 — Wearable / AIoT × 2027 Fall PhD（美国新增联系）
 
+> **2026-10-18 Concordia 加拿大同校导师扩充（研究预核，不并发发信）：** [Concordia Fall 2027 新增5位导师与招生/协议/学位资格审查](CONCORDIA-2027-2026-10-18.md)。在该校已联系 Peter Chen 的积极回复基础上，新增 Abdelhak Bentaleb、Paula Lago、Yann-Gaël Guéhéneuc、Jun Yan、Chun Wang 为 `WATCH_DEFERRED_UNIVERSITY_LOCK`；不建Gmail草稿、不加入明日发信任务、不过早释放 Peter 既有暖线。
+
+
 > **当期状态：** 基于 2026-10-18 连接 Gmail 的 SENT/SCHEDULED/DRAFT 全量对账及官方 PI 招生页。新增三个**不同大学**的 Gmail 草稿，附 PDF 并经读取核验。三个新联系**均尚未发送，也尚未进入 Gmail 原生 Scheduled**；已经创建一项 2026-10-19 23:00 `Australia/Melbourne`（美国东部约周一08:00）的**一次性 ChatGPT 发送任务**，执行时间在该时间附近、执行时须再次核实并避免重复。只有未来发送操作返回成功才能登记为 SENT。旧五封原生 Gmail 排程保持原样，不能混淆。所有已有 warm/sent/HOLD 和整校联系人锁不变。
 
 ## 1. 本轮选择（不代表个人录取概率）
