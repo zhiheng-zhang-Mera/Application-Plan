@@ -1,5 +1,7 @@
 # 2027 PhD 申请控制中心
 
+> **2026-10-19 邮箱核验：** 李雪亮已回复并邀请线上简谈潜在博士机会（`REPLIED_MEETING_INVITED / TIME_PENDING`）。首信已于10/19发送，附CV及research note。教授可用：中国时间10/21 16:00后、10/23下午；申请人首选10/21 16:30（墨尔本19:30），回复待用户发送授权，具体时间及会议平台/链接待教授确认。`PI_CAPACITY_UNVERIFIED`；未确认正式接收、录取或资助；博士综合考核仍适用。南科大全校活跃联系人为李雪亮，其余同校候选继续延后。证据：[Gmail线程](https://mail.google.com/mail/u/0/#all/1a144a0b195b79d6)，首信 `1a151ac2b6924861`，回信 `1a151ca4d1e03e3d`。
+
 > **2026-10-18 最新 Concordia 联系决策：** [Concordia 同校替代导师池（Bentaleb / Lago / Guéhéneuc / Jun Yan / Chun Wang）](targets/CONCORDIA-2027-2026-10-18.md)。Peter Chen 10/09 对研究表示积极匹配、10/10 收到申请人国际学生身份回复，10/18 Gmail 核验无后续回信；**用户决定 `CLOSED_USER_TIMEOUT / USER_MARKED_UNSUCCESSFUL`，停止主动跟进，Concordia 大学校锁释放**。这是主动关闭，不是PI/招生办拒绝。下一位候选 Bentaleb 为 `PRIMARY_PROTOCOL_PRECHECK_NO_DRAFT`；仍执行全校同周期仅一位活跃联系人。没有新Concordia邮件、没有改动已安排10/19的美国与亚洲发送。
 
 
