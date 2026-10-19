@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: 2026-10-18
+updated_at: 2026-10-19
 latest_reconciliation: tracking-hist/2026-10-17/GMAIL-SCHEDULED-RECONCILIATION.md
 new_outreach_authorized: false
 mailbox: zhiheng0mera@gmail.com
@@ -9,6 +9,25 @@ mailbox: zhiheng0mera@gmail.com
 # no matching Gmail thread has yet been mapped in the default mailbox.
 
 threads:
+  - supervisor_id: sustech-li-xueliang
+    current_state: REPLIED_MEETING_INVITED_TIME_PENDING
+    contact_email: lixl6@sustech.edu.cn
+    sent_at: 2026-10-19
+    reply_at: 2026-10-19
+    gmail_thread_id: "1a144a0b195b79d6"
+    gmail_initial_sent_message_id: "1a151ac2b6924861"
+    gmail_reply_message_id: "1a151ca4d1e03e3d"
+    preferred_meeting_china: "2026-10-21T16:30:00+08:00"
+    preferred_meeting_melbourne: "2026-10-21T19:30:00+11:00"
+    exact_meeting_time_confirmed: false
+    meeting_platform: UNKNOWN
+    applicant_reply_status: PREPARED_FOR_USER_REVIEW_NOT_SENT
+    pi_remaining_quota: UNKNOWN
+    supervisor_acceptance_confirmed: false
+    admission_offer_confirmed: false
+    funding_confirmed: false
+    next_action: USER_AUTHORIZE_REPLY_THEN_WAIT_FOR_TIME_AND_LINK_CONFIRMATION
+    lock_state: WARM_ACTIVE
   # 2026-10-10 Gmail verification; already SENT on 2026-10-09; do not schedule duplicate cold outreach.
   - supervisor_id: hkust-mo-li
     historical_state: REPLIED_GROUP_ZOOM_INVITED_APPLICANT_ACCEPTED
@@ -476,7 +495,7 @@ scheduled_2026_10_17:
       university_lock_state: SCHEDULED_ACTIVE
     - supervisor_id: sustech-li-xueliang
       university: Southern University of Science and Technology
-      status: SCHEDULED_NOT_SENT
+      status: SENT_REPLIED_MEETING_INVITED
       scheduled_message_id: "1a151ac2b6924861"
       scheduled_aedt: "2026-10-19T12:00:00+11:00"
       attachment_count_verified: 2
