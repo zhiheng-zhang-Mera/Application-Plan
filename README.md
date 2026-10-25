@@ -1,8 +1,10 @@
 # 2027 PhD 申请控制中心
 
+> **2026-10-25 Concordia 六位导师材料与草稿：** [打开六套专属材料及附件索引](applications/concordia/2026-10-25/README.md) · [当前状态](applications/concordia/STATUS.md)。申请 **Doctor of Philosophy in Computer Science / Fall 2027**，申请号 **20814667**；按申请人说明已通过初审、仍待导师接收。**国际生，非加拿大公民或永久居民**；硕士最终结果待出。Jun Yan、Gengrui Zhang、Shin Hwei Tan、Yiming Xiao 为主选，Mirco Ravanelli、Jamal Bentahar 为储备。Gmail 六封均为四附件未发送草稿；用户授权仅覆盖本批材料与草稿准备，**没有发送或定时发送**。Peter Chen 维持用户主动关闭，Zhijie Wang 维持不联系；2026-10-18 及之前的 Concordia 排序为历史快照。
+
 > **2026-10-19 邮箱核验：** 李雪亮已回复并邀请线上简谈潜在博士机会（`REPLIED_MEETING_INVITED / TIME_PENDING`）。首信已于10/19发送，附CV及research note。教授可用：中国时间10/21 16:00后、10/23下午；申请人首选10/21 16:30（墨尔本19:30），回复待用户发送授权，具体时间及会议平台/链接待教授确认。`PI_CAPACITY_UNVERIFIED`；未确认正式接收、录取或资助；博士综合考核仍适用。南科大全校活跃联系人为李雪亮，其余同校候选继续延后。证据：[Gmail线程](https://mail.google.com/mail/u/0/#all/1a144a0b195b79d6)，首信 `1a151ac2b6924861`，回信 `1a151ca4d1e03e3d`。
 
-> **2026-10-18 最新 Concordia 联系决策：** [Concordia 同校替代导师池（Bentaleb / Lago / Guéhéneuc / Jun Yan / Chun Wang）](targets/CONCORDIA-2027-2026-10-18.md)。Peter Chen 10/09 对研究表示积极匹配、10/10 收到申请人国际学生身份回复，10/18 Gmail 核验无后续回信；**用户决定 `CLOSED_USER_TIMEOUT / USER_MARKED_UNSUCCESSFUL`，停止主动跟进，Concordia 大学校锁释放**。这是主动关闭，不是PI/招生办拒绝。下一位候选 Bentaleb 为 `PRIMARY_PROTOCOL_PRECHECK_NO_DRAFT`；仍执行全校同周期仅一位活跃联系人。没有新Concordia邮件、没有改动已安排10/19的美国与亚洲发送。
+> **2026-10-18 历史 Concordia 联系决策（当前名单已更新至10/25）：** [Concordia 同校替代导师池（Bentaleb / Lago / Guéhéneuc / Jun Yan / Chun Wang）](targets/CONCORDIA-2027-2026-10-18.md)。Peter Chen 10/09 对研究表示积极匹配、10/10 收到申请人国际学生身份回复，10/18 Gmail 核验无后续回信；**用户决定 `CLOSED_USER_TIMEOUT / USER_MARKED_UNSUCCESSFUL`，停止主动跟进，Concordia 大学校锁释放**。这是主动关闭，不是PI/招生办拒绝。下一位候选 Bentaleb 为 `PRIMARY_PROTOCOL_PRECHECK_NO_DRAFT`；仍执行全校同周期仅一位活跃联系人。没有新Concordia邮件、没有改动已安排10/19的美国与亚洲发送。
 
 
 > **2026-10-18 今日新增美国穿戴/AIoT PhD 候选池与三封待发草稿：** [新增候选池及邮件附件QA](targets/CONTACT-POOL-2026-10-18-US-WEARABLE.md)。新增 **Pitt Longfei Shangguan、UConn Song Han、Northeastern Varun Mishra** 三所大学，每校一位 PI。Gmail 现有三封 **DRAFT_WITH_VERIFIED_PDF / NOT_SENT**，与10/19原四封亚洲 Gmail Scheduled和10/20 HKBU Gmail Scheduled互不干扰。**已建立一次性 ChatGPT 任务于2026-10-19 23:00 Melbourne 左右核验再发美国三封（不是 Gmail 原生 Schedule，须明日运行结果确认）**。Columbia Xuhai Xu、WPI Erin Solovey保留 WATCH、无草稿；除此次明确释放的 Concordia Peter Chen 联系外，其余 SENT/WARM/HOLD 不变。10/17及之前是历史快照，若与当日邮件事实冲突以本条及Gmail为准。
@@ -78,7 +80,7 @@
 | 4 | Ruochen Zhao / SUTD | 可信 Agent 与真实完成评价 | 需确认可以 systems/evaluation 主导而非纯 NLP/RL | [打开](tracking-hist/2026-10-9/singapore/SUTD/Ruochen-Zhao/README.md) |
 | 5 | Yu Liu / PolyU | Edge/分布式系统；需具体 systems 项目 | 漂移风险高、资格考试具体细目未知 | [打开](tracking-hist/2026-10-9/hong-kong/PolyU/Yu-Liu/README.md) |
 
-**原研究排序第3 Peter Chen / Concordia：** 10/09获积极回复，10/10回复国际生身份，10/18 Gmail复查未再获答复；用户决定将该联系按套磁失败关闭（`CLOSED_USER_TIMEOUT`），释放大学级联系人锁，**不等于教授明确拒绝**。下一位首选Bentaleb，其他Concordia候补见[新同校筛选](targets/CONCORDIA-2027-2026-10-18.md)。原[Peter申请包](tracking-hist/2026-10-9/canada/Concordia/Peter-Chen/README.md)仅作历史材料保存。
+**原研究排序第3 Peter Chen / Concordia：** 10/09获积极回复，10/10回复国际生身份，10/18 Gmail复查未再获答复；用户决定将该联系按套磁失败关闭（`CLOSED_USER_TIMEOUT`），释放大学级联系人锁，**不等于教授明确拒绝**。10/18 的 Bentaleb 顺位现为历史；当前六人材料见[10/25 导师适配包](applications/concordia/2026-10-25/README.md)。原[Peter申请包](tracking-hist/2026-10-9/canada/Concordia/Peter-Chen/README.md)仅作历史材料保存。
 
 **历史排名第六 James Cheng / CUHK**：10/13 已回复该课题组暂无博士空缺（**包括自费名额**），`REPLIED_NO_CAPACITY / EXCLUDED_CURRENT_OUTREACH`。[其原材料与研究匹配历史](tracking-hist/2026-10-9/hong-kong/CUHK/James-Cheng/README.md)继续保留；该信息不涉及 CUHK 其他课题组或个人研究能力判断。
 
@@ -109,3 +111,4 @@
 
 - [历史材料索引](tracking-hist/README.md) · [今日筛选快捷表](targets/CONTACT-POOL-2026-10-10.md) · [2026-10-07 原 Round B（仅历史）](targets/OUTREACH-ROUND-2026-10-07-B.md) · [上一轮导师研究评估](targets/PHD-REVIEW-2026-10-09.md)
 - [材料缺口与规则](materials/MATERIALS.md) · [原申请历史](applications/OUTREACH-LOG.md) · [待观察导师](targets/WATCHLIST.md) · [区域历史刷新](targets/POOL-REFRESH-2026-10-06-HK-SG.md)
+

@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-25",
+  "application_student_id": "20814667",
+  "program": "Doctor of Philosophy in Computer Science",
+  "intake": "Fall 2027",
+  "applicant_status": "international; neither a Canadian citizen nor a permanent resident",
+  "application_status": "Initial assessment passed; supervisor acceptance remains (applicant-reported). No final admission/funding offer claimed.",
+  "send_authorized": false,
+  "packages": [
+    {
+      "name": "Jun Yan",
+      "directory": "Jun-Yan",
+      "to": "jun.yan@concordia.ca",
+      "tier": "主线",
+      "topic": "授权约束下的智能体恢复与结果证据",
+      "subject": "Interest in PhD position - Zhiheng Zhang - Fall 2027",
+      "draft_status": "DRAFT",
+      "attachment_count": 4,
+      "files": [
+        {
+          "filename": "Concordia_Jun_Yan_2026-10-25_CV.pdf",
+          "path": "Jun-Yan/Concordia_Jun_Yan_2026-10-25_CV.pdf",
+          "size_bytes": 7466,
+          "sha256": "45ef448f2348b7c98ff1fabeadaf86e0f6280dc7dc873d883d2434d2bd463438",
+          "pages": 2
+        },
+        {
+          "filename": "Concordia_Jun_Yan_2026-10-25_Research_Fit.pdf",
+          "path": "Jun-Yan/Concordia_Jun_Yan_2026-10-25_Research_Fit.pdf",
+          "size_bytes": 6123,
+          "sha256": "ea5aed9733861b2c3eb7d53bc6dc7cc8d721f55dd49573c154853b2fe6f46264",
+          "pages": 2
+        }
+      ],
+      "gmail_revised_fit_synced": true
+    },
+    {
+      "name": "Gengrui Zhang",
+      "directory": "Gengrui-Zhang",
+      "to": "gengrui.zhang@concordia.ca",
+      "tier": "主线",
+      "topic": "分布式智能体任务账本与选择性协调",
+      "subject": "Prospective PhD student - Zhiheng Zhang - 2027 Fall",
+      "draft_status": "DRAFT",
+      "attachment_count": 4,
+      "files": [
+        {
+          "filename": "Concordia_Gengrui_Zhang_2026-10-25_CV.pdf",
+          "path": "Gengrui-Zhang/Concordia_Gengrui_Zhang_2026-10-25_CV.pdf",
+          "size_bytes": 7549,
+          "sha256": "e32b49bb33c6e29733a4b5ec7d6fd4b8de852fa1cf53f3c9b798221c80b5d101",
+          "pages": 2
+        },
+        {
+          "filename": "Concordia_Gengrui_Zhang_2026-10-25_Research_Fit.pdf",
+          "path": "Gengrui-Zhang/Concordia_Gengrui_Zhang_2026-10-25_Research_Fit.pdf",
+          "size_bytes": 6698,
+          "sha256": "d23579d138d66baaaf8b5a49fc31819fdb7e813d1a4233429f56c6f451d3d769",
+          "pages": 2
+        }
+      ],
+      "gmail_revised_fit_synced": true
+    },
+    {
+      "name": "Shin Hwei Tan",
+      "directory": "Shin-Hwei-Tan",
+      "to": "shinhwei.tan@concordia.ca",
+      "tier": "主线",
+      "topic": "智能体工作流的独立测试判据与失败重放",
+      "subject": "Fall 2027 CS PhD supervisor matching - testing and replay of agentic workflows",
+      "draft_status": "DRAFT",
+      "attachment_count": 4,
+      "files": [
+        {
+          "filename": "Concordia_Shin_Hwei_Tan_2026-10-25_CV.pdf",
+          "path": "Shin-Hwei-Tan/Concordia_Shin_Hwei_Tan_2026-10-25_CV.pdf",
+          "size_bytes": 7454,
+          "sha256": "4e33186ff099e3750728c8d44ff8c4e2f1705d87c8225566e51ef7ec8f911cd0",
+          "pages": 2
+        },
+        {
+          "filename": "Concordia_Shin_Hwei_Tan_2026-10-25_Research_Fit.pdf",
+          "path": "Shin-Hwei-Tan/Concordia_Shin_Hwei_Tan_2026-10-25_Research_Fit.pdf",
+          "size_bytes": 6680,
+          "sha256": "1c5ee171cacc6b4375958c11f35699c01fabdf80e305f28b69ebc3db8ea9a373",
+          "pages": 2
+        }
+      ],
+      "gmail_revised_fit_synced": true
+    },
+    {
+      "name": "Yiming Xiao",
+      "directory": "Yiming-Xiao",
+      "to": "yiming.xiao@concordia.ca",
+      "tier": "主线",
+      "topic": "VR/AR 辅助工作流中的状态新鲜度、确认与撤销",
+      "subject": "Fall 2027 Computer Science PhD - reliable human-AI interaction in VR/AR",
+      "draft_status": "DRAFT",
+      "attachment_count": 4,
+      "files": [
+        {
+          "filename": "Concordia_Yiming_Xiao_2026-10-25_CV.pdf",
+          "path": "Yiming-Xiao/Concordia_Yiming_Xiao_2026-10-25_CV.pdf",
+          "size_bytes": 7501,
+          "sha256": "3ce858e556a925937c05398b72613c739461dba496b1ec7fbe810ae103fbf2d1",
+          "pages": 2
+        },
+        {
+          "filename": "Concordia_Yiming_Xiao_2026-10-25_Research_Fit.pdf",
+          "path": "Yiming-Xiao/Concordia_Yiming_Xiao_2026-10-25_Research_Fit.pdf",
+          "size_bytes": 6192,
+          "sha256": "946ab9bb09d5bbe630edd45bf05a7f25a898e322582a56a084ea5b7906676d8a",
+          "pages": 2
+        }
+      ],
+      "gmail_revised_fit_synced": false
+    },
+    {
+      "name": "Mirco Ravanelli",
+      "directory": "Mirco-Ravanelli",
+      "to": "mirco.ravanelli@concordia.ca",
+      "tier": "候补：招生与经费待确认",
+      "topic": "语音交互中的可靠性校准、澄清与保守执行",
+      "subject": "Fall 2027 Computer Science PhD inquiry - robust conversational AI",
+      "draft_status": "DRAFT",
+      "attachment_count": 4,
+      "files": [
+        {
+          "filename": "Concordia_Mirco_Ravanelli_2026-10-25_CV.pdf",
+          "path": "Mirco-Ravanelli/Concordia_Mirco_Ravanelli_2026-10-25_CV.pdf",
+          "size_bytes": 7537,
+          "sha256": "c3bcf24bd2eae09d61842787978a56a378eaaf96259b58db04bf1af7a430f5df",
+          "pages": 2
+        },
+        {
+          "filename": "Concordia_Mirco_Ravanelli_2026-10-25_Research_Fit.pdf",
+          "path": "Mirco-Ravanelli/Concordia_Mirco_Ravanelli_2026-10-25_Research_Fit.pdf",
+          "size_bytes": 6626,
+          "sha256": "2ac5f31f9e194926c10a4286794b5810921544cb15d6e570c63a082c4a0f4abc",
+          "pages": 2
+        }
+      ],
+      "gmail_revised_fit_synced": true
+    },
+    {
+      "name": "Jamal Bentahar",
+      "directory": "Jamal-Bentahar",
+      "to": "jamal.bentahar@concordia.ca",
+      "tier": "候补：CS 指导路径与当前可用性待确认",
+      "topic": "多智能体信任、证据状态与恢复决策",
+      "subject": "Fall 2027 CS PhD supervision/co-supervision inquiry - trustworthy multi-agent systems",
+      "draft_status": "DRAFT",
+      "attachment_count": 4,
+      "files": [
+        {
+          "filename": "Concordia_Jamal_Bentahar_2026-10-25_CV.pdf",
+          "path": "Jamal-Bentahar/Concordia_Jamal_Bentahar_2026-10-25_CV.pdf",
+          "size_bytes": 7493,
+          "sha256": "46a2fd4bb7037550423d744f255850c2bad049e07950a387b0ff355d30194c69",
+          "pages": 2
+        },
+        {
+          "filename": "Concordia_Jamal_Bentahar_2026-10-25_Research_Fit.pdf",
+          "path": "Jamal-Bentahar/Concordia_Jamal_Bentahar_2026-10-25_Research_Fit.pdf",
+          "size_bytes": 6458,
+          "sha256": "50cc98636e6c96c6fd4d46f58420b219705da2bb386fb7d31195a2209b6a6db9",
+          "pages": 2
+        }
+      ],
+      "gmail_revised_fit_synced": true
+    }
+  ]
+}

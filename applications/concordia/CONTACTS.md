@@ -1,33 +1,40 @@
 # Concordia — 联系人
 
-> 当前操作前先核对实际邮件历史。旧的 “waiting” 日期已经过期，不能自动等同于 no reply。
+更新：**2026-10-25**。当前准备名单以本页和[六套材料索引](2026-10-25/README.md)为准；旧名单保留为历史，不触发自动联系。
 
-## 已关闭 / 垃圾箱
+## 当前六封未发送草稿
 
-| 联系人 | Email | 最终状态 | 处理 |
+| 联系人 | Email | 定位 | 当前状态 | 针对性方向 |
+|---|---|---|---|---|
+| [Jun Yan](2026-10-25/Jun-Yan/README.md) | `jun.yan@concordia.ca` | 主选 | DRAFT / 四附件 / 未发送 | 中断恢复、权限状态与可核验执行证据 |
+| [Gengrui Zhang](2026-10-25/Gengrui-Zhang/README.md) | `gengrui.zhang@concordia.ca` | 主选 | DRAFT / 四附件 / 未发送 | 分布式任务账本、选择性协调与一致性 |
+| [Shin Hwei Tan](2026-10-25/Shin-Hwei-Tan/README.md) | `shinhwei.tan@concordia.ca` | 主选 | DRAFT / 四附件 / 未发送 | 智能体工作流测试、状态判据与故障回放 |
+| [Yiming Xiao](2026-10-25/Yiming-Xiao/README.md) | `yiming.xiao@concordia.ca` | 主选 | DRAFT / 四附件 / 未发送 | VR/AR 中状态可见性、可靠交互与恢复体验 |
+| [Mirco Ravanelli](2026-10-25/Mirco-Ravanelli/README.md) | `mirco.ravanelli@concordia.ca` | 储备 | DRAFT / 四附件 / 未发送 | 语音系统鲁棒性、校准与澄清/弃答决策 |
+| [Jamal Bentahar](2026-10-25/Jamal-Bentahar/README.md) | `jamal.bentahar@concordia.ca` | 储备 | DRAFT / 四附件 / 未发送 | 多智能体信任、冲突报告与形式化状态约束 |
+
+每封邮件说明申请号 **20814667**、Fall 2027 CS PhD、国际生（非加拿大公民/永久居民）、初审通过后仍待导师接收，以及硕士最终结果未出。导师姓名和邮箱以各人的 Concordia 官方页面核对；[导师资料及来源](SUPERVISORS.md)。
+
+## 需等待回复的事项
+
+- 四位主选的官方页面列出 Computer Science PhD 指导及招生信号；这些信号不证明 Fall 2027 具体空缺或国际资助。
+- Mirco Ravanelli：确认新的招生轮次、指导容量和国际资助，不将旧招聘关闭状态推断成永久停止招生。
+- Jamal Bentahar：确认当前任职安排下的可用性、Concordia CS PhD 指导/联合指导资格和资助路径。
+- 全部六位：是否接受只通过书面材料和邮件完成匹配仍待明确；未标记为已豁免实时面试。
+
+## 已关闭 / 不联系
+
+| 联系人 | Email | 状态 | 说明 |
 |---|---|---|---|
-| Zhijie Wang | `zhijie.wang@concordia.ca` | **DECLINED / DO_NOT_CONTACT** | 2026-10-06 用户确认关闭，移出所有 active/waiting 队列；除非用户明确重开，否则不再联系 |
+| Tse-Hsun (Peter) Chen | `tse-hsun.chen@concordia.ca` | CLOSED_USER_TIMEOUT | 2026-10-18 用户决定不再等待；不是教授拒绝，无新草稿 |
+| Zhijie Wang | `zhijie.wang@concordia.ca` | DECLINED / DO_NOT_CONTACT | 2026-10-06 用户确认关闭；不自动重开 |
 
-> 已连接的 `zhiheng0mera@gmail.com` 中未找到 Zhijie 对应邮件。历史记录显示 2026-09-18 follow-up 使用 University of Melbourne 学生邮箱发送，因此 Gmail 实体无法从当前连接直接移入 Trash；仓库状态已进入垃圾箱。
+Zhijie Wang 已知 2026-09-18 跟进使用 Melbourne 学生邮箱发送；连接的 Gmail 未找到该线程，仓库关闭记录不表示 Gmail 中邮件已被删除。
 
-## 新候选
+## 历史候选
 
-| 顺位 | 联系人 | Email | 当前状态 | Recruitment signal | 适合路线 |
-|---:|---|---|---|---|---|
-| 1 | Tse-Hsun (Peter) Chen | `tse-hsun.chen@concordia.ca` | not contacted | Official profile：**Accepting inquiries** | DS-Hns + Boss；coding-agent reliability |
-| 2 | Shin Hwei Tan | `shinhwei.tan@concordia.ca` | not contacted | Official profile：**Seeking students** | repair / testing / regression-aware acceptance |
-| 3 | Jinqiu Yang | `jinqiu.yang@concordia.ca` | not contacted | Current page：looking for students；PhD funding available | repair / testing / reliability / LLM-generated code |
-| 4 | Peter Rigby | `peter.rigby@concordia.ca` | not contacted | 2026 public recruitment signal | autonomous maintenance + empirical evaluation |
-| 5 | Yann-Gaël Guéhéneuc | `yann-gael.gueheneuc@concordia.ca` | not contacted | Official profile：**Seeking students** | empirical SE / software quality |
+Jinqiu Yang、Peter Rigby、Yann-Gaël Guéhéneuc、Abdelhak Bentaleb、Paula Lago、Chun Wang、Nikolaos Tsantalis、Joey Paquet、Thomas Fevens 仅保留历史候选身份，不是本轮六封草稿的收件人。需要重新调查或联系时另行更新。
 
-## 下一层
+## 操作边界
 
-- Jun Yan — `jun.yan@concordia.ca`：agentic/security 强，但 cyber-physical / energy domain burden 更高。
-- Nikolaos Tsantalis — `nikolaos.tsantalis@concordia.ca`：maintenance/refactoring 很强，但 agent overlap 更窄。
-- Joey Paquet — `joey.paquet@concordia.ca`：systems/autonomic 备用。
-- Thomas Fevens — `thomas.fevens@concordia.ca`：更适合 AI4Science / health pivot。
-
-## 发送规则
-
-不要 department-wide 群发。  
-任何新联系人都必须重新核验当前 recruitment/capacity，并使用**英语**、项目特化的邮件正文。
+本次授权是六封草稿及附件准备，没有发送或定时发送。其余大学、已有线程和历史联系锁不受影响。
