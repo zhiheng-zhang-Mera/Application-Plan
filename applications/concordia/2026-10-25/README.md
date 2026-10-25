@@ -29,7 +29,7 @@
 
 ## 最后校对与同步
 
-12 份 PDF、24 页已通过文字和视觉检查。Xiao Research Fit 已在本目录修正一处内部编辑提示；Gmail 中该附件的修订同步状态见其 [附件清单](Yiming-Xiao/ATTACHMENTS.md)。
+12 份 PDF、24 页已通过文字和视觉检查。Xiao Research Fit 已在本目录修正一处内部编辑提示；Gmail 替换操作未成功，回读确认该草稿仍为旧版附件；发送前需要使用本目录修订版替换，详见 [附件清单](Yiming-Xiao/ATTACHMENTS.md)。
 
 - [来源、事实边界与导师适配依据](SOURCES-AND-CLAIMS.md)
 - [校对记录](QA.md)

@@ -32,7 +32,8 @@
           "pages": 2
         }
       ],
-      "gmail_revised_fit_synced": true
+      "gmail_revised_fit_synced": true,
+      "gmail_sync_status": "VERIFIED"
     },
     {
       "name": "Gengrui Zhang",
@@ -59,7 +60,8 @@
           "pages": 2
         }
       ],
-      "gmail_revised_fit_synced": true
+      "gmail_revised_fit_synced": true,
+      "gmail_sync_status": "VERIFIED"
     },
     {
       "name": "Shin Hwei Tan",
@@ -86,7 +88,8 @@
           "pages": 2
         }
       ],
-      "gmail_revised_fit_synced": true
+      "gmail_revised_fit_synced": true,
+      "gmail_sync_status": "VERIFIED"
     },
     {
       "name": "Yiming Xiao",
@@ -113,7 +116,9 @@
           "pages": 2
         }
       ],
-      "gmail_revised_fit_synced": false
+      "gmail_revised_fit_synced": false,
+      "gmail_sync_status": "REVISED_RESEARCH_FIT_NOT_ATTACHED",
+      "gmail_current_research_fit_size_bytes": 6447
     },
     {
       "name": "Mirco Ravanelli",
@@ -140,7 +145,8 @@
           "pages": 2
         }
       ],
-      "gmail_revised_fit_synced": true
+      "gmail_revised_fit_synced": true,
+      "gmail_sync_status": "VERIFIED"
     },
     {
       "name": "Jamal Bentahar",
@@ -167,7 +173,8 @@
           "pages": 2
         }
       ],
-      "gmail_revised_fit_synced": true
+      "gmail_revised_fit_synced": true,
+      "gmail_sync_status": "VERIFIED"
     }
   ]
 }
