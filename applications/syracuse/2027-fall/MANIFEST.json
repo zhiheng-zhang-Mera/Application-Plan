@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-27",
+  "timezone": "Australia/Melbourne",
+  "repository": "zhiheng-zhang-Mera/Application-Plan",
+  "base_commit": "6fda786510dbd83c0b3ea9f00c3f9bc5e35a3646",
+  "path": "applications/syracuse/2027-fall",
+  "program": "Ph.D. in Computer and Information Science and Engineering",
+  "entry_term": "Fall 2027",
+  "applicant": "Zhiheng Zhang",
+  "status": "MATERIALS_PREPARED_NOT_SUBMITTED",
+  "documents": {
+    "sop_body_words": 789,
+    "sop_pages": 2,
+    "cv_pages": 2,
+    "research_summary_pages": 1,
+    "research_summary_required": false
+  },
+  "checks": {
+    "pdf_text_matches_sources": true,
+    "all_five_pages_visually_inspected": true,
+    "applicant_documents_have_no_placeholders": true,
+    "pdf_blob_hashes_match_uploaded_objects": true
+  },
+  "not_performed": [
+    "application submission",
+    "fee payment",
+    "email sending",
+    "Gmail draft creation",
+    "referee invitation",
+    "offer acceptance",
+    "research-project tests"
+  ],
+  "manifest_scope": "All package files except this manifest; the repository-root navigation edit is outside the package.",
+  "files": [
+    {
+      "path": "APPLICATION-CHECKLIST.md",
+      "bytes": 5487,
+      "sha256": "9692e42ccd1ee1f9fe8a65fe1751196093ba92ac96307f449d4202a603e2c52a",
+      "git_blob_sha": "35781f9bf55652e1ee94b1006a2f3cdfc7b27045"
+    },
+    {
+      "path": "build-pdfs.py",
+      "bytes": 6222,
+      "sha256": "b56fb5da228db996fe103832e5eb7b54097c0c5333e14dc8128450258a39f304",
+      "git_blob_sha": "30892e3cef27635e10d4274e733fab4540d49c48"
+    },
+    {
+      "path": "EMAIL-TEMPLATES.md",
+      "bytes": 3430,
+      "sha256": "7781bfc5aae4a5c2d25fa771802d4dbdaa55ba503e61c1c3f44e1fe1959bb3e5",
+      "git_blob_sha": "1b4eed8f29be05aab91c67a06faeaecdb5f94a92"
+    },
+    {
+      "path": "FACULTY-FIT.md",
+      "bytes": 2231,
+      "sha256": "7bb9a9d7355a56609600f828cef84d342c531a0c60acb6d270ee7b40b89c7dc7",
+      "git_blob_sha": "ffb419f6877f2777f536dce1aed8eca13a2b2178"
+    },
+    {
+      "path": "output/pdf/Zhiheng-Zhang-Syracuse-CISE-CV.pdf",
+      "bytes": 90638,
+      "sha256": "51bf501fb2654b157684b352beec3c7c8a44678edc8bffb2a3334a692bf5bf84",
+      "git_blob_sha": "1fc35ef7c1d0b1be15326ca739b97b2e0747c307",
+      "pages": 2
+    },
+    {
+      "path": "output/pdf/Zhiheng-Zhang-Syracuse-CISE-Research-Summary.pdf",
+      "bytes": 68430,
+      "sha256": "a20193f4ab15193c840d3398dfa9f16feb1a1c2667e06a0dd92dd557a7cdbf42",
+      "git_blob_sha": "db824fa792af295a639260e739fa23e678c186f8",
+      "pages": 1
+    },
+    {
+      "path": "output/pdf/Zhiheng-Zhang-Syracuse-CISE-SOP.pdf",
+      "bytes": 69529,
+      "sha256": "9ab41c04ac841fb147e7efd675e609312daf6c1c0f266631baee115b28c6bbb3",
+      "git_blob_sha": "0909b48ce46eabe4c0ed6082c82866b21fb483c0",
+      "pages": 2
+    },
+    {
+      "path": "PORTAL-ANSWERS.md",
+      "bytes": 3380,
+      "sha256": "9336883e0404767938b48627f794845d000494f24943f5782273cc941aa81a48",
+      "git_blob_sha": "61290e9eaad5a77496b45d408b1d03eeffaeaf61"
+    },
+    {
+      "path": "QA.md",
+      "bytes": 2845,
+      "sha256": "ecc0e93e8e478122053fe35e444c48fd92b88d9de7f3fc4dac8539580d5af5ff",
+      "git_blob_sha": "4f390a48f6688eac2fa160e4bbf0e68c38c60498"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4061,
+      "sha256": "a794a03bf0a7544fd1aa361e9984f2810f2ae8839ccadc017d4fa9bcb38f9dbe",
+      "git_blob_sha": "a5d0182583c9078e1b7bbf523662c7d72fe4153b"
+    },
+    {
+      "path": "SOURCES-AND-CLAIMS.md",
+      "bytes": 7117,
+      "sha256": "6421cd1508f69fab74760736f81c250166275cdf75d91a2d84192684844171b4",
+      "git_blob_sha": "e8b6425e8c52fb01f641574d1c963fec13045a64"
+    },
+    {
+      "path": "upload/CV.md",
+      "bytes": 4183,
+      "sha256": "e415bad0d5cbc3b49b5b9d5d051861532e6d0f4452d1ea9a9f8790f303bc32af",
+      "git_blob_sha": "a7e2eb8188f32fb627f423ebe3077cdaa72b4758"
+    },
+    {
+      "path": "upload/Research-Summary.md",
+      "bytes": 3574,
+      "sha256": "9cb8376e69d594db91f08624288caf1a6b881f9d4277714412b84c89c2bc492c",
+      "git_blob_sha": "2b7f1987a4fe4ae7ea44c6b92fdf54ac020634bf"
+    },
+    {
+      "path": "upload/SOP.md",
+      "bytes": 5863,
+      "sha256": "28f35b48072652a46748bf8bf7ead6466f5e232c6a9298f1f4f29fa12ac861e0",
+      "git_blob_sha": "bc3271f3d18386994cd77069a38ff32c978701ba"
+    }
+  ]
+}

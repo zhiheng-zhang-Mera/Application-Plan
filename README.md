@@ -1,5 +1,7 @@
 # 2027 PhD 申请控制中心
 
+> **2026-10-27 雪城 CISE PhD / Fall 2027 材料包：** [申请包与 PDF 入口](applications/syracuse/2027-fall/README.md) · [投递清单](applications/syracuse/2027-fall/APPLICATION-CHECKLIST.md)。英文 SOP、CV、一页研究摘要、网申短回答及后续邮件模板已准备。研究主线为 Reliable Intelligent Software Systems，保留与导师细化课题的空间；语言考试豁免资格已获招生办确认，提交网申后仍须邮件请求录入。**仅准备材料，未提交申请、未发送邮件或推荐信邀请；录取及资助未确认。** 其他学校既有记录保持不变。
+
 > **2026-10-25 Concordia 六位导师材料与草稿：** [打开六套专属材料及附件索引](applications/concordia/2026-10-25/README.md) · [当前状态](applications/concordia/STATUS.md)。申请 **Doctor of Philosophy in Computer Science / Fall 2027**，申请号 **20814667**；按申请人说明已通过初审、仍待导师接收。**国际生，非加拿大公民或永久居民**；硕士最终结果待出。Jun Yan、Gengrui Zhang、Shin Hwei Tan、Yiming Xiao 为主选，Mirco Ravanelli、Jamal Bentahar 为储备。Gmail 六封均为四附件未发送草稿；用户授权仅覆盖本批材料与草稿准备，**没有发送或定时发送**。Peter Chen 维持用户主动关闭，Zhijie Wang 维持不联系；2026-10-18 及之前的 Concordia 排序为历史快照。
 
 > **2026-10-19 邮箱核验：** 李雪亮已回复并邀请线上简谈潜在博士机会（`REPLIED_MEETING_INVITED / TIME_PENDING`）。首信已于10/19发送，附CV及research note。教授可用：中国时间10/21 16:00后、10/23下午；申请人首选10/21 16:30（墨尔本19:30），回复待用户发送授权，具体时间及会议平台/链接待教授确认。`PI_CAPACITY_UNVERIFIED`；未确认正式接收、录取或资助；博士综合考核仍适用。南科大全校活跃联系人为李雪亮，其余同校候选继续延后。证据：[Gmail线程](https://mail.google.com/mail/u/0/#all/1a144a0b195b79d6)，首信 `1a151ac2b6924861`，回信 `1a151ca4d1e03e3d`。
