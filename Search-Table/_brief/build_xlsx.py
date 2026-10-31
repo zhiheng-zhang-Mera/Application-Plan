@@ -246,6 +246,47 @@ def main() -> int:
         ws3.auto_filter.ref = f"A1:{get_column_letter(len(cols3))}{ws3.max_row}"
         print(f"分档 sheet: {len(v3rows)} 行")
 
+    # 6) v4 现状 + 条件概率
+    v4 = ROOT / "data" / "search-table-v4.csv"
+    if v4.exists():
+        with v4.open(encoding="utf-8-sig", newline="") as fh:
+            v4rows = list(csv.DictReader(fh))
+        cols4 = [
+            ("region", "区域", 18), ("state_province", "州/省", 12), ("university", "学校", 34),
+            ("program", "项目", 30), ("p_now", "现状", 9), ("tier_v4", "现状档", 12),
+            ("p_cond", "条件概率", 10), ("tier_cond", "条件档", 12),
+            ("cond_note", "条件加成", 22), ("fund_confidence", "资助", 8),
+            ("deadline_2027fall", "截止", 28), ("key_risk", "关键风险", 30),
+        ]
+        ws4 = wb.create_sheet("v4 现状与条件")
+        ws4.append([t for _, t, _ in cols4])
+        for idx, (_, _, width) in enumerate(cols4, start=1):
+            ws4.column_dimensions[get_column_letter(idx)].width = width
+        for cell in ws4[1]:
+            cell.font = Font(bold=True, color="FFFFFF")
+            cell.fill = PatternFill("solid", fgColor="1F4E79")
+            cell.alignment = Alignment(vertical="center", horizontal="center", wrap_text=True)
+            cell.border = THIN
+        for row in v4rows:
+            ws4.append([row.get(k, "") for k, _, _ in cols4])
+            r = ws4.max_row
+            for c in range(1, len(cols4) + 1):
+                cell = ws4.cell(row=r, column=c)
+                cell.alignment = Alignment(vertical="top", wrap_text=True)
+                cell.border = THIN
+            try:
+                pc = float(row.get("p_cond", "0").rstrip("%"))
+            except ValueError:
+                pc = -1
+            if pc >= 80:
+                ws4.cell(row=r, column=7).fill = PatternFill("solid", fgColor="A9D08E")
+            elif pc >= 70:
+                ws4.cell(row=r, column=7).fill = PatternFill("solid", fgColor="E2EFDA")
+            ws4.row_dimensions[r].height = 44
+        ws4.freeze_panes = "C2"
+        ws4.auto_filter.ref = f"A1:{get_column_letter(len(cols4))}{ws4.max_row}"
+        print(f"v4 sheet: {len(v4rows)} 行")
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     wb.save(OUT)
     print(f"合计 {len(rows)} 行 / {len(by_region)} 个分区 → {OUT}")
