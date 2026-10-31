@@ -1,5 +1,7 @@
 # 2027 PhD 申请控制中心
 
+> **2026-10-31 跨区招生流程检索总表（新）：** [Search-Table 总表入口](Search-Table/README.md) · [成功率总评与投递建议](Search-Table/08-匹配成功率总评与投递建议.md) · [机读全量表 CSV](Search-Table/data/search-table.csv)。覆盖中国大陆（本地/合办/港校校区）、中国香港、新加坡、英国、加拿大（10 省）、美国（50 州+DC）共 **258 行 / 21 个分区**，逐校核实英语豁免、GRE、套磁与面试、是否必须导师接收、奖学金、其它材料。结论：**0 所「高」、34 所「中高」**；最紧截止为 **2026-12-01（香港六校 + HKPFS + 美加数校，只剩 31 天）**；英国 20 校无一进入中高档。**仅检索与评估，未提交任何新申请、未发送邮件。**
+
 > **2026-10-27 雪城 CISE PhD / Fall 2027 材料包：** [申请包与 PDF 入口](applications/syracuse/2027-fall/README.md) · [投递清单](applications/syracuse/2027-fall/APPLICATION-CHECKLIST.md)。英文 SOP、CV、一页研究摘要、网申短回答及后续邮件模板已准备。研究主线为 Reliable Intelligent Software Systems，保留与导师细化课题的空间；语言考试豁免资格已获招生办确认，提交网申后仍须邮件请求录入。**仅准备材料，未提交申请、未发送邮件或推荐信邀请；录取及资助未确认。** 其他学校既有记录保持不变。
 
 > **2026-10-25 Concordia 六位导师材料与草稿：** [打开六套专属材料及附件索引](applications/concordia/2026-10-25/README.md) · [当前状态](applications/concordia/STATUS.md)。申请 **Doctor of Philosophy in Computer Science / Fall 2027**，申请号 **20814667**；按申请人说明已通过初审、仍待导师接收。**国际生，非加拿大公民或永久居民**；硕士最终结果待出。Jun Yan、Gengrui Zhang、Shin Hwei Tan、Yiming Xiao 为主选，Mirco Ravanelli、Jamal Bentahar 为储备。Gmail 六封均为四附件未发送草稿；用户授权仅覆盖本批材料与草稿准备，**没有发送或定时发送**。Peter Chen 维持用户主动关闭，Zhijie Wang 维持不联系；2026-10-18 及之前的 Concordia 排序为历史快照。

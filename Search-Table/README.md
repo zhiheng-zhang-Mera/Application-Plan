@@ -1,0 +1,136 @@
+# Search-Table · 2027 Fall CS PhD 招生流程检索总表
+
+> **一句话**：本目录用 258 行、21 个分区的逐校核验，回答「以当前材料，2027 Fall 在这五个国家 + 香港分别能不能申、怎么申、有没有钱、成功率多少」。
+> 覆盖：中国大陆（本地院校 / 中外合办 / 港校内地校区）、中国香港、新加坡、英国、加拿大（按省）、美国（按州）。
+> 核验日：**2026-10-31**。所有结论都带官方 URL 与核验日；查不到的一律写 `UNKNOWN`，不按惯例填空。
+
+## 30 秒版
+
+| 问题 | 答案 |
+|---|---|
+| 免英语能不能成立？ | **能，但只靠 UBC 本科 + UniMelb 硕士的「英语授课学位」路径**。258 行中仅约 7 所必须新考（CMU、UIUC 资助层、Indiana Bloomington、Buffalo、UAB、SDSU、USask）。 |
+| GRE 要不要？ | **绝大多数不要**。约 23 所因 GRE 硬门槛被排除（Northwestern、IIT、SMU、Auburn、Kent State、Cincinnati、UW-Milwaukee、Wayne State、Kansas State、Missouri S&T、Arkansas、Oregon、Colorado State、Arizona、UNLV、FSU 等）。 |
+| 哪个区域最该投？ | **中国香港 → 港校内地校区 → 中国大陆（先拿导师同意）→ 新加坡 → 加拿大 → 美国 → 英国**。 |
+| 有多少所真的有机会？ | 34 所「中高（35–55%）」、84 所「中（20–35%）」、**0 所「高」**。 |
+| 最大短板是什么？ | 不是英语也不是 GRE，而是**硕士在读未授予 + 硕士派生 WAM 67.5 + 无论文**。 |
+| 紧迫度？ | 香港六校 + Virginia Tech/GMU 的截止是 **2026-12-01**，只剩 31 天。 |
+
+## 目录
+
+| 文件 | 内容 | 行数 |
+|---|---|---:|
+| [`00-申请人材料基线与门禁.md`](00-申请人材料基线与门禁.md) | 材料事实基线、派生数字的可用/禁用、六项硬门禁判定、材料缺口 | — |
+| [`01-中国香港.md`](01-中国香港.md) | 香港八校 + HKPFS 2027/28 与常规 PGS 两条路线 | 8 |
+| [`02-中国大陆-本地院校.md`](02-中国大陆-本地院校.md) | 22 个大陆招生单位（申请-考核制） | 22 |
+| [`03-中国大陆-合办与港校校区.md`](03-中国大陆-合办与港校校区.md) | 中外合作办学 7 所 + 港校内地校区 5 条 | 12 |
+| [`04-新加坡.md`](04-新加坡.md) | NUS / NTU / SUTD / SMU / SIT | 5 |
+| [`05a-英国-综合与理工学院.md`](05a-英国-综合与理工学院.md) · [`05b-英国-其他重点院校.md`](05b-英国-其他重点院校.md) | 英国 20 校（导师主导制 + 资金死结） | 20 |
+| [`06a-加拿大-安大略.md`](06a-加拿大-安大略.md) · [`06b-加拿大-魁北克与大西洋.md`](06b-加拿大-魁北克与大西洋.md) · [`06c-加拿大-BC与草原省.md`](06c-加拿大-BC与草原省.md) | 加拿大 10 省 28 校 | 28 |
+| [`07a`](07a-美国-加利福尼亚.md)–[`07l`](07l-美国-山地州.md) 共 12 个文件 | 美国 50 州 + DC，163 校（按州分文件） | 163 |
+| [`08-匹配成功率总评与投递建议.md`](08-匹配成功率总评与投递建议.md) | **成功率总评、12+3+3 投递组合、材料改进边际收益、对仓库旧结论的更正** | — |
+| [`data/search-table.csv`](data/search-table.csv) · [`data/search-table.xlsx`](data/search-table.xlsx) | 全量机器可读表（CSV 供脚本，XLSX 分工作表 + 筛选 + 档位配色） | 258 |
+
+## 一、区域 × 匹配档位
+
+| 区域 | 高 | 中高 | 中 | 低 | 极低 | 排除 | 未评级 | 合计 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 中国香港 | | 4 | 2 | 1 | | 1 | | 8 |
+| 中国大陆·本地院校 | | 5 | 7 | 8 | 1 | 1 | | 22 |
+| 中国大陆·合办与港校校区 | | 3 | 3 | 1 | | 5 | | 12 |
+| 新加坡 | | | 2 | 1 | | 2 | | 5 |
+| 英国 | | | 9 | 8 | 2 | | 1 | 20 |
+| 加拿大 | | 2 | 13 | 11 | 1 | 1 | | 28 |
+| 美国 | | 20 | 48 | 39 | 15 | 29 | 12 | 163 |
+| **合计** | **0** | **34** | **84** | **69** | **19** | **39** | **13** | **258** |
+
+档位定义与评分口径见 [`00`](00-申请人材料基线与门禁.md#6-匹配率评分口径全表统一)：**匹配率 = 若以当前材料在 2027 Fall 正式提交，收到录取的概率区间（启发式，非承诺）**。
+
+## 二、六项必查项的跨区对照（本表的核心）
+
+| 区域 | ① 英语豁免 | ② GRE | ③ 套磁与面试 | ④ 录取是否必须导师接收 | ⑤ 奖学金制度 | ⑥ 其它提交材料 |
+|---|---|---|---|---|---|---|
+| **中国香港** | ✅ 全部可免（英语授课学位即可，需 MOI 证明信） | ✅ 八校 CS 全不需要，无「建议」隐性要求 | 套磁：**建议非必须**；面试：**有**（HKPFS 入围必面，八校各自组织） | ❌ 多数为**否**（委员会录取后配导师）；HKUST 为**条件** | **PGS 月约 HK$19,100–19,300（转正后 19,600，非保证）+ 学费豁免可争**；**HKPFS 2027/28：400 名额，月 HK$28,700 + 年 14,400 会议费，最多 3 年**，RGC 截止 **2026-12-01 12:00** | 2 封推荐信（CUHK 3 封）、Research Proposal（HKU / PolyU 指定表 / Lingnan 必须，CityU 不要）、成绩单+学位证、申请费 HK$300–780、HKPFS 另需 vision statement |
+| **中国大陆·本地** | ⚠️ 不是「无要求」而是「**可用英语授课学位豁免**」：浙大列名加拿大/澳大利亚、上交「英语母语国全英授课学位」、复旦⑤、北大(h)、哈工大/南科大「国外 1 年以上」成立；中山是唯一明确**不接受**英语学位豁免的 | ✅ 22 家无一硬性要求 | 套磁：**必须**（9 家有官方明文，如软件所「征得报考导师同意后方可网报」、哈工大须交《导师考核和推荐意见表》）；面试：**有**（学院综合考核，含专业笔试/英语测试） | ✅ **绝大多数为「是」**，且导师对不录取有否决权；唯一例外是浙大（按专业排序） | 国家助学金 15,000 元/年 + 学业奖学金 + 助研津贴 + 学费 1 万/年（多数由奖助覆盖），**资助稳定但金额低于港/新** | 2 封**正高**推荐信（复旦须教授且不得为意向导师）、研究计划/博士研究构想、硕士成绩单与学位证（入学前取得即可）、本科成绩单、科研成果清单、**留服认证**（境外学位）、报名费 200 元级 |
+| **中国大陆·合办与港校校区** | ✅ HKUST(GZ)/CUHK-SZ/BNBU 均认英语授课学位（BNBU 明确「硕士不被接受、须用本科+MOI」；XJTLU 名单含澳不含加） | ✅ 全组无一所要求 | 套磁：**建议**（BNBU 为**强制**——须系统内导师确认）；面试：**有**（HKUST(GZ) 必有） | ⚖️ 混合：HKUST(GZ)/CUHK-SZ 否（委员会）；**BNBU 是**（配额制） | HKUST(GZ) PGS **15,000 RMB/月×4 年**（学费 60,000/年另付）；CUHK-SZ Presidential **税后 18 万/年 + 学费补贴**（学费 16.2 万/年）；BNBU **15,800 RMB/月含学费** | 2 封推荐信（CUHK-SZ 2 封且不得为拟任导师）、SOP/RP、成绩单、**中外合作办学学历学位认证**（区别于留服国外学历认证）、申请费 150–600 元 |
+| **新加坡** | ✅ 四校均「本科授课语言非英语才需考」，UBC 直接免 | ⚠️ NUS 不需要、NTU 可选、SUTD 建议、**SMU 必须（硬门槛→排除）** | 套磁：**建议**（无硬性前置）；面试：**有**（NUS 为申请研究奖学金的外国学生安排海外/线上面试） | ❌ 否（统一录取后配对导师，官网无「须先获导师接收」条款） | **NUS RS：SGD 3,000/月 + 过 QE +500，学费全免，4 年**；NTU RSS 同档；SUTD 3,100（明写 competitive）；SMU 3,100/3,600。均含学费、**均无 service bond**，国际生须承担助教/督导 | 2 封推荐信（SUTD 3 位）、**NTU 必须 Research Proposal**、SUTD 要 3,000 词 Statement of Objectives、NUS 只要 SOP、申请费 S$15–50 |
+| **英国** | ✅ 可免（英语授课学位；Imperial 明文列 Australia/Canada；Glasgow 明文含加拿大；Sheffield 需 5 年内首学位） | ✅ 全组不需要 | 套磁：**必须**（Imperial「先讨论研究想法再申请」、Manchester「Contacted the project supervisor」、Bristol 要 Supervisor Suitability Form）；面试：**有**（Manchester 明写「An interview is required」） | ✅ **几乎全部为「是」**（导师同意 + 学院录取 + 资金三件套） | ❌ **最大死结**：国际生全奖极稀缺，EPSRC/UKRI DTP 无一处官方写明覆盖国际费率；只有具名导师提名奖/校级竞争奖；**自费成本约 £28,300/年学费 + 生活费** | Research Proposal 2,000–3,000 词、2 封推荐信、**硕士 Merit/Distinction**（Bristol/Manchester 明写）、成绩单+学位证、申请费 |
+| **加拿大** | ✅ 可免（英语国家学位；Western 名单直接含 Canada+Australia，最干净；Waterloo 明示「仅 MOI 函不满足」） | ✅ 28 校全不需要（UVic/UA「建议但不强制」） | 套磁：**强烈建议至必须**；面试：**多数有**（PI 线上面谈，官网少有明文） | ✅ **多数为「是/条件」**：Guelph 申请前必须锁定、Carleton/McMaster/UofT/UWaterloo 明文、UAlberta/UCalgary/UManitoba/URegina 需支持信；** McGill 明文 not required** | 「保证最低资助包」：**UBC 40,000 CAD/年×4（国际同享）、SFU 30,000×4、UAlberta 31,800/年、USask 学费+20,000×4**；国际生学费差额是关键变量（UBC 10,081 vs 本地 5,738） | 2–3 封推荐信、SOP/Research Statement、**多数要求已获硕士**（UBC 直博要北美硕士，非北美 case-by-case；USask/URegina/UM 以硕士为前提）、申请费 CAD 103+ |
+| **美国** | ⚠️ 差异极大，**至少 6 种口径**（见 §三） | ⚠️ 多数已取消，但仍有 23 所硬门槛 | 套磁：**建议**（MIT 官方说「faculty 不会与未录取学生讨论资助/指导」→ 套磁无收益；Temple/Binghamton 例外须导师先行）；面试：**多数在 1–2 月线上**（本表多校官网未写明，不可读作「无面试」） | ❌ 多数为**否**（committee 统招；advisor 在录取后或第一年确定） | 名义全奖（TA/RA + 学费 + 保险，5–6 年），但**真正写明多年保证的是少数**：Duke 到第五年、UMD 全员 TA/RA、MIT/Harvard/Yale/Brown/Dartmouth/Northeastern/UMass；大量「中」档学校只有「可申请 assistantship」 | 3 封推荐信、SOP + Personal/Diversity Statement、成绩单、**多数接受本科直博**、申请费 USD 50–125（多数可申请 waiver） |
+
+## 三、英语豁免的 7 种口径（本次检索最有复用价值的一张表）
+
+「英语授课学位可免」不是普遍权利，同一句话在不同学校含义完全不同：
+
+| 口径 | 含义 | 代表学校 | 对本申请人 |
+|---|---|---|---|
+| ① 只认本科 | 研究生学位不作数 | **MIT**（5 年内 + 本科 + 指定 6 国）、Harvard | ✅ 成立（UBC 本科 2024，在 5 年内） |
+| ② 只认最近 N 年 | 学位超期即失效 | MIT（5 年）、Cincinnati、UNH、CU Boulder（**2 年**，且明文不收 MOI 函） | ⚠️ CU Boulder 风险：2024 UBC 已超 2 年窗口，只能用未授予的 UniMelb 记录 |
+| ③ 完全不豁免 | 非母语者一律考试 | **CMU SCS**（「不为非母语者提供任何 waiver，MOI 证明不接受」）、**Indiana Bloomington**（「包括所有 PhD 申请人」）、Northwestern（TA 需口语 26） | ❌ 直接排除 |
+| ④ 录取可免、资助不可免 | 招生免考，但拿 TA/RA 必须交口语分 | **UIUC**（「PhD applicants must submit valid TOEFL iBT or IELTS scores regardless of receiving an exemption」） | ❌ 实质排除（可发信问 RA 例外） |
+| ⑤ 国别/机构清单制 | 只认清单内国家或 WHED 认证 | Michigan Tech（含 Canada/Australia）、XJTLU（含澳**不含加**）、UCSD/UCSB（须 WHED）、Buffalo（**公民身份 AND 英语授课**合取） | ⚠️ 逐校核对；XJTLU 与 Buffalo 要换路径 |
+| ⑥ 认 MOI 但要官方证明信 | 学位够，但须院校出具授课语言证明 | 香港八校、BNBU、Surrey、Glasgow、UAlberta | ✅ 需 1–2 封邮件，是最值得先做的一件事 |
+| ⑦ 触发式（最宽松） | 只有「授课语言非英语的国家」才要考 | NUS、NTU、UNR、UBC（G+PS） | ✅ 天然成立 |
+
+## 四、GRE 的 4 种状态
+
+| 状态 | 含义 | 代表学校 |
+|---|---|---|
+| **不需要** | 明确 not required / not accepted | 香港八校、新加坡（除 SMU）、英国全组、加拿大 28 校、美国多数（含 Yale/Dartmouth「连送分都不收」） |
+| **可选** | optional，提交了也不占优 | Stanford、UCLA、UCSD 系列、Cornell/Columbia（未取到）、Tufts、Notre Dame、Purdue、Marquette |
+| **建议** | recommended / strongly recommended，不考会减分 | URI、Rutgers（待核）、Binghamton、RPI、Kansas、K-State（⭐ 实为必须） |
+| **必须** | 硬门槛，无 waiver | **Northwestern、IIT、Wayne State、UW-Milwaukee、Cincinnati、Kent State、Michigan Tech（国际生）、Missouri S&T、Kansas State、Arkansas、SMU（Texas 与 Singapore 各一）、Auburn、Louisville、Oregon、Colorado State、Arizona、UNLV、FSU、UNH、UMass Boston、RIT、NJIT** |
+
+## 五、套磁 / 面试 / 导师接收的三种制度（决定时间成本）
+
+| 制度 | 特征 | 代表 | 对申请人的含义 |
+|---|---|---|---|
+| **委员会统招后配导师** | 官网无「须先获导师同意」；录取由 committee 决定 | 美国多数、新加坡四校、港校多数（HKU CDS/HKBU 明文）、HKUST(GZ)、CUHK-SZ | 可以不套磁直接投；套磁只是加分 |
+| **导师主导 / 必须先获接收** | 申请前须拿到 supervisor consent 或支持信 | **英国全部**、**大陆绝大多数**、**加拿大多数**（Guelph/Carleton/UofT/UWaterloo/UNB/Dal/UdeM/Sherbrooke）、**BNBU**、Temple/Binghamton/UTK/USU | 套磁是准入条件，不是礼节；必须邮件 + 视频面谈 |
+| **条件型** | 录取不要求，但 offer 依赖导师经费 | HKUST（prospective advisor 支持）、WPI、UConn、FSU（免 GRE 的唯一路径是教授 1 年资助承诺） | 越早建立联系越值钱 |
+
+## 六、2027 Fall 关键日期（前 18 个月里最近的 8 个节点）
+
+| 日期 | 到期项目 | 行动 |
+|---|---|---|
+| 2026-11-01 起 | 清华大学网报（11-01～11-30）、西安交大（11-04～11-18） | 均需导师同意在先，若无导师同意则放弃本轮 |
+| 2026-11-15 | Howard 资助申请截止、URI | 若投 Howard 必须今天起准备 |
+| **2026-12-01** | **香港六校主轮 + HKPFS（12:00 中午）+ Toronto/Waterloo/York + MIT/BU/Purdue/Virginia Tech/GMU** | **最高优先级；只剩 31 天** |
+| 2026-12-04 | UMD | — |
+| 2026-12-07 | 中科院自动化所（至 12-20）、软件所（至 2027-01-08） | 大陆最现实的两所 |
+| 2026-12-12 | NYU Shanghai | — |
+| 2026-12-15 | NUS、UVic，以及美国主战场（Harvard/Princeton/Cornell/Yale/Stony Brook/UMich/UT Austin/TAMU/UT Dallas/GaTech/UNC/NCSU/UW/PSU/CU Boulder/Utah 等） | 美国投递高峰日 |
+| 2027-01-15 起 | Queen's、WPI、GWU、Houston、Idaho、Montana State、UNR；NTU 01-31 | 第二波 |
+
+> 完整日历见 [`_brief/generated-summary.md`](_brief/generated-summary.md) 第三节。注意：多所大陆院校的本轮窗口**已经关闭或正在关闭**（哈工大秋批 09-29 截止、浙大 11-20、北大材料 11-30）。
+
+## 七、排除清单（39 所 + 13 所未评级）
+
+主因分布：**GRE 硬门槛约 23 所 / 英语必须新考约 7 所 / 无对口入口或论文硬门槛或无法发 I-20 约 9 所**。
+完整逐条见 [`_brief/generated-summary.md`](_brief/generated-summary.md) 第四节，其中值得单独说明的：
+
+- **CMU**：SCS 明文拒绝一切英语豁免（连英语授课学位与 MOI 都不认）——本次最硬的英语门。
+- **UIUC**：招生可免，但「拿资助必须交 TOEFL/IELTS 口语分」——最值得发一封邮件确认的一所。
+- **Buffalo**：豁免是「公民身份 AND 英语授课」的合取条件，且成绩须 2 年内——当年被要求重考有制度依据。
+- **中科大**：把「SCI-2 区或 CCF A/B 一作 1 篇」写进报考条件——论文门槛的位置决定它是硬门还是可对冲项。
+- **Wake Forest**：无 CS 博士（只有 MS）；**Loyola Chicago**：官网明写暂不能为该 program 发 I-20。
+
+## 八、方法与可信度
+
+- **执行方式**：21 个并发检索分区（按国家/地区/省份/州拆分），每个分区只允许引用官方域名（`.edu` `.edu.cn` `.ac.uk` `.edu.sg` `.edu.hk`），字段缺失必须写 `UNKNOWN`。
+- **统一口径**：[`_brief/AGENT-BRIEF.md`](_brief/AGENT-BRIEF.md) 定义了 16 个字段、取值枚举、匹配率 6 档与加减分锚点，所有分区共用，避免口径漂移。
+- **可复现**：`python _brief/build_csv.py && python _brief/build_summary.py && python _brief/build_xlsx.py` 会从各分区文档重新生成 `data/search-table.csv`、统计与 XLSX。
+- **已知局限**（必须一起读）：
+  1. 约 **5%（13/258）** 的行整行 `未评级`；另有 15–25% 的单元格为 `UNKNOWN`，集中在被 Cloudflare/403/JS 渲染挡住的院校（UC Davis、UC Merced、Caltech、CWRU、CUNY、Georgetown、UVA、WVU、American、Durham 等）。
+  2. 多所官网仍挂 2026/27 周期，表中已标「沿用 2026」，**不能当作 2027 实锤**。
+  3. 「面试」列在部分分区大面积 `UNKNOWN`——这表示**官网未写**，不等于「无面试」。
+  4. 匹配率是启发式估计，不是录取承诺；资金确定性请看各行「资助」列，不要只看档位。
+- **不做的事**：不把派生均分写成 4.0 GPA / UK 学位等级；不虚构金额、截止日、导师 capacity；不把「有考试」直接等同「不能申」。
+
+## 九、下一步（按顺序）
+
+1. 今天：向 UBC 与 UniMelb Registry 申请 **medium-of-instruction 证明**；确认三位推荐人。
+2. 本周：完成香港 4 所（PolyU / HKBU / CityUHK / HKUST）与 HKPFS 的材料框架（含 HKPFS 的 vision statement）。
+3. 本周：给 HKUST(GZ)、CUHK-SZ、BNBU 各一位导师发**首信**（这三所时间宽裕但需要导师侧信息）。
+4. 下周：大陆只保留「中科院软件所 / 自动化所 / 南科大」三条线（前两所 12-07 开网报，须先拿到导师同意；南科大已有 warm lead）。
+5. 12 月第一周：美国只投 Virginia Tech / GMU / Syracuse / USF / FIU 这 5 所已确认免 GRE 且英语可豁免的。
+6. 英国全组：**除非出现具名导师提名奖，否则不投**（20 校无一进入中高档）。
