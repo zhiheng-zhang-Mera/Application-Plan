@@ -1,12 +1,15 @@
 # CV 生成区
 
+> **当前通用母版：2026-10-31** — [两页 PDF](latest/Zhiheng-Zhang-Academic-CV.pdf) · [英文正文](latest/CV.md) · [状态与重建说明](latest/README.md)。已加入 DS-Hns 与 Boss-A2，准确区分公开预印本和待 arXiv 审核稿件。新的一般性网申 CV 从 `latest/CV.md` 派生；下列旧导师版保留为历史参考，不自动替换已发送附件。
+
 本目录保存可复用的 LaTeX CV 母版，以及针对不同导师/路线生成的**英语 Research CV**。
 
 ## 文件说明
 
 | 文件 | 导师 / 路线 | 主要侧重点 |
 |---|---|---|
-| `template/research-cv-template.tex` | 母版 | Autonomous AI / reliable agent systems |
+| `latest/CV.md` · `latest/Zhiheng-Zhang-Academic-CV.pdf` | 当前通用母版（2026-10-31） | Reliable intelligent software / multi-agent systems；含两篇研究稿件 |
+| `template/research-cv-template.tex` | 旧 LaTeX 母版（历史排版参考） | 个人事实及论文状态以 `latest/CV.md` 为准 |
 | `polyyu-yu-pei.tex` | Yu Pei, PolyU | program repair / testing / fault localization |
 | `cityuhk-heqing-huang.tex` | Heqing Huang, CityUHK | software security / program analysis |
 | `cuhk-yu-li.tex` | Yu Li, CUHK | scientific agents / computational health |
