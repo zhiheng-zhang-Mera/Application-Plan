@@ -152,6 +152,51 @@ def main() -> int:
     for cell in ws[ws.max_row]:
         cell.font = Font(bold=True)
 
+    # 4) v2 复评（若已生成）
+    v2 = ROOT / "data" / "search-table-v2.csv"
+    if v2.exists():
+        with v2.open(encoding="utf-8-sig", newline="") as fh:
+            v2rows = list(csv.DictReader(fh))
+        cols = [
+            ("region", "区域", 16),
+            ("state_province", "州/省", 12),
+            ("university", "学校", 34),
+            ("band_v1", "v1 档位", 10),
+            ("match_v1", "v1 原判定", 22),
+            ("band_v2", "v2 档位", 10),
+            ("range_v2", "v2 区间", 12),
+            ("delta", "变化", 8),
+            ("uplift_pp", "调分(pp)", 10),
+            ("academic_floor", "学术门槛", 30),
+            ("driver", "加分驱动", 40),
+            ("key_risk", "关键风险", 34),
+        ]
+        ws2 = wb.create_sheet("复评 v2")
+        ws2.append([t for _, t, _ in cols])
+        for idx, (_, _, width) in enumerate(cols, start=1):
+            ws2.column_dimensions[get_column_letter(idx)].width = width
+        for cell in ws2[1]:
+            cell.font = Font(bold=True, color="FFFFFF")
+            cell.fill = PatternFill("solid", fgColor="7030A0")
+            cell.alignment = Alignment(vertical="center", horizontal="center", wrap_text=True)
+            cell.border = THIN
+        for row in v2rows:
+            ws2.append([row.get(k, "") for k, _, _ in cols])
+            r = ws2.max_row
+            for c in range(1, len(cols) + 1):
+                cell = ws2.cell(row=r, column=c)
+                cell.alignment = Alignment(vertical="top", wrap_text=True)
+                cell.border = THIN
+            tag = row.get("band_v2", "")
+            if tag in FILL:
+                ws2.cell(row=r, column=6).fill = FILL[tag]
+            if row.get("delta") == "↑":
+                ws2.cell(row=r, column=8).font = Font(bold=True, color="006100")
+            ws2.row_dimensions[r].height = 46
+        ws2.freeze_panes = "C2"
+        ws2.auto_filter.ref = f"A1:{get_column_letter(len(cols))}{ws2.max_row}"
+        print(f"复评 sheet: {len(v2rows)} 行")
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     wb.save(OUT)
     print(f"合计 {len(rows)} 行 / {len(by_region)} 个分区 → {OUT}")
