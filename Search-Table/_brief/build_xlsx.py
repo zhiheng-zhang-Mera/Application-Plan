@@ -197,6 +197,55 @@ def main() -> int:
         ws2.auto_filter.ref = f"A1:{get_column_letter(len(cols))}{ws2.max_row}"
         print(f"复评 sheet: {len(v2rows)} 行")
 
+    # 5) v3 分档（若已生成）
+    v3 = ROOT / "data" / "search-table-v3.csv"
+    if v3.exists():
+        with v3.open(encoding="utf-8-sig", newline="") as fh:
+            v3rows = list(csv.DictReader(fh))
+        cols3 = [
+            ("region", "区域", 18), ("state_province", "州/省", 12), ("university", "学校", 34),
+            ("program", "项目", 34), ("admit_pct", "录取概率", 10), ("tier", "档位", 12),
+            ("fund_confidence", "资助确定性", 12), ("portfolio", "组合建议", 12),
+            ("deadline_2027fall", "截止", 30), ("funding", "资助要点", 46),
+            ("academic_floor", "学术门槛", 26), ("key_risk", "关键风险", 30),
+        ]
+        ws3 = wb.create_sheet("分档 v3")
+        ws3.append([t for _, t, _ in cols3])
+        for idx, (_, _, width) in enumerate(cols3, start=1):
+            ws3.column_dimensions[get_column_letter(idx)].width = width
+        for cell in ws3[1]:
+            cell.font = Font(bold=True, color="FFFFFF")
+            cell.fill = PatternFill("solid", fgColor="C00000")
+            cell.alignment = Alignment(vertical="center", horizontal="center", wrap_text=True)
+            cell.border = THIN
+        for row in v3rows:
+            ws3.append([row.get(k, "") for k, _, _ in cols3])
+            r = ws3.max_row
+            for c in range(1, len(cols3) + 1):
+                cell = ws3.cell(row=r, column=c)
+                cell.alignment = Alignment(vertical="top", wrap_text=True)
+                cell.border = THIN
+            tier = row.get("tier", "")
+            key = ""
+            for k in ("S 保底", "S- 准保底", "A 稳妥", "B 主申", "C 可试", "D 偏低", "E 低", "F 极低", "X 排除"):
+                if tier.startswith(k.split()[0]):
+                    key = k.split()[0]
+                    break
+            if key == "S":
+                ws3.cell(row=r, column=6).fill = PatternFill("solid", fgColor="A9D08E")
+            elif key == "S-":
+                ws3.cell(row=r, column=6).fill = PatternFill("solid", fgColor="C6EFCE")
+            elif key in {"A", "B"}:
+                ws3.cell(row=r, column=6).fill = PatternFill("solid", fgColor="E2EFDA")
+            elif key in {"C", "D"}:
+                ws3.cell(row=r, column=6).fill = PatternFill("solid", fgColor="FFF2CC")
+            elif key in {"E", "F"}:
+                ws3.cell(row=r, column=6).fill = PatternFill("solid", fgColor="FCE4D6")
+            ws3.row_dimensions[r].height = 46
+        ws3.freeze_panes = "C2"
+        ws3.auto_filter.ref = f"A1:{get_column_letter(len(cols3))}{ws3.max_row}"
+        print(f"分档 sheet: {len(v3rows)} 行")
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     wb.save(OUT)
     print(f"合计 {len(rows)} 行 / {len(by_region)} 个分区 → {OUT}")

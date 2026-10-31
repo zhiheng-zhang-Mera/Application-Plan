@@ -1,5 +1,12 @@
 # 2027 PhD 研究画像 — 当前权威入口（2026-10-09）
 
+> ## ⚠️ 2026-10-31 主线变更（本行优先于下方全文）
+>
+> 申请人已确认把主线从「Wearable 长程 agent」改为 **Reliable Multi-Agent Composite Systems（可靠的多智能体复合系统）**：多 agent 编排与仲裁、长程任务下的有界重规划与故障恢复、跨设备/跨进程复合执行、真实结果验收而非表面成功。
+> **wearable / edge 由主线降为场景之一**；相对权重仍可参考下方 C/A/B，但叙事顺序改为「可靠性机制 → 复合系统 → 场景」。
+> 依据：Codex Boss（多 Agent 编排与证据接纳）、Utopia（跨 Windows worker + Android/Web 的有界验收）、Digital-City PCF 700–728、DS-Hns（长任务与重启恢复）、Quant-Ultra（负结果与实验治理）、Privacy Lens（fail-closed 与 claim boundary）。
+> 本文件正文仍是 2026-10-09 的 v1 表述，**下游 CV / SOP / 邮件模板需按新主线重写**；新旧冲突时以本行为准。结构化版本见 [Search-Table/00](../Search-Table/00-申请人材料基线与门禁.md) 与 [Search-Table/11](../Search-Table/11-百分比分档与保底投递清单.md)。
+
 > **由申请人 20 轮研究方向校准确认。** 用于导师筛选、CV/SOP/Research Statement/邮件的研究意图事实源；不是任何软件能力的验收凭证。
 > 当前主线：**Reliable Long-Horizon Personal AI Agents for Wearable and Ubiquitous Computing**（面向可穿戴与泛在计算的可靠长期自主个人 AI Agent）。
 > 完整决策见 [20 轮研究决策记录](PROFILE-DECISIONS-20Q.md)，英语母版见 [Research Statement](RESEARCH-STATEMENT-MASTER.md)，考试边界见 [考试准备门禁](EXAM-READINESS-POLICY.md)。
