@@ -1,30 +1,42 @@
 # German-Cologne - Aleksandar Bojchevski
 
-## 检查版更新：2026-11-03
+## 当前递交 PDF（2026-11-03）
 
-[下载合并 PDF 检查版](Zhiheng-Zhang-Cologne-Review.pdf)
+[下载当前递交 PDF](Zhiheng-Zhang-Cologne-Application.pdf)
 
-状态：REVIEW_PDF_READY / NOT_SENT。硕士成绩单和论文摘要仍待确认。
+11 页，未发送。已完成内容修正与逐页排版检查。此前的 Zhiheng-Zhang-Cologne-Review.pdf 是历史检查版，不用于递交；当前入口以上述 Application.pdf 为准。
 
-- CV 二次优化：突出多智能体编排、完成声明与实际执行证据的区分、不完整观测下的可信验证；统计或形式化保证仅作为拟研究目标，不冒称已取得成果。CV 独立两页排版。
-- 第二篇已按 Documents/arxiv.png 更新为 arXiv:2610.41276 [cs.SE]；第一篇为 arXiv:2610.39241 [cs.SE]。两篇均为预印本，不表示已获期刊或会议录用。截图确认标题、编号、主类别；作者沿用已有材料记录。
-- 本科成绩单：申请人确认与官方成绩单的学术内容一致、仅日期不同，目前无法再次取得。保留现有成绩单和毕业证明，不再要求重新获取。原件中的历史 Credentials 字段未修改。
-- 硕士支持图片和 CSV 为检查用材料，不作为已核验的官方成绩单；研究项目合并计分与未出分部分仍需确认。
-- 硕士摘要为草稿，正式题目、方法与最终结论待本人确认。
+### 内容与页码
 
-## 递交要求与来源
+- 1-2：CV。更新研究状态，强调多智能体、证据约束与可信验证；论文已形成完整稿件不等于学位已经授予。
+- 3-5：保留现有本科成绩单及评分说明。申请人确认与官方成绩单学术内容相同、仅日期不同，目前无法重新取得。
+- 6：本科毕业证明。
+- 7：硕士成绩整理。明确为非官方记录；当前派生 WAM 67.5、研究项目合并计分及未出分课程仍如实注明，不冒称官方最终成绩。
+- 8-9：硕士支持截图与评分说明，移除重复 WAM 图。
+- 10：来自新上传论文的真实题目及完整摘要；保留原文研究结果和局限，移除旧临时题目与拟写摘要。
+- 11：两篇 arXiv 预印本清单，编号 2610.39241 与 2610.41276，均为 cs.SE，不冒称同行评审录用。
 
-招聘页面：https://abojchevski.github.io/positions/
-研究方向：https://abojchevski.github.io/
+### 材料限制
 
-直接申请邮箱 a.bojchevski@uni-koeln.de，主题 [PhD]；单一 PDF 包含 CV、成绩单、硕士论文摘要和已有论文清单，不以外部链接代替材料。直接申请滚动受理；ELLIS 2026-10-31 截止日已过。Fall 2027 入职偏好尚待导师确认。
+硕士官方成绩单仍无更新。PDF 使用透明标注的非官方成绩整理及支持材料；是否接受该替代材料由接收方决定。未因排版完成而认定所有官方材料要求已满足。
 
-当前 PDF 是带审核标记的检查版，不是最终投递版。最终确认后移除审核首页与内部备注，并精简重复的硕士支持图片。未发送邮件。
+### 核验与来源
 
-## 文件
+硕士摘要源：Documents/master-thesis-en-submission-edition.pdf，第 2 个 PDF 页面；题目来自封面。仅整理换行，不新增结果。CV 的 495 APK 静态样本与 233 个包的设备流程分开表述，203 完成、30 失败，不混用分母。
 
-- CV.md：优化后的英文 CV 源文。
-- PUBLICATIONS.md：已更新的两篇预印本清单。
-- MASTER-THESIS-ABSTRACT-DRAFT.md：待确认摘要。
-- EMAIL-DRAFT.md：未发送邮件草稿。
-- Zhiheng-Zhang-Cologne-Review.pdf：合并检查版。
+预印本依据：Documents/arxiv.png。本科材料依据 Documents 现有文件及申请人确认。硕士成绩依据 Master Score.csv 与 Master WAM.png。
+
+招聘：https://abojchevski.github.io/positions/
+研究：https://abojchevski.github.io/
+
+直接申请邮箱 a.bojchevski@uni-koeln.de，主题 [PhD]，一个 PDF，包含 CV、成绩单、硕士论文摘要、已有论文清单。Fall 2027 为申请人偏好，尚未经导师确认。未发送申请邮件。
+
+### 源文件
+
+CV.md、MASTER-THESIS-ABSTRACT.md、PUBLICATIONS.md 为当前正文。MASTER-THESIS-ABSTRACT-DRAFT.md 已标为停用。EMAIL-DRAFT.md 为未发送草稿。
+
+### 检查结果
+
+已检查 11 页渲染、CV 两页分页、题目与摘要来源、预印本编号、页码、外部链接注释及旧草稿措辞。PDF 不含外部 URI 链接注释。
+
+SHA-256：47d7a11b757ec7f9affa26f7a16036fd8276dbbf66b82d1452dcb1609202f0de

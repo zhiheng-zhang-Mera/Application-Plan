@@ -18,4 +18,4 @@ Zhiheng Zhang
 zhiheng0mera@gmail.com
 
 ---
-Internal checklist: add one completed application PDF before sending; after attachment verification, add “My application materials are included in the attached PDF.” Current package lacks an official master's transcript and a confirmed final thesis abstract. Do not send this draft yet.
+Internal checklist: add one completed application PDF before sending; after attachment verification, add “My application materials are included in the attached PDF.” Use Zhiheng-Zhang-Cologne-Application.pdf. The thesis abstract now comes from the supplied thesis. The master's academic record is explicitly unofficial; an updated official transcript remains unavailable. No email has been sent.
