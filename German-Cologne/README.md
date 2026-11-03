@@ -1,6 +1,6 @@
 # German-Cologne — Aleksandar Bojchevski
 
-核验日期：2026-11-03。状态：DRAFT / NOT_SENT / PDF_PENDING。
+核验日期：2026-11-03。状态：DRAFT / NOT_SENT / REVIEW_PDF_READY。
 
 ## 官方要求
 
@@ -8,6 +8,12 @@
 研究：https://abojchevski.github.io/
 
 直接申请：发至 a.bojchevski@uni-koeln.de，主题严格为 [PhD]。仅一个 PDF，不以外部链接代替材料；包含 CV、成绩单、硕士论文摘要、已有论文清单。滚动受理至招满。ELLIS 路线截止 2026-10-31，当前已过期。岗位为全额资助 TV-L E13 100%，开始时间灵活；Fall 2027 是否可行待导师确认。
+
+## PDF 检查版（2026-11-03）
+
+[下载 13 页检查版](Zhiheng-Zhang-Cologne-Review.pdf)。已使用更新后的 Documents 文件，包含 CV、新版命名的本科成绩单（3 页，含评分说明）、毕业证明、硕士成绩汇总、两份 WAM 支持图和评分说明、摘要草稿、论文清单。硕士成绩单与摘要均明确标为待确认；仅供检查，未发送。本科成绩单仍显示 Credentials: None to date，需结合毕业证明核对。
+
+PDF SHA-256：9e4fd7f112db46668236207ea9b3757ac86dc99dfcaa4a53eda07ca3898c9087。已检查 13 页渲染和分页。
 
 ## 文件与完成状态
 
