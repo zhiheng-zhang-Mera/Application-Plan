@@ -1,34 +1,30 @@
-# German-Cologne — Aleksandar Bojchevski
+# German-Cologne - Aleksandar Bojchevski
 
-核验日期：2026-11-03。状态：DRAFT / NOT_SENT / REVIEW_PDF_READY。
+## 检查版更新：2026-11-03
 
-## 官方要求
+[下载合并 PDF 检查版](Zhiheng-Zhang-Cologne-Review.pdf)
 
-来源：https://abojchevski.github.io/positions/
-研究：https://abojchevski.github.io/
+状态：REVIEW_PDF_READY / NOT_SENT。硕士成绩单和论文摘要仍待确认。
 
-直接申请：发至 a.bojchevski@uni-koeln.de，主题严格为 [PhD]。仅一个 PDF，不以外部链接代替材料；包含 CV、成绩单、硕士论文摘要、已有论文清单。滚动受理至招满。ELLIS 路线截止 2026-10-31，当前已过期。岗位为全额资助 TV-L E13 100%，开始时间灵活；Fall 2027 是否可行待导师确认。
+- CV 二次优化：突出多智能体编排、完成声明与实际执行证据的区分、不完整观测下的可信验证；统计或形式化保证仅作为拟研究目标，不冒称已取得成果。CV 独立两页排版。
+- 第二篇已按 Documents/arxiv.png 更新为 arXiv:2610.41276 [cs.SE]；第一篇为 arXiv:2610.39241 [cs.SE]。两篇均为预印本，不表示已获期刊或会议录用。截图确认标题、编号、主类别；作者沿用已有材料记录。
+- 本科成绩单：申请人确认与官方成绩单的学术内容一致、仅日期不同，目前无法再次取得。保留现有成绩单和毕业证明，不再要求重新获取。原件中的历史 Credentials 字段未修改。
+- 硕士支持图片和 CSV 为检查用材料，不作为已核验的官方成绩单；研究项目合并计分与未出分部分仍需确认。
+- 硕士摘要为草稿，正式题目、方法与最终结论待本人确认。
 
-## PDF 检查版（2026-11-03）
+## 递交要求与来源
 
-[下载 13 页检查版](Zhiheng-Zhang-Cologne-Review.pdf)。已使用更新后的 Documents 文件，包含 CV、新版命名的本科成绩单（3 页，含评分说明）、毕业证明、硕士成绩汇总、两份 WAM 支持图和评分说明、摘要草稿、论文清单。硕士成绩单与摘要均明确标为待确认；仅供检查，未发送。本科成绩单仍显示 Credentials: None to date，需结合毕业证明核对。
+招聘页面：https://abojchevski.github.io/positions/
+研究方向：https://abojchevski.github.io/
 
-PDF SHA-256：9e4fd7f112db46668236207ea9b3757ac86dc99dfcaa4a53eda07ca3898c9087。已检查 13 页渲染和分页。
+直接申请邮箱 a.bojchevski@uni-koeln.de，主题 [PhD]；单一 PDF 包含 CV、成绩单、硕士论文摘要和已有论文清单，不以外部链接代替材料。直接申请滚动受理；ELLIS 2026-10-31 截止日已过。Fall 2027 入职偏好尚待导师确认。
 
-## 文件与完成状态
+当前 PDF 是带审核标记的检查版，不是最终投递版。最终确认后移除审核首页与内部备注，并精简重复的硕士支持图片。未发送邮件。
 
-- CV.md：基于 2026-10-31 最新 CV 调整研究方向，移除外部链接。
-- MASTER-THESIS-ABSTRACT-DRAFT.md：根据已有研究描述拟写，需本人核对正式题目、方法和结果；不能当作已获确认的正式摘要。
-- PUBLICATIONS.md：按已有 CV 记录列出预印本/稿件，尚未重新核验最新出版状态。
-- EMAIL-DRAFT.md：英文邮件草稿，未发送。
+## 文件
 
-## 递交前必须补齐
-
-1. 硕士官方成绩单：仓库基线记载缺失；CSV/WAM 截图不是官方成绩单。
-2. 确认硕士论文正式英文题目与摘要；当前不虚构最终结果。
-3. 本科成绩单已有 Documents/Transcript-ZhihengZhang.pdf。合并前确认完整性并保留成绩及评分说明；不要将学号等敏感信息复制到这个公开文件夹。
-4. 更新两篇稿件状态；不得写成同行评审发表。
-5. 将最终 CV、完整成绩单、已确认摘要、论文清单依次合并为 Zhiheng-Zhang-Cologne-Application.pdf，检查文字、分页和所有页面；去除外部链接。当前没有生成冒充完整申请的 PDF。
-6. 确认硕士未毕业情况下的资格、2027 入职时间及语言要求。网页没有给出英语/GRE 豁免承诺。
-
-个人事实来源：CV-generate/latest/CV.md、materials/research-profile.md、Search-Table/00-申请人材料基线与门禁.md。研究匹配在可靠多智能体系统、观测缺失与失败评估；不声称已有图学习、conformal prediction 或 PyTorch 专长。
+- CV.md：优化后的英文 CV 源文。
+- PUBLICATIONS.md：已更新的两篇预印本清单。
+- MASTER-THESIS-ABSTRACT-DRAFT.md：待确认摘要。
+- EMAIL-DRAFT.md：未发送邮件草稿。
+- Zhiheng-Zhang-Cologne-Review.pdf：合并检查版。
