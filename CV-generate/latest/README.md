@@ -38,6 +38,6 @@ python3 CV-generate/latest/build-cv.py
 The regenerated PDF is two pages, US Letter, searchable, and retains the existing layout and hyperlinks.
 
 - Page count: 2
-- File size: 91,632 bytes
-- SHA-256: `ce678736ce0bb4a4f905d5250f4337406439c1f4c221b968622fe73b73a58113`
+- File size: 8,092 bytes
+- SHA-256: `052f98c3c6c82c1ca31f67184a821052e2c0dd768ed31e24bab93ce6d4cfd6f2`
 
