@@ -6,7 +6,7 @@ Academic Curriculum Vitae | PhD Applications, Fall 2027
 
 ## Research Interests
 
-Reliable intelligent software systems; multi-agent orchestration; software testing and program analysis; persistent agent execution, failure recovery, and evidence-based evaluation. Wearable and ubiquitous computing as application settings.
+Reliable software engineering and intelligent software systems; multi-agent orchestration; software testing, verification, and program analysis; evidence-based validation of AI-assisted software in real-world workflows.
 
 ## Education
 
@@ -27,19 +27,18 @@ Capstone Software Engineering Project (COSC 499): 93/100.
 1. **Zhiheng Zhang.** **Omission-Safe Conditional Contracts for Evidence-Closed CI Qualification.** 2026. Software Quality Journal (SQJ), submitted; awaiting review. [arXiv:2610.39241](https://arxiv.org/abs/2610.39241) [cs.SE].
    Developed source-derived CI qualification contracts and an independent certificate checker to prevent missing observations from silently weakening evidence requirements. Research based on DS-Hns.
 
-2. **Zhiheng Zhang.** **Architectural Debt Enforcement under Incomplete Observation: A Controlled Study of Ratchets and Evidence Qualification.** 2026. Software Quality Journal (SQJ), submitted; awaiting review. arXiv submission awaiting moderation.
+2. **Zhiheng Zhang.** **Architectural Debt Enforcement under Incomplete Observation: A Controlled Study of Ratchets and Evidence Qualification.** 2026. Software Quality Journal (SQJ), submitted; awaiting review. [arXiv:2610.41276](https://arxiv.org/abs/2610.41276).
    Evaluated evidence-qualified architectural debt enforcement on 240 source files and 480 constructed scenarios, focusing on identity-aware ratchets, observation uncertainty, and provenance binding. Research based on Codex Boss (Boss-A2).
 
 ## Research and Systems Experience
 
-### Utopia | Independent systems project
+### Celestial Series | Ongoing multi-domain software development
 
-[Implementation](https://github.com/zhiheng-zhang-Mera/utopia) | [Development and acceptance records](https://github.com/zhiheng-zhang-Mera/Digital-City)
+[Main platform](https://github.com/zhiheng-zhang-Mera/Celestial-Throne) | [Research Intelligence](https://github.com/zhiheng-zhang-Mera/Celestial-Research-Intelligence-CRI) | [Finance](https://github.com/zhiheng-zhang-Mera/Celestial-Finance) | [Smart Glass](https://github.com/zhiheng-zhang-Mera/Celestial-Smart-Glass)
 
-- Led architecture, AI-assisted implementation and integration, and evidence-based acceptance of a system combining persistent task execution with multi-agent orchestration.
-- Integrated two physical Windows execution workers with Android and web control interfaces, explicit target-device routing, and inspectable cross-host results.
-- Maintained failure histories, task-to-evidence links, and replay records to support debugging and reproducible evaluation.
-- Completed and froze the integrated successor to DS-Hns and Codex Boss.
+- Developing a multi-repository software portfolio spanning agentic research tooling, knowledge/evidence management, personal-finance software, and exploratory wearable/HCI and scientific-simulation applications; software engineering is the common core.
+- Emphasis on modular implementation and usable workflows across desktop, web, mobile, and local services, with explicit integration and permission boundaries.
+- Reliability is assessed through reproducible builds/tests, failure-path checks, runtime evidence, and real-workflow acceptance; implemented, planned, and unverified capabilities are kept distinct. The series remains under active development, with maturity varying by project.
 
 ### Privacy Lens | Master's research
 
@@ -49,27 +48,18 @@ Capstone Software Engineering Project (COSC 499): 93/100.
 - Organized evidence admission, metric checks, and claim-to-evidence traceability, distinguishing observations from interpretations that require human review.
 - Worked with a TypeScript/React Native/Expo application and a Kotlin native layer.
 
-### DS-Hns | Persistent coding-task execution
+### Earlier Systems Projects | DS-Hns, Codex Boss, and Utopia (completed and frozen)
 
-[Public repository](https://github.com/zhiheng-zhang-Mera/DS-Hns)
+[DS-Hns](https://github.com/zhiheng-zhang-Mera/DS-Hns) | [Codex Boss](https://github.com/zhiheng-zhang-Mera/Codex-Boss) | [Utopia](https://github.com/zhiheng-zhang-Mera/utopia)
 
-- Designed durable checkpoints and resume checks around workspace state, repository identity, and unfinished effects before interrupted tasks continue.
-- Used controlled interruption scenarios to distinguish committed-progress recovery from effect/checkpoint gaps that can still cause duplicate actions.
-- Completed and froze the runtime; subsequently developed the CI evidence-qualification study listed above.
-
-### Codex Boss | Multi-agent orchestration
-
-[Public repository](https://github.com/zhiheng-zhang-Mera/Codex-Boss)
-
-- Developed workflow orchestration around persistent task contracts, bounded recovery, and deterministic acceptance checks.
-- Separated model-reported completion from host-observed evidence; subsequently integrated this work into Utopia.
-- Completed and froze the platform; subsequently studied architectural debt enforcement and observation uncertainty in Boss-A2.
+- DS-Hns focused on persistent coding-task execution and interruption recovery; Codex Boss focused on multi-agent orchestration, task contracts, and evidence-governed completion.
+- Integrated work from both predecessors into Utopia, a completed and frozen multi-device system with bounded Windows-worker execution and Android/Web control paths. All three are historical projects, not the current development line.
 
 ## Technical and Research Practice
 
-- Systems architecture: task lifecycles, interface contracts, durable state, failure handling, and multi-device integration.
-- Evaluation: reproducible task scenarios, controlled fault injection, trace inspection, recovery/replay analysis, and evidence-backed acceptance.
-- Software practice: JavaScript/Node.js, TypeScript, React Native/Expo, Kotlin/Jetpack Compose, Git/GitHub, and AI-assisted implementation with explicit review.
+- Software development: C#/.NET, Python, JavaScript/Node.js, TypeScript, React Native/Expo, Kotlin/Jetpack Compose, and Git/GitHub.
+- Systems engineering: modular architecture, API/interface contracts, persistent state, multi-agent workflows, failure handling, and cross-device integration.
+- Verification: reproducible builds/tests, controlled fault injection, runtime/GUI checks, trace/evidence review, and real-workflow acceptance.
 - Research development: problem formulation, experiment design, artifact organization, and technical documentation.
 
 ## Selected Academic Preparation
@@ -78,4 +68,4 @@ Software Engineering; Capstone Software Engineering Project; Research Methods; A
 
 ## Proposed Doctoral Focus
 
-Testing and analyzing intelligent software to determine whether it satisfies intended outcomes under interruption, retries, and changing execution conditions. Interested in combining empirical failure evidence with program analysis and runtime checks, with the specific research problem refined in collaboration with a supervisor.
+Empirical software engineering for reliable intelligent and AI-assisted software: how to test, verify, and evaluate multi-agent and complex software workflows under interruptions, retries, changing dependencies, and real operating conditions. Emphasis on connecting implementation evidence with successful outcomes in actual use.
