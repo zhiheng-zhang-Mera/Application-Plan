@@ -22,13 +22,13 @@ Bachelor of Science in Computer Science | 2020-2024; degree awarded 2024
 
 Capstone Software Engineering Project (COSC 499): 93/100.
 
-## Preprints and Manuscripts
+## Manuscripts Under Review
 
-1. **Zhiheng Zhang.** **Omission-Safe Conditional Contracts for Evidence-Closed CI Qualification.** 2026. arXiv preprint, [arXiv:2610.39241](https://arxiv.org/abs/2610.39241) [cs.SE].
+1. **Zhiheng Zhang.** **Omission-Safe Conditional Contracts for Evidence-Closed CI Qualification.** 2026. Software Quality Journal (SQJ), submitted; awaiting review. [arXiv:2610.39241](https://arxiv.org/abs/2610.39241) [cs.SE].
    Developed source-derived CI qualification contracts and an independent certificate checker to prevent missing observations from silently weakening evidence requirements. Research based on DS-Hns.
 
-2. **Zhiheng Zhang.** **Architectural Debt Enforcement under Incomplete Observation: A Controlled Study of Ratchets and Evidence Qualification.** 2026. Manuscript submitted to arXiv; awaiting moderation.
-   Evaluated evidence-qualified architectural debt enforcement on 240 source files and 480 constructed scenarios, examining identity-aware ratchets, observation uncertainty, and provenance binding. Research based on Codex Boss (Boss-A2).
+2. **Zhiheng Zhang.** **Architectural Debt Enforcement under Incomplete Observation: A Controlled Study of Ratchets and Evidence Qualification.** 2026. Software Quality Journal (SQJ), submitted; awaiting review. arXiv submission awaiting moderation.
+   Evaluated evidence-qualified architectural debt enforcement on 240 source files and 480 constructed scenarios, focusing on identity-aware ratchets, observation uncertainty, and provenance binding. Research based on Codex Boss (Boss-A2).
 
 ## Research and Systems Experience
 
