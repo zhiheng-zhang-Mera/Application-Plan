@@ -1,4 +1,9 @@
-# 2027 PhD 研究画像 — 当前权威入口（2026-10-09）
+# 2027 PhD 研究画像 — 当前权威入口（2026-11-18）
+
+> ## ⚠️ 2026-11-18 项目状态更新（优先于下方旧内容）
+>
+> **当前主动开发线为 Celestial 系列；DS-Hns、Codex Boss、Utopia 均为已完成并冻结的历史项目。** Celestial 是多仓库、多方向的软件开发系列，软件开发与系统工程为共同核心，强调实际使用工作流和可靠验证。各子项目成熟度不同，必须逐项区分设计、实现、运行和独立验收，不得把整个系列写成已完成或已投产。
+
 
 > ## ⚠️ 2026-10-31 主线变更（本行优先于下方全文，已二次收敛）
 >
@@ -41,23 +46,24 @@
 - **记忆知识**：AI 自动提炼观察，按领域/权限归档，在适用授权下保存并定期提醒用户审查；保留来源、纠错、失效与依赖安全删除能力。
 - **个性化 A60/B30/D10**：显式偏好为默认主权威；周期性观察提出改进建议；小比例后台自我演化与建议同期汇报。自主实验、独立验证允许；**正式上线须用户明确批准**。允许卸载知识、策略、功能、界面，但必须先审查连锁影响，避免破坏其他模块并明示高风险依赖。
 
-## 用户确认的项目谱系、冻结状态及有界证据（截至 2026-10-09）
+## 项目谱系与当前开发线（2026-11-18）
 
-**DS-Hns + Codex Boss（独立前代，均已完成并冻结） → Utopia（将前代成果融合的已完成、已冻结项目） → Celestial（规划中的 Utopia 重构/迭代版，尚未完成）。** [完整生命周期、功能验收边界及对外措辞](PROJECT-LINEAGE.md)。
+**DS-Hns + Codex Boss（已完成/冻结的历史前代）→ Utopia（整合后继，已完成/冻结）→ Celestial 系列（当前主动开发）。** 完整生命周期和对外措辞见 [PROJECT-LINEAGE.md](PROJECT-LINEAGE.md)。
 
-项目生命周期的已完成/冻结状态与每项功能的物理验收/真实使用覆盖范围不同。冻结只说明该版项目收工，不构成所有设想能力都已落地的证明。
+Celestial 是多仓库、多方向的软件开发系列，覆盖 Agent/研究智能、知识与证据管理、个人金融软件、可穿戴/HCI 探索及科学模拟等应用。**共同主线是软件开发与系统工程**，侧重形成可实际使用的入口和工作流，并通过可复现测试、失败路径检查、运行证据及独立验收验证可靠性。各仓库成熟度不同，不得将整个系列概括为已完成或已投产。
 
-| 证据对象 | 已有事实 / 可在申请材料中表述 | 不得推导的结论 |
+| 证据对象 | 可在申请材料中表述 | 不得推导的结论 |
 |---|---|---|
-| [Utopia main](https://github.com/zhiheng-zhang-Mera/utopia/commit/944f47dd6c7e18b3388b6d769dbbb6dddbe74f00) | **已完成并冻结的融合后继项目**，继承整合 DS-Hns 和 Codex Boss 的前代成果；两 Windows worker + Android 控制端的有界三端运行/目标设备路由；Android/Web 控制；相关 PCF/REX 代码已集成，main 对应 [CI success](https://github.com/zhiheng-zhang-Mera/utopia/actions/runs/37747311973) | 不能说完整消费级 wearable assistant、双服务器主备或所有多平台场景已实体验收 |
-| [Digital-City 4-in-1 报告](https://github.com/zhiheng-zhang-Mera/Digital-City/blob/main/mission-book/reports/4IN1-ACCEPTANCE/README.md) | PCF 700–728 整包验收，真实跨 Windows 主机执行/可核对返回 digest；部分分项验证有 Owner 豁免 | 不得写为 Linux / 手机 worker、所有物理矩阵、真实 LLM 闭环全部通过 |
-| [REX-890](https://github.com/zhiheng-zhang-Mera/Digital-City/blob/main/mission-book/finished/completed-2026-10-08/research-strengthening/README.md) | 以有界范围完成独立复现、实验收据/trace/join 验证与限定的研究评估工作；REX 后续整合由产品 main 记录 | 不等于所有自然语言 Agent 结论、Android 实验或长期用户研究完成 |
-| [DS-Hns](https://github.com/zhiheng-zhang-Mera/DS-Hns) | **过去完成且已冻结的前代项目**；持久任务生命周期、隔离、重启恢复和代码任务执行研究工程 | 不是已经被独立广泛验证的通用自治能力 |
-| [Codex Boss](https://github.com/zhiheng-zhang-Mera/Codex-Boss) | **过去完成且已冻结的前代项目**；多 Agent 编排、证据治理、完成判断与可审查的故障留存 | 不能说全部治理机制或自进化能力已获正式用户验证 |
-| [Celestial-Throne](https://github.com/zhiheng-zhang-Mera/Celestial-Throne) | **规划中的 Utopia 重构/下一代迭代版本**，作为未来主平台/研究承载愿景，计划建多领域、跨学科知识档案室和导师课题独立区域；可与导师项目融合 | 当前初始仓库/文档初始化，不可叙述为已交付、通过验收的运行产品 |
+| [Celestial-Throne](https://github.com/zhiheng-zhang-Mera/Celestial-Throne) | 当前主要平台之一，持续开发；2026-11-13 README 记录 Windows 本机桌面/独立运行时、Android 实机经 ADB reverse 的移动控制入口、子项目真实启动和有界运行证据 | 双物理主机正式验收、外部模型 Provider、公开远程访问、macOS/Linux 发布和全系列完成均未证实 |
+| [Celestial Research Intelligence](https://github.com/zhiheng-zhang-Mera/Celestial-Research-Intelligence-CRI) | 当前本地优先研究工具；已有真实本地模型研究流程与本机 UI/安装/测试证据 | 真实外部 Provider、Jev API、Android 原生真机和第二物理主机不能写成已通过 |
+| [Celestial Finance](https://github.com/zhiheng-zhang-Mera/Celestial-Finance) | 当前个人金融软件；本地账本、策略研究、分析工作流已有分阶段实现和本机验证记录 | 不连接券商、不自动下单；不声称自动交易或全外部数据链路已验证 |
+| [Celestial Smart Glass](https://github.com/zhiheng-zhang-Mera/Celestial-Smart-Glass) | 可穿戴/HCI 研究方向与开发计划 | README 明确无运行原型、硬件兼容性实测、招募数据或伦理批准，不得写成已完成产品 |
+| [Celestial Drug Simulator](https://github.com/zhiheng-zhang-Mera/celestial-drug-simulator) | 证据治理的领域模拟软件；已有本机 UI、测试与安装器证据 | 不做真实组合预测，不是临床验证产品，不提供诊断或剂量建议 |
+| Celestial Books（Mission / Design / Function / Evidence / Verification / Operations / Release） | 任务、架构、功能、证据、独立验证、运维和发布治理 | 文档登记不等于对应运行时功能已实现或通过验收 |
+| [Utopia](https://github.com/zhiheng-zhang-Mera/utopia) | 已完成并冻结的历史融合后继；有界 Windows worker + Android/Web 控制路径和历史验收材料 | 不作为当前开发项目；不把有界验收扩大为所有设备/场景完成 |
+| [DS-Hns](https://github.com/zhiheng-zhang-Mera/DS-Hns) / [Codex Boss](https://github.com/zhiheng-zhang-Mera/Codex-Boss) | 已完成并冻结的历史前代；分别提供持久任务恢复、Agent 编排与证据治理经验，也是两篇研究稿件的项目来源 | 不写成当前仍在开发，也不以项目冻结推导所有能力均已独立验证 |
 
-Utopia 是**已完成并冻结的融合型工程成果**；DS-Hns、Codex Boss 是其已完成/冻结的前代；Celestial 是**尚未实现的下一版 Utopia 重构迭代计划**。项目能力随未来提交变化必须实时复验，不能只引用这份申请画像自动升级能力声明。论文候选、preprint 和公开软件证据都不等于 peer-reviewed publication。
-
+项目生命周期与功能证据是两个维度。Celestial 系列处于持续开发，不代表每个子项目都处于相同阶段；代码、设计、用户可见入口、真实运行和独立验收必须分别标记。论文、预印本与项目完成状态也相互独立。
 ## 已确认申请偏好及当前六位导师
 
 - **英语/GRE**：继续优先并要求适用的英语授课豁免和 GRE 不要求/可豁免；不主动承担新考 TOEFL/IELTS/GRE 的负担。
