@@ -1,6 +1,6 @@
 # CV 生成区
 
-> **当前通用母版：2026-10-31** — [两页 PDF](latest/Zhiheng-Zhang-Academic-CV.pdf) · [英文正文](latest/CV.md) · [状态与重建说明](latest/README.md)。已加入 DS-Hns 与 Boss-A2，准确区分公开预印本和待 arXiv 审核稿件。新的一般性网申 CV 从 `latest/CV.md` 派生；下列旧导师版保留为历史参考，不自动替换已发送附件。
+> **当前通用母版：2026-11-18** — [两页 PDF](latest/Zhiheng-Zhang-Academic-CV.pdf) · [英文正文](latest/CV.md) · [状态与重建说明](latest/README.md)。DS-Hns 与 Boss-A2 两篇稿件均已投稿 Software Quality Journal (SQJ)，等待审稿；arXiv 状态分别独立标注。新的一般性网申 CV 从 `latest/CV.md` 派生；下列旧导师版保留为历史参考，不自动替换已发送附件。
 
 本目录保存可复用的 LaTeX CV 母版，以及针对不同导师/路线生成的**英语 Research CV**。
 
