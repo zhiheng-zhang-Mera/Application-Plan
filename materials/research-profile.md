@@ -16,7 +16,7 @@
 > 本文件正文仍是 2026-10-09 的 v1 表述，**下游 CV / SOP / 邮件模板需按 agentic SE 重写**；新旧冲突时以本行为准。结构化版本见 [Search-Table/00](../Search-Table/00-申请人材料基线与门禁.md) 与 [Search-Table/12](../Search-Table/12-高成功率通道与全表修正.md)。
 
 > **由申请人 20 轮研究方向校准确认。** 用于导师筛选、CV/SOP/Research Statement/邮件的研究意图事实源；不是任何软件能力的验收凭证。
-> 当前主线：**Reliable Long-Horizon Personal AI Agents for Wearable and Ubiquitous Computing**（面向可穿戴与泛在计算的可靠长期自主个人 AI Agent）。
+> 当前主线：**Reliable Agentic Software Engineering and Evidence-Grounded Intelligent Systems**（可靠 Agentic 软件工程与证据驱动的智能软件系统）；wearable / ubiquitous computing 是系列应用方向之一，不再作为唯一或主要场景。
 > 完整决策见 [20 轮研究决策记录](PROFILE-DECISIONS-20Q.md)，英语母版见 [Research Statement](RESEARCH-STATEMENT-MASTER.md)，考试边界见 [考试准备门禁](EXAM-READINESS-POLICY.md)。
 
 ## 研究身份与相对权重
