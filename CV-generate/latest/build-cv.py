@@ -22,7 +22,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import SimpleDocTemplate, Paragraph, KeepTogether, PageBreak
 
-UPDATED = "31 October 2026"
+UPDATED = "18 November 2026"
 OUTPUT_NAME = "Zhiheng-Zhang-Academic-CV.pdf"
 
 def register_fonts():
@@ -143,7 +143,7 @@ def render_pdf(markdown):
         topMargin=43, bottomMargin=48,
         title="Zhiheng Zhang - Academic Curriculum Vitae",
         author="Zhiheng Zhang",
-        subject="Fall 2027 PhD applications; updated 31 October 2026")
+        subject="Fall 2027 PhD applications; updated 18 November 2026")
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
     return output.getvalue()
 
