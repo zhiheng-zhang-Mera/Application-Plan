@@ -1,34 +1,41 @@
-# 导师研究方向与个人项目路由 — 2026-10-09
+# 导师研究方向与个人项目路由 — 2026-11-18
 
-> 首先固定 [已确认研究画像](research-profile.md) 与 [项目演进权威](PROJECT-LINEAGE.md)：**可靠长期个人 AI Agent；可穿戴/泛在环境为主要场景**。DS-Hns / Codex Boss 为过去完成并冻结的前代，Utopia 是二者融合、已完成并冻结的后继，Celestial 是规划中的 Utopia 重构/迭代。专人专用，不得为了迎合导师扭曲真实兴趣。
+> 当前主动开发线为 **Celestial 系列**；DS-Hns、Codex Boss 和 Utopia 均为已完成并冻结的历史项目。Celestial 涵盖多个应用方向，但以软件开发和系统工程为共同核心，重点是可实际使用的工作流、可靠性机制与有证据的验证。任何功能声明均须绑定具体仓库、版本和验收范围。
 
-| 导师/领域 | 外部研究连接 | 首要证明材料 | 后续可开展的问题 | 绝不能写成 |
-|---|---|---|---|---|
-| **Zhenjiang Li / CityUHK** | human-centric/wearable sensing + resource-efficient on-device AI/edge agents | Utopia + PCF/REX | 可穿戴感知触发的目标授权任务如何在个人中心可靠执行，并维持有限端侧负载与真实体验 | 已完成智能眼镜、TinyML 芯片/传感器新硬件、低功耗硬件研发 |
-| **Mo Li / HKUST** | wireless/mobile/AIoT/ubiquitous sensing | Utopia mesh + PCF + REX | 弱网与移动终端在外时如何保留任务语义、状态和结果连续性 | 已完成全面可穿戴物理验证、真实消费级双服务器高可用 |
-| **Peter Chen / Concordia** | long-horizon coding agents、CI repair、execution-grounded validation | 已冻结的 DS-Hns / Boss（Utopia 前代）+ Utopia/REX | 目标不漂移的有界重规划、执行证据、仓库级长任务完成真实性 | 论文已发表、通用移动/穿戴助理已实现，或愿以纯理论/机器人为主 |
-| **Ruochen Zhao / SUTD** | faithful and trustworthy LLM agents、multi-agent evaluation、human-agent interaction | 已冻结的 Boss / DS-Hns（Utopia 前代）+ Utopia/REX | 授权目标保持、真实任务结果对齐、诚实报告不确定性与缺失证据 | 自研 RL 基础算法/训练框架已完成或愿转纯 NLP 算法路线 |
-| **Yu Liu / PolyU** | distributed and edge systems、edge computing | Utopia + PCF | 可信端点之间的有界任务迁移/恢复与运行约束下的用户体验 | 动态对等节点自动征用、量子计算或理论优化成为真实研究兴趣 |
-| **James Cheng / CUHK** | agent evaluation/benchmarking and long-horizon agent methods | Utopia/REX + 已冻结的 Boss / DS-Hns 前代 | 用真实任务与可复现实验证实 Agent 的结果完成，不将 RL/robotics 作为重点 | 以机器人控制、基础模型训练或复杂 RL 算法为博士主线 |
-| **SUTD Jan 2027 programme-level** | systems + human-agent + interactive intelligent systems | 已冻结的融合版 Utopia/REX + 前代 Boss/Hns | 与导师课题对齐的长期自治 Agent 系统研究 | 宣称已有 supervisor approval 或正式 offer |
+## 项目证据路由
 
-## 冻结项目谱系与未来重构
+| 项目/方向 | 当前状态 | 可用于申请材料的内容 | 必须保留的边界 |
+|---|---|---|---|
+| **Celestial-Throne** | 当前主要平台之一，持续开发 | 多设备个人工作台、Agent/服务编排、桌面/移动入口、模块化与权限边界；只选 README 和证据中已实际运行的功能 | 本机或有限设备验证不等于正式双机、远程公网、全平台发布或整个系列投产 |
+| **Celestial Research Intelligence (CRI)** | 当前本地优先研究软件，持续开发 | 本地模型研究流程、任务拆解、隐私网关、研究历史与可追踪报告 | 真实外部 Provider / Jev API / 第二物理主机 / Android 真机状态按能力矩阵写；不能概括为全部通过 |
+| **Celestial Finance** | 当前领域软件项目 | 本地记账、资金池、策略分析、回测与个人使用工作流；强调人工决策和可复核结果 | 不连接券商、不自动交易；本机验证不等于外部账户或自动执行验证 |
+| **Celestial Smart Glass** | 探索性 wearable/HCI 研究与开发计划 | 字幕、发言人关联、用户可控辅助线索及研究设计 | 当前没有运行原型或硬件兼容性实测；只作为 proposed/planned direction |
+| **Celestial Drug Simulator** | 领域模拟软件 | 证据治理、机制拆解、参数化研究界面与本地报告 | 不宣称真实联用预测、临床验证或医疗用途 |
+| **Celestial Books** | 工程治理与证据档案 | 任务、设计、功能、证据、独立验证、运维和发布生命周期 | 文档和索引不等于产品运行时能力 |
+| **Utopia** | 已完成并冻结的历史后继 | 有界多设备系统、Windows worker 与 Android/Web 控制路径、历史验收材料 | 使用过去时；不作为当前开发项目 |
+| **DS-Hns / Codex Boss** | 已完成并冻结的历史前代 | 持久任务执行/恢复、多 Agent 编排、任务契约与证据治理；两篇研究稿件分别来源于此 | 使用过去时；论文投稿状态与项目生命周期分开描述 |
+| **Privacy Lens** | Master's research | Android privacy evidence、离线证据整理、可复现研究材料 | 不把原型或材料包扩大为完整隐私平台 |
 
-**完成状态（用户确认）：** DS-Hns、Codex Boss（已完成/冻结）→ Utopia（整合前代成果、已完成/冻结）→ Celestial（规划中的 Utopia 重构迭代；不是已完成的另一个独立平台）。申请包先突出已完成的 Utopia，领域相关时解释前代技术来源。不能将冻结项目表述为仍在开发。
+## 导师/领域路由
 
-## 现有证据与未来愿景
+| 导师/领域 | 外部研究连接 | 优先选择的项目证据 | 可开展的问题 / 需要避免的误述 |
+|---|---|---|---|
+| **Zhenjiang Li / CityUHK** | human-centric/wearable sensing + resource-efficient on-device AI/edge agents | Celestial Smart Glass（研究计划）+ 历史 Utopia 的有界设备集成 | 可研究可穿戴输入与个人中心软件系统的可靠协同；不得说已完成眼镜原型、TinyML 芯片或传感器研发 |
+| **Mo Li / HKUST** | wireless/mobile/AIoT/ubiquitous sensing | Celestial-Throne/CRI 的已验证设备与本地工作流 + 历史 Utopia | 可研究移动终端和弱网下的任务连续性；不得说全面可穿戴物理验证或双服务器高可用已通过 |
+| **Peter Chen / Concordia** | long-horizon coding agents、CI repair、execution-grounded validation | DS-Hns / Boss 历史项目与对应 SQJ 在审稿件；Utopia 历史系统证据 | 重点为目标不漂移的重规划、执行证据与仓库级任务完成真实性；不得说论文已录用 |
+| **Ruochen Zhao / SUTD** | trustworthy LLM agents、multi-agent evaluation、human-agent interaction | 历史 Boss / DS-Hns + 当前 CRI 中已验证的本地流程 | 可研究授权目标、结果对齐和不确定性报告；不得说真实外部 Provider 已完成闭环 |
+| **Yu Liu / PolyU** | distributed and edge systems、edge computing | Celestial-Throne 当前有界平台证据 + 历史 Utopia | 可研究端点间任务迁移/恢复；不得说完整动态对等节点或双机自动接管已验证 |
+| **James Cheng / CUHK** | agent evaluation/benchmarking and long-horizon agent methods | Hns/Boss 历史研究稿件 + CRI 当前本地研究流程 | 可研究真实任务与可复现实验证据；不把 RL/robotics 作为主线 |
+| **SUTD programme-level** | systems + human-agent + interactive intelligent systems | Celestial 系列中与导师课题相关且已验证的组件 + 历史项目 | 可调整研究切入点，但不得宣称已有导师内诺或正式 offer |
 
-**Utopia main：** https://github.com/zhiheng-zhang-Mera/utopia/commit/944f47dd6c7e18b3388b6d769dbbb6dddbe74f00
+## 对外材料策略
 
-- 已实现：Android/Web 控制、两 Windows worker 三端真实链路、限定 PCF/REX 能力与有界独立复现、可观察的失败/修复记录。
-- 仍属边界：并非全部端到端实机场景验收；穿戴、Linux worker、双服务器高可用、跨设备通用长期自治仍是未来研究方向。
-- **Celestial**：**计划对已冻结 Utopia 进行重构并形成下一代迭代版本**；跨领域知识区/档案室可与导师平台融合。当前初始仓库不用于证明已实现对应能力。
-- **DS-Hns/Boss**：**过去完成并冻结的独立前代项目**，其执行恢复、编排治理与证据机制后来融入已冻结 Utopia 的平台演进；不宣称 peer-reviewed publications 或全部旧功能物理接线已单独验收。
+1. **当前项目优先：** 通用 CV 与新导师材料应把 Celestial 系列作为当前开发线；按导师相关性选择 1–2 个子项目，不罗列整个仓库群。
+2. **历史项目作证据：** DS-Hns、Codex Boss、Utopia 以 completed/frozen 过去时呈现，可用于证明已完成的系统开发经验；不得写成仍在施工。
+3. **研究稿件独立列示：** DS-Hns 与 Boss-A2 的 arXiv 预印本和 SQJ 在审状态独立记录，不将其写成已发表或已录用论文。
+4. **可靠性是核心叙事：** 以问题 → 实现 → 可复现实验/运行证据 → 失败或局限 → 下一步研究问题组织；强调真实工作流中的可用性和可验证性，而非功能数量。
+5. **严格区分状态：** planned、implemented、integrated、user-accessible、real-run verified、independently accepted 不可互相替代。一个组件的 PASS 不代表整个 Celestial 系列 PASS。
 
-## 材料主线
+## 可复用英语措辞
 
-1. 一个**导师专属技术问题**，而不是万能 AI 介绍。
-2. 选择 1–2 个项目证据，在 CV 展示实测边界与可复核链接。
-3. 给出可运行基线、可证伪实验、真实设备/用户评价思路（不虚构实验已完成）。
-4. 对方向偏移显著的导师（Yu Liu/James Cheng/Ruochen Zhao）在内部标明 CONDITIONALLY_ALIGNED，不能因为想录取而去承诺纯算法或机器人。
-5. GRE/英语/入学考试成本只用于内部筛选；一般不主动写进套磁正文。
+> I am currently developing the Celestial series, a multi-repository software portfolio across agentic research tools, knowledge and evidence systems, personal-finance software, and exploratory wearable and scientific applications. Software engineering is its common core, with a focus on usable workflows and reliability verified through reproducible tests, runtime evidence, and practical use. My earlier DS-Hns, Codex Boss, and Utopia projects are completed and frozen, and provide historical engineering experience rather than the current development line.
