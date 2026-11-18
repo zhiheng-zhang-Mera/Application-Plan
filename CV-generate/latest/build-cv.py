@@ -19,33 +19,19 @@ from reportlab.lib.enums import TA_LEFT
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import SimpleDocTemplate, Paragraph, KeepTogether, PageBreak
 
 UPDATED = "18 November 2026"
 OUTPUT_NAME = "Zhiheng-Zhang-Academic-CV.pdf"
 
 def register_fonts():
-    font_dir = Path("/usr/share/fonts/truetype/dejavu")
-    files = {
-        "BodySerif": font_dir / "DejaVuSerif.ttf",
-        "BodySerifBold": font_dir / "DejaVuSerif-Bold.ttf",
-        "HeadSans": font_dir / "DejaVuSans.ttf",
-        "HeadSansBold": font_dir / "DejaVuSans-Bold.ttf",
-    }
-    if not all(path.is_file() for path in files.values()):
-        bundled = Path(reportlab.__file__).resolve().parent / "fonts"
-        files = {
-            "BodySerif": bundled / "Vera.ttf",
-            "BodySerifBold": bundled / "VeraBd.ttf",
-            "HeadSans": bundled / "Vera.ttf",
-            "HeadSansBold": bundled / "VeraBd.ttf",
-        }
-    for name, path in files.items():
-        if name not in pdfmetrics.getRegisteredFontNames():
-            pdfmetrics.registerFont(TTFont(name, str(path)))
-    pdfmetrics.registerFontFamily("BodySerif", normal="BodySerif", bold="BodySerifBold")
-    pdfmetrics.registerFontFamily("HeadSans", normal="HeadSans", bold="HeadSansBold")
+    # Use PDF base-14 fonts to keep the CV portable and the generated PDF compact.
+    pdfmetrics.registerFontFamily(
+        "Times-Roman", normal="Times-Roman", bold="Times-Bold",
+        italic="Times-Italic", boldItalic="Times-BoldItalic")
+    pdfmetrics.registerFontFamily(
+        "Helvetica", normal="Helvetica", bold="Helvetica-Bold",
+        italic="Helvetica-Oblique", boldItalic="Helvetica-BoldOblique")
 
 def inline(value):
     chunks = []
@@ -60,27 +46,27 @@ def inline(value):
 
 def styles():
     body = ParagraphStyle(
-        "Body", fontName="BodySerif", fontSize=10.2, leading=13.0,
+        "Body", fontName="Times-Roman", fontSize=10.2, leading=13.0,
         spaceAfter=6, textColor=colors.HexColor("#202020"), alignment=TA_LEFT,
         allowWidows=0, allowOrphans=0)
     return {
         "body": body,
         "title": ParagraphStyle(
-            "Title", parent=body, fontName="HeadSansBold",
+            "Title", parent=body, fontName="Helvetica-Bold",
             fontSize=19, leading=22, spaceAfter=9, keepWithNext=True),
         "h2": ParagraphStyle(
             "H2", parent=body, fontName="HeadSansBold",
             fontSize=10.4, leading=13, spaceBefore=9,
             spaceAfter=5, keepWithNext=True),
         "h3": ParagraphStyle(
-            "H3", parent=body, fontName="BodySerifBold",
+            "H3", parent=body, fontName="Times-Bold",
             fontSize=10.5, leading=13.2, spaceBefore=5,
             spaceAfter=3, keepWithNext=True),
         "bullet": ParagraphStyle(
             "Bullet", parent=body, leftIndent=10,
             firstLineIndent=-7, spaceAfter=4),
         "meta": ParagraphStyle(
-            "Meta", parent=body, fontName="HeadSans",
+            "Meta", parent=body, fontName="Helvetica",
             fontSize=8.7, leading=11.5, spaceAfter=5,
             textColor=colors.HexColor("#4b4b4b")),
         "citation": ParagraphStyle(
@@ -97,7 +83,7 @@ def footer(canvas, doc):
     canvas.setStrokeColor(colors.HexColor("#cccccc"))
     canvas.setLineWidth(0.35)
     canvas.line(47, 35, width - 47, 35)
-    canvas.setFont("HeadSans", 8)
+    canvas.setFont("Helvetica", 8)
     canvas.setFillColor(colors.HexColor("#555555"))
     canvas.drawString(47, 23, f"Zhiheng Zhang | Academic CV | Updated {UPDATED}")
     canvas.drawRightString(width - 47, 23, str(doc.page))
