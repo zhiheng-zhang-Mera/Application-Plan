@@ -55,7 +55,7 @@ def styles():
             "Title", parent=body, fontName="Helvetica-Bold",
             fontSize=19, leading=22, spaceAfter=9, keepWithNext=True),
         "h2": ParagraphStyle(
-            "H2", parent=body, fontName="HeadSansBold",
+            "H2", parent=body, fontName="Helvetica-Bold",
             fontSize=10.4, leading=13, spaceBefore=9,
             spaceAfter=5, keepWithNext=True),
         "h3": ParagraphStyle(
