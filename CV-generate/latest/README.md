@@ -1,6 +1,6 @@
 # Latest General Academic CV (18 November 2026)
 
-This directory contains the current general English CV source and its upload-ready PDF. This revision updates the publication status of both research manuscripts to reflect their submission to Software Quality Journal (SQJ). Historical supervisor-specific CVs remain unchanged.
+This directory contains the current general English CV source and its upload-ready PDF. This revision corrects both arXiv identifiers, records the two SQJ submissions, and presents the Celestial series as the current development line. Historical supervisor-specific CVs remain unchanged.
 
 ## Files
 
@@ -12,20 +12,25 @@ This directory contains the current general English CV source and its upload-rea
 
 Updated: 18 November 2026.
 
-| Manuscript | Public preprint status | Journal status |
+| Manuscript | arXiv preprint | Journal status |
 |---|---|---|
-| **Omission-Safe Conditional Contracts for Evidence-Closed CI Qualification** (DS-Hns) | Public arXiv preprint: [2610.39241](https://arxiv.org/abs/2610.39241), cs.SE | Submitted to Software Quality Journal (SQJ); awaiting review |
-| **Architectural Debt Enforcement under Incomplete Observation: A Controlled Study of Ratchets and Evidence Qualification** (Boss-A2) | arXiv submission awaiting moderation; no public identifier claimed | Submitted to Software Quality Journal (SQJ); awaiting review |
+| **Omission-Safe Conditional Contracts for Evidence-Closed CI Qualification** (DS-Hns) | [2610.39241](https://arxiv.org/abs/2610.39241), cs.SE | Submitted to Software Quality Journal (SQJ); awaiting review |
+| **Architectural Debt Enforcement under Incomplete Observation: A Controlled Study of Ratchets and Evidence Qualification** (Boss-A2) | [2610.41276](https://arxiv.org/abs/2610.41276) | Submitted to Software Quality Journal (SQJ); awaiting review |
 
-Both manuscripts are listed as submissions, not accepted publications. The arXiv and journal workflows are independent; neither status implies acceptance or completed peer review.
+Both manuscripts are listed as submissions, not accepted publications. The arXiv preprints and journal review processes are independent; neither status implies acceptance or completed peer review.
+
+## Current project positioning
+
+DS-Hns, Codex Boss, and Utopia are completed and frozen historical projects. The current active development line is the **Celestial series**, a multi-repository software portfolio spanning agentic research tooling, knowledge/evidence management, personal-finance software, and exploratory wearable/HCI and scientific-simulation applications. Software development and systems engineering are the common core, with emphasis on usable workflows and reliability validated through reproducible tests, runtime evidence, and practical use. Individual projects have different maturity levels; the CV does not imply that the entire series is complete or independently validated.
 
 ## Scope of this revision
 
-1. Updated the section heading and both manuscript entries to show the SQJ submission status.
-2. Retained the public arXiv identifier for DS-Hns and the separate moderation-pending status for Boss-A2.
-3. Preserved the existing education, project evidence, skills, and proposed doctoral focus.
-4. Kept the CV to two pages; historical supervisor-specific versions were not changed.
-5. No school portal, email, or application record was modified.
+1. Corrected Boss-A2's public arXiv identifier to 2610.41276 and retained DS-Hns as 2610.39241.
+2. Marked both manuscripts as submitted to SQJ and awaiting review.
+3. Reframed DS-Hns, Codex Boss, and Utopia as completed/frozen historical projects.
+4. Added the Celestial series as the current multi-domain software-development line, while distinguishing implemented, planned, and unverified capabilities.
+5. Preserved the existing education and Master's research facts; kept the CV to two pages.
+6. Historical supervisor-specific CVs were not changed. No school portal, email, or application record was modified.
 
 ## Rebuild and validation
 
@@ -35,9 +40,9 @@ Run from the repository root:
 python3 CV-generate/latest/build-cv.py
 ```
 
-The regenerated PDF is two pages, US Letter, searchable, and retains the existing layout and hyperlinks.
+The regenerated PDF is two pages, US Letter, searchable, and retains clickable links to both arXiv preprints and the cited project repositories.
 
 - Page count: 2
-- File size: 8,092 bytes
-- SHA-256: `052f98c3c6c82c1ca31f67184a821052e2c0dd768ed31e24bab93ce6d4cfd6f2`
+- File size: 8,949 bytes
+- SHA-256: `53e20fae9f86a9f8aaa0f4c3d2914e4b914401b918c5dc326c6a6699765fe19f`
 
